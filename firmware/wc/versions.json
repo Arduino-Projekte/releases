@@ -1,10 +1,7 @@
 {
   "items": [
+    { "version": "V4.26.4.21.3", "bin": "word-clock-IV_V4.26.4.21.3.bin", "date": "2026-04-21", "note": "Test" },
     { "version": "V4.26.4.20.3", "bin": "word-clock-IV_V4.26.4.20.3.bin", "date": "2026-04-20", "note": "Stable" },
-    { "version": "V2.26.3.1", "bin": "word-clock-IV_V2.26.3.1.bin", "date": "2026-03-01", "note": "Stable" },
-    { "version": "V2.26.2.23", "bin": "word-clock-IV_V2.26.2.23.bin", "date": "2026-02-23", "note": "Stable" },
-    { "version": "V2.26.2.22", "bin": "word-clock-IV_V2.26.2.22.bin", "date": "2026-02-22", "note": "Stable" },
-    { "version": "V2.26.2.21", "bin": "word-clock-IV_V2.26.2.21.bin", "date": "2026-02-21", "note": "Stable" },
     { "version": "V2.26.2.18", "bin": "word-clock-IV_V2.26.2.18.bin", "date": "2026-02-18", "note": "Rollback möglich" },
     { "version": "beta", "bin": "main.ino.bin", "date": "main.ino.bin", "note": "Entwicklungsstadium" }
   ]
