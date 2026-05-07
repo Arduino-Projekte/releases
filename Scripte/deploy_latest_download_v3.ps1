@@ -10,6 +10,8 @@ $Targets = [ordered]@{
     "cc_" = "C:\GitHub\million-times\cc_main"
     "eq_" = "C:\GitHub\equinox-clock\eq_main"
     "mc_" = "C:\GitHub\moon-clock\mc_main"
+    "fcg_" = "C:\GitHub\FuelCounterGateway\fcg_main"
+    "wg_" = "C:\GitHub\wetterstation\wg_main"
 }
 
 function Get-PrefixFromName {
@@ -119,7 +121,7 @@ function Get-LatestEligibleSource {
             return $candidate
         }
         else {
-            Write-Host "   => ignoriert (kein wc_/cc_/eq_/mc_ Inhalt)"
+            Write-Host "   => ignoriert (kein wc_/cc_/eq_/mc_/fcg_/wg_ Inhalt)"
         }
     }
 
@@ -394,7 +396,7 @@ function Show-Summary {
         }
     } else {
         Write-Host ""
-        Write-Host "Es wurden keine passenden wc_/cc_/eq_/mc_-Dateien gefunden."
+        Write-Host "Es wurden keine passenden wc_/cc_/eq_/mc_/fcg_/wg_-Dateien gefunden."
     }
 
     Write-Host ""
