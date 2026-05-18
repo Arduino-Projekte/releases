@@ -1,6 +1,6 @@
 {
   "items": [
-    { "version": "V4.26.5.7.6", "bin": "word-clock-IV_V4.26.5.7.6.bin", "date": "2026-05-07", "note": "Test" },
+    { "version": "V4.26.5.18.1", "bin": "word-clock-IV_V4.26.5.18.1.bin", "date": "2026-05-18", "note": "Test" },
     { "version": "V4.26.5.7.1", "bin": "word-clock-IV_V4.26.5.7.1.bin", "date": "2026-05-07", "note": "Stable" },
     { "version": "V4.26.4.20.3", "bin": "word-clock-IV_V4.26.4.20.3.bin", "date": "2026-04-20", "note": "Rollback nicht möglich" },
     { "version": "V2.26.2.18", "bin": "word-clock-IV_V2.26.2.18.bin", "date": "2026-02-18", "note": "Rollback möglich" },
