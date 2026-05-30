@@ -1,9 +1,40 @@
 {
-  "items": [
-    { "version": "V4.26.5.18.1", "bin": "word-clock-IV_V4.26.5.18.1.bin", "date": "2026-05-18", "note": "Test" },
-    { "version": "V4.26.5.7.1", "bin": "word-clock-IV_V4.26.5.7.1.bin", "date": "2026-05-07", "note": "Stable" },
-    { "version": "V4.26.4.20.3", "bin": "word-clock-IV_V4.26.4.20.3.bin", "date": "2026-04-20", "note": "Rollback nicht möglich" },
-    { "version": "V2.26.2.18", "bin": "word-clock-IV_V2.26.2.18.bin", "date": "2026-02-18", "note": "Rollback möglich" },
-    { "version": "beta", "bin": "main.ino.bin", "date": "main.ino.bin", "note": "Entwicklungsstadium" }
-  ]
+    "items":  [
+                  {
+                      "version":  "V4.26.5.27.10",
+                      "bin":  "word-clock-IV_V4.26.5.27.10.bin",
+                      "date":  "2026-05-29",
+                      "note":  "Automatisch nach erfolgreichem Arduino-CLI-Build"
+                  },
+                  {
+                      "version":  "V4.26.5.18.1",
+                      "bin":  "word-clock-IV_V4.26.5.18.1.bin",
+                      "date":  "2026-05-18",
+                      "note":  "Test"
+                  },
+                  {
+                      "version":  "V4.26.5.7.1",
+                      "bin":  "word-clock-IV_V4.26.5.7.1.bin",
+                      "date":  "2026-05-07",
+                      "note":  "Stable"
+                  },
+                  {
+                      "version":  "V4.26.4.20.3",
+                      "bin":  "word-clock-IV_V4.26.4.20.3.bin",
+                      "date":  "2026-04-20",
+                      "note":  "Rollback nicht mÃƒÂ¶glich"
+                  },
+                  {
+                      "version":  "V2.26.2.18",
+                      "bin":  "word-clock-IV_V2.26.2.18.bin",
+                      "date":  "2026-02-18",
+                      "note":  "Rollback mÃƒÂ¶glich"
+                  },
+                  {
+                      "version":  "beta",
+                      "bin":  "main.ino.bin",
+                      "date":  "main.ino.bin",
+                      "note":  "Entwicklungsstadium"
+                  }
+              ]
 }
