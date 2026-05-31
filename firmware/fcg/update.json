@@ -1,9 +1,9 @@
 {
     "project":  "fcg_main",
-    "version":  "V0.20.38",
+    "version":  "V0.20.39",
     "file":  "fcg_main.ino.bin",
     "url":  "http://10.200.23.11/fcg_update/fcg_main.ino.bin",
     "min_version":  "V0.14.0",
-    "sha256":  "9a9acadf01c843db3ad7d05717b7b5e24843ab0389df4c29be4cf13da45a05e8",
-    "notes":  "Remote-OTA-Test auf V0.20.38"
+    "sha256":  "e8f7e44876b9266c322dd3c691794c07f6b88915fd562c3f62995b3136b551b4",
+    "notes":  "Remote-OTA-Test auf V0.20.39"
 }
