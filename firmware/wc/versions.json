@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "V4.26.5.31.17",
+                      "bin":  "word-clock-IV_V4.26.5.31.17.bin",
+                      "date":  "2026-05-31",
+                      "note":  "Automatisch nach erfolgreichem Arduino-CLI-Build"
+                  },
+                  {
                       "version":  "V4.26.5.31.16",
                       "bin":  "word-clock-IV_V4.26.5.31.16.bin",
                       "date":  "2026-05-31",
@@ -21,12 +27,6 @@
                   {
                       "version":  "V4.26.5.31.13",
                       "bin":  "word-clock-IV_V4.26.5.31.13.bin",
-                      "date":  "2026-05-31",
-                      "note":  "Automatisch nach erfolgreichem Arduino-CLI-Build"
-                  },
-                  {
-                      "version":  "V4.26.5.31.11",
-                      "bin":  "word-clock-IV_V4.26.5.31.11.bin",
                       "date":  "2026-05-31",
                       "note":  "Automatisch nach erfolgreichem Arduino-CLI-Build"
                   }
