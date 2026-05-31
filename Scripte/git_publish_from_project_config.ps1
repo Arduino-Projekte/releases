@@ -248,28 +248,49 @@ foreach ($project in @($config.projects)) {
     $sha256 = Get-Prop -Object $status -Names @("sha256","sha","hash")
     $targetMode = Get-Prop -Object $status -Names @("target_mode","mode","zielmodus")
 
-    $paths = @(
-        (Get-Prop -Object $status -Names @("target_bin","bin_target","firmware_target")),
-        (Get-Prop -Object $status -Names @("update_json","update_json_path","json_target")),
-        (Get-Prop -Object $status -Names @("versions_json","versions_json_path"))
-    )
+    $targetBin = Get-Prop -Object $status -Names @("target_bin","bin_target","firmware_target")
+    $updateJson = Get-Prop -Object $status -Names @("update_json","update_json_path","json_target")
+    $versionsJson = Get-Prop -Object $status -Names @("versions_json","versions_json_path")
+    $releaseDir = Get-Prop -Object $status -Names @("release_dir","update_dir","target_dir")
 
-    $relFiles = @()
-    foreach ($p in $paths) {
-        if ([string]::IsNullOrWhiteSpace($p)) { continue }
-
-        $rel = Get-RelativePathInsideRepo -RepoRootPath $RepoRoot -FilePath ([string]$p)
-        if (-not $rel) { continue }
-
-        if ($relFiles -notcontains $rel) {
-            $relFiles += $rel
+    # Bevorzugt wird der ganze Release-Ordner gestaged.
+    # Dadurch werden auch geloeschte alte *.bin-Dateien korrekt mitcommittet.
+    if ([string]::IsNullOrWhiteSpace($releaseDir)) {
+        if (-not [string]::IsNullOrWhiteSpace($targetBin)) {
+            $releaseDir = Split-Path -Parent ([string]$targetBin)
+        }
+        elseif (-not [string]::IsNullOrWhiteSpace($versionsJson)) {
+            $releaseDir = Split-Path -Parent ([string]$versionsJson)
+        }
+        elseif (-not [string]::IsNullOrWhiteSpace($updateJson)) {
+            $releaseDir = Split-Path -Parent ([string]$updateJson)
         }
     }
 
-    if ($relFiles.Count -eq 0) { continue }
+    $relScopes = @()
+    if (-not [string]::IsNullOrWhiteSpace($releaseDir)) {
+        $relDir = Get-RelativePathInsideRepo -RepoRootPath $RepoRoot -FilePath ([string]$releaseDir)
+        if ($relDir) { $relScopes += $relDir }
+    }
 
-    # Nur aufnehmen, wenn es fuer diese Dateien wirklich Git-Aenderungen gibt.
-    $statusArgs = @("-C", $RepoRoot, "status", "--porcelain", "--") + $relFiles
+    if ($relScopes.Count -eq 0) {
+        $paths = @($targetBin, $updateJson, $versionsJson)
+        foreach ($p in $paths) {
+            if ([string]::IsNullOrWhiteSpace($p)) { continue }
+
+            $rel = Get-RelativePathInsideRepo -RepoRootPath $RepoRoot -FilePath ([string]$p)
+            if (-not $rel) { continue }
+
+            if ($relScopes -notcontains $rel) {
+                $relScopes += $rel
+            }
+        }
+    }
+
+    if ($relScopes.Count -eq 0) { continue }
+
+    # Nur aufnehmen, wenn es fuer diesen Release-Bereich wirklich Git-Aenderungen gibt.
+    $statusArgs = @("-C", $RepoRoot, "status", "--porcelain", "--") + $relScopes
     $gitStatus = & git @statusArgs
 
     if ($LASTEXITCODE -ne 0) {
@@ -284,7 +305,7 @@ foreach ($project in @($config.projects)) {
         Version    = $version
         Sha256     = $sha256
         TargetMode = $targetMode
-        Files      = $relFiles
+        Files      = $relScopes
         GitStatus  = @($gitStatus)
     }
 }
@@ -324,7 +345,7 @@ foreach ($item in $publishItems) {
     }
 }
 
-$addArgs = @("-C", $RepoRoot, "add", "--") + $allFiles
+$addArgs = @("-C", $RepoRoot, "add", "-A", "--") + $allFiles
 $ok = Invoke-GitChecked -Arguments $addArgs -ErrorText "git add fehlgeschlagen."
 if (-not $ok) {
     Write-Host "Firmware-Build bleibt gueltig; nur Git-Veroeffentlichung ist fehlgeschlagen."
