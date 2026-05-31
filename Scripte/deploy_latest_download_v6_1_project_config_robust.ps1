@@ -8,7 +8,7 @@ param(
     # Optionaler Build nach dem Kopieren/Entpacken:
     # off = keine Kompilierung, ask = pro erkanntem Projekt nachfragen, on = automatisch starten
     [ValidateSet("off", "ask", "on")]
-    [string]$BuildMode = "ask",
+    [string]$BuildMode = "on",
 
     # Bevorzugte Auswahl fuer Ja/Nein-Rueckfragen im BuildMode ask.
     # yes = nach Timeout automatisch Ja, no = nach Timeout automatisch Nein
