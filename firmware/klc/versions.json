@@ -1,0 +1,16 @@
+{
+    "items":  [
+                  {
+                      "version":  "0.0.3",
+                      "bin":  "knx-led-controller_0.0.3.uf2",
+                      "date":  "2026-06-09",
+                      "note":  "Automatisch nach erfolgreichem Arduino-CLI-Build"
+                  },
+                  {
+                      "version":  "0.0.2",
+                      "bin":  "knx-led-controller_0.0.2.uf2",
+                      "date":  "2026-06-09",
+                      "note":  "Automatisch nach erfolgreichem Arduino-CLI-Build"
+                  }
+              ]
+}
