@@ -32,13 +32,22 @@
       "status_file": "C:\\GitHub\\million-times\\_build\\build_cc_status.json",
       "after_status_file": "C:\\GitHub\\million-times\\_build\\after_build_cc_status.json"
     },
-	{
-	  "key": "eq_",
-	  "name": "EquinoxClock",
-	  "root": "C:\\GitHub\\equinox-clock",
-	  "build_script": "C:\\GitHub\\equinox-clock\\build_eq.bat",
-	  "status_file": "C:\\GitHub\\equinox-clock\\_build\\build_eq_status.json",
-	  "after_status_file": "C:\\GitHub\\equinox-clock\\_build\\after_build_eq_status.json"
-	}
+    {
+      "key": "eq_",
+      "name": "EquinoxClock",
+      "root": "C:\\GitHub\\equinox-clock",
+      "build_script": "C:\\GitHub\\equinox-clock\\build_eq.bat",
+      "status_file": "C:\\GitHub\\equinox-clock\\_build\\build_eq_status.json",
+      "after_status_file": "C:\\GitHub\\equinox-clock\\_build\\after_build_eq_status.json"
+    },
+    {
+      "key": "klc_",
+      "name": "KNXLEDController",
+      "root": "C:\\GitHub\\KNX-LED-Controller",
+      "target_dir": "C:\\GitHub\\KNX-LED-Controller\\firmware\\klc_main",
+      "build_script": "C:\\GitHub\\KNX-LED-Controller\\build_klc.bat",
+      "status_file": "C:\\GitHub\\KNX-LED-Controller\\_build\\build_klc_status.json",
+      "after_status_file": "C:\\GitHub\\KNX-LED-Controller\\_build\\after_build_klc_status.json"
+    }
   ]
 }
