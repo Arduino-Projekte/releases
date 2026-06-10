@@ -1,5 +1,5 @@
 {
-    "version":  "0.0.9",
-    "bin":  "knx-led-controller_0.0.9.bin",
-    "file":  "knx-led-controller_0.0.9.bin"
+    "version":  "0.0.10",
+    "bin":  "knx-led-controller_0.0.10.bin",
+    "file":  "knx-led-controller_0.0.10.bin"
 }
