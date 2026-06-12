@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.51",
+                      "bin":  "knx-led-controller_0.0.51.bin",
+                      "date":  "2026-06-12",
+                      "note":  "Szenen-WebUI um eine Browser-Animationsvorschau erweitert: Ausgewählte Szenen werden mit den gespeicherten Parametern für Effekt, Richtung, betroffene LEDs, Schrittzeit, Synchronisation und globalen Startversatz als LED-Balken simuliert. Die Vorschau dient als hardwarefreier Plausibilitätscheck vor der echten LED-Ausgabe."
+                  },
+                  {
                       "version":  "0.0.50",
                       "bin":  "knx-led-controller_0.0.50.bin",
                       "date":  "2026-06-12",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller_0.0.47.bin",
                       "date":  "2026-06-12",
                       "note":  "Szenensteuerung erweitert: Pro Szene kann jetzt gewählt werden, ob globale Lauflicht-Szenen Start/Stop-zeitsynchron oder laufzeitsynchron laufen. Die WebUI trennt sichtbaren Szenennamen und technischen Effekt klarer und zeigt virtuelle Lauflichtwerte wie Kopfposition, Zykluszeit und Schrittzeit an."
-                  },
-                  {
-                      "version":  "0.0.45",
-                      "bin":  "knx-led-controller_0.0.45.bin",
-                      "date":  "2026-06-12",
-                      "note":  "WebUI-Navigation aufgeräumt: LED, System und Admin sind jetzt eigene Hauptbereiche mit Unterkategorien. JSON-Schnittstellen sowie W5500-/Pin-Diagnose liegen im geschützten Adminbereich. Szenenanzeige wurde gegen abgeschnittene Strang-/Szenen-Zeilen erweitert und alte 3-Ausgang-Konfigurationen werden auf 5 Standard-Ausgänge migriert."
                   }
               ]
 }

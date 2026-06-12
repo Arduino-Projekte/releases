@@ -1,12 +1,12 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller_0.0.50.bin",
+                     "url":  "knx-led-controller_0.0.51.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.50",
-                     "bin":  "knx-led-controller_0.0.50.bin",
-                     "file":  "knx-led-controller_0.0.50.bin",
-                     "message":  "Szenensteuerung flexibler gemacht: Die Szenen-ID ist jetzt nur noch ein Speicherplatz und der technische Effekt wird pro Szene über ein Dropdown zugeordnet. Lauflicht A/B entfällt als feste Logik; Lauflicht nutzt stattdessen Effekt Lauflicht plus Richtung vorwärts/rückwärts, sodass jede Szene frei als Lauflicht, Fade, statisch, Nachtlicht oder Testszene konfiguriert werden kann.",
+                     "version":  "0.0.51",
+                     "bin":  "knx-led-controller_0.0.51.bin",
+                     "file":  "knx-led-controller_0.0.51.bin",
+                     "message":  "Szenen-WebUI um eine Browser-Animationsvorschau erweitert: Ausgewählte Szenen werden mit den gespeicherten Parametern für Effekt, Richtung, betroffene LEDs, Schrittzeit, Synchronisation und globalen Startversatz als LED-Balken simuliert. Die Vorschau dient als hardwarefreier Plausibilitätscheck vor der echten LED-Ausgabe.",
                      "http_code":  200
                  }
 }
