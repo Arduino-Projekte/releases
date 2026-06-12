@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.55",
+                      "bin":  "knx-led-controller_0.0.55.bin",
+                      "date":  "2026-06-12",
+                      "note":  "Animationsvorschau repariert: Die Vorschau-Logik wird jetzt direkt im oberen Vorschau-Bereich geladen und ist nicht mehr vom späteren unteren Seitenteil abhängig. Dadurch bleibt die Anzeige nicht mehr bei Vorschau wird geladen hängen; Auswahl, Neustart und Pause arbeiten mit einem robusteren Sofort-Renderer."
+                  },
+                  {
                       "version":  "0.0.54",
                       "bin":  "knx-led-controller_0.0.54.bin",
                       "date":  "2026-06-12",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller_0.0.51.bin",
                       "date":  "2026-06-12",
                       "note":  "Szenen-WebUI um eine Browser-Animationsvorschau erweitert: Ausgewählte Szenen werden mit den gespeicherten Parametern für Effekt, Richtung, betroffene LEDs, Schrittzeit, Synchronisation und globalen Startversatz als LED-Balken simuliert. Die Vorschau dient als hardwarefreier Plausibilitätscheck vor der echten LED-Ausgabe."
-                  },
-                  {
-                      "version":  "0.0.50",
-                      "bin":  "knx-led-controller_0.0.50.bin",
-                      "date":  "2026-06-12",
-                      "note":  "Szenensteuerung flexibler gemacht: Die Szenen-ID ist jetzt nur noch ein Speicherplatz und der technische Effekt wird pro Szene über ein Dropdown zugeordnet. Lauflicht A/B entfällt als feste Logik; Lauflicht nutzt stattdessen Effekt Lauflicht plus Richtung vorwärts/rückwärts, sodass jede Szene frei als Lauflicht, Fade, statisch, Nachtlicht oder Testszene konfiguriert werden kann."
                   }
               ]
 }
