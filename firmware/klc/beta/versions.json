@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.47",
+                      "bin":  "knx-led-controller_0.0.47.bin",
+                      "date":  "2026-06-12",
+                      "note":  "Szenensteuerung erweitert: Pro Szene kann jetzt gewählt werden, ob globale Lauflicht-Szenen Start/Stop-zeitsynchron oder laufzeitsynchron laufen. Die WebUI trennt sichtbaren Szenennamen und technischen Effekt klarer und zeigt virtuelle Lauflichtwerte wie Kopfposition, Zykluszeit und Schrittzeit an."
+                  },
+                  {
                       "version":  "0.0.45",
                       "bin":  "knx-led-controller_0.0.45.bin",
                       "date":  "2026-06-12",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller_0.0.42.bin",
                       "date":  "2026-06-12",
                       "note":  "WebUI-Stabilität verbessert: dynamische HTML-/JSON-Puffer werden nach dem Senden verzögert freigegeben, damit große Seiten beim W5500/TCP-Versand nicht sporadisch unvollständig dargestellt werden. Tabellen und breite Inhalte sind zusätzlich robuster gegen verschobene Spalten formatiert."
-                  },
-                  {
-                      "version":  "0.0.41",
-                      "bin":  "knx-led-controller_0.0.41.bin",
-                      "date":  "2026-06-12",
-                      "note":  "Release-Automatik ergänzt: Skript liest Version und Release-Text und pflegt update.json sowie versions.json."
                   }
               ]
 }
