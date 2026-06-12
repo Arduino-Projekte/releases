@@ -1,11 +1,11 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller_0.0.31.bin",
+                     "url":  "knx-led-controller_0.0.32.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.31",
-                     "bin":  "knx-led-controller_0.0.31.bin",
-                     "file":  "knx-led-controller_0.0.31.bin",
+                     "version":  "0.0.32",
+                     "bin":  "knx-led-controller_0.0.32.bin",
+                     "file":  "knx-led-controller_0.0.32.bin",
                      "message":  "Release-Manifest automatisch erstellt",
                      "http_code":  200
                  }
