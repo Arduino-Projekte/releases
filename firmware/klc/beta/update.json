@@ -1,12 +1,12 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller_0.0.53.bin",
+                     "url":  "knx-led-controller_0.0.54.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.53",
-                     "bin":  "knx-led-controller_0.0.53.bin",
-                     "file":  "knx-led-controller_0.0.53.bin",
-                     "message":  "Animationsvorschau-Auswahl repariert: Das Szenen-Dropdown wird jetzt serverseitig mit Optionen befüllt und bleibt auch ohne JavaScript sichtbar bedienbar. Zusätzlich sind Vor/Zurück-Tasten als robuste Szenenauswahl ergänzt und Select-Optionen im Hell-/Dark-Mode besser formatiert.",
+                     "version":  "0.0.54",
+                     "bin":  "knx-led-controller_0.0.54.bin",
+                     "file":  "knx-led-controller_0.0.54.bin",
+                     "message":  "Animationsvorschau robuster gemacht: Der Vorschau-Bereich zeigt jetzt klare Diagnosemeldungen, wenn Szenen- oder Ausgangsdaten fehlen, und JavaScript-Fehler werden sichtbar ausgegeben. Die Vorschau-Daten werden über stabile window-Objekte bereitgestellt, die Auswahl aktualisiert die Vorschau direkter und der Vorschau-Kasten bleibt auch bei Ladeproblemen erklärend sichtbar.",
                      "http_code":  200
                  }
 }

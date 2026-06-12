@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.54",
+                      "bin":  "knx-led-controller_0.0.54.bin",
+                      "date":  "2026-06-12",
+                      "note":  "Animationsvorschau robuster gemacht: Der Vorschau-Bereich zeigt jetzt klare Diagnosemeldungen, wenn Szenen- oder Ausgangsdaten fehlen, und JavaScript-Fehler werden sichtbar ausgegeben. Die Vorschau-Daten werden über stabile window-Objekte bereitgestellt, die Auswahl aktualisiert die Vorschau direkter und der Vorschau-Kasten bleibt auch bei Ladeproblemen erklärend sichtbar."
+                  },
+                  {
                       "version":  "0.0.53",
                       "bin":  "knx-led-controller_0.0.53.bin",
                       "date":  "2026-06-12",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller_0.0.50.bin",
                       "date":  "2026-06-12",
                       "note":  "Szenensteuerung flexibler gemacht: Die Szenen-ID ist jetzt nur noch ein Speicherplatz und der technische Effekt wird pro Szene über ein Dropdown zugeordnet. Lauflicht A/B entfällt als feste Logik; Lauflicht nutzt stattdessen Effekt Lauflicht plus Richtung vorwärts/rückwärts, sodass jede Szene frei als Lauflicht, Fade, statisch, Nachtlicht oder Testszene konfiguriert werden kann."
-                  },
-                  {
-                      "version":  "0.0.49",
-                      "bin":  "knx-led-controller_0.0.49.bin",
-                      "date":  "2026-06-12",
-                      "note":  "Szenen-WebUI verbessert: Bei Betroffene LEDs wird je nach Modus nur noch das passende Eingabefeld angezeigt. Relativ zeigt Relativ Prozent, absolut zeigt # Pixel; dadurch ist klarer, welcher Wert gespeichert und verwendet wird."
                   }
               ]
 }
