@@ -1,6 +1,18 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.39",
+                      "bin":  "knx-led-controller_0.0.39.bin",
+                      "date":  "2026-06-12",
+                      "note":  "Automatisch nach erfolgreichem Arduino-CLI-Build"
+                  },
+                  {
+                      "version":  "0.0.35",
+                      "bin":  "knx-led-controller_0.0.35.bin",
+                      "date":  "2026-06-12",
+                      "note":  "Automatisch nach erfolgreichem Arduino-CLI-Build"
+                  },
+                  {
                       "version":  "0.0.34",
                       "bin":  "knx-led-controller_0.0.34.bin",
                       "date":  "2026-06-12",
@@ -15,18 +27,6 @@
                   {
                       "version":  "0.0.32",
                       "bin":  "knx-led-controller_0.0.32.bin",
-                      "date":  "2026-06-12",
-                      "note":  "Automatisch nach erfolgreichem Arduino-CLI-Build"
-                  },
-                  {
-                      "version":  "0.0.31",
-                      "bin":  "knx-led-controller_0.0.31.bin",
-                      "date":  "2026-06-12",
-                      "note":  "Automatisch nach erfolgreichem Arduino-CLI-Build"
-                  },
-                  {
-                      "version":  "0.0.30",
-                      "bin":  "knx-led-controller_0.0.30.bin",
                       "date":  "2026-06-12",
                       "note":  "Automatisch nach erfolgreichem Arduino-CLI-Build"
                   }
