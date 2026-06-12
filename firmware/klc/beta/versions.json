@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.52",
+                      "bin":  "knx-led-controller_0.0.52.bin",
+                      "date":  "2026-06-12",
+                      "note":  "Animationsvorschau bedienbarer gemacht: Die Szenenauswahl wird beim Öffnen nicht mehr durch die laufende Browser-Simulation gestört. Die Vorschau pausiert während der Auswahl kurz, rendert gedrosselt weiter und startet nach der Auswahl sauber neu; außerdem ist der Hinweistext zur freien Effektzuordnung korrigiert."
+                  },
+                  {
                       "version":  "0.0.51",
                       "bin":  "knx-led-controller_0.0.51.bin",
                       "date":  "2026-06-12",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller_0.0.48.bin",
                       "date":  "2026-06-12",
                       "note":  "Szenensteuerung erweitert: Betroffene LEDs können pro Szene jetzt relativ in Prozent oder absolut als Pixelanzahl eingestellt werden. Globale Szenen unterstützen einen konfigurierbaren Start-Zeitversatz je Ausgang in Millisekunden; die spätere Richtungswahl ist für KNX vorbereitet."
-                  },
-                  {
-                      "version":  "0.0.47",
-                      "bin":  "knx-led-controller_0.0.47.bin",
-                      "date":  "2026-06-12",
-                      "note":  "Szenensteuerung erweitert: Pro Szene kann jetzt gewählt werden, ob globale Lauflicht-Szenen Start/Stop-zeitsynchron oder laufzeitsynchron laufen. Die WebUI trennt sichtbaren Szenennamen und technischen Effekt klarer und zeigt virtuelle Lauflichtwerte wie Kopfposition, Zykluszeit und Schrittzeit an."
                   }
               ]
 }

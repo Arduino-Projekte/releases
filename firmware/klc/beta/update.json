@@ -1,12 +1,12 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller_0.0.51.bin",
+                     "url":  "knx-led-controller_0.0.52.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.51",
-                     "bin":  "knx-led-controller_0.0.51.bin",
-                     "file":  "knx-led-controller_0.0.51.bin",
-                     "message":  "Szenen-WebUI um eine Browser-Animationsvorschau erweitert: Ausgewählte Szenen werden mit den gespeicherten Parametern für Effekt, Richtung, betroffene LEDs, Schrittzeit, Synchronisation und globalen Startversatz als LED-Balken simuliert. Die Vorschau dient als hardwarefreier Plausibilitätscheck vor der echten LED-Ausgabe.",
+                     "version":  "0.0.52",
+                     "bin":  "knx-led-controller_0.0.52.bin",
+                     "file":  "knx-led-controller_0.0.52.bin",
+                     "message":  "Animationsvorschau bedienbarer gemacht: Die Szenenauswahl wird beim Öffnen nicht mehr durch die laufende Browser-Simulation gestört. Die Vorschau pausiert während der Auswahl kurz, rendert gedrosselt weiter und startet nach der Auswahl sauber neu; außerdem ist der Hinweistext zur freien Effektzuordnung korrigiert.",
                      "http_code":  200
                  }
 }
