@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.42",
+                      "bin":  "knx-led-controller_0.0.42.bin",
+                      "date":  "2026-06-12",
+                      "note":  "WebUI-Stabilität verbessert: dynamische HTML-/JSON-Puffer werden nach dem Senden verzögert freigegeben, damit große Seiten beim W5500/TCP-Versand nicht sporadisch unvollständig dargestellt werden. Tabellen und breite Inhalte sind zusätzlich robuster gegen verschobene Spalten formatiert."
+                  },
+                  {
                       "version":  "0.0.41",
                       "bin":  "knx-led-controller_0.0.41.bin",
                       "date":  "2026-06-12",
