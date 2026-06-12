@@ -1,0 +1,1 @@
+https://raw.githubusercontent.com/Arduino-Projekte/releases/refs/heads/main/firmware/klc/update.json
