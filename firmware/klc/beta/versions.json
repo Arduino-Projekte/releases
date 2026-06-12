@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.41",
+                      "bin":  "knx-led-controller_0.0.41.bin",
+                      "date":  "2026-06-12",
+                      "note":  "Release-Automatik ergänzt: Skript liest Version und Release-Text und pflegt update.json sowie versions.json."
+                  },
+                  {
                       "version":  "0.0.40",
                       "bin":  "knx-led-controller_0.0.40.bin",
                       "date":  "2026-06-12",
