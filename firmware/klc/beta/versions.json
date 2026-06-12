@@ -1,34 +1,10 @@
 {
     "items":  [
                   {
-                      "version":  "0.0.39",
-                      "bin":  "knx-led-controller_0.0.39.bin",
+                      "version":  "0.0.40",
+                      "bin":  "knx-led-controller_0.0.40.bin",
                       "date":  "2026-06-12",
-                      "note":  "Automatisch nach erfolgreichem Arduino-CLI-Build"
-                  },
-                  {
-                      "version":  "0.0.35",
-                      "bin":  "knx-led-controller_0.0.35.bin",
-                      "date":  "2026-06-12",
-                      "note":  "Automatisch nach erfolgreichem Arduino-CLI-Build"
-                  },
-                  {
-                      "version":  "0.0.34",
-                      "bin":  "knx-led-controller_0.0.34.bin",
-                      "date":  "2026-06-12",
-                      "note":  "Automatisch nach erfolgreichem Arduino-CLI-Build"
-                  },
-                  {
-                      "version":  "0.0.33",
-                      "bin":  "knx-led-controller_0.0.33.bin",
-                      "date":  "2026-06-12",
-                      "note":  "Automatisch nach erfolgreichem Arduino-CLI-Build"
-                  },
-                  {
-                      "version":  "0.0.32",
-                      "bin":  "knx-led-controller_0.0.32.bin",
-                      "date":  "2026-06-12",
-                      "note":  "Automatisch nach erfolgreichem Arduino-CLI-Build"
+                      "note":  "Update-Registerkarte erweitert: Versionshistorie unterstÃ¼tzt Rollback auf Ã¤ltere FirmwarestÃ¤nde, Update-Aktionen sind gegen Fehlbedienung gesperrt und automatische Updates installieren nur neuere Firmware. Die empfohlene Online-Version wird robuster aus der Versionshistorie ermittelt."
                   }
               ]
 }
