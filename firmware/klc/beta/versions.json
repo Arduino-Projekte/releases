@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.45",
+                      "bin":  "knx-led-controller_0.0.45.bin",
+                      "date":  "2026-06-12",
+                      "note":  "WebUI-Navigation aufgeräumt: LED, System und Admin sind jetzt eigene Hauptbereiche mit Unterkategorien. JSON-Schnittstellen sowie W5500-/Pin-Diagnose liegen im geschützten Adminbereich. Szenenanzeige wurde gegen abgeschnittene Strang-/Szenen-Zeilen erweitert und alte 3-Ausgang-Konfigurationen werden auf 5 Standard-Ausgänge migriert."
+                  },
+                  {
                       "version":  "0.0.44",
                       "bin":  "knx-led-controller_0.0.44.bin",
                       "date":  "2026-06-12",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller_0.0.41.bin",
                       "date":  "2026-06-12",
                       "note":  "Release-Automatik ergänzt: Skript liest Version und Release-Text und pflegt update.json sowie versions.json."
-                  },
-                  {
-                      "version":  "0.0.40",
-                      "bin":  "knx-led-controller_0.0.40.bin",
-                      "date":  "2026-06-12",
-                      "note":  "Update-Registerkarte erweitert: Versionshistorie unterstützt Rollback auf ältere Firmwarestände, Update-Aktionen sind gegen Fehlbedienung gesperrt und automatische Updates installieren nur neuere Firmware. Die empfohlene Online-Version wird robuster aus der Versionshistorie ermittelt."
                   }
               ]
 }

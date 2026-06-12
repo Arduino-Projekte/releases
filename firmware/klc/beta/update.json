@@ -1,12 +1,12 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller_0.0.44.bin",
+                     "url":  "knx-led-controller_0.0.45.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.44",
-                     "bin":  "knx-led-controller_0.0.44.bin",
-                     "file":  "knx-led-controller_0.0.44.bin",
-                     "message":  "Dark Mode finalisiert: Die WebUI besitzt nun einen gespeicherten Hell-/Dunkelmodus mit sauberer Umschaltung über die Navigation und die Konfigurationsseite. Tabellen, Formulare, Links, Datei-Uploads und Diagnosebereiche sind für beide Darstellungsarten robuster formatiert.",
+                     "version":  "0.0.45",
+                     "bin":  "knx-led-controller_0.0.45.bin",
+                     "file":  "knx-led-controller_0.0.45.bin",
+                     "message":  "WebUI-Navigation aufgeräumt: LED, System und Admin sind jetzt eigene Hauptbereiche mit Unterkategorien. JSON-Schnittstellen sowie W5500-/Pin-Diagnose liegen im geschützten Adminbereich. Szenenanzeige wurde gegen abgeschnittene Strang-/Szenen-Zeilen erweitert und alte 3-Ausgang-Konfigurationen werden auf 5 Standard-Ausgänge migriert.",
                      "http_code":  200
                  }
 }
