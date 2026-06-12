@@ -1,12 +1,12 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller_0.0.47.bin",
+                     "url":  "knx-led-controller_0.0.48.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.47",
-                     "bin":  "knx-led-controller_0.0.47.bin",
-                     "file":  "knx-led-controller_0.0.47.bin",
-                     "message":  "Szenensteuerung erweitert: Pro Szene kann jetzt gewählt werden, ob globale Lauflicht-Szenen Start/Stop-zeitsynchron oder laufzeitsynchron laufen. Die WebUI trennt sichtbaren Szenennamen und technischen Effekt klarer und zeigt virtuelle Lauflichtwerte wie Kopfposition, Zykluszeit und Schrittzeit an.",
+                     "version":  "0.0.48",
+                     "bin":  "knx-led-controller_0.0.48.bin",
+                     "file":  "knx-led-controller_0.0.48.bin",
+                     "message":  "Szenensteuerung erweitert: Betroffene LEDs können pro Szene jetzt relativ in Prozent oder absolut als Pixelanzahl eingestellt werden. Globale Szenen unterstützen einen konfigurierbaren Start-Zeitversatz je Ausgang in Millisekunden; die spätere Richtungswahl ist für KNX vorbereitet.",
                      "http_code":  200
                  }
 }

@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.48",
+                      "bin":  "knx-led-controller_0.0.48.bin",
+                      "date":  "2026-06-12",
+                      "note":  "Szenensteuerung erweitert: Betroffene LEDs können pro Szene jetzt relativ in Prozent oder absolut als Pixelanzahl eingestellt werden. Globale Szenen unterstützen einen konfigurierbaren Start-Zeitversatz je Ausgang in Millisekunden; die spätere Richtungswahl ist für KNX vorbereitet."
+                  },
+                  {
                       "version":  "0.0.47",
                       "bin":  "knx-led-controller_0.0.47.bin",
                       "date":  "2026-06-12",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller_0.0.43.bin",
                       "date":  "2026-06-12",
                       "note":  "Online-Update repariert: der interne OTA-Schreibstart blockiert den eigenen Online-Download nicht mehr mit Fehler 1402. Die Release-Automatik bereinigt Release-Texte zusätzlich einzeilig, damit update.json und versions.json keine ungültigen Zeilenumbrüche in message/note enthalten."
-                  },
-                  {
-                      "version":  "0.0.42",
-                      "bin":  "knx-led-controller_0.0.42.bin",
-                      "date":  "2026-06-12",
-                      "note":  "WebUI-Stabilität verbessert: dynamische HTML-/JSON-Puffer werden nach dem Senden verzögert freigegeben, damit große Seiten beim W5500/TCP-Versand nicht sporadisch unvollständig dargestellt werden. Tabellen und breite Inhalte sind zusätzlich robuster gegen verschobene Spalten formatiert."
                   }
               ]
 }
