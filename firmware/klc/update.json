@@ -6,7 +6,7 @@
                      "version":  "0.0.40",
                      "bin":  "knx-led-controller_0.0.40.bin",
                      "file":  "knx-led-controller_0.0.40.bin",
-                     "message":  "Update-Registerkarte erweitert: Versionshistorie unterstÃ¼tzt Rollback auf Ã¤ltere FirmwarestÃ¤nde, Update-Aktionen sind gegen Fehlbedienung gesperrt und automatische Updates installieren nur neuere Firmware. Die empfohlene Online-Version wird robuster aus der Versionshistorie ermittelt.",
+                     "message":  "Update-Registerkarte erweitert: Versionshistorie unterstützt Rollback auf ältere Firmwarestände, Update-Aktionen sind gegen Fehlbedienung gesperrt und automatische Updates installieren nur neuere Firmware. Die empfohlene Online-Version wird robuster aus der Versionshistorie ermittelt.",
                      "http_code":  200
                  }
 }
