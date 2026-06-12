@@ -1,12 +1,12 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller_0.0.42.bin",
+                     "url":  "knx-led-controller_0.0.43.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.42",
-                     "bin":  "knx-led-controller_0.0.42.bin",
-                     "file":  "knx-led-controller_0.0.42.bin",
-                     "message":  "WebUI-Stabilität verbessert: dynamische HTML-/JSON-Puffer werden nach dem Senden verzögert freigegeben, damit große Seiten beim W5500/TCP-Versand nicht sporadisch unvollständig dargestellt werden. Tabellen und breite Inhalte sind zusätzlich robuster gegen verschobene Spalten formatiert.",
+                     "version":  "0.0.43",
+                     "bin":  "knx-led-controller_0.0.43.bin",
+                     "file":  "knx-led-controller_0.0.43.bin",
+                     "message":  "Online-Update repariert: der interne OTA-Schreibstart blockiert den eigenen Online-Download nicht mehr mit Fehler 1402. Die Release-Automatik bereinigt Release-Texte zusätzlich einzeilig, damit update.json und versions.json keine ungültigen Zeilenumbrüche in message/note enthalten.",
                      "http_code":  200
                  }
 }

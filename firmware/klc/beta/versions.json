@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.43",
+                      "bin":  "knx-led-controller_0.0.43.bin",
+                      "date":  "2026-06-12",
+                      "note":  "Online-Update repariert: der interne OTA-Schreibstart blockiert den eigenen Online-Download nicht mehr mit Fehler 1402. Die Release-Automatik bereinigt Release-Texte zusätzlich einzeilig, damit update.json und versions.json keine ungültigen Zeilenumbrüche in message/note enthalten."
+                  },
+                  {
                       "version":  "0.0.42",
                       "bin":  "knx-led-controller_0.0.42.bin",
                       "date":  "2026-06-12",
