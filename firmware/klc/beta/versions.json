@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.49",
+                      "bin":  "knx-led-controller_0.0.49.bin",
+                      "date":  "2026-06-12",
+                      "note":  "Szenen-WebUI verbessert: Bei Betroffene LEDs wird je nach Modus nur noch das passende Eingabefeld angezeigt. Relativ zeigt Relativ Prozent, absolut zeigt # Pixel; dadurch ist klarer, welcher Wert gespeichert und verwendet wird."
+                  },
+                  {
                       "version":  "0.0.48",
                       "bin":  "knx-led-controller_0.0.48.bin",
                       "date":  "2026-06-12",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller_0.0.44.bin",
                       "date":  "2026-06-12",
                       "note":  "Dark Mode finalisiert: Die WebUI besitzt nun einen gespeicherten Hell-/Dunkelmodus mit sauberer Umschaltung über die Navigation und die Konfigurationsseite. Tabellen, Formulare, Links, Datei-Uploads und Diagnosebereiche sind für beide Darstellungsarten robuster formatiert."
-                  },
-                  {
-                      "version":  "0.0.43",
-                      "bin":  "knx-led-controller_0.0.43.bin",
-                      "date":  "2026-06-12",
-                      "note":  "Online-Update repariert: der interne OTA-Schreibstart blockiert den eigenen Online-Download nicht mehr mit Fehler 1402. Die Release-Automatik bereinigt Release-Texte zusätzlich einzeilig, damit update.json und versions.json keine ungültigen Zeilenumbrüche in message/note enthalten."
                   }
               ]
 }
