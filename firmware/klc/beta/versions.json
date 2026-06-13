@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.60",
+                      "bin":  "knx-led-controller_0.0.60.bin",
+                      "date":  "2026-06-13",
+                      "note":  "Szenenablauf vorbereitet: Neue Registerkarte Abläufe ergänzt, in der jede Szene aus Start-Effekt, Hauptphase und Aus-Effekt aufgebaut werden kann. Hauptdauer 0 ms bedeutet dauerhaft, Zeiten für sanfte Rampen, Pulsation und Treppenhausfunktionen werden gespeichert; Backup/Restore und Schema-Migration wurden erweitert."
+                  },
+                  {
                       "version":  "0.0.59",
                       "bin":  "knx-led-controller_0.0.59.bin",
                       "date":  "2026-06-13",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller_0.0.56.bin",
                       "date":  "2026-06-13",
                       "note":  "Animationsvorschau neu aufgebaut: Die bisherige eingebettete Browser-Simulation wurde durch eine eigene schlanke Vorschau-Seite ersetzt. Der Controller erzeugt serverseitig einfache HTML-Frames über /api/preview, sodass der Browser nur noch fertige Balken anzeigt; die Szenenseite verweist nur noch auf diese neue Vorschau."
-                  },
-                  {
-                      "version":  "0.0.55",
-                      "bin":  "knx-led-controller_0.0.55.bin",
-                      "date":  "2026-06-12",
-                      "note":  "Animationsvorschau repariert: Die Vorschau-Logik wird jetzt direkt im oberen Vorschau-Bereich geladen und ist nicht mehr vom späteren unteren Seitenteil abhängig. Dadurch bleibt die Anzeige nicht mehr bei Vorschau wird geladen hängen; Auswahl, Neustart und Pause arbeiten mit einem robusteren Sofort-Renderer."
                   }
               ]
 }

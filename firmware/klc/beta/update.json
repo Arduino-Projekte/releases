@@ -1,12 +1,12 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller_0.0.59.bin",
+                     "url":  "knx-led-controller_0.0.60.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.59",
-                     "bin":  "knx-led-controller_0.0.59.bin",
-                     "file":  "knx-led-controller_0.0.59.bin",
-                     "message":  "Animationsvorschau auf Canvas umgestellt: Die Vorschauseite lädt Szenen- und Ausgangsdaten einmal und animiert danach lokal im Browser ohne sichtbares Seiten-Neuladen. Play/Pause, Neu starten, Zeit-Slider und Maus-/Finger-Scrubbing zeigen Lauflicht, Fade, Richtung, betroffene LEDs, Synchronisation und Startversatz flüssiger an; der serverseitige Einzel-Frame bleibt als Fallback erhalten.",
+                     "version":  "0.0.60",
+                     "bin":  "knx-led-controller_0.0.60.bin",
+                     "file":  "knx-led-controller_0.0.60.bin",
+                     "message":  "Szenenablauf vorbereitet: Neue Registerkarte Abläufe ergänzt, in der jede Szene aus Start-Effekt, Hauptphase und Aus-Effekt aufgebaut werden kann. Hauptdauer 0 ms bedeutet dauerhaft, Zeiten für sanfte Rampen, Pulsation und Treppenhausfunktionen werden gespeichert; Backup/Restore und Schema-Migration wurden erweitert.",
                      "http_code":  200
                  }
 }
