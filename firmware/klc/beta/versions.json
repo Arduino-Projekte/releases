@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.71",
+                      "bin":  "knx-led-controller_0.0.71.bin",
+                      "date":  "2026-06-13",
+                      "note":  "Segment-Leuchten erweitert: Neben dem bisherigen Segmentmuster gibt es jetzt Segment Rand + Mitte, bei dem Anfang und Ende leuchten und die Zwischen-Segmente symmetrisch verteilt werden. Beide Segmentvarianten zeichnen leuchtende Blöcke vollständig und verteilen verbleibende dunkle Abstände gleichmäßig, damit keine angeschnittenen Segmente entstehen."
+                  },
+                  {
                       "version":  "0.0.70",
                       "bin":  "knx-led-controller_0.0.70.bin",
                       "date":  "2026-06-13",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller_0.0.67.bin",
                       "date":  "2026-06-13",
                       "note":  "Ablaufvorschau korrigiert: Der globale Zeitversatz verschiebt jetzt pro Ausgang die komplette Zeitleiste aus Start, EIN und Aus statt nur die aktuelle Phase. Dadurch bleiben bereits gestartete Ausgänge nahtlos in der EIN-Phase, während verzögerte Ausgänge noch starten; Phase-Tasten und Zeitachse berücksichtigen das Versatzfenster."
-                  },
-                  {
-                      "version":  "0.0.66",
-                      "bin":  "knx-led-controller_0.0.66.bin",
-                      "date":  "2026-06-13",
-                      "note":  "Abläufe weiter verfeinert: Eine eigene Übergangsdauer in Millisekunden sorgt für weiche Übergänge zwischen Start, EIN-Phase und Aus-Effekt. Wellen 1-X, X-1, Mitte-nach-außen und außen-nach-Mitte stehen jetzt auch als Haupt-Effekt zur Verfügung, jeweils mit oder ohne langes Nachleuchten."
                   }
               ]
 }
