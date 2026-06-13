@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.57",
+                      "bin":  "knx-led-controller_0.0.57.bin",
+                      "date":  "2026-06-13",
+                      "note":  "Animationsvorschau robuster gemacht: Der erste Vorschau-Frame wird jetzt direkt mit der Seite ausgeliefert und ist auch ohne laufendes JavaScript sichtbar. Die Szenenauswahl funktioniert zusätzlich als normales Formular, während JavaScript nur noch optional für Live-Aktualisierung und Animation verwendet wird."
+                  },
+                  {
                       "version":  "0.0.56",
                       "bin":  "knx-led-controller_0.0.56.bin",
                       "date":  "2026-06-13",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller_0.0.53.bin",
                       "date":  "2026-06-12",
                       "note":  "Animationsvorschau-Auswahl repariert: Das Szenen-Dropdown wird jetzt serverseitig mit Optionen befüllt und bleibt auch ohne JavaScript sichtbar bedienbar. Zusätzlich sind Vor/Zurück-Tasten als robuste Szenenauswahl ergänzt und Select-Optionen im Hell-/Dark-Mode besser formatiert."
-                  },
-                  {
-                      "version":  "0.0.52",
-                      "bin":  "knx-led-controller_0.0.52.bin",
-                      "date":  "2026-06-12",
-                      "note":  "Animationsvorschau bedienbarer gemacht: Die Szenenauswahl wird beim Öffnen nicht mehr durch die laufende Browser-Simulation gestört. Die Vorschau pausiert während der Auswahl kurz, rendert gedrosselt weiter und startet nach der Auswahl sauber neu; außerdem ist der Hinweistext zur freien Effektzuordnung korrigiert."
                   }
               ]
 }

@@ -1,12 +1,12 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller_0.0.56.bin",
+                     "url":  "knx-led-controller_0.0.57.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.56",
-                     "bin":  "knx-led-controller_0.0.56.bin",
-                     "file":  "knx-led-controller_0.0.56.bin",
-                     "message":  "Animationsvorschau neu aufgebaut: Die bisherige eingebettete Browser-Simulation wurde durch eine eigene schlanke Vorschau-Seite ersetzt. Der Controller erzeugt serverseitig einfache HTML-Frames über /api/preview, sodass der Browser nur noch fertige Balken anzeigt; die Szenenseite verweist nur noch auf diese neue Vorschau.",
+                     "version":  "0.0.57",
+                     "bin":  "knx-led-controller_0.0.57.bin",
+                     "file":  "knx-led-controller_0.0.57.bin",
+                     "message":  "Animationsvorschau robuster gemacht: Der erste Vorschau-Frame wird jetzt direkt mit der Seite ausgeliefert und ist auch ohne laufendes JavaScript sichtbar. Die Szenenauswahl funktioniert zusätzlich als normales Formular, während JavaScript nur noch optional für Live-Aktualisierung und Animation verwendet wird.",
                      "http_code":  200
                  }
 }
