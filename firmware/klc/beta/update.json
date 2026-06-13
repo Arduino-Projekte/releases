@@ -1,12 +1,12 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller_0.0.64.bin",
+                     "url":  "knx-led-controller_0.0.65.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.64",
-                     "bin":  "knx-led-controller_0.0.64.bin",
-                     "file":  "knx-led-controller_0.0.64.bin",
-                     "message":  "Einstellungen bei Firmware-Updates besser geschützt: Vor dem Überschreiben der Konfiguration wird automatisch eine Rettungskopie angelegt und Speicherungen laufen über eine temporäre Datei. Wenn eine vorhandene Konfiguration nach einem Update nicht geladen werden kann, wird sie nicht mehr automatisch mit Defaults überschrieben.",
+                     "version":  "0.0.65",
+                     "bin":  "knx-led-controller_0.0.65.bin",
+                     "file":  "knx-led-controller_0.0.65.bin",
+                     "message":  "Abläufe um hochwertige Wellen- und Segmenteffekte erweitert: Start- und Aus-Phasen können Wellen 1-X, X-1, Mitte-nach-außen oder außen-nach-Mitte jeweils mit oder ohne langes Nachleuchten verwenden. Die Hauptphase kann Segment Leuchten nutzen; Segmentgröße Prozent wird gespeichert und in der Canvas-Vorschau dargestellt.",
                      "http_code":  200
                  }
 }

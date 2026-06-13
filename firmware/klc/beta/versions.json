@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.65",
+                      "bin":  "knx-led-controller_0.0.65.bin",
+                      "date":  "2026-06-13",
+                      "note":  "Abläufe um hochwertige Wellen- und Segmenteffekte erweitert: Start- und Aus-Phasen können Wellen 1-X, X-1, Mitte-nach-außen oder außen-nach-Mitte jeweils mit oder ohne langes Nachleuchten verwenden. Die Hauptphase kann Segment Leuchten nutzen; Segmentgröße Prozent wird gespeichert und in der Canvas-Vorschau dargestellt."
+                  },
+                  {
                       "version":  "0.0.64",
                       "bin":  "knx-led-controller_0.0.64.bin",
                       "date":  "2026-06-13",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller_0.0.61.bin",
                       "date":  "2026-06-13",
                       "note":  "Beta-Schnellupdate ergänzt: In der oberen Navigation gibt es neben Admin einen Beta Update Knopf, der von jeder Seite aus den Beta-Pfad prüft und die dort veröffentlichte neueste Firmware installiert. Während Update oder Neustart läuft, wird der Knopf automatisch gesperrt."
-                  },
-                  {
-                      "version":  "0.0.60",
-                      "bin":  "knx-led-controller_0.0.60.bin",
-                      "date":  "2026-06-13",
-                      "note":  "Szenenablauf vorbereitet: Neue Registerkarte Abläufe ergänzt, in der jede Szene aus Start-Effekt, Hauptphase und Aus-Effekt aufgebaut werden kann. Hauptdauer 0 ms bedeutet dauerhaft, Zeiten für sanfte Rampen, Pulsation und Treppenhausfunktionen werden gespeichert; Backup/Restore und Schema-Migration wurden erweitert."
                   }
               ]
 }
