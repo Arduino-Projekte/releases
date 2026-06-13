@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.58",
+                      "bin":  "knx-led-controller_0.0.58.bin",
+                      "date":  "2026-06-13",
+                      "note":  "Animationsvorschau erneut robuster gemacht: Animation starten verwendet jetzt einen reinen HTML-/Meta-Refresh-Fallback statt JavaScript/Fetch. Szene anzeigen und Animation laufen damit über normale Seitenaufrufe; der Controller berechnet jeden Frame serverseitig und die Pause funktioniert als normaler Link."
+                  },
+                  {
                       "version":  "0.0.57",
                       "bin":  "knx-led-controller_0.0.57.bin",
                       "date":  "2026-06-13",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller_0.0.54.bin",
                       "date":  "2026-06-12",
                       "note":  "Animationsvorschau robuster gemacht: Der Vorschau-Bereich zeigt jetzt klare Diagnosemeldungen, wenn Szenen- oder Ausgangsdaten fehlen, und JavaScript-Fehler werden sichtbar ausgegeben. Die Vorschau-Daten werden über stabile window-Objekte bereitgestellt, die Auswahl aktualisiert die Vorschau direkter und der Vorschau-Kasten bleibt auch bei Ladeproblemen erklärend sichtbar."
-                  },
-                  {
-                      "version":  "0.0.53",
-                      "bin":  "knx-led-controller_0.0.53.bin",
-                      "date":  "2026-06-12",
-                      "note":  "Animationsvorschau-Auswahl repariert: Das Szenen-Dropdown wird jetzt serverseitig mit Optionen befüllt und bleibt auch ohne JavaScript sichtbar bedienbar. Zusätzlich sind Vor/Zurück-Tasten als robuste Szenenauswahl ergänzt und Select-Optionen im Hell-/Dark-Mode besser formatiert."
                   }
               ]
 }

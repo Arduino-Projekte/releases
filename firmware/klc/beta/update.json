@@ -1,12 +1,12 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller_0.0.57.bin",
+                     "url":  "knx-led-controller_0.0.58.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.57",
-                     "bin":  "knx-led-controller_0.0.57.bin",
-                     "file":  "knx-led-controller_0.0.57.bin",
-                     "message":  "Animationsvorschau robuster gemacht: Der erste Vorschau-Frame wird jetzt direkt mit der Seite ausgeliefert und ist auch ohne laufendes JavaScript sichtbar. Die Szenenauswahl funktioniert zusätzlich als normales Formular, während JavaScript nur noch optional für Live-Aktualisierung und Animation verwendet wird.",
+                     "version":  "0.0.58",
+                     "bin":  "knx-led-controller_0.0.58.bin",
+                     "file":  "knx-led-controller_0.0.58.bin",
+                     "message":  "Animationsvorschau erneut robuster gemacht: Animation starten verwendet jetzt einen reinen HTML-/Meta-Refresh-Fallback statt JavaScript/Fetch. Szene anzeigen und Animation laufen damit über normale Seitenaufrufe; der Controller berechnet jeden Frame serverseitig und die Pause funktioniert als normaler Link.",
                      "http_code":  200
                  }
 }
