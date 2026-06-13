@@ -1,12 +1,12 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller_0.0.65.bin",
+                     "url":  "knx-led-controller_0.0.66.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.65",
-                     "bin":  "knx-led-controller_0.0.65.bin",
-                     "file":  "knx-led-controller_0.0.65.bin",
-                     "message":  "Abläufe um hochwertige Wellen- und Segmenteffekte erweitert: Start- und Aus-Phasen können Wellen 1-X, X-1, Mitte-nach-außen oder außen-nach-Mitte jeweils mit oder ohne langes Nachleuchten verwenden. Die Hauptphase kann Segment Leuchten nutzen; Segmentgröße Prozent wird gespeichert und in der Canvas-Vorschau dargestellt.",
+                     "version":  "0.0.66",
+                     "bin":  "knx-led-controller_0.0.66.bin",
+                     "file":  "knx-led-controller_0.0.66.bin",
+                     "message":  "Abläufe weiter verfeinert: Eine eigene Übergangsdauer in Millisekunden sorgt für weiche Übergänge zwischen Start, EIN-Phase und Aus-Effekt. Wellen 1-X, X-1, Mitte-nach-außen und außen-nach-Mitte stehen jetzt auch als Haupt-Effekt zur Verfügung, jeweils mit oder ohne langes Nachleuchten.",
                      "http_code":  200
                  }
 }

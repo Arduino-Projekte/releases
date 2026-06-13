@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.66",
+                      "bin":  "knx-led-controller_0.0.66.bin",
+                      "date":  "2026-06-13",
+                      "note":  "Abläufe weiter verfeinert: Eine eigene Übergangsdauer in Millisekunden sorgt für weiche Übergänge zwischen Start, EIN-Phase und Aus-Effekt. Wellen 1-X, X-1, Mitte-nach-außen und außen-nach-Mitte stehen jetzt auch als Haupt-Effekt zur Verfügung, jeweils mit oder ohne langes Nachleuchten."
+                  },
+                  {
                       "version":  "0.0.65",
                       "bin":  "knx-led-controller_0.0.65.bin",
                       "date":  "2026-06-13",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller_0.0.62.bin",
                       "date":  "2026-06-13",
                       "note":  "Canvas-Vorschau auf Szenenabläufe umgestellt: Die Vorschau zeigt jetzt Start-Effekt, Hauptphase und Aus-Effekt als gemeinsamen Ablauf mit Zeitachse, Phase START/EIN/AUS, Hauptdauer, sanften Rampen, Pulsation, Lauflicht, Richtung, Synchronisation und Startversatz. Die alte serverseitige Einzelbild-API bleibt als Fallback erhalten."
-                  },
-                  {
-                      "version":  "0.0.61",
-                      "bin":  "knx-led-controller_0.0.61.bin",
-                      "date":  "2026-06-13",
-                      "note":  "Beta-Schnellupdate ergänzt: In der oberen Navigation gibt es neben Admin einen Beta Update Knopf, der von jeder Seite aus den Beta-Pfad prüft und die dort veröffentlichte neueste Firmware installiert. Während Update oder Neustart läuft, wird der Knopf automatisch gesperrt."
                   }
               ]
 }
