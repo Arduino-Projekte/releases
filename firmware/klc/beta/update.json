@@ -1,12 +1,12 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller_0.0.61.bin",
+                     "url":  "knx-led-controller_0.0.62.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.61",
-                     "bin":  "knx-led-controller_0.0.61.bin",
-                     "file":  "knx-led-controller_0.0.61.bin",
-                     "message":  "Beta-Schnellupdate ergänzt: In der oberen Navigation gibt es neben Admin einen Beta Update Knopf, der von jeder Seite aus den Beta-Pfad prüft und die dort veröffentlichte neueste Firmware installiert. Während Update oder Neustart läuft, wird der Knopf automatisch gesperrt.",
+                     "version":  "0.0.62",
+                     "bin":  "knx-led-controller_0.0.62.bin",
+                     "file":  "knx-led-controller_0.0.62.bin",
+                     "message":  "Canvas-Vorschau auf Szenenabläufe umgestellt: Die Vorschau zeigt jetzt Start-Effekt, Hauptphase und Aus-Effekt als gemeinsamen Ablauf mit Zeitachse, Phase START/EIN/AUS, Hauptdauer, sanften Rampen, Pulsation, Lauflicht, Richtung, Synchronisation und Startversatz. Die alte serverseitige Einzelbild-API bleibt als Fallback erhalten.",
                      "http_code":  200
                  }
 }
