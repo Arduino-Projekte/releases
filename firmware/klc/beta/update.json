@@ -1,12 +1,12 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller_0.0.68.bin",
+                     "url":  "knx-led-controller_0.0.69.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.68",
-                     "bin":  "knx-led-controller_0.0.68.bin",
-                     "file":  "knx-led-controller_0.0.68.bin",
-                     "message":  "Ablaufvorschau geglättet: Übergänge blenden jetzt nur noch die Helligkeit weich über, während Lauflicht-, Wellen- und Segmentpositionen zeitlich weiterlaufen. Dadurch bleibt die Animation während der Übergangsdauer in Bewegung und springt nach z.B. 300 ms nicht mehr plötzlich auf die berechnete Position.",
+                     "version":  "0.0.69",
+                     "bin":  "knx-led-controller_0.0.69.bin",
+                     "file":  "knx-led-controller_0.0.69.bin",
+                     "message":  "WebUI-Texte nachgeschärft: Globaler Zeitversatz heißt jetzt Globaler Start Zeitversatz und die gesperrte Update-Bedienung wird klarer als Update läuft ... Bedienung gesperrt angezeigt. Die Ablaufvorschau-Logik aus 0.0.68 bleibt unverändert erhalten.",
                      "http_code":  200
                  }
 }
