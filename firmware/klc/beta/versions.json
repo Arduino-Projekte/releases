@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.75",
+                      "bin":  "knx-led-controller_0.0.75.bin",
+                      "date":  "2026-06-13",
+                      "note":  "Abläufe-WebUI aufgeräumt: Wellen werden in den Dropdowns nur noch einmal angezeigt und Nachleuchten wird per Haken optional zugeschaltet. Segmentgröße und Nachleuchten haben getrennte Prozentfelder, wodurch Segmente und Schweif-Länge unabhängig eingestellt und gespeichert werden; Canvas-Vorschau und JSON wurden angepasst."
+                  },
+                  {
                       "version":  "0.0.74",
                       "bin":  "knx-led-controller_0.0.74.bin",
                       "date":  "2026-06-13",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller_0.0.71.bin",
                       "date":  "2026-06-13",
                       "note":  "Segment-Leuchten erweitert: Neben dem bisherigen Segmentmuster gibt es jetzt Segment Rand + Mitte, bei dem Anfang und Ende leuchten und die Zwischen-Segmente symmetrisch verteilt werden. Beide Segmentvarianten zeichnen leuchtende Blöcke vollständig und verteilen verbleibende dunkle Abstände gleichmäßig, damit keine angeschnittenen Segmente entstehen."
-                  },
-                  {
-                      "version":  "0.0.70",
-                      "bin":  "knx-led-controller_0.0.70.bin",
-                      "date":  "2026-06-13",
-                      "note":  "Canvas-Ablaufvorschau korrigiert: Start/Stop zeitsynchron berechnet Lauflicht-Positionen jetzt über den gemeinsamen Fortschritt statt über auf ganze Millisekunden gerundete Schrittzeiten. Dadurch laufen 800/600/400/200 LED-Ausgänge proportional synchron und Ausgang 2 springt bzw. läuft nicht mehr zu weit voraus."
                   }
               ]
 }
