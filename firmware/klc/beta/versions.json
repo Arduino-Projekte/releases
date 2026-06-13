@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.67",
+                      "bin":  "knx-led-controller_0.0.67.bin",
+                      "date":  "2026-06-13",
+                      "note":  "Ablaufvorschau korrigiert: Der globale Zeitversatz verschiebt jetzt pro Ausgang die komplette Zeitleiste aus Start, EIN und Aus statt nur die aktuelle Phase. Dadurch bleiben bereits gestartete Ausgänge nahtlos in der EIN-Phase, während verzögerte Ausgänge noch starten; Phase-Tasten und Zeitachse berücksichtigen das Versatzfenster."
+                  },
+                  {
                       "version":  "0.0.66",
                       "bin":  "knx-led-controller_0.0.66.bin",
                       "date":  "2026-06-13",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller_0.0.63.bin",
                       "date":  "2026-06-13",
                       "note":  "Abläufe und Vorschau besser verbunden: Aus der Registerkarte Abläufe kann jede Szene direkt in der Animationsvorschau geöffnet werden und die Vorschau bietet einen Rückweg zu Abläufe. Die Canvas-Vorschau hat zusätzliche Phase-Tasten für START, EIN und AUS sowie ein Vorschau-Tempo, damit lange Start-Lauflichter nicht erst komplett abgewartet werden müssen."
-                  },
-                  {
-                      "version":  "0.0.62",
-                      "bin":  "knx-led-controller_0.0.62.bin",
-                      "date":  "2026-06-13",
-                      "note":  "Canvas-Vorschau auf Szenenabläufe umgestellt: Die Vorschau zeigt jetzt Start-Effekt, Hauptphase und Aus-Effekt als gemeinsamen Ablauf mit Zeitachse, Phase START/EIN/AUS, Hauptdauer, sanften Rampen, Pulsation, Lauflicht, Richtung, Synchronisation und Startversatz. Die alte serverseitige Einzelbild-API bleibt als Fallback erhalten."
                   }
               ]
 }

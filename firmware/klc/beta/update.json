@@ -1,12 +1,12 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller_0.0.66.bin",
+                     "url":  "knx-led-controller_0.0.67.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.66",
-                     "bin":  "knx-led-controller_0.0.66.bin",
-                     "file":  "knx-led-controller_0.0.66.bin",
-                     "message":  "Abläufe weiter verfeinert: Eine eigene Übergangsdauer in Millisekunden sorgt für weiche Übergänge zwischen Start, EIN-Phase und Aus-Effekt. Wellen 1-X, X-1, Mitte-nach-außen und außen-nach-Mitte stehen jetzt auch als Haupt-Effekt zur Verfügung, jeweils mit oder ohne langes Nachleuchten.",
+                     "version":  "0.0.67",
+                     "bin":  "knx-led-controller_0.0.67.bin",
+                     "file":  "knx-led-controller_0.0.67.bin",
+                     "message":  "Ablaufvorschau korrigiert: Der globale Zeitversatz verschiebt jetzt pro Ausgang die komplette Zeitleiste aus Start, EIN und Aus statt nur die aktuelle Phase. Dadurch bleiben bereits gestartete Ausgänge nahtlos in der EIN-Phase, während verzögerte Ausgänge noch starten; Phase-Tasten und Zeitachse berücksichtigen das Versatzfenster.",
                      "http_code":  200
                  }
 }
