@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.68",
+                      "bin":  "knx-led-controller_0.0.68.bin",
+                      "date":  "2026-06-13",
+                      "note":  "Ablaufvorschau geglättet: Übergänge blenden jetzt nur noch die Helligkeit weich über, während Lauflicht-, Wellen- und Segmentpositionen zeitlich weiterlaufen. Dadurch bleibt die Animation während der Übergangsdauer in Bewegung und springt nach z.B. 300 ms nicht mehr plötzlich auf die berechnete Position."
+                  },
+                  {
                       "version":  "0.0.67",
                       "bin":  "knx-led-controller_0.0.67.bin",
                       "date":  "2026-06-13",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller_0.0.64.bin",
                       "date":  "2026-06-13",
                       "note":  "Einstellungen bei Firmware-Updates besser geschützt: Vor dem Überschreiben der Konfiguration wird automatisch eine Rettungskopie angelegt und Speicherungen laufen über eine temporäre Datei. Wenn eine vorhandene Konfiguration nach einem Update nicht geladen werden kann, wird sie nicht mehr automatisch mit Defaults überschrieben."
-                  },
-                  {
-                      "version":  "0.0.63",
-                      "bin":  "knx-led-controller_0.0.63.bin",
-                      "date":  "2026-06-13",
-                      "note":  "Abläufe und Vorschau besser verbunden: Aus der Registerkarte Abläufe kann jede Szene direkt in der Animationsvorschau geöffnet werden und die Vorschau bietet einen Rückweg zu Abläufe. Die Canvas-Vorschau hat zusätzliche Phase-Tasten für START, EIN und AUS sowie ein Vorschau-Tempo, damit lange Start-Lauflichter nicht erst komplett abgewartet werden müssen."
                   }
               ]
 }
