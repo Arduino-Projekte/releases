@@ -1,12 +1,12 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller_0.0.58.bin",
+                     "url":  "knx-led-controller_0.0.59.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.58",
-                     "bin":  "knx-led-controller_0.0.58.bin",
-                     "file":  "knx-led-controller_0.0.58.bin",
-                     "message":  "Animationsvorschau erneut robuster gemacht: Animation starten verwendet jetzt einen reinen HTML-/Meta-Refresh-Fallback statt JavaScript/Fetch. Szene anzeigen und Animation laufen damit über normale Seitenaufrufe; der Controller berechnet jeden Frame serverseitig und die Pause funktioniert als normaler Link.",
+                     "version":  "0.0.59",
+                     "bin":  "knx-led-controller_0.0.59.bin",
+                     "file":  "knx-led-controller_0.0.59.bin",
+                     "message":  "Animationsvorschau auf Canvas umgestellt: Die Vorschauseite lädt Szenen- und Ausgangsdaten einmal und animiert danach lokal im Browser ohne sichtbares Seiten-Neuladen. Play/Pause, Neu starten, Zeit-Slider und Maus-/Finger-Scrubbing zeigen Lauflicht, Fade, Richtung, betroffene LEDs, Synchronisation und Startversatz flüssiger an; der serverseitige Einzel-Frame bleibt als Fallback erhalten.",
                      "http_code":  200
                  }
 }

@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.59",
+                      "bin":  "knx-led-controller_0.0.59.bin",
+                      "date":  "2026-06-13",
+                      "note":  "Animationsvorschau auf Canvas umgestellt: Die Vorschauseite lädt Szenen- und Ausgangsdaten einmal und animiert danach lokal im Browser ohne sichtbares Seiten-Neuladen. Play/Pause, Neu starten, Zeit-Slider und Maus-/Finger-Scrubbing zeigen Lauflicht, Fade, Richtung, betroffene LEDs, Synchronisation und Startversatz flüssiger an; der serverseitige Einzel-Frame bleibt als Fallback erhalten."
+                  },
+                  {
                       "version":  "0.0.58",
                       "bin":  "knx-led-controller_0.0.58.bin",
                       "date":  "2026-06-13",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller_0.0.55.bin",
                       "date":  "2026-06-12",
                       "note":  "Animationsvorschau repariert: Die Vorschau-Logik wird jetzt direkt im oberen Vorschau-Bereich geladen und ist nicht mehr vom späteren unteren Seitenteil abhängig. Dadurch bleibt die Anzeige nicht mehr bei Vorschau wird geladen hängen; Auswahl, Neustart und Pause arbeiten mit einem robusteren Sofort-Renderer."
-                  },
-                  {
-                      "version":  "0.0.54",
-                      "bin":  "knx-led-controller_0.0.54.bin",
-                      "date":  "2026-06-12",
-                      "note":  "Animationsvorschau robuster gemacht: Der Vorschau-Bereich zeigt jetzt klare Diagnosemeldungen, wenn Szenen- oder Ausgangsdaten fehlen, und JavaScript-Fehler werden sichtbar ausgegeben. Die Vorschau-Daten werden über stabile window-Objekte bereitgestellt, die Auswahl aktualisiert die Vorschau direkter und der Vorschau-Kasten bleibt auch bei Ladeproblemen erklärend sichtbar."
                   }
               ]
 }
