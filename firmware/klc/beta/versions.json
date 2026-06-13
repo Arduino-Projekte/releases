@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.78",
+                      "bin":  "knx-led-controller_0.0.78.bin",
+                      "date":  "2026-06-14",
+                      "note":  "Abläufe erweitert: Die Start- und Aus-Phasen bekommen jetzt die fehlenden Ein-Effekte wie Statisch, Pulsation, Warnblinken, Nachtlicht und Segmente. Die Abläufe-WebUI ordnet Nachleuchten in eine zweite Optionszeile und Wellen-Ping-Pong in eine dritte Zeile ein, damit Hauptdauer und übrige Felder optisch stabil bleiben."
+                  },
+                  {
                       "version":  "0.0.77",
                       "bin":  "knx-led-controller_0.0.77.bin",
                       "date":  "2026-06-14",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller_0.0.74.bin",
                       "date":  "2026-06-13",
                       "note":  "Nachleuchten-Logik verfeinert: Bei Wellen mit Nachleuchten bilden Betroffene LEDs den voll hellen Kopf und Nachleuchten Prozent die Gesamtlänge aus Kopf plus weich abfallendem Schweif. Werte über 100 Prozent sind bis 200 Prozent möglich, sodass der Kopf über einen leicht leuchtenden Hintergrund laufen kann; die Canvas-Vorschau und Eingabeprüfung wurden angepasst."
-                  },
-                  {
-                      "version":  "0.0.73",
-                      "bin":  "knx-led-controller_0.0.73.bin",
-                      "date":  "2026-06-13",
-                      "note":  "Abläufe-WebUI übersichtlicher gemacht: Start-, Ein-, Aus- und globale Effekt-Einstellungen sind gruppiert und nicht benötigte Felder werden abhängig von der Auswahl ausgeblendet. Lauflicht/Wellen setzen betroffene LEDs nur noch auf 10 Prozent, wenn vorher ein großer Wert eingestellt war; Nachleuchten nutzt das Zusatzfeld als Nachleuchten-Prozentwert."
                   }
               ]
 }

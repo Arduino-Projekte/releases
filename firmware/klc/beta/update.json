@@ -1,12 +1,12 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller_0.0.77.bin",
+                     "url":  "knx-led-controller_0.0.78.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.77",
-                     "bin":  "knx-led-controller_0.0.77.bin",
-                     "file":  "knx-led-controller_0.0.77.bin",
-                     "message":  "Canvas-Vorschau verfeinert: Wellen mit Nachleuchten behalten ihren Schweif jetzt auch am Ping-Pong-Wendepunkt. Beim Zurückwerfen am Rand wird die zuletzt überfahrene Nachleuchtspur weitergeführt und die zurücklaufende Welle hellt sie darüber wieder auf; dadurch verschwindet der Schweif nicht mehr schlagartig.",
+                     "version":  "0.0.78",
+                     "bin":  "knx-led-controller_0.0.78.bin",
+                     "file":  "knx-led-controller_0.0.78.bin",
+                     "message":  "Abläufe erweitert: Die Start- und Aus-Phasen bekommen jetzt die fehlenden Ein-Effekte wie Statisch, Pulsation, Warnblinken, Nachtlicht und Segmente. Die Abläufe-WebUI ordnet Nachleuchten in eine zweite Optionszeile und Wellen-Ping-Pong in eine dritte Zeile ein, damit Hauptdauer und übrige Felder optisch stabil bleiben.",
                      "http_code":  200
                  }
 }
