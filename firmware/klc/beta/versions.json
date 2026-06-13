@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.79",
+                      "bin":  "knx-led-controller_0.0.79.bin",
+                      "date":  "2026-06-14",
+                      "note":  "Ablaufvorschau verfeinert: Aus-Wellen mit Nachleuchten laufen jetzt intern über Kopf plus Schweif aus, damit am Ende kein heller Rest abrupt verschwindet. Außerdem läuft der Aus-Effekt nach dem EIN-Übergang ohne Zeit-Rücksprung weiter. Die Abläufe-WebUI verteilt die Start-/Haupt-/Aus-Dauerfelder breiter und setzt Hilfetexte unter die Eingabefelder."
+                  },
+                  {
                       "version":  "0.0.78",
                       "bin":  "knx-led-controller_0.0.78.bin",
                       "date":  "2026-06-14",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller_0.0.75.bin",
                       "date":  "2026-06-13",
                       "note":  "Abläufe-WebUI aufgeräumt: Wellen werden in den Dropdowns nur noch einmal angezeigt und Nachleuchten wird per Haken optional zugeschaltet. Segmentgröße und Nachleuchten haben getrennte Prozentfelder, wodurch Segmente und Schweif-Länge unabhängig eingestellt und gespeichert werden; Canvas-Vorschau und JSON wurden angepasst."
-                  },
-                  {
-                      "version":  "0.0.74",
-                      "bin":  "knx-led-controller_0.0.74.bin",
-                      "date":  "2026-06-13",
-                      "note":  "Nachleuchten-Logik verfeinert: Bei Wellen mit Nachleuchten bilden Betroffene LEDs den voll hellen Kopf und Nachleuchten Prozent die Gesamtlänge aus Kopf plus weich abfallendem Schweif. Werte über 100 Prozent sind bis 200 Prozent möglich, sodass der Kopf über einen leicht leuchtenden Hintergrund laufen kann; die Canvas-Vorschau und Eingabeprüfung wurden angepasst."
                   }
               ]
 }

@@ -1,12 +1,12 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller_0.0.78.bin",
+                     "url":  "knx-led-controller_0.0.79.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.78",
-                     "bin":  "knx-led-controller_0.0.78.bin",
-                     "file":  "knx-led-controller_0.0.78.bin",
-                     "message":  "Abläufe erweitert: Die Start- und Aus-Phasen bekommen jetzt die fehlenden Ein-Effekte wie Statisch, Pulsation, Warnblinken, Nachtlicht und Segmente. Die Abläufe-WebUI ordnet Nachleuchten in eine zweite Optionszeile und Wellen-Ping-Pong in eine dritte Zeile ein, damit Hauptdauer und übrige Felder optisch stabil bleiben.",
+                     "version":  "0.0.79",
+                     "bin":  "knx-led-controller_0.0.79.bin",
+                     "file":  "knx-led-controller_0.0.79.bin",
+                     "message":  "Ablaufvorschau verfeinert: Aus-Wellen mit Nachleuchten laufen jetzt intern über Kopf plus Schweif aus, damit am Ende kein heller Rest abrupt verschwindet. Außerdem läuft der Aus-Effekt nach dem EIN-Übergang ohne Zeit-Rücksprung weiter. Die Abläufe-WebUI verteilt die Start-/Haupt-/Aus-Dauerfelder breiter und setzt Hilfetexte unter die Eingabefelder.",
                      "http_code":  200
                  }
 }
