@@ -1,12 +1,12 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller_0.0.73.bin",
+                     "url":  "knx-led-controller_0.0.74.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.73",
-                     "bin":  "knx-led-controller_0.0.73.bin",
-                     "file":  "knx-led-controller_0.0.73.bin",
-                     "message":  "Abläufe-WebUI übersichtlicher gemacht: Start-, Ein-, Aus- und globale Effekt-Einstellungen sind gruppiert und nicht benötigte Felder werden abhängig von der Auswahl ausgeblendet. Lauflicht/Wellen setzen betroffene LEDs nur noch auf 10 Prozent, wenn vorher ein großer Wert eingestellt war; Nachleuchten nutzt das Zusatzfeld als Nachleuchten-Prozentwert.",
+                     "version":  "0.0.74",
+                     "bin":  "knx-led-controller_0.0.74.bin",
+                     "file":  "knx-led-controller_0.0.74.bin",
+                     "message":  "Nachleuchten-Logik verfeinert: Bei Wellen mit Nachleuchten bilden Betroffene LEDs den voll hellen Kopf und Nachleuchten Prozent die Gesamtlänge aus Kopf plus weich abfallendem Schweif. Werte über 100 Prozent sind bis 200 Prozent möglich, sodass der Kopf über einen leicht leuchtenden Hintergrund laufen kann; die Canvas-Vorschau und Eingabeprüfung wurden angepasst.",
                      "http_code":  200
                  }
 }
