@@ -1,12 +1,12 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller_0.0.62.bin",
+                     "url":  "knx-led-controller_0.0.63.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.62",
-                     "bin":  "knx-led-controller_0.0.62.bin",
-                     "file":  "knx-led-controller_0.0.62.bin",
-                     "message":  "Canvas-Vorschau auf Szenenabläufe umgestellt: Die Vorschau zeigt jetzt Start-Effekt, Hauptphase und Aus-Effekt als gemeinsamen Ablauf mit Zeitachse, Phase START/EIN/AUS, Hauptdauer, sanften Rampen, Pulsation, Lauflicht, Richtung, Synchronisation und Startversatz. Die alte serverseitige Einzelbild-API bleibt als Fallback erhalten.",
+                     "version":  "0.0.63",
+                     "bin":  "knx-led-controller_0.0.63.bin",
+                     "file":  "knx-led-controller_0.0.63.bin",
+                     "message":  "Abläufe und Vorschau besser verbunden: Aus der Registerkarte Abläufe kann jede Szene direkt in der Animationsvorschau geöffnet werden und die Vorschau bietet einen Rückweg zu Abläufe. Die Canvas-Vorschau hat zusätzliche Phase-Tasten für START, EIN und AUS sowie ein Vorschau-Tempo, damit lange Start-Lauflichter nicht erst komplett abgewartet werden müssen.",
                      "http_code":  200
                  }
 }

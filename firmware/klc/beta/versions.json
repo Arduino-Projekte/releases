@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.63",
+                      "bin":  "knx-led-controller_0.0.63.bin",
+                      "date":  "2026-06-13",
+                      "note":  "Abläufe und Vorschau besser verbunden: Aus der Registerkarte Abläufe kann jede Szene direkt in der Animationsvorschau geöffnet werden und die Vorschau bietet einen Rückweg zu Abläufe. Die Canvas-Vorschau hat zusätzliche Phase-Tasten für START, EIN und AUS sowie ein Vorschau-Tempo, damit lange Start-Lauflichter nicht erst komplett abgewartet werden müssen."
+                  },
+                  {
                       "version":  "0.0.62",
                       "bin":  "knx-led-controller_0.0.62.bin",
                       "date":  "2026-06-13",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller_0.0.59.bin",
                       "date":  "2026-06-13",
                       "note":  "Animationsvorschau auf Canvas umgestellt: Die Vorschauseite lädt Szenen- und Ausgangsdaten einmal und animiert danach lokal im Browser ohne sichtbares Seiten-Neuladen. Play/Pause, Neu starten, Zeit-Slider und Maus-/Finger-Scrubbing zeigen Lauflicht, Fade, Richtung, betroffene LEDs, Synchronisation und Startversatz flüssiger an; der serverseitige Einzel-Frame bleibt als Fallback erhalten."
-                  },
-                  {
-                      "version":  "0.0.58",
-                      "bin":  "knx-led-controller_0.0.58.bin",
-                      "date":  "2026-06-13",
-                      "note":  "Animationsvorschau erneut robuster gemacht: Animation starten verwendet jetzt einen reinen HTML-/Meta-Refresh-Fallback statt JavaScript/Fetch. Szene anzeigen und Animation laufen damit über normale Seitenaufrufe; der Controller berechnet jeden Frame serverseitig und die Pause funktioniert als normaler Link."
                   }
               ]
 }
