@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.72",
+                      "bin":  "knx-led-controller_0.0.72.bin",
+                      "date":  "2026-06-13",
+                      "note":  "Abläufe-WebUI und Wellenvorschau verfeinert: Beim Wechsel des Haupt-Effekts setzt die Oberfläche sinnvolle Vorgaben für betroffene LEDs, Segmenteffekte auf 100 Prozent und Lauflicht/Wellen auf 10 Prozent. Laufende Wellen in der Hauptphase werden in der Canvas-Vorschau zyklisch berechnet, damit sie am Rand nahtlos wieder am anderen Rand erscheinen statt kurz zu verschwinden."
+                  },
+                  {
                       "version":  "0.0.71",
                       "bin":  "knx-led-controller_0.0.71.bin",
                       "date":  "2026-06-13",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller_0.0.68.bin",
                       "date":  "2026-06-13",
                       "note":  "Ablaufvorschau geglättet: Übergänge blenden jetzt nur noch die Helligkeit weich über, während Lauflicht-, Wellen- und Segmentpositionen zeitlich weiterlaufen. Dadurch bleibt die Animation während der Übergangsdauer in Bewegung und springt nach z.B. 300 ms nicht mehr plötzlich auf die berechnete Position."
-                  },
-                  {
-                      "version":  "0.0.67",
-                      "bin":  "knx-led-controller_0.0.67.bin",
-                      "date":  "2026-06-13",
-                      "note":  "Ablaufvorschau korrigiert: Der globale Zeitversatz verschiebt jetzt pro Ausgang die komplette Zeitleiste aus Start, EIN und Aus statt nur die aktuelle Phase. Dadurch bleiben bereits gestartete Ausgänge nahtlos in der EIN-Phase, während verzögerte Ausgänge noch starten; Phase-Tasten und Zeitachse berücksichtigen das Versatzfenster."
                   }
               ]
 }

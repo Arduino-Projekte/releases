@@ -1,12 +1,12 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller_0.0.71.bin",
+                     "url":  "knx-led-controller_0.0.72.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.71",
-                     "bin":  "knx-led-controller_0.0.71.bin",
-                     "file":  "knx-led-controller_0.0.71.bin",
-                     "message":  "Segment-Leuchten erweitert: Neben dem bisherigen Segmentmuster gibt es jetzt Segment Rand + Mitte, bei dem Anfang und Ende leuchten und die Zwischen-Segmente symmetrisch verteilt werden. Beide Segmentvarianten zeichnen leuchtende Blöcke vollständig und verteilen verbleibende dunkle Abstände gleichmäßig, damit keine angeschnittenen Segmente entstehen.",
+                     "version":  "0.0.72",
+                     "bin":  "knx-led-controller_0.0.72.bin",
+                     "file":  "knx-led-controller_0.0.72.bin",
+                     "message":  "Abläufe-WebUI und Wellenvorschau verfeinert: Beim Wechsel des Haupt-Effekts setzt die Oberfläche sinnvolle Vorgaben für betroffene LEDs, Segmenteffekte auf 100 Prozent und Lauflicht/Wellen auf 10 Prozent. Laufende Wellen in der Hauptphase werden in der Canvas-Vorschau zyklisch berechnet, damit sie am Rand nahtlos wieder am anderen Rand erscheinen statt kurz zu verschwinden.",
                      "http_code":  200
                  }
 }
