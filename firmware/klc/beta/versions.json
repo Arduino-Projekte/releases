@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.61",
+                      "bin":  "knx-led-controller_0.0.61.bin",
+                      "date":  "2026-06-13",
+                      "note":  "Beta-Schnellupdate ergänzt: In der oberen Navigation gibt es neben Admin einen Beta Update Knopf, der von jeder Seite aus den Beta-Pfad prüft und die dort veröffentlichte neueste Firmware installiert. Während Update oder Neustart läuft, wird der Knopf automatisch gesperrt."
+                  },
+                  {
                       "version":  "0.0.60",
                       "bin":  "knx-led-controller_0.0.60.bin",
                       "date":  "2026-06-13",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller_0.0.57.bin",
                       "date":  "2026-06-13",
                       "note":  "Animationsvorschau robuster gemacht: Der erste Vorschau-Frame wird jetzt direkt mit der Seite ausgeliefert und ist auch ohne laufendes JavaScript sichtbar. Die Szenenauswahl funktioniert zusätzlich als normales Formular, während JavaScript nur noch optional für Live-Aktualisierung und Animation verwendet wird."
-                  },
-                  {
-                      "version":  "0.0.56",
-                      "bin":  "knx-led-controller_0.0.56.bin",
-                      "date":  "2026-06-13",
-                      "note":  "Animationsvorschau neu aufgebaut: Die bisherige eingebettete Browser-Simulation wurde durch eine eigene schlanke Vorschau-Seite ersetzt. Der Controller erzeugt serverseitig einfache HTML-Frames über /api/preview, sodass der Browser nur noch fertige Balken anzeigt; die Szenenseite verweist nur noch auf diese neue Vorschau."
                   }
               ]
 }
