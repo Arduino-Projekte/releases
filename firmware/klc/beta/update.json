@@ -1,12 +1,12 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller_0.0.76.bin",
+                     "url":  "knx-led-controller_0.0.77.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.76",
-                     "bin":  "knx-led-controller_0.0.76.bin",
-                     "file":  "knx-led-controller_0.0.76.bin",
-                     "message":  "Wellen-Effekte erweitert: Für Wellen gibt es jetzt die Option am Rand zurückwerfen. Laufende Wellen schwappen damit im Ping-Pong-Verhalten hin und her, statt nach dem Rand auf der anderen Seite neu zu starten; Einstellung, Backup/Restore, JSON und Canvas-Vorschau wurden erweitert.",
+                     "version":  "0.0.77",
+                     "bin":  "knx-led-controller_0.0.77.bin",
+                     "file":  "knx-led-controller_0.0.77.bin",
+                     "message":  "Canvas-Vorschau verfeinert: Wellen mit Nachleuchten behalten ihren Schweif jetzt auch am Ping-Pong-Wendepunkt. Beim Zurückwerfen am Rand wird die zuletzt überfahrene Nachleuchtspur weitergeführt und die zurücklaufende Welle hellt sie darüber wieder auf; dadurch verschwindet der Schweif nicht mehr schlagartig.",
                      "http_code":  200
                  }
 }
