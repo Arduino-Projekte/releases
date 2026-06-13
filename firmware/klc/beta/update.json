@@ -1,12 +1,12 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller_0.0.72.bin",
+                     "url":  "knx-led-controller_0.0.73.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.72",
-                     "bin":  "knx-led-controller_0.0.72.bin",
-                     "file":  "knx-led-controller_0.0.72.bin",
-                     "message":  "Abläufe-WebUI und Wellenvorschau verfeinert: Beim Wechsel des Haupt-Effekts setzt die Oberfläche sinnvolle Vorgaben für betroffene LEDs, Segmenteffekte auf 100 Prozent und Lauflicht/Wellen auf 10 Prozent. Laufende Wellen in der Hauptphase werden in der Canvas-Vorschau zyklisch berechnet, damit sie am Rand nahtlos wieder am anderen Rand erscheinen statt kurz zu verschwinden.",
+                     "version":  "0.0.73",
+                     "bin":  "knx-led-controller_0.0.73.bin",
+                     "file":  "knx-led-controller_0.0.73.bin",
+                     "message":  "Abläufe-WebUI übersichtlicher gemacht: Start-, Ein-, Aus- und globale Effekt-Einstellungen sind gruppiert und nicht benötigte Felder werden abhängig von der Auswahl ausgeblendet. Lauflicht/Wellen setzen betroffene LEDs nur noch auf 10 Prozent, wenn vorher ein großer Wert eingestellt war; Nachleuchten nutzt das Zusatzfeld als Nachleuchten-Prozentwert.",
                      "http_code":  200
                  }
 }
