@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.64",
+                      "bin":  "knx-led-controller_0.0.64.bin",
+                      "date":  "2026-06-13",
+                      "note":  "Einstellungen bei Firmware-Updates besser geschützt: Vor dem Überschreiben der Konfiguration wird automatisch eine Rettungskopie angelegt und Speicherungen laufen über eine temporäre Datei. Wenn eine vorhandene Konfiguration nach einem Update nicht geladen werden kann, wird sie nicht mehr automatisch mit Defaults überschrieben."
+                  },
+                  {
                       "version":  "0.0.63",
                       "bin":  "knx-led-controller_0.0.63.bin",
                       "date":  "2026-06-13",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller_0.0.60.bin",
                       "date":  "2026-06-13",
                       "note":  "Szenenablauf vorbereitet: Neue Registerkarte Abläufe ergänzt, in der jede Szene aus Start-Effekt, Hauptphase und Aus-Effekt aufgebaut werden kann. Hauptdauer 0 ms bedeutet dauerhaft, Zeiten für sanfte Rampen, Pulsation und Treppenhausfunktionen werden gespeichert; Backup/Restore und Schema-Migration wurden erweitert."
-                  },
-                  {
-                      "version":  "0.0.59",
-                      "bin":  "knx-led-controller_0.0.59.bin",
-                      "date":  "2026-06-13",
-                      "note":  "Animationsvorschau auf Canvas umgestellt: Die Vorschauseite lädt Szenen- und Ausgangsdaten einmal und animiert danach lokal im Browser ohne sichtbares Seiten-Neuladen. Play/Pause, Neu starten, Zeit-Slider und Maus-/Finger-Scrubbing zeigen Lauflicht, Fade, Richtung, betroffene LEDs, Synchronisation und Startversatz flüssiger an; der serverseitige Einzel-Frame bleibt als Fallback erhalten."
                   }
               ]
 }
