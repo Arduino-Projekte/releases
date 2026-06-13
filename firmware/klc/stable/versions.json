@@ -1,34 +1,34 @@
 {
     "items":  [
                   {
-                      "version":  "0.0.28",
-                      "bin":  "knx-led-controller_0.0.28.bin",
-                      "date":  "2026-06-12",
-                      "note":  "Automatisch nach erfolgreichem Arduino-CLI-Build"
+                      "version":  "0.0.72",
+                      "bin":  "knx-led-controller_0.0.72.bin",
+                      "date":  "2026-06-13",
+                      "note":  "Abläufe-WebUI und Wellenvorschau verfeinert: Beim Wechsel des Haupt-Effekts setzt die Oberfläche sinnvolle Vorgaben für betroffene LEDs, Segmenteffekte auf 100 Prozent und Lauflicht/Wellen auf 10 Prozent. Laufende Wellen in der Hauptphase werden in der Canvas-Vorschau zyklisch berechnet, damit sie am Rand nahtlos wieder am anderen Rand erscheinen statt kurz zu verschwinden."
                   },
                   {
-                      "version":  "0.0.27",
-                      "bin":  "knx-led-controller_0.0.27.bin",
-                      "date":  "2026-06-12",
-                      "note":  "Automatisch nach erfolgreichem Arduino-CLI-Build"
+                      "version":  "0.0.71",
+                      "bin":  "knx-led-controller_0.0.71.bin",
+                      "date":  "2026-06-13",
+                      "note":  "Segment-Leuchten erweitert: Neben dem bisherigen Segmentmuster gibt es jetzt Segment Rand + Mitte, bei dem Anfang und Ende leuchten und die Zwischen-Segmente symmetrisch verteilt werden. Beide Segmentvarianten zeichnen leuchtende Blöcke vollständig und verteilen verbleibende dunkle Abstände gleichmäßig, damit keine angeschnittenen Segmente entstehen."
                   },
                   {
-                      "version":  "0.0.21",
-                      "bin":  "knx-led-controller_0.0.21.bin",
-                      "date":  "2026-06-11",
-                      "note":  "Automatisch nach erfolgreichem Arduino-CLI-Build"
+                      "version":  "0.0.70",
+                      "bin":  "knx-led-controller_0.0.70.bin",
+                      "date":  "2026-06-13",
+                      "note":  "Canvas-Ablaufvorschau korrigiert: Start/Stop zeitsynchron berechnet Lauflicht-Positionen jetzt über den gemeinsamen Fortschritt statt über auf ganze Millisekunden gerundete Schrittzeiten. Dadurch laufen 800/600/400/200 LED-Ausgänge proportional synchron und Ausgang 2 springt bzw. läuft nicht mehr zu weit voraus."
                   },
                   {
-                      "version":  "0.0.20",
-                      "bin":  "knx-led-controller_0.0.20.bin",
-                      "date":  "2026-06-11",
-                      "note":  "Automatisch nach erfolgreichem Arduino-CLI-Build"
+                      "version":  "0.0.69",
+                      "bin":  "knx-led-controller_0.0.69.bin",
+                      "date":  "2026-06-13",
+                      "note":  "WebUI-Texte nachgeschärft: Globaler Zeitversatz heißt jetzt Globaler Start Zeitversatz und die gesperrte Update-Bedienung wird klarer als Update läuft ... Bedienung gesperrt angezeigt. Die Ablaufvorschau-Logik aus 0.0.68 bleibt unverändert erhalten."
                   },
                   {
-                      "version":  "0.0.19",
-                      "bin":  "knx-led-controller_0.0.19.bin",
-                      "date":  "2026-06-11",
-                      "note":  "Automatisch nach erfolgreichem Arduino-CLI-Build"
+                      "version":  "0.0.68",
+                      "bin":  "knx-led-controller_0.0.68.bin",
+                      "date":  "2026-06-13",
+                      "note":  "Ablaufvorschau geglättet: Übergänge blenden jetzt nur noch die Helligkeit weich über, während Lauflicht-, Wellen- und Segmentpositionen zeitlich weiterlaufen. Dadurch bleibt die Animation während der Übergangsdauer in Bewegung und springt nach z.B. 300 ms nicht mehr plötzlich auf die berechnete Position."
                   }
               ]
 }
