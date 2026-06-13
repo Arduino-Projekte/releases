@@ -1,12 +1,12 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller_0.0.75.bin",
+                     "url":  "knx-led-controller_0.0.76.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.75",
-                     "bin":  "knx-led-controller_0.0.75.bin",
-                     "file":  "knx-led-controller_0.0.75.bin",
-                     "message":  "Abläufe-WebUI aufgeräumt: Wellen werden in den Dropdowns nur noch einmal angezeigt und Nachleuchten wird per Haken optional zugeschaltet. Segmentgröße und Nachleuchten haben getrennte Prozentfelder, wodurch Segmente und Schweif-Länge unabhängig eingestellt und gespeichert werden; Canvas-Vorschau und JSON wurden angepasst.",
+                     "version":  "0.0.76",
+                     "bin":  "knx-led-controller_0.0.76.bin",
+                     "file":  "knx-led-controller_0.0.76.bin",
+                     "message":  "Wellen-Effekte erweitert: Für Wellen gibt es jetzt die Option am Rand zurückwerfen. Laufende Wellen schwappen damit im Ping-Pong-Verhalten hin und her, statt nach dem Rand auf der anderen Seite neu zu starten; Einstellung, Backup/Restore, JSON und Canvas-Vorschau wurden erweitert.",
                      "http_code":  200
                  }
 }

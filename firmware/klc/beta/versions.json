@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.76",
+                      "bin":  "knx-led-controller_0.0.76.bin",
+                      "date":  "2026-06-14",
+                      "note":  "Wellen-Effekte erweitert: Für Wellen gibt es jetzt die Option am Rand zurückwerfen. Laufende Wellen schwappen damit im Ping-Pong-Verhalten hin und her, statt nach dem Rand auf der anderen Seite neu zu starten; Einstellung, Backup/Restore, JSON und Canvas-Vorschau wurden erweitert."
+                  },
+                  {
                       "version":  "0.0.75",
                       "bin":  "knx-led-controller_0.0.75.bin",
                       "date":  "2026-06-13",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller_0.0.72.bin",
                       "date":  "2026-06-13",
                       "note":  "Abläufe-WebUI und Wellenvorschau verfeinert: Beim Wechsel des Haupt-Effekts setzt die Oberfläche sinnvolle Vorgaben für betroffene LEDs, Segmenteffekte auf 100 Prozent und Lauflicht/Wellen auf 10 Prozent. Laufende Wellen in der Hauptphase werden in der Canvas-Vorschau zyklisch berechnet, damit sie am Rand nahtlos wieder am anderen Rand erscheinen statt kurz zu verschwinden."
-                  },
-                  {
-                      "version":  "0.0.71",
-                      "bin":  "knx-led-controller_0.0.71.bin",
-                      "date":  "2026-06-13",
-                      "note":  "Segment-Leuchten erweitert: Neben dem bisherigen Segmentmuster gibt es jetzt Segment Rand + Mitte, bei dem Anfang und Ende leuchten und die Zwischen-Segmente symmetrisch verteilt werden. Beide Segmentvarianten zeichnen leuchtende Blöcke vollständig und verteilen verbleibende dunkle Abstände gleichmäßig, damit keine angeschnittenen Segmente entstehen."
                   }
               ]
 }
