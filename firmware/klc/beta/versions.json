@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.80",
+                      "bin":  "knx-led-controller_0.0.80.bin",
+                      "date":  "2026-06-14",
+                      "note":  "Nachtlicht aus Abläufen und Szenen-Auswahl entfernt; alte Nachtlicht-Werte werden als normale statische Effekte behandelt. Ping-Pong/Rückwurf wird nur noch bei laufender Welle in der Hauptphase eingeblendet und der Hilfetext bleibt auf breiten Ansichten einzeilig. Start-Wellen gleiten jetzt von außerhalb ein, damit bei t=0 ms keine LEDs sofort hart leuchten."
+                  },
+                  {
                       "version":  "0.0.79",
                       "bin":  "knx-led-controller_0.0.79.bin",
                       "date":  "2026-06-14",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller_0.0.76.bin",
                       "date":  "2026-06-14",
                       "note":  "Wellen-Effekte erweitert: Für Wellen gibt es jetzt die Option am Rand zurückwerfen. Laufende Wellen schwappen damit im Ping-Pong-Verhalten hin und her, statt nach dem Rand auf der anderen Seite neu zu starten; Einstellung, Backup/Restore, JSON und Canvas-Vorschau wurden erweitert."
-                  },
-                  {
-                      "version":  "0.0.75",
-                      "bin":  "knx-led-controller_0.0.75.bin",
-                      "date":  "2026-06-13",
-                      "note":  "Abläufe-WebUI aufgeräumt: Wellen werden in den Dropdowns nur noch einmal angezeigt und Nachleuchten wird per Haken optional zugeschaltet. Segmentgröße und Nachleuchten haben getrennte Prozentfelder, wodurch Segmente und Schweif-Länge unabhängig eingestellt und gespeichert werden; Canvas-Vorschau und JSON wurden angepasst."
                   }
               ]
 }
