@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.88",
+                      "bin":  "knx-led-controller_0.0.88.bin",
+                      "date":  "2026-06-14",
+                      "note":  "Neue Ablauf-Effekte ergänzt: zufälliger Pixelaufbau/-abbau füllt oder leert die Leiste pixelweise in zufälliger Reihenfolge. Neue Funkel-Animation mit Geschwindigkeit, Füllgrad und Pixel-Lebenszeit; Canvas-Vorschau, WebUI, JSON, Import und Formularspeicherung wurden erweitert."
+                  },
+                  {
                       "version":  "0.0.87",
                       "bin":  "knx-led-controller_0.0.87.bin",
                       "date":  "2026-06-14",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller_0.0.84.bin",
                       "date":  "2026-06-14",
                       "note":  "Buildfix nach Tetris-Patch: Projektname-Konstanten in klc_version.h wieder ergaenzt. Die Tetris-Animation und Schema 19 bleiben unveraendert."
-                  },
-                  {
-                      "version":  "0.0.82",
-                      "bin":  "knx-led-controller_0.0.82.bin",
-                      "date":  "2026-06-14",
-                      "note":  "Abläufe-WebUI merkt den Ein-/Ausklappzustand der Szenenkacheln im Browser und startet ohne gespeicherten Zustand eingeklappt. Die inneren Gruppen Grunddaten, Start, EIN, Aus und Globale Effekt-Einstellungen sind optisch deutlicher eingerahmt; Laufzeitsynchronisation wird nun auch bei Wellen in der Canvas-Vorschau pro Ausgang mit gleicher Schrittzeit berechnet."
                   }
               ]
 }

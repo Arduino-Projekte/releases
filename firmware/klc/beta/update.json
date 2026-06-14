@@ -1,12 +1,12 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller_0.0.87.bin",
+                     "url":  "knx-led-controller_0.0.88.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.87",
-                     "bin":  "knx-led-controller_0.0.87.bin",
-                     "file":  "knx-led-controller_0.0.87.bin",
-                     "message":  "Tetris-Hauptphase läuft jetzt nach voller Leiste mit einer wählbaren Zyklus-Übergangsart weiter, statt abrupt von vorn zu starten. Die bisherige Tetris-Abbauart wird auch als Übergang während EIN genutzt; neu ist zusätzlich sanftes Ausperlen/Funkeln. Canvas-Vorschau und WebUI-Texte wurden entsprechend angepasst.",
+                     "version":  "0.0.88",
+                     "bin":  "knx-led-controller_0.0.88.bin",
+                     "file":  "knx-led-controller_0.0.88.bin",
+                     "message":  "Neue Ablauf-Effekte ergänzt: zufälliger Pixelaufbau/-abbau füllt oder leert die Leiste pixelweise in zufälliger Reihenfolge. Neue Funkel-Animation mit Geschwindigkeit, Füllgrad und Pixel-Lebenszeit; Canvas-Vorschau, WebUI, JSON, Import und Formularspeicherung wurden erweitert.",
                      "http_code":  200
                  }
 }
