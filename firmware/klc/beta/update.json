@@ -1,12 +1,12 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller_0.0.88.bin",
+                     "url":  "knx-led-controller_0.0.89.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.88",
-                     "bin":  "knx-led-controller_0.0.88.bin",
-                     "file":  "knx-led-controller_0.0.88.bin",
-                     "message":  "Neue Ablauf-Effekte ergänzt: zufälliger Pixelaufbau/-abbau füllt oder leert die Leiste pixelweise in zufälliger Reihenfolge. Neue Funkel-Animation mit Geschwindigkeit, Füllgrad und Pixel-Lebenszeit; Canvas-Vorschau, WebUI, JSON, Import und Formularspeicherung wurden erweitert.",
+                     "version":  "0.0.89",
+                     "bin":  "knx-led-controller_0.0.89.bin",
+                     "file":  "knx-led-controller_0.0.89.bin",
+                     "message":  "Tetris verfeinert: Pixelgruppen haben jetzt Min-/Max-Größe, Blockgröße und Zufallsfarbe werden je Durchlauf neu ausgelost und die Übergangs-/Abbauarten laufen optisch in der passenden Fallrichtung. Weiter gespült wurde in weiter schieben umbenannt; Ausperlen/Funkeln flackert nun pixelweise statt nur als Rampe zu dimmen.",
                      "http_code":  200
                  }
 }

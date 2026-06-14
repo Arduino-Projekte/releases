@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.89",
+                      "bin":  "knx-led-controller_0.0.89.bin",
+                      "date":  "2026-06-14",
+                      "note":  "Tetris verfeinert: Pixelgruppen haben jetzt Min-/Max-Größe, Blockgröße und Zufallsfarbe werden je Durchlauf neu ausgelost und die Übergangs-/Abbauarten laufen optisch in der passenden Fallrichtung. Weiter gespült wurde in weiter schieben umbenannt; Ausperlen/Funkeln flackert nun pixelweise statt nur als Rampe zu dimmen."
+                  },
+                  {
                       "version":  "0.0.88",
                       "bin":  "knx-led-controller_0.0.88.bin",
                       "date":  "2026-06-14",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller_0.0.85.bin",
                       "date":  "2026-06-14",
                       "note":  "Tetris-Feinschliff: Schrittzeit steuert die Aufbaugeschwindigkeit in der Vorschau, Tetris-Optionen stehen in der Hauptphasen-Kachel und zufaellige Farben werden nur bei aktivem Haken verwendet."
-                  },
-                  {
-                      "version":  "0.0.84",
-                      "bin":  "knx-led-controller_0.0.84.bin",
-                      "date":  "2026-06-14",
-                      "note":  "Buildfix nach Tetris-Patch: Projektname-Konstanten in klc_version.h wieder ergaenzt. Die Tetris-Animation und Schema 19 bleiben unveraendert."
                   }
               ]
 }
