@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.92",
+                      "bin":  "knx-led-controller_0.0.92.bin",
+                      "date":  "2026-06-14",
+                      "note":  "LED-Ausgänge erweitert: Pro Ausgang kann jetzt ein LED-Versatz eingestellt werden, damit Animationen und die gefühlte Mitte im Raum besser zu den montierten Strängen passen. Der Versatz wird gespeichert, in JSON ausgegeben und in der Canvas-Vorschau auf alle Muster angewendet."
+                  },
+                  {
                       "version":  "0.0.91",
                       "bin":  "knx-led-controller_0.0.91.bin",
                       "date":  "2026-06-14",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller_0.0.72.bin",
                       "date":  "2026-06-13",
                       "note":  "Abläufe-WebUI und Wellenvorschau verfeinert: Beim Wechsel des Haupt-Effekts setzt die Oberfläche sinnvolle Vorgaben für betroffene LEDs, Segmenteffekte auf 100 Prozent und Lauflicht/Wellen auf 10 Prozent. Laufende Wellen in der Hauptphase werden in der Canvas-Vorschau zyklisch berechnet, damit sie am Rand nahtlos wieder am anderen Rand erscheinen statt kurz zu verschwinden."
-                  },
-                  {
-                      "version":  "0.0.71",
-                      "bin":  "knx-led-controller_0.0.71.bin",
-                      "date":  "2026-06-13",
-                      "note":  "Segment-Leuchten erweitert: Neben dem bisherigen Segmentmuster gibt es jetzt Segment Rand + Mitte, bei dem Anfang und Ende leuchten und die Zwischen-Segmente symmetrisch verteilt werden. Beide Segmentvarianten zeichnen leuchtende Blöcke vollständig und verteilen verbleibende dunkle Abstände gleichmäßig, damit keine angeschnittenen Segmente entstehen."
                   }
               ]
 }
