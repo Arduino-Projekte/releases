@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.90",
+                      "bin":  "knx-led-controller_0.0.90.bin",
+                      "date":  "2026-06-14",
+                      "note":  "Abläufe verfeinert: Statisch leuchten setzt kleine Werte der betroffenen LEDs automatisch auf 100 Prozent. Lauflicht unterstützt jetzt auch Mitte nach außen und außen zur Mitte; Lauflicht/Welle werden in der Abläufe-WebUI über Effektart plus Richtung gewählt."
+                  },
+                  {
                       "version":  "0.0.89",
                       "bin":  "knx-led-controller_0.0.89.bin",
                       "date":  "2026-06-14",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller_0.0.86.bin",
                       "date":  "2026-06-14",
                       "note":  "Tetris-Abbau erweitert: Aus-Tetris kann in umgekehrter Reihenfolge verschwinden, zufaellig nach unten wegfallen oder als komplette Leiste weitergespuelt werden; Vorschau, WebUI und Speicherung wurden angepasst."
-                  },
-                  {
-                      "version":  "0.0.85",
-                      "bin":  "knx-led-controller_0.0.85.bin",
-                      "date":  "2026-06-14",
-                      "note":  "Tetris-Feinschliff: Schrittzeit steuert die Aufbaugeschwindigkeit in der Vorschau, Tetris-Optionen stehen in der Hauptphasen-Kachel und zufaellige Farben werden nur bei aktivem Haken verwendet."
                   }
               ]
 }
