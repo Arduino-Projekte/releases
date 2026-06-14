@@ -1,12 +1,12 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller_0.0.72.bin",
+                     "url":  "knx-led-controller_0.0.88.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.72",
-                     "bin":  "knx-led-controller_0.0.72.bin",
-                     "file":  "knx-led-controller_0.0.72.bin",
-                     "message":  "Abläufe-WebUI und Wellenvorschau verfeinert: Beim Wechsel des Haupt-Effekts setzt die Oberfläche sinnvolle Vorgaben für betroffene LEDs, Segmenteffekte auf 100 Prozent und Lauflicht/Wellen auf 10 Prozent. Laufende Wellen in der Hauptphase werden in der Canvas-Vorschau zyklisch berechnet, damit sie am Rand nahtlos wieder am anderen Rand erscheinen statt kurz zu verschwinden.",
+                     "version":  "0.0.88",
+                     "bin":  "knx-led-controller_0.0.88.bin",
+                     "file":  "knx-led-controller_0.0.88.bin",
+                     "message":  "Neue Ablauf-Effekte ergänzt: zufälliger Pixelaufbau/-abbau füllt oder leert die Leiste pixelweise in zufälliger Reihenfolge. Neue Funkel-Animation mit Geschwindigkeit, Füllgrad und Pixel-Lebenszeit; Canvas-Vorschau, WebUI, JSON, Import und Formularspeicherung wurden erweitert.",
                      "http_code":  200
                  }
 }

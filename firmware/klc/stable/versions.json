@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.88",
+                      "bin":  "knx-led-controller_0.0.88.bin",
+                      "date":  "2026-06-14",
+                      "note":  "Neue Ablauf-Effekte ergänzt: zufälliger Pixelaufbau/-abbau füllt oder leert die Leiste pixelweise in zufälliger Reihenfolge. Neue Funkel-Animation mit Geschwindigkeit, Füllgrad und Pixel-Lebenszeit; Canvas-Vorschau, WebUI, JSON, Import und Formularspeicherung wurden erweitert."
+                  },
+                  {
                       "version":  "0.0.72",
                       "bin":  "knx-led-controller_0.0.72.bin",
                       "date":  "2026-06-13",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller_0.0.69.bin",
                       "date":  "2026-06-13",
                       "note":  "WebUI-Texte nachgeschärft: Globaler Zeitversatz heißt jetzt Globaler Start Zeitversatz und die gesperrte Update-Bedienung wird klarer als Update läuft ... Bedienung gesperrt angezeigt. Die Ablaufvorschau-Logik aus 0.0.68 bleibt unverändert erhalten."
-                  },
-                  {
-                      "version":  "0.0.68",
-                      "bin":  "knx-led-controller_0.0.68.bin",
-                      "date":  "2026-06-13",
-                      "note":  "Ablaufvorschau geglättet: Übergänge blenden jetzt nur noch die Helligkeit weich über, während Lauflicht-, Wellen- und Segmentpositionen zeitlich weiterlaufen. Dadurch bleibt die Animation während der Übergangsdauer in Bewegung und springt nach z.B. 300 ms nicht mehr plötzlich auf die berechnete Position."
                   }
               ]
 }
