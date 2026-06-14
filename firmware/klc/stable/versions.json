@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.89",
+                      "bin":  "knx-led-controller_0.0.89.bin",
+                      "date":  "2026-06-14",
+                      "note":  "Tetris verfeinert: Pixelgruppen haben jetzt Min-/Max-Größe, Blockgröße und Zufallsfarbe werden je Durchlauf neu ausgelost und die Übergangs-/Abbauarten laufen optisch in der passenden Fallrichtung. Weiter gespült wurde in weiter schieben umbenannt; Ausperlen/Funkeln flackert nun pixelweise statt nur als Rampe zu dimmen."
+                  },
+                  {
                       "version":  "0.0.88",
                       "bin":  "knx-led-controller_0.0.88.bin",
                       "date":  "2026-06-14",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller_0.0.70.bin",
                       "date":  "2026-06-13",
                       "note":  "Canvas-Ablaufvorschau korrigiert: Start/Stop zeitsynchron berechnet Lauflicht-Positionen jetzt über den gemeinsamen Fortschritt statt über auf ganze Millisekunden gerundete Schrittzeiten. Dadurch laufen 800/600/400/200 LED-Ausgänge proportional synchron und Ausgang 2 springt bzw. läuft nicht mehr zu weit voraus."
-                  },
-                  {
-                      "version":  "0.0.69",
-                      "bin":  "knx-led-controller_0.0.69.bin",
-                      "date":  "2026-06-13",
-                      "note":  "WebUI-Texte nachgeschärft: Globaler Zeitversatz heißt jetzt Globaler Start Zeitversatz und die gesperrte Update-Bedienung wird klarer als Update läuft ... Bedienung gesperrt angezeigt. Die Ablaufvorschau-Logik aus 0.0.68 bleibt unverändert erhalten."
                   }
               ]
 }
