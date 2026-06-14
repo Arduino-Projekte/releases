@@ -1,12 +1,12 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller_0.0.96.bin",
+                     "url":  "knx-led-controller_0.0.97.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.96",
-                     "bin":  "knx-led-controller_0.0.96.bin",
-                     "file":  "knx-led-controller_0.0.96.bin",
-                     "message":  "Abläufe-WebUI RAM-schonend umgebaut: Die Seite bearbeitet jetzt gezielt eine ausgewählte Szene statt alle Szenenformulare gleichzeitig zu rendern. Dadurch sinkt der benötigte WebUI-Puffer deutlich; Szenenauswahl, Vor/Zurück und Rückkehr zur gleichen Szene nach dem Speichern wurden ergänzt.",
+                     "version":  "0.0.97",
+                     "bin":  "knx-led-controller_0.0.97.bin",
+                     "file":  "knx-led-controller_0.0.97.bin",
+                     "message":  "Abläufe-WebUI bleibt RAM-schonend und zeigt jetzt zusätzlich eine kompakte Schnellwahl für alle Szenen. Nur die ausgewählte Szene wird als großes Formular geladen, damit die Seite übersichtlich bleibt und trotzdem wenig RAM benötigt.",
                      "http_code":  200
                  }
 }

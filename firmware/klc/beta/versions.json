@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.97",
+                      "bin":  "knx-led-controller_0.0.97.bin",
+                      "date":  "2026-06-14",
+                      "note":  "Abläufe-WebUI bleibt RAM-schonend und zeigt jetzt zusätzlich eine kompakte Schnellwahl für alle Szenen. Nur die ausgewählte Szene wird als großes Formular geladen, damit die Seite übersichtlich bleibt und trotzdem wenig RAM benötigt."
+                  },
+                  {
                       "version":  "0.0.96",
                       "bin":  "knx-led-controller_0.0.96.bin",
                       "date":  "2026-06-14",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller_0.0.93.bin",
                       "date":  "2026-06-14",
                       "note":  "LED-Versatz begrenzt: Der Versatz pro Ausgang wird nicht mehr pauschal auf ±5000 erlaubt, sondern automatisch auf die halbe Pixelanzahl plus 1 begrenzt. Wird die Pixelanzahl verkleinert oder ein Backup importiert, wird ein zu großer Versatz sauber in den gültigen Bereich geklemmt."
-                  },
-                  {
-                      "version":  "0.0.92",
-                      "bin":  "knx-led-controller_0.0.92.bin",
-                      "date":  "2026-06-14",
-                      "note":  "LED-Ausgänge erweitert: Pro Ausgang kann jetzt ein LED-Versatz eingestellt werden, damit Animationen und die gefühlte Mitte im Raum besser zu den montierten Strängen passen. Der Versatz wird gespeichert, in JSON ausgegeben und in der Canvas-Vorschau auf alle Muster angewendet."
                   }
               ]
 }
