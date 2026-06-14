@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.84",
+                      "bin":  "knx-led-controller_0.0.84.bin",
+                      "date":  "2026-06-14",
+                      "note":  "Buildfix nach Tetris-Patch: Projektname-Konstanten in klc_version.h wieder ergaenzt. Die Tetris-Animation und Schema 19 bleiben unveraendert."
+                  },
+                  {
                       "version":  "0.0.82",
                       "bin":  "knx-led-controller_0.0.82.bin",
                       "date":  "2026-06-14",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller_0.0.79.bin",
                       "date":  "2026-06-14",
                       "note":  "Ablaufvorschau verfeinert: Aus-Wellen mit Nachleuchten laufen jetzt intern über Kopf plus Schweif aus, damit am Ende kein heller Rest abrupt verschwindet. Außerdem läuft der Aus-Effekt nach dem EIN-Übergang ohne Zeit-Rücksprung weiter. Die Abläufe-WebUI verteilt die Start-/Haupt-/Aus-Dauerfelder breiter und setzt Hilfetexte unter die Eingabefelder."
-                  },
-                  {
-                      "version":  "0.0.78",
-                      "bin":  "knx-led-controller_0.0.78.bin",
-                      "date":  "2026-06-14",
-                      "note":  "Abläufe erweitert: Die Start- und Aus-Phasen bekommen jetzt die fehlenden Ein-Effekte wie Statisch, Pulsation, Warnblinken, Nachtlicht und Segmente. Die Abläufe-WebUI ordnet Nachleuchten in eine zweite Optionszeile und Wellen-Ping-Pong in eine dritte Zeile ein, damit Hauptdauer und übrige Felder optisch stabil bleiben."
                   }
               ]
 }

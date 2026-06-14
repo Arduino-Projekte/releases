@@ -1,12 +1,12 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller_0.0.82.bin",
+                     "url":  "knx-led-controller_0.0.84.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.82",
-                     "bin":  "knx-led-controller_0.0.82.bin",
-                     "file":  "knx-led-controller_0.0.82.bin",
-                     "message":  "Abläufe-WebUI merkt den Ein-/Ausklappzustand der Szenenkacheln im Browser und startet ohne gespeicherten Zustand eingeklappt. Die inneren Gruppen Grunddaten, Start, EIN, Aus und Globale Effekt-Einstellungen sind optisch deutlicher eingerahmt; Laufzeitsynchronisation wird nun auch bei Wellen in der Canvas-Vorschau pro Ausgang mit gleicher Schrittzeit berechnet.",
+                     "version":  "0.0.84",
+                     "bin":  "knx-led-controller_0.0.84.bin",
+                     "file":  "knx-led-controller_0.0.84.bin",
+                     "message":  "Buildfix nach Tetris-Patch: Projektname-Konstanten in klc_version.h wieder ergaenzt. Die Tetris-Animation und Schema 19 bleiben unveraendert.",
                      "http_code":  200
                  }
 }
