@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.93",
+                      "bin":  "knx-led-controller_0.0.93.bin",
+                      "date":  "2026-06-14",
+                      "note":  "LED-Versatz begrenzt: Der Versatz pro Ausgang wird nicht mehr pauschal auf ±5000 erlaubt, sondern automatisch auf die halbe Pixelanzahl plus 1 begrenzt. Wird die Pixelanzahl verkleinert oder ein Backup importiert, wird ein zu großer Versatz sauber in den gültigen Bereich geklemmt."
+                  },
+                  {
                       "version":  "0.0.92",
                       "bin":  "knx-led-controller_0.0.92.bin",
                       "date":  "2026-06-14",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller_0.0.89.bin",
                       "date":  "2026-06-14",
                       "note":  "Tetris verfeinert: Pixelgruppen haben jetzt Min-/Max-Größe, Blockgröße und Zufallsfarbe werden je Durchlauf neu ausgelost und die Übergangs-/Abbauarten laufen optisch in der passenden Fallrichtung. Weiter gespült wurde in weiter schieben umbenannt; Ausperlen/Funkeln flackert nun pixelweise statt nur als Rampe zu dimmen."
-                  },
-                  {
-                      "version":  "0.0.88",
-                      "bin":  "knx-led-controller_0.0.88.bin",
-                      "date":  "2026-06-14",
-                      "note":  "Neue Ablauf-Effekte ergänzt: zufälliger Pixelaufbau/-abbau füllt oder leert die Leiste pixelweise in zufälliger Reihenfolge. Neue Funkel-Animation mit Geschwindigkeit, Füllgrad und Pixel-Lebenszeit; Canvas-Vorschau, WebUI, JSON, Import und Formularspeicherung wurden erweitert."
                   }
               ]
 }
