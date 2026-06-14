@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.82",
+                      "bin":  "knx-led-controller_0.0.82.bin",
+                      "date":  "2026-06-14",
+                      "note":  "Abläufe-WebUI merkt den Ein-/Ausklappzustand der Szenenkacheln im Browser und startet ohne gespeicherten Zustand eingeklappt. Die inneren Gruppen Grunddaten, Start, EIN, Aus und Globale Effekt-Einstellungen sind optisch deutlicher eingerahmt; Laufzeitsynchronisation wird nun auch bei Wellen in der Canvas-Vorschau pro Ausgang mit gleicher Schrittzeit berechnet."
+                  },
+                  {
                       "version":  "0.0.81",
                       "bin":  "knx-led-controller_0.0.81.bin",
                       "date":  "2026-06-14",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller_0.0.78.bin",
                       "date":  "2026-06-14",
                       "note":  "Abläufe erweitert: Die Start- und Aus-Phasen bekommen jetzt die fehlenden Ein-Effekte wie Statisch, Pulsation, Warnblinken, Nachtlicht und Segmente. Die Abläufe-WebUI ordnet Nachleuchten in eine zweite Optionszeile und Wellen-Ping-Pong in eine dritte Zeile ein, damit Hauptdauer und übrige Felder optisch stabil bleiben."
-                  },
-                  {
-                      "version":  "0.0.77",
-                      "bin":  "knx-led-controller_0.0.77.bin",
-                      "date":  "2026-06-14",
-                      "note":  "Canvas-Vorschau verfeinert: Wellen mit Nachleuchten behalten ihren Schweif jetzt auch am Ping-Pong-Wendepunkt. Beim Zurückwerfen am Rand wird die zuletzt überfahrene Nachleuchtspur weitergeführt und die zurücklaufende Welle hellt sie darüber wieder auf; dadurch verschwindet der Schweif nicht mehr schlagartig."
                   }
               ]
 }

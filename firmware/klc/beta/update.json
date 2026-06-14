@@ -1,12 +1,12 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller_0.0.81.bin",
+                     "url":  "knx-led-controller_0.0.82.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.81",
-                     "bin":  "knx-led-controller_0.0.81.bin",
-                     "file":  "knx-led-controller_0.0.81.bin",
-                     "message":  "Release-Veröffentlichung wird jetzt über KLC_RELEASE_PUBLISH bewusst freigeschaltet. Inaktive Szenen werden in der Abläufe-WebUI eingeklappt und zeigen nur Grunddaten, ohne gespeicherte Effektwerte zu löschen; jede Szenen-Kachel kann zusätzlich per Überschrift ein- und ausgeklappt werden.",
+                     "version":  "0.0.82",
+                     "bin":  "knx-led-controller_0.0.82.bin",
+                     "file":  "knx-led-controller_0.0.82.bin",
+                     "message":  "Abläufe-WebUI merkt den Ein-/Ausklappzustand der Szenenkacheln im Browser und startet ohne gespeicherten Zustand eingeklappt. Die inneren Gruppen Grunddaten, Start, EIN, Aus und Globale Effekt-Einstellungen sind optisch deutlicher eingerahmt; Laufzeitsynchronisation wird nun auch bei Wellen in der Canvas-Vorschau pro Ausgang mit gleicher Schrittzeit berechnet.",
                      "http_code":  200
                  }
 }
