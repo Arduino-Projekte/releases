@@ -1,12 +1,12 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller_0.0.89.bin",
+                     "url":  "knx-led-controller_0.0.91.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.89",
-                     "bin":  "knx-led-controller_0.0.89.bin",
-                     "file":  "knx-led-controller_0.0.89.bin",
-                     "message":  "Tetris verfeinert: Pixelgruppen haben jetzt Min-/Max-Größe, Blockgröße und Zufallsfarbe werden je Durchlauf neu ausgelost und die Übergangs-/Abbauarten laufen optisch in der passenden Fallrichtung. Weiter gespült wurde in weiter schieben umbenannt; Ausperlen/Funkeln flackert nun pixelweise statt nur als Rampe zu dimmen.",
+                     "version":  "0.0.91",
+                     "bin":  "knx-led-controller_0.0.91.bin",
+                     "file":  "knx-led-controller_0.0.91.bin",
+                     "message":  "Abläufe-WebUI korrigiert: Tetris-Übergang Standard umbenannt und Statisch leuchten setzt nun auch beim Umschalten der Hauptphase Während EIN kleine Werte der betroffenen LEDs zuverlässig auf 100 Prozent.",
                      "http_code":  200
                  }
 }
