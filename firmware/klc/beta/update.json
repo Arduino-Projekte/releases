@@ -1,12 +1,12 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller_0.0.80.bin",
+                     "url":  "knx-led-controller_0.0.81.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.80",
-                     "bin":  "knx-led-controller_0.0.80.bin",
-                     "file":  "knx-led-controller_0.0.80.bin",
-                     "message":  "Nachtlicht aus Abläufen und Szenen-Auswahl entfernt; alte Nachtlicht-Werte werden als normale statische Effekte behandelt. Ping-Pong/Rückwurf wird nur noch bei laufender Welle in der Hauptphase eingeblendet und der Hilfetext bleibt auf breiten Ansichten einzeilig. Start-Wellen gleiten jetzt von außerhalb ein, damit bei t=0 ms keine LEDs sofort hart leuchten.",
+                     "version":  "0.0.81",
+                     "bin":  "knx-led-controller_0.0.81.bin",
+                     "file":  "knx-led-controller_0.0.81.bin",
+                     "message":  "Release-Veröffentlichung wird jetzt über KLC_RELEASE_PUBLISH bewusst freigeschaltet. Inaktive Szenen werden in der Abläufe-WebUI eingeklappt und zeigen nur Grunddaten, ohne gespeicherte Effektwerte zu löschen; jede Szenen-Kachel kann zusätzlich per Überschrift ein- und ausgeklappt werden.",
                      "http_code":  200
                  }
 }

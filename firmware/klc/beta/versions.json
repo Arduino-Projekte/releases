@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.81",
+                      "bin":  "knx-led-controller_0.0.81.bin",
+                      "date":  "2026-06-14",
+                      "note":  "Release-Veröffentlichung wird jetzt über KLC_RELEASE_PUBLISH bewusst freigeschaltet. Inaktive Szenen werden in der Abläufe-WebUI eingeklappt und zeigen nur Grunddaten, ohne gespeicherte Effektwerte zu löschen; jede Szenen-Kachel kann zusätzlich per Überschrift ein- und ausgeklappt werden."
+                  },
+                  {
                       "version":  "0.0.80",
                       "bin":  "knx-led-controller_0.0.80.bin",
                       "date":  "2026-06-14",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller_0.0.77.bin",
                       "date":  "2026-06-14",
                       "note":  "Canvas-Vorschau verfeinert: Wellen mit Nachleuchten behalten ihren Schweif jetzt auch am Ping-Pong-Wendepunkt. Beim Zurückwerfen am Rand wird die zuletzt überfahrene Nachleuchtspur weitergeführt und die zurücklaufende Welle hellt sie darüber wieder auf; dadurch verschwindet der Schweif nicht mehr schlagartig."
-                  },
-                  {
-                      "version":  "0.0.76",
-                      "bin":  "knx-led-controller_0.0.76.bin",
-                      "date":  "2026-06-14",
-                      "note":  "Wellen-Effekte erweitert: Für Wellen gibt es jetzt die Option am Rand zurückwerfen. Laufende Wellen schwappen damit im Ping-Pong-Verhalten hin und her, statt nach dem Rand auf der anderen Seite neu zu starten; Einstellung, Backup/Restore, JSON und Canvas-Vorschau wurden erweitert."
                   }
               ]
 }
