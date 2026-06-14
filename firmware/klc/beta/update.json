@@ -1,12 +1,12 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller_0.0.85.bin",
+                     "url":  "knx-led-controller_0.0.86.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.85",
-                     "bin":  "knx-led-controller_0.0.85.bin",
-                     "file":  "knx-led-controller_0.0.85.bin",
-                     "message":  "Tetris-Feinschliff: Schrittzeit steuert die Aufbaugeschwindigkeit in der Vorschau, Tetris-Optionen stehen in der Hauptphasen-Kachel und zufaellige Farben werden nur bei aktivem Haken verwendet.",
+                     "version":  "0.0.86",
+                     "bin":  "knx-led-controller_0.0.86.bin",
+                     "file":  "knx-led-controller_0.0.86.bin",
+                     "message":  "Tetris-Abbau erweitert: Aus-Tetris kann in umgekehrter Reihenfolge verschwinden, zufaellig nach unten wegfallen oder als komplette Leiste weitergespuelt werden; Vorschau, WebUI und Speicherung wurden angepasst.",
                      "http_code":  200
                  }
 }

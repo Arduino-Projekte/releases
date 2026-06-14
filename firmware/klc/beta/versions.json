@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.86",
+                      "bin":  "knx-led-controller_0.0.86.bin",
+                      "date":  "2026-06-14",
+                      "note":  "Tetris-Abbau erweitert: Aus-Tetris kann in umgekehrter Reihenfolge verschwinden, zufaellig nach unten wegfallen oder als komplette Leiste weitergespuelt werden; Vorschau, WebUI und Speicherung wurden angepasst."
+                  },
+                  {
                       "version":  "0.0.85",
                       "bin":  "knx-led-controller_0.0.85.bin",
                       "date":  "2026-06-14",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller_0.0.81.bin",
                       "date":  "2026-06-14",
                       "note":  "Release-Veröffentlichung wird jetzt über KLC_RELEASE_PUBLISH bewusst freigeschaltet. Inaktive Szenen werden in der Abläufe-WebUI eingeklappt und zeigen nur Grunddaten, ohne gespeicherte Effektwerte zu löschen; jede Szenen-Kachel kann zusätzlich per Überschrift ein- und ausgeklappt werden."
-                  },
-                  {
-                      "version":  "0.0.80",
-                      "bin":  "knx-led-controller_0.0.80.bin",
-                      "date":  "2026-06-14",
-                      "note":  "Nachtlicht aus Abläufen und Szenen-Auswahl entfernt; alte Nachtlicht-Werte werden als normale statische Effekte behandelt. Ping-Pong/Rückwurf wird nur noch bei laufender Welle in der Hauptphase eingeblendet und der Hilfetext bleibt auf breiten Ansichten einzeilig. Start-Wellen gleiten jetzt von außerhalb ein, damit bei t=0 ms keine LEDs sofort hart leuchten."
                   }
               ]
 }
