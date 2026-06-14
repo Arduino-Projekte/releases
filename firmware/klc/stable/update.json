@@ -1,12 +1,12 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller_0.0.92.bin",
+                     "url":  "knx-led-controller_0.0.93.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.92",
-                     "bin":  "knx-led-controller_0.0.92.bin",
-                     "file":  "knx-led-controller_0.0.92.bin",
-                     "message":  "LED-Ausgänge erweitert: Pro Ausgang kann jetzt ein LED-Versatz eingestellt werden, damit Animationen und die gefühlte Mitte im Raum besser zu den montierten Strängen passen. Der Versatz wird gespeichert, in JSON ausgegeben und in der Canvas-Vorschau auf alle Muster angewendet.",
+                     "version":  "0.0.93",
+                     "bin":  "knx-led-controller_0.0.93.bin",
+                     "file":  "knx-led-controller_0.0.93.bin",
+                     "message":  "LED-Versatz begrenzt: Der Versatz pro Ausgang wird nicht mehr pauschal auf ±5000 erlaubt, sondern automatisch auf die halbe Pixelanzahl plus 1 begrenzt. Wird die Pixelanzahl verkleinert oder ein Backup importiert, wird ein zu großer Versatz sauber in den gültigen Bereich geklemmt.",
                      "http_code":  200
                  }
 }
