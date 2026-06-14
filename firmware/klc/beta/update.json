@@ -1,12 +1,12 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller_0.0.86.bin",
+                     "url":  "knx-led-controller_0.0.87.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.86",
-                     "bin":  "knx-led-controller_0.0.86.bin",
-                     "file":  "knx-led-controller_0.0.86.bin",
-                     "message":  "Tetris-Abbau erweitert: Aus-Tetris kann in umgekehrter Reihenfolge verschwinden, zufaellig nach unten wegfallen oder als komplette Leiste weitergespuelt werden; Vorschau, WebUI und Speicherung wurden angepasst.",
+                     "version":  "0.0.87",
+                     "bin":  "knx-led-controller_0.0.87.bin",
+                     "file":  "knx-led-controller_0.0.87.bin",
+                     "message":  "Tetris-Hauptphase läuft jetzt nach voller Leiste mit einer wählbaren Zyklus-Übergangsart weiter, statt abrupt von vorn zu starten. Die bisherige Tetris-Abbauart wird auch als Übergang während EIN genutzt; neu ist zusätzlich sanftes Ausperlen/Funkeln. Canvas-Vorschau und WebUI-Texte wurden entsprechend angepasst.",
                      "http_code":  200
                  }
 }
