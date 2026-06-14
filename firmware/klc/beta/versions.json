@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.91",
+                      "bin":  "knx-led-controller_0.0.91.bin",
+                      "date":  "2026-06-14",
+                      "note":  "Abläufe-WebUI korrigiert: Tetris-Übergang Standard umbenannt und Statisch leuchten setzt nun auch beim Umschalten der Hauptphase Während EIN kleine Werte der betroffenen LEDs zuverlässig auf 100 Prozent."
+                  },
+                  {
                       "version":  "0.0.90",
                       "bin":  "knx-led-controller_0.0.90.bin",
                       "date":  "2026-06-14",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller_0.0.87.bin",
                       "date":  "2026-06-14",
                       "note":  "Tetris-Hauptphase läuft jetzt nach voller Leiste mit einer wählbaren Zyklus-Übergangsart weiter, statt abrupt von vorn zu starten. Die bisherige Tetris-Abbauart wird auch als Übergang während EIN genutzt; neu ist zusätzlich sanftes Ausperlen/Funkeln. Canvas-Vorschau und WebUI-Texte wurden entsprechend angepasst."
-                  },
-                  {
-                      "version":  "0.0.86",
-                      "bin":  "knx-led-controller_0.0.86.bin",
-                      "date":  "2026-06-14",
-                      "note":  "Tetris-Abbau erweitert: Aus-Tetris kann in umgekehrter Reihenfolge verschwinden, zufaellig nach unten wegfallen oder als komplette Leiste weitergespuelt werden; Vorschau, WebUI und Speicherung wurden angepasst."
                   }
               ]
 }
