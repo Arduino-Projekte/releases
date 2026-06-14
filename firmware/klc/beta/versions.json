@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.96",
+                      "bin":  "knx-led-controller_0.0.96.bin",
+                      "date":  "2026-06-14",
+                      "note":  "Abläufe-WebUI RAM-schonend umgebaut: Die Seite bearbeitet jetzt gezielt eine ausgewählte Szene statt alle Szenenformulare gleichzeitig zu rendern. Dadurch sinkt der benötigte WebUI-Puffer deutlich; Szenenauswahl, Vor/Zurück und Rückkehr zur gleichen Szene nach dem Speichern wurden ergänzt."
+                  },
+                  {
                       "version":  "0.0.95",
                       "bin":  "knx-led-controller_0.0.95.bin",
                       "date":  "2026-06-14",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller_0.0.92.bin",
                       "date":  "2026-06-14",
                       "note":  "LED-Ausgänge erweitert: Pro Ausgang kann jetzt ein LED-Versatz eingestellt werden, damit Animationen und die gefühlte Mitte im Raum besser zu den montierten Strängen passen. Der Versatz wird gespeichert, in JSON ausgegeben und in der Canvas-Vorschau auf alle Muster angewendet."
-                  },
-                  {
-                      "version":  "0.0.91",
-                      "bin":  "knx-led-controller_0.0.91.bin",
-                      "date":  "2026-06-14",
-                      "note":  "Abläufe-WebUI korrigiert: Tetris-Übergang Standard umbenannt und Statisch leuchten setzt nun auch beim Umschalten der Hauptphase Während EIN kleine Werte der betroffenen LEDs zuverlässig auf 100 Prozent."
                   }
               ]
 }

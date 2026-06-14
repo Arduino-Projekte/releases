@@ -1,12 +1,12 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller_0.0.95.bin",
+                     "url":  "knx-led-controller_0.0.96.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.95",
-                     "bin":  "knx-led-controller_0.0.95.bin",
-                     "file":  "knx-led-controller_0.0.95.bin",
-                     "message":  "Ausgaenge-WebUI optisch korrigiert: Das Feld LED-Versatz steht jetzt wieder auf einer Ebene mit den anderen Ausgangsfeldern; der Bereichshinweis bleibt als Tooltip erhalten.",
+                     "version":  "0.0.96",
+                     "bin":  "knx-led-controller_0.0.96.bin",
+                     "file":  "knx-led-controller_0.0.96.bin",
+                     "message":  "Abläufe-WebUI RAM-schonend umgebaut: Die Seite bearbeitet jetzt gezielt eine ausgewählte Szene statt alle Szenenformulare gleichzeitig zu rendern. Dadurch sinkt der benötigte WebUI-Puffer deutlich; Szenenauswahl, Vor/Zurück und Rückkehr zur gleichen Szene nach dem Speichern wurden ergänzt.",
                      "http_code":  200
                  }
 }
