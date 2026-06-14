@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.95",
+                      "bin":  "knx-led-controller_0.0.95.bin",
+                      "date":  "2026-06-14",
+                      "note":  "Ausgaenge-WebUI optisch korrigiert: Das Feld LED-Versatz steht jetzt wieder auf einer Ebene mit den anderen Ausgangsfeldern; der Bereichshinweis bleibt als Tooltip erhalten."
+                  },
+                  {
                       "version":  "0.0.94",
                       "bin":  "knx-led-controller_0.0.94.bin",
                       "date":  "2026-06-14",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller_0.0.91.bin",
                       "date":  "2026-06-14",
                       "note":  "Abläufe-WebUI korrigiert: Tetris-Übergang Standard umbenannt und Statisch leuchten setzt nun auch beim Umschalten der Hauptphase Während EIN kleine Werte der betroffenen LEDs zuverlässig auf 100 Prozent."
-                  },
-                  {
-                      "version":  "0.0.89",
-                      "bin":  "knx-led-controller_0.0.89.bin",
-                      "date":  "2026-06-14",
-                      "note":  "Tetris verfeinert: Pixelgruppen haben jetzt Min-/Max-Größe, Blockgröße und Zufallsfarbe werden je Durchlauf neu ausgelost und die Übergangs-/Abbauarten laufen optisch in der passenden Fallrichtung. Weiter gespült wurde in weiter schieben umbenannt; Ausperlen/Funkeln flackert nun pixelweise statt nur als Rampe zu dimmen."
                   }
               ]
 }

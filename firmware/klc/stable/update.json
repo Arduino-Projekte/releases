@@ -1,12 +1,12 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller_0.0.94.bin",
+                     "url":  "knx-led-controller_0.0.95.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.94",
-                     "bin":  "knx-led-controller_0.0.94.bin",
-                     "file":  "knx-led-controller_0.0.94.bin",
-                     "message":  "Abläufe-WebUI korrigiert: Warnblinken setzt betroffene LEDs wie Statisch leuchten automatisch auf 100%, wenn der relative Wert unter 50% liegt. Die Canvas-Vorschau nutzt für Warnblinken jetzt die eingestellte Puls-/Blinkperiode statt der Schrittzeit.",
+                     "version":  "0.0.95",
+                     "bin":  "knx-led-controller_0.0.95.bin",
+                     "file":  "knx-led-controller_0.0.95.bin",
+                     "message":  "Ausgaenge-WebUI optisch korrigiert: Das Feld LED-Versatz steht jetzt wieder auf einer Ebene mit den anderen Ausgangsfeldern; der Bereichshinweis bleibt als Tooltip erhalten.",
                      "http_code":  200
                  }
 }
