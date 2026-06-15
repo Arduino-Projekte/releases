@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.104",
+                      "bin":  "knx-led-controller_0.0.104.bin",
+                      "date":  "2026-06-15",
+                      "note":  "Abläufe-WebUI weiter vereinfacht: äußere Editor-Kacheln wurden entfernt und Lauflicht-/Wellenrichtung wird jetzt über die zwei Haken Laufrichtung umdrehen und Mitte spiegeln bedient. Beta Update ist an den Admin-Login gekoppelt; das Logo zeigt jetzt KLC."
+                  },
+                  {
                       "version":  "0.0.103",
                       "bin":  "knx-led-controller_0.0.103.bin",
                       "date":  "2026-06-15",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller_0.0.97.bin",
                       "date":  "2026-06-14",
                       "note":  "Abläufe-WebUI bleibt RAM-schonend und zeigt jetzt zusätzlich eine kompakte Schnellwahl für alle Szenen. Nur die ausgewählte Szene wird als großes Formular geladen, damit die Seite übersichtlich bleibt und trotzdem wenig RAM benötigt."
-                  },
-                  {
-                      "version":  "0.0.96",
-                      "bin":  "knx-led-controller_0.0.96.bin",
-                      "date":  "2026-06-14",
-                      "note":  "Abläufe-WebUI RAM-schonend umgebaut: Die Seite bearbeitet jetzt gezielt eine ausgewählte Szene statt alle Szenenformulare gleichzeitig zu rendern. Dadurch sinkt der benötigte WebUI-Puffer deutlich; Szenenauswahl, Vor/Zurück und Rückkehr zur gleichen Szene nach dem Speichern wurden ergänzt."
                   }
               ]
 }

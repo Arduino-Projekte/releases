@@ -1,12 +1,12 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller_0.0.103.bin",
+                     "url":  "knx-led-controller_0.0.104.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.103",
-                     "bin":  "knx-led-controller_0.0.103.bin",
-                     "file":  "knx-led-controller_0.0.103.bin",
-                     "message":  "Defaults und WebUI weiter bereinigt: Automatische Updates starten standardmäßig täglich und installieren nach 5 Minuten, aber erst wenn alle LEDs mindestens 5 Minuten aus sind. Ausgänge erhalten einen Startzustand nach Stromunterbrechung; der Ablauf-Editor wurde ohne Einklapp-Kachel und internes Scrollen vereinfacht.",
+                     "version":  "0.0.104",
+                     "bin":  "knx-led-controller_0.0.104.bin",
+                     "file":  "knx-led-controller_0.0.104.bin",
+                     "message":  "Abläufe-WebUI weiter vereinfacht: äußere Editor-Kacheln wurden entfernt und Lauflicht-/Wellenrichtung wird jetzt über die zwei Haken Laufrichtung umdrehen und Mitte spiegeln bedient. Beta Update ist an den Admin-Login gekoppelt; das Logo zeigt jetzt KLC.",
                      "http_code":  200
                  }
 }
