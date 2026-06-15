@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.113",
+                      "bin":  "knx-led-controller_0.0.113.bin",
+                      "date":  "2026-06-15",
+                      "note":  "Leistungs-WebUI weiter RAM-optimiert: /power ist jetzt eine schlanke Shell, lädt /power.js separat und rendert Diagnose, globale Leistungsparameter, Power-Gruppen und Strangübersicht im Browser aus /api/power. Der /power-HTML-Puffer wurde reduziert; zusätzlich wird Power-Gruppe bei nur einer Gruppe in der Ausgänge-WebUI nicht mehr als ungültiges Zahlenfeld angezeigt."
+                  },
+                  {
                       "version":  "0.0.110",
                       "bin":  "knx-led-controller_0.0.110.bin",
                       "date":  "2026-06-15",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller_0.0.107.bin",
                       "date":  "2026-06-15",
                       "note":  "Animationsvorschau weiter RAM-optimiert: Die Vorschauseite baut beim Öffnen keinen großen Szenendatenpuffer mehr auf und /preview/data.js wird direkt gestreamt. Dadurch entfällt der separate 52-kB-Preview-Datenpuffer im Normalbetrieb, was die Vorschau robuster für viele Abläufe macht."
-                  },
-                  {
-                      "version":  "0.0.103",
-                      "bin":  "knx-led-controller_0.0.103.bin",
-                      "date":  "2026-06-15",
-                      "note":  "Defaults und WebUI weiter bereinigt: Automatische Updates starten standardmäßig täglich und installieren nach 5 Minuten, aber erst wenn alle LEDs mindestens 5 Minuten aus sind. Ausgänge erhalten einen Startzustand nach Stromunterbrechung; der Ablauf-Editor wurde ohne Einklapp-Kachel und internes Scrollen vereinfacht."
                   }
               ]
 }
