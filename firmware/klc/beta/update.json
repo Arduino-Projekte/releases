@@ -1,12 +1,12 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller_0.0.104.bin",
+                     "url":  "knx-led-controller_0.0.105.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.104",
-                     "bin":  "knx-led-controller_0.0.104.bin",
-                     "file":  "knx-led-controller_0.0.104.bin",
-                     "message":  "Abläufe-WebUI weiter vereinfacht: äußere Editor-Kacheln wurden entfernt und Lauflicht-/Wellenrichtung wird jetzt über die zwei Haken Laufrichtung umdrehen und Mitte spiegeln bedient. Beta Update ist an den Admin-Login gekoppelt; das Logo zeigt jetzt KLC.",
+                     "version":  "0.0.105",
+                     "bin":  "knx-led-controller_0.0.105.bin",
+                     "file":  "knx-led-controller_0.0.105.bin",
+                     "message":  "Abläufe-Übersicht für viele Szenen erweitert: kompakte Schnellwahl, Schnell-Umbenennen, ausgewählten Ablauf kopieren/duplizieren und Ablauf auf Werkstandard zurücksetzen. Editor und Übersicht bleiben weiterhin getrennt und RAM-schonend.",
                      "http_code":  200
                  }
 }
