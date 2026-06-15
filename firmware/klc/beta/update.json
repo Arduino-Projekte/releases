@@ -1,12 +1,12 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller_0.0.107.bin",
+                     "url":  "knx-led-controller_0.0.108.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.107",
-                     "bin":  "knx-led-controller_0.0.107.bin",
-                     "file":  "knx-led-controller_0.0.107.bin",
-                     "message":  "Animationsvorschau weiter RAM-optimiert: Die Vorschauseite baut beim Öffnen keinen großen Szenendatenpuffer mehr auf und /preview/data.js wird direkt gestreamt. Dadurch entfällt der separate 52-kB-Preview-Datenpuffer im Normalbetrieb, was die Vorschau robuster für viele Abläufe macht.",
+                     "version":  "0.0.108",
+                     "bin":  "knx-led-controller_0.0.108.bin",
+                     "file":  "knx-led-controller_0.0.108.bin",
+                     "message":  "WebUI weiter aufgeraeumt und RAM-/Codepfade reduziert: Die alte Szenen-WebUI und der alte Preview-Datenpuffer wurden entfernt, weil Szenen jetzt auf Abläufe umgeleitet werden und /preview/data.js bereits direkt gestreamt wird. Dadurch bleiben weniger ungenutzte Puffer und Altlogik im Projekt.",
                      "http_code":  200
                  }
 }
