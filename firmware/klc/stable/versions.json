@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.110",
+                      "bin":  "knx-led-controller_0.0.110.bin",
+                      "date":  "2026-06-15",
+                      "note":  "Update-WebUI weiter RAM-optimiert: Das Update-JavaScript wird ueber /update.js separat geladen und die Versionshistorie wird als Tabellenzeilen ueber /api/versions/table gestreamt. Dadurch entfaellt der zusaetzliche Versionszeilen-Puffer und der Update-HTML-Puffer konnte reduziert werden."
+                  },
+                  {
                       "version":  "0.0.109",
                       "bin":  "knx-led-controller_0.0.109.bin",
                       "date":  "2026-06-15",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller_0.0.103.bin",
                       "date":  "2026-06-15",
                       "note":  "Defaults und WebUI weiter bereinigt: Automatische Updates starten standardmäßig täglich und installieren nach 5 Minuten, aber erst wenn alle LEDs mindestens 5 Minuten aus sind. Ausgänge erhalten einen Startzustand nach Stromunterbrechung; der Ablauf-Editor wurde ohne Einklapp-Kachel und internes Scrollen vereinfacht."
-                  },
-                  {
-                      "version":  "0.0.102",
-                      "bin":  "knx-led-controller_0.0.102.bin",
-                      "date":  "2026-06-15",
-                      "note":  "WebUI aufgeräumt: Die alte Registerkarte Szenen wurde aus Navigation und Dashboard entfernt und /scenes leitet zu Abläufe um. Veraltete Hinweisboxen wurden reduziert; Config/Backup laden das große JSON nun per API nach und der Config-JSON-Puffer wurde vergrößert."
                   }
               ]
 }
