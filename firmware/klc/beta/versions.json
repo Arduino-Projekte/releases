@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.109",
+                      "bin":  "knx-led-controller_0.0.109.bin",
+                      "date":  "2026-06-15",
+                      "note":  "WebUI-Seiten weiter RAM-optimiert: Das gemeinsame CSS wird nun auch auf Dashboard, LED-, Ausgänge-, Power-, Netzwerk-, LED-Test-, KNX-, System-, Admin-, Ereignis- und Update-Seite per /ui.css geladen statt in jeden HTML-Puffer kopiert. Dadurch konnten die HTML-Puffer dieser Seiten reduziert werden."
+                  },
+                  {
                       "version":  "0.0.108",
                       "bin":  "knx-led-controller_0.0.108.bin",
                       "date":  "2026-06-15",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller_0.0.104.bin",
                       "date":  "2026-06-15",
                       "note":  "Abläufe-WebUI weiter vereinfacht: äußere Editor-Kacheln wurden entfernt und Lauflicht-/Wellenrichtung wird jetzt über die zwei Haken Laufrichtung umdrehen und Mitte spiegeln bedient. Beta Update ist an den Admin-Login gekoppelt; das Logo zeigt jetzt KLC."
-                  },
-                  {
-                      "version":  "0.0.103",
-                      "bin":  "knx-led-controller_0.0.103.bin",
-                      "date":  "2026-06-15",
-                      "note":  "Defaults und WebUI weiter bereinigt: Automatische Updates starten standardmäßig täglich und installieren nach 5 Minuten, aber erst wenn alle LEDs mindestens 5 Minuten aus sind. Ausgänge erhalten einen Startzustand nach Stromunterbrechung; der Ablauf-Editor wurde ohne Einklapp-Kachel und internes Scrollen vereinfacht."
                   }
               ]
 }
