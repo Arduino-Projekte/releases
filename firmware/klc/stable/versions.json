@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.108",
+                      "bin":  "knx-led-controller_0.0.108.bin",
+                      "date":  "2026-06-15",
+                      "note":  "WebUI weiter aufgeraeumt und RAM-/Codepfade reduziert: Die alte Szenen-WebUI und der alte Preview-Datenpuffer wurden entfernt, weil Szenen jetzt auf Abläufe umgeleitet werden und /preview/data.js bereits direkt gestreamt wird. Dadurch bleiben weniger ungenutzte Puffer und Altlogik im Projekt."
+                  },
+                  {
                       "version":  "0.0.107",
                       "bin":  "knx-led-controller_0.0.107.bin",
                       "date":  "2026-06-15",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller_0.0.101.bin",
                       "date":  "2026-06-15",
                       "note":  "Abläufe-RAM weiter optimiert: /flows ruft vor dem Laden des großen Ablauf-Editors eine kleine Freigabe-API auf, damit Shell-/Listen-Puffer sicher weg sind, bevor /flow/edit seinen eigenen Puffer anlegt. Der Editor wird schneller nachgeladen und ältere angeforderte Ladevorgänge werden verworfen."
-                  },
-                  {
-                      "version":  "0.0.97",
-                      "bin":  "knx-led-controller_0.0.97.bin",
-                      "date":  "2026-06-14",
-                      "note":  "Abläufe-WebUI bleibt RAM-schonend und zeigt jetzt zusätzlich eine kompakte Schnellwahl für alle Szenen. Nur die ausgewählte Szene wird als großes Formular geladen, damit die Seite übersichtlich bleibt und trotzdem wenig RAM benötigt."
                   }
               ]
 }
