@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.103",
+                      "bin":  "knx-led-controller_0.0.103.bin",
+                      "date":  "2026-06-15",
+                      "note":  "Defaults und WebUI weiter bereinigt: Automatische Updates starten standardmäßig täglich und installieren nach 5 Minuten, aber erst wenn alle LEDs mindestens 5 Minuten aus sind. Ausgänge erhalten einen Startzustand nach Stromunterbrechung; der Ablauf-Editor wurde ohne Einklapp-Kachel und internes Scrollen vereinfacht."
+                  },
+                  {
                       "version":  "0.0.102",
                       "bin":  "knx-led-controller_0.0.102.bin",
                       "date":  "2026-06-15",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller_0.0.96.bin",
                       "date":  "2026-06-14",
                       "note":  "Abläufe-WebUI RAM-schonend umgebaut: Die Seite bearbeitet jetzt gezielt eine ausgewählte Szene statt alle Szenenformulare gleichzeitig zu rendern. Dadurch sinkt der benötigte WebUI-Puffer deutlich; Szenenauswahl, Vor/Zurück und Rückkehr zur gleichen Szene nach dem Speichern wurden ergänzt."
-                  },
-                  {
-                      "version":  "0.0.95",
-                      "bin":  "knx-led-controller_0.0.95.bin",
-                      "date":  "2026-06-14",
-                      "note":  "Ausgaenge-WebUI optisch korrigiert: Das Feld LED-Versatz steht jetzt wieder auf einer Ebene mit den anderen Ausgangsfeldern; der Bereichshinweis bleibt als Tooltip erhalten."
                   }
               ]
 }
