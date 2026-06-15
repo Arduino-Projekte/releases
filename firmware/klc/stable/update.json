@@ -1,12 +1,12 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller_0.0.97.bin",
+                     "url":  "knx-led-controller_0.0.101.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.97",
-                     "bin":  "knx-led-controller_0.0.97.bin",
-                     "file":  "knx-led-controller_0.0.97.bin",
-                     "message":  "Abläufe-WebUI bleibt RAM-schonend und zeigt jetzt zusätzlich eine kompakte Schnellwahl für alle Szenen. Nur die ausgewählte Szene wird als großes Formular geladen, damit die Seite übersichtlich bleibt und trotzdem wenig RAM benötigt.",
+                     "version":  "0.0.101",
+                     "bin":  "knx-led-controller_0.0.101.bin",
+                     "file":  "knx-led-controller_0.0.101.bin",
+                     "message":  "Abläufe-RAM weiter optimiert: /flows ruft vor dem Laden des großen Ablauf-Editors eine kleine Freigabe-API auf, damit Shell-/Listen-Puffer sicher weg sind, bevor /flow/edit seinen eigenen Puffer anlegt. Der Editor wird schneller nachgeladen und ältere angeforderte Ladevorgänge werden verworfen.",
                      "http_code":  200
                  }
 }

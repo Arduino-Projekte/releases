@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.101",
+                      "bin":  "knx-led-controller_0.0.101.bin",
+                      "date":  "2026-06-15",
+                      "note":  "Abläufe-RAM weiter optimiert: /flows ruft vor dem Laden des großen Ablauf-Editors eine kleine Freigabe-API auf, damit Shell-/Listen-Puffer sicher weg sind, bevor /flow/edit seinen eigenen Puffer anlegt. Der Editor wird schneller nachgeladen und ältere angeforderte Ladevorgänge werden verworfen."
+                  },
+                  {
                       "version":  "0.0.97",
                       "bin":  "knx-led-controller_0.0.97.bin",
                       "date":  "2026-06-14",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller_0.0.94.bin",
                       "date":  "2026-06-14",
                       "note":  "Abläufe-WebUI korrigiert: Warnblinken setzt betroffene LEDs wie Statisch leuchten automatisch auf 100%, wenn der relative Wert unter 50% liegt. Die Canvas-Vorschau nutzt für Warnblinken jetzt die eingestellte Puls-/Blinkperiode statt der Schrittzeit."
-                  },
-                  {
-                      "version":  "0.0.93",
-                      "bin":  "knx-led-controller_0.0.93.bin",
-                      "date":  "2026-06-14",
-                      "note":  "LED-Versatz begrenzt: Der Versatz pro Ausgang wird nicht mehr pauschal auf ±5000 erlaubt, sondern automatisch auf die halbe Pixelanzahl plus 1 begrenzt. Wird die Pixelanzahl verkleinert oder ein Backup importiert, wird ein zu großer Versatz sauber in den gültigen Bereich geklemmt."
                   }
               ]
 }
