@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.102",
+                      "bin":  "knx-led-controller_0.0.102.bin",
+                      "date":  "2026-06-15",
+                      "note":  "WebUI aufgeräumt: Die alte Registerkarte Szenen wurde aus Navigation und Dashboard entfernt und /scenes leitet zu Abläufe um. Veraltete Hinweisboxen wurden reduziert; Config/Backup laden das große JSON nun per API nach und der Config-JSON-Puffer wurde vergrößert."
+                  },
+                  {
                       "version":  "0.0.101",
                       "bin":  "knx-led-controller_0.0.101.bin",
                       "date":  "2026-06-15",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller_0.0.95.bin",
                       "date":  "2026-06-14",
                       "note":  "Ausgaenge-WebUI optisch korrigiert: Das Feld LED-Versatz steht jetzt wieder auf einer Ebene mit den anderen Ausgangsfeldern; der Bereichshinweis bleibt als Tooltip erhalten."
-                  },
-                  {
-                      "version":  "0.0.94",
-                      "bin":  "knx-led-controller_0.0.94.bin",
-                      "date":  "2026-06-14",
-                      "note":  "Abläufe-WebUI korrigiert: Warnblinken setzt betroffene LEDs wie Statisch leuchten automatisch auf 100%, wenn der relative Wert unter 50% liegt. Die Canvas-Vorschau nutzt für Warnblinken jetzt die eingestellte Puls-/Blinkperiode statt der Schrittzeit."
                   }
               ]
 }
