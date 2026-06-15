@@ -1,12 +1,12 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller_0.0.110.bin",
+                     "url":  "knx-led-controller_0.0.113.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.110",
-                     "bin":  "knx-led-controller_0.0.110.bin",
-                     "file":  "knx-led-controller_0.0.110.bin",
-                     "message":  "Update-WebUI weiter RAM-optimiert: Das Update-JavaScript wird ueber /update.js separat geladen und die Versionshistorie wird als Tabellenzeilen ueber /api/versions/table gestreamt. Dadurch entfaellt der zusaetzliche Versionszeilen-Puffer und der Update-HTML-Puffer konnte reduziert werden.",
+                     "version":  "0.0.113",
+                     "bin":  "knx-led-controller_0.0.113.bin",
+                     "file":  "knx-led-controller_0.0.113.bin",
+                     "message":  "Leistungs-WebUI weiter RAM-optimiert: /power ist jetzt eine schlanke Shell, lädt /power.js separat und rendert Diagnose, globale Leistungsparameter, Power-Gruppen und Strangübersicht im Browser aus /api/power. Der /power-HTML-Puffer wurde reduziert; zusätzlich wird Power-Gruppe bei nur einer Gruppe in der Ausgänge-WebUI nicht mehr als ungültiges Zahlenfeld angezeigt.",
                      "http_code":  200
                  }
 }
