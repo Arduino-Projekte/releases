@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.109",
+                      "bin":  "knx-led-controller_0.0.109.bin",
+                      "date":  "2026-06-15",
+                      "note":  "WebUI-Seiten weiter RAM-optimiert: Das gemeinsame CSS wird nun auch auf Dashboard, LED-, Ausgänge-, Power-, Netzwerk-, LED-Test-, KNX-, System-, Admin-, Ereignis- und Update-Seite per /ui.css geladen statt in jeden HTML-Puffer kopiert. Dadurch konnten die HTML-Puffer dieser Seiten reduziert werden."
+                  },
+                  {
                       "version":  "0.0.108",
                       "bin":  "knx-led-controller_0.0.108.bin",
                       "date":  "2026-06-15",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller_0.0.102.bin",
                       "date":  "2026-06-15",
                       "note":  "WebUI aufgeräumt: Die alte Registerkarte Szenen wurde aus Navigation und Dashboard entfernt und /scenes leitet zu Abläufe um. Veraltete Hinweisboxen wurden reduziert; Config/Backup laden das große JSON nun per API nach und der Config-JSON-Puffer wurde vergrößert."
-                  },
-                  {
-                      "version":  "0.0.101",
-                      "bin":  "knx-led-controller_0.0.101.bin",
-                      "date":  "2026-06-15",
-                      "note":  "Abläufe-RAM weiter optimiert: /flows ruft vor dem Laden des großen Ablauf-Editors eine kleine Freigabe-API auf, damit Shell-/Listen-Puffer sicher weg sind, bevor /flow/edit seinen eigenen Puffer anlegt. Der Editor wird schneller nachgeladen und ältere angeforderte Ladevorgänge werden verworfen."
                   }
               ]
 }
