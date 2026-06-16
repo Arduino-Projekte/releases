@@ -1,12 +1,12 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller_0.0.115.bin",
+                     "url":  "knx-led-controller_0.0.117.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.115",
-                     "bin":  "knx-led-controller_0.0.115.bin",
-                     "file":  "knx-led-controller_0.0.115.bin",
-                     "message":  "Naechster Runtime-Schritt ohne LED-Hardware: Die virtuelle Ablauf-Runtime rendert nun Start-, Haupt- und Aus-Phasen deutlich naeher an der Canvas-Vorschau. Lauflicht-/Wellen-Start- und Aus-Effekte, Wellen mit Nachleuchten, Segmentmuster, Zufallsaufbau und Funkeln sind in der Diagnose sichtbar. /api/scenes meldet zusaetzlich aktuelle Runtime-Phase, aktiven Effekt und Phasenzeit.",
+                     "version":  "0.0.117",
+                     "bin":  "knx-led-controller_0.0.117.bin",
+                     "file":  "knx-led-controller_0.0.117.bin",
+                     "message":  "Echte Tetris-Blockruntime als naechster Runtime-Schritt: Tetris nutzt jetzt Blockgroesse min/max, Blockabstand, Richtungen, zufaellige Farben und Abbauarten statt nur zufaelligen Pixelaufbau. Die Runtime-Diagnose bleibt nutzbar, sodass der Tetris-Zyklus auch ohne angeschlossene LEDs geprueft werden kann.",
                      "http_code":  200
                  }
 }
