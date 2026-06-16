@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.127",
+                      "bin":  "knx-led-controller_0.0.127.bin",
+                      "date":  "2026-06-16",
+                      "note":  "Lauflicht- und Wellenrichtungen werden jetzt zusaetzlich als phasenbezogene Bewegungsbits gespeichert. Start, Ein und Aus haben eigene Bits fuer Laufrichtung umdrehen und Mitte spiegeln; bestehende Richtungseffekte bleiben kompatibel und werden beim Speichern/Migrieren synchronisiert."
+                  },
+                  {
                       "version":  "0.0.117",
                       "bin":  "knx-led-controller_0.0.117.bin",
                       "date":  "2026-06-16",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller_0.0.114.bin",
                       "date":  "2026-06-16",
                       "note":  "Erster Runtime-Schritt für Abläufe: Die LED-Runtime nutzt nun die neuen Haupt-Effekt-Felder für Aus, statisch, sanfte Pulsation, Warnblinken, einfache Lauflicht-/Wellenfenster und einfache Start-/End-Fades. LED-Versatz wirkt auch in der Runtime. Der Admin-Login wird zusätzlich als Browser-Cookie gespeichert, damit er nach einem Controller-Neustart im selben Browser erhalten bleibt."
-                  },
-                  {
-                      "version":  "0.0.113",
-                      "bin":  "knx-led-controller_0.0.113.bin",
-                      "date":  "2026-06-15",
-                      "note":  "Leistungs-WebUI weiter RAM-optimiert: /power ist jetzt eine schlanke Shell, lädt /power.js separat und rendert Diagnose, globale Leistungsparameter, Power-Gruppen und Strangübersicht im Browser aus /api/power. Der /power-HTML-Puffer wurde reduziert; zusätzlich wird Power-Gruppe bei nur einer Gruppe in der Ausgänge-WebUI nicht mehr als ungültiges Zahlenfeld angezeigt."
                   }
               ]
 }
