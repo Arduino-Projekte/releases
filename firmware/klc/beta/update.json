@@ -1,12 +1,12 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller_0.0.116.bin",
+                     "url":  "knx-led-controller_0.0.117.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.116",
-                     "bin":  "knx-led-controller_0.0.116.bin",
-                     "file":  "knx-led-controller_0.0.116.bin",
-                     "message":  "Runtime-Diagnose ohne angeschlossene LEDs: Neue Seite /runtime im LED-Bereich zeigt /api/scenes als Live-Tabelle mit Szene, Phase, Effekt, Timing, Kopfposition und grober Pixel-Vorschau. Szenen koennen direkt von dort global gestartet werden. Damit laesst sich die virtuelle Ablauf-Runtime vor dem Anschluss echter LED-Strips pruefen.",
+                     "version":  "0.0.117",
+                     "bin":  "knx-led-controller_0.0.117.bin",
+                     "file":  "knx-led-controller_0.0.117.bin",
+                     "message":  "Echte Tetris-Blockruntime als naechster Runtime-Schritt: Tetris nutzt jetzt Blockgroesse min/max, Blockabstand, Richtungen, zufaellige Farben und Abbauarten statt nur zufaelligen Pixelaufbau. Die Runtime-Diagnose bleibt nutzbar, sodass der Tetris-Zyklus auch ohne angeschlossene LEDs geprueft werden kann.",
                      "http_code":  200
                  }
 }
