@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.115",
+                      "bin":  "knx-led-controller_0.0.115.bin",
+                      "date":  "2026-06-16",
+                      "note":  "Naechster Runtime-Schritt ohne LED-Hardware: Die virtuelle Ablauf-Runtime rendert nun Start-, Haupt- und Aus-Phasen deutlich naeher an der Canvas-Vorschau. Lauflicht-/Wellen-Start- und Aus-Effekte, Wellen mit Nachleuchten, Segmentmuster, Zufallsaufbau und Funkeln sind in der Diagnose sichtbar. /api/scenes meldet zusaetzlich aktuelle Runtime-Phase, aktiven Effekt und Phasenzeit."
+                  },
+                  {
                       "version":  "0.0.114",
                       "bin":  "knx-led-controller_0.0.114.bin",
                       "date":  "2026-06-16",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller_0.0.109.bin",
                       "date":  "2026-06-15",
                       "note":  "WebUI-Seiten weiter RAM-optimiert: Das gemeinsame CSS wird nun auch auf Dashboard, LED-, Ausgänge-, Power-, Netzwerk-, LED-Test-, KNX-, System-, Admin-, Ereignis- und Update-Seite per /ui.css geladen statt in jeden HTML-Puffer kopiert. Dadurch konnten die HTML-Puffer dieser Seiten reduziert werden."
-                  },
-                  {
-                      "version":  "0.0.108",
-                      "bin":  "knx-led-controller_0.0.108.bin",
-                      "date":  "2026-06-15",
-                      "note":  "WebUI weiter aufgeraeumt und RAM-/Codepfade reduziert: Die alte Szenen-WebUI und der alte Preview-Datenpuffer wurden entfernt, weil Szenen jetzt auf Abläufe umgeleitet werden und /preview/data.js bereits direkt gestreamt wird. Dadurch bleiben weniger ungenutzte Puffer und Altlogik im Projekt."
                   }
               ]
 }
