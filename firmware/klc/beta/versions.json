@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.130",
+                      "bin":  "knx-led-controller_0.0.130.bin",
+                      "date":  "2026-06-16",
+                      "note":  "Die Board-Status-LED zeigt jetzt ein Lebenszeichen: im Normalbetrieb kurzer Heartbeat alle ca. 2,5 Sekunden, bei Firmware-Upload/Online-Update schnelles Blinken mit ca. 2 Hz. Die Status-LED wird zusätzlich in der Systemdiagnose angezeigt."
+                  },
+                  {
                       "version":  "0.0.129",
                       "bin":  "knx-led-controller_0.0.129.bin",
                       "date":  "2026-06-16",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller_0.0.117.bin",
                       "date":  "2026-06-16",
                       "note":  "Echte Tetris-Blockruntime als naechster Runtime-Schritt: Tetris nutzt jetzt Blockgroesse min/max, Blockabstand, Richtungen, zufaellige Farben und Abbauarten statt nur zufaelligen Pixelaufbau. Die Runtime-Diagnose bleibt nutzbar, sodass der Tetris-Zyklus auch ohne angeschlossene LEDs geprueft werden kann."
-                  },
-                  {
-                      "version":  "0.0.116",
-                      "bin":  "knx-led-controller_0.0.116.bin",
-                      "date":  "2026-06-16",
-                      "note":  "Runtime-Diagnose ohne angeschlossene LEDs: Neue Seite /runtime im LED-Bereich zeigt /api/scenes als Live-Tabelle mit Szene, Phase, Effekt, Timing, Kopfposition und grober Pixel-Vorschau. Szenen koennen direkt von dort global gestartet werden. Damit laesst sich die virtuelle Ablauf-Runtime vor dem Anschluss echter LED-Strips pruefen."
                   }
               ]
 }
