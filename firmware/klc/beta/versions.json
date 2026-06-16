@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.129",
+                      "bin":  "knx-led-controller_0.0.129.bin",
+                      "date":  "2026-06-16",
+                      "note":  "Die LED-Ausgänge sind jetzt erstmals für echte 800-kHz-LED-Strips scharfgeschaltet, wenn die Adafruit_NeoPixel-Bibliothek vorhanden ist. Das Backend bleibt ohne Bibliothek automatisch virtuell, zeigt den Modus in der Diagnose an und übergibt den gespeicherten Einschaltzustand jetzt auch an die physische Ausgabe."
+                  },
+                  {
                       "version":  "0.0.128",
                       "bin":  "knx-led-controller_0.0.128.bin",
                       "date":  "2026-06-16",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller_0.0.116.bin",
                       "date":  "2026-06-16",
                       "note":  "Runtime-Diagnose ohne angeschlossene LEDs: Neue Seite /runtime im LED-Bereich zeigt /api/scenes als Live-Tabelle mit Szene, Phase, Effekt, Timing, Kopfposition und grober Pixel-Vorschau. Szenen koennen direkt von dort global gestartet werden. Damit laesst sich die virtuelle Ablauf-Runtime vor dem Anschluss echter LED-Strips pruefen."
-                  },
-                  {
-                      "version":  "0.0.115",
-                      "bin":  "knx-led-controller_0.0.115.bin",
-                      "date":  "2026-06-16",
-                      "note":  "Naechster Runtime-Schritt ohne LED-Hardware: Die virtuelle Ablauf-Runtime rendert nun Start-, Haupt- und Aus-Phasen deutlich naeher an der Canvas-Vorschau. Lauflicht-/Wellen-Start- und Aus-Effekte, Wellen mit Nachleuchten, Segmentmuster, Zufallsaufbau und Funkeln sind in der Diagnose sichtbar. /api/scenes meldet zusaetzlich aktuelle Runtime-Phase, aktiven Effekt und Phasenzeit."
                   }
               ]
 }

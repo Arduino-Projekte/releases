@@ -1,12 +1,12 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller_0.0.128.bin",
+                     "url":  "knx-led-controller_0.0.129.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.128",
-                     "bin":  "knx-led-controller_0.0.128.bin",
-                     "file":  "knx-led-controller_0.0.128.bin",
-                     "message":  "Der Ablauf-Editor blendet phasenbezogene Detailfelder jetzt gezielter ein und aus. Start-, Ein- und Aus-Werte fuer Schrittzeit, Puls, Segment, Tetris, Funkeln, Nachleuchten und Fuellgrad erscheinen nur dort, wo der gewaehlte Effekt sie wirklich nutzt.",
+                     "version":  "0.0.129",
+                     "bin":  "knx-led-controller_0.0.129.bin",
+                     "file":  "knx-led-controller_0.0.129.bin",
+                     "message":  "Die LED-Ausgänge sind jetzt erstmals für echte 800-kHz-LED-Strips scharfgeschaltet, wenn die Adafruit_NeoPixel-Bibliothek vorhanden ist. Das Backend bleibt ohne Bibliothek automatisch virtuell, zeigt den Modus in der Diagnose an und übergibt den gespeicherten Einschaltzustand jetzt auch an die physische Ausgabe.",
                      "http_code":  200
                  }
 }
