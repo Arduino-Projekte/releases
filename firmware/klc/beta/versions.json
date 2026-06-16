@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.131",
+                      "bin":  "knx-led-controller_0.0.131.bin",
+                      "date":  "2026-06-16",
+                      "note":  "Fix fuer die Animationsvorschau: /preview/data.js streamt große Szenendatensaetze jetzt in kleinen Chunks, damit die Preview-Daten nicht abgeschnitten werden. Dadurch verschwindet der Zustand Canvas wird vorbereitet / Keine Szenendaten vorhanden nach den vielen neuen Ablaufparametern."
+                  },
+                  {
                       "version":  "0.0.130",
                       "bin":  "knx-led-controller_0.0.130.bin",
                       "date":  "2026-06-16",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller_0.0.127.bin",
                       "date":  "2026-06-16",
                       "note":  "Lauflicht- und Wellenrichtungen werden jetzt zusaetzlich als phasenbezogene Bewegungsbits gespeichert. Start, Ein und Aus haben eigene Bits fuer Laufrichtung umdrehen und Mitte spiegeln; bestehende Richtungseffekte bleiben kompatibel und werden beim Speichern/Migrieren synchronisiert."
-                  },
-                  {
-                      "version":  "0.0.117",
-                      "bin":  "knx-led-controller_0.0.117.bin",
-                      "date":  "2026-06-16",
-                      "note":  "Echte Tetris-Blockruntime als naechster Runtime-Schritt: Tetris nutzt jetzt Blockgroesse min/max, Blockabstand, Richtungen, zufaellige Farben und Abbauarten statt nur zufaelligen Pixelaufbau. Die Runtime-Diagnose bleibt nutzbar, sodass der Tetris-Zyklus auch ohne angeschlossene LEDs geprueft werden kann."
                   }
               ]
 }

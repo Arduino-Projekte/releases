@@ -1,12 +1,12 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller_0.0.130.bin",
+                     "url":  "knx-led-controller_0.0.131.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.130",
-                     "bin":  "knx-led-controller_0.0.130.bin",
-                     "file":  "knx-led-controller_0.0.130.bin",
-                     "message":  "Die Board-Status-LED zeigt jetzt ein Lebenszeichen: im Normalbetrieb kurzer Heartbeat alle ca. 2,5 Sekunden, bei Firmware-Upload/Online-Update schnelles Blinken mit ca. 2 Hz. Die Status-LED wird zusätzlich in der Systemdiagnose angezeigt.",
+                     "version":  "0.0.131",
+                     "bin":  "knx-led-controller_0.0.131.bin",
+                     "file":  "knx-led-controller_0.0.131.bin",
+                     "message":  "Fix fuer die Animationsvorschau: /preview/data.js streamt große Szenendatensaetze jetzt in kleinen Chunks, damit die Preview-Daten nicht abgeschnitten werden. Dadurch verschwindet der Zustand Canvas wird vorbereitet / Keine Szenendaten vorhanden nach den vielen neuen Ablaufparametern.",
                      "http_code":  200
                  }
 }
