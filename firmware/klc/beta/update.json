@@ -1,12 +1,12 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller_0.0.113.bin",
+                     "url":  "knx-led-controller_0.0.114.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.113",
-                     "bin":  "knx-led-controller_0.0.113.bin",
-                     "file":  "knx-led-controller_0.0.113.bin",
-                     "message":  "Leistungs-WebUI weiter RAM-optimiert: /power ist jetzt eine schlanke Shell, lädt /power.js separat und rendert Diagnose, globale Leistungsparameter, Power-Gruppen und Strangübersicht im Browser aus /api/power. Der /power-HTML-Puffer wurde reduziert; zusätzlich wird Power-Gruppe bei nur einer Gruppe in der Ausgänge-WebUI nicht mehr als ungültiges Zahlenfeld angezeigt.",
+                     "version":  "0.0.114",
+                     "bin":  "knx-led-controller_0.0.114.bin",
+                     "file":  "knx-led-controller_0.0.114.bin",
+                     "message":  "Erster Runtime-Schritt für Abläufe: Die LED-Runtime nutzt nun die neuen Haupt-Effekt-Felder für Aus, statisch, sanfte Pulsation, Warnblinken, einfache Lauflicht-/Wellenfenster und einfache Start-/End-Fades. LED-Versatz wirkt auch in der Runtime. Der Admin-Login wird zusätzlich als Browser-Cookie gespeichert, damit er nach einem Controller-Neustart im selben Browser erhalten bleibt.",
                      "http_code":  200
                  }
 }

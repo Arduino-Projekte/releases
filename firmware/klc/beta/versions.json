@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.114",
+                      "bin":  "knx-led-controller_0.0.114.bin",
+                      "date":  "2026-06-16",
+                      "note":  "Erster Runtime-Schritt für Abläufe: Die LED-Runtime nutzt nun die neuen Haupt-Effekt-Felder für Aus, statisch, sanfte Pulsation, Warnblinken, einfache Lauflicht-/Wellenfenster und einfache Start-/End-Fades. LED-Versatz wirkt auch in der Runtime. Der Admin-Login wird zusätzlich als Browser-Cookie gespeichert, damit er nach einem Controller-Neustart im selben Browser erhalten bleibt."
+                  },
+                  {
                       "version":  "0.0.113",
                       "bin":  "knx-led-controller_0.0.113.bin",
                       "date":  "2026-06-15",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller_0.0.108.bin",
                       "date":  "2026-06-15",
                       "note":  "WebUI weiter aufgeraeumt und RAM-/Codepfade reduziert: Die alte Szenen-WebUI und der alte Preview-Datenpuffer wurden entfernt, weil Szenen jetzt auf Abläufe umgeleitet werden und /preview/data.js bereits direkt gestreamt wird. Dadurch bleiben weniger ungenutzte Puffer und Altlogik im Projekt."
-                  },
-                  {
-                      "version":  "0.0.107",
-                      "bin":  "knx-led-controller_0.0.107.bin",
-                      "date":  "2026-06-15",
-                      "note":  "Animationsvorschau weiter RAM-optimiert: Die Vorschauseite baut beim Öffnen keinen großen Szenendatenpuffer mehr auf und /preview/data.js wird direkt gestreamt. Dadurch entfällt der separate 52-kB-Preview-Datenpuffer im Normalbetrieb, was die Vorschau robuster für viele Abläufe macht."
                   }
               ]
 }
