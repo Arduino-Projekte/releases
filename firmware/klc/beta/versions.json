@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.128",
+                      "bin":  "knx-led-controller_0.0.128.bin",
+                      "date":  "2026-06-16",
+                      "note":  "Der Ablauf-Editor blendet phasenbezogene Detailfelder jetzt gezielter ein und aus. Start-, Ein- und Aus-Werte fuer Schrittzeit, Puls, Segment, Tetris, Funkeln, Nachleuchten und Fuellgrad erscheinen nur dort, wo der gewaehlte Effekt sie wirklich nutzt."
+                  },
+                  {
                       "version":  "0.0.127",
                       "bin":  "knx-led-controller_0.0.127.bin",
                       "date":  "2026-06-16",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller_0.0.115.bin",
                       "date":  "2026-06-16",
                       "note":  "Naechster Runtime-Schritt ohne LED-Hardware: Die virtuelle Ablauf-Runtime rendert nun Start-, Haupt- und Aus-Phasen deutlich naeher an der Canvas-Vorschau. Lauflicht-/Wellen-Start- und Aus-Effekte, Wellen mit Nachleuchten, Segmentmuster, Zufallsaufbau und Funkeln sind in der Diagnose sichtbar. /api/scenes meldet zusaetzlich aktuelle Runtime-Phase, aktiven Effekt und Phasenzeit."
-                  },
-                  {
-                      "version":  "0.0.114",
-                      "bin":  "knx-led-controller_0.0.114.bin",
-                      "date":  "2026-06-16",
-                      "note":  "Erster Runtime-Schritt für Abläufe: Die LED-Runtime nutzt nun die neuen Haupt-Effekt-Felder für Aus, statisch, sanfte Pulsation, Warnblinken, einfache Lauflicht-/Wellenfenster und einfache Start-/End-Fades. LED-Versatz wirkt auch in der Runtime. Der Admin-Login wird zusätzlich als Browser-Cookie gespeichert, damit er nach einem Controller-Neustart im selben Browser erhalten bleibt."
                   }
               ]
 }

@@ -1,12 +1,12 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller_0.0.127.bin",
+                     "url":  "knx-led-controller_0.0.128.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.127",
-                     "bin":  "knx-led-controller_0.0.127.bin",
-                     "file":  "knx-led-controller_0.0.127.bin",
-                     "message":  "Lauflicht- und Wellenrichtungen werden jetzt zusaetzlich als phasenbezogene Bewegungsbits gespeichert. Start, Ein und Aus haben eigene Bits fuer Laufrichtung umdrehen und Mitte spiegeln; bestehende Richtungseffekte bleiben kompatibel und werden beim Speichern/Migrieren synchronisiert.",
+                     "version":  "0.0.128",
+                     "bin":  "knx-led-controller_0.0.128.bin",
+                     "file":  "knx-led-controller_0.0.128.bin",
+                     "message":  "Der Ablauf-Editor blendet phasenbezogene Detailfelder jetzt gezielter ein und aus. Start-, Ein- und Aus-Werte fuer Schrittzeit, Puls, Segment, Tetris, Funkeln, Nachleuchten und Fuellgrad erscheinen nur dort, wo der gewaehlte Effekt sie wirklich nutzt.",
                      "http_code":  200
                  }
 }
