@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.116",
+                      "bin":  "knx-led-controller_0.0.116.bin",
+                      "date":  "2026-06-16",
+                      "note":  "Runtime-Diagnose ohne angeschlossene LEDs: Neue Seite /runtime im LED-Bereich zeigt /api/scenes als Live-Tabelle mit Szene, Phase, Effekt, Timing, Kopfposition und grober Pixel-Vorschau. Szenen koennen direkt von dort global gestartet werden. Damit laesst sich die virtuelle Ablauf-Runtime vor dem Anschluss echter LED-Strips pruefen."
+                  },
+                  {
                       "version":  "0.0.115",
                       "bin":  "knx-led-controller_0.0.115.bin",
                       "date":  "2026-06-16",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller_0.0.110.bin",
                       "date":  "2026-06-15",
                       "note":  "Update-WebUI weiter RAM-optimiert: Das Update-JavaScript wird ueber /update.js separat geladen und die Versionshistorie wird als Tabellenzeilen ueber /api/versions/table gestreamt. Dadurch entfaellt der zusaetzliche Versionszeilen-Puffer und der Update-HTML-Puffer konnte reduziert werden."
-                  },
-                  {
-                      "version":  "0.0.109",
-                      "bin":  "knx-led-controller_0.0.109.bin",
-                      "date":  "2026-06-15",
-                      "note":  "WebUI-Seiten weiter RAM-optimiert: Das gemeinsame CSS wird nun auch auf Dashboard, LED-, Ausgänge-, Power-, Netzwerk-, LED-Test-, KNX-, System-, Admin-, Ereignis- und Update-Seite per /ui.css geladen statt in jeden HTML-Puffer kopiert. Dadurch konnten die HTML-Puffer dieser Seiten reduziert werden."
                   }
               ]
 }
