@@ -1,12 +1,12 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller_0.0.133.bin",
+                     "url":  "knx-led-controller_0.0.134.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.133",
-                     "bin":  "knx-led-controller_0.0.133.bin",
-                     "file":  "knx-led-controller_0.0.133.bin",
-                     "message":  "LED-Show-Pfad stabilisiert: Frames werden im Backend jetzt als dirty markiert und show() zaehlt nur noch echte Flushes statt reine Loop-Aufrufe. Dadurch bleiben Diagnosewerte aussagekraeftiger und unnoetige Show-Aufrufe stoeren die echte Ausgabe weniger.",
+                     "version":  "0.0.134",
+                     "bin":  "knx-led-controller_0.0.134.bin",
+                     "file":  "knx-led-controller_0.0.134.bin",
+                     "message":  "LED-Ausgabepfad geprueft und Diagnose erweitert: /api/ledbackend zeigt jetzt GPIO, Pixelzahl und ob pro Ausgang ein echter NeoPixel-Strip gestartet wurde. Die Runtime-Diagnose nutzt fuer Lauflicht/Welle die tatsaechlich angewendeten Richtungsbits.",
                      "http_code":  200
                  }
 }
