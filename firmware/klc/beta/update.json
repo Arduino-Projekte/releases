@@ -1,12 +1,12 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller_0.0.137.bin",
+                     "url":  "knx-led-controller_0.0.138.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.137",
-                     "bin":  "knx-led-controller_0.0.137.bin",
-                     "file":  "knx-led-controller_0.0.137.bin",
-                     "message":  "LED-Testseite beruhigt: automatischer 5-Sekunden-Refresh entfernt; Formularwerte bleiben nach gesetztem Test sichtbar, damit Hardwaretests an echten LED-Strips sauber durchgefuehrt werden koennen.",
+                     "version":  "0.0.138",
+                     "bin":  "knx-led-controller_0.0.138.bin",
+                     "file":  "knx-led-controller_0.0.138.bin",
+                     "message":  "LED-Testseite verstaendlicher gemacht: alte Virtuell-Beschriftung entfernt, LEDs aktiv klar benannt und Pixelnummer als reiner Einzelpixel-Test erklaert.",
                      "http_code":  200
                  }
 }
