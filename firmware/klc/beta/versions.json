@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.133",
+                      "bin":  "knx-led-controller_0.0.133.bin",
+                      "date":  "2026-06-17",
+                      "note":  "LED-Show-Pfad stabilisiert: Frames werden im Backend jetzt als dirty markiert und show() zaehlt nur noch echte Flushes statt reine Loop-Aufrufe. Dadurch bleiben Diagnosewerte aussagekraeftiger und unnoetige Show-Aufrufe stoeren die echte Ausgabe weniger."
+                  },
+                  {
                       "version":  "0.0.131",
                       "bin":  "knx-led-controller_0.0.131.bin",
                       "date":  "2026-06-16",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller_0.0.128.bin",
                       "date":  "2026-06-16",
                       "note":  "Der Ablauf-Editor blendet phasenbezogene Detailfelder jetzt gezielter ein und aus. Start-, Ein- und Aus-Werte fuer Schrittzeit, Puls, Segment, Tetris, Funkeln, Nachleuchten und Fuellgrad erscheinen nur dort, wo der gewaehlte Effekt sie wirklich nutzt."
-                  },
-                  {
-                      "version":  "0.0.127",
-                      "bin":  "knx-led-controller_0.0.127.bin",
-                      "date":  "2026-06-16",
-                      "note":  "Lauflicht- und Wellenrichtungen werden jetzt zusaetzlich als phasenbezogene Bewegungsbits gespeichert. Start, Ein und Aus haben eigene Bits fuer Laufrichtung umdrehen und Mitte spiegeln; bestehende Richtungseffekte bleiben kompatibel und werden beim Speichern/Migrieren synchronisiert."
                   }
               ]
 }
