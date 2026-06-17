@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.137",
+                      "bin":  "knx-led-controller_0.0.137.bin",
+                      "date":  "2026-06-17",
+                      "note":  "LED-Testseite beruhigt: automatischer 5-Sekunden-Refresh entfernt; Formularwerte bleiben nach gesetztem Test sichtbar, damit Hardwaretests an echten LED-Strips sauber durchgefuehrt werden koennen."
+                  },
+                  {
                       "version":  "0.0.136",
                       "bin":  "knx-led-controller_0.0.136.bin",
                       "date":  "2026-06-17",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller_0.0.133.bin",
                       "date":  "2026-06-17",
                       "note":  "LED-Show-Pfad stabilisiert: Frames werden im Backend jetzt als dirty markiert und show() zaehlt nur noch echte Flushes statt reine Loop-Aufrufe. Dadurch bleiben Diagnosewerte aussagekraeftiger und unnoetige Show-Aufrufe stoeren die echte Ausgabe weniger."
-                  },
-                  {
-                      "version":  "0.0.131",
-                      "bin":  "knx-led-controller_0.0.131.bin",
-                      "date":  "2026-06-16",
-                      "note":  "Fix fuer die Animationsvorschau: /preview/data.js streamt große Szenendatensaetze jetzt in kleinen Chunks, damit die Preview-Daten nicht abgeschnitten werden. Dadurch verschwindet der Zustand Canvas wird vorbereitet / Keine Szenendaten vorhanden nach den vielen neuen Ablaufparametern."
                   }
               ]
 }

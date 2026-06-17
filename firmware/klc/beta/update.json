@@ -1,12 +1,12 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller_0.0.136.bin",
+                     "url":  "knx-led-controller_0.0.137.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.136",
-                     "bin":  "knx-led-controller_0.0.136.bin",
-                     "file":  "knx-led-controller_0.0.136.bin",
-                     "message":  "NeoPixel-Build-Erkennung korrigiert: Adafruit_NeoPixel wird im Haupt-Sketch sichtbar eingebunden, damit Arduino CLI die Library fuer das echte LED-Backend bereitstellt; Backend-Diagnose unterscheidet jetzt virtual-no-library und virtual-disabled.",
+                     "version":  "0.0.137",
+                     "bin":  "knx-led-controller_0.0.137.bin",
+                     "file":  "knx-led-controller_0.0.137.bin",
+                     "message":  "LED-Testseite beruhigt: automatischer 5-Sekunden-Refresh entfernt; Formularwerte bleiben nach gesetztem Test sichtbar, damit Hardwaretests an echten LED-Strips sauber durchgefuehrt werden koennen.",
                      "http_code":  200
                  }
 }
