@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.136",
+                      "bin":  "knx-led-controller_0.0.136.bin",
+                      "date":  "2026-06-17",
+                      "note":  "NeoPixel-Build-Erkennung korrigiert: Adafruit_NeoPixel wird im Haupt-Sketch sichtbar eingebunden, damit Arduino CLI die Library fuer das echte LED-Backend bereitstellt; Backend-Diagnose unterscheidet jetzt virtual-no-library und virtual-disabled."
+                  },
+                  {
                       "version":  "0.0.135",
                       "bin":  "knx-led-controller_0.0.135.bin",
                       "date":  "2026-06-17",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller_0.0.131.bin",
                       "date":  "2026-06-16",
                       "note":  "Fix fuer die Animationsvorschau: /preview/data.js streamt große Szenendatensaetze jetzt in kleinen Chunks, damit die Preview-Daten nicht abgeschnitten werden. Dadurch verschwindet der Zustand Canvas wird vorbereitet / Keine Szenendaten vorhanden nach den vielen neuen Ablaufparametern."
-                  },
-                  {
-                      "version":  "0.0.130",
-                      "bin":  "knx-led-controller_0.0.130.bin",
-                      "date":  "2026-06-16",
-                      "note":  "Die Board-Status-LED zeigt jetzt ein Lebenszeichen: im Normalbetrieb kurzer Heartbeat alle ca. 2,5 Sekunden, bei Firmware-Upload/Online-Update schnelles Blinken mit ca. 2 Hz. Die Status-LED wird zusätzlich in der Systemdiagnose angezeigt."
                   }
               ]
 }
