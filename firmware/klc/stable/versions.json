@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.133",
+                      "bin":  "knx-led-controller_0.0.133.bin",
+                      "date":  "2026-06-17",
+                      "note":  "LED-Show-Pfad stabilisiert: Frames werden im Backend jetzt als dirty markiert und show() zaehlt nur noch echte Flushes statt reine Loop-Aufrufe. Dadurch bleiben Diagnosewerte aussagekraeftiger und unnoetige Show-Aufrufe stoeren die echte Ausgabe weniger."
+                  },
+                  {
                       "version":  "0.0.130",
                       "bin":  "knx-led-controller_0.0.130.bin",
                       "date":  "2026-06-16",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller_0.0.117.bin",
                       "date":  "2026-06-16",
                       "note":  "Echte Tetris-Blockruntime als naechster Runtime-Schritt: Tetris nutzt jetzt Blockgroesse min/max, Blockabstand, Richtungen, zufaellige Farben und Abbauarten statt nur zufaelligen Pixelaufbau. Die Runtime-Diagnose bleibt nutzbar, sodass der Tetris-Zyklus auch ohne angeschlossene LEDs geprueft werden kann."
-                  },
-                  {
-                      "version":  "0.0.115",
-                      "bin":  "knx-led-controller_0.0.115.bin",
-                      "date":  "2026-06-16",
-                      "note":  "Naechster Runtime-Schritt ohne LED-Hardware: Die virtuelle Ablauf-Runtime rendert nun Start-, Haupt- und Aus-Phasen deutlich naeher an der Canvas-Vorschau. Lauflicht-/Wellen-Start- und Aus-Effekte, Wellen mit Nachleuchten, Segmentmuster, Zufallsaufbau und Funkeln sind in der Diagnose sichtbar. /api/scenes meldet zusaetzlich aktuelle Runtime-Phase, aktiven Effekt und Phasenzeit."
                   }
               ]
 }

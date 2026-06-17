@@ -1,12 +1,12 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller_0.0.130.bin",
+                     "url":  "knx-led-controller_0.0.133.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.130",
-                     "bin":  "knx-led-controller_0.0.130.bin",
-                     "file":  "knx-led-controller_0.0.130.bin",
-                     "message":  "Die Board-Status-LED zeigt jetzt ein Lebenszeichen: im Normalbetrieb kurzer Heartbeat alle ca. 2,5 Sekunden, bei Firmware-Upload/Online-Update schnelles Blinken mit ca. 2 Hz. Die Status-LED wird zusätzlich in der Systemdiagnose angezeigt.",
+                     "version":  "0.0.133",
+                     "bin":  "knx-led-controller_0.0.133.bin",
+                     "file":  "knx-led-controller_0.0.133.bin",
+                     "message":  "LED-Show-Pfad stabilisiert: Frames werden im Backend jetzt als dirty markiert und show() zaehlt nur noch echte Flushes statt reine Loop-Aufrufe. Dadurch bleiben Diagnosewerte aussagekraeftiger und unnoetige Show-Aufrufe stoeren die echte Ausgabe weniger.",
                      "http_code":  200
                  }
 }
