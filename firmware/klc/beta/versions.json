@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.141",
+                      "bin":  "knx-led-controller_0.0.141.bin",
+                      "date":  "2026-06-17",
+                      "note":  "LED-Test erweitert: RGB-Weiss/W-Kanal getrennt, Pixel-Schnelltests fuer Anfang/Mitte/Ende und klarere Ausgangsdiagnose mit LED-Typ, Chip und Farbreihenfolge."
+                  },
+                  {
                       "version":  "0.0.140",
                       "bin":  "knx-led-controller_0.0.140.bin",
                       "date":  "2026-06-17",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller_0.0.137.bin",
                       "date":  "2026-06-17",
                       "note":  "LED-Testseite beruhigt: automatischer 5-Sekunden-Refresh entfernt; Formularwerte bleiben nach gesetztem Test sichtbar, damit Hardwaretests an echten LED-Strips sauber durchgefuehrt werden koennen."
-                  },
-                  {
-                      "version":  "0.0.136",
-                      "bin":  "knx-led-controller_0.0.136.bin",
-                      "date":  "2026-06-17",
-                      "note":  "NeoPixel-Build-Erkennung korrigiert: Adafruit_NeoPixel wird im Haupt-Sketch sichtbar eingebunden, damit Arduino CLI die Library fuer das echte LED-Backend bereitstellt; Backend-Diagnose unterscheidet jetzt virtual-no-library und virtual-disabled."
                   }
               ]
 }
