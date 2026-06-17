@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.138",
+                      "bin":  "knx-led-controller_0.0.138.bin",
+                      "date":  "2026-06-17",
+                      "note":  "LED-Testseite verstaendlicher gemacht: alte Virtuell-Beschriftung entfernt, LEDs aktiv klar benannt und Pixelnummer als reiner Einzelpixel-Test erklaert."
+                  },
+                  {
                       "version":  "0.0.137",
                       "bin":  "knx-led-controller_0.0.137.bin",
                       "date":  "2026-06-17",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller_0.0.134.bin",
                       "date":  "2026-06-17",
                       "note":  "LED-Ausgabepfad geprueft und Diagnose erweitert: /api/ledbackend zeigt jetzt GPIO, Pixelzahl und ob pro Ausgang ein echter NeoPixel-Strip gestartet wurde. Die Runtime-Diagnose nutzt fuer Lauflicht/Welle die tatsaechlich angewendeten Richtungsbits."
-                  },
-                  {
-                      "version":  "0.0.133",
-                      "bin":  "knx-led-controller_0.0.133.bin",
-                      "date":  "2026-06-17",
-                      "note":  "LED-Show-Pfad stabilisiert: Frames werden im Backend jetzt als dirty markiert und show() zaehlt nur noch echte Flushes statt reine Loop-Aufrufe. Dadurch bleiben Diagnosewerte aussagekraeftiger und unnoetige Show-Aufrufe stoeren die echte Ausgabe weniger."
                   }
               ]
 }
