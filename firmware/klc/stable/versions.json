@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.135",
+                      "bin":  "knx-led-controller_0.0.135.bin",
+                      "date":  "2026-06-17",
+                      "note":  "LED-Testseite fuer echten Hardwaretest verbessert: Backend-Status, echte Ausgabe, gestartete Strips und Show-Zaehler sind direkt sichtbar; irrefuehrende virtuelle Hinweise wurden korrigiert."
+                  },
+                  {
                       "version":  "0.0.134",
                       "bin":  "knx-led-controller_0.0.134.bin",
                       "date":  "2026-06-17",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller_0.0.129.bin",
                       "date":  "2026-06-16",
                       "note":  "Die LED-Ausgänge sind jetzt erstmals für echte 800-kHz-LED-Strips scharfgeschaltet, wenn die Adafruit_NeoPixel-Bibliothek vorhanden ist. Das Backend bleibt ohne Bibliothek automatisch virtuell, zeigt den Modus in der Diagnose an und übergibt den gespeicherten Einschaltzustand jetzt auch an die physische Ausgabe."
-                  },
-                  {
-                      "version":  "0.0.127",
-                      "bin":  "knx-led-controller_0.0.127.bin",
-                      "date":  "2026-06-16",
-                      "note":  "Lauflicht- und Wellenrichtungen werden jetzt zusaetzlich als phasenbezogene Bewegungsbits gespeichert. Start, Ein und Aus haben eigene Bits fuer Laufrichtung umdrehen und Mitte spiegeln; bestehende Richtungseffekte bleiben kompatibel und werden beim Speichern/Migrieren synchronisiert."
                   }
               ]
 }
