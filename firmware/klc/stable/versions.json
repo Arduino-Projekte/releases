@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.137",
+                      "bin":  "knx-led-controller_0.0.137.bin",
+                      "date":  "2026-06-17",
+                      "note":  "LED-Testseite beruhigt: automatischer 5-Sekunden-Refresh entfernt; Formularwerte bleiben nach gesetztem Test sichtbar, damit Hardwaretests an echten LED-Strips sauber durchgefuehrt werden koennen."
+                  },
+                  {
                       "version":  "0.0.136",
                       "bin":  "knx-led-controller_0.0.136.bin",
                       "date":  "2026-06-17",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller_0.0.133.bin",
                       "date":  "2026-06-17",
                       "note":  "LED-Show-Pfad stabilisiert: Frames werden im Backend jetzt als dirty markiert und show() zaehlt nur noch echte Flushes statt reine Loop-Aufrufe. Dadurch bleiben Diagnosewerte aussagekraeftiger und unnoetige Show-Aufrufe stoeren die echte Ausgabe weniger."
-                  },
-                  {
-                      "version":  "0.0.130",
-                      "bin":  "knx-led-controller_0.0.130.bin",
-                      "date":  "2026-06-16",
-                      "note":  "Die Board-Status-LED zeigt jetzt ein Lebenszeichen: im Normalbetrieb kurzer Heartbeat alle ca. 2,5 Sekunden, bei Firmware-Upload/Online-Update schnelles Blinken mit ca. 2 Hz. Die Status-LED wird zusätzlich in der Systemdiagnose angezeigt."
                   }
               ]
 }
