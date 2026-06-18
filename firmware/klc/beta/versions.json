@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.148",
+                      "bin":  "knx-led-controller_0.0.148.bin",
+                      "date":  "2026-06-18",
+                      "note":  "LED-Testmodus sichtbarer gemacht: manuelle Tests werden auf /ledtest, /outputs, /leddiag und /api/leddiag klar angezeigt, mit Direktlink zum Loeschen aller Tests."
+                  },
+                  {
                       "version":  "0.0.147",
                       "bin":  "knx-led-controller_0.0.147.bin",
                       "date":  "2026-06-18",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller_0.0.141.bin",
                       "date":  "2026-06-17",
                       "note":  "LED-Test erweitert: RGB-Weiss/W-Kanal getrennt, Pixel-Schnelltests fuer Anfang/Mitte/Ende und klarere Ausgangsdiagnose mit LED-Typ, Chip und Farbreihenfolge."
-                  },
-                  {
-                      "version":  "0.0.140",
-                      "bin":  "knx-led-controller_0.0.140.bin",
-                      "date":  "2026-06-17",
-                      "note":  "LED-Test erweitert: Schnelltest-Buttons fuer Rot/Gruen/Blau/Weiss/Aus je Ausgang, sichere 10-LED-Vorgabe und klarere Hardwarediagnose."
                   }
               ]
 }
