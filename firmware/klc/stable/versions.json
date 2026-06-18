@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.150",
+                      "bin":  "knx-led-controller_0.0.150.bin",
+                      "date":  "2026-06-18",
+                      "note":  "BAOS-RX-Diagnose erweitert: UART zaehlt nicht nur Rohbytes, sondern erkennt ACK 0xE5 sowie erste FT1.2 Fixed-/Variabel-Frames inklusive Checksumme, Fehler- und Overflow-Zaehlern."
+                  },
+                  {
                       "version":  "0.0.149",
                       "bin":  "knx-led-controller_0.0.149.bin",
                       "date":  "2026-06-18",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller_0.0.145.bin",
                       "date":  "2026-06-18",
                       "note":  "LED-Test erweitert: gefuehrte Testreihenfolge mit nummerierten Schnelltest-Buttons fuer Backend, Ausgang, RGB-Farben, RGB-Weiss, W-Kanal, Farbfolge-Muster sowie Anfang/Mitte/Ende des Strangs."
-                  },
-                  {
-                      "version":  "0.0.140",
-                      "bin":  "knx-led-controller_0.0.140.bin",
-                      "date":  "2026-06-17",
-                      "note":  "LED-Test erweitert: Schnelltest-Buttons fuer Rot/Gruen/Blau/Weiss/Aus je Ausgang, sichere 10-LED-Vorgabe und klarere Hardwarediagnose."
                   }
               ]
 }
