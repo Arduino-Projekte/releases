@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.154",
+                      "bin":  "knx-led-controller_0.0.154.bin",
+                      "date":  "2026-06-18",
+                      "note":  "Neue Registerkarte Steuerung ergänzt: Abläufe global oder je Ausgang direkt über die Webseite starten/stoppen; Runtime-Diagnose bleibt separat."
+                  },
+                  {
                       "version":  "0.0.153",
                       "bin":  "knx-led-controller_0.0.153.bin",
                       "date":  "2026-06-18",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller_0.0.150.bin",
                       "date":  "2026-06-18",
                       "note":  "BAOS-RX-Diagnose erweitert: UART zaehlt nicht nur Rohbytes, sondern erkennt ACK 0xE5 sowie erste FT1.2 Fixed-/Variabel-Frames inklusive Checksumme, Fehler- und Overflow-Zaehlern."
-                  },
-                  {
-                      "version":  "0.0.149",
-                      "bin":  "knx-led-controller_0.0.149.bin",
-                      "date":  "2026-06-18",
-                      "note":  "BAOS-UART-Diagnose erweitert: KNX-Seite und /api/knx zeigen TX/RX-GPIOs, Host-Pinbelegung, 3V3-Hinweis, 8E1-Frame und gezaehlte Rohbytes auf RX."
                   }
               ]
 }

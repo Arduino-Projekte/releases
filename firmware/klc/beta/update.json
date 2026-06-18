@@ -1,12 +1,12 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller_0.0.153.bin",
+                     "url":  "knx-led-controller_0.0.154.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.153",
-                     "bin":  "knx-led-controller_0.0.153.bin",
-                     "file":  "knx-led-controller_0.0.153.bin",
-                     "message":  "LED-Test-Seite auf dynamische Browser-Renderung umgestellt, damit die Hardwaretest-Formulare bei 5 Ausgaengen nicht mehr durch HTML-Puffer abgeschnitten werden.",
+                     "version":  "0.0.154",
+                     "bin":  "knx-led-controller_0.0.154.bin",
+                     "file":  "knx-led-controller_0.0.154.bin",
+                     "message":  "Neue Registerkarte Steuerung ergänzt: Abläufe global oder je Ausgang direkt über die Webseite starten/stoppen; Runtime-Diagnose bleibt separat.",
                      "http_code":  200
                  }
 }
