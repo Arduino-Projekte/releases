@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.146",
+                      "bin":  "knx-led-controller_0.0.146.bin",
+                      "date":  "2026-06-18",
+                      "note":  "LED-Diagnose erweitert: neue API /api/leddiag kombiniert Konfiguration, LED-Engine, Backend-Startstatus, Zaehler, Timing-Profil und Warnungen je Ausgang."
+                  },
+                  {
                       "version":  "0.0.145",
                       "bin":  "knx-led-controller_0.0.145.bin",
                       "date":  "2026-06-18",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller_0.0.139.bin",
                       "date":  "2026-06-17",
                       "note":  "LED-Test robuster gemacht: Formular nutzt GET-Parameter, Einzelpixel-Test loescht vorherige Fuellung und Diagnose zeigt Testwerte klarer."
-                  },
-                  {
-                      "version":  "0.0.138",
-                      "bin":  "knx-led-controller_0.0.138.bin",
-                      "date":  "2026-06-17",
-                      "note":  "LED-Testseite verstaendlicher gemacht: alte Virtuell-Beschriftung entfernt, LEDs aktiv klar benannt und Pixelnummer als reiner Einzelpixel-Test erklaert."
                   }
               ]
 }

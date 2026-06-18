@@ -1,12 +1,12 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller_0.0.145.bin",
+                     "url":  "knx-led-controller_0.0.146.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.145",
-                     "bin":  "knx-led-controller_0.0.145.bin",
-                     "file":  "knx-led-controller_0.0.145.bin",
-                     "message":  "LED-Test erweitert: gefuehrte Testreihenfolge mit nummerierten Schnelltest-Buttons fuer Backend, Ausgang, RGB-Farben, RGB-Weiss, W-Kanal, Farbfolge-Muster sowie Anfang/Mitte/Ende des Strangs.",
+                     "version":  "0.0.146",
+                     "bin":  "knx-led-controller_0.0.146.bin",
+                     "file":  "knx-led-controller_0.0.146.bin",
+                     "message":  "LED-Diagnose erweitert: neue API /api/leddiag kombiniert Konfiguration, LED-Engine, Backend-Startstatus, Zaehler, Timing-Profil und Warnungen je Ausgang.",
                      "http_code":  200
                  }
 }
