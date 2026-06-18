@@ -1,12 +1,12 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller_0.0.157.bin",
+                     "url":  "knx-led-controller_0.0.158.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.157",
-                     "bin":  "knx-led-controller_0.0.157.bin",
-                     "file":  "knx-led-controller_0.0.157.bin",
-                     "message":  "Steuerung: Direkt-Aus schaltet LEDs sofort aus, ohne Ablauf 0 zu starten.",
+                     "version":  "0.0.158",
+                     "bin":  "knx-led-controller_0.0.158.bin",
+                     "file":  "knx-led-controller_0.0.158.bin",
+                     "message":  "Ablauf-Speichern übernimmt laufende Szenen sofort; Power-On: Aus/Letzte Einstellung/feste Szene.",
                      "http_code":  200
                  }
 }
