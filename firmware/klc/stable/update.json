@@ -1,12 +1,12 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller_0.0.160.bin",
+                     "url":  "knx-led-controller_0.0.161.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.160",
-                     "bin":  "knx-led-controller_0.0.160.bin",
-                     "file":  "knx-led-controller_0.0.160.bin",
-                     "message":  "Segmentleuchten nutzt jetzt LED-Anzahl ohne Prozent; weiche Segmentkanten einstellbar.",
+                     "version":  "0.0.161",
+                     "bin":  "knx-led-controller_0.0.161.bin",
+                     "file":  "knx-led-controller_0.0.161.bin",
+                     "message":  "Tetris-Aufbau zeigt fallende Bloecke; weiche Segmentkante nutzt LED-Stufen 80/60/40/20/0.",
                      "http_code":  200
                  }
 }
