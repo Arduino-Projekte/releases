@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.163",
+                      "bin":  "knx-led-controller_0.0.163.bin",
+                      "date":  "2026-06-18",
+                      "note":  "Heartbeat kuerzer; Tetris-Einstellungen robuster gespeichert; Direktsteuerung haelt Auswahl."
+                  },
+                  {
                       "version":  "0.0.162",
                       "bin":  "knx-led-controller_0.0.162.bin",
                       "date":  "2026-06-18",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller_0.0.158.bin",
                       "date":  "2026-06-18",
                       "note":  "Ablauf-Speichern übernimmt laufende Szenen sofort; Power-On: Aus/Letzte Einstellung/feste Szene."
-                  },
-                  {
-                      "version":  "0.0.157",
-                      "bin":  "knx-led-controller_0.0.157.bin",
-                      "date":  "2026-06-18",
-                      "note":  "Steuerung: Direkt-Aus schaltet LEDs sofort aus, ohne Ablauf 0 zu starten."
                   }
               ]
 }

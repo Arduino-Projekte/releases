@@ -1,12 +1,12 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller_0.0.162.bin",
+                     "url":  "knx-led-controller_0.0.163.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.162",
-                     "bin":  "knx-led-controller_0.0.162.bin",
-                     "file":  "knx-led-controller_0.0.162.bin",
-                     "message":  "Tetris-Zufalls-Timing mit Pause und Fallzeit; Segment-Weichkante bleibt stufig.",
+                     "version":  "0.0.163",
+                     "bin":  "knx-led-controller_0.0.163.bin",
+                     "file":  "knx-led-controller_0.0.163.bin",
+                     "message":  "Heartbeat kuerzer; Tetris-Einstellungen robuster gespeichert; Direktsteuerung haelt Auswahl.",
                      "http_code":  200
                  }
 }
