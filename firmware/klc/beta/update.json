@@ -1,12 +1,12 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller_0.0.150.bin",
+                     "url":  "knx-led-controller_0.0.151.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.150",
-                     "bin":  "knx-led-controller_0.0.150.bin",
-                     "file":  "knx-led-controller_0.0.150.bin",
-                     "message":  "BAOS-RX-Diagnose erweitert: UART zaehlt nicht nur Rohbytes, sondern erkennt ACK 0xE5 sowie erste FT1.2 Fixed-/Variabel-Frames inklusive Checksumme, Fehler- und Overflow-Zaehlern.",
+                     "version":  "0.0.151",
+                     "bin":  "knx-led-controller_0.0.151.bin",
+                     "file":  "knx-led-controller_0.0.151.bin",
+                     "message":  "BAOS-TX-Diagnose vorbereitet: manuelle UART-Testsendungen fuer ACK 0xE5 und ein FT1.2-Fixed-Testframe, inklusive TX-Zaehlern, letztem TX-Frame als HEX und WebUI/API-Anzeige.",
                      "http_code":  200
                  }
 }

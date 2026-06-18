@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.151",
+                      "bin":  "knx-led-controller_0.0.151.bin",
+                      "date":  "2026-06-18",
+                      "note":  "BAOS-TX-Diagnose vorbereitet: manuelle UART-Testsendungen fuer ACK 0xE5 und ein FT1.2-Fixed-Testframe, inklusive TX-Zaehlern, letztem TX-Frame als HEX und WebUI/API-Anzeige."
+                  },
+                  {
                       "version":  "0.0.150",
                       "bin":  "knx-led-controller_0.0.150.bin",
                       "date":  "2026-06-18",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller_0.0.147.bin",
                       "date":  "2026-06-18",
                       "note":  "LED-Diagnose erweitert: neue Seite /leddiag zeigt /api/leddiag lesbar mit Ampelstatus, Backenddaten, Engine/Teststatus und Warnungen je Ausgang."
-                  },
-                  {
-                      "version":  "0.0.146",
-                      "bin":  "knx-led-controller_0.0.146.bin",
-                      "date":  "2026-06-18",
-                      "note":  "LED-Diagnose erweitert: neue API /api/leddiag kombiniert Konfiguration, LED-Engine, Backend-Startstatus, Zaehler, Timing-Profil und Warnungen je Ausgang."
                   }
               ]
 }
