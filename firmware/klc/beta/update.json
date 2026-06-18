@@ -1,12 +1,12 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller_0.0.158.bin",
+                     "url":  "knx-led-controller_0.0.160.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.158",
-                     "bin":  "knx-led-controller_0.0.158.bin",
-                     "file":  "knx-led-controller_0.0.158.bin",
-                     "message":  "Ablauf-Speichern übernimmt laufende Szenen sofort; Power-On: Aus/Letzte Einstellung/feste Szene.",
+                     "version":  "0.0.160",
+                     "bin":  "knx-led-controller_0.0.160.bin",
+                     "file":  "knx-led-controller_0.0.160.bin",
+                     "message":  "Segmentleuchten nutzt jetzt LED-Anzahl ohne Prozent; weiche Segmentkanten einstellbar.",
                      "http_code":  200
                  }
 }
