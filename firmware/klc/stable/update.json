@@ -1,12 +1,12 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller_0.0.146.bin",
+                     "url":  "knx-led-controller_0.0.147.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.146",
-                     "bin":  "knx-led-controller_0.0.146.bin",
-                     "file":  "knx-led-controller_0.0.146.bin",
-                     "message":  "LED-Diagnose erweitert: neue API /api/leddiag kombiniert Konfiguration, LED-Engine, Backend-Startstatus, Zaehler, Timing-Profil und Warnungen je Ausgang.",
+                     "version":  "0.0.147",
+                     "bin":  "knx-led-controller_0.0.147.bin",
+                     "file":  "knx-led-controller_0.0.147.bin",
+                     "message":  "LED-Diagnose erweitert: neue Seite /leddiag zeigt /api/leddiag lesbar mit Ampelstatus, Backenddaten, Engine/Teststatus und Warnungen je Ausgang.",
                      "http_code":  200
                  }
 }
