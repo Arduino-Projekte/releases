@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.152",
+                      "bin":  "knx-led-controller_0.0.152.bin",
+                      "date":  "2026-06-18",
+                      "note":  "BAOS-Loopback-Diagnose ergaenzt: automatischer GP0-TX-zu-GP1-RX-Test mit ACK- und FT1.2-Fixed-Frame, Loopback-Ergebnis in WebUI und API sichtbar."
+                  },
+                  {
                       "version":  "0.0.150",
                       "bin":  "knx-led-controller_0.0.150.bin",
                       "date":  "2026-06-18",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller_0.0.146.bin",
                       "date":  "2026-06-18",
                       "note":  "LED-Diagnose erweitert: neue API /api/leddiag kombiniert Konfiguration, LED-Engine, Backend-Startstatus, Zaehler, Timing-Profil und Warnungen je Ausgang."
-                  },
-                  {
-                      "version":  "0.0.145",
-                      "bin":  "knx-led-controller_0.0.145.bin",
-                      "date":  "2026-06-18",
-                      "note":  "LED-Test erweitert: gefuehrte Testreihenfolge mit nummerierten Schnelltest-Buttons fuer Backend, Ausgang, RGB-Farben, RGB-Weiss, W-Kanal, Farbfolge-Muster sowie Anfang/Mitte/Ende des Strangs."
                   }
               ]
 }
