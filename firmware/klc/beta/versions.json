@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.145",
+                      "bin":  "knx-led-controller_0.0.145.bin",
+                      "date":  "2026-06-18",
+                      "note":  "LED-Test erweitert: gefuehrte Testreihenfolge mit nummerierten Schnelltest-Buttons fuer Backend, Ausgang, RGB-Farben, RGB-Weiss, W-Kanal, Farbfolge-Muster sowie Anfang/Mitte/Ende des Strangs."
+                  },
+                  {
                       "version":  "0.0.141",
                       "bin":  "knx-led-controller_0.0.141.bin",
                       "date":  "2026-06-17",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller_0.0.138.bin",
                       "date":  "2026-06-17",
                       "note":  "LED-Testseite verstaendlicher gemacht: alte Virtuell-Beschriftung entfernt, LEDs aktiv klar benannt und Pixelnummer als reiner Einzelpixel-Test erklaert."
-                  },
-                  {
-                      "version":  "0.0.137",
-                      "bin":  "knx-led-controller_0.0.137.bin",
-                      "date":  "2026-06-17",
-                      "note":  "LED-Testseite beruhigt: automatischer 5-Sekunden-Refresh entfernt; Formularwerte bleiben nach gesetztem Test sichtbar, damit Hardwaretests an echten LED-Strips sauber durchgefuehrt werden koennen."
                   }
               ]
 }

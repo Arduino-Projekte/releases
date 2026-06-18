@@ -1,12 +1,12 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller_0.0.141.bin",
+                     "url":  "knx-led-controller_0.0.145.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.141",
-                     "bin":  "knx-led-controller_0.0.141.bin",
-                     "file":  "knx-led-controller_0.0.141.bin",
-                     "message":  "LED-Test erweitert: RGB-Weiss/W-Kanal getrennt, Pixel-Schnelltests fuer Anfang/Mitte/Ende und klarere Ausgangsdiagnose mit LED-Typ, Chip und Farbreihenfolge.",
+                     "version":  "0.0.145",
+                     "bin":  "knx-led-controller_0.0.145.bin",
+                     "file":  "knx-led-controller_0.0.145.bin",
+                     "message":  "LED-Test erweitert: gefuehrte Testreihenfolge mit nummerierten Schnelltest-Buttons fuer Backend, Ausgang, RGB-Farben, RGB-Weiss, W-Kanal, Farbfolge-Muster sowie Anfang/Mitte/Ende des Strangs.",
                      "http_code":  200
                  }
 }
