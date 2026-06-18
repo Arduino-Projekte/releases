@@ -1,12 +1,12 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller_0.0.154.bin",
+                     "url":  "knx-led-controller_0.0.156.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.154",
-                     "bin":  "knx-led-controller_0.0.154.bin",
-                     "file":  "knx-led-controller_0.0.154.bin",
-                     "message":  "Neue Registerkarte Steuerung ergänzt: Abläufe global oder je Ausgang direkt über die Webseite starten/stoppen; Runtime-Diagnose bleibt separat.",
+                     "version":  "0.0.156",
+                     "bin":  "knx-led-controller_0.0.156.bin",
+                     "file":  "knx-led-controller_0.0.156.bin",
+                     "message":  "Build-Fix fuer Steuerung: JSON-Escape-Variablen korrekt lokal deklariert; /api/scenes bleibt JSON-sicher.",
                      "http_code":  200
                  }
 }
