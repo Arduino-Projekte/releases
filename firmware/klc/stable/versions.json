@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.149",
+                      "bin":  "knx-led-controller_0.0.149.bin",
+                      "date":  "2026-06-18",
+                      "note":  "BAOS-UART-Diagnose erweitert: KNX-Seite und /api/knx zeigen TX/RX-GPIOs, Host-Pinbelegung, 3V3-Hinweis, 8E1-Frame und gezaehlte Rohbytes auf RX."
+                  },
+                  {
                       "version":  "0.0.147",
                       "bin":  "knx-led-controller_0.0.147.bin",
                       "date":  "2026-06-18",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller_0.0.140.bin",
                       "date":  "2026-06-17",
                       "note":  "LED-Test erweitert: Schnelltest-Buttons fuer Rot/Gruen/Blau/Weiss/Aus je Ausgang, sichere 10-LED-Vorgabe und klarere Hardwarediagnose."
-                  },
-                  {
-                      "version":  "0.0.139",
-                      "bin":  "knx-led-controller_0.0.139.bin",
-                      "date":  "2026-06-17",
-                      "note":  "LED-Test robuster gemacht: Formular nutzt GET-Parameter, Einzelpixel-Test loescht vorherige Fuellung und Diagnose zeigt Testwerte klarer."
                   }
               ]
 }

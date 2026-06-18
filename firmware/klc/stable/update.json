@@ -1,12 +1,12 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller_0.0.147.bin",
+                     "url":  "knx-led-controller_0.0.149.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.147",
-                     "bin":  "knx-led-controller_0.0.147.bin",
-                     "file":  "knx-led-controller_0.0.147.bin",
-                     "message":  "LED-Diagnose erweitert: neue Seite /leddiag zeigt /api/leddiag lesbar mit Ampelstatus, Backenddaten, Engine/Teststatus und Warnungen je Ausgang.",
+                     "version":  "0.0.149",
+                     "bin":  "knx-led-controller_0.0.149.bin",
+                     "file":  "knx-led-controller_0.0.149.bin",
+                     "message":  "BAOS-UART-Diagnose erweitert: KNX-Seite und /api/knx zeigen TX/RX-GPIOs, Host-Pinbelegung, 3V3-Hinweis, 8E1-Frame und gezaehlte Rohbytes auf RX.",
                      "http_code":  200
                  }
 }
