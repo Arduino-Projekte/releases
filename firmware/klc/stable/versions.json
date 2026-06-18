@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.154",
+                      "bin":  "knx-led-controller_0.0.154.bin",
+                      "date":  "2026-06-18",
+                      "note":  "Neue Registerkarte Steuerung ergänzt: Abläufe global oder je Ausgang direkt über die Webseite starten/stoppen; Runtime-Diagnose bleibt separat."
+                  },
+                  {
                       "version":  "0.0.152",
                       "bin":  "knx-led-controller_0.0.152.bin",
                       "date":  "2026-06-18",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller_0.0.147.bin",
                       "date":  "2026-06-18",
                       "note":  "LED-Diagnose erweitert: neue Seite /leddiag zeigt /api/leddiag lesbar mit Ampelstatus, Backenddaten, Engine/Teststatus und Warnungen je Ausgang."
-                  },
-                  {
-                      "version":  "0.0.146",
-                      "bin":  "knx-led-controller_0.0.146.bin",
-                      "date":  "2026-06-18",
-                      "note":  "LED-Diagnose erweitert: neue API /api/leddiag kombiniert Konfiguration, LED-Engine, Backend-Startstatus, Zaehler, Timing-Profil und Warnungen je Ausgang."
                   }
               ]
 }
