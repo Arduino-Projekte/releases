@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.162",
+                      "bin":  "knx-led-controller_0.0.162.bin",
+                      "date":  "2026-06-18",
+                      "note":  "Tetris-Zufalls-Timing mit Pause und Fallzeit; Segment-Weichkante bleibt stufig."
+                  },
+                  {
                       "version":  "0.0.161",
                       "bin":  "knx-led-controller_0.0.161.bin",
                       "date":  "2026-06-18",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller_0.0.157.bin",
                       "date":  "2026-06-18",
                       "note":  "Steuerung: Direkt-Aus schaltet LEDs sofort aus, ohne Ablauf 0 zu starten."
-                  },
-                  {
-                      "version":  "0.0.156",
-                      "bin":  "knx-led-controller_0.0.156.bin",
-                      "date":  "2026-06-18",
-                      "note":  "Build-Fix fuer Steuerung: JSON-Escape-Variablen korrekt lokal deklariert; /api/scenes bleibt JSON-sicher."
                   }
               ]
 }
