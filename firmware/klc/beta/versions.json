@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.153",
+                      "bin":  "knx-led-controller_0.0.153.bin",
+                      "date":  "2026-06-18",
+                      "note":  "LED-Test-Seite auf dynamische Browser-Renderung umgestellt, damit die Hardwaretest-Formulare bei 5 Ausgaengen nicht mehr durch HTML-Puffer abgeschnitten werden."
+                  },
+                  {
                       "version":  "0.0.152",
                       "bin":  "knx-led-controller_0.0.152.bin",
                       "date":  "2026-06-18",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller_0.0.149.bin",
                       "date":  "2026-06-18",
                       "note":  "BAOS-UART-Diagnose erweitert: KNX-Seite und /api/knx zeigen TX/RX-GPIOs, Host-Pinbelegung, 3V3-Hinweis, 8E1-Frame und gezaehlte Rohbytes auf RX."
-                  },
-                  {
-                      "version":  "0.0.148",
-                      "bin":  "knx-led-controller_0.0.148.bin",
-                      "date":  "2026-06-18",
-                      "note":  "LED-Testmodus sichtbarer gemacht: manuelle Tests werden auf /ledtest, /outputs, /leddiag und /api/leddiag klar angezeigt, mit Direktlink zum Loeschen aller Tests."
                   }
               ]
 }
