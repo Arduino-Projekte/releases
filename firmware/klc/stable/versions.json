@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.156",
+                      "bin":  "knx-led-controller_0.0.156.bin",
+                      "date":  "2026-06-18",
+                      "note":  "Build-Fix fuer Steuerung: JSON-Escape-Variablen korrekt lokal deklariert; /api/scenes bleibt JSON-sicher."
+                  },
+                  {
                       "version":  "0.0.154",
                       "bin":  "knx-led-controller_0.0.154.bin",
                       "date":  "2026-06-18",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller_0.0.149.bin",
                       "date":  "2026-06-18",
                       "note":  "BAOS-UART-Diagnose erweitert: KNX-Seite und /api/knx zeigen TX/RX-GPIOs, Host-Pinbelegung, 3V3-Hinweis, 8E1-Frame und gezaehlte Rohbytes auf RX."
-                  },
-                  {
-                      "version":  "0.0.147",
-                      "bin":  "knx-led-controller_0.0.147.bin",
-                      "date":  "2026-06-18",
-                      "note":  "LED-Diagnose erweitert: neue Seite /leddiag zeigt /api/leddiag lesbar mit Ampelstatus, Backenddaten, Engine/Teststatus und Warnungen je Ausgang."
                   }
               ]
 }
