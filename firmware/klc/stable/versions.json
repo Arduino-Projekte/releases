@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.168",
+                      "bin":  "knx-led-controller_0.0.168.bin",
+                      "date":  "2026-06-20",
+                      "note":  "BAOS 838 Diagnose: Auto-Baud 115200/19200 und bessere RX-Nullbytes-Verdrahtungshilfe; keine KNX-Schaltlogik."
+                  },
+                  {
                       "version":  "0.0.167",
                       "bin":  "knx-led-controller_0.0.167.bin",
                       "date":  "2026-06-20",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller_0.0.162.bin",
                       "date":  "2026-06-18",
                       "note":  "Tetris-Zufalls-Timing mit Pause und Fallzeit; Segment-Weichkante bleibt stufig."
-                  },
-                  {
-                      "version":  "0.0.161",
-                      "bin":  "knx-led-controller_0.0.161.bin",
-                      "date":  "2026-06-18",
-                      "note":  "Tetris-Aufbau zeigt fallende Bloecke; weiche Segmentkante nutzt LED-Stufen 80/60/40/20/0."
                   }
               ]
 }

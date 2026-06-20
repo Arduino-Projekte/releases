@@ -1,12 +1,12 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller_0.0.167.bin",
+                     "url":  "knx-led-controller_0.0.168.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.167",
-                     "bin":  "knx-led-controller_0.0.167.bin",
-                     "file":  "knx-led-controller_0.0.167.bin",
-                     "message":  "BAOS Serial-FT1.2 Diagnose: echter Reset.Req, Firmware-Abfrage und Verbindungsstatus; keine KNX-Schaltlogik.",
+                     "version":  "0.0.168",
+                     "bin":  "knx-led-controller_0.0.168.bin",
+                     "file":  "knx-led-controller_0.0.168.bin",
+                     "message":  "BAOS 838 Diagnose: Auto-Baud 115200/19200 und bessere RX-Nullbytes-Verdrahtungshilfe; keine KNX-Schaltlogik.",
                      "http_code":  200
                  }
 }
