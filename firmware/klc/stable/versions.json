@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.171",
+                      "bin":  "knx-led-controller_0.0.171.bin",
+                      "date":  "2026-06-20",
+                      "note":  "BAOS Auto-Baud wird nach erfolgreicher Verbindung automatisch dauerhaft gespeichert."
+                  },
+                  {
                       "version":  "0.0.170",
                       "bin":  "knx-led-controller_0.0.170.bin",
                       "date":  "2026-06-20",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller_0.0.167.bin",
                       "date":  "2026-06-20",
                       "note":  "BAOS Serial-FT1.2 Diagnose: echter Reset.Req, Firmware-Abfrage und Verbindungsstatus; keine KNX-Schaltlogik."
-                  },
-                  {
-                      "version":  "0.0.166",
-                      "bin":  "knx-led-controller_0.0.166.bin",
-                      "date":  "2026-06-20",
-                      "note":  "KLC Carrier Pinplan GP26 Service, GP27 Run-LED, GP28 Error-LED festgezogen; v0.0.165-Fixes enthalten."
                   }
               ]
 }

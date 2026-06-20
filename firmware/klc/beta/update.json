@@ -1,12 +1,12 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller_0.0.170.bin",
+                     "url":  "knx-led-controller_0.0.171.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.170",
-                     "bin":  "knx-led-controller_0.0.170.bin",
-                     "file":  "knx-led-controller_0.0.170.bin",
-                     "message":  "Run-LED plus interne Board-LED als Admin-/Update-Mirror, Update-Seite lädt nach Neustart automatisch neu.",
+                     "version":  "0.0.171",
+                     "bin":  "knx-led-controller_0.0.171.bin",
+                     "file":  "knx-led-controller_0.0.171.bin",
+                     "message":  "BAOS Auto-Baud wird nach erfolgreicher Verbindung automatisch dauerhaft gespeichert.",
                      "http_code":  200
                  }
 }
