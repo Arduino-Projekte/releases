@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.170",
+                      "bin":  "knx-led-controller_0.0.170.bin",
+                      "date":  "2026-06-20",
+                      "note":  "Run-LED plus interne Board-LED als Admin-/Update-Mirror, Update-Seite lädt nach Neustart automatisch neu."
+                  },
+                  {
                       "version":  "0.0.169",
                       "bin":  "knx-led-controller_0.0.169.bin",
                       "date":  "2026-06-20",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller_0.0.166.bin",
                       "date":  "2026-06-20",
                       "note":  "KLC Carrier Pinplan GP26 Service, GP27 Run-LED, GP28 Error-LED festgezogen; v0.0.165-Fixes enthalten."
-                  },
-                  {
-                      "version":  "0.0.163",
-                      "bin":  "knx-led-controller_0.0.163.bin",
-                      "date":  "2026-06-18",
-                      "note":  "Heartbeat kuerzer; Tetris-Einstellungen robuster gespeichert; Direktsteuerung haelt Auswahl."
                   }
               ]
 }

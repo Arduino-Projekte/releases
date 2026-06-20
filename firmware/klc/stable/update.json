@@ -1,12 +1,12 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller_0.0.169.bin",
+                     "url":  "knx-led-controller_0.0.170.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.169",
-                     "bin":  "knx-led-controller_0.0.169.bin",
-                     "file":  "knx-led-controller_0.0.169.bin",
-                     "message":  "BAOS 838: echte DatapointValue.Ind/GetDatapointValue.Res-Auswertung, KNX-Eingangsmapping aktiv, Status-TX per SetDatapointValue vorbereitet.",
+                     "version":  "0.0.170",
+                     "bin":  "knx-led-controller_0.0.170.bin",
+                     "file":  "knx-led-controller_0.0.170.bin",
+                     "message":  "Run-LED plus interne Board-LED als Admin-/Update-Mirror, Update-Seite lädt nach Neustart automatisch neu.",
                      "http_code":  200
                  }
 }
