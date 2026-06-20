@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.173",
+                      "bin":  "knx-led-controller_0.0.173.bin",
+                      "date":  "2026-06-20",
+                      "note":  "KNX Sperre/Zwangsfuehrung/Direktfarbe und Update-Autoreload verbessert."
+                  },
+                  {
                       "version":  "0.0.172",
                       "bin":  "knx-led-controller_0.0.172.bin",
                       "date":  "2026-06-20",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller_0.0.169.bin",
                       "date":  "2026-06-20",
                       "note":  "BAOS 838: echte DatapointValue.Ind/GetDatapointValue.Res-Auswertung, KNX-Eingangsmapping aktiv, Status-TX per SetDatapointValue vorbereitet."
-                  },
-                  {
-                      "version":  "0.0.168",
-                      "bin":  "knx-led-controller_0.0.168.bin",
-                      "date":  "2026-06-20",
-                      "note":  "BAOS 838 Diagnose: Auto-Baud 115200/19200 und bessere RX-Nullbytes-Verdrahtungshilfe; keine KNX-Schaltlogik."
                   }
               ]
 }

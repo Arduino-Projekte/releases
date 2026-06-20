@@ -1,12 +1,12 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller_0.0.172.bin",
+                     "url":  "knx-led-controller_0.0.173.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.172",
-                     "bin":  "knx-led-controller_0.0.172.bin",
-                     "file":  "knx-led-controller_0.0.172.bin",
-                     "message":  "BAOS Startup-Status nach Verbindung und KNX-DP-Testbuttons.",
+                     "version":  "0.0.173",
+                     "bin":  "knx-led-controller_0.0.173.bin",
+                     "file":  "knx-led-controller_0.0.173.bin",
+                     "message":  "KNX Sperre/Zwangsfuehrung/Direktfarbe und Update-Autoreload verbessert.",
                      "http_code":  200
                  }
 }
