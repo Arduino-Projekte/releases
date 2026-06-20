@@ -1,12 +1,12 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller_0.0.166.bin",
+                     "url":  "knx-led-controller_0.0.167.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.166",
-                     "bin":  "knx-led-controller_0.0.166.bin",
-                     "file":  "knx-led-controller_0.0.166.bin",
-                     "message":  "KLC Carrier Pinplan GP26 Service, GP27 Run-LED, GP28 Error-LED festgezogen; v0.0.165-Fixes enthalten.",
+                     "version":  "0.0.167",
+                     "bin":  "knx-led-controller_0.0.167.bin",
+                     "file":  "knx-led-controller_0.0.167.bin",
+                     "message":  "BAOS Serial-FT1.2 Diagnose: echter Reset.Req, Firmware-Abfrage und Verbindungsstatus; keine KNX-Schaltlogik.",
                      "http_code":  200
                  }
 }
