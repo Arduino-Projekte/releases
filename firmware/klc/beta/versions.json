@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.166",
+                      "bin":  "knx-led-controller_0.0.166.bin",
+                      "date":  "2026-06-20",
+                      "note":  "KLC Carrier Pinplan GP26 Service, GP27 Run-LED, GP28 Error-LED festgezogen; v0.0.165-Fixes enthalten."
+                  },
+                  {
                       "version":  "0.0.163",
                       "bin":  "knx-led-controller_0.0.163.bin",
                       "date":  "2026-06-18",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller_0.0.160.bin",
                       "date":  "2026-06-18",
                       "note":  "Segmentleuchten nutzt jetzt LED-Anzahl ohne Prozent; weiche Segmentkanten einstellbar."
-                  },
-                  {
-                      "version":  "0.0.158",
-                      "bin":  "knx-led-controller_0.0.158.bin",
-                      "date":  "2026-06-18",
-                      "note":  "Ablauf-Speichern übernimmt laufende Szenen sofort; Power-On: Aus/Letzte Einstellung/feste Szene."
                   }
               ]
 }
