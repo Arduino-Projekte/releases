@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.169",
+                      "bin":  "knx-led-controller_0.0.169.bin",
+                      "date":  "2026-06-20",
+                      "note":  "BAOS 838: echte DatapointValue.Ind/GetDatapointValue.Res-Auswertung, KNX-Eingangsmapping aktiv, Status-TX per SetDatapointValue vorbereitet."
+                  },
+                  {
                       "version":  "0.0.168",
                       "bin":  "knx-led-controller_0.0.168.bin",
                       "date":  "2026-06-20",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller_0.0.163.bin",
                       "date":  "2026-06-18",
                       "note":  "Heartbeat kuerzer; Tetris-Einstellungen robuster gespeichert; Direktsteuerung haelt Auswahl."
-                  },
-                  {
-                      "version":  "0.0.162",
-                      "bin":  "knx-led-controller_0.0.162.bin",
-                      "date":  "2026-06-18",
-                      "note":  "Tetris-Zufalls-Timing mit Pause und Fallzeit; Segment-Weichkante bleibt stufig."
                   }
               ]
 }
