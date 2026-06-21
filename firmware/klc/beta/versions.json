@@ -1,50 +1,10 @@
 {
     "items":  [
                   {
-                      "version":  "0.0.183",
-                      "bin":  "knx-led-controller_0.0.183.bin",
+                      "version":  "0.0.184",
+                      "bin":  "knx-led-controller_0.0.184.bin",
                       "date":  "2026-06-21",
-                      "note":  "Globale Sperre/Zwangsobjekte entfernt; Sperre/Zwangsobjekt nur noch pro Ausgang."
-<<<<<<< HEAD
-=======
-                  },
-                  {
-                      "version":  "0.0.173",
-                      "bin":  "knx-led-controller_0.0.173.bin",
-                      "date":  "2026-06-20",
-                      "note":  "KNX Sperre/Zwangsfuehrung/Direktfarbe und Update-Autoreload verbessert."
->>>>>>> e2bae4d (KNXLEDController: Firmware 0.0.183)
-                  },
-                  {
-                      "version":  "0.0.182",
-                      "bin":  "knx-led-controller_0.0.182.bin",
-                      "date":  "2026-06-21",
-                      "note":  "Globale Sperre/Zwangsobjekte entfernt; Sperre/Zwangsobjekt nur noch pro Ausgang."
-                  },
-                  {
-                      "version":  "0.0.181",
-                      "bin":  "knx-led-controller_0.0.181.bin",
-                      "date":  "2026-06-21",
-                      "note":  "Ausgaenge als einklappbare Karten und KNX-Formularhoehe geglaettet."
-                  },
-                  {
-<<<<<<< HEAD
-                      "version":  "0.0.180",
-                      "bin":  "knx-led-controller_0.0.180.bin",
-                      "date":  "2026-06-21",
-                      "note":  "Ausgaenge als einklappbare Karten und KNX-Formularhoehe geglaettet."
-                  },
-                  {
-                      "version":  "0.0.179",
-                      "bin":  "knx-led-controller_0.0.179.bin",
-                      "date":  "2026-06-21",
-                      "note":  "KNX-Verhalten aufgeraeumt, Ausgaenge mit festen GPIOs und einklappbaren Gruppen."
-=======
-                      "version":  "0.0.170",
-                      "bin":  "knx-led-controller_0.0.170.bin",
-                      "date":  "2026-06-20",
-                      "note":  "Run-LED plus interne Board-LED als Admin-/Update-Mirror, Update-Seite lädt nach Neustart automatisch neu."
->>>>>>> e2bae4d (KNXLEDController: Firmware 0.0.183)
+                      "note":  "KNX Statusobjekte pro Ausgang erweitert; Szenen-DPT und Statussendung bereinigt."
                   }
               ]
 }
