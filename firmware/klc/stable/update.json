@@ -1,11 +1,11 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller_0.0.184.bin",
+                     "url":  "knx-led-controller_0.0.185.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.184",
-                     "bin":  "knx-led-controller_0.0.184.bin",
-                     "file":  "knx-led-controller_0.0.184.bin",
+                     "version":  "0.0.185",
+                     "bin":  "knx-led-controller_0.0.185.bin",
+                     "file":  "knx-led-controller_0.0.185.bin",
                      "message":  "KNX Statusobjekte pro Ausgang erweitert; Szenen-DPT und Statussendung bereinigt.",
                      "http_code":  200
                  }

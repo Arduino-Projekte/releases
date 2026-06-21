@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.185",
+                      "bin":  "knx-led-controller_0.0.185.bin",
+                      "date":  "2026-06-21",
+                      "note":  "KNX Statusobjekte pro Ausgang erweitert; Szenen-DPT und Statussendung bereinigt."
+                  },
+                  {
                       "version":  "0.0.184",
                       "bin":  "knx-led-controller_0.0.184.bin",
                       "date":  "2026-06-21",
