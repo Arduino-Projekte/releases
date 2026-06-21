@@ -1,12 +1,12 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller_0.0.176.bin",
+                     "url":  "knx-led-controller_0.0.177.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.176",
-                     "bin":  "knx-led-controller_0.0.176.bin",
-                     "file":  "knx-led-controller_0.0.176.bin",
-                     "message":  "KNX Status-Sendeverhalten konfigurierbar.",
+                     "version":  "0.0.177",
+                     "bin":  "knx-led-controller_0.0.177.bin",
+                     "file":  "knx-led-controller_0.0.177.bin",
+                     "message":  "Ausgangsseite strukturiert und ETS-CSV beigelegt.",
                      "http_code":  200
                  }
 }

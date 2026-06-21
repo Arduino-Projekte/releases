@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.177",
+                      "bin":  "knx-led-controller_0.0.177.bin",
+                      "date":  "2026-06-21",
+                      "note":  "Ausgangsseite strukturiert und ETS-CSV beigelegt."
+                  },
+                  {
                       "version":  "0.0.176",
                       "bin":  "knx-led-controller_0.0.176.bin",
                       "date":  "2026-06-21",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller_0.0.171.bin",
                       "date":  "2026-06-20",
                       "note":  "BAOS Auto-Baud wird nach erfolgreicher Verbindung automatisch dauerhaft gespeichert."
-                  },
-                  {
-                      "version":  "0.0.170",
-                      "bin":  "knx-led-controller_0.0.170.bin",
-                      "date":  "2026-06-20",
-                      "note":  "Run-LED plus interne Board-LED als Admin-/Update-Mirror, Update-Seite lädt nach Neustart automatisch neu."
                   }
               ]
 }
