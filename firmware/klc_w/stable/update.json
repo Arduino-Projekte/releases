@@ -1,0 +1,12 @@
+{
+    "manifest":  {
+                     "url":  "knx-led-controller_0.0.186.bin",
+                     "check_ok":  true,
+                     "update_available":  false,
+                     "version":  "0.0.186",
+                     "bin":  "knx-led-controller_0.0.186.bin",
+                     "file":  "knx-led-controller_0.0.186.bin",
+                     "message":  "KNX Status real je Ausgang; zentrale Statuswerte entfernt",
+                     "http_code":  200
+                 }
+}
