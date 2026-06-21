@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.181",
+                      "bin":  "knx-led-controller_0.0.181.bin",
+                      "date":  "2026-06-21",
+                      "note":  "Ausgaenge als einklappbare Karten und KNX-Formularhoehe geglaettet."
+                  },
+                  {
                       "version":  "0.0.180",
                       "bin":  "knx-led-controller_0.0.180.bin",
                       "date":  "2026-06-21",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller_0.0.177.bin",
                       "date":  "2026-06-21",
                       "note":  "Ausgangsseite strukturiert und ETS-CSV beigelegt."
-                  },
-                  {
-                      "version":  "0.0.176",
-                      "bin":  "knx-led-controller_0.0.176.bin",
-                      "date":  "2026-06-21",
-                      "note":  "KNX Status-Sendeverhalten konfigurierbar."
                   }
               ]
 }
