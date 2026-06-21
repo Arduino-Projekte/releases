@@ -1,12 +1,12 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-4m_0.0.189.bin",
+                     "url":  "knx-led-controller-4m_0.0.191.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.189",
-                     "bin":  "knx-led-controller-4m_0.0.189.bin",
-                     "file":  "knx-led-controller-4m_0.0.189.bin",
-                     "message":  "OTA-Auto-Install sicher deaktiviert und Versionsliste profilsicher gefiltert",
+                     "version":  "0.0.191",
+                     "bin":  "knx-led-controller-4m_0.0.191.bin",
+                     "file":  "knx-led-controller-4m_0.0.191.bin",
+                     "message":  "Versionshistorie zeigt Profilfilter und ignorierte Fremdprofile",
                      "http_code":  200
                  }
 }

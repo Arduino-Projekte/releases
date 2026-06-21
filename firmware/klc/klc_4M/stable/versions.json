@@ -1,6 +1,18 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.191",
+                      "bin":  "knx-led-controller-4m_0.0.191.bin",
+                      "date":  "2026-06-21",
+                      "note":  "Versionshistorie zeigt Profilfilter und ignorierte Fremdprofile"
+                  },
+                  {
+                      "version":  "0.0.190",
+                      "bin":  "knx-led-controller-4m_0.0.190.bin",
+                      "date":  "2026-06-21",
+                      "note":  "Systemdiagnose zeigt Firmwareprofil und Builddaten, System-JSON korrigiert"
+                  },
+                  {
                       "version":  "0.0.189",
                       "bin":  "knx-led-controller-4m_0.0.189.bin",
                       "date":  "2026-06-21",
@@ -17,18 +29,6 @@
                       "bin":  "knx-led-controller_0.0.186.bin",
                       "date":  "2026-06-21",
                       "note":  "KNX Status real je Ausgang; zentrale Statuswerte entfernt"
-                  },
-                  {
-                      "version":  "0.0.185",
-                      "bin":  "knx-led-controller_0.0.185.bin",
-                      "date":  "2026-06-21",
-                      "note":  "KNX Statusobjekte pro Ausgang erweitert; Szenen-DPT und Statussendung bereinigt."
-                  },
-                  {
-                      "version":  "0.0.184",
-                      "bin":  "knx-led-controller_0.0.184.bin",
-                      "date":  "2026-06-21",
-                      "note":  "KNX Statusobjekte pro Ausgang erweitert; Szenen-DPT und Statussendung bereinigt."
                   }
               ]
 }
