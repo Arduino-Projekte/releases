@@ -1,12 +1,12 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller_0.0.179.bin",
+                     "url":  "knx-led-controller_0.0.180.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.179",
-                     "bin":  "knx-led-controller_0.0.179.bin",
-                     "file":  "knx-led-controller_0.0.179.bin",
-                     "message":  "KNX-Verhalten aufgeraeumt, Ausgaenge mit festen GPIOs und einklappbaren Gruppen.",
+                     "version":  "0.0.180",
+                     "bin":  "knx-led-controller_0.0.180.bin",
+                     "file":  "knx-led-controller_0.0.180.bin",
+                     "message":  "Ausgaenge als einklappbare Karten und KNX-Formularhoehe geglaettet.",
                      "http_code":  200
                  }
 }

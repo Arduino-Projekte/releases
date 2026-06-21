@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.180",
+                      "bin":  "knx-led-controller_0.0.180.bin",
+                      "date":  "2026-06-21",
+                      "note":  "Ausgaenge als einklappbare Karten und KNX-Formularhoehe geglaettet."
+                  },
+                  {
                       "version":  "0.0.179",
                       "bin":  "knx-led-controller_0.0.179.bin",
                       "date":  "2026-06-21",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller_0.0.176.bin",
                       "date":  "2026-06-21",
                       "note":  "KNX Status-Sendeverhalten konfigurierbar."
-                  },
-                  {
-                      "version":  "0.0.173",
-                      "bin":  "knx-led-controller_0.0.173.bin",
-                      "date":  "2026-06-20",
-                      "note":  "KNX Sperre/Zwangsfuehrung/Direktfarbe und Update-Autoreload verbessert."
                   }
               ]
 }
