@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.186",
+                      "bin":  "knx-led-controller_0.0.186.bin",
+                      "date":  "2026-06-21",
+                      "note":  "KNX Status real je Ausgang; zentrale Statuswerte entfernt"
+                  },
+                  {
                       "version":  "0.0.185",
                       "bin":  "knx-led-controller_0.0.185.bin",
                       "date":  "2026-06-21",
