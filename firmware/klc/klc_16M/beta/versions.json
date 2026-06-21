@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.189",
+                      "bin":  "knx-led-controller-16m_0.0.189.bin",
+                      "date":  "2026-06-21",
+                      "note":  "OTA-Auto-Install sicher deaktiviert und Versionsliste profilsicher gefiltert"
+                  },
+                  {
                       "version":  "0.0.187",
                       "bin":  "knx-led-controller_0.0.187.bin",
                       "date":  "2026-06-21",

@@ -1,6 +1,18 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.189",
+                      "bin":  "knx-led-controller-4m_0.0.189.bin",
+                      "date":  "2026-06-21",
+                      "note":  "OTA-Auto-Install sicher deaktiviert und Versionsliste profilsicher gefiltert"
+                  },
+                  {
+                      "version":  "0.0.188",
+                      "bin":  "knx-led-controller-4m_0.0.188.bin",
+                      "date":  "2026-06-21",
+                      "note":  "Profiltrennung 4M/16M/16M-W und OTA-Schutz gegen falsche Firmwarevariante"
+                  },
+                  {
                       "version":  "0.0.187",
                       "bin":  "knx-led-controller-4m_0.0.187.bin",
                       "date":  "2026-06-21",
@@ -15,12 +27,6 @@
                   {
                       "version":  "0.0.185",
                       "bin":  "knx-led-controller_0.0.185.bin",
-                      "date":  "2026-06-21",
-                      "note":  "KNX Statusobjekte pro Ausgang erweitert; Szenen-DPT und Statussendung bereinigt."
-                  },
-                  {
-                      "version":  "0.0.184",
-                      "bin":  "knx-led-controller_0.0.184.bin",
                       "date":  "2026-06-21",
                       "note":  "KNX Statusobjekte pro Ausgang erweitert; Szenen-DPT und Statussendung bereinigt."
                   }
