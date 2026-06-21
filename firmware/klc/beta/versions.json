@@ -1,6 +1,18 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.177",
+                      "bin":  "knx-led-controller_0.0.177.bin",
+                      "date":  "2026-06-21",
+                      "note":  "Ausgangsseite strukturiert und ETS-CSV beigelegt."
+                  },
+                  {
+                      "version":  "0.0.176",
+                      "bin":  "knx-led-controller_0.0.176.bin",
+                      "date":  "2026-06-21",
+                      "note":  "KNX Status-Sendeverhalten konfigurierbar."
+                  },
+                  {
                       "version":  "0.0.173",
                       "bin":  "knx-led-controller_0.0.173.bin",
                       "date":  "2026-06-20",
@@ -17,18 +29,6 @@
                       "bin":  "knx-led-controller_0.0.171.bin",
                       "date":  "2026-06-20",
                       "note":  "BAOS Auto-Baud wird nach erfolgreicher Verbindung automatisch dauerhaft gespeichert."
-                  },
-                  {
-                      "version":  "0.0.170",
-                      "bin":  "knx-led-controller_0.0.170.bin",
-                      "date":  "2026-06-20",
-                      "note":  "Run-LED plus interne Board-LED als Admin-/Update-Mirror, Update-Seite lädt nach Neustart automatisch neu."
-                  },
-                  {
-                      "version":  "0.0.169",
-                      "bin":  "knx-led-controller_0.0.169.bin",
-                      "date":  "2026-06-20",
-                      "note":  "BAOS 838: echte DatapointValue.Ind/GetDatapointValue.Res-Auswertung, KNX-Eingangsmapping aktiv, Status-TX per SetDatapointValue vorbereitet."
                   }
               ]
 }

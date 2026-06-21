@@ -1,12 +1,12 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller_0.0.173.bin",
+                     "url":  "knx-led-controller_0.0.176.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.173",
-                     "bin":  "knx-led-controller_0.0.173.bin",
-                     "file":  "knx-led-controller_0.0.173.bin",
-                     "message":  "KNX Sperre/Zwangsfuehrung/Direktfarbe und Update-Autoreload verbessert.",
+                     "version":  "0.0.176",
+                     "bin":  "knx-led-controller_0.0.176.bin",
+                     "file":  "knx-led-controller_0.0.176.bin",
+                     "message":  "KNX Status-Sendeverhalten konfigurierbar.",
                      "http_code":  200
                  }
 }
