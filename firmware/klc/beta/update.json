@@ -1,11 +1,11 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller_0.0.182.bin",
+                     "url":  "knx-led-controller_0.0.183.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.182",
-                     "bin":  "knx-led-controller_0.0.182.bin",
-                     "file":  "knx-led-controller_0.0.182.bin",
+                     "version":  "0.0.183",
+                     "bin":  "knx-led-controller_0.0.183.bin",
+                     "file":  "knx-led-controller_0.0.183.bin",
                      "message":  "Globale Sperre/Zwangsobjekte entfernt; Sperre/Zwangsobjekt nur noch pro Ausgang.",
                      "http_code":  200
                  }
