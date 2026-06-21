@@ -1,0 +1,34 @@
+{
+    "items":  [
+                  {
+                      "version":  "0.0.191",
+                      "bin":  "knx-led-controller-16m_0.0.191.bin",
+                      "date":  "2026-06-21",
+                      "note":  "Versionshistorie zeigt Profilfilter und ignorierte Fremdprofile"
+                  },
+                  {
+                      "version":  "0.0.189",
+                      "bin":  "knx-led-controller-16m_0.0.189.bin",
+                      "date":  "2026-06-21",
+                      "note":  "OTA-Auto-Install sicher deaktiviert und Versionsliste profilsicher gefiltert"
+                  },
+                  {
+                      "version":  "0.0.187",
+                      "bin":  "knx-led-controller_0.0.187.bin",
+                      "date":  "2026-06-21",
+                      "note":  "KNX Zentralhelligkeit als Master-Dimmer; Status meldet effektiv sichtbaren Ausgang"
+                  },
+                  {
+                      "version":  "0.0.186",
+                      "bin":  "knx-led-controller_0.0.186.bin",
+                      "date":  "2026-06-21",
+                      "note":  "KNX Status real je Ausgang; zentrale Statuswerte entfernt"
+                  },
+                  {
+                      "version":  "0.0.185",
+                      "bin":  "knx-led-controller_0.0.185.bin",
+                      "date":  "2026-06-21",
+                      "note":  "KNX Statusobjekte pro Ausgang erweitert; Szenen-DPT und Statussendung bereinigt."
+                  }
+              ]
+}
