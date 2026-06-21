@@ -1,0 +1,12 @@
+{
+    "manifest":  {
+                     "url":  "knx-led-controller_0.0.187.bin",
+                     "check_ok":  true,
+                     "update_available":  false,
+                     "version":  "0.0.187",
+                     "bin":  "knx-led-controller_0.0.187.bin",
+                     "file":  "knx-led-controller_0.0.187.bin",
+                     "message":  "KNX Zentralhelligkeit als Master-Dimmer; Status meldet effektiv sichtbaren Ausgang",
+                     "http_code":  200
+                 }
+}
