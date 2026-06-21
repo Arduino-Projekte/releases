@@ -1,12 +1,12 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller_0.0.181.bin",
+                     "url":  "knx-led-controller_0.0.182.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.181",
-                     "bin":  "knx-led-controller_0.0.181.bin",
-                     "file":  "knx-led-controller_0.0.181.bin",
-                     "message":  "Ausgaenge als einklappbare Karten und KNX-Formularhoehe geglaettet.",
+                     "version":  "0.0.182",
+                     "bin":  "knx-led-controller_0.0.182.bin",
+                     "file":  "knx-led-controller_0.0.182.bin",
+                     "message":  "Globale Sperre/Zwangsobjekte entfernt; Sperre/Zwangsobjekt nur noch pro Ausgang.",
                      "http_code":  200
                  }
 }
