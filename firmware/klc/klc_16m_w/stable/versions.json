@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.201",
+                      "bin":  "knx-led-controller-16m-w_0.0.201.bin",
+                      "date":  "2026-06-22",
+                      "note":  "Support-Snapshot zeigt Gesamtzustand und Startphasenbewertung"
+                  },
+                  {
                       "version":  "0.0.191",
                       "bin":  "knx-led-controller-16m-w_0.0.191.bin",
                       "date":  "2026-06-21",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller_0.0.186.bin",
                       "date":  "2026-06-21",
                       "note":  "KNX Status real je Ausgang; zentrale Statuswerte entfernt"
-                  },
-                  {
-                      "version":  "0.0.185",
-                      "bin":  "knx-led-controller_0.0.185.bin",
-                      "date":  "2026-06-21",
-                      "note":  "KNX Statusobjekte pro Ausgang erweitert; Szenen-DPT und Statussendung bereinigt."
                   }
               ]
 }

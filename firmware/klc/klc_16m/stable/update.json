@@ -1,12 +1,12 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m_0.0.191.bin",
+                     "url":  "knx-led-controller-16m_0.0.201.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.191",
-                     "bin":  "knx-led-controller-16m_0.0.191.bin",
-                     "file":  "knx-led-controller-16m_0.0.191.bin",
-                     "message":  "Versionshistorie zeigt Profilfilter und ignorierte Fremdprofile",
+                     "version":  "0.0.201",
+                     "bin":  "knx-led-controller-16m_0.0.201.bin",
+                     "file":  "knx-led-controller-16m_0.0.201.bin",
+                     "message":  "Support-Snapshot zeigt Gesamtzustand und Startphasenbewertung",
                      "http_code":  200
                  }
 }
