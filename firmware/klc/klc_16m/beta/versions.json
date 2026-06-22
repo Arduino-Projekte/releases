@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.214",
+                      "bin":  "knx-led-controller-16m_0.0.214.bin",
+                      "date":  "2026-06-22",
+                      "note":  "Release-Manifest automatisch erstellt"
+                  },
+                  {
                       "version":  "0.0.211",
                       "bin":  "knx-led-controller-16m_0.0.211.bin",
                       "date":  "2026-06-22",
@@ -21,12 +27,6 @@
                   {
                       "version":  "0.0.204",
                       "bin":  "knx-led-controller-16m_0.0.204.bin",
-                      "date":  "2026-06-22",
-                      "note":  "Release-Manifest automatisch erstellt"
-                  },
-                  {
-                      "version":  "0.0.202",
-                      "bin":  "knx-led-controller-16m_0.0.202.bin",
                       "date":  "2026-06-22",
                       "note":  "Release-Manifest automatisch erstellt"
                   }
