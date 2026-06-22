@@ -1,12 +1,12 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m-w_0.0.206.bin",
+                     "url":  "knx-led-controller-16m-w_0.0.209.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.206",
-                     "bin":  "knx-led-controller-16m-w_0.0.206.bin",
-                     "file":  "knx-led-controller-16m-w_0.0.206.bin",
-                     "sha256":  "a83fe970e2938a0132a7dfced948d3b8779a174d200f9b792f4b7dfae684ca56",
+                     "version":  "0.0.209",
+                     "bin":  "knx-led-controller-16m-w_0.0.209.bin",
+                     "file":  "knx-led-controller-16m-w_0.0.209.bin",
+                     "sha256":  "b51ea9cceada69ab281109749d724c428f08adeed3a2175616a0a9ac57b2eaca",
                      "message":  "Release-Manifest automatisch erstellt",
                      "http_code":  200
                  }
