@@ -1,12 +1,12 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-4m_0.0.217.bin",
+                     "url":  "knx-led-controller-4m_0.0.219.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.217",
-                     "bin":  "knx-led-controller-4m_0.0.217.bin",
-                     "file":  "knx-led-controller-4m_0.0.217.bin",
-                     "sha256":  "f6fd1671475e32cb55356212bda5c5fa0c78c8bccefdba2a8136ac5c72a75d95",
+                     "version":  "0.0.219",
+                     "bin":  "knx-led-controller-4m_0.0.219.bin",
+                     "file":  "knx-led-controller-4m_0.0.219.bin",
+                     "sha256":  "1b36812f55fe3299b31b1e903d531a24635a665d912bd56a12401434645e5176",
                      "message":  "Release-Manifest automatisch erstellt",
                      "http_code":  200
                  }
