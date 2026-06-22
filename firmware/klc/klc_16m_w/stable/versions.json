@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.214",
+                      "bin":  "knx-led-controller-16m-w_0.0.214.bin",
+                      "date":  "2026-06-22",
+                      "note":  "Release-Manifest automatisch erstellt"
+                  },
+                  {
                       "version":  "0.0.209",
                       "bin":  "knx-led-controller-16m-w_0.0.209.bin",
                       "date":  "2026-06-22",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m-w_0.0.191.bin",
                       "date":  "2026-06-21",
                       "note":  "Versionshistorie zeigt Profilfilter und ignorierte Fremdprofile"
-                  },
-                  {
-                      "version":  "0.0.189",
-                      "bin":  "knx-led-controller-16m-w_0.0.189.bin",
-                      "date":  "2026-06-21",
-                      "note":  "OTA-Auto-Install sicher deaktiviert und Versionsliste profilsicher gefiltert"
                   }
               ]
 }
