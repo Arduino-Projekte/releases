@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.204",
+                      "bin":  "knx-led-controller-16m_0.0.204.bin",
+                      "date":  "2026-06-22",
+                      "note":  "Release-Manifest automatisch erstellt"
+                  },
+                  {
                       "version":  "0.0.201",
                       "bin":  "knx-led-controller-16m_0.0.201.bin",
                       "date":  "2026-06-22",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller_0.0.187.bin",
                       "date":  "2026-06-21",
                       "note":  "KNX Zentralhelligkeit als Master-Dimmer; Status meldet effektiv sichtbaren Ausgang"
-                  },
-                  {
-                      "version":  "0.0.186",
-                      "bin":  "knx-led-controller_0.0.186.bin",
-                      "date":  "2026-06-21",
-                      "note":  "KNX Status real je Ausgang; zentrale Statuswerte entfernt"
                   }
               ]
 }
