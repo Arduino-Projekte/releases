@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.227",
+                      "bin":  "knx-led-controller-4m_0.0.227.bin",
+                      "date":  "2026-06-23",
+                      "note":  "Einheitliche Schieberegler fuer alle Animationen: Fuellgrad, Segment, Nachleuchten, Schrittzeit, Funkeln (Tempo/Fuellgrad/Lebenszeit), Tetris (Gruppe/Abstand/Pause/Schritt) sowie Feuerwerk und Tetrix bekommen im Ablauf-Editor zusaetzlich einen Slider; das Zahlenfeld bleibt fuer die genaue Eingabe erhalten. Rein clientseitig (kein Einfluss auf Speicherung/Server). Pulsperiode und Dauer bleiben Zahlenfelder (zu grosser Wertebereich). Ablauf-Zeile zeigt jetzt \u0027kein Start-Effekt\u0027 bzw. \u0027kein Aus-Effekt\u0027 kontextabhaengig."
+                  },
+                  {
                       "version":  "0.0.226",
                       "bin":  "knx-led-controller-4m_0.0.226.bin",
                       "date":  "2026-06-23",
@@ -22,12 +28,6 @@
                       "version":  "0.0.223",
                       "bin":  "knx-led-controller-4m_0.0.223.bin",
                       "date":  "2026-06-23",
-                      "note":  "Release-Manifest automatisch erstellt"
-                  },
-                  {
-                      "version":  "0.0.222",
-                      "bin":  "knx-led-controller-4m_0.0.222.bin",
-                      "date":  "2026-06-22",
                       "note":  "Release-Manifest automatisch erstellt"
                   }
               ]

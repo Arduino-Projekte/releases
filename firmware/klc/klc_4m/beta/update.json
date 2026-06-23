@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-4m_0.0.226.bin",
+                     "url":  "knx-led-controller-4m_0.0.227.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.226",
-                     "bin":  "knx-led-controller-4m_0.0.226.bin",
-                     "file":  "knx-led-controller-4m_0.0.226.bin",
-                     "sha256":  "c11a678322356a2003e52f40b985aea9545c87f59c391d577bf97a254ddf61e5",
-                     "message":  "Feuerwerk und Tetrix haben jetzt eigene WLED-Stil-Schieberegler (0..255). Feuerwerk: Geschwindigkeit (hoeher = schnellerer Takt und kuerzere Explosion) und Intensitaet (Funkenzahl). Tetrix: Geschwindigkeit (Falltempo) und Blockbreite. Damit ist das Feuerwerk standardmaessig deutlich ruhiger/langsamer als zuvor. Die alte Feld-Wiederverwendung (Pulsperiode/Funkel-Lebenszeit/Schrittzeit) entfaellt fuer diese Effekte. Neue Konfigfelder fireworks_speed/fireworks_intensity/tetrix_speed/tetrix_width (Schema 47; aeltere Backups laden mit Standardwerten).",
+                     "version":  "0.0.227",
+                     "bin":  "knx-led-controller-4m_0.0.227.bin",
+                     "file":  "knx-led-controller-4m_0.0.227.bin",
+                     "sha256":  "dfd616cd274d5c21743b88b86bf4cc50dac4f9b8bc20c52736d9d4000913aee2",
+                     "message":  "Einheitliche Schieberegler fuer alle Animationen: Fuellgrad, Segment, Nachleuchten, Schrittzeit, Funkeln (Tempo/Fuellgrad/Lebenszeit), Tetris (Gruppe/Abstand/Pause/Schritt) sowie Feuerwerk und Tetrix bekommen im Ablauf-Editor zusaetzlich einen Slider; das Zahlenfeld bleibt fuer die genaue Eingabe erhalten. Rein clientseitig (kein Einfluss auf Speicherung/Server). Pulsperiode und Dauer bleiben Zahlenfelder (zu grosser Wertebereich). Ablauf-Zeile zeigt jetzt \u0027kein Start-Effekt\u0027 bzw. \u0027kein Aus-Effekt\u0027 kontextabhaengig.",
                      "http_code":  200
                  }
 }
