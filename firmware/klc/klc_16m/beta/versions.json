@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.225",
+                      "bin":  "knx-led-controller-16m_0.0.225.bin",
+                      "date":  "2026-06-23",
+                      "note":  "Feuerwerk verbessert: Die Funken haben jetzt eine eigene, zufaellige Lebensdauer (~50..100 %) und ein weicheres, laenger nachleuchtendes Ausklingen. Dadurch erlischt eine Explosion nicht mehr schlagartig, sondern die Pixel gehen nacheinander/zufaellig aus. Laengeres Nachleuchten ueber \u0027Ein-Funkel-Lebenszeit\u0027, Abstand zwischen Explosionen ueber \u0027Ein-Pulsperiode\u0027. Tetrix-Geschwindigkeit ueber \u0027Ein-Schrittzeit\u0027 (ms pro Pixel, kleiner = schneller). Canvas-Vorschau an die neue Funkenlogik angepasst. (0.0.224: neue Effekte Feuerwerk und Tetrix.)"
+                  },
+                  {
                       "version":  "0.0.224",
                       "bin":  "knx-led-controller-16m_0.0.224.bin",
                       "date":  "2026-06-23",
@@ -21,12 +27,6 @@
                   {
                       "version":  "0.0.214",
                       "bin":  "knx-led-controller-16m_0.0.214.bin",
-                      "date":  "2026-06-22",
-                      "note":  "Release-Manifest automatisch erstellt"
-                  },
-                  {
-                      "version":  "0.0.211",
-                      "bin":  "knx-led-controller-16m_0.0.211.bin",
                       "date":  "2026-06-22",
                       "note":  "Release-Manifest automatisch erstellt"
                   }
