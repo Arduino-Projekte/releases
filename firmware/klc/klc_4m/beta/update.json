@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-4m_0.0.225.bin",
+                     "url":  "knx-led-controller-4m_0.0.226.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.225",
-                     "bin":  "knx-led-controller-4m_0.0.225.bin",
-                     "file":  "knx-led-controller-4m_0.0.225.bin",
-                     "sha256":  "7fb30b133db28d9acf09efefe153b3cf4fd49cead26f3505e89201b66adbc2c1",
-                     "message":  "Feuerwerk verbessert: Die Funken haben jetzt eine eigene, zufaellige Lebensdauer (~50..100 %) und ein weicheres, laenger nachleuchtendes Ausklingen. Dadurch erlischt eine Explosion nicht mehr schlagartig, sondern die Pixel gehen nacheinander/zufaellig aus. Laengeres Nachleuchten ueber \u0027Ein-Funkel-Lebenszeit\u0027, Abstand zwischen Explosionen ueber \u0027Ein-Pulsperiode\u0027. Tetrix-Geschwindigkeit ueber \u0027Ein-Schrittzeit\u0027 (ms pro Pixel, kleiner = schneller). Canvas-Vorschau an die neue Funkenlogik angepasst. (0.0.224: neue Effekte Feuerwerk und Tetrix.)",
+                     "version":  "0.0.226",
+                     "bin":  "knx-led-controller-4m_0.0.226.bin",
+                     "file":  "knx-led-controller-4m_0.0.226.bin",
+                     "sha256":  "c11a678322356a2003e52f40b985aea9545c87f59c391d577bf97a254ddf61e5",
+                     "message":  "Feuerwerk und Tetrix haben jetzt eigene WLED-Stil-Schieberegler (0..255). Feuerwerk: Geschwindigkeit (hoeher = schnellerer Takt und kuerzere Explosion) und Intensitaet (Funkenzahl). Tetrix: Geschwindigkeit (Falltempo) und Blockbreite. Damit ist das Feuerwerk standardmaessig deutlich ruhiger/langsamer als zuvor. Die alte Feld-Wiederverwendung (Pulsperiode/Funkel-Lebenszeit/Schrittzeit) entfaellt fuer diese Effekte. Neue Konfigfelder fireworks_speed/fireworks_intensity/tetrix_speed/tetrix_width (Schema 47; aeltere Backups laden mit Standardwerten).",
                      "http_code":  200
                  }
 }
