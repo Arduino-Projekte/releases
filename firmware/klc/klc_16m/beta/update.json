@@ -6,7 +6,7 @@
                      "version":  "0.0.224",
                      "bin":  "knx-led-controller-16m_0.0.224.bin",
                      "file":  "knx-led-controller-16m_0.0.224.bin",
-                     "sha256":  "d614bfe7be7b73ed071375927245868662d647c3d3d1f2ce8921249880fb9271",
+                     "sha256":  "48205cdc3b6ee5ea37ea5e2574166b0572e9e2eddd760145e6661d57abc058ce",
                      "message":  "Zwei neue Haupteffekte (WLED-inspiriert): Feuerwerk und Tetrix. Feuerwerk lässt eine Rakete aufsteigen und in bunte, deterministisch berechnete Funken explodieren (Wurfparabel, kein Partikelspeicher); Tetrix stapelt einzeln fallende Blöcke zur vollen Leiste und startet danach neu. Beide laufen über die bestehende Szenen-Engine inkl. String-Segmenten und Canvas-Vorschau und nutzen vorhandene Felder: Feuerwerk -\u003e Ein-Pulsperiode (Takt), Ein-Funkel-Lebenszeit (Funkendauer), Ein-Füllgrad (Funkenzahl); Tetrix -\u003e Tetris-Gruppe min/max (Blockgröße), Ein-Schrittzeit (Falltempo), Tetris-Zufallsfarben. Helligkeit folgt der Szenenfarbe (schwarze Farbe = aus). Keine neuen Konfigfelder, Backups bleiben kompatibel (Schema unverändert).",
                      "http_code":  200
                  }
