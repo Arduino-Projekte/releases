@@ -6,8 +6,8 @@
                      "version":  "0.0.227",
                      "bin":  "knx-led-controller-4m_0.0.227.bin",
                      "file":  "knx-led-controller-4m_0.0.227.bin",
-                     "sha256":  "dfd616cd274d5c21743b88b86bf4cc50dac4f9b8bc20c52736d9d4000913aee2",
-                     "message":  "Einheitliche Schieberegler fuer alle Animationen: Fuellgrad, Segment, Nachleuchten, Schrittzeit, Funkeln (Tempo/Fuellgrad/Lebenszeit), Tetris (Gruppe/Abstand/Pause/Schritt) sowie Feuerwerk und Tetrix bekommen im Ablauf-Editor zusaetzlich einen Slider; das Zahlenfeld bleibt fuer die genaue Eingabe erhalten. Rein clientseitig (kein Einfluss auf Speicherung/Server). Pulsperiode und Dauer bleiben Zahlenfelder (zu grosser Wertebereich). Ablauf-Zeile zeigt jetzt \u0027kein Start-Effekt\u0027 bzw. \u0027kein Aus-Effekt\u0027 kontextabhaengig.",
+                     "sha256":  "f60b5b5551d74babad55c06385ce148bbf7e6393e30cd854f606b82159eeb198",
+                     "message":  "Einheitliche Schieberegler fuer alle Animationen: Fuellgrad, Segment, Nachleuchten, Schrittzeit, Funkeln (Tempo/Fuellgrad/Lebenszeit), Tetris (Gruppe/Abstand/Pause/Schritt) sowie Feuerwerk und Tetrix bekommen im Ablauf-Editor zusaetzlich einen Slider; das Zahlenfeld bleibt fuer die genaue Eingabe erhalten. Rein clientseitig (kein Einfluss auf Speicherung/Server). Pulsperiode und Dauer bleiben Zahlenfelder (zu grosser Wertebereich). Unter \u0027Globale Effekt-Einstellungen\u0027 werden die Feuerwerk- und Tetrix-Regler jetzt serverseitig nur noch beim passenden Ein-Effekt eingeblendet (vorher konnten beide sichtbar sein). Ablauf-Zeile zeigt jetzt \u0027kein Start-Effekt\u0027 bzw. \u0027kein Aus-Effekt\u0027 kontextabhaengig.",
                      "http_code":  200
                  }
 }
