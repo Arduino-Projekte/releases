@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-4m_0.0.227.bin",
+                     "url":  "knx-led-controller-4m_0.0.228.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.227",
-                     "bin":  "knx-led-controller-4m_0.0.227.bin",
-                     "file":  "knx-led-controller-4m_0.0.227.bin",
-                     "sha256":  "f60b5b5551d74babad55c06385ce148bbf7e6393e30cd854f606b82159eeb198",
-                     "message":  "Einheitliche Schieberegler fuer alle Animationen: Fuellgrad, Segment, Nachleuchten, Schrittzeit, Funkeln (Tempo/Fuellgrad/Lebenszeit), Tetris (Gruppe/Abstand/Pause/Schritt) sowie Feuerwerk und Tetrix bekommen im Ablauf-Editor zusaetzlich einen Slider; das Zahlenfeld bleibt fuer die genaue Eingabe erhalten. Rein clientseitig (kein Einfluss auf Speicherung/Server). Pulsperiode und Dauer bleiben Zahlenfelder (zu grosser Wertebereich). Unter \u0027Globale Effekt-Einstellungen\u0027 werden die Feuerwerk- und Tetrix-Regler jetzt serverseitig nur noch beim passenden Ein-Effekt eingeblendet (vorher konnten beide sichtbar sein). Ablauf-Zeile zeigt jetzt \u0027kein Start-Effekt\u0027 bzw. \u0027kein Aus-Effekt\u0027 kontextabhaengig.",
+                     "version":  "0.0.228",
+                     "bin":  "knx-led-controller-4m_0.0.228.bin",
+                     "file":  "knx-led-controller-4m_0.0.228.bin",
+                     "sha256":  "53f7ebf7c4d46e57e440add7692afddaa2673bcf1660c1da3d14236e279a71e6",
+                     "message":  "Schieberegler-Darstellung korrigiert: Die generische Eingabefeld-CSS (Rahmen/Hintergrund/Innenabstand) hatte die Slider unsichtbar gemacht; Range-Felder bekommen jetzt eigenes Styling und werden korrekt als Regler angezeigt - auch bei Feuerwerk und Tetrix. Zusaetzlich gibt es jetzt Slider fuer Farbe (R/G/B/W) und Helligkeit. Slider erscheinen neben dem Zahlenfeld (genaue Eingabe bleibt). Ein-/Ausblenden der Effekt-Bloecke unter \u0027Globale Effekt-Einstellungen\u0027 erfolgt serverseitig (nur der gewaehlte Ein-Effekt). Hinweis: Der Umschalter User/Experte (3 Ansichten) ist noch nicht gebaut - das ist als naechstes geplant.",
                      "http_code":  200
                  }
 }
