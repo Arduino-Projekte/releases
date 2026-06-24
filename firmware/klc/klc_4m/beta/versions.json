@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.249",
+                      "bin":  "knx-led-controller-4m_0.0.249.bin",
+                      "date":  "2026-06-24",
+                      "note":  "Ausgaenge bearbeiten: in der Kachel \u0027LED-Typ / Strip\u0027 jetzt Reihenfolge LED-Chip, LED-Farben, Farbreihenfolge. Steuerung (/control) ueberarbeitet: Ladefehler \u0027Failed to fetch\u0027 behoben (Overlap-Schutz + Abbruch-Timeout fuer das Polling, kein Haemmern des Single-Connection-Servers mehr, langsameres 2s-Intervall), Fehlermeldung wird bei erfolgreichem Laden geloescht (klebt nicht mehr), und Szenen-Dropdown/Schnellstart-Buttons aktualisieren sich bei Katalogaenderungen (zeigen keine veralteten Szenen mehr). Keine Schemaaenderung (Schema 49)."
+                  },
+                  {
                       "version":  "0.0.248",
                       "bin":  "knx-led-controller-4m_0.0.248.bin",
                       "date":  "2026-06-24",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-4m_0.0.245.bin",
                       "date":  "2026-06-24",
                       "note":  "Kanten-Blinktest: Anfang/Ende-Buttons bestaetigen den Klick jetzt sofort optisch (optimistische Anzeige, kein voller Reload mehr noetig). Der Test bricht beim Aendern der Ausgangs-Konfiguration (z. B. Pixelzahl) nicht mehr ab, sondern laeuft mit der neuen Pixelzahl weiter und zeigt die neue letzte LED - dadurch laesst sich die tatsaechliche Stranglaenge ertasten (neue Engine-Funktion klcLedEngineSetEdgeBlink, Sicherung/Wiederherstellung im Save-Pfad). Keine Schemaaenderung (Schema 49)."
-                  },
-                  {
-                      "version":  "0.0.244",
-                      "bin":  "knx-led-controller-4m_0.0.244.bin",
-                      "date":  "2026-06-24",
-                      "note":  "Ausgaenge bearbeiten: die drei Abschnitte (Grunddaten, LED-Typ/Strip, Leistung) sind nicht mehr einzeln einklappbar, sondern nur noch optisch getrennt. Abgeleitete Texte (Segment-Hinweis, Pixelzahl in der Kachel-Ueberschrift, LED-Versatz-Bereich) werden live bei jeder Eingabe aktualisiert; gespeichert wird per Auto-Save ueber /api/output beim Verlassen des Feldes (Selects/Checkboxen sofort), Speichern-Button entfernt, Statusanzeige je Ausgang. Beschriftung \u0027Timing/Protokollprofil des LED-ICs.\u0027 entfernt. Keine Schemaaenderung (Schema 49)."
                   }
               ]
 }

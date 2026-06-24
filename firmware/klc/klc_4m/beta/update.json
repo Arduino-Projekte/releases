@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-4m_0.0.248.bin",
+                     "url":  "knx-led-controller-4m_0.0.249.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.248",
-                     "bin":  "knx-led-controller-4m_0.0.248.bin",
-                     "file":  "knx-led-controller-4m_0.0.248.bin",
-                     "sha256":  "78d54551a8de55fe9d0e479ff62c6519e85b208dd84bb433721214e1c6c301c6",
-                     "message":  "Tetris schnellste Stufe faellt jetzt wirklich blitzschnell, ohne LEDs zu ueberspringen: die kuenstliche Deckelung auf ~1 LED pro Frame (step_per_led-Floor) ist raus, dafuer zeichnet der fallende Block eine weich ausblendende Bewegungs-Spur (Comet-Tail), deren Laenge der pro Frame zurueckgelegten Strecke entspricht. Dadurch leuchtet jede durchquerte LED kurz auf - schnelle Faelle sind sichtbar statt springend. Bei langsamen Stufen ist die Spur \u003c1 LED und damit unsichtbar (unveraendertes Aussehen). Keine Schemaaenderung (Schema 49).",
+                     "version":  "0.0.249",
+                     "bin":  "knx-led-controller-4m_0.0.249.bin",
+                     "file":  "knx-led-controller-4m_0.0.249.bin",
+                     "sha256":  "04c9eaee1017c7c7f262e1cb2ad3f55d6ca54d28c959d47679ea75270e7b3d08",
+                     "message":  "Ausgaenge bearbeiten: in der Kachel \u0027LED-Typ / Strip\u0027 jetzt Reihenfolge LED-Chip, LED-Farben, Farbreihenfolge. Steuerung (/control) ueberarbeitet: Ladefehler \u0027Failed to fetch\u0027 behoben (Overlap-Schutz + Abbruch-Timeout fuer das Polling, kein Haemmern des Single-Connection-Servers mehr, langsameres 2s-Intervall), Fehlermeldung wird bei erfolgreichem Laden geloescht (klebt nicht mehr), und Szenen-Dropdown/Schnellstart-Buttons aktualisieren sich bei Katalogaenderungen (zeigen keine veralteten Szenen mehr). Keine Schemaaenderung (Schema 49).",
                      "http_code":  200
                  }
 }
