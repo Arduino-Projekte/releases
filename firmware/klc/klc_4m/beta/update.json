@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-4m_0.0.237.bin",
+                     "url":  "knx-led-controller-4m_0.0.239.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.237",
-                     "bin":  "knx-led-controller-4m_0.0.237.bin",
-                     "file":  "knx-led-controller-4m_0.0.237.bin",
-                     "sha256":  "0bcc97de47cff774e9a1beb3484bb90d1a4c7b4b174814238b7cdefd68ec7413",
-                     "message":  "Tetris-Maximalgeschwindigkeit stabilisiert: sehr kurze Schrittzeiten werden auf die reale LED-Ausgabe begrenzt, damit fallende Bloecke keine sichtbaren Positionen ueberspringen und auch bei hoechstem Tempo fluessig als Pixelbewegung sichtbar bleiben. Hinweistext im Ablauf-Editor aktualisiert. Keine Schemaaenderung (Schema 49).",
+                     "version":  "0.0.239",
+                     "bin":  "knx-led-controller-4m_0.0.239.bin",
+                     "file":  "knx-led-controller-4m_0.0.239.bin",
+                     "sha256":  "2460969aab099c8773661536852fa23431bdb409153a93fe2a5ee58b7643e11a",
+                     "message":  "Tetris bei Maximalgeschwindigkeit ausgereizt: echte show()-Dauer wird gemessen, Tetris bekommt eine framebegrenzte eigene Zeitbasis und ueberspringt bei Lastspitzen keine sichtbaren LED-Schritte mehr. Keine Schemaaenderung (Schema 49).",
                      "http_code":  200
                  }
 }
