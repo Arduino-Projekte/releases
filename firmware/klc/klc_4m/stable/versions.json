@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.233",
+                      "bin":  "knx-led-controller-4m_0.0.233.bin",
+                      "date":  "2026-06-24",
+                      "note":  "Versatz wirkt jetzt automatisch ueber Segmente ODER Kanaele: Der Stopp-Versatz (string_segment_stop_delay_ms) staffelt bei String-Segmenten weiterhin je Segment, bei Ausgaengen ohne Segmente jetzt je Kanal (Ausgang) - jeder Ausgang wartet seinen Kanal-Versatz ab, spielt den Aus-Effekt und geht aus. Start-Versatz (global_delay_ms) staffelt die Kanaele beim Einschalten wie bisher. Bei Versatz 0 bleibt das bisherige Sofort-Aus erhalten. UI-Labels praezisiert. Keine Schemaaenderung (Schema 49)."
+                  },
+                  {
                       "version":  "0.0.232",
                       "bin":  "knx-led-controller-4m_0.0.232.bin",
                       "date":  "2026-06-24",
@@ -22,12 +28,6 @@
                       "version":  "0.0.223",
                       "bin":  "knx-led-controller-4m_0.0.223.bin",
                       "date":  "2026-06-23",
-                      "note":  "Release-Manifest automatisch erstellt"
-                  },
-                  {
-                      "version":  "0.0.219",
-                      "bin":  "knx-led-controller-4m_0.0.219.bin",
-                      "date":  "2026-06-22",
                       "note":  "Release-Manifest automatisch erstellt"
                   }
               ]

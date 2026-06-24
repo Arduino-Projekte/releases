@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-4m_0.0.232.bin",
+                     "url":  "knx-led-controller-4m_0.0.233.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.232",
-                     "bin":  "knx-led-controller-4m_0.0.232.bin",
-                     "file":  "knx-led-controller-4m_0.0.232.bin",
-                     "sha256":  "2f8570fbb76b86cc3b8f589cd3a913b6e7bc29227d99d0d46151f06a7b076a94",
-                     "message":  "Start- und Aus-Effekte koennen jetzt auch Feuerwerk und Tetrix (WLED) verwenden, identisch zum \u0027Ein\u0027-Effektumfang (neue Phasen KLC_SCENE_PHASE_FIREWORKS/_TETRIX). Gleiche Renderer/Slider und Farb-Override wie bei \u0027Ein\u0027, inkl. Canvas-Vorschau, Backup-Slugs (fireworks/tetrix) und Bounds. Hinweis im Code: Erweiterungen am \u0027Ein\u0027-Effekt immer auch bei Start und Aus nachziehen. Konfig-Schema 49.",
+                     "version":  "0.0.233",
+                     "bin":  "knx-led-controller-4m_0.0.233.bin",
+                     "file":  "knx-led-controller-4m_0.0.233.bin",
+                     "sha256":  "e0613952758a66da771b46833b446a6ad2e06fc1c26184a0566beab2bf1cb47f",
+                     "message":  "Versatz wirkt jetzt automatisch ueber Segmente ODER Kanaele: Der Stopp-Versatz (string_segment_stop_delay_ms) staffelt bei String-Segmenten weiterhin je Segment, bei Ausgaengen ohne Segmente jetzt je Kanal (Ausgang) - jeder Ausgang wartet seinen Kanal-Versatz ab, spielt den Aus-Effekt und geht aus. Start-Versatz (global_delay_ms) staffelt die Kanaele beim Einschalten wie bisher. Bei Versatz 0 bleibt das bisherige Sofort-Aus erhalten. UI-Labels praezisiert. Keine Schemaaenderung (Schema 49).",
                      "http_code":  200
                  }
 }
