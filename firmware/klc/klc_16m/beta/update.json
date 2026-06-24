@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m_0.0.236.bin",
+                     "url":  "knx-led-controller-16m_0.0.250.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.236",
-                     "bin":  "knx-led-controller-16m_0.0.236.bin",
-                     "file":  "knx-led-controller-16m_0.0.236.bin",
-                     "sha256":  "4403802fccc01a40876b2bfaa6179de9f0a81cf1278402a16902737ea08a1557",
-                     "message":  "Ablauf-Editor: Schieberegler-Thumbs nochmals robuster rund gestylt (WebKit/Mozilla/MS, Klasse klc-range). Tetris-Aufbau: fallende Bloecke starten ausserhalb der Leiste und gleiten sichtbar hinein, sodass ein 10-LED-Block als 1, 2, 3 ... LEDs erscheint. Keine Schemaaenderung (Schema 49).",
+                     "version":  "0.0.250",
+                     "bin":  "knx-led-controller-16m_0.0.250.bin",
+                     "file":  "knx-led-controller-16m_0.0.250.bin",
+                     "sha256":  "fb7bbff12e73206fe414d72e10cf152d6b7972dbb1288159434cee4daa47c91a",
+                     "message":  "Tetris-Sprung beim schnellen Fall behoben: Die Bewegungs-Spur des fallenden Blocks ist jetzt VOLL deckend statt ausblendend - frueher waren die LEDs am Spurende so dunkel, dass sie wie uebersprungen aussahen. Zusaetzlich bei schnellem Fall (\u003e= ~1 LED/Frame) eine Sicherheits-Ueberlappung von 2 LEDs, damit sich die Streifen aufeinanderfolgender Frames garantiert um mind. 2 LEDs ueberlappen und keine LED dunkel bleibt. Langsamer Fall unveraendert. Keine Schemaaenderung (Schema 49).",
                      "http_code":  200
                  }
 }
