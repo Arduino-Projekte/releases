@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.236",
+                      "bin":  "knx-led-controller-4m_0.0.236.bin",
+                      "date":  "2026-06-24",
+                      "note":  "Ablauf-Editor: Schieberegler-Thumbs nochmals robuster rund gestylt (WebKit/Mozilla/MS, Klasse klc-range). Tetris-Aufbau: fallende Bloecke starten ausserhalb der Leiste und gleiten sichtbar hinein, sodass ein 10-LED-Block als 1, 2, 3 ... LEDs erscheint. Keine Schemaaenderung (Schema 49)."
+                  },
+                  {
                       "version":  "0.0.235",
                       "bin":  "knx-led-controller-4m_0.0.235.bin",
                       "date":  "2026-06-24",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-4m_0.0.229.bin",
                       "date":  "2026-06-24",
                       "note":  "Schieberegler erscheinen jetzt zuverlaessig: Das Sliderize wird jetzt INLINE in der frischen (no-store) Ablauf-Editor-Seite ausgefuehrt und nicht mehr nur in der gecachten /flow/edit.js - dadurch greift es auch dann, wenn der Browser noch ein altes JavaScript zwischengespeichert hat. Zusaetzlich Versions-Cachebuster an /flow/edit.js. Slider fuer Farbe (R/G/B/W), Helligkeit, Geschwindigkeit/Intensitaet (Feuerwerk/Tetrix), Fuellgrad, Funkeln, Tetris usw.; das Zahlenfeld bleibt fuer die genaue Eingabe. Hinweis: Umschalter User/Experte (3 Ansichten) folgt als naechster Schritt."
-                  },
-                  {
-                      "version":  "0.0.228",
-                      "bin":  "knx-led-controller-4m_0.0.228.bin",
-                      "date":  "2026-06-23",
-                      "note":  "Schieberegler-Darstellung korrigiert: Die generische Eingabefeld-CSS (Rahmen/Hintergrund/Innenabstand) hatte die Slider unsichtbar gemacht; Range-Felder bekommen jetzt eigenes Styling und werden korrekt als Regler angezeigt - auch bei Feuerwerk und Tetrix. Zusaetzlich gibt es jetzt Slider fuer Farbe (R/G/B/W) und Helligkeit. Slider erscheinen neben dem Zahlenfeld (genaue Eingabe bleibt). Ein-/Ausblenden der Effekt-Bloecke unter \u0027Globale Effekt-Einstellungen\u0027 erfolgt serverseitig (nur der gewaehlte Ein-Effekt). Hinweis: Der Umschalter User/Experte (3 Ansichten) ist noch nicht gebaut - das ist als naechstes geplant."
                   }
               ]
 }
