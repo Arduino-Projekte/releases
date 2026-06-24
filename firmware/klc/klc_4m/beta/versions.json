@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.233",
+                      "bin":  "knx-led-controller-4m_0.0.233.bin",
+                      "date":  "2026-06-24",
+                      "note":  "Versatz wirkt jetzt automatisch ueber Segmente ODER Kanaele: Der Stopp-Versatz (string_segment_stop_delay_ms) staffelt bei String-Segmenten weiterhin je Segment, bei Ausgaengen ohne Segmente jetzt je Kanal (Ausgang) - jeder Ausgang wartet seinen Kanal-Versatz ab, spielt den Aus-Effekt und geht aus. Start-Versatz (global_delay_ms) staffelt die Kanaele beim Einschalten wie bisher. Bei Versatz 0 bleibt das bisherige Sofort-Aus erhalten. UI-Labels praezisiert. Keine Schemaaenderung (Schema 49)."
+                  },
+                  {
                       "version":  "0.0.232",
                       "bin":  "knx-led-controller-4m_0.0.232.bin",
                       "date":  "2026-06-24",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-4m_0.0.227.bin",
                       "date":  "2026-06-23",
                       "note":  "Einheitliche Schieberegler fuer alle Animationen: Fuellgrad, Segment, Nachleuchten, Schrittzeit, Funkeln (Tempo/Fuellgrad/Lebenszeit), Tetris (Gruppe/Abstand/Pause/Schritt) sowie Feuerwerk und Tetrix bekommen im Ablauf-Editor zusaetzlich einen Slider; das Zahlenfeld bleibt fuer die genaue Eingabe erhalten. Rein clientseitig (kein Einfluss auf Speicherung/Server). Pulsperiode und Dauer bleiben Zahlenfelder (zu grosser Wertebereich). Unter \u0027Globale Effekt-Einstellungen\u0027 werden die Feuerwerk- und Tetrix-Regler jetzt serverseitig nur noch beim passenden Ein-Effekt eingeblendet (vorher konnten beide sichtbar sein). Ablauf-Zeile zeigt jetzt \u0027kein Start-Effekt\u0027 bzw. \u0027kein Aus-Effekt\u0027 kontextabhaengig."
-                  },
-                  {
-                      "version":  "0.0.226",
-                      "bin":  "knx-led-controller-4m_0.0.226.bin",
-                      "date":  "2026-06-23",
-                      "note":  "Feuerwerk und Tetrix haben jetzt eigene WLED-Stil-Schieberegler (0..255). Feuerwerk: Geschwindigkeit (hoeher = schnellerer Takt und kuerzere Explosion) und Intensitaet (Funkenzahl). Tetrix: Geschwindigkeit (Falltempo) und Blockbreite. Damit ist das Feuerwerk standardmaessig deutlich ruhiger/langsamer als zuvor. Die alte Feld-Wiederverwendung (Pulsperiode/Funkel-Lebenszeit/Schrittzeit) entfaellt fuer diese Effekte. Neue Konfigfelder fireworks_speed/fireworks_intensity/tetrix_speed/tetrix_width (Schema 47; aeltere Backups laden mit Standardwerten)."
                   }
               ]
 }
