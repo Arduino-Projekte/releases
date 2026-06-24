@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.244",
+                      "bin":  "knx-led-controller-4m_0.0.244.bin",
+                      "date":  "2026-06-24",
+                      "note":  "Ausgaenge bearbeiten: die drei Abschnitte (Grunddaten, LED-Typ/Strip, Leistung) sind nicht mehr einzeln einklappbar, sondern nur noch optisch getrennt. Abgeleitete Texte (Segment-Hinweis, Pixelzahl in der Kachel-Ueberschrift, LED-Versatz-Bereich) werden live bei jeder Eingabe aktualisiert; gespeichert wird per Auto-Save ueber /api/output beim Verlassen des Feldes (Selects/Checkboxen sofort), Speichern-Button entfernt, Statusanzeige je Ausgang. Beschriftung \u0027Timing/Protokollprofil des LED-ICs.\u0027 entfernt. Keine Schemaaenderung (Schema 49)."
+                  },
+                  {
                       "version":  "0.0.242",
                       "bin":  "knx-led-controller-4m_0.0.242.bin",
                       "date":  "2026-06-24",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-4m_0.0.239.bin",
                       "date":  "2026-06-24",
                       "note":  "Tetris bei Maximalgeschwindigkeit ausgereizt: echte show()-Dauer wird gemessen, Tetris bekommt eine framebegrenzte eigene Zeitbasis und ueberspringt bei Lastspitzen keine sichtbaren LED-Schritte mehr. Keine Schemaaenderung (Schema 49)."
-                  },
-                  {
-                      "version":  "0.0.237",
-                      "bin":  "knx-led-controller-4m_0.0.237.bin",
-                      "date":  "2026-06-24",
-                      "note":  "Tetris-Maximalgeschwindigkeit stabilisiert: sehr kurze Schrittzeiten werden auf die reale LED-Ausgabe begrenzt, damit fallende Bloecke keine sichtbaren Positionen ueberspringen und auch bei hoechstem Tempo fluessig als Pixelbewegung sichtbar bleiben. Hinweistext im Ablauf-Editor aktualisiert. Keine Schemaaenderung (Schema 49)."
                   }
               ]
 }

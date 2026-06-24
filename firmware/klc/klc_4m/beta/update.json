@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-4m_0.0.242.bin",
+                     "url":  "knx-led-controller-4m_0.0.244.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.242",
-                     "bin":  "knx-led-controller-4m_0.0.242.bin",
-                     "file":  "knx-led-controller-4m_0.0.242.bin",
-                     "sha256":  "7ecb1e5889f5b55e53ed41be5032c2d400052033f8fa057337364ef4df6a6bcb",
-                     "message":  "Ausgangs-Kanten-Blinktest stoppt beim Verlassen der Ausgaenge-Seite oder beim Zuklappen der Ausgangs-/LED-Typ-Kachel automatisch; alte /ledtest-Seite und /api/ledtest entfernt, neuer Endpoint /api/output/test. Keine Schemaaenderung (Schema 49).",
+                     "version":  "0.0.244",
+                     "bin":  "knx-led-controller-4m_0.0.244.bin",
+                     "file":  "knx-led-controller-4m_0.0.244.bin",
+                     "sha256":  "ec6ea0f42d98cded7758af49b2bc706cb0012fc0ed598f5300a2de69546593df",
+                     "message":  "Ausgaenge bearbeiten: die drei Abschnitte (Grunddaten, LED-Typ/Strip, Leistung) sind nicht mehr einzeln einklappbar, sondern nur noch optisch getrennt. Abgeleitete Texte (Segment-Hinweis, Pixelzahl in der Kachel-Ueberschrift, LED-Versatz-Bereich) werden live bei jeder Eingabe aktualisiert; gespeichert wird per Auto-Save ueber /api/output beim Verlassen des Feldes (Selects/Checkboxen sofort), Speichern-Button entfernt, Statusanzeige je Ausgang. Beschriftung \u0027Timing/Protokollprofil des LED-ICs.\u0027 entfernt. Keine Schemaaenderung (Schema 49).",
                      "http_code":  200
                  }
 }
