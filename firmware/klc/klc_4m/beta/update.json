@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-4m_0.0.228.bin",
+                     "url":  "knx-led-controller-4m_0.0.229.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.228",
-                     "bin":  "knx-led-controller-4m_0.0.228.bin",
-                     "file":  "knx-led-controller-4m_0.0.228.bin",
-                     "sha256":  "53f7ebf7c4d46e57e440add7692afddaa2673bcf1660c1da3d14236e279a71e6",
-                     "message":  "Schieberegler-Darstellung korrigiert: Die generische Eingabefeld-CSS (Rahmen/Hintergrund/Innenabstand) hatte die Slider unsichtbar gemacht; Range-Felder bekommen jetzt eigenes Styling und werden korrekt als Regler angezeigt - auch bei Feuerwerk und Tetrix. Zusaetzlich gibt es jetzt Slider fuer Farbe (R/G/B/W) und Helligkeit. Slider erscheinen neben dem Zahlenfeld (genaue Eingabe bleibt). Ein-/Ausblenden der Effekt-Bloecke unter \u0027Globale Effekt-Einstellungen\u0027 erfolgt serverseitig (nur der gewaehlte Ein-Effekt). Hinweis: Der Umschalter User/Experte (3 Ansichten) ist noch nicht gebaut - das ist als naechstes geplant.",
+                     "version":  "0.0.229",
+                     "bin":  "knx-led-controller-4m_0.0.229.bin",
+                     "file":  "knx-led-controller-4m_0.0.229.bin",
+                     "sha256":  "9e74deb59e23f41992245a158ff5803a037f68d3ccd08330c7768a4eba17b020",
+                     "message":  "Schieberegler erscheinen jetzt zuverlaessig: Das Sliderize wird jetzt INLINE in der frischen (no-store) Ablauf-Editor-Seite ausgefuehrt und nicht mehr nur in der gecachten /flow/edit.js - dadurch greift es auch dann, wenn der Browser noch ein altes JavaScript zwischengespeichert hat. Zusaetzlich Versions-Cachebuster an /flow/edit.js. Slider fuer Farbe (R/G/B/W), Helligkeit, Geschwindigkeit/Intensitaet (Feuerwerk/Tetrix), Fuellgrad, Funkeln, Tetris usw.; das Zahlenfeld bleibt fuer die genaue Eingabe. Hinweis: Umschalter User/Experte (3 Ansichten) folgt als naechster Schritt.",
                      "http_code":  200
                  }
 }
