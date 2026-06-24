@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-4m_0.0.236.bin",
+                     "url":  "knx-led-controller-4m_0.0.237.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.236",
-                     "bin":  "knx-led-controller-4m_0.0.236.bin",
-                     "file":  "knx-led-controller-4m_0.0.236.bin",
-                     "sha256":  "dca1c4150431625bea5b250d59f0bb9d517977354d9307a5284b97fc491d6fbf",
-                     "message":  "Ablauf-Editor: Schieberegler-Thumbs nochmals robuster rund gestylt (WebKit/Mozilla/MS, Klasse klc-range). Tetris-Aufbau: fallende Bloecke starten ausserhalb der Leiste und gleiten sichtbar hinein, sodass ein 10-LED-Block als 1, 2, 3 ... LEDs erscheint. Keine Schemaaenderung (Schema 49).",
+                     "version":  "0.0.237",
+                     "bin":  "knx-led-controller-4m_0.0.237.bin",
+                     "file":  "knx-led-controller-4m_0.0.237.bin",
+                     "sha256":  "0bcc97de47cff774e9a1beb3484bb90d1a4c7b4b174814238b7cdefd68ec7413",
+                     "message":  "Tetris-Maximalgeschwindigkeit stabilisiert: sehr kurze Schrittzeiten werden auf die reale LED-Ausgabe begrenzt, damit fallende Bloecke keine sichtbaren Positionen ueberspringen und auch bei hoechstem Tempo fluessig als Pixelbewegung sichtbar bleiben. Hinweistext im Ablauf-Editor aktualisiert. Keine Schemaaenderung (Schema 49).",
                      "http_code":  200
                  }
 }
