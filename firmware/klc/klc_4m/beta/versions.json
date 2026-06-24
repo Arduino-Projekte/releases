@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.248",
+                      "bin":  "knx-led-controller-4m_0.0.248.bin",
+                      "date":  "2026-06-24",
+                      "note":  "Tetris schnellste Stufe faellt jetzt wirklich blitzschnell, ohne LEDs zu ueberspringen: die kuenstliche Deckelung auf ~1 LED pro Frame (step_per_led-Floor) ist raus, dafuer zeichnet der fallende Block eine weich ausblendende Bewegungs-Spur (Comet-Tail), deren Laenge der pro Frame zurueckgelegten Strecke entspricht. Dadurch leuchtet jede durchquerte LED kurz auf - schnelle Faelle sind sichtbar statt springend. Bei langsamen Stufen ist die Spur \u003c1 LED und damit unsichtbar (unveraendertes Aussehen). Keine Schemaaenderung (Schema 49)."
+                  },
+                  {
                       "version":  "0.0.247",
                       "bin":  "knx-led-controller-4m_0.0.247.bin",
                       "date":  "2026-06-24",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-4m_0.0.244.bin",
                       "date":  "2026-06-24",
                       "note":  "Ausgaenge bearbeiten: die drei Abschnitte (Grunddaten, LED-Typ/Strip, Leistung) sind nicht mehr einzeln einklappbar, sondern nur noch optisch getrennt. Abgeleitete Texte (Segment-Hinweis, Pixelzahl in der Kachel-Ueberschrift, LED-Versatz-Bereich) werden live bei jeder Eingabe aktualisiert; gespeichert wird per Auto-Save ueber /api/output beim Verlassen des Feldes (Selects/Checkboxen sofort), Speichern-Button entfernt, Statusanzeige je Ausgang. Beschriftung \u0027Timing/Protokollprofil des LED-ICs.\u0027 entfernt. Keine Schemaaenderung (Schema 49)."
-                  },
-                  {
-                      "version":  "0.0.242",
-                      "bin":  "knx-led-controller-4m_0.0.242.bin",
-                      "date":  "2026-06-24",
-                      "note":  "Ausgangs-Kanten-Blinktest stoppt beim Verlassen der Ausgaenge-Seite oder beim Zuklappen der Ausgangs-/LED-Typ-Kachel automatisch; alte /ledtest-Seite und /api/ledtest entfernt, neuer Endpoint /api/output/test. Keine Schemaaenderung (Schema 49)."
                   }
               ]
 }
