@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.235",
+                      "bin":  "knx-led-controller-4m_0.0.235.bin",
+                      "date":  "2026-06-24",
+                      "note":  "UI-/Effekt-Feinschliff: (1) System -\u003e Darstellung zeigt im Statusfeld jetzt \u0027Admin eingeloggt\u0027, wenn der Admin angemeldet ist. (2) Schieberegler im Ablauf-Editor wieder rund (Thumb robust per !important). (3) Feuerwerk hat keine Slider mehr; die optimale Einstellung ist fest hinterlegt (Geschwindigkeit 0, maximale Funkenzahl). (4) Tetrix-Geschwindigkeit 0 = Zufallsgeschwindigkeit je Block (statt immer langsamste). (5) Tetris: ein fallender Block behaelt jetzt auch bei segmentierten Strings seine eigene Farbe (vorher Positionsfarbe). (6) Tetris-Teardown \u0027zufaellig rausfallen\u0027: Bloecke rutschen jetzt mit zufaelligem Start und Zufallstempo komplett aus der Leiste heraus (statt am Platz auszublenden); die Leiste ist sauber leer, bevor der Fuell-Zyklus neu startet. Keine Schemaaenderung (Schema 49)."
+                  },
+                  {
                       "version":  "0.0.233",
                       "bin":  "knx-led-controller-4m_0.0.233.bin",
                       "date":  "2026-06-24",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-4m_0.0.228.bin",
                       "date":  "2026-06-23",
                       "note":  "Schieberegler-Darstellung korrigiert: Die generische Eingabefeld-CSS (Rahmen/Hintergrund/Innenabstand) hatte die Slider unsichtbar gemacht; Range-Felder bekommen jetzt eigenes Styling und werden korrekt als Regler angezeigt - auch bei Feuerwerk und Tetrix. Zusaetzlich gibt es jetzt Slider fuer Farbe (R/G/B/W) und Helligkeit. Slider erscheinen neben dem Zahlenfeld (genaue Eingabe bleibt). Ein-/Ausblenden der Effekt-Bloecke unter \u0027Globale Effekt-Einstellungen\u0027 erfolgt serverseitig (nur der gewaehlte Ein-Effekt). Hinweis: Der Umschalter User/Experte (3 Ansichten) ist noch nicht gebaut - das ist als naechstes geplant."
-                  },
-                  {
-                      "version":  "0.0.227",
-                      "bin":  "knx-led-controller-4m_0.0.227.bin",
-                      "date":  "2026-06-23",
-                      "note":  "Einheitliche Schieberegler fuer alle Animationen: Fuellgrad, Segment, Nachleuchten, Schrittzeit, Funkeln (Tempo/Fuellgrad/Lebenszeit), Tetris (Gruppe/Abstand/Pause/Schritt) sowie Feuerwerk und Tetrix bekommen im Ablauf-Editor zusaetzlich einen Slider; das Zahlenfeld bleibt fuer die genaue Eingabe erhalten. Rein clientseitig (kein Einfluss auf Speicherung/Server). Pulsperiode und Dauer bleiben Zahlenfelder (zu grosser Wertebereich). Unter \u0027Globale Effekt-Einstellungen\u0027 werden die Feuerwerk- und Tetrix-Regler jetzt serverseitig nur noch beim passenden Ein-Effekt eingeblendet (vorher konnten beide sichtbar sein). Ablauf-Zeile zeigt jetzt \u0027kein Start-Effekt\u0027 bzw. \u0027kein Aus-Effekt\u0027 kontextabhaengig."
                   }
               ]
 }
