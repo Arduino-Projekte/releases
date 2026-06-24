@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m_0.0.225.bin",
+                     "url":  "knx-led-controller-16m_0.0.232.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.225",
-                     "bin":  "knx-led-controller-16m_0.0.225.bin",
-                     "file":  "knx-led-controller-16m_0.0.225.bin",
-                     "sha256":  "279d6ed91c9f3b7981b1e8c82447688c435a39bee7b1bc33ec654d1bc267cdb6",
-                     "message":  "Feuerwerk verbessert: Die Funken haben jetzt eine eigene, zufaellige Lebensdauer (~50..100 %) und ein weicheres, laenger nachleuchtendes Ausklingen. Dadurch erlischt eine Explosion nicht mehr schlagartig, sondern die Pixel gehen nacheinander/zufaellig aus. Laengeres Nachleuchten ueber \u0027Ein-Funkel-Lebenszeit\u0027, Abstand zwischen Explosionen ueber \u0027Ein-Pulsperiode\u0027. Tetrix-Geschwindigkeit ueber \u0027Ein-Schrittzeit\u0027 (ms pro Pixel, kleiner = schneller). Canvas-Vorschau an die neue Funkenlogik angepasst. (0.0.224: neue Effekte Feuerwerk und Tetrix.)",
+                     "version":  "0.0.232",
+                     "bin":  "knx-led-controller-16m_0.0.232.bin",
+                     "file":  "knx-led-controller-16m_0.0.232.bin",
+                     "sha256":  "1ed04e2caf89b16d26cedaa924afedbec5fa7ed96a117e5f5335defdc7c0cf35",
+                     "message":  "Start- und Aus-Effekte koennen jetzt auch Feuerwerk und Tetrix (WLED) verwenden, identisch zum \u0027Ein\u0027-Effektumfang (neue Phasen KLC_SCENE_PHASE_FIREWORKS/_TETRIX). Gleiche Renderer/Slider und Farb-Override wie bei \u0027Ein\u0027, inkl. Canvas-Vorschau, Backup-Slugs (fireworks/tetrix) und Bounds. Hinweis im Code: Erweiterungen am \u0027Ein\u0027-Effekt immer auch bei Start und Aus nachziehen. Konfig-Schema 49.",
                      "http_code":  200
                  }
 }
