@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.232",
+                      "bin":  "knx-led-controller-4m_0.0.232.bin",
+                      "date":  "2026-06-24",
+                      "note":  "Start- und Aus-Effekte koennen jetzt auch Feuerwerk und Tetrix (WLED) verwenden, identisch zum \u0027Ein\u0027-Effektumfang (neue Phasen KLC_SCENE_PHASE_FIREWORKS/_TETRIX). Gleiche Renderer/Slider und Farb-Override wie bei \u0027Ein\u0027, inkl. Canvas-Vorschau, Backup-Slugs (fireworks/tetrix) und Bounds. Hinweis im Code: Erweiterungen am \u0027Ein\u0027-Effekt immer auch bei Start und Aus nachziehen. Konfig-Schema 49."
+                  },
+                  {
                       "version":  "0.0.229",
                       "bin":  "knx-led-controller-4m_0.0.229.bin",
                       "date":  "2026-06-24",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-4m_0.0.226.bin",
                       "date":  "2026-06-23",
                       "note":  "Feuerwerk und Tetrix haben jetzt eigene WLED-Stil-Schieberegler (0..255). Feuerwerk: Geschwindigkeit (hoeher = schnellerer Takt und kuerzere Explosion) und Intensitaet (Funkenzahl). Tetrix: Geschwindigkeit (Falltempo) und Blockbreite. Damit ist das Feuerwerk standardmaessig deutlich ruhiger/langsamer als zuvor. Die alte Feld-Wiederverwendung (Pulsperiode/Funkel-Lebenszeit/Schrittzeit) entfaellt fuer diese Effekte. Neue Konfigfelder fireworks_speed/fireworks_intensity/tetrix_speed/tetrix_width (Schema 47; aeltere Backups laden mit Standardwerten)."
-                  },
-                  {
-                      "version":  "0.0.225",
-                      "bin":  "knx-led-controller-4m_0.0.225.bin",
-                      "date":  "2026-06-23",
-                      "note":  "Feuerwerk verbessert: Die Funken haben jetzt eine eigene, zufaellige Lebensdauer (~50..100 %) und ein weicheres, laenger nachleuchtendes Ausklingen. Dadurch erlischt eine Explosion nicht mehr schlagartig, sondern die Pixel gehen nacheinander/zufaellig aus. Laengeres Nachleuchten ueber \u0027Ein-Funkel-Lebenszeit\u0027, Abstand zwischen Explosionen ueber \u0027Ein-Pulsperiode\u0027. Tetrix-Geschwindigkeit ueber \u0027Ein-Schrittzeit\u0027 (ms pro Pixel, kleiner = schneller). Canvas-Vorschau an die neue Funkenlogik angepasst. (0.0.224: neue Effekte Feuerwerk und Tetrix.)"
                   }
               ]
 }

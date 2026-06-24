@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-4m_0.0.229.bin",
+                     "url":  "knx-led-controller-4m_0.0.232.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.229",
-                     "bin":  "knx-led-controller-4m_0.0.229.bin",
-                     "file":  "knx-led-controller-4m_0.0.229.bin",
-                     "sha256":  "9e74deb59e23f41992245a158ff5803a037f68d3ccd08330c7768a4eba17b020",
-                     "message":  "Schieberegler erscheinen jetzt zuverlaessig: Das Sliderize wird jetzt INLINE in der frischen (no-store) Ablauf-Editor-Seite ausgefuehrt und nicht mehr nur in der gecachten /flow/edit.js - dadurch greift es auch dann, wenn der Browser noch ein altes JavaScript zwischengespeichert hat. Zusaetzlich Versions-Cachebuster an /flow/edit.js. Slider fuer Farbe (R/G/B/W), Helligkeit, Geschwindigkeit/Intensitaet (Feuerwerk/Tetrix), Fuellgrad, Funkeln, Tetris usw.; das Zahlenfeld bleibt fuer die genaue Eingabe. Hinweis: Umschalter User/Experte (3 Ansichten) folgt als naechster Schritt.",
+                     "version":  "0.0.232",
+                     "bin":  "knx-led-controller-4m_0.0.232.bin",
+                     "file":  "knx-led-controller-4m_0.0.232.bin",
+                     "sha256":  "2f8570fbb76b86cc3b8f589cd3a913b6e7bc29227d99d0d46151f06a7b076a94",
+                     "message":  "Start- und Aus-Effekte koennen jetzt auch Feuerwerk und Tetrix (WLED) verwenden, identisch zum \u0027Ein\u0027-Effektumfang (neue Phasen KLC_SCENE_PHASE_FIREWORKS/_TETRIX). Gleiche Renderer/Slider und Farb-Override wie bei \u0027Ein\u0027, inkl. Canvas-Vorschau, Backup-Slugs (fireworks/tetrix) und Bounds. Hinweis im Code: Erweiterungen am \u0027Ein\u0027-Effekt immer auch bei Start und Aus nachziehen. Konfig-Schema 49.",
                      "http_code":  200
                  }
 }
