@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-4m_0.0.245.bin",
+                     "url":  "knx-led-controller-4m_0.0.246.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.245",
-                     "bin":  "knx-led-controller-4m_0.0.245.bin",
-                     "file":  "knx-led-controller-4m_0.0.245.bin",
-                     "sha256":  "fcac797d7c78dbab98d5348dea915dc7f3d6a4c1f3bf8c6744c3615101428e40",
-                     "message":  "Kanten-Blinktest: Anfang/Ende-Buttons bestaetigen den Klick jetzt sofort optisch (optimistische Anzeige, kein voller Reload mehr noetig). Der Test bricht beim Aendern der Ausgangs-Konfiguration (z. B. Pixelzahl) nicht mehr ab, sondern laeuft mit der neuen Pixelzahl weiter und zeigt die neue letzte LED - dadurch laesst sich die tatsaechliche Stranglaenge ertasten (neue Engine-Funktion klcLedEngineSetEdgeBlink, Sicherung/Wiederherstellung im Save-Pfad). Keine Schemaaenderung (Schema 49).",
+                     "version":  "0.0.246",
+                     "bin":  "knx-led-controller-4m_0.0.246.bin",
+                     "file":  "knx-led-controller-4m_0.0.246.bin",
+                     "sha256":  "676c32a9de07a0ffbc09411c3b74b88c004dbffceac37c03b7906435b2699c88",
+                     "message":  "Startreihenfolge: LEDs werden erst eingeschaltet, wenn Netzwerk/Webserver/OTA laufen (klcScenesBegin ans Ende von setup() verschoben). Nach einem (Online-)Flash laufen also keine LED-Animationen mehr, bevor die Weboberflaeche erreichbar ist. Runtime-Diagnose (/runtime, /runtime.js) und LED-Diagnose-Seite (/leddiag) inkl. Builder/Handler/Routen/Puffer entfernt; das JSON /api/leddiag bleibt (von der Ausgaenge-Seite genutzt). Auf der LED-Seite (/led) sind die Kacheln Ausgangstest, LED-Diagnose und Runtime-Diagnose entfernt. Keine Schemaaenderung (Schema 49).",
                      "http_code":  200
                  }
 }

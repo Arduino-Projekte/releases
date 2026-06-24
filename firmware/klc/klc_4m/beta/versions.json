@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.246",
+                      "bin":  "knx-led-controller-4m_0.0.246.bin",
+                      "date":  "2026-06-24",
+                      "note":  "Startreihenfolge: LEDs werden erst eingeschaltet, wenn Netzwerk/Webserver/OTA laufen (klcScenesBegin ans Ende von setup() verschoben). Nach einem (Online-)Flash laufen also keine LED-Animationen mehr, bevor die Weboberflaeche erreichbar ist. Runtime-Diagnose (/runtime, /runtime.js) und LED-Diagnose-Seite (/leddiag) inkl. Builder/Handler/Routen/Puffer entfernt; das JSON /api/leddiag bleibt (von der Ausgaenge-Seite genutzt). Auf der LED-Seite (/led) sind die Kacheln Ausgangstest, LED-Diagnose und Runtime-Diagnose entfernt. Keine Schemaaenderung (Schema 49)."
+                  },
+                  {
                       "version":  "0.0.245",
                       "bin":  "knx-led-controller-4m_0.0.245.bin",
                       "date":  "2026-06-24",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-4m_0.0.241.bin",
                       "date":  "2026-06-24",
                       "note":  "Kanten-Blinktest in der Ausgangs-Kachel LED-Typ/Strip ergänzt: Rot, Gruen, Blau und bei RGBW Weiss blinken erste und letzte LED im Sekundenmodus; dieselbe Taste beendet den Test. Keine Schemaaenderung (Schema 49)."
-                  },
-                  {
-                      "version":  "0.0.240",
-                      "bin":  "knx-led-controller-4m_0.0.240.bin",
-                      "date":  "2026-06-24",
-                      "note":  "Strip-Preset anwenden aus der Ausgangs-/LED-Typ-Konfiguration entfernt; LED-Farben, LED-Chip und Farbreihenfolge werden direkt manuell gesetzt. Keine Schemaaenderung (Schema 49)."
                   }
               ]
 }
