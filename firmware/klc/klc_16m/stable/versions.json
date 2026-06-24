@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.232",
+                      "bin":  "knx-led-controller-16m_0.0.232.bin",
+                      "date":  "2026-06-24",
+                      "note":  "Start- und Aus-Effekte koennen jetzt auch Feuerwerk und Tetrix (WLED) verwenden, identisch zum \u0027Ein\u0027-Effektumfang (neue Phasen KLC_SCENE_PHASE_FIREWORKS/_TETRIX). Gleiche Renderer/Slider und Farb-Override wie bei \u0027Ein\u0027, inkl. Canvas-Vorschau, Backup-Slugs (fireworks/tetrix) und Bounds. Hinweis im Code: Erweiterungen am \u0027Ein\u0027-Effekt immer auch bei Start und Aus nachziehen. Konfig-Schema 49."
+                  },
+                  {
                       "version":  "0.0.225",
                       "bin":  "knx-led-controller-16m_0.0.225.bin",
                       "date":  "2026-06-23",
@@ -21,12 +27,6 @@
                   {
                       "version":  "0.0.214",
                       "bin":  "knx-led-controller-16m_0.0.214.bin",
-                      "date":  "2026-06-22",
-                      "note":  "Release-Manifest automatisch erstellt"
-                  },
-                  {
-                      "version":  "0.0.209",
-                      "bin":  "knx-led-controller-16m_0.0.209.bin",
                       "date":  "2026-06-22",
                       "note":  "Release-Manifest automatisch erstellt"
                   }
