@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-4m_0.0.240.bin",
+                     "url":  "knx-led-controller-4m_0.0.241.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.240",
-                     "bin":  "knx-led-controller-4m_0.0.240.bin",
-                     "file":  "knx-led-controller-4m_0.0.240.bin",
-                     "sha256":  "f73d5ba9e180fcf3dcf118d46df77b78d995a013d82b5fafd3c3ceca319d89fe",
-                     "message":  "Strip-Preset anwenden aus der Ausgangs-/LED-Typ-Konfiguration entfernt; LED-Farben, LED-Chip und Farbreihenfolge werden direkt manuell gesetzt. Keine Schemaaenderung (Schema 49).",
+                     "version":  "0.0.241",
+                     "bin":  "knx-led-controller-4m_0.0.241.bin",
+                     "file":  "knx-led-controller-4m_0.0.241.bin",
+                     "sha256":  "6d87507d009f63c23b4b0e98a353d6d6e76054146dcb1266d6d6de472cf9e48e",
+                     "message":  "Kanten-Blinktest in der Ausgangs-Kachel LED-Typ/Strip ergänzt: Rot, Gruen, Blau und bei RGBW Weiss blinken erste und letzte LED im Sekundenmodus; dieselbe Taste beendet den Test. Keine Schemaaenderung (Schema 49).",
                      "http_code":  200
                  }
 }
