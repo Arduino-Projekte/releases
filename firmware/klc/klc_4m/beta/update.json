@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-4m_0.0.241.bin",
+                     "url":  "knx-led-controller-4m_0.0.242.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.241",
-                     "bin":  "knx-led-controller-4m_0.0.241.bin",
-                     "file":  "knx-led-controller-4m_0.0.241.bin",
-                     "sha256":  "6d87507d009f63c23b4b0e98a353d6d6e76054146dcb1266d6d6de472cf9e48e",
-                     "message":  "Kanten-Blinktest in der Ausgangs-Kachel LED-Typ/Strip ergänzt: Rot, Gruen, Blau und bei RGBW Weiss blinken erste und letzte LED im Sekundenmodus; dieselbe Taste beendet den Test. Keine Schemaaenderung (Schema 49).",
+                     "version":  "0.0.242",
+                     "bin":  "knx-led-controller-4m_0.0.242.bin",
+                     "file":  "knx-led-controller-4m_0.0.242.bin",
+                     "sha256":  "7ecb1e5889f5b55e53ed41be5032c2d400052033f8fa057337364ef4df6a6bcb",
+                     "message":  "Ausgangs-Kanten-Blinktest stoppt beim Verlassen der Ausgaenge-Seite oder beim Zuklappen der Ausgangs-/LED-Typ-Kachel automatisch; alte /ledtest-Seite und /api/ledtest entfernt, neuer Endpoint /api/output/test. Keine Schemaaenderung (Schema 49).",
                      "http_code":  200
                  }
 }

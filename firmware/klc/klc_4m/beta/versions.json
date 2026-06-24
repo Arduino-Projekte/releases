@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.242",
+                      "bin":  "knx-led-controller-4m_0.0.242.bin",
+                      "date":  "2026-06-24",
+                      "note":  "Ausgangs-Kanten-Blinktest stoppt beim Verlassen der Ausgaenge-Seite oder beim Zuklappen der Ausgangs-/LED-Typ-Kachel automatisch; alte /ledtest-Seite und /api/ledtest entfernt, neuer Endpoint /api/output/test. Keine Schemaaenderung (Schema 49)."
+                  },
+                  {
                       "version":  "0.0.241",
                       "bin":  "knx-led-controller-4m_0.0.241.bin",
                       "date":  "2026-06-24",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-4m_0.0.237.bin",
                       "date":  "2026-06-24",
                       "note":  "Tetris-Maximalgeschwindigkeit stabilisiert: sehr kurze Schrittzeiten werden auf die reale LED-Ausgabe begrenzt, damit fallende Bloecke keine sichtbaren Positionen ueberspringen und auch bei hoechstem Tempo fluessig als Pixelbewegung sichtbar bleiben. Hinweistext im Ablauf-Editor aktualisiert. Keine Schemaaenderung (Schema 49)."
-                  },
-                  {
-                      "version":  "0.0.236",
-                      "bin":  "knx-led-controller-4m_0.0.236.bin",
-                      "date":  "2026-06-24",
-                      "note":  "Ablauf-Editor: Schieberegler-Thumbs nochmals robuster rund gestylt (WebKit/Mozilla/MS, Klasse klc-range). Tetris-Aufbau: fallende Bloecke starten ausserhalb der Leiste und gleiten sichtbar hinein, sodass ein 10-LED-Block als 1, 2, 3 ... LEDs erscheint. Keine Schemaaenderung (Schema 49)."
                   }
               ]
 }
