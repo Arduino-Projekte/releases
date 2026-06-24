@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-4m_0.0.246.bin",
+                     "url":  "knx-led-controller-4m_0.0.247.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.246",
-                     "bin":  "knx-led-controller-4m_0.0.246.bin",
-                     "file":  "knx-led-controller-4m_0.0.246.bin",
-                     "sha256":  "676c32a9de07a0ffbc09411c3b74b88c004dbffceac37c03b7906435b2699c88",
-                     "message":  "Startreihenfolge: LEDs werden erst eingeschaltet, wenn Netzwerk/Webserver/OTA laufen (klcScenesBegin ans Ende von setup() verschoben). Nach einem (Online-)Flash laufen also keine LED-Animationen mehr, bevor die Weboberflaeche erreichbar ist. Runtime-Diagnose (/runtime, /runtime.js) und LED-Diagnose-Seite (/leddiag) inkl. Builder/Handler/Routen/Puffer entfernt; das JSON /api/leddiag bleibt (von der Ausgaenge-Seite genutzt). Auf der LED-Seite (/led) sind die Kacheln Ausgangstest, LED-Diagnose und Runtime-Diagnose entfernt. Keine Schemaaenderung (Schema 49).",
+                     "version":  "0.0.247",
+                     "bin":  "knx-led-controller-4m_0.0.247.bin",
+                     "file":  "knx-led-controller-4m_0.0.247.bin",
+                     "sha256":  "8d2ce116aa5729d192c67fbb742a8d3769466bcb11017f213114b6eafda1b8a2",
+                     "message":  "Tetris-Glitch behoben: der fallende Block sprang gelegentlich ein paar Pixel zurueck. Ursache war die live gemessene Show-Dauer (g_observed_show_ms), die bei Lastspitzen die komplette Tetris-Zeitachse (Block-Fallzeiten/Zykluslaenge) mitten im Zyklus verschob. klcScenesTetrisVisibleStepMinMs nutzt jetzt nur noch die deterministische, konfigurationsbasierte Show-Schaetzung -\u003e die Fallbewegung bleibt monoton. Render-Taktung bleibt last-adaptiv, Skip-Schutz via Tetris-Clock bleibt erhalten. Keine Schemaaenderung (Schema 49).",
                      "http_code":  200
                  }
 }

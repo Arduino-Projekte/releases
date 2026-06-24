@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.247",
+                      "bin":  "knx-led-controller-4m_0.0.247.bin",
+                      "date":  "2026-06-24",
+                      "note":  "Tetris-Glitch behoben: der fallende Block sprang gelegentlich ein paar Pixel zurueck. Ursache war die live gemessene Show-Dauer (g_observed_show_ms), die bei Lastspitzen die komplette Tetris-Zeitachse (Block-Fallzeiten/Zykluslaenge) mitten im Zyklus verschob. klcScenesTetrisVisibleStepMinMs nutzt jetzt nur noch die deterministische, konfigurationsbasierte Show-Schaetzung -\u003e die Fallbewegung bleibt monoton. Render-Taktung bleibt last-adaptiv, Skip-Schutz via Tetris-Clock bleibt erhalten. Keine Schemaaenderung (Schema 49)."
+                  },
+                  {
                       "version":  "0.0.246",
                       "bin":  "knx-led-controller-4m_0.0.246.bin",
                       "date":  "2026-06-24",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-4m_0.0.242.bin",
                       "date":  "2026-06-24",
                       "note":  "Ausgangs-Kanten-Blinktest stoppt beim Verlassen der Ausgaenge-Seite oder beim Zuklappen der Ausgangs-/LED-Typ-Kachel automatisch; alte /ledtest-Seite und /api/ledtest entfernt, neuer Endpoint /api/output/test. Keine Schemaaenderung (Schema 49)."
-                  },
-                  {
-                      "version":  "0.0.241",
-                      "bin":  "knx-led-controller-4m_0.0.241.bin",
-                      "date":  "2026-06-24",
-                      "note":  "Kanten-Blinktest in der Ausgangs-Kachel LED-Typ/Strip ergänzt: Rot, Gruen, Blau und bei RGBW Weiss blinken erste und letzte LED im Sekundenmodus; dieselbe Taste beendet den Test. Keine Schemaaenderung (Schema 49)."
                   }
               ]
 }
