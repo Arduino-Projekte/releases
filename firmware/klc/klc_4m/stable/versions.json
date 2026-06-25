@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.254",
+                      "bin":  "knx-led-controller-4m_0.0.254_chat.bin",
+                      "date":  "2026-06-25",
+                      "note":  "Chat - Tetris_2 Performance-Fix: Bewegungsspur hart begrenzt, damit bei hoher Geschwindigkeit nicht der ganze Strip sofort leuchtet. Blocklimit reduziert, Farbcache linear berechnet und Abbau mit sicherem Ende versehen. Schema 50."
+                  },
+                  {
                       "version":  "0.0.253",
                       "bin":  "knx-led-controller-4m_0.0.253_chat.bin",
                       "date":  "2026-06-25",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-4m_0.0.252.bin",
                       "date":  "2026-06-25",
                       "note":  "Tetris_2 neu angelegt: eigener plan-/seedbasierter Blockrenderer mit neuer Effekt-ID, zufaelligen Blockgroessen/Fallzeiten/Pausen/Farben, Anti-Wiederholung, optionalem Naechsten-Einblenden, Fruehstart und neuen Abbauarten. Alte Tetris-Logik bleibt getrennt und wird fuer Tetris_2 nicht verwendet. Schema 50."
-                  },
-                  {
-                      "version":  "0.0.254",
-                      "bin":  "knx-led-controller-4m_0.0.254.bin",
-                      "date":  "2026-06-25",
-                      "note":  "Hotfix: Tetris V2 entlastet CPU/Webserver durch Blocklimit und lineare Dauer-/Frameberechnung."
                   }
               ]
 }
