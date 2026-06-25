@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m-w_0.0.250.bin",
+                     "url":  "knx-led-controller-16m-w_0.0.253.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.250",
-                     "bin":  "knx-led-controller-16m-w_0.0.250.bin",
-                     "file":  "knx-led-controller-16m-w_0.0.250.bin",
-                     "sha256":  "1002c422029556a79c48d0c95171d3d0ac6666f852834cc25ae9726a0bb299d8",
-                     "message":  "Tetris-Sprung beim schnellen Fall behoben: Die Bewegungs-Spur des fallenden Blocks ist jetzt VOLL deckend statt ausblendend - frueher waren die LEDs am Spurende so dunkel, dass sie wie uebersprungen aussahen. Zusaetzlich bei schnellem Fall (\u003e= ~1 LED/Frame) eine Sicherheits-Ueberlappung von 2 LEDs, damit sich die Streifen aufeinanderfolgender Frames garantiert um mind. 2 LEDs ueberlappen und keine LED dunkel bleibt. Langsamer Fall unveraendert. Keine Schemaaenderung (Schema 49).",
+                     "version":  "0.0.253",
+                     "bin":  "knx-led-controller-16m-w_0.0.253.bin",
+                     "file":  "knx-led-controller-16m-w_0.0.253.bin",
+                     "sha256":  "1c31b400eb4c9fb34a632ddf207d2cd1d08c1d40b24404ee10c66187a4700e7c",
+                     "message":  "Hotfix Tetris V2/Web-UI: fehlendes JSON-Feld tetris_sync_all in scenes.json ergaenzt, damit die Startseite/Bedienoberflaeche wieder korrekt laden kann. Zusaetzlich Admin-Hardwarediagnose-Format korrigiert; Tetris-V2-Firmwarestand aus 0.0.252 bleibt enthalten.",
                      "http_code":  200
                  }
 }
