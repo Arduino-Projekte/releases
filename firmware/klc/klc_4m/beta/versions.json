@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.253",
+                      "bin":  "knx-led-controller-4m_0.0.253_chat_.bin",
+                      "date":  "2026-06-25",
+                      "note":  "Chat - Tetris_2 Stabilisierung: Plan wird pro Frame nur noch einmal erzeugt, Blockanzahl sicher begrenzt und Farbberechnung gecacht. Verhindert Ueberlastung/Netzwerk-Haenger beim Umschalten auf Tetris_2. Schema 50."
+                  },
+                  {
                       "version":  "0.0.252",
                       "bin":  "knx-led-controller-4m_0.0.252.bin",
                       "date":  "2026-06-25",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-4m_0.0.253.bin",
                       "date":  "2026-06-25",
                       "note":  "Hotfix Tetris V2/Web-UI: fehlendes JSON-Feld tetris_sync_all in scenes.json ergaenzt, damit die Startseite/Bedienoberflaeche wieder korrekt laden kann. Zusaetzlich Admin-Hardwarediagnose-Format korrigiert; Tetris-V2-Firmwarestand aus 0.0.252 bleibt enthalten."
-                  },
-                  {
-                      "version":  "0.0.251",
-                      "bin":  "knx-led-controller-4m_0.0.251.bin",
-                      "date":  "2026-06-25",
-                      "note":  "Tetris geglaettet: schnelle fallende Bloecke bekommen jetzt bei hoher Geschwindigkeit klare Vollhelligkeits-Frames statt halbheller Subpixel-Blitzer; langsamer Fall bleibt weich. Web-Vorschau an Firmware angepasst: Tetris-Richtungen 1-\u003eX/X-\u003e1/Mitte, Blockgroessen, Start ausserhalb der Leiste, Fallzeit als ms pro LED und schnelle Bewegungsspur stimmen jetzt mit dem Renderer ueberein. Keine Schemaaenderung (Schema 49)."
                   }
               ]
 }
