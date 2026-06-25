@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.254",
+                      "bin":  "knx-led-controller-4m_0.0.254_chat.bin",
+                      "date":  "2026-06-26",
+                      "note":  "Chat - PIO+DMA-Nacharbeit: Dark-Mode-CSS wird nicht mehr mit falschem 304 gecacht, SK6812_RGBW/CUSTOM_800KHZ-Auswahl in der Ausgangs-UI korrigiert, RGBW-Ausgabe wird trotz Profilwarnung versucht und PIO-State-Machine vor jedem Frame sauber neu ausgerichtet. Keine Schemaaenderung (Schema 49)."
+                  },
+                  {
                       "version":  "0.0.253",
                       "bin":  "knx-led-controller-4m_0.0.253_chat.bin",
                       "date":  "2026-06-26",
@@ -17,12 +23,6 @@
                       "bin":  "knx-led-controller-4m_0.0.254_claude.bin",
                       "date":  "2026-06-25",
                       "note":  "Claude - Tetris-Performance-Durchgang. 1) Abbau jetzt block-weise in EINEM Plan-Durchlauf (O(Bloecke+LEDs)) statt pro Pixel; Original-Abbau war vorher O(LEDs*Bloecke^2). 2) Build-Dauer wird in EINEM Durchlauf berechnet (kein separater BlockCount-Walk mehr) und deterministisch memoisiert (Cache je Szene/Laenge/Zyklus/Phase, entwertet bei Konfig-Aenderung) - das spart die staendige Neuberechnung im Dispatch (2x/Frame) und vor allem im Segment-Pfad (vorher ~4x pro Pixel). Folge: langsame Frames bremsen die Tetris-Clock nicht mehr aus, die Animation laeuft fluessig und schnelle Einstellungen sind wirklich schnell. Web-Vorschau mitgezogen. Schema 50 unveraendert."
-                  },
-                  {
-                      "version":  "0.0.254",
-                      "bin":  "knx-led-controller-4m_0.0.254_chat.bin",
-                      "date":  "2026-06-25",
-                      "note":  "Chat - Tetris_2 Performance-Fix: Bewegungsspur hart begrenzt, damit bei hoher Geschwindigkeit nicht der ganze Strip sofort leuchtet. Blocklimit reduziert, Farbcache linear berechnet und Abbau mit sicherem Ende versehen. Schema 50."
                   },
                   {
                       "version":  "0.0.252",

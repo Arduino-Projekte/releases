@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-4m_0.0.253_chat.bin",
+                     "url":  "knx-led-controller-4m_0.0.254_chat.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.253",
-                     "bin":  "knx-led-controller-4m_0.0.253_chat.bin",
-                     "file":  "knx-led-controller-4m_0.0.253_chat.bin",
-                     "sha256":  "e735225fed11142b104e65bab6dd7ad5f3eac6ed7a75bf36f4318dc054788c67",
-                     "message":  "Chat - Buildfix nach PIO+DMA-Umbau: Projekt-, Build- und Schema-Makros in klc_version.h wiederhergestellt. PIO+DMA bleibt einziges produktives LED-Backend ohne Adafruit_NeoPixel-Fallback; zusaetzlich kleinen PIO/DMA-Backend-Compilefehler bereinigt. Keine Schemaaenderung (Schema 49).",
+                     "version":  "0.0.254",
+                     "bin":  "knx-led-controller-4m_0.0.254_chat.bin",
+                     "file":  "knx-led-controller-4m_0.0.254_chat.bin",
+                     "sha256":  "050704c091013c97367cc2474c582d3b5374a0513d73fb85fd4575bdb13689c2",
+                     "message":  "Chat - PIO+DMA-Nacharbeit: Dark-Mode-CSS wird nicht mehr mit falschem 304 gecacht, SK6812_RGBW/CUSTOM_800KHZ-Auswahl in der Ausgangs-UI korrigiert, RGBW-Ausgabe wird trotz Profilwarnung versucht und PIO-State-Machine vor jedem Frame sauber neu ausgerichtet. Keine Schemaaenderung (Schema 49).",
                      "http_code":  200
                  }
 }
