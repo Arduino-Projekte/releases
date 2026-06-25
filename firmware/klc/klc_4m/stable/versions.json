@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.253",
+                      "bin":  "knx-led-controller-4m_0.0.253_chat_.bin",
+                      "date":  "2026-06-25",
+                      "note":  "Chat - Tetris_2 Stabilisierung: Plan wird pro Frame nur noch einmal erzeugt, Blockanzahl sicher begrenzt und Farbberechnung gecacht. Verhindert Ueberlastung/Netzwerk-Haenger beim Umschalten auf Tetris_2. Schema 50."
+                  },
+                  {
                       "version":  "0.0.252",
                       "bin":  "knx-led-controller-4m_0.0.252.bin",
                       "date":  "2026-06-25",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-4m_0.0.235.bin",
                       "date":  "2026-06-24",
                       "note":  "UI-/Effekt-Feinschliff: (1) System -\u003e Darstellung zeigt im Statusfeld jetzt \u0027Admin eingeloggt\u0027, wenn der Admin angemeldet ist. (2) Schieberegler im Ablauf-Editor wieder rund (Thumb robust per !important). (3) Feuerwerk hat keine Slider mehr; die optimale Einstellung ist fest hinterlegt (Geschwindigkeit 0, maximale Funkenzahl). (4) Tetrix-Geschwindigkeit 0 = Zufallsgeschwindigkeit je Block (statt immer langsamste). (5) Tetris: ein fallender Block behaelt jetzt auch bei segmentierten Strings seine eigene Farbe (vorher Positionsfarbe). (6) Tetris-Teardown \u0027zufaellig rausfallen\u0027: Bloecke rutschen jetzt mit zufaelligem Start und Zufallstempo komplett aus der Leiste heraus (statt am Platz auszublenden); die Leiste ist sauber leer, bevor der Fuell-Zyklus neu startet. Keine Schemaaenderung (Schema 49)."
-                  },
-                  {
-                      "version":  "0.0.233",
-                      "bin":  "knx-led-controller-4m_0.0.233.bin",
-                      "date":  "2026-06-24",
-                      "note":  "Versatz wirkt jetzt automatisch ueber Segmente ODER Kanaele: Der Stopp-Versatz (string_segment_stop_delay_ms) staffelt bei String-Segmenten weiterhin je Segment, bei Ausgaengen ohne Segmente jetzt je Kanal (Ausgang) - jeder Ausgang wartet seinen Kanal-Versatz ab, spielt den Aus-Effekt und geht aus. Start-Versatz (global_delay_ms) staffelt die Kanaele beim Einschalten wie bisher. Bei Versatz 0 bleibt das bisherige Sofort-Aus erhalten. UI-Labels praezisiert. Keine Schemaaenderung (Schema 49)."
                   }
               ]
 }

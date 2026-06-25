@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m_0.0.254.bin",
+                     "url":  "knx-led-controller-16m_0.0.253_chat_.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.254",
-                     "bin":  "knx-led-controller-16m_0.0.254.bin",
-                     "file":  "knx-led-controller-16m_0.0.254.bin",
-                     "sha256":  "9e32564495d242cd3a40ef27fa52274f302cac6dd908aec538a760daa2d1897c",
-                     "message":  "Hotfix: Tetris V2 entlastet CPU/Webserver durch Blocklimit und lineare Dauer-/Frameberechnung.",
+                     "version":  "0.0.253",
+                     "bin":  "knx-led-controller-16m_0.0.253_chat_.bin",
+                     "file":  "knx-led-controller-16m_0.0.253_chat_.bin",
+                     "sha256":  "e5f56541a54ef8e6eba84a34715771ac586a6fff3cd0de4f8c90baf9f083489e",
+                     "message":  "Chat - Tetris_2 Stabilisierung: Plan wird pro Frame nur noch einmal erzeugt, Blockanzahl sicher begrenzt und Farbberechnung gecacht. Verhindert Ueberlastung/Netzwerk-Haenger beim Umschalten auf Tetris_2. Schema 50.",
                      "http_code":  200
                  }
 }
