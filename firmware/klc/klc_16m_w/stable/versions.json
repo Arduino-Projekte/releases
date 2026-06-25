@@ -2,6 +2,12 @@
     "items":  [
                   {
                       "version":  "0.0.254",
+                      "bin":  "knx-led-controller-16m-w_0.0.254_claude.bin",
+                      "date":  "2026-06-25",
+                      "note":  "Claude - Tetris-Performance-Durchgang. 1) Abbau jetzt block-weise in EINEM Plan-Durchlauf (O(Bloecke+LEDs)) statt pro Pixel; Original-Abbau war vorher O(LEDs*Bloecke^2). 2) Build-Dauer wird in EINEM Durchlauf berechnet (kein separater BlockCount-Walk mehr) und deterministisch memoisiert (Cache je Szene/Laenge/Zyklus/Phase, entwertet bei Konfig-Aenderung) - das spart die staendige Neuberechnung im Dispatch (2x/Frame) und vor allem im Segment-Pfad (vorher ~4x pro Pixel). Folge: langsame Frames bremsen die Tetris-Clock nicht mehr aus, die Animation laeuft fluessig und schnelle Einstellungen sind wirklich schnell. Web-Vorschau mitgezogen. Schema 50 unveraendert."
+                  },
+                  {
+                      "version":  "0.0.254",
                       "bin":  "knx-led-controller-16m-w_0.0.254_chat.bin",
                       "date":  "2026-06-25",
                       "note":  "Chat - Tetris_2 Performance-Fix: Bewegungsspur hart begrenzt, damit bei hoher Geschwindigkeit nicht der ganze Strip sofort leuchtet. Blocklimit reduziert, Farbcache linear berechnet und Abbau mit sicherem Ende versehen. Schema 50."
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m-w_0.0.253_chat_.bin",
                       "date":  "2026-06-25",
                       "note":  "Chat - Tetris_2 Stabilisierung: Plan wird pro Frame nur noch einmal erzeugt, Blockanzahl sicher begrenzt und Farbberechnung gecacht. Verhindert Ueberlastung/Netzwerk-Haenger beim Umschalten auf Tetris_2. Schema 50."
-                  },
-                  {
-                      "version":  "0.0.254",
-                      "bin":  "knx-led-controller-16m-w_0.0.254.bin",
-                      "date":  "2026-06-25",
-                      "note":  "Hotfix: Tetris V2 entlastet CPU/Webserver durch Blocklimit und lineare Dauer-/Frameberechnung."
                   }
               ]
 }
