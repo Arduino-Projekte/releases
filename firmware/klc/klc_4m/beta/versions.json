@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.252",
+                      "bin":  "knx-led-controller-4m_0.0.252.bin",
+                      "date":  "2026-06-25",
+                      "note":  "Tetris_2 neu angelegt: eigener plan-/seedbasierter Blockrenderer mit neuer Effekt-ID, zufaelligen Blockgroessen/Fallzeiten/Pausen/Farben, Anti-Wiederholung, optionalem Naechsten-Einblenden, Fruehstart und neuen Abbauarten. Alte Tetris-Logik bleibt getrennt und wird fuer Tetris_2 nicht verwendet. Schema 50."
+                  },
+                  {
                       "version":  "0.0.255",
                       "bin":  "knx-led-controller-4m_0.0.255.bin",
                       "date":  "2026-06-25",
@@ -17,12 +23,6 @@
                       "bin":  "knx-led-controller-4m_0.0.253.bin",
                       "date":  "2026-06-25",
                       "note":  "Hotfix Tetris V2/Web-UI: fehlendes JSON-Feld tetris_sync_all in scenes.json ergaenzt, damit die Startseite/Bedienoberflaeche wieder korrekt laden kann. Zusaetzlich Admin-Hardwarediagnose-Format korrigiert; Tetris-V2-Firmwarestand aus 0.0.252 bleibt enthalten."
-                  },
-                  {
-                      "version":  "0.0.252",
-                      "bin":  "knx-led-controller-4m_0.0.252.bin",
-                      "date":  "2026-06-25",
-                      "note":  "Tetris V2 neu aufgebaut: plan-/blockbasierter Seed-Zyklus mit zufaelligen Blockgroessen, HSV-Farben, Pausen, Fallzeiten, Anti-Wiederholung und gelegentlichem Fruehstart. Abstand/Mitte/Zufallsrichtung fuer Tetris entfernt bzw. neu belegt: Mirror = Naechsten einblenden, Randomrichtung = Richtung je Zyklus wechseln. Neue Abbauarten Fade Out, Original-Abbau, Weiterrollen, Ausperlen, Abwechselnd und Zufall; Web-Vorschau und Speicherung angepasst. Schema 50 wegen tetris_sync_all."
                   },
                   {
                       "version":  "0.0.251",

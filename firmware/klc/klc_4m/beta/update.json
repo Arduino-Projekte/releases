@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-4m_0.0.255.bin",
+                     "url":  "knx-led-controller-4m_0.0.252.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.255",
-                     "bin":  "knx-led-controller-4m_0.0.255.bin",
-                     "file":  "knx-led-controller-4m_0.0.255.bin",
-                     "sha256":  "92d6329d257f4da24d7aaa15a10296c322fea2568ce2fd6ecdf31a37e2268395",
-                     "message":  "Tetris V2 Optik verbessert: adaptive Blockgroessen ohne Riesen-Restblock, kuerzerer sichtbarer Fallweg und weichere Bewegungsspur.",
+                     "version":  "0.0.252",
+                     "bin":  "knx-led-controller-4m_0.0.252.bin",
+                     "file":  "knx-led-controller-4m_0.0.252.bin",
+                     "sha256":  "9405e91ef0938062323d44b28def43cd4255a6a777657987df2c89ccb76b65e1",
+                     "message":  "Tetris_2 neu angelegt: eigener plan-/seedbasierter Blockrenderer mit neuer Effekt-ID, zufaelligen Blockgroessen/Fallzeiten/Pausen/Farben, Anti-Wiederholung, optionalem Naechsten-Einblenden, Fruehstart und neuen Abbauarten. Alte Tetris-Logik bleibt getrennt und wird fuer Tetris_2 nicht verwendet. Schema 50.",
                      "http_code":  200
                  }
 }
