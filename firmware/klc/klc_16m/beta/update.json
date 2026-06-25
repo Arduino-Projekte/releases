@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m_0.0.254_chat.bin",
+                     "url":  "knx-led-controller-16m_0.0.254_claude.bin",
                      "check_ok":  true,
                      "update_available":  false,
                      "version":  "0.0.254",
-                     "bin":  "knx-led-controller-16m_0.0.254_chat.bin",
-                     "file":  "knx-led-controller-16m_0.0.254_chat.bin",
-                     "sha256":  "e64e3660db116925841e71487a53dccb00a3bc314e8ac211c5b8c1a6e84f67f7",
-                     "message":  "Chat - Tetris_2 Performance-Fix: Bewegungsspur hart begrenzt, damit bei hoher Geschwindigkeit nicht der ganze Strip sofort leuchtet. Blocklimit reduziert, Farbcache linear berechnet und Abbau mit sicherem Ende versehen. Schema 50.",
+                     "bin":  "knx-led-controller-16m_0.0.254_claude.bin",
+                     "file":  "knx-led-controller-16m_0.0.254_claude.bin",
+                     "sha256":  "a9c6acacd91dcd84929cbb2248fe2d48884e0e8b6e27b0b67fa008562b95fe47",
+                     "message":  "Claude - Tetris-Performance-Durchgang. 1) Abbau jetzt block-weise in EINEM Plan-Durchlauf (O(Bloecke+LEDs)) statt pro Pixel; Original-Abbau war vorher O(LEDs*Bloecke^2). 2) Build-Dauer wird in EINEM Durchlauf berechnet (kein separater BlockCount-Walk mehr) und deterministisch memoisiert (Cache je Szene/Laenge/Zyklus/Phase, entwertet bei Konfig-Aenderung) - das spart die staendige Neuberechnung im Dispatch (2x/Frame) und vor allem im Segment-Pfad (vorher ~4x pro Pixel). Folge: langsame Frames bremsen die Tetris-Clock nicht mehr aus, die Animation laeuft fluessig und schnelle Einstellungen sind wirklich schnell. Web-Vorschau mitgezogen. Schema 50 unveraendert.",
                      "http_code":  200
                  }
 }
