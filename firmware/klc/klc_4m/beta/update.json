@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-4m_0.0.251.bin",
+                     "url":  "knx-led-controller-4m_0.0.252.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.251",
-                     "bin":  "knx-led-controller-4m_0.0.251.bin",
-                     "file":  "knx-led-controller-4m_0.0.251.bin",
-                     "sha256":  "5c4a13cea302eb74a48dea3859a68567e6036cb8a0ca82c77cbcd1ec7c687ec2",
-                     "message":  "Tetris geglaettet: schnelle fallende Bloecke bekommen jetzt bei hoher Geschwindigkeit klare Vollhelligkeits-Frames statt halbheller Subpixel-Blitzer; langsamer Fall bleibt weich. Web-Vorschau an Firmware angepasst: Tetris-Richtungen 1-\u003eX/X-\u003e1/Mitte, Blockgroessen, Start ausserhalb der Leiste, Fallzeit als ms pro LED und schnelle Bewegungsspur stimmen jetzt mit dem Renderer ueberein. Keine Schemaaenderung (Schema 49).",
+                     "version":  "0.0.252",
+                     "bin":  "knx-led-controller-4m_0.0.252.bin",
+                     "file":  "knx-led-controller-4m_0.0.252.bin",
+                     "sha256":  "46906f55ad08965b38b40aeb4acc7d3eb38287af14d2784659d77ff2f2db3891",
+                     "message":  "Tetris V2 neu aufgebaut: plan-/blockbasierter Seed-Zyklus mit zufaelligen Blockgroessen, HSV-Farben, Pausen, Fallzeiten, Anti-Wiederholung und gelegentlichem Fruehstart. Abstand/Mitte/Zufallsrichtung fuer Tetris entfernt bzw. neu belegt: Mirror = Naechsten einblenden, Randomrichtung = Richtung je Zyklus wechseln. Neue Abbauarten Fade Out, Original-Abbau, Weiterrollen, Ausperlen, Abwechselnd und Zufall; Web-Vorschau und Speicherung angepasst. Schema 50 wegen tetris_sync_all.",
                      "http_code":  200
                  }
 }

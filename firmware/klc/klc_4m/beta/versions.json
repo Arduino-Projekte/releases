@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.252",
+                      "bin":  "knx-led-controller-4m_0.0.252.bin",
+                      "date":  "2026-06-25",
+                      "note":  "Tetris V2 neu aufgebaut: plan-/blockbasierter Seed-Zyklus mit zufaelligen Blockgroessen, HSV-Farben, Pausen, Fallzeiten, Anti-Wiederholung und gelegentlichem Fruehstart. Abstand/Mitte/Zufallsrichtung fuer Tetris entfernt bzw. neu belegt: Mirror = Naechsten einblenden, Randomrichtung = Richtung je Zyklus wechseln. Neue Abbauarten Fade Out, Original-Abbau, Weiterrollen, Ausperlen, Abwechselnd und Zufall; Web-Vorschau und Speicherung angepasst. Schema 50 wegen tetris_sync_all."
+                  },
+                  {
                       "version":  "0.0.251",
                       "bin":  "knx-led-controller-4m_0.0.251.bin",
                       "date":  "2026-06-25",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-4m_0.0.248.bin",
                       "date":  "2026-06-24",
                       "note":  "Tetris schnellste Stufe faellt jetzt wirklich blitzschnell, ohne LEDs zu ueberspringen: die kuenstliche Deckelung auf ~1 LED pro Frame (step_per_led-Floor) ist raus, dafuer zeichnet der fallende Block eine weich ausblendende Bewegungs-Spur (Comet-Tail), deren Laenge der pro Frame zurueckgelegten Strecke entspricht. Dadurch leuchtet jede durchquerte LED kurz auf - schnelle Faelle sind sichtbar statt springend. Bei langsamen Stufen ist die Spur \u003c1 LED und damit unsichtbar (unveraendertes Aussehen). Keine Schemaaenderung (Schema 49)."
-                  },
-                  {
-                      "version":  "0.0.247",
-                      "bin":  "knx-led-controller-4m_0.0.247.bin",
-                      "date":  "2026-06-24",
-                      "note":  "Tetris-Glitch behoben: der fallende Block sprang gelegentlich ein paar Pixel zurueck. Ursache war die live gemessene Show-Dauer (g_observed_show_ms), die bei Lastspitzen die komplette Tetris-Zeitachse (Block-Fallzeiten/Zykluslaenge) mitten im Zyklus verschob. klcScenesTetrisVisibleStepMinMs nutzt jetzt nur noch die deterministische, konfigurationsbasierte Show-Schaetzung -\u003e die Fallbewegung bleibt monoton. Render-Taktung bleibt last-adaptiv, Skip-Schutz via Tetris-Clock bleibt erhalten. Keine Schemaaenderung (Schema 49)."
                   }
               ]
 }
