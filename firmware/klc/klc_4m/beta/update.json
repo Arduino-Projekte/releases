@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-4m_0.0.252.bin",
+                     "url":  "knx-led-controller-4m_0.0.253.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.252",
-                     "bin":  "knx-led-controller-4m_0.0.252.bin",
-                     "file":  "knx-led-controller-4m_0.0.252.bin",
-                     "sha256":  "46906f55ad08965b38b40aeb4acc7d3eb38287af14d2784659d77ff2f2db3891",
-                     "message":  "Tetris V2 neu aufgebaut: plan-/blockbasierter Seed-Zyklus mit zufaelligen Blockgroessen, HSV-Farben, Pausen, Fallzeiten, Anti-Wiederholung und gelegentlichem Fruehstart. Abstand/Mitte/Zufallsrichtung fuer Tetris entfernt bzw. neu belegt: Mirror = Naechsten einblenden, Randomrichtung = Richtung je Zyklus wechseln. Neue Abbauarten Fade Out, Original-Abbau, Weiterrollen, Ausperlen, Abwechselnd und Zufall; Web-Vorschau und Speicherung angepasst. Schema 50 wegen tetris_sync_all.",
+                     "version":  "0.0.253",
+                     "bin":  "knx-led-controller-4m_0.0.253.bin",
+                     "file":  "knx-led-controller-4m_0.0.253.bin",
+                     "sha256":  "23503b4113b4f5d1cac4e983a2c346300efbb9c68b6fa4ddb1784a489c1d79f0",
+                     "message":  "Hotfix Tetris V2/Web-UI: fehlendes JSON-Feld tetris_sync_all in scenes.json ergaenzt, damit die Startseite/Bedienoberflaeche wieder korrekt laden kann. Zusaetzlich Admin-Hardwarediagnose-Format korrigiert; Tetris-V2-Firmwarestand aus 0.0.252 bleibt enthalten.",
                      "http_code":  200
                  }
 }

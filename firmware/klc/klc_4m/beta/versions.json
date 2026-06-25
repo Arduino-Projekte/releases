@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.253",
+                      "bin":  "knx-led-controller-4m_0.0.253.bin",
+                      "date":  "2026-06-25",
+                      "note":  "Hotfix Tetris V2/Web-UI: fehlendes JSON-Feld tetris_sync_all in scenes.json ergaenzt, damit die Startseite/Bedienoberflaeche wieder korrekt laden kann. Zusaetzlich Admin-Hardwarediagnose-Format korrigiert; Tetris-V2-Firmwarestand aus 0.0.252 bleibt enthalten."
+                  },
+                  {
                       "version":  "0.0.252",
                       "bin":  "knx-led-controller-4m_0.0.252.bin",
                       "date":  "2026-06-25",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-4m_0.0.249.bin",
                       "date":  "2026-06-24",
                       "note":  "Ausgaenge bearbeiten: in der Kachel \u0027LED-Typ / Strip\u0027 jetzt Reihenfolge LED-Chip, LED-Farben, Farbreihenfolge. Steuerung (/control) ueberarbeitet: Ladefehler \u0027Failed to fetch\u0027 behoben (Overlap-Schutz + Abbruch-Timeout fuer das Polling, kein Haemmern des Single-Connection-Servers mehr, langsameres 2s-Intervall), Fehlermeldung wird bei erfolgreichem Laden geloescht (klebt nicht mehr), und Szenen-Dropdown/Schnellstart-Buttons aktualisieren sich bei Katalogaenderungen (zeigen keine veralteten Szenen mehr). Keine Schemaaenderung (Schema 49)."
-                  },
-                  {
-                      "version":  "0.0.248",
-                      "bin":  "knx-led-controller-4m_0.0.248.bin",
-                      "date":  "2026-06-24",
-                      "note":  "Tetris schnellste Stufe faellt jetzt wirklich blitzschnell, ohne LEDs zu ueberspringen: die kuenstliche Deckelung auf ~1 LED pro Frame (step_per_led-Floor) ist raus, dafuer zeichnet der fallende Block eine weich ausblendende Bewegungs-Spur (Comet-Tail), deren Laenge der pro Frame zurueckgelegten Strecke entspricht. Dadurch leuchtet jede durchquerte LED kurz auf - schnelle Faelle sind sichtbar statt springend. Bei langsamen Stufen ist die Spur \u003c1 LED und damit unsichtbar (unveraendertes Aussehen). Keine Schemaaenderung (Schema 49)."
                   }
               ]
 }
