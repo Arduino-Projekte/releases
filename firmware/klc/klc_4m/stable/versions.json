@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.252",
+                      "bin":  "knx-led-controller-4m_0.0.252.bin",
+                      "date":  "2026-06-25",
+                      "note":  "Tetris_2 neu angelegt: eigener plan-/seedbasierter Blockrenderer mit neuer Effekt-ID, zufaelligen Blockgroessen/Fallzeiten/Pausen/Farben, Anti-Wiederholung, optionalem Naechsten-Einblenden, Fruehstart und neuen Abbauarten. Alte Tetris-Logik bleibt getrennt und wird fuer Tetris_2 nicht verwendet. Schema 50."
+                  },
+                  {
                       "version":  "0.0.254",
                       "bin":  "knx-led-controller-4m_0.0.254.bin",
                       "date":  "2026-06-25",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-4m_0.0.233.bin",
                       "date":  "2026-06-24",
                       "note":  "Versatz wirkt jetzt automatisch ueber Segmente ODER Kanaele: Der Stopp-Versatz (string_segment_stop_delay_ms) staffelt bei String-Segmenten weiterhin je Segment, bei Ausgaengen ohne Segmente jetzt je Kanal (Ausgang) - jeder Ausgang wartet seinen Kanal-Versatz ab, spielt den Aus-Effekt und geht aus. Start-Versatz (global_delay_ms) staffelt die Kanaele beim Einschalten wie bisher. Bei Versatz 0 bleibt das bisherige Sofort-Aus erhalten. UI-Labels praezisiert. Keine Schemaaenderung (Schema 49)."
-                  },
-                  {
-                      "version":  "0.0.232",
-                      "bin":  "knx-led-controller-4m_0.0.232.bin",
-                      "date":  "2026-06-24",
-                      "note":  "Start- und Aus-Effekte koennen jetzt auch Feuerwerk und Tetrix (WLED) verwenden, identisch zum \u0027Ein\u0027-Effektumfang (neue Phasen KLC_SCENE_PHASE_FIREWORKS/_TETRIX). Gleiche Renderer/Slider und Farb-Override wie bei \u0027Ein\u0027, inkl. Canvas-Vorschau, Backup-Slugs (fireworks/tetrix) und Bounds. Hinweis im Code: Erweiterungen am \u0027Ein\u0027-Effekt immer auch bei Start und Aus nachziehen. Konfig-Schema 49."
                   }
               ]
 }
