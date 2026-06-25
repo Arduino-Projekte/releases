@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.252",
+                      "bin":  "knx-led-controller-16m_0.0.252_claude.bin",
+                      "date":  "2026-06-25",
+                      "note":  "Claude - Tetris-Animation komplett neu entwickelt: plan-/blockbasierter Aufbau mit sichtbar von ausserhalb hereinfallenden Bloecken, lueckenlos (Abstand entfernt). Zufall pro Zyklus ueber Seed stabil, mit Anti-Wiederholung fuer Blockgroessen/Tempo/Pausen und freien HSV-Zufallsfarben mit Mindestabstand. Richtung nur noch 1-\u003eX/X-\u003e1 plus Option \u0027Richtung wechseln\u0027 (Mitte spiegeln und Zufallsrichtung entfernt). Neue Optionen: \u0027Naechsten einblenden\u0027 (nur Aufbau), gelegentlicher Fruehstart des naechsten Blocks, \u0027Alle Kanaele/Segmente synchron\u0027 (Haken nur bei gleicher LED-Anzahl). 6 Abbauarten: Fade Out, Original-Abbau, Weiterrollen, Ausperlen, Abwechselnd, Zufaellig. Feinwerte (Blockgroesse, Pause, Fallzeit, Fruehstart, Farbabstand) nur in Experten/Admin-Ansicht. Web-Vorschau 1:1 an den neuen Renderer angepasst. Schema 50: alte Tetris-Einstellungen werden migriert (Abbauart-Slugs gemappt, entfernte Optionen ignoriert)."
+                  },
+                  {
                       "version":  "0.0.253",
                       "bin":  "knx-led-controller-16m_0.0.253_chat_.bin",
                       "date":  "2026-06-25",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m_0.0.250.bin",
                       "date":  "2026-06-24",
                       "note":  "Tetris-Sprung beim schnellen Fall behoben: Die Bewegungs-Spur des fallenden Blocks ist jetzt VOLL deckend statt ausblendend - frueher waren die LEDs am Spurende so dunkel, dass sie wie uebersprungen aussahen. Zusaetzlich bei schnellem Fall (\u003e= ~1 LED/Frame) eine Sicherheits-Ueberlappung von 2 LEDs, damit sich die Streifen aufeinanderfolgender Frames garantiert um mind. 2 LEDs ueberlappen und keine LED dunkel bleibt. Langsamer Fall unveraendert. Keine Schemaaenderung (Schema 49)."
-                  },
-                  {
-                      "version":  "0.0.236",
-                      "bin":  "knx-led-controller-16m_0.0.236.bin",
-                      "date":  "2026-06-24",
-                      "note":  "Ablauf-Editor: Schieberegler-Thumbs nochmals robuster rund gestylt (WebKit/Mozilla/MS, Klasse klc-range). Tetris-Aufbau: fallende Bloecke starten ausserhalb der Leiste und gleiten sichtbar hinein, sodass ein 10-LED-Block als 1, 2, 3 ... LEDs erscheint. Keine Schemaaenderung (Schema 49)."
                   }
               ]
 }
