@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.251",
+                      "bin":  "knx-led-controller-4m_0.0.251.bin",
+                      "date":  "2026-06-25",
+                      "note":  "Tetris geglaettet: schnelle fallende Bloecke bekommen jetzt bei hoher Geschwindigkeit klare Vollhelligkeits-Frames statt halbheller Subpixel-Blitzer; langsamer Fall bleibt weich. Web-Vorschau an Firmware angepasst: Tetris-Richtungen 1-\u003eX/X-\u003e1/Mitte, Blockgroessen, Start ausserhalb der Leiste, Fallzeit als ms pro LED und schnelle Bewegungsspur stimmen jetzt mit dem Renderer ueberein. Keine Schemaaenderung (Schema 49)."
+                  },
+                  {
                       "version":  "0.0.250",
                       "bin":  "knx-led-controller-4m_0.0.250.bin",
                       "date":  "2026-06-24",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-4m_0.0.247.bin",
                       "date":  "2026-06-24",
                       "note":  "Tetris-Glitch behoben: der fallende Block sprang gelegentlich ein paar Pixel zurueck. Ursache war die live gemessene Show-Dauer (g_observed_show_ms), die bei Lastspitzen die komplette Tetris-Zeitachse (Block-Fallzeiten/Zykluslaenge) mitten im Zyklus verschob. klcScenesTetrisVisibleStepMinMs nutzt jetzt nur noch die deterministische, konfigurationsbasierte Show-Schaetzung -\u003e die Fallbewegung bleibt monoton. Render-Taktung bleibt last-adaptiv, Skip-Schutz via Tetris-Clock bleibt erhalten. Keine Schemaaenderung (Schema 49)."
-                  },
-                  {
-                      "version":  "0.0.246",
-                      "bin":  "knx-led-controller-4m_0.0.246.bin",
-                      "date":  "2026-06-24",
-                      "note":  "Startreihenfolge: LEDs werden erst eingeschaltet, wenn Netzwerk/Webserver/OTA laufen (klcScenesBegin ans Ende von setup() verschoben). Nach einem (Online-)Flash laufen also keine LED-Animationen mehr, bevor die Weboberflaeche erreichbar ist. Runtime-Diagnose (/runtime, /runtime.js) und LED-Diagnose-Seite (/leddiag) inkl. Builder/Handler/Routen/Puffer entfernt; das JSON /api/leddiag bleibt (von der Ausgaenge-Seite genutzt). Auf der LED-Seite (/led) sind die Kacheln Ausgangstest, LED-Diagnose und Runtime-Diagnose entfernt. Keine Schemaaenderung (Schema 49)."
                   }
               ]
 }

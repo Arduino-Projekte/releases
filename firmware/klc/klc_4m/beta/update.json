@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-4m_0.0.250.bin",
+                     "url":  "knx-led-controller-4m_0.0.251.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.250",
-                     "bin":  "knx-led-controller-4m_0.0.250.bin",
-                     "file":  "knx-led-controller-4m_0.0.250.bin",
-                     "sha256":  "a81869a092fe505636924e369933ec65201cc63718063821cf19298c237b9246",
-                     "message":  "Tetris-Sprung beim schnellen Fall behoben: Die Bewegungs-Spur des fallenden Blocks ist jetzt VOLL deckend statt ausblendend - frueher waren die LEDs am Spurende so dunkel, dass sie wie uebersprungen aussahen. Zusaetzlich bei schnellem Fall (\u003e= ~1 LED/Frame) eine Sicherheits-Ueberlappung von 2 LEDs, damit sich die Streifen aufeinanderfolgender Frames garantiert um mind. 2 LEDs ueberlappen und keine LED dunkel bleibt. Langsamer Fall unveraendert. Keine Schemaaenderung (Schema 49).",
+                     "version":  "0.0.251",
+                     "bin":  "knx-led-controller-4m_0.0.251.bin",
+                     "file":  "knx-led-controller-4m_0.0.251.bin",
+                     "sha256":  "5c4a13cea302eb74a48dea3859a68567e6036cb8a0ca82c77cbcd1ec7c687ec2",
+                     "message":  "Tetris geglaettet: schnelle fallende Bloecke bekommen jetzt bei hoher Geschwindigkeit klare Vollhelligkeits-Frames statt halbheller Subpixel-Blitzer; langsamer Fall bleibt weich. Web-Vorschau an Firmware angepasst: Tetris-Richtungen 1-\u003eX/X-\u003e1/Mitte, Blockgroessen, Start ausserhalb der Leiste, Fallzeit als ms pro LED und schnelle Bewegungsspur stimmen jetzt mit dem Renderer ueberein. Keine Schemaaenderung (Schema 49).",
                      "http_code":  200
                  }
 }
