@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m-w_0.0.253.bin",
+                     "url":  "knx-led-controller-16m-w_0.0.254.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.253",
-                     "bin":  "knx-led-controller-16m-w_0.0.253.bin",
-                     "file":  "knx-led-controller-16m-w_0.0.253.bin",
-                     "sha256":  "1c31b400eb4c9fb34a632ddf207d2cd1d08c1d40b24404ee10c66187a4700e7c",
-                     "message":  "Hotfix Tetris V2/Web-UI: fehlendes JSON-Feld tetris_sync_all in scenes.json ergaenzt, damit die Startseite/Bedienoberflaeche wieder korrekt laden kann. Zusaetzlich Admin-Hardwarediagnose-Format korrigiert; Tetris-V2-Firmwarestand aus 0.0.252 bleibt enthalten.",
+                     "version":  "0.0.254",
+                     "bin":  "knx-led-controller-16m-w_0.0.254.bin",
+                     "file":  "knx-led-controller-16m-w_0.0.254.bin",
+                     "sha256":  "9a68b0447b0447ff6abd461926f845e448c511bf5097a74a9e3af3945f1a7553",
+                     "message":  "Hotfix: Tetris V2 entlastet CPU/Webserver durch Blocklimit und lineare Dauer-/Frameberechnung.",
                      "http_code":  200
                  }
 }
