@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-4m_0.0.254.bin",
+                     "url":  "knx-led-controller-4m_0.0.255.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.254",
-                     "bin":  "knx-led-controller-4m_0.0.254.bin",
-                     "file":  "knx-led-controller-4m_0.0.254.bin",
-                     "sha256":  "5473acde3def9f42e3ac720896ad8d51ac926e6849de19a590a8b85f80f2c69d",
-                     "message":  "Hotfix: Tetris V2 entlastet CPU/Webserver durch Blocklimit und lineare Dauer-/Frameberechnung.",
+                     "version":  "0.0.255",
+                     "bin":  "knx-led-controller-4m_0.0.255.bin",
+                     "file":  "knx-led-controller-4m_0.0.255.bin",
+                     "sha256":  "92d6329d257f4da24d7aaa15a10296c322fea2568ce2fd6ecdf31a37e2268395",
+                     "message":  "Tetris V2 Optik verbessert: adaptive Blockgroessen ohne Riesen-Restblock, kuerzerer sichtbarer Fallweg und weichere Bewegungsspur.",
                      "http_code":  200
                  }
 }
