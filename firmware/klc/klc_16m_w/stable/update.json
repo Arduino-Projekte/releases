@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m-w_0.0.235.bin",
+                     "url":  "knx-led-controller-16m-w_0.0.253.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.235",
-                     "bin":  "knx-led-controller-16m-w_0.0.235.bin",
-                     "file":  "knx-led-controller-16m-w_0.0.235.bin",
-                     "sha256":  "874ef3db27b5f3ac8024c53c4a347d41d4e95322de4efb845957305f9e7ad4ad",
-                     "message":  "UI-/Effekt-Feinschliff: (1) System -\u003e Darstellung zeigt im Statusfeld jetzt \u0027Admin eingeloggt\u0027, wenn der Admin angemeldet ist. (2) Schieberegler im Ablauf-Editor wieder rund (Thumb robust per !important). (3) Feuerwerk hat keine Slider mehr; die optimale Einstellung ist fest hinterlegt (Geschwindigkeit 0, maximale Funkenzahl). (4) Tetrix-Geschwindigkeit 0 = Zufallsgeschwindigkeit je Block (statt immer langsamste). (5) Tetris: ein fallender Block behaelt jetzt auch bei segmentierten Strings seine eigene Farbe (vorher Positionsfarbe). (6) Tetris-Teardown \u0027zufaellig rausfallen\u0027: Bloecke rutschen jetzt mit zufaelligem Start und Zufallstempo komplett aus der Leiste heraus (statt am Platz auszublenden); die Leiste ist sauber leer, bevor der Fuell-Zyklus neu startet. Keine Schemaaenderung (Schema 49).",
+                     "version":  "0.0.253",
+                     "bin":  "knx-led-controller-16m-w_0.0.253.bin",
+                     "file":  "knx-led-controller-16m-w_0.0.253.bin",
+                     "sha256":  "1c31b400eb4c9fb34a632ddf207d2cd1d08c1d40b24404ee10c66187a4700e7c",
+                     "message":  "Hotfix Tetris V2/Web-UI: fehlendes JSON-Feld tetris_sync_all in scenes.json ergaenzt, damit die Startseite/Bedienoberflaeche wieder korrekt laden kann. Zusaetzlich Admin-Hardwarediagnose-Format korrigiert; Tetris-V2-Firmwarestand aus 0.0.252 bleibt enthalten.",
                      "http_code":  200
                  }
 }
