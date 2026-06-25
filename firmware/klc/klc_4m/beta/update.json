@@ -6,7 +6,7 @@
                      "version":  "0.0.254",
                      "bin":  "knx-led-controller-4m_0.0.254.bin",
                      "file":  "knx-led-controller-4m_0.0.254.bin",
-                     "sha256":  "5952bb3f3859c4512212677e3e1e983f588e57c5af4142fe9722117ba5510f39",
+                     "sha256":  "5473acde3def9f42e3ac720896ad8d51ac926e6849de19a590a8b85f80f2c69d",
                      "message":  "Hotfix: Tetris V2 entlastet CPU/Webserver durch Blocklimit und lineare Dauer-/Frameberechnung.",
                      "http_code":  200
                  }
