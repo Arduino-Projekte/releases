@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.253",
+                      "bin":  "knx-led-controller-4m_0.0.253_chat.bin",
+                      "date":  "2026-06-26",
+                      "note":  "Chat - Buildfix nach PIO+DMA-Umbau: Projekt-, Build- und Schema-Makros in klc_version.h wiederhergestellt. PIO+DMA bleibt einziges produktives LED-Backend ohne Adafruit_NeoPixel-Fallback; zusaetzlich kleinen PIO/DMA-Backend-Compilefehler bereinigt. Keine Schemaaenderung (Schema 49)."
+                  },
+                  {
                       "version":  "0.0.255",
                       "bin":  "knx-led-controller-4m_0.0.255_chat.bin",
                       "date":  "2026-06-25",
@@ -17,12 +23,6 @@
                       "bin":  "knx-led-controller-4m_0.0.254_chat.bin",
                       "date":  "2026-06-25",
                       "note":  "Chat - Tetris_2 Performance-Fix: Bewegungsspur hart begrenzt, damit bei hoher Geschwindigkeit nicht der ganze Strip sofort leuchtet. Blocklimit reduziert, Farbcache linear berechnet und Abbau mit sicherem Ende versehen. Schema 50."
-                  },
-                  {
-                      "version":  "0.0.253",
-                      "bin":  "knx-led-controller-4m_0.0.253_chat.bin",
-                      "date":  "2026-06-25",
-                      "note":  "Chat - Tetris_2 Stabilisierung: Plan wird pro Frame nur noch einmal erzeugt, Blockanzahl sicher begrenzt und Farbberechnung gecacht. Verhindert Ueberlastung/Netzwerk-Haenger beim Umschalten auf Tetris_2. Schema 50."
                   },
                   {
                       "version":  "0.0.252",
