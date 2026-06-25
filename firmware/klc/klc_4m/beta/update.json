@@ -6,7 +6,7 @@
                      "version":  "0.0.252",
                      "bin":  "knx-led-controller-4m_0.0.252_claude.bin",
                      "file":  "knx-led-controller-4m_0.0.252_claude.bin",
-                     "sha256":  "0e3866cc26650919c098eb62c92082ff09bcd7bac17af1944c5c4fe7bcd2666c",
+                     "sha256":  "4f3326a64edd30b58cd2b76cc09a821f428cef099e2da5f8746015a6fd44437a",
                      "message":  "Claude - Tetris-Animation komplett neu entwickelt: plan-/blockbasierter Aufbau mit sichtbar von ausserhalb hereinfallenden Bloecken, lueckenlos (Abstand entfernt). Zufall pro Zyklus ueber Seed stabil, mit Anti-Wiederholung fuer Blockgroessen/Tempo/Pausen und freien HSV-Zufallsfarben mit Mindestabstand. Richtung nur noch 1-\u003eX/X-\u003e1 plus Option \u0027Richtung wechseln\u0027 (Mitte spiegeln und Zufallsrichtung entfernt). Neue Optionen: \u0027Naechsten einblenden\u0027 (nur Aufbau), gelegentlicher Fruehstart des naechsten Blocks, \u0027Alle Kanaele/Segmente synchron\u0027 (Haken nur bei gleicher LED-Anzahl). 6 Abbauarten: Fade Out, Original-Abbau, Weiterrollen, Ausperlen, Abwechselnd, Zufaellig. Feinwerte (Blockgroesse, Pause, Fallzeit, Fruehstart, Farbabstand) nur in Experten/Admin-Ansicht. Web-Vorschau 1:1 an den neuen Renderer angepasst. Schema 50: alte Tetris-Einstellungen werden migriert (Abbauart-Slugs gemappt, entfernte Optionen ignoriert).",
                      "http_code":  200
                  }
