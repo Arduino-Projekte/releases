@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-4m_0.0.253_chat.bin",
+                     "url":  "knx-led-controller-4m_0.0.254_chat.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.253",
-                     "bin":  "knx-led-controller-4m_0.0.253_chat.bin",
-                     "file":  "knx-led-controller-4m_0.0.253_chat.bin",
-                     "sha256":  "526a9a74afc5738e57d1c4a44fd723d586d5103479f763a5c492cf1807c972e0",
-                     "message":  "Chat - Tetris_2 Stabilisierung: Plan wird pro Frame nur noch einmal erzeugt, Blockanzahl sicher begrenzt und Farbberechnung gecacht. Verhindert Ueberlastung/Netzwerk-Haenger beim Umschalten auf Tetris_2. Schema 50.",
+                     "version":  "0.0.254",
+                     "bin":  "knx-led-controller-4m_0.0.254_chat.bin",
+                     "file":  "knx-led-controller-4m_0.0.254_chat.bin",
+                     "sha256":  "3f7dce669a8e6c7ae99c1ef886dd719174efe2f6809fdf4fa0848ee7598fa8be",
+                     "message":  "Chat - Tetris_2 Performance-Fix: Bewegungsspur hart begrenzt, damit bei hoher Geschwindigkeit nicht der ganze Strip sofort leuchtet. Blocklimit reduziert, Farbcache linear berechnet und Abbau mit sicherem Ende versehen. Schema 50.",
                      "http_code":  200
                  }
 }
