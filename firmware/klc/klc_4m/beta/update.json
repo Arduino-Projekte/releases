@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-4m_0.0.254_chat.bin",
+                     "url":  "knx-led-controller-4m_0.0.255_chat.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.254",
-                     "bin":  "knx-led-controller-4m_0.0.254_chat.bin",
-                     "file":  "knx-led-controller-4m_0.0.254_chat.bin",
-                     "sha256":  "050704c091013c97367cc2474c582d3b5374a0513d73fb85fd4575bdb13689c2",
-                     "message":  "Chat - PIO+DMA-Nacharbeit: Dark-Mode-CSS wird nicht mehr mit falschem 304 gecacht, SK6812_RGBW/CUSTOM_800KHZ-Auswahl in der Ausgangs-UI korrigiert, RGBW-Ausgabe wird trotz Profilwarnung versucht und PIO-State-Machine vor jedem Frame sauber neu ausgerichtet. Keine Schemaaenderung (Schema 49).",
+                     "version":  "0.0.255",
+                     "bin":  "knx-led-controller-4m_0.0.255_chat.bin",
+                     "file":  "knx-led-controller-4m_0.0.255_chat.bin",
+                     "sha256":  "ab23472aab9fcf6b13caf32f8af58ca466475cdfd919eb5e4efcfab7eaa08226",
+                     "message":  "Chat - Tetris_2 neu: separater plan-/blockbasierter Renderer mit eigenen Einstellungen, Seed-Plan, mm/s ueber Pixel/Meter, zufaelligen Blockgroessen/Farben/Pausen, Next-Preview, Fruehstart, neuen Abbauarten und optimierter Frame-Ausgabe. Alte Tetris-Sonderlogik Abstand/Mitte/Zufallsrichtung wird von Tetris_2 nicht verwendet. Schema 50.",
                      "http_code":  200
                  }
 }
