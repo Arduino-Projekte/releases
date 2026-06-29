@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.263",
+                      "bin":  "knx-led-controller-4m_0.0.263_codex.bin",
+                      "date":  "2026-06-29",
+                      "note":  "Codex - KNX-Seite aufgeraeumt: Status-Intervall wird nur bei Zeitmodus angezeigt, BAOS-Verbindungsdiagnose bleibt im Adminbereich, 19200-Bedienoption entfernt und KNX-Felder mit Hilfetexten versehen. Schema 51."
+                  },
+                  {
                       "version":  "0.0.262",
                       "bin":  "knx-led-controller-4m_0.0.262_codex.bin",
                       "date":  "2026-06-29",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-4m_0.0.258_codex.bin",
                       "date":  "2026-06-29",
                       "note":  "Codex - Outputs-UI verbessert: String-Segmente zeigen bei unpassenden Eingaben den naechsten passenden Wert an; alter Teilbarkeitshinweis entfernt. Schema 50."
-                  },
-                  {
-                      "version":  "0.0.257",
-                      "bin":  "knx-led-controller-4m_0.0.257_codex.bin",
-                      "date":  "2026-06-29",
-                      "note":  "Codex - Outputs-UI verbessert: Power-On-Szene wird nur bei Feste Szene angezeigt, veralteter Letzte-Einstellung-Hinweis entfernt und Eingabefelder auf /outputs mit Hilfetooltips versehen. Schema 50."
                   }
               ]
 }
