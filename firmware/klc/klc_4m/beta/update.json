@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-4m_0.0.256_codex.bin",
+                     "url":  "knx-led-controller-4m_0.0.257_codex.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.256",
-                     "bin":  "knx-led-controller-4m_0.0.256_codex.bin",
-                     "file":  "knx-led-controller-4m_0.0.256_codex.bin",
-                     "sha256":  "7f0cf35d33e0c64099d7bce5a8c667b46860df86081cc3266600c2df04e08b67",
-                     "message":  "Codex - PIO+DMA LED-Backend optimiert: RP2350 nutzt alle drei PIO-Bloecke, Latch-Wartezeit folgt der realen Strip-Ausgabezeit, Profil-Datenrate wird uebernommen und die State-Machine wird pro Frame leichter zurueckgesetzt. Schema 50.",
+                     "version":  "0.0.257",
+                     "bin":  "knx-led-controller-4m_0.0.257_codex.bin",
+                     "file":  "knx-led-controller-4m_0.0.257_codex.bin",
+                     "sha256":  "a9309e1157051e8fdeb2a285fa9f5c3c342c13b8052dfc04e188785b87fed5be",
+                     "message":  "Codex - Outputs-UI verbessert: Power-On-Szene wird nur bei Feste Szene angezeigt, veralteter Letzte-Einstellung-Hinweis entfernt und Eingabefelder auf /outputs mit Hilfetooltips versehen. Schema 50.",
                      "http_code":  200
                  }
 }
