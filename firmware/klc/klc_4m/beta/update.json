@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-4m_0.0.264_codex.bin",
+                     "url":  "knx-led-controller-4m_0.0.265_codex.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.264",
-                     "bin":  "knx-led-controller-4m_0.0.264_codex.bin",
-                     "file":  "knx-led-controller-4m_0.0.264_codex.bin",
-                     "sha256":  "740629b1b1a7f6d5039de0c3539758befc6ce5c911be30729565102ab7ade61c",
-                     "message":  "Codex - Update/Config repariert: Storage-Exportpuffer fuer 50 Szenen vergroessert und Versionshistorie bekommt Timeout/Fallback statt dauerhaftem Ladeplatzhalter. Schema 51.",
+                     "version":  "0.0.265",
+                     "bin":  "knx-led-controller-4m_0.0.265_codex.bin",
+                     "file":  "knx-led-controller-4m_0.0.265_codex.bin",
+                     "sha256":  "a1521b4b076abd1b69a2ab74d5edace0634bcd0274a0f199788eb1b9e4ad849d",
+                     "message":  "Codex - Versionshistorie robuster: versions.json wird direkt aus dem items-Array gelesen, leerer Payload klar gemeldet, stabile Historie nicht wegen Beta-Version dauernd neu geladen. Schema 51.",
                      "http_code":  200
                  }
 }

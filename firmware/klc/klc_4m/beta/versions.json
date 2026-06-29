@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.265",
+                      "bin":  "knx-led-controller-4m_0.0.265_codex.bin",
+                      "date":  "2026-06-30",
+                      "note":  "Codex - Versionshistorie robuster: versions.json wird direkt aus dem items-Array gelesen, leerer Payload klar gemeldet, stabile Historie nicht wegen Beta-Version dauernd neu geladen. Schema 51."
+                  },
+                  {
                       "version":  "0.0.264",
                       "bin":  "knx-led-controller-4m_0.0.264_codex.bin",
                       "date":  "2026-06-30",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-4m_0.0.261_codex.bin",
                       "date":  "2026-06-29",
                       "note":  "Codex - Steuerung nachgezogen: Umlautdarstellung in der WebUI repariert, zentrale und ausgangsbezogene Auswahl klar als Szenen beschriftet. Schema 50."
-                  },
-                  {
-                      "version":  "0.0.260",
-                      "bin":  "knx-led-controller-4m_0.0.260_codex.bin",
-                      "date":  "2026-06-29",
-                      "note":  "Codex - Steuerung ueberarbeitet: Schnellstart- und Live-Status-Kacheln entfernt, Direktsteuerung je Ausgang hervorgehoben und Aktualisieren als Szenen aktualisieren beschriftet. Schema 50."
                   }
               ]
 }
