@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.264",
+                      "bin":  "knx-led-controller-4m_0.0.264_codex.bin",
+                      "date":  "2026-06-30",
+                      "note":  "Codex - Update/Config repariert: Storage-Exportpuffer fuer 50 Szenen vergroessert und Versionshistorie bekommt Timeout/Fallback statt dauerhaftem Ladeplatzhalter. Schema 51."
+                  },
+                  {
                       "version":  "0.0.263",
                       "bin":  "knx-led-controller-4m_0.0.263_codex.bin",
                       "date":  "2026-06-29",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-4m_0.0.260_codex.bin",
                       "date":  "2026-06-29",
                       "note":  "Codex - Steuerung ueberarbeitet: Schnellstart- und Live-Status-Kacheln entfernt, Direktsteuerung je Ausgang hervorgehoben und Aktualisieren als Szenen aktualisieren beschriftet. Schema 50."
-                  },
-                  {
-                      "version":  "0.0.258",
-                      "bin":  "knx-led-controller-4m_0.0.258_codex.bin",
-                      "date":  "2026-06-29",
-                      "note":  "Codex - Outputs-UI verbessert: String-Segmente zeigen bei unpassenden Eingaben den naechsten passenden Wert an; alter Teilbarkeitshinweis entfernt. Schema 50."
                   }
               ]
 }

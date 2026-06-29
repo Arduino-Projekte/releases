@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-4m_0.0.263_codex.bin",
+                     "url":  "knx-led-controller-4m_0.0.264_codex.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.263",
-                     "bin":  "knx-led-controller-4m_0.0.263_codex.bin",
-                     "file":  "knx-led-controller-4m_0.0.263_codex.bin",
-                     "sha256":  "da9c67c8bdaf7c3a232df337d92492159bafe45d516d48658acacfc40cefcb6a",
-                     "message":  "Codex - KNX-Seite aufgeraeumt: Status-Intervall wird nur bei Zeitmodus angezeigt, BAOS-Verbindungsdiagnose bleibt im Adminbereich, 19200-Bedienoption entfernt und KNX-Felder mit Hilfetexten versehen. Schema 51.",
+                     "version":  "0.0.264",
+                     "bin":  "knx-led-controller-4m_0.0.264_codex.bin",
+                     "file":  "knx-led-controller-4m_0.0.264_codex.bin",
+                     "sha256":  "740629b1b1a7f6d5039de0c3539758befc6ce5c911be30729565102ab7ade61c",
+                     "message":  "Codex - Update/Config repariert: Storage-Exportpuffer fuer 50 Szenen vergroessert und Versionshistorie bekommt Timeout/Fallback statt dauerhaftem Ladeplatzhalter. Schema 51.",
                      "http_code":  200
                  }
 }
