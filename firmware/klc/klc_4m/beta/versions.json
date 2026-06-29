@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.256",
+                      "bin":  "knx-led-controller-4m_0.0.256_codex.bin",
+                      "date":  "2026-06-29",
+                      "note":  "Codex - PIO+DMA LED-Backend optimiert: RP2350 nutzt alle drei PIO-Bloecke, Latch-Wartezeit folgt der realen Strip-Ausgabezeit, Profil-Datenrate wird uebernommen und die State-Machine wird pro Frame leichter zurueckgesetzt. Schema 50."
+                  },
+                  {
                       "version":  "0.0.255",
                       "bin":  "knx-led-controller-4m_0.0.255_chat.bin",
                       "date":  "2026-06-26",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-4m_0.0.254_claude.bin",
                       "date":  "2026-06-25",
                       "note":  "Claude - Tetris-Performance-Durchgang. 1) Abbau jetzt block-weise in EINEM Plan-Durchlauf (O(Bloecke+LEDs)) statt pro Pixel; Original-Abbau war vorher O(LEDs*Bloecke^2). 2) Build-Dauer wird in EINEM Durchlauf berechnet (kein separater BlockCount-Walk mehr) und deterministisch memoisiert (Cache je Szene/Laenge/Zyklus/Phase, entwertet bei Konfig-Aenderung) - das spart die staendige Neuberechnung im Dispatch (2x/Frame) und vor allem im Segment-Pfad (vorher ~4x pro Pixel). Folge: langsame Frames bremsen die Tetris-Clock nicht mehr aus, die Animation laeuft fluessig und schnelle Einstellungen sind wirklich schnell. Web-Vorschau mitgezogen. Schema 50 unveraendert."
-                  },
-                  {
-                      "version":  "0.0.252",
-                      "bin":  "knx-led-controller-4m_0.0.252_claude.bin",
-                      "date":  "2026-06-25",
-                      "note":  "Claude - Tetris-Animation komplett neu entwickelt: plan-/blockbasierter Aufbau mit sichtbar von ausserhalb hereinfallenden Bloecken, lueckenlos (Abstand entfernt). Zufall pro Zyklus ueber Seed stabil, mit Anti-Wiederholung fuer Blockgroessen/Tempo/Pausen und freien HSV-Zufallsfarben mit Mindestabstand. Richtung nur noch 1-\u003eX/X-\u003e1 plus Option \u0027Richtung wechseln\u0027 (Mitte spiegeln und Zufallsrichtung entfernt). Neue Optionen: \u0027Naechsten einblenden\u0027 (nur Aufbau), gelegentlicher Fruehstart des naechsten Blocks, \u0027Alle Kanaele/Segmente synchron\u0027 (Haken nur bei gleicher LED-Anzahl). 6 Abbauarten: Fade Out, Original-Abbau, Weiterrollen, Ausperlen, Abwechselnd, Zufaellig. Feinwerte (Blockgroesse, Pause, Fallzeit, Fruehstart, Farbabstand) nur in Experten/Admin-Ansicht. Web-Vorschau 1:1 an den neuen Renderer angepasst. Schema 50: alte Tetris-Einstellungen werden migriert (Abbauart-Slugs gemappt, entfernte Optionen ignoriert)."
                   }
               ]
 }
