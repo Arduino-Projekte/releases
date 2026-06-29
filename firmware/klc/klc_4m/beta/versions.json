@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.266",
+                      "bin":  "knx-led-controller-4m_0.0.266_codex.bin",
+                      "date":  "2026-06-30",
+                      "note":  "Codex - Update-Kanal korrigiert: nicht veroeffentlichte Codex-/Beta-Builds verwenden automatisch den Beta-Kanal, damit Versionshistorie und aktuelle Firmware zusammenpassen. Schema 51."
+                  },
+                  {
                       "version":  "0.0.265",
                       "bin":  "knx-led-controller-4m_0.0.265_codex.bin",
                       "date":  "2026-06-30",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-4m_0.0.262_codex.bin",
                       "date":  "2026-06-29",
                       "note":  "Codex - Ablauf-Seite aufgeraeumt: Uebersichts-/Schnellwahlkacheln entfernt, 50 Szenen-Speicherplaetze aktiviert und sichtbare Nummerierung auf 1 bis 50 umgestellt. Schema 51."
-                  },
-                  {
-                      "version":  "0.0.261",
-                      "bin":  "knx-led-controller-4m_0.0.261_codex.bin",
-                      "date":  "2026-06-29",
-                      "note":  "Codex - Steuerung nachgezogen: Umlautdarstellung in der WebUI repariert, zentrale und ausgangsbezogene Auswahl klar als Szenen beschriftet. Schema 50."
                   }
               ]
 }

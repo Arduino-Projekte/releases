@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-4m_0.0.265_codex.bin",
+                     "url":  "knx-led-controller-4m_0.0.266_codex.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.265",
-                     "bin":  "knx-led-controller-4m_0.0.265_codex.bin",
-                     "file":  "knx-led-controller-4m_0.0.265_codex.bin",
-                     "sha256":  "a1521b4b076abd1b69a2ab74d5edace0634bcd0274a0f199788eb1b9e4ad849d",
-                     "message":  "Codex - Versionshistorie robuster: versions.json wird direkt aus dem items-Array gelesen, leerer Payload klar gemeldet, stabile Historie nicht wegen Beta-Version dauernd neu geladen. Schema 51.",
+                     "version":  "0.0.266",
+                     "bin":  "knx-led-controller-4m_0.0.266_codex.bin",
+                     "file":  "knx-led-controller-4m_0.0.266_codex.bin",
+                     "sha256":  "02e4e2c340b9c5ab5b21d4e434b7b79720c735ef74758de3f7a52ea4ddb8c351",
+                     "message":  "Codex - Update-Kanal korrigiert: nicht veroeffentlichte Codex-/Beta-Builds verwenden automatisch den Beta-Kanal, damit Versionshistorie und aktuelle Firmware zusammenpassen. Schema 51.",
                      "http_code":  200
                  }
 }
