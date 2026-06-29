@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-4m_0.0.260_codex.bin",
+                     "url":  "knx-led-controller-4m_0.0.261_codex.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.260",
-                     "bin":  "knx-led-controller-4m_0.0.260_codex.bin",
-                     "file":  "knx-led-controller-4m_0.0.260_codex.bin",
-                     "sha256":  "ec552b6e8c6b13d1fb118b465c2b1790dbb6cf2fa09f4747f67c092bca7f396b",
-                     "message":  "Codex - Steuerung ueberarbeitet: Schnellstart- und Live-Status-Kacheln entfernt, Direktsteuerung je Ausgang hervorgehoben und Aktualisieren als Szenen aktualisieren beschriftet. Schema 50.",
+                     "version":  "0.0.261",
+                     "bin":  "knx-led-controller-4m_0.0.261_codex.bin",
+                     "file":  "knx-led-controller-4m_0.0.261_codex.bin",
+                     "sha256":  "d0fc305feff4dc0dd06726a5ca5657e7f3ad4441cc0828da8d85d4d6a2f29bfc",
+                     "message":  "Codex - Steuerung nachgezogen: Umlautdarstellung in der WebUI repariert, zentrale und ausgangsbezogene Auswahl klar als Szenen beschriftet. Schema 50.",
                      "http_code":  200
                  }
 }
