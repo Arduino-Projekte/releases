@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-4m_0.0.257_codex.bin",
+                     "url":  "knx-led-controller-4m_0.0.258_codex.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.257",
-                     "bin":  "knx-led-controller-4m_0.0.257_codex.bin",
-                     "file":  "knx-led-controller-4m_0.0.257_codex.bin",
-                     "sha256":  "a9309e1157051e8fdeb2a285fa9f5c3c342c13b8052dfc04e188785b87fed5be",
-                     "message":  "Codex - Outputs-UI verbessert: Power-On-Szene wird nur bei Feste Szene angezeigt, veralteter Letzte-Einstellung-Hinweis entfernt und Eingabefelder auf /outputs mit Hilfetooltips versehen. Schema 50.",
+                     "version":  "0.0.258",
+                     "bin":  "knx-led-controller-4m_0.0.258_codex.bin",
+                     "file":  "knx-led-controller-4m_0.0.258_codex.bin",
+                     "sha256":  "85fe18ac7a6012896ae61e4658f60f67c42c8b780ba589ce7733af71fdedbf1b",
+                     "message":  "Codex - Outputs-UI verbessert: String-Segmente zeigen bei unpassenden Eingaben den naechsten passenden Wert an; alter Teilbarkeitshinweis entfernt. Schema 50.",
                      "http_code":  200
                  }
 }
