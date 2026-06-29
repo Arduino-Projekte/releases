@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-4m_0.0.261_codex.bin",
+                     "url":  "knx-led-controller-4m_0.0.262_codex.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.261",
-                     "bin":  "knx-led-controller-4m_0.0.261_codex.bin",
-                     "file":  "knx-led-controller-4m_0.0.261_codex.bin",
-                     "sha256":  "d0fc305feff4dc0dd06726a5ca5657e7f3ad4441cc0828da8d85d4d6a2f29bfc",
-                     "message":  "Codex - Steuerung nachgezogen: Umlautdarstellung in der WebUI repariert, zentrale und ausgangsbezogene Auswahl klar als Szenen beschriftet. Schema 50.",
+                     "version":  "0.0.262",
+                     "bin":  "knx-led-controller-4m_0.0.262_codex.bin",
+                     "file":  "knx-led-controller-4m_0.0.262_codex.bin",
+                     "sha256":  "c933f0eb69b86d7496f344425abd12e92bfb55388cf71146169febc4ec6ff514",
+                     "message":  "Codex - Ablauf-Seite aufgeraeumt: Uebersichts-/Schnellwahlkacheln entfernt, 50 Szenen-Speicherplaetze aktiviert und sichtbare Nummerierung auf 1 bis 50 umgestellt. Schema 51.",
                      "http_code":  200
                  }
 }

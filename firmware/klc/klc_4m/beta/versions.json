@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.262",
+                      "bin":  "knx-led-controller-4m_0.0.262_codex.bin",
+                      "date":  "2026-06-29",
+                      "note":  "Codex - Ablauf-Seite aufgeraeumt: Uebersichts-/Schnellwahlkacheln entfernt, 50 Szenen-Speicherplaetze aktiviert und sichtbare Nummerierung auf 1 bis 50 umgestellt. Schema 51."
+                  },
+                  {
                       "version":  "0.0.261",
                       "bin":  "knx-led-controller-4m_0.0.261_codex.bin",
                       "date":  "2026-06-29",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-4m_0.0.257_codex.bin",
                       "date":  "2026-06-29",
                       "note":  "Codex - Outputs-UI verbessert: Power-On-Szene wird nur bei Feste Szene angezeigt, veralteter Letzte-Einstellung-Hinweis entfernt und Eingabefelder auf /outputs mit Hilfetooltips versehen. Schema 50."
-                  },
-                  {
-                      "version":  "0.0.256",
-                      "bin":  "knx-led-controller-4m_0.0.256_codex.bin",
-                      "date":  "2026-06-29",
-                      "note":  "Codex - PIO+DMA LED-Backend optimiert: RP2350 nutzt alle drei PIO-Bloecke, Latch-Wartezeit folgt der realen Strip-Ausgabezeit, Profil-Datenrate wird uebernommen und die State-Machine wird pro Frame leichter zurueckgesetzt. Schema 50."
                   }
               ]
 }
