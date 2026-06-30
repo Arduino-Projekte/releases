@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.267",
+                      "bin":  "knx-led-controller-4m_0.0.267_codex.bin",
+                      "date":  "2026-06-30",
+                      "note":  "Codex - BOOTSEL-Button und kurze Update-Hinweise."
+                  },
+                  {
                       "version":  "0.0.266",
                       "bin":  "knx-led-controller-4m_0.0.266_codex.bin",
                       "date":  "2026-06-30",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-4m_0.0.263_codex.bin",
                       "date":  "2026-06-29",
                       "note":  "Codex - KNX-Seite aufgeraeumt: Status-Intervall wird nur bei Zeitmodus angezeigt, BAOS-Verbindungsdiagnose bleibt im Adminbereich, 19200-Bedienoption entfernt und KNX-Felder mit Hilfetexten versehen. Schema 51."
-                  },
-                  {
-                      "version":  "0.0.262",
-                      "bin":  "knx-led-controller-4m_0.0.262_codex.bin",
-                      "date":  "2026-06-29",
-                      "note":  "Codex - Ablauf-Seite aufgeraeumt: Uebersichts-/Schnellwahlkacheln entfernt, 50 Szenen-Speicherplaetze aktiviert und sichtbare Nummerierung auf 1 bis 50 umgestellt. Schema 51."
                   }
               ]
 }
