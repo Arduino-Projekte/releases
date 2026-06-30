@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-4m_0.0.267_codex.bin",
+                     "url":  "knx-led-controller-4m_0.0.268_codex.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.267",
-                     "bin":  "knx-led-controller-4m_0.0.267_codex.bin",
-                     "file":  "knx-led-controller-4m_0.0.267_codex.bin",
-                     "sha256":  "dcf4ffda7f94a956755bd65df39b969e2e258f72e1a75de6080a40c1db8a43cb",
-                     "message":  "Codex - BOOTSEL-Button und kurze Update-Hinweise.",
+                     "version":  "0.0.268",
+                     "bin":  "knx-led-controller-4m_0.0.268_codex.bin",
+                     "file":  "knx-led-controller-4m_0.0.268_codex.bin",
+                     "sha256":  "f8f4cca86c0c2560db3d8aac5dc704d241fdf8f6430c7d8453364a5bd455d220",
+                     "message":  "Codex - 4MB-Slim-Build fuer OTA-Fortsetzung.",
                      "http_code":  200
                  }
 }
