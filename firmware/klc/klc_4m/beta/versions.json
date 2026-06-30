@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.269",
+                      "bin":  "knx-led-controller-4m_0.0.269_codex.bin",
+                      "date":  "2026-06-30",
+                      "note":  "Codex - System-Kacheln zusammengefuehrt."
+                  },
+                  {
                       "version":  "0.0.268",
                       "bin":  "knx-led-controller-4m_0.0.268_codex.bin",
                       "date":  "2026-06-30",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-4m_0.0.265_codex.bin",
                       "date":  "2026-06-30",
                       "note":  "Codex - Versionshistorie robuster: versions.json wird direkt aus dem items-Array gelesen, leerer Payload klar gemeldet, stabile Historie nicht wegen Beta-Version dauernd neu geladen. Schema 51."
-                  },
-                  {
-                      "version":  "0.0.264",
-                      "bin":  "knx-led-controller-4m_0.0.264_codex.bin",
-                      "date":  "2026-06-30",
-                      "note":  "Codex - Update/Config repariert: Storage-Exportpuffer fuer 50 Szenen vergroessert und Versionshistorie bekommt Timeout/Fallback statt dauerhaftem Ladeplatzhalter. Schema 51."
                   }
               ]
 }
