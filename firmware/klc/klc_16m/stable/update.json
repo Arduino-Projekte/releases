@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m_0.0.268_codex.bin",
+                     "url":  "knx-led-controller-16m_0.0.269_codex.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.268",
-                     "bin":  "knx-led-controller-16m_0.0.268_codex.bin",
-                     "file":  "knx-led-controller-16m_0.0.268_codex.bin",
-                     "sha256":  "9fde08027a0cfa41c3f36d06e020bc95480f0ba57b96cdb9050f375289dd0e90",
-                     "message":  "Codex - 4MB-Slim-Build fuer OTA-Fortsetzung.",
+                     "version":  "0.0.269",
+                     "bin":  "knx-led-controller-16m_0.0.269_codex.bin",
+                     "file":  "knx-led-controller-16m_0.0.269_codex.bin",
+                     "sha256":  "2cffd3ad4e3972bf57fb19f4eea74acb8147ab6915f9c2c3d35e751ecf280513",
+                     "message":  "Codex - System-Kacheln zusammengefuehrt.",
                      "http_code":  200
                  }
 }
