@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-4m_0.0.254_claude.bin",
+                     "url":  "knx-led-controller-4m_0.0.268_codex.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.254",
-                     "bin":  "knx-led-controller-4m_0.0.254_claude.bin",
-                     "file":  "knx-led-controller-4m_0.0.254_claude.bin",
-                     "sha256":  "0138b8328caf2423b1bf483281895544861ae16e2107d0020ea52c6d98b34aff",
-                     "message":  "Claude - Tetris-Performance-Durchgang. 1) Abbau jetzt block-weise in EINEM Plan-Durchlauf (O(Bloecke+LEDs)) statt pro Pixel; Original-Abbau war vorher O(LEDs*Bloecke^2). 2) Build-Dauer wird in EINEM Durchlauf berechnet (kein separater BlockCount-Walk mehr) und deterministisch memoisiert (Cache je Szene/Laenge/Zyklus/Phase, entwertet bei Konfig-Aenderung) - das spart die staendige Neuberechnung im Dispatch (2x/Frame) und vor allem im Segment-Pfad (vorher ~4x pro Pixel). Folge: langsame Frames bremsen die Tetris-Clock nicht mehr aus, die Animation laeuft fluessig und schnelle Einstellungen sind wirklich schnell. Web-Vorschau mitgezogen. Schema 50 unveraendert.",
+                     "version":  "0.0.268",
+                     "bin":  "knx-led-controller-4m_0.0.268_codex.bin",
+                     "file":  "knx-led-controller-4m_0.0.268_codex.bin",
+                     "sha256":  "f8f4cca86c0c2560db3d8aac5dc704d241fdf8f6430c7d8453364a5bd455d220",
+                     "message":  "Codex - 4MB-Slim-Build fuer OTA-Fortsetzung.",
                      "http_code":  200
                  }
 }
