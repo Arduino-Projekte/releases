@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-4m_0.0.269_codex.bin",
+                     "url":  "knx-led-controller-4m_0.0.270_codex.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.269",
-                     "bin":  "knx-led-controller-4m_0.0.269_codex.bin",
-                     "file":  "knx-led-controller-4m_0.0.269_codex.bin",
-                     "sha256":  "2019b0fb361ba3141b4a4a22a7e22648cea517f30d021fde3754514e85c9f25e",
-                     "message":  "Codex - System-Kacheln zusammengefuehrt.",
+                     "version":  "0.0.270",
+                     "bin":  "knx-led-controller-4m_0.0.270_codex.bin",
+                     "file":  "knx-led-controller-4m_0.0.270_codex.bin",
+                     "sha256":  "52fe525c2ab6aab62994bcbd05a52eac7e99fd0652f1fa7d46909757fb991f5a",
+                     "message":  "Codex - Flow-Felder im Slim-Build repariert.",
                      "http_code":  200
                  }
 }
