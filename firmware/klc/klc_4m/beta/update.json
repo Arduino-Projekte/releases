@@ -6,7 +6,7 @@
                      "version":  "0.0.266",
                      "bin":  "knx-led-controller-4m_0.0.266_codex.bin",
                      "file":  "knx-led-controller-4m_0.0.266_codex.bin",
-                     "sha256":  "02e4e2c340b9c5ab5b21d4e434b7b79720c735ef74758de3f7a52ea4ddb8c351",
+                     "sha256":  "4f8bd7be0e6009893583b1d44fbc7803a67583a7757288c7f173ba9015b511c0",
                      "message":  "Codex - Update-Kanal korrigiert: nicht veroeffentlichte Codex-/Beta-Builds verwenden automatisch den Beta-Kanal, damit Versionshistorie und aktuelle Firmware zusammenpassen. Schema 51.",
                      "http_code":  200
                  }
