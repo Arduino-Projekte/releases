@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.275",
+                      "bin":  "knx-led-controller-16m-w_0.0.275_codex.bin",
+                      "date":  "2026-07-01",
+                      "note":  "Codex - Firmware-Update-Kacheln gestrafft."
+                  },
+                  {
                       "version":  "0.0.273",
                       "bin":  "knx-led-controller-16m-w_0.0.273_codex.bin",
                       "date":  "2026-07-01",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m-w_0.0.269_codex.bin",
                       "date":  "2026-06-30",
                       "note":  "Codex - System-Kacheln zusammengefuehrt."
-                  },
-                  {
-                      "version":  "0.0.268",
-                      "bin":  "knx-led-controller-16m-w_0.0.268_codex.bin",
-                      "date":  "2026-06-30",
-                      "note":  "Codex - 4MB-Slim-Build fuer OTA-Fortsetzung."
                   }
               ]
 }
