@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.278",
+                      "bin":  "knx-led-controller-16m_0.0.278_codex.bin",
+                      "date":  "2026-07-01",
+                      "note":  "Codex - Sprachauswahl erweitert."
+                  },
+                  {
                       "version":  "0.0.276",
                       "bin":  "knx-led-controller-16m_0.0.276_codex.bin",
                       "date":  "2026-07-01",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m_0.0.272_codex.bin",
                       "date":  "2026-07-01",
                       "note":  "Codex - Update-Seite auf 16MB-Profile bereinigt."
-                  },
-                  {
-                      "version":  "0.0.271",
-                      "bin":  "knx-led-controller-16m_0.0.271_codex.bin",
-                      "date":  "2026-07-01",
-                      "note":  "Codex - Admin-Logout und WebUI-Puffer stabilisiert."
                   }
               ]
 }
