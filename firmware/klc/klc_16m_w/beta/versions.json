@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.273",
+                      "bin":  "knx-led-controller-16m-w_0.0.273_codex.bin",
+                      "date":  "2026-07-01",
+                      "note":  "Codex - Footer und Versionshistorie korrigiert."
+                  },
+                  {
                       "version":  "0.0.272",
                       "bin":  "knx-led-controller-16m-w_0.0.272_codex.bin",
                       "date":  "2026-07-01",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m-w_0.0.268_codex.bin",
                       "date":  "2026-06-30",
                       "note":  "Codex - 4MB-Slim-Build fuer OTA-Fortsetzung."
-                  },
-                  {
-                      "version":  "0.0.254",
-                      "bin":  "knx-led-controller-16m-w_0.0.254_claude.bin",
-                      "date":  "2026-06-25",
-                      "note":  "Claude - Tetris-Performance-Durchgang. 1) Abbau jetzt block-weise in EINEM Plan-Durchlauf (O(Bloecke+LEDs)) statt pro Pixel; Original-Abbau war vorher O(LEDs*Bloecke^2). 2) Build-Dauer wird in EINEM Durchlauf berechnet (kein separater BlockCount-Walk mehr) und deterministisch memoisiert (Cache je Szene/Laenge/Zyklus/Phase, entwertet bei Konfig-Aenderung) - das spart die staendige Neuberechnung im Dispatch (2x/Frame) und vor allem im Segment-Pfad (vorher ~4x pro Pixel). Folge: langsame Frames bremsen die Tetris-Clock nicht mehr aus, die Animation laeuft fluessig und schnelle Einstellungen sind wirklich schnell. Web-Vorschau mitgezogen. Schema 50 unveraendert."
                   }
               ]
 }
