@@ -1,6 +1,18 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.278",
+                      "bin":  "knx-led-controller-16m_0.0.278_codex.bin",
+                      "date":  "2026-07-01",
+                      "note":  "Codex - Sprachauswahl erweitert."
+                  },
+                  {
+                      "version":  "0.0.277",
+                      "bin":  "knx-led-controller-16m_0.0.277_codex.bin",
+                      "date":  "2026-07-01",
+                      "note":  "Codex - Sprachschalter vorbereitet."
+                  },
+                  {
                       "version":  "0.0.276",
                       "bin":  "knx-led-controller-16m_0.0.276_codex.bin",
                       "date":  "2026-07-01",
@@ -17,18 +29,6 @@
                       "bin":  "knx-led-controller-16m_0.0.274_codex.bin",
                       "date":  "2026-07-01",
                       "note":  "Codex - Update-Kacheln aufgeraeumt."
-                  },
-                  {
-                      "version":  "0.0.273",
-                      "bin":  "knx-led-controller-16m_0.0.273_codex.bin",
-                      "date":  "2026-07-01",
-                      "note":  "Codex - Footer und Versionshistorie korrigiert."
-                  },
-                  {
-                      "version":  "0.0.255",
-                      "bin":  "knx-led-controller-16m_0.0.255_chat.bin",
-                      "date":  "2026-07-01",
-                      "note":  "Chat - Tetris_2 neu: separater plan-/blockbasierter Renderer mit eigenen Einstellungen, Seed-Plan, mm/s ueber Pixel/Meter, zufaelligen Blockgroessen/Farben/Pausen, Next-Preview, Fruehstart, neuen Abbauarten und optimierter Frame-Ausgabe. Alte Tetris-Sonderlogik Abstand/Mitte/Zufallsrichtung wird von Tetris_2 nicht verwendet. Schema 50."
                   }
               ]
 }
