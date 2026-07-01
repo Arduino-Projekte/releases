@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m_0.0.272_codex.bin",
+                     "url":  "knx-led-controller-16m_0.0.273_codex.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.272",
-                     "bin":  "knx-led-controller-16m_0.0.272_codex.bin",
-                     "file":  "knx-led-controller-16m_0.0.272_codex.bin",
-                     "sha256":  "ab761361e98210e6a41f4c3db2700e4f7f2d95e6d787c6b0d8157b81d6fa12c1",
-                     "message":  "Codex - Update-Seite auf 16MB-Profile bereinigt.",
+                     "version":  "0.0.273",
+                     "bin":  "knx-led-controller-16m_0.0.273_codex.bin",
+                     "file":  "knx-led-controller-16m_0.0.273_codex.bin",
+                     "sha256":  "7ca55458b6e46f6ca909173eee2cb4d2ae00ca99ce6b226f29410cd2852994ba",
+                     "message":  "Codex - Footer und Versionshistorie korrigiert.",
                      "http_code":  200
                  }
 }
