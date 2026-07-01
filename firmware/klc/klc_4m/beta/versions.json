@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.271",
+                      "bin":  "knx-led-controller-4m_0.0.271_codex.bin",
+                      "date":  "2026-07-01",
+                      "note":  "Codex - Admin-Logout und WebUI-Puffer stabilisiert."
+                  },
+                  {
                       "version":  "0.0.270",
                       "bin":  "knx-led-controller-4m_0.0.270_codex.bin",
                       "date":  "2026-06-30",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-4m_0.0.267_codex.bin",
                       "date":  "2026-06-30",
                       "note":  "Codex - BOOTSEL-Button und kurze Update-Hinweise."
-                  },
-                  {
-                      "version":  "0.0.266",
-                      "bin":  "knx-led-controller-4m_0.0.266_codex.bin",
-                      "date":  "2026-06-30",
-                      "note":  "Codex - Update-Kanal korrigiert: nicht veroeffentlichte Codex-/Beta-Builds verwenden automatisch den Beta-Kanal, damit Versionshistorie und aktuelle Firmware zusammenpassen. Schema 51."
                   }
               ]
 }
