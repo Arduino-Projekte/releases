@@ -6,7 +6,7 @@
                      "version":  "0.0.271",
                      "bin":  "knx-led-controller-4m_0.0.271_codex.bin",
                      "file":  "knx-led-controller-4m_0.0.271_codex.bin",
-                     "sha256":  "5089b867b8c8fe85ad61db865ed7cb138fc4c08a234d437ad2413853787c237d",
+                     "sha256":  "7647dfe557a24626d342547f23fa826ff0daae44e2437f54d4a7ea398e12dede",
                      "message":  "Codex - Admin-Logout und WebUI-Puffer stabilisiert.",
                      "http_code":  200
                  }
