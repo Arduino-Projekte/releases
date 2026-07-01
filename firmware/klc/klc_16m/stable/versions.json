@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.276",
+                      "bin":  "knx-led-controller-16m_0.0.276_codex.bin",
+                      "date":  "2026-07-01",
+                      "note":  "Codex - Netzwerk und Backup-Seite bereinigt."
+                  },
+                  {
                       "version":  "0.0.275",
                       "bin":  "knx-led-controller-16m_0.0.275_codex.bin",
                       "date":  "2026-07-01",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m_0.0.271_codex.bin",
                       "date":  "2026-07-01",
                       "note":  "Codex - Admin-Logout und WebUI-Puffer stabilisiert."
-                  },
-                  {
-                      "version":  "0.0.269",
-                      "bin":  "knx-led-controller-16m_0.0.269_codex.bin",
-                      "date":  "2026-06-30",
-                      "note":  "Codex - System-Kacheln zusammengefuehrt."
                   }
               ]
 }
