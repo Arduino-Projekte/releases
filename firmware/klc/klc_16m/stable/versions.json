@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.271",
+                      "bin":  "knx-led-controller-16m_0.0.271_codex.bin",
+                      "date":  "2026-07-01",
+                      "note":  "Codex - Admin-Logout und WebUI-Puffer stabilisiert."
+                  },
+                  {
                       "version":  "0.0.269",
                       "bin":  "knx-led-controller-16m_0.0.269_codex.bin",
                       "date":  "2026-06-30",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m_0.0.254_chat.bin",
                       "date":  "2026-06-25",
                       "note":  "Chat - Tetris_2 Performance-Fix: Bewegungsspur hart begrenzt, damit bei hoher Geschwindigkeit nicht der ganze Strip sofort leuchtet. Blocklimit reduziert, Farbcache linear berechnet und Abbau mit sicherem Ende versehen. Schema 50."
-                  },
-                  {
-                      "version":  "0.0.253",
-                      "bin":  "knx-led-controller-16m_0.0.253_chat.bin",
-                      "date":  "2026-06-25",
-                      "note":  "Chat - Tetris_2 Stabilisierung: Plan wird pro Frame nur noch einmal erzeugt, Blockanzahl sicher begrenzt und Farbberechnung gecacht. Verhindert Ueberlastung/Netzwerk-Haenger beim Umschalten auf Tetris_2. Schema 50."
                   }
               ]
 }
