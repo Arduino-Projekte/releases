@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m_0.0.271_codex.bin",
+                     "url":  "knx-led-controller-16m_0.0.272_codex.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.271",
-                     "bin":  "knx-led-controller-16m_0.0.271_codex.bin",
-                     "file":  "knx-led-controller-16m_0.0.271_codex.bin",
-                     "sha256":  "9d3a28f36427dceeeb29b74b91e72a0503995bf6f78124cf9f5726105f7b959c",
-                     "message":  "Codex - Admin-Logout und WebUI-Puffer stabilisiert.",
+                     "version":  "0.0.272",
+                     "bin":  "knx-led-controller-16m_0.0.272_codex.bin",
+                     "file":  "knx-led-controller-16m_0.0.272_codex.bin",
+                     "sha256":  "ab761361e98210e6a41f4c3db2700e4f7f2d95e6d787c6b0d8157b81d6fa12c1",
+                     "message":  "Codex - Update-Seite auf 16MB-Profile bereinigt.",
                      "http_code":  200
                  }
 }
