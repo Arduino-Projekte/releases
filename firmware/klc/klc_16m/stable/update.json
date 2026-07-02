@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m_0.0.284_codex.bin",
+                     "url":  "knx-led-controller-16m_0.0.286_codex.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.284",
-                     "bin":  "knx-led-controller-16m_0.0.284_codex.bin",
-                     "file":  "knx-led-controller-16m_0.0.284_codex.bin",
-                     "sha256":  "678f27519875a798413c26d4a31b0c4d3dfbeccba11b6c973d2020b4ff2fc704",
-                     "message":  "Codex - Weitere WebUI-Texte übersetzt.",
+                     "version":  "0.0.286",
+                     "bin":  "knx-led-controller-16m_0.0.286_codex.bin",
+                     "file":  "knx-led-controller-16m_0.0.286_codex.bin",
+                     "sha256":  "e9f4b97ce5e2ded390189727f44bc0bc50ac325ccf610d8199219b83fcade386",
+                     "message":  "Codex - WebUI-Übersetzungen bereinigt.",
                      "http_code":  200
                  }
 }
