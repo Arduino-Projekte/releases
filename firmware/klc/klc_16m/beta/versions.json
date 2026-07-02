@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.285",
+                      "bin":  "knx-led-controller-16m_0.0.285_codex.bin",
+                      "date":  "2026-07-02",
+                      "note":  "Codex - Restliche Update- und Diagnose-Texte übersetzt."
+                  },
+                  {
                       "version":  "0.0.284",
                       "bin":  "knx-led-controller-16m_0.0.284_codex.bin",
                       "date":  "2026-07-02",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m_0.0.281_codex.bin",
                       "date":  "2026-07-02",
                       "note":  "Codex - Weitere UI-Texte übersetzt."
-                  },
-                  {
-                      "version":  "0.0.280",
-                      "bin":  "knx-led-controller-16m_0.0.280_codex.bin",
-                      "date":  "2026-07-01",
-                      "note":  "Codex - Deutsche Umlaute ergänzt."
                   }
               ]
 }
