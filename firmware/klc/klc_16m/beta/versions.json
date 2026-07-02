@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.288",
+                      "bin":  "knx-led-controller-16m_0.0.288_codex.bin",
+                      "date":  "2026-07-02",
+                      "note":  "Codex - Umlaute und Beta-Schalter korrigiert."
+                  },
+                  {
                       "version":  "0.0.287",
                       "bin":  "knx-led-controller-16m_0.0.287_codex.bin",
                       "date":  "2026-07-02",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m_0.0.284_codex.bin",
                       "date":  "2026-07-02",
                       "note":  "Codex - Weitere WebUI-Texte übersetzt."
-                  },
-                  {
-                      "version":  "0.0.283",
-                      "bin":  "knx-led-controller-16m_0.0.283_codex.bin",
-                      "date":  "2026-07-02",
-                      "note":  "Codex - Systemtexte natürlicher übersetzt."
                   }
               ]
 }
