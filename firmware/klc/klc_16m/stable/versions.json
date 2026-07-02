@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.284",
+                      "bin":  "knx-led-controller-16m_0.0.284_codex.bin",
+                      "date":  "2026-07-02",
+                      "note":  "Codex - Weitere WebUI-Texte übersetzt."
+                  },
+                  {
                       "version":  "0.0.283",
                       "bin":  "knx-led-controller-16m_0.0.283_codex.bin",
                       "date":  "2026-07-02",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m_0.0.276_codex.bin",
                       "date":  "2026-07-01",
                       "note":  "Codex - Netzwerk und Backup-Seite bereinigt."
-                  },
-                  {
-                      "version":  "0.0.275",
-                      "bin":  "knx-led-controller-16m_0.0.275_codex.bin",
-                      "date":  "2026-07-01",
-                      "note":  "Codex - Firmware-Update-Kacheln gestrafft."
                   }
               ]
 }
