@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.289",
+                      "bin":  "knx-led-controller-16m-w_0.0.289_claude.bin",
+                      "date":  "2026-07-02",
+                      "note":  "Claude - Mehrsprachigkeit vervollstaendigt (Tooltips, Dialoge, Statusmeldungen); Update-Seite: JS-Fehler in Bestaetigungsdialogen behoben."
+                  },
+                  {
                       "version":  "0.0.287",
                       "bin":  "knx-led-controller-16m-w_0.0.287_codex.bin",
                       "date":  "2026-07-02",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m-w_0.0.278_codex.bin",
                       "date":  "2026-07-01",
                       "note":  "Codex - Sprachauswahl erweitert."
-                  },
-                  {
-                      "version":  "0.0.276",
-                      "bin":  "knx-led-controller-16m-w_0.0.276_codex.bin",
-                      "date":  "2026-07-01",
-                      "note":  "Codex - Netzwerk und Backup-Seite bereinigt."
                   }
               ]
 }
