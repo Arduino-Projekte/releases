@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.287",
+                      "bin":  "knx-led-controller-16m_0.0.287_codex.bin",
+                      "date":  "2026-07-02",
+                      "note":  "Codex - WebUI-Sprachmix bereinigt."
+                  },
+                  {
                       "version":  "0.0.286",
                       "bin":  "knx-led-controller-16m_0.0.286_codex.bin",
                       "date":  "2026-07-02",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m_0.0.283_codex.bin",
                       "date":  "2026-07-02",
                       "note":  "Codex - Systemtexte natürlicher übersetzt."
-                  },
-                  {
-                      "version":  "0.0.282",
-                      "bin":  "knx-led-controller-16m_0.0.282_codex.bin",
-                      "date":  "2026-07-02",
-                      "note":  "Codex - Automatische Sprache aktiviert."
                   }
               ]
 }
