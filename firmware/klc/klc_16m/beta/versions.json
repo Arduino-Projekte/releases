@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.282",
+                      "bin":  "knx-led-controller-16m_0.0.282_codex.bin",
+                      "date":  "2026-07-02",
+                      "note":  "Codex - Automatische Sprache aktiviert."
+                  },
+                  {
                       "version":  "0.0.281",
                       "bin":  "knx-led-controller-16m_0.0.281_codex.bin",
                       "date":  "2026-07-02",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m_0.0.278_codex.bin",
                       "date":  "2026-07-01",
                       "note":  "Codex - Sprachauswahl erweitert."
-                  },
-                  {
-                      "version":  "0.0.277",
-                      "bin":  "knx-led-controller-16m_0.0.277_codex.bin",
-                      "date":  "2026-07-01",
-                      "note":  "Codex - Sprachschalter vorbereitet."
                   }
               ]
 }
