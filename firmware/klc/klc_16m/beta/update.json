@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m_0.0.288_codex.bin",
+                     "url":  "knx-led-controller-16m_0.0.289_claude.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.288",
-                     "bin":  "knx-led-controller-16m_0.0.288_codex.bin",
-                     "file":  "knx-led-controller-16m_0.0.288_codex.bin",
-                     "sha256":  "709f3979720ac53a46a5053f18d963a0620b9fde939cf6c329ff9048b01ae855",
-                     "message":  "Codex - Umlaute und Beta-Schalter korrigiert.",
+                     "version":  "0.0.289",
+                     "bin":  "knx-led-controller-16m_0.0.289_claude.bin",
+                     "file":  "knx-led-controller-16m_0.0.289_claude.bin",
+                     "sha256":  "909216f47e59b661b65dc6f6122d99879d8d8d00798897475ac76084164ab9bb",
+                     "message":  "Claude - Mehrsprachigkeit vervollstaendigt (Tooltips, Dialoge, Statusmeldungen); Update-Seite: JS-Fehler in Bestaetigungsdialogen behoben.",
                      "http_code":  200
                  }
 }
