@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "kind": "klc_help",
+  "version": "0.1.0",
+  "firmware_min": "0.0.293",
+  "language": "en",
+  "title": "KLC Help",
+  "sections": [
+    {"id": "quickstart", "title": "Quick start", "category": "Start", "body": "First steps: configure the network, check outputs, configure LED strings, connect KNX/BAOS, create a backup, then test scenes or flows."},
+    {"id": "outputs", "title": "Outputs / LED strings", "category": "Outputs", "body": "Configure the board outputs here. Disabled outputs keep their settings but are not driven physically."},
+    {"id": "knx", "title": "KNX / BAOS", "category": "KNX", "body": "KNX objects connect the controller to group addresses and BAOS datapoints. Fixed object numbers should only be changed deliberately after ETS setup."},
+    {"id": "updates", "title": "Update firmware and help", "category": "Update", "body": "Firmware updates and help files are downloaded separately. The built-in help remains available offline."}
+  ],
+  "fields": [
+    {"id": "outputs.enabled", "page": "Outputs", "label": "Active", "short": "Enables or disables one LED output logically.", "details": "Disabled keeps the values stored, but the output is not passed to the LED backend."},
+    {"id": "outputs.pixels", "page": "Outputs", "label": "Pixels", "short": "Number of LEDs on the physical string.", "details": "This must match the real LED count for effects, power estimates and tests to work correctly."},
+    {"id": "outputs.manual_tests", "page": "Outputs", "label": "Manual tests active", "short": "Number of currently running manual color or edge tests.", "details": "0 means no output is currently overridden by a manual test."}
+  ]
+}

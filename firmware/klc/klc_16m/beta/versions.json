@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.293",
+                      "bin":  "knx-led-controller-16m_0.0.293_codex.bin",
+                      "date":  "2026-07-03",
+                      "note":  "Codex - Neue Hilfe-Registerkarte mit durchsuchbarer Offline-Hilfe, Online-Download aus releases/firmware/klc/help und Sprachdateien help_de/en/fr/es/it/nl/pl.json."
+                  },
+                  {
                       "version":  "0.0.292",
                       "bin":  "knx-led-controller-16m_0.0.292_codex.bin",
                       "date":  "2026-07-03",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m_0.0.288_codex.bin",
                       "date":  "2026-07-02",
                       "note":  "Codex - Umlaute und Beta-Schalter korrigiert."
-                  },
-                  {
-                      "version":  "0.0.287",
-                      "bin":  "knx-led-controller-16m_0.0.287_codex.bin",
-                      "date":  "2026-07-02",
-                      "note":  "Codex - WebUI-Sprachmix bereinigt."
                   }
               ]
 }

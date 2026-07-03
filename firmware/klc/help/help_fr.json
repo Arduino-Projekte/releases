@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "kind": "klc_help",
+  "version": "0.1.0",
+  "firmware_min": "0.0.293",
+  "language": "fr",
+  "title": "Aide KLC",
+  "sections": [
+    {"id": "quickstart", "title": "Demarrage rapide", "category": "Demarrage", "body": "Configurer le reseau, verifier les sorties, regler les chaines LED, connecter KNX/BAOS, creer une sauvegarde puis tester scenes ou sequences."},
+    {"id": "outputs", "title": "Sorties / chaines LED", "category": "Sorties", "body": "Les sorties de la carte sont configurees ici. Les sorties desactivees conservent leurs reglages mais ne sont pas pilotees physiquement."},
+    {"id": "knx", "title": "KNX / BAOS", "category": "KNX", "body": "Les objets KNX relient le controleur aux adresses de groupe et points de donnees BAOS."},
+    {"id": "updates", "title": "Mettre a jour firmware et aide", "category": "Mise a jour", "body": "Le firmware et les fichiers d'aide sont charges separement. L'aide integree reste disponible hors ligne."}
+  ],
+  "fields": [
+    {"id": "outputs.enabled", "page": "Sorties", "label": "Actif", "short": "Active ou desactive logiquement une sortie LED.", "details": "Desactivee signifie que les valeurs restent enregistrees, mais la sortie n'est pas transmise au backend LED."},
+    {"id": "outputs.pixels", "page": "Sorties", "label": "Pixels", "short": "Nombre de LED sur la chaine physique.", "details": "La valeur doit correspondre au nombre reel de LED."},
+    {"id": "outputs.manual_tests", "page": "Sorties", "label": "Tests manuels actifs", "short": "Nombre de tests couleur ou bord actuellement actifs.", "details": "0 signifie qu'aucune sortie n'est remplacee par un test manuel."}
+  ]
+}

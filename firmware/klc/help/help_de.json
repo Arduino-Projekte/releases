@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "kind": "klc_help",
+  "version": "0.1.0",
+  "firmware_min": "0.0.293",
+  "language": "de",
+  "title": "KLC Hilfe",
+  "sections": [
+    {"id": "quickstart", "title": "Schnellstart", "category": "Start", "body": "Erste Schritte: Netzwerk einrichten, Ausgaenge pruefen, LED-Straenge konfigurieren, KNX/BAOS verbinden, Backup erstellen und anschliessend Szenen oder Ablaeufe testen."},
+    {"id": "outputs", "title": "Ausgaenge / LED-Straenge", "category": "Ausgaenge", "body": "Hier werden die vorgesehenen Platinen-Ausgaenge eingerichtet. Deaktivierte Ausgaenge bleiben gespeichert, werden aber nicht real ausgegeben."},
+    {"id": "knx", "title": "KNX / BAOS", "category": "KNX", "body": "KNX-Objekte verbinden den Controller mit Gruppenadressen und BAOS-Datenpunkten. Feste Objektnummern sollten nach der ETS-Ersteinrichtung nur bewusst geaendert werden."},
+    {"id": "updates", "title": "Firmware und Hilfe aktualisieren", "category": "Update", "body": "Firmware-Updates und Hilfe-Dateien werden getrennt geladen. Die eingebaute Hilfe bleibt als Offline-Fallback erhalten."}
+  ],
+  "fields": [
+    {"id": "outputs.enabled", "page": "Ausgaenge", "label": "Aktiv", "short": "Schaltet einen LED-Ausgang logisch ein oder aus.", "details": "Ausgeschaltet bedeutet: Werte bleiben gespeichert, der Ausgang wird aber nicht an das LED-Backend uebergeben."},
+    {"id": "outputs.pixels", "page": "Ausgaenge", "label": "Pixel", "short": "Anzahl der LEDs am physischen Strang.", "details": "Der Wert muss zur realen LED-Anzahl passen, damit Effekte, Stromschaetzung und Tests korrekt arbeiten."},
+    {"id": "outputs.manual_tests", "page": "Ausgaenge", "label": "Manuelle Tests aktiv", "short": "Anzahl aktuell laufender manueller Farb- oder Kanten-Tests.", "details": "0 bedeutet: kein Ausgang wird gerade durch einen manuellen Test uebersteuert."}
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "kind": "klc_help",
+  "version": "0.1.0",
+  "firmware_min": "0.0.293",
+  "language": "pl",
+  "title": "Pomoc KLC",
+  "sections": [
+    {"id": "quickstart", "title": "Szybki start", "category": "Start", "body": "Skonfiguruj siec, sprawdz wyjscia, ustaw lancuchy LED, polacz KNX/BAOS, wykonaj kopie zapasowa i przetestuj sceny lub przebiegi."},
+    {"id": "outputs", "title": "Wyjscia / lancuchy LED", "category": "Wyjscia", "body": "Tutaj konfiguruje sie wyjscia plytki. Wylaczone wyjscia zachowuja ustawienia, ale nie sa fizycznie sterowane."},
+    {"id": "knx", "title": "KNX / BAOS", "category": "KNX", "body": "Obiekty KNX lacza sterownik z adresami grupowymi i punktami danych BAOS."},
+    {"id": "updates", "title": "Aktualizacja firmware i pomocy", "category": "Aktualizacja", "body": "Firmware i pliki pomocy sa pobierane oddzielnie. Wbudowana pomoc pozostaje dostepna offline."}
+  ],
+  "fields": [
+    {"id": "outputs.enabled", "page": "Wyjscia", "label": "Aktywne", "short": "Logicznie wlacza lub wylacza wyjscie LED.", "details": "Wylaczone oznacza, ze wartosci pozostaja zapisane, ale wyjscie nie trafia do backendu LED."},
+    {"id": "outputs.pixels", "page": "Wyjscia", "label": "Piksele", "short": "Liczba LED w fizycznym lancuchu.", "details": "Wartosc musi odpowiadac rzeczywistej liczbie LED."},
+    {"id": "outputs.manual_tests", "page": "Wyjscia", "label": "Aktywne testy reczne", "short": "Liczba aktywnych testow recznych.", "details": "0 oznacza, ze zadne wyjscie nie jest nadpisywane przez test reczny."}
+  ]
+}

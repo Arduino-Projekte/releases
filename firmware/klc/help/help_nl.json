@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "kind": "klc_help",
+  "version": "0.1.0",
+  "firmware_min": "0.0.293",
+  "language": "nl",
+  "title": "KLC Help",
+  "sections": [
+    {"id": "quickstart", "title": "Snel starten", "category": "Start", "body": "Netwerk instellen, uitgangen controleren, LED-strengen configureren, KNX/BAOS verbinden, backup maken en scenes of flows testen."},
+    {"id": "outputs", "title": "Uitgangen / LED-strengen", "category": "Uitgangen", "body": "Hier worden de printuitgangen ingesteld. Uitgeschakelde uitgangen bewaren hun instellingen maar worden niet fysiek aangestuurd."},
+    {"id": "knx", "title": "KNX / BAOS", "category": "KNX", "body": "KNX-objecten verbinden de controller met groepsadressen en BAOS-datapunten."},
+    {"id": "updates", "title": "Firmware en help bijwerken", "category": "Update", "body": "Firmware en helpbestanden worden apart geladen. De ingebouwde help blijft offline beschikbaar."}
+  ],
+  "fields": [
+    {"id": "outputs.enabled", "page": "Uitgangen", "label": "Actief", "short": "Schakelt een LED-uitgang logisch aan of uit.", "details": "Uitgeschakeld bewaart de waarden, maar de uitgang wordt niet aan de LED-backend doorgegeven."},
+    {"id": "outputs.pixels", "page": "Uitgangen", "label": "Pixels", "short": "Aantal LED's op de fysieke streng.", "details": "Dit moet overeenkomen met het echte aantal LED's."},
+    {"id": "outputs.manual_tests", "page": "Uitgangen", "label": "Handmatige tests actief", "short": "Aantal actieve handmatige tests.", "details": "0 betekent dat geen uitgang door een handmatige test wordt overschreven."}
+  ]
+}

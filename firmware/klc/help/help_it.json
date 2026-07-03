@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "kind": "klc_help",
+  "version": "0.1.0",
+  "firmware_min": "0.0.293",
+  "language": "it",
+  "title": "Aiuto KLC",
+  "sections": [
+    {"id": "quickstart", "title": "Avvio rapido", "category": "Avvio", "body": "Configura rete, controlla uscite, imposta stringhe LED, collega KNX/BAOS, crea backup e prova scene o sequenze."},
+    {"id": "outputs", "title": "Uscite / stringhe LED", "category": "Uscite", "body": "Qui si configurano le uscite della scheda. Le uscite disattivate mantengono le impostazioni ma non vengono pilotate fisicamente."},
+    {"id": "knx", "title": "KNX / BAOS", "category": "KNX", "body": "Gli oggetti KNX collegano il controller a indirizzi di gruppo e datapoint BAOS."},
+    {"id": "updates", "title": "Aggiornare firmware e aiuto", "category": "Update", "body": "Firmware e file di aiuto vengono scaricati separatamente. L'aiuto integrato resta disponibile offline."}
+  ],
+  "fields": [
+    {"id": "outputs.enabled", "page": "Uscite", "label": "Attivo", "short": "Abilita o disabilita logicamente una uscita LED.", "details": "Disabilitata significa che i valori restano salvati, ma l'uscita non viene passata al backend LED."},
+    {"id": "outputs.pixels", "page": "Uscite", "label": "Pixel", "short": "Numero di LED sulla stringa fisica.", "details": "Deve corrispondere al numero reale di LED."},
+    {"id": "outputs.manual_tests", "page": "Uscite", "label": "Test manuali attivi", "short": "Numero di test manuali attivi.", "details": "0 significa che nessuna uscita e sovrascritta da un test manuale."}
+  ]
+}

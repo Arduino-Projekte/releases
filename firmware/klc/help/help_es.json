@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "kind": "klc_help",
+  "version": "0.1.0",
+  "firmware_min": "0.0.293",
+  "language": "es",
+  "title": "Ayuda KLC",
+  "sections": [
+    {"id": "quickstart", "title": "Inicio rapido", "category": "Inicio", "body": "Configurar red, comprobar salidas, configurar tiras LED, conectar KNX/BAOS, crear copia de seguridad y probar escenas o flujos."},
+    {"id": "outputs", "title": "Salidas / tiras LED", "category": "Salidas", "body": "Aqui se configuran las salidas de la placa. Las salidas desactivadas conservan sus valores pero no se emiten fisicamente."},
+    {"id": "knx", "title": "KNX / BAOS", "category": "KNX", "body": "Los objetos KNX conectan el controlador con direcciones de grupo y puntos BAOS."},
+    {"id": "updates", "title": "Actualizar firmware y ayuda", "category": "Actualizacion", "body": "Firmware y ayuda se descargan por separado. La ayuda integrada queda disponible sin conexion."}
+  ],
+  "fields": [
+    {"id": "outputs.enabled", "page": "Salidas", "label": "Activo", "short": "Activa o desactiva logicamente una salida LED.", "details": "Desactivado conserva los valores, pero no entrega la salida al backend LED."},
+    {"id": "outputs.pixels", "page": "Salidas", "label": "Pixeles", "short": "Numero de LED en la tira fisica.", "details": "Debe coincidir con la cantidad real de LED."},
+    {"id": "outputs.manual_tests", "page": "Salidas", "label": "Pruebas manuales activas", "short": "Numero de pruebas manuales activas.", "details": "0 significa que ninguna salida esta siendo sobrescrita por una prueba manual."}
+  ]
+}
