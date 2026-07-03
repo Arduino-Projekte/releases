@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.295",
+                      "bin":  "knx-led-controller-16m_0.0.295_codex.bin",
+                      "date":  "2026-07-03",
+                      "note":  "Codex - Hilfe-Seite unterstuetzt direkte Feldsuche per ?q=Feld-ID; Ausgaenge-/Power-Felder verlinken auf die passende Hilfe, deutscher Offline-Fallback erweitert."
+                  },
+                  {
                       "version":  "0.0.294",
                       "bin":  "knx-led-controller-16m_0.0.294_codex.bin",
                       "date":  "2026-07-03",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m_0.0.290_claude.bin",
                       "date":  "2026-07-03",
                       "note":  "Claude - klc_16m_w: WLAN Client + optional AP parallel zu Ethernet, Netzwerkstatus je Interface, getrennte Updatepfade klc/klc_w, WLAN-Passwoerter nicht im Export."
-                  },
-                  {
-                      "version":  "0.0.289",
-                      "bin":  "knx-led-controller-16m_0.0.289_claude.bin",
-                      "date":  "2026-07-02",
-                      "note":  "Claude - Mehrsprachigkeit vervollstaendigt (Tooltips, Dialoge, Statusmeldungen); Update-Seite: JS-Fehler in Bestaetigungsdialogen behoben."
                   }
               ]
 }

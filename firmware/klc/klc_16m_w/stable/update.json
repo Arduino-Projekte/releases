@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m-w_0.0.294_codex.bin",
+                     "url":  "knx-led-controller-16m-w_0.0.295_codex.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.294",
-                     "bin":  "knx-led-controller-16m-w_0.0.294_codex.bin",
-                     "file":  "knx-led-controller-16m-w_0.0.294_codex.bin",
-                     "sha256":  "7bd06b1ec70748e939c413d1d4282a0d880b640e269b6ae1c6cc7d0eb4a5908f",
-                     "message":  "Codex - Hilfe-Download nutzt GitHub-HTTPS wie OTA mit setInsecure/Timeout; Fehler -1 wird als Netzwerk/DNS/TLS-Verbindungsfehler angezeigt.",
+                     "version":  "0.0.295",
+                     "bin":  "knx-led-controller-16m-w_0.0.295_codex.bin",
+                     "file":  "knx-led-controller-16m-w_0.0.295_codex.bin",
+                     "sha256":  "5e38eb431dfad12938fcfd65efd8ca333df44b13c02286e9dcbb9429559297bf",
+                     "message":  "Codex - Hilfe-Seite unterstuetzt direkte Feldsuche per ?q=Feld-ID; Ausgaenge-/Power-Felder verlinken auf die passende Hilfe, deutscher Offline-Fallback erweitert.",
                      "http_code":  200
                  }
 }
