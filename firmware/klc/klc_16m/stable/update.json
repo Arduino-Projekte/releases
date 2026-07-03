@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m_0.0.299_codex.bin",
+                     "url":  "knx-led-controller-16m_0.0.300_claude.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.299",
-                     "bin":  "knx-led-controller-16m_0.0.299_codex.bin",
-                     "file":  "knx-led-controller-16m_0.0.299_codex.bin",
-                     "sha256":  "e7f5e98f7879642073d18c538ac191a6227da4fc3a4e7ba6cf8d63ad2ef7b0dc",
-                     "message":  "Codex - Hilfe nutzt korrekte deutsche Umlaute; Suche findet Umlaute und ae/oe/ue-Schreibweisen.",
+                     "version":  "0.0.300",
+                     "bin":  "knx-led-controller-16m_0.0.300_claude.bin",
+                     "file":  "knx-led-controller-16m_0.0.300_claude.bin",
+                     "sha256":  "f50afe66f73dc26ccd099b1e33dae5cdc81df03c0699690923a7873e03159c6b",
+                     "message":  "Claude - Dashboard zeigt Uptime lesbar: unter 1 Stunde Minuten+Sekunden, ab 1 Stunde Stunden+Minuten, ab 1 Tag Tage+Stunden statt roher Sekunden.",
                      "http_code":  200
                  }
 }
