@@ -1,11 +1,11 @@
 {
   "schema": 1,
   "kind": "klc_help",
-  "version": "0.2.0",
+  "version": "0.3.1",
   "firmware_min": "0.0.293",
   "language": "de",
   "title": "KLC Hilfe",
-  "release_note": "Deutsche Master-Struktur mit Schnellstart, Arbeitsablaeufen, Fehlersuche und Feldreferenz.",
+  "release_note": "Feldreferenz fuer Fallback-Netzwerk, Ablauf-Editor, Tetris/Tetris_2, Steuerung, Kalibrierung, Update-Historie, Ereignisse und System-/Admin-Funktionen erweitert.",
   "sections": [
     {
       "id": "start.quickstart",
@@ -624,6 +624,517 @@
       "label": "Ereignisse loeschen",
       "short": "Leert die Ereignisliste.",
       "details": "Nur nach Dokumentation oder Support-Snapshot loeschen, sonst gehen wichtige Diagnosehinweise verloren."
+    },
+    {
+      "id": "network.fallback_enabled",
+      "page": "Netzwerk",
+      "label": "Fallback-IP aktiv",
+      "short": "Aktiviert eine Ersatz-IP, falls die normale Netzwerkkonfiguration nicht erreichbar ist.",
+      "details": "Hilft bei DHCP-/IP-Problemen. Die Fallback-Adresse muss im lokalen Wartungsnetz erreichbar sein und darf keine produktive Adresse doppelt belegen."
+    },
+    {
+      "id": "network.fallback_ip",
+      "page": "Netzwerk",
+      "label": "Fallback IP",
+      "short": "Ersatzadresse fuer den Notfallzugang.",
+      "details": "Nur nutzen, wenn die Adresse bewusst zum Service-Netz passt. Nach erfolgreicher Reparatur der Hauptkonfiguration pruefen, ob Fallback weiter benoetigt wird."
+    },
+    {
+      "id": "network.fallback_gateway",
+      "page": "Netzwerk",
+      "label": "Fallback Gateway",
+      "short": "Router-Adresse fuer den Fallback-Modus.",
+      "details": "Fuer reinen lokalen Wartungszugang kann Gateway leer oder ungenutzt sein. Fuer Online-Update/Hilfe muss es korrekt sein."
+    },
+    {
+      "id": "network.fallback_subnet",
+      "page": "Netzwerk",
+      "label": "Fallback Subnetz",
+      "short": "Netzmaske der Fallback-Adresse.",
+      "details": "Muss zur Fallback-IP und zum Wartungsnetz passen."
+    },
+    {
+      "id": "network.fallback_dns",
+      "page": "Netzwerk",
+      "label": "Fallback DNS",
+      "short": "Nameserver im Fallback-Modus.",
+      "details": "Nur relevant, wenn der Controller im Fallback-Modus Internetnamen aufloesen soll."
+    },
+    {
+      "id": "network.ap_ip",
+      "page": "Netzwerk",
+      "label": "AP-IP",
+      "short": "IP-Adresse des Controller-Access-Points.",
+      "details": "Diese Adresse wird verwendet, wenn sich ein Servicegeraet direkt mit dem Controller-AP verbindet."
+    },
+    {
+      "id": "network.ap_ssid",
+      "page": "Netzwerk",
+      "label": "AP-SSID",
+      "short": "WLAN-Name des lokalen Service-Access-Points.",
+      "details": "Soll eindeutig sein, damit mehrere Controller vor Ort nicht verwechselt werden."
+    },
+    {
+      "id": "network.ap_password",
+      "page": "Netzwerk",
+      "label": "AP-Passwort",
+      "short": "Passwort fuer den Service-Access-Point.",
+      "details": "Leeres Feld behaelt das gespeicherte Passwort. WPA2-Passwoerter muessen mindestens 8 Zeichen haben; leer kann je nach Firmware als offener Service-AP interpretiert werden."
+    },
+    {
+      "id": "flows.selected_scene",
+      "page": "Ablaeufe",
+      "label": "Ablauf auswaehlen",
+      "short": "Waehlt den Szenen-/Ablaufplatz, der bearbeitet wird.",
+      "details": "Aenderungen beziehen sich immer auf den aktuell ausgewaehlten Ablauf. Vor dem Kopieren oder Zuruecksetzen den richtigen Platz pruefen."
+    },
+    {
+      "id": "flows.preview_time",
+      "page": "Vorschau",
+      "label": "Zeitposition im Ablauf",
+      "short": "Zeigt einen bestimmten Zeitpunkt des Ablaufs.",
+      "details": "Hilft, Aufbau, Hauptphase und Ausblendung gezielt zu pruefen."
+    },
+    {
+      "id": "flows.preview_speed",
+      "page": "Vorschau",
+      "label": "Vorschau-Tempo",
+      "short": "Geschwindigkeit der Browser-Vorschau.",
+      "details": "Beeinflusst nur die Vorschau im Browser, nicht zwingend die reale LED-Ausgabe."
+    },
+    {
+      "id": "flows.sync_mode",
+      "page": "Ablaeufe",
+      "label": "Globale Lauflicht-/Wellen-Synchronisation",
+      "short": "Legt fest, wie mehrere Ausgaenge zeitlich zusammenlaufen.",
+      "details": "Start/Stopp synchronisiert Beginn und Ende. Runtime nutzt gleiche Schrittzeit je Pixel, wodurch kurze Straenge frueher fertig sein koennen."
+    },
+    {
+      "id": "flows.pixel_mode",
+      "page": "Ablaeufe",
+      "label": "Betroffene LEDs",
+      "short": "Bestimmt, ob Füllwerte prozentual oder absolut interpretiert werden.",
+      "details": "Prozent passt sich an unterschiedliche Ausgangslaengen an. Absolut nutzt feste LED-Anzahlen und wird pro Ausgang begrenzt."
+    },
+    {
+      "id": "flows.lit_percent",
+      "page": "Ablaeufe",
+      "label": "# Pixel / Füllgrad",
+      "short": "Bestimmt, wie viele LEDs vom Effekt betroffen sind.",
+      "details": "Je nach Pixelmodus als Prozentwert oder absolute Pixelanzahl zu verstehen."
+    },
+    {
+      "id": "flows.phase_effect",
+      "page": "Ablaeufe",
+      "label": "Start-/Ein-/Aus-Effekt",
+      "short": "Waehlt den Effekt fuer eine Ablaufphase.",
+      "details": "Start ist der Aufbau, Ein/Hauptphase der dauerhafte Zustand, Aus die Abblend-/Abbauphase."
+    },
+    {
+      "id": "flows.phase_duration",
+      "page": "Ablaeufe",
+      "label": "Start-/Haupt-/Aus-Dauer",
+      "short": "Dauer oder Rampe einer Ablaufphase in Millisekunden.",
+      "details": "Kleine Werte wirken hart und schnell, groessere Werte weicher. Bei sehr langen LED-Strips reale Ausgabe testen."
+    },
+    {
+      "id": "flows.phase_fill",
+      "page": "Ablaeufe",
+      "label": "Start-/Ein-/Aus-Füllgrad",
+      "short": "Füllgrad einer Phase.",
+      "details": "Steuert, wie breit oder voll ein Effekt innerhalb der Phase erscheint."
+    },
+    {
+      "id": "flows.step_ms",
+      "page": "Ablaeufe",
+      "label": "Schrittzeit ms",
+      "short": "Zeit zwischen Bewegungsschritten.",
+      "details": "Kleinere Werte laufen schneller. Zu kleine Werte koennen bei langen Ablaeufen unruhig wirken."
+    },
+    {
+      "id": "flows.pulse_period",
+      "page": "Ablaeufe",
+      "label": "Puls-/Blinkperiode ms",
+      "short": "Periodendauer fuer Puls- oder Blinkeffekte.",
+      "details": "Bestimmt, wie schnell ein Effekt heller/dunkler wird oder blinkt."
+    },
+    {
+      "id": "flows.transition_duration",
+      "page": "Ablaeufe",
+      "label": "Uebergangs-Dauer ms",
+      "short": "Zeit fuer weiche Uebergaenge.",
+      "details": "Groessere Werte reduzieren harte Spruenge zwischen Zustaenden."
+    },
+    {
+      "id": "flows.channel_delay",
+      "page": "Ablaeufe",
+      "label": "Start-/Stopp-Versatz je Kanal",
+      "short": "Zeitlicher Versatz zwischen Farb- oder Segmentkanaelen.",
+      "details": "Erzeugt gestaffelte Bewegungen. Sehr hohe Werte koennen den Effekt schwer vorhersehbar machen."
+    },
+    {
+      "id": "flows.segment_size",
+      "page": "Ablaeufe",
+      "label": "Segment LEDs",
+      "short": "Blockgroesse in LEDs fuer Segmentleuchten.",
+      "details": "Getrennte Werte fuer Start, Ein und Aus erlauben veraendernde Segmentbreiten im Ablauf."
+    },
+    {
+      "id": "flows.segment_soft_edge",
+      "page": "Ablaeufe",
+      "label": "Weiche Kante LEDs",
+      "short": "Anzahl LEDs fuer sanftes Ausblenden am Segmentrand.",
+      "details": "0 ist eine harte Kante. Groessere Werte erzeugen weichere Uebergaenge."
+    },
+    {
+      "id": "flows.tail_percent",
+      "page": "Ablaeufe",
+      "label": "Nachleuchten %",
+      "short": "Laenge des Schweifs oder Nachleuchtbereichs.",
+      "details": "Der helle Kopf und der weiche Schweif ergeben zusammen die sichtbare Laenge."
+    },
+    {
+      "id": "flows.sparkle_speed",
+      "page": "Ablaeufe",
+      "label": "Funkel Geschwindigkeit ms",
+      "short": "Geschwindigkeit fuer Funkel-/Sparkle-Effekte.",
+      "details": "Kleinere Werte erzeugen mehr Aktivitaet. Mit Lebenszeit und Füllgrad zusammen abstimmen."
+    },
+    {
+      "id": "flows.sparkle_fill",
+      "page": "Ablaeufe",
+      "label": "Funkel Füllgrad %",
+      "short": "Dichte der Funkel-Pixel.",
+      "details": "Hohe Werte wirken dichter und heller, koennen aber Stromschaetzung und Wahrnehmung stark veraendern."
+    },
+    {
+      "id": "flows.sparkle_lifetime",
+      "page": "Ablaeufe",
+      "label": "Funkel Lebenszeit ms",
+      "short": "Wie lange einzelne Funkel-Punkte sichtbar bleiben.",
+      "details": "Kurze Lebenszeit wirkt hektisch, lange Lebenszeit ruhiger."
+    },
+    {
+      "id": "flows.tetris_group",
+      "page": "Ablaeufe",
+      "label": "Tetris Gruppe min./max",
+      "short": "Groesse der Tetris-Bausteine.",
+      "details": "Min und Max legen den Zufallsbereich fest. Min sollte nie groesser als Max sein."
+    },
+    {
+      "id": "flows.tetris_gap",
+      "page": "Ablaeufe",
+      "label": "Tetris Abstand",
+      "short": "Abstand zwischen Tetris-Bausteinen.",
+      "details": "Groessere Abstaende machen einzelne Bloecke deutlicher, verringern aber die sichtbare Fuellung."
+    },
+    {
+      "id": "flows.tetris_direction",
+      "page": "Ablaeufe",
+      "label": "Tetris Richtung",
+      "short": "Richtung oder Spiegelung des Tetris-Aufbaus.",
+      "details": "Richtung umdrehen, Mitte spiegeln und Zufallsrichtung koennen je Phase getrennt gesetzt werden."
+    },
+    {
+      "id": "flows.tetris_teardown",
+      "page": "Ablaeufe",
+      "label": "Tetris Abbauart",
+      "short": "Legt fest, wie aufgebaute Bloecke wieder verschwinden.",
+      "details": "Je nach Modus reverse, zufaellig, wipe oder weicher Abbau. In der Vorschau und real testen."
+    },
+    {
+      "id": "flows.tetris_random_timing",
+      "page": "Ablaeufe",
+      "label": "Zufalls-Fallzeit / Pause",
+      "short": "Zufallsbereiche fuer Tetris-Timing.",
+      "details": "Min/Max-Werte erzeugen organischere Bewegung. Extreme Bereiche koennen den Effekt schwer planbar machen."
+    },
+    {
+      "id": "flows.tetris2_next_preview",
+      "page": "Ablaeufe",
+      "label": "Tetris_2 Next-Preview",
+      "short": "Zeigt den naechsten Baustein als Vorschau.",
+      "details": "Optischer Zusatz fuer Tetris_2. Erhoeht die Komplexitaet des Effekts."
+    },
+    {
+      "id": "flows.tetris2_sync_segments",
+      "page": "Ablaeufe",
+      "label": "Tetris_2 Segmente synchronisieren",
+      "short": "Synchronisiert Tetris_2 ueber Segmente.",
+      "details": "Sinnvoll bei gleich grossen String-Segmenten oder symmetrischen Installationen."
+    },
+    {
+      "id": "flows.tetris2_block_size",
+      "page": "Ablaeufe",
+      "label": "Tetris_2 Blockgroesse min./max",
+      "short": "Zufallsbereich der Tetris_2-Blockgroesse.",
+      "details": "Kleinere Bloecke wirken feiner, groessere Bloecke ruhiger und massiver."
+    },
+    {
+      "id": "flows.tetris2_speed",
+      "page": "Ablaeufe",
+      "label": "Tetris_2 Geschwindigkeit min./max mm/s",
+      "short": "Physikalisch gedachte Geschwindigkeit fuer Tetris_2.",
+      "details": "Zusammen mit Pixel/Meter wird daraus die sichtbare Bewegungsgeschwindigkeit berechnet."
+    },
+    {
+      "id": "flows.tetris2_pixels_per_meter",
+      "page": "Ablaeufe",
+      "label": "Tetris_2 Pixel/Meter",
+      "short": "LED-Dichte fuer Geschwindigkeitsberechnung.",
+      "details": "Muss zur realen Installation passen, wenn mm/s realistisch wirken sollen."
+    },
+    {
+      "id": "flows.tetris2_early_start",
+      "page": "Ablaeufe",
+      "label": "Tetris_2 Fruehstart",
+      "short": "Laesst neue Bloecke beginnen, bevor der vorherige vollstaendig fertig ist.",
+      "details": "Chance sowie Min/Max legen fest, wie oft und wie frueh ueberlappend gestartet wird."
+    },
+    {
+      "id": "flows.tetris2_hsv_distance",
+      "page": "Ablaeufe",
+      "label": "Tetris_2 HSV-Mindestabstand",
+      "short": "Mindestabstand zwischen zufaelligen Farben.",
+      "details": "Hoehere Werte vermeiden sehr aehnliche Farben, koennen die Farbauswahl aber einschraenken."
+    },
+    {
+      "id": "knx.status_switch",
+      "page": "KNX",
+      "label": "Status Ein/Aus TX",
+      "short": "KNX-Statusobjekt fuer Schaltzustand.",
+      "details": "Sendet den aktuellen Ein/Aus-Zustand an den KNX-Bus."
+    },
+    {
+      "id": "knx.status_scene",
+      "page": "KNX",
+      "label": "Status Szene TX",
+      "short": "KNX-Statusobjekt fuer aktive Szene.",
+      "details": "Hilft Visualisierungen, den aktuellen Szenenstatus anzuzeigen."
+    },
+    {
+      "id": "knx.status_brightness",
+      "page": "KNX",
+      "label": "Status Helligkeit TX",
+      "short": "KNX-Statusobjekt fuer Helligkeit.",
+      "details": "Sendet den aktuellen Helligkeitswert zurueck."
+    },
+    {
+      "id": "knx.status_color",
+      "page": "KNX",
+      "label": "Status Farbe R/G/B/W TX",
+      "short": "KNX-Statusobjekte fuer Farbkomponenten.",
+      "details": "Jeder Farbkanal wird separat gemeldet. Nur benoetigte Kanaele aktivieren."
+    },
+    {
+      "id": "knx.status_lock_force",
+      "page": "KNX",
+      "label": "Status Sperre/Zwang TX",
+      "short": "Rueckmeldung fuer Sperr- und Zwangszustand.",
+      "details": "Nuetzlich fuer Visualisierung und Diagnose, wenn Bedienung blockiert oder uebersteuert wird."
+    },
+    {
+      "id": "knx.status_error_power",
+      "page": "KNX",
+      "label": "Status Fehlercode / Power-Limit",
+      "short": "Rueckmeldung fuer Fehler und aktives Power-Limit.",
+      "details": "Erlaubt KNX-seitige Alarmierung oder Anzeige technischer Zustaende."
+    },
+    {
+      "id": "admin.unlock",
+      "page": "Admin",
+      "label": "Admin-Code",
+      "short": "Oeffnet den geschuetzten Adminbereich.",
+      "details": "Admin ist fuer Diagnose, JSON-Endpunkte und tiefe technische Informationen gedacht. Nicht als vollwertiger Netzwerkschutz verstehen."
+    },
+    {
+      "id": "system.support_snapshot",
+      "page": "Support",
+      "label": "Support-Snapshot",
+      "short": "Sammelt technische Daten fuer Fehlersuche.",
+      "details": "Bei Supportfragen zuerst Snapshot laden und kopieren, damit Version, Profil, Pins, Netzwerk, Speicher und letzte Ereignisse sichtbar sind."
+    },
+    {
+      "id": "system.factory_defaults",
+      "page": "Konfiguration",
+      "label": "Werkstandard",
+      "short": "Setzt Konfiguration auf Defaults zurueck.",
+      "details": "Nur bewusst ausfuehren und vorher Backup herunterladen. Danach Ausgaenge, KNX und Netzwerk neu pruefen."
+    },
+    {
+      "id": "backup.plain_export",
+      "page": "Konfiguration",
+      "label": "Passwoerter im Export",
+      "short": "Steuert, ob sensible Daten im Backup enthalten sind.",
+      "details": "Standard-Export sollte Passwoerter nicht im Klartext enthalten. Klartext nur fuer bewusste lokale Wartung verwenden."
+    },
+    {
+      "id": "control.scene_apply",
+      "page": "Steuerung",
+      "label": "Szene anwenden",
+      "short": "Startet eine Szene direkt aus der WebUI.",
+      "details": "Wirkt sofort auf die aktiven Ausgaenge. Wenn KNX, Sperre, Zwang oder ein manueller Test aktiv ist, kann der sichtbare Zustand abweichen."
+    },
+    {
+      "id": "control.direct_off",
+      "page": "Steuerung",
+      "label": "Direkt aus",
+      "short": "Schaltet die LED-Ausgabe direkt dunkel.",
+      "details": "Nuetzlich vor Updates, Messungen oder Verdrahtungsarbeiten. KNX kann spaeter wieder einen neuen Zustand setzen."
+    },
+    {
+      "id": "control.direct_brightness",
+      "page": "Steuerung",
+      "label": "Helligkeit",
+      "short": "Direkter Helligkeitswert fuer Tests.",
+      "details": "Hilft beim schnellen Pruefen ohne Ablauf-Editor. Power-Limits und Ausgangs-Maximalhelligkeit koennen weiterhin begrenzen."
+    },
+    {
+      "id": "control.direct_color",
+      "page": "Steuerung",
+      "label": "R/G/B/W",
+      "short": "Direkte Farbwerte fuer Rot, Gruen, Blau und Weiss.",
+      "details": "Gut geeignet fuer Farbreihenfolge-Test und schnelle Sichtpruefung. Bei RGB-Strips ist der Weisskanal nicht als separater Kanal vorhanden."
+    },
+    {
+      "id": "power.live_values",
+      "page": "Leistung",
+      "label": "Live-Last / Standby / Summe",
+      "short": "Aktuelle Stromschaetzung aus dem LED-Zustand.",
+      "details": "Diese Werte sind berechnet, nicht gemessen. Sie helfen beim Erkennen von Power-Limit-Eingriffen und falschen Pixel-/Farbwerten."
+    },
+    {
+      "id": "power.safe_limit",
+      "page": "Leistung",
+      "label": "Sichere Begrenzung",
+      "short": "Limit nach Sicherheitsfaktor.",
+      "details": "Aus Controller- oder Gruppenlimit und Safety-Prozent berechneter nutzbarer Wert."
+    },
+    {
+      "id": "power.dim_factor",
+      "page": "Leistung",
+      "label": "Dimmfaktor",
+      "short": "Zeigt, ob der Power-Limiter aktuell dimmt.",
+      "details": "100 Prozent bedeutet keine Begrenzung. Niedrigere Werte zeigen aktive Leistungsreduktion."
+    },
+    {
+      "id": "power.calibration_off",
+      "page": "Leistung",
+      "label": "Alle LEDs aus mA",
+      "short": "Gemessener Strom bei dunklen LEDs.",
+      "details": "Dieser Wert wird als Basisstrom uebernommen, wenn das Messprofil gespeichert wird."
+    },
+    {
+      "id": "power.calibration_rgbw_measurements",
+      "page": "Leistung",
+      "label": "Rot/Gruen/Blau/Weiss mA",
+      "short": "Messwerte fuer einzelne Farbkanaele.",
+      "details": "Nach jedem Testschritt Strom am Netzteil messen und eintragen. Die Firmware rechnet daraus mA pro Pixel."
+    },
+    {
+      "id": "power.calibration_rgb_white",
+      "page": "Leistung",
+      "label": "RGB-Weiss mA",
+      "short": "Kontrollmessung fuer Rot+Gruen+Blau gemeinsam.",
+      "details": "Optionaler Plausibilitaetscheck. Der Wert sollte grob zur Summe der Einzelkanaele passen."
+    },
+    {
+      "id": "flows.speed",
+      "page": "Ablaeufe",
+      "label": "Geschwindigkeit",
+      "short": "Allgemeine Effektgeschwindigkeit.",
+      "details": "Je nach Effekt wird dieser Wert direkt oder zusammen mit Schrittzeit, Pixel/Meter oder Phasendauer verwendet."
+    },
+    {
+      "id": "flows.wave_bounce",
+      "page": "Ablaeufe",
+      "label": "Waehrend EIN / Bounce",
+      "short": "Option fuer laufende oder gespiegelt federnde Bewegung.",
+      "details": "Geeignet fuer Wellen- oder Lauflichteffekte, die nicht nur einmalig starten sollen."
+    },
+    {
+      "id": "flows.fireworks",
+      "page": "Ablaeufe",
+      "label": "Fireworks Geschwindigkeit / Intensitaet",
+      "short": "Parameter fuer Feuerwerk-artige Effekte.",
+      "details": "Geschwindigkeit steuert zeitliche Aktivitaet, Intensitaet die Dichte oder Helligkeitswirkung."
+    },
+    {
+      "id": "flows.tetrix",
+      "page": "Ablaeufe",
+      "label": "Tetrix Geschwindigkeit / Blockbreite",
+      "short": "Parameter fuer den Tetrix-Effekt.",
+      "details": "Blockbreite bestimmt die sichtbare Groesse, Geschwindigkeit die Bewegung."
+    },
+    {
+      "id": "update.history",
+      "page": "Update",
+      "label": "Versionshistorie",
+      "short": "Liste installierbarer oder historischer Firmwarestaende.",
+      "details": "Erlaubt Update auf neue Versionen oder bewusstes Rollback. Vor Rollback immer Backup speichern."
+    },
+    {
+      "id": "update.install_version",
+      "page": "Update",
+      "label": "Diese Version installieren",
+      "short": "Installiert einen Eintrag aus der Versionshistorie.",
+      "details": "Nur Firmware fuer das passende Profil verwenden. Die WebUI prueft Profil und Dateinamen, trotzdem vorab Backup erstellen."
+    },
+    {
+      "id": "update.reboot",
+      "page": "Update",
+      "label": "Controller neu starten",
+      "short": "Startet den Controller per WebUI neu.",
+      "details": "Nach Netzwerk- oder Update-Aenderungen nuetzlich. Kurzzeitig ist die WebUI nicht erreichbar."
+    },
+    {
+      "id": "update.bootsel",
+      "page": "Update",
+      "label": "BOOTSEL / UF2-Modus",
+      "short": "Versetzt das Board in den USB-Flashmodus.",
+      "details": "Nur fuer Wartung per USB verwenden. Die WebUI ist danach nicht erreichbar, bis das Board neu startet oder geflasht wurde."
+    },
+    {
+      "id": "update.backup_before_update",
+      "page": "Update",
+      "label": "Konfiguration vorher sichern",
+      "short": "Laedt vor Firmwareaktionen ein Backup herunter.",
+      "details": "Empfohlen vor jedem Update, Rollback oder lokalem Firmware-Upload."
+    },
+    {
+      "id": "events.table",
+      "page": "Ereignisse",
+      "label": "Ereignistabelle",
+      "short": "Zeigt Fehler, Warnungen und Laufzeitereignisse.",
+      "details": "Die neuesten Eintraege helfen bei Diagnose. Bei sporadischen Problemen vor dem Loeschen als Support-Snapshot sichern."
+    },
+    {
+      "id": "led.backend_status",
+      "page": "LED",
+      "label": "LED-Backend",
+      "short": "Zeigt, ob reale LED-Ausgabe aktiv ist.",
+      "details": "Wenn das Backend nicht bereit oder nur virtuell ist, werden Konfigurationswerte zwar verarbeitet, aber nicht real ausgegeben."
+    },
+    {
+      "id": "led.configured_profiles",
+      "page": "LED",
+      "label": "LED-Profile",
+      "short": "Anzahl unterschiedlicher LED-Timingprofile.",
+      "details": "Viele unterschiedliche Profile koennen Diagnose und Timing komplexer machen. Gleiche Strips moeglichst gleich konfigurieren."
+    },
+    {
+      "id": "system.storage",
+      "page": "System",
+      "label": "Speicher / LittleFS",
+      "short": "Status des lokalen Dateisystems.",
+      "details": "LittleFS speichert Konfiguration, lokal geladene Hilfe und OTA-Hilfsdaten. Bei Speicherfehlern Backup sichern und Diagnose pruefen."
+    },
+    {
+      "id": "system.release_check",
+      "page": "System",
+      "label": "Release-Check",
+      "short": "Prueft Profil, Updatepfade und Release-Daten.",
+      "details": "Hilfreich vor Veroeffentlichungen, damit Manifest, Versionsliste, Boardprofil und Flashgroesse zusammenpassen."
     }
   ]
 }

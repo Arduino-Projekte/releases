@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m-w_0.0.289_claude.bin",
+                     "url":  "knx-led-controller-16m-w_0.0.294_codex.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.289",
-                     "bin":  "knx-led-controller-16m-w_0.0.289_claude.bin",
-                     "file":  "knx-led-controller-16m-w_0.0.289_claude.bin",
-                     "sha256":  "dfb227b03723200cfa96c2c73ee20b4cd1828cc05c14a40a99f8c783e673b1d2",
-                     "message":  "Claude - Mehrsprachigkeit vervollstaendigt (Tooltips, Dialoge, Statusmeldungen); Update-Seite: JS-Fehler in Bestaetigungsdialogen behoben.",
+                     "version":  "0.0.294",
+                     "bin":  "knx-led-controller-16m-w_0.0.294_codex.bin",
+                     "file":  "knx-led-controller-16m-w_0.0.294_codex.bin",
+                     "sha256":  "7bd06b1ec70748e939c413d1d4282a0d880b640e269b6ae1c6cc7d0eb4a5908f",
+                     "message":  "Codex - Hilfe-Download nutzt GitHub-HTTPS wie OTA mit setInsecure/Timeout; Fehler -1 wird als Netzwerk/DNS/TLS-Verbindungsfehler angezeigt.",
                      "http_code":  200
                  }
 }
