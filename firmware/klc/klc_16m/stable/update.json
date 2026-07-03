@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m_0.0.292_codex.bin",
+                     "url":  "knx-led-controller-16m_0.0.293_codex.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.292",
-                     "bin":  "knx-led-controller-16m_0.0.292_codex.bin",
-                     "file":  "knx-led-controller-16m_0.0.292_codex.bin",
-                     "sha256":  "591abd8930525092333fefde211745ebfabf70de81ea79e3bf15120fba02aa28",
-                     "message":  "Codex - Ausgaenge-Seite: Platinen-Ausgaenge aus Boardprofil statt interner Array-Groesse, Diagnose zeigt deaktivierte Ausgaenge sichtbar, manuelle Tests eindeutiger benannt.",
+                     "version":  "0.0.293",
+                     "bin":  "knx-led-controller-16m_0.0.293_codex.bin",
+                     "file":  "knx-led-controller-16m_0.0.293_codex.bin",
+                     "sha256":  "3e30781a5471d774ff5872cc99106879e747d0ab9b1aff3fc78ac1434ad022cf",
+                     "message":  "Codex - Neue Hilfe-Registerkarte mit durchsuchbarer Offline-Hilfe, Online-Download aus releases/firmware/klc/help und Sprachdateien help_de/en/fr/es/it/nl/pl.json.",
                      "http_code":  200
                  }
 }
