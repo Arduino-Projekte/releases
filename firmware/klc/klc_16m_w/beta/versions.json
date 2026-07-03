@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.295",
+                      "bin":  "knx-led-controller-16m-w_0.0.295_codex.bin",
+                      "date":  "2026-07-03",
+                      "note":  "Codex - Hilfe-Seite unterstuetzt direkte Feldsuche per ?q=Feld-ID; Ausgaenge-/Power-Felder verlinken auf die passende Hilfe, deutscher Offline-Fallback erweitert."
+                  },
+                  {
                       "version":  "0.0.294",
                       "bin":  "knx-led-controller-16m-w_0.0.294_codex.bin",
                       "date":  "2026-07-03",
