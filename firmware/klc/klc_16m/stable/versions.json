@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.299",
+                      "bin":  "knx-led-controller-16m_0.0.299_codex.bin",
+                      "date":  "2026-07-03",
+                      "note":  "Codex - Hilfe nutzt korrekte deutsche Umlaute; Suche findet Umlaute und ae/oe/ue-Schreibweisen."
+                  },
+                  {
                       "version":  "0.0.298",
                       "bin":  "knx-led-controller-16m_0.0.298_codex.bin",
                       "date":  "2026-07-03",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m_0.0.294_codex.bin",
                       "date":  "2026-07-03",
                       "note":  "Codex - Hilfe-Download nutzt GitHub-HTTPS wie OTA mit setInsecure/Timeout; Fehler -1 wird als Netzwerk/DNS/TLS-Verbindungsfehler angezeigt."
-                  },
-                  {
-                      "version":  "0.0.293",
-                      "bin":  "knx-led-controller-16m_0.0.293_codex.bin",
-                      "date":  "2026-07-03",
-                      "note":  "Codex - Neue Hilfe-Registerkarte mit durchsuchbarer Offline-Hilfe, Online-Download aus releases/firmware/klc/help und Sprachdateien help_de/en/fr/es/it/nl/pl.json."
                   }
               ]
 }

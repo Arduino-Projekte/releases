@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m-w_0.0.298_codex.bin",
+                     "url":  "knx-led-controller-16m-w_0.0.299_codex.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.298",
-                     "bin":  "knx-led-controller-16m-w_0.0.298_codex.bin",
-                     "file":  "knx-led-controller-16m-w_0.0.298_codex.bin",
-                     "sha256":  "980f6ee31e5ce733016208f84638961ae9f34aee1e5444644131c67a7ed6d44d",
-                     "message":  "Codex - Hilfe-Schnellstart neu sortiert; Hilfe rendert Zeilenumbrueche fuer nummerierte Schritte untereinander.",
+                     "version":  "0.0.299",
+                     "bin":  "knx-led-controller-16m-w_0.0.299_codex.bin",
+                     "file":  "knx-led-controller-16m-w_0.0.299_codex.bin",
+                     "sha256":  "9e07121036423ed505c03b30bc483bd044f038b30b653c31457b6032b67ce3c2",
+                     "message":  "Codex - Hilfe nutzt korrekte deutsche Umlaute; Suche findet Umlaute und ae/oe/ue-Schreibweisen.",
                      "http_code":  200
                  }
 }

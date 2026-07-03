@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.299",
+                      "bin":  "knx-led-controller-16m-w_0.0.299_codex.bin",
+                      "date":  "2026-07-03",
+                      "note":  "Codex - Hilfe nutzt korrekte deutsche Umlaute; Suche findet Umlaute und ae/oe/ue-Schreibweisen."
+                  },
+                  {
                       "version":  "0.0.298",
                       "bin":  "knx-led-controller-16m-w_0.0.298_codex.bin",
                       "date":  "2026-07-03",
