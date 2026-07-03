@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m_0.0.290_claude.bin",
+                     "url":  "knx-led-controller-16m_0.0.292_codex.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.290",
-                     "bin":  "knx-led-controller-16m_0.0.290_claude.bin",
-                     "file":  "knx-led-controller-16m_0.0.290_claude.bin",
-                     "sha256":  "b540d043b7f56af00dd3559dcd1251e1d34ae881049cb82b144a2756fef19bc0",
-                     "message":  "Claude - klc_16m_w: WLAN Client + optional AP parallel zu Ethernet, Netzwerkstatus je Interface, getrennte Updatepfade klc/klc_w, WLAN-Passwoerter nicht im Export.",
+                     "version":  "0.0.292",
+                     "bin":  "knx-led-controller-16m_0.0.292_codex.bin",
+                     "file":  "knx-led-controller-16m_0.0.292_codex.bin",
+                     "sha256":  "591abd8930525092333fefde211745ebfabf70de81ea79e3bf15120fba02aa28",
+                     "message":  "Codex - Ausgaenge-Seite: Platinen-Ausgaenge aus Boardprofil statt interner Array-Groesse, Diagnose zeigt deaktivierte Ausgaenge sichtbar, manuelle Tests eindeutiger benannt.",
                      "http_code":  200
                  }
 }
