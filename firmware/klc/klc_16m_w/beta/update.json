@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m-w_0.0.295_codex.bin",
+                     "url":  "knx-led-controller-16m-w_0.0.297_codex.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.295",
-                     "bin":  "knx-led-controller-16m-w_0.0.295_codex.bin",
-                     "file":  "knx-led-controller-16m-w_0.0.295_codex.bin",
-                     "sha256":  "5e38eb431dfad12938fcfd65efd8ca333df44b13c02286e9dcbb9429559297bf",
-                     "message":  "Codex - Hilfe-Seite unterstuetzt direkte Feldsuche per ?q=Feld-ID; Ausgaenge-/Power-Felder verlinken auf die passende Hilfe, deutscher Offline-Fallback erweitert.",
+                     "version":  "0.0.297",
+                     "bin":  "knx-led-controller-16m-w_0.0.297_codex.bin",
+                     "file":  "knx-led-controller-16m-w_0.0.297_codex.bin",
+                     "sha256":  "3c3f8336dc61252b2901fa95583c893398e40902c3331e752fd401dd3a44c521",
+                     "message":  "Codex - Buildfix Dashboard: deaktivierte Ausgaenge werden im Dashboard korrekt gezaehlt und angezeigt.",
                      "http_code":  200
                  }
 }
