@@ -1,8 +1,8 @@
 ﻿{
     "schema":  1,
     "kind":  "klc_help",
-    "version":  "0.3.2",
-    "firmware_min":  "0.0.296",
+    "version":  "0.3.3",
+    "firmware_min":  "0.0.298",
     "language":  "de",
     "title":  "KLC Hilfe",
     "release_note":  "Feldreferenz fuer Fallback-Netzwerk, Ablauf-Editor, Tetris/Tetris_2, Steuerung, Kalibrierung, Update-Historie, Ereignisse und System-/Admin-Funktionen erweitert.",
@@ -11,7 +11,7 @@
                          "id":  "start.quickstart",
                          "title":  "Schnellstart",
                          "category":  "Start",
-                         "body":  "Empfohlene Reihenfolge: 1. Controller versorgen und WebUI oeffnen. 2. Netzwerk pruefen. 3. Backup der Werk-/Startkonfiguration speichern. 4. Ausgaenge und Pixelzahlen einrichten. 5. LED-Typ und Farbreihenfolge mit Kanten-Blinktest pruefen. 6. Leistungslimits setzen. 7. KNX/BAOS verbinden. 8. Szenen oder Ablaeufe testen. 9. Danach erneut ein Backup speichern."
+                         "body":  "1. Controller versorgen und WebUI oeffnen.\n2. Netzwerk pruefen.\n3. Firmware- und Hilfe-Updates pruefen.\n4. Ausgaenge und Pixelzahlen einrichten.\n5. LED-Typ und Farbreihenfolge mit Kanten-Blinktest pruefen.\n6. Leistungslimits setzen.\n7. Szenen oder Ablaeufe testen.\n8. ETS einrichten und KNX-/BAOS-Datenpunkte verknuepfen.\n9. Danach erneut ein Backup speichern."
                      },
                      {
                          "id":  "start.first_commissioning",
