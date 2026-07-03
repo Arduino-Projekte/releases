@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m_0.0.293_codex.bin",
+                     "url":  "knx-led-controller-16m_0.0.294_codex.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.293",
-                     "bin":  "knx-led-controller-16m_0.0.293_codex.bin",
-                     "file":  "knx-led-controller-16m_0.0.293_codex.bin",
-                     "sha256":  "4d1aeba24fec2403ace6ce6db252f1ad19a3b1c6307e8f81609a276afe63eb68",
-                     "message":  "Codex - Neue Hilfe-Registerkarte mit durchsuchbarer Offline-Hilfe, Online-Download aus releases/firmware/klc/help und Sprachdateien help_de/en/fr/es/it/nl/pl.json.",
+                     "version":  "0.0.294",
+                     "bin":  "knx-led-controller-16m_0.0.294_codex.bin",
+                     "file":  "knx-led-controller-16m_0.0.294_codex.bin",
+                     "sha256":  "2e11c572b472c2bcda3da54210fe32fb51b7ab7799cbb6a1626c2a5054d255b4",
+                     "message":  "Codex - Hilfe-Download nutzt GitHub-HTTPS wie OTA mit setInsecure/Timeout; Fehler -1 wird als Netzwerk/DNS/TLS-Verbindungsfehler angezeigt.",
                      "http_code":  200
                  }
 }

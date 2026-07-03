@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.294",
+                      "bin":  "knx-led-controller-16m_0.0.294_codex.bin",
+                      "date":  "2026-07-03",
+                      "note":  "Codex - Hilfe-Download nutzt GitHub-HTTPS wie OTA mit setInsecure/Timeout; Fehler -1 wird als Netzwerk/DNS/TLS-Verbindungsfehler angezeigt."
+                  },
+                  {
                       "version":  "0.0.293",
                       "bin":  "knx-led-controller-16m_0.0.293_codex.bin",
                       "date":  "2026-07-03",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m_0.0.289_claude.bin",
                       "date":  "2026-07-02",
                       "note":  "Claude - Mehrsprachigkeit vervollstaendigt (Tooltips, Dialoge, Statusmeldungen); Update-Seite: JS-Fehler in Bestaetigungsdialogen behoben."
-                  },
-                  {
-                      "version":  "0.0.287",
-                      "bin":  "knx-led-controller-16m_0.0.287_codex.bin",
-                      "date":  "2026-07-02",
-                      "note":  "Codex - WebUI-Sprachmix bereinigt."
                   }
               ]
 }
