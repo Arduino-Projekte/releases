@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.300",
+                      "bin":  "knx-led-controller-16m-w_0.0.300_claude.bin",
+                      "date":  "2026-07-04",
+                      "note":  "Claude - Dashboard zeigt Uptime lesbar: unter 1 Stunde Minuten+Sekunden, ab 1 Stunde Stunden+Minuten, ab 1 Tag Tage+Stunden statt roher Sekunden."
+                  },
+                  {
                       "version":  "0.0.299",
                       "bin":  "knx-led-controller-16m-w_0.0.299_codex.bin",
                       "date":  "2026-07-03",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m-w_0.0.295_codex.bin",
                       "date":  "2026-07-03",
                       "note":  "Codex - Hilfe-Seite unterstuetzt direkte Feldsuche per ?q=Feld-ID; Ausgaenge-/Power-Felder verlinken auf die passende Hilfe, deutscher Offline-Fallback erweitert."
-                  },
-                  {
-                      "version":  "0.0.294",
-                      "bin":  "knx-led-controller-16m-w_0.0.294_codex.bin",
-                      "date":  "2026-07-03",
-                      "note":  "Codex - Hilfe-Download nutzt GitHub-HTTPS wie OTA mit setInsecure/Timeout; Fehler -1 wird als Netzwerk/DNS/TLS-Verbindungsfehler angezeigt."
                   }
               ]
 }
