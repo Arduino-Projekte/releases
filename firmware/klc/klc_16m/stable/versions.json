@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.292",
+                      "bin":  "knx-led-controller-16m_0.0.292_codex.bin",
+                      "date":  "2026-07-03",
+                      "note":  "Codex - Ausgaenge-Seite: Platinen-Ausgaenge aus Boardprofil statt interner Array-Groesse, Diagnose zeigt deaktivierte Ausgaenge sichtbar, manuelle Tests eindeutiger benannt."
+                  },
+                  {
                       "version":  "0.0.290",
                       "bin":  "knx-led-controller-16m_0.0.290_claude.bin",
                       "date":  "2026-07-03",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m_0.0.286_codex.bin",
                       "date":  "2026-07-02",
                       "note":  "Codex - WebUI-Übersetzungen bereinigt."
-                  },
-                  {
-                      "version":  "0.0.284",
-                      "bin":  "knx-led-controller-16m_0.0.284_codex.bin",
-                      "date":  "2026-07-02",
-                      "note":  "Codex - Weitere WebUI-Texte übersetzt."
                   }
               ]
 }
