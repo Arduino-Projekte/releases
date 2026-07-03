@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.298",
+                      "bin":  "knx-led-controller-16m_0.0.298_codex.bin",
+                      "date":  "2026-07-03",
+                      "note":  "Codex - Hilfe-Schnellstart neu sortiert; Hilfe rendert Zeilenumbrueche fuer nummerierte Schritte untereinander."
+                  },
+                  {
                       "version":  "0.0.297",
                       "bin":  "knx-led-controller-16m_0.0.297_codex.bin",
                       "date":  "2026-07-03",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m_0.0.293_codex.bin",
                       "date":  "2026-07-03",
                       "note":  "Codex - Neue Hilfe-Registerkarte mit durchsuchbarer Offline-Hilfe, Online-Download aus releases/firmware/klc/help und Sprachdateien help_de/en/fr/es/it/nl/pl.json."
-                  },
-                  {
-                      "version":  "0.0.292",
-                      "bin":  "knx-led-controller-16m_0.0.292_codex.bin",
-                      "date":  "2026-07-03",
-                      "note":  "Codex - Ausgaenge-Seite: Platinen-Ausgaenge aus Boardprofil statt interner Array-Groesse, Diagnose zeigt deaktivierte Ausgaenge sichtbar, manuelle Tests eindeutiger benannt."
                   }
               ]
 }

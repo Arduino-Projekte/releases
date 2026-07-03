@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m_0.0.297_codex.bin",
+                     "url":  "knx-led-controller-16m_0.0.298_codex.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.297",
-                     "bin":  "knx-led-controller-16m_0.0.297_codex.bin",
-                     "file":  "knx-led-controller-16m_0.0.297_codex.bin",
-                     "sha256":  "d6a3ad49ccd6c758e45b280e3cc3ad98cd6a417d5eee54520c388f39311290df",
-                     "message":  "Codex - Buildfix Dashboard: deaktivierte Ausgaenge werden im Dashboard korrekt gezaehlt und angezeigt.",
+                     "version":  "0.0.298",
+                     "bin":  "knx-led-controller-16m_0.0.298_codex.bin",
+                     "file":  "knx-led-controller-16m_0.0.298_codex.bin",
+                     "sha256":  "c1494c7efa52bbeb48af32a25ac4df26444f669c724c29735fea7b41da76787e",
+                     "message":  "Codex - Hilfe-Schnellstart neu sortiert; Hilfe rendert Zeilenumbrueche fuer nummerierte Schritte untereinander.",
                      "http_code":  200
                  }
 }
