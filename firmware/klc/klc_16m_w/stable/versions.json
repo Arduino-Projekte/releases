@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.297",
+                      "bin":  "knx-led-controller-16m-w_0.0.297_codex.bin",
+                      "date":  "2026-07-03",
+                      "note":  "Codex - Buildfix Dashboard: deaktivierte Ausgaenge werden im Dashboard korrekt gezaehlt und angezeigt."
+                  },
+                  {
                       "version":  "0.0.295",
                       "bin":  "knx-led-controller-16m-w_0.0.295_codex.bin",
                       "date":  "2026-07-03",
