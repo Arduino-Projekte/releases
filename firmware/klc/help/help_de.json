@@ -1,1140 +1,1154 @@
-{
-  "schema": 1,
-  "kind": "klc_help",
-  "version": "0.3.1",
-  "firmware_min": "0.0.293",
-  "language": "de",
-  "title": "KLC Hilfe",
-  "release_note": "Feldreferenz fuer Fallback-Netzwerk, Ablauf-Editor, Tetris/Tetris_2, Steuerung, Kalibrierung, Update-Historie, Ereignisse und System-/Admin-Funktionen erweitert.",
-  "sections": [
-    {
-      "id": "start.quickstart",
-      "title": "Schnellstart",
-      "category": "Start",
-      "body": "Empfohlene Reihenfolge: 1. Controller versorgen und WebUI oeffnen. 2. Netzwerk pruefen. 3. Backup der Werk-/Startkonfiguration speichern. 4. Ausgaenge und Pixelzahlen einrichten. 5. LED-Typ und Farbreihenfolge mit Kanten-Blinktest pruefen. 6. Leistungslimits setzen. 7. KNX/BAOS verbinden. 8. Szenen oder Ablaeufe testen. 9. Danach erneut ein Backup speichern."
-    },
-    {
-      "id": "start.first_commissioning",
-      "title": "Erstinbetriebnahme",
-      "category": "Start",
-      "body": "Bei der Erstinbetriebnahme zuerst nur einen kurzen LED-Strang oder einen einzelnen Ausgang testen. So lassen sich Datenrichtung, Masseverbindung, Pegelwandler, LED-Typ und Farbreihenfolge gefahrlos pruefen. Erst wenn der Test sauber laeuft, weitere Ausgaenge aktivieren und die endgueltigen Pixelzahlen eintragen."
-    },
-    {
-      "id": "start.safety",
-      "title": "Sicherheit und Stromversorgung",
-      "category": "Start",
-      "body": "LED-Strips koennen sehr hohe Stroeme aufnehmen. Netzteil, Einspeisung, Leitungsquerschnitt und Sicherungen muessen zur realen Installation passen. Der Power-Limiter ist eine Software-Hilfe und ersetzt keine elektrische Absicherung. Masse von Controller, Pegelwandler und LED-Netzteil muss verbunden sein."
-    },
-    {
-      "id": "ui.dashboard",
-      "title": "Dashboard",
-      "category": "Bedienung",
-      "body": "Das Dashboard ist die Uebersicht fuer den normalen Betrieb. Es zeigt zentrale Kacheln fuer LED, Ablaeufe, Netzwerk, System und Update. Warnungen auf dem Dashboard bedeuten: die Detailseite oeffnen und zuerst dort die Diagnose lesen."
-    },
-    {
-      "id": "ui.language_view",
-      "title": "Sprache und Ansichtsmodus",
-      "category": "Bedienung",
-      "body": "Die WebUI kann in mehreren Sprachen angezeigt werden. Der Ansichtsmodus blendet Expertenbereiche aus oder ein. Fuer Endanwender ist die normale Ansicht gedacht; fuer Inbetriebnahme, KNX, Diagnose und Release-Arbeiten sollte die Experten-/Admin-Ansicht verwendet werden."
-    },
-    {
-      "id": "network.overview",
-      "title": "Netzwerk",
-      "category": "Netzwerk",
-      "body": "Die Netzwerkseite zeigt Ethernet und, beim W-Build, WLAN Client und Access Point getrennt. Ethernet, WLAN Client und AP koennen je nach Boardprofil parallel existieren. Die WebUI ist ueber alle aktiven Interfaces erreichbar; die Prioritaet betrifft vor allem ausgehende Verbindungen wie Update- und Hilfe-Download."
-    },
-    {
-      "id": "network.ethernet",
-      "title": "Ethernet einrichten",
-      "category": "Netzwerk",
-      "body": "Ethernet ist die bevorzugte stabile Verbindung fuer Installation und Update. DHCP ist meistens die einfachste Wahl. Statische IP-Adressen nur verwenden, wenn Gateway, Subnetz und DNS korrekt bekannt sind. Bei falscher statischer Konfiguration kann der Controller im Netzwerk schwer erreichbar werden."
-    },
-    {
-      "id": "network.wifi",
-      "title": "WLAN Client und Access Point",
-      "category": "Netzwerk",
-      "body": "Der WLAN Client verbindet den Controller mit einem vorhandenen WLAN. Der Access Point ist als Servicezugang gedacht. Passwoerter werden nicht in der WebUI angezeigt und nicht im normalen Backup exportiert. Leere Passwortfelder bedeuten: gespeichertes Passwort behalten."
-    },
-    {
-      "id": "outputs.overview",
-      "title": "Ausgaenge / LED-Straenge",
-      "category": "Ausgaenge",
-      "body": "Diese Seite beschreibt die vorgesehenen Platinen-Ausgaenge. Vorgesehene Ausgaenge sind die konfigurierten Ausgaenge des Boardprofils. Aktive Ausgaenge werden real ausgegeben. Deaktivierte Ausgaenge bleiben gespeichert, werden aber nicht an das LED-Backend uebergeben."
-    },
-    {
-      "id": "outputs.diagnosis",
-      "title": "Aktuelle Diagnose der Ausgaenge",
-      "category": "Ausgaenge",
-      "body": "Die Diagnose zeigt Status, Pixel, LED-Profil, sichere Strombegrenzung, Live-Last, Szene/Test und aktive LEDs. Ein deaktivierter Ausgang ist bewusst abgeschaltet. Manuelle Tests uebersteuern die normale Szene, bis sie geloescht oder beim Verlassen der Seite beendet werden."
-    },
-    {
-      "id": "outputs.test_procedure",
-      "title": "LED-Ausgang testen",
-      "category": "Ausgaenge",
-      "body": "Zum Testen zuerst nur einen Ausgang aktivieren. Pixelzahl niedrig halten oder mit einem kurzen Teststrang arbeiten. Danach Kanten-Blinktest fuer Rot, Gruen, Blau und bei RGBW auch Weiss ausfuehren. Wenn Farben vertauscht sind, Farbreihenfolge korrigieren. Wenn gar nichts leuchtet, Masse, Datenrichtung, Pegelwandler, GPIO und LED-Spannung pruefen."
-    },
-    {
-      "id": "power.overview",
-      "title": "Leistung / Power-Limiter",
-      "category": "Leistung",
-      "body": "Der Power-Limiter schaetzt den LED-Strom und kann Helligkeit begrenzen. Er arbeitet mit Controller-Begrenzung, Power-Gruppen, Strang-Begrenzungen, Sicherheitsfaktor und Stromprofil. Die Werte sind Planungs- und Schutzwerte, keine Messung."
-    },
-    {
-      "id": "power.groups",
-      "title": "Power-Gruppen / Netzteile",
-      "category": "Leistung",
-      "body": "Eine Power-Gruppe entspricht typischerweise einem Netzteil oder einem gemeinsamen Leistungsbereich. Ausgaenge, die an demselben Netzteil haengen, sollten derselben Gruppe zugeordnet werden. Die Gruppenbegrenzung muss kleiner oder gleich der sicher nutzbaren Leistung des Netzteils sein."
-    },
-    {
-      "id": "power.calibration",
-      "title": "Stromprofil messen",
-      "category": "Leistung",
-      "body": "Die Messfunktion hilft, realistische mA/Pixel-Werte zu ermitteln. Ablauf: LED aus messen, dann definierte Anzahl LEDs in Rot, Gruen, Blau und optional Weiss schalten, Strom messen und Werte uebernehmen. Das verbessert die Schaetzung gegenueber pauschalen Standardwerten."
-    },
-    {
-      "id": "control.overview",
-      "title": "Steuerung",
-      "category": "Bedienung",
-      "body": "Die Steuerungsseite ist fuer direkte Bedienung gedacht: Szene starten, direkt ausschalten oder aktuelle Werte testen. Wenn KNX gleichzeitig Befehle sendet, kann der sichtbare Zustand von KNX, WebUI oder einem manuellen Test beeinflusst werden."
-    },
-    {
-      "id": "flows.overview",
-      "title": "Szenen und Ablaeufe",
-      "category": "Ablaeufe",
-      "body": "Ablaeufe definieren, was eine Szene optisch macht. Eine Szene ist der Speicherplatz und die KNX-/WebUI-Nummer; der Ablauf legt Start-, Haupt- und Aus-Verhalten fest. Nach groesseren Aenderungen eine Vorschau und danach einen realen Ausgangstest verwenden."
-    },
-    {
-      "id": "flows.editor",
-      "title": "Ablauf-Editor",
-      "category": "Ablaeufe",
-      "body": "Der Editor laedt grosse Ablaufdaten separat, um RAM zu sparen. Namen, Kopieren, Zuruecksetzen und Vorschau sind Werkzeuge zur Pflege der Szenen. Vor dem Ueberschreiben eines Ziel-Ablaufs pruefen, ob dieser bereits produktiv per KNX genutzt wird."
-    },
-    {
-      "id": "preview.overview",
-      "title": "Vorschau",
-      "category": "Ablaeufe",
-      "body": "Die Vorschau zeigt einen berechneten LED-Frame im Browser. Sie ersetzt keinen Hardwaretest, hilft aber beim Pruefen von Effektlogik, Richtung, Segmenten, Geschwindigkeit und Timing."
-    },
-    {
-      "id": "knx.overview",
-      "title": "KNX / BAOS",
-      "category": "KNX",
-      "body": "KNX/BAOS verbindet den Controller mit dem KNX-System. Die Firmware arbeitet mit festen Objektnummern und konfigurierbaren BAOS-Datenpunkten. Nach der ETS-Ersteinrichtung sollten Objektnummern nur bewusst und dokumentiert geaendert werden."
-    },
-    {
-      "id": "knx.objects",
-      "title": "Datenpunkte und Objekte",
-      "category": "KNX",
-      "body": "Globale Objekte steuern zentrale Funktionen wie Ein/Aus, Szene und Helligkeit. Ausgangsobjekte steuern einzelne LED-Ausgaenge. Statusobjekte melden Zustand zurueck. 0 als Datenpunktnummer bedeutet in der Regel: dieses Objekt ist deaktiviert."
-    },
-    {
-      "id": "knx.lock_force",
-      "title": "Sperre und Zwang",
-      "category": "KNX",
-      "body": "Sperrobjekte verhindern normale Bedienung, solange die Sperre aktiv ist. Zwangsobjekte uebersteuern normale Szenenbefehle mit einer definierten Aktion. Wichtig ist die aktive Ebene: je nach Einstellung aktiviert Wert 0 oder Wert 1 die Funktion."
-    },
-    {
-      "id": "knx.system",
-      "title": "KNX Systemdiagnose",
-      "category": "KNX",
-      "body": "Die KNX-Systemseite dient der Inbetriebnahme: Baudrate testen, BAOS-Firmware abfragen, Beschreibungen und Werte lesen, Status senden und Loopback testen. Diese Seite ist fuer Diagnose gedacht und sollte im Normalbetrieb nicht benoetigt werden."
-    },
-    {
-      "id": "config.backup",
-      "title": "Konfiguration und Backup",
-      "category": "System",
-      "body": "Vor Updates, groesseren KNX-Aenderungen und Experimenten immer ein Backup herunterladen. Ein Import ersetzt die gespeicherte Konfiguration nach Validierung. Passwortfelder fuer WLAN/AP werden im normalen Export nicht als Klartext ausgegeben."
-    },
-    {
-      "id": "update.firmware",
-      "title": "Firmware-Update",
-      "category": "Update",
-      "body": "Die Update-Seite prueft Online-Versionen, laedt Firmware oder akzeptiert lokale BIN-Dateien. Vor Updates am besten ein Backup speichern und LED-Ausgaenge dunkel schalten. Waehrend des Updates Stromversorgung nicht trennen."
-    },
-    {
-      "id": "update.help",
-      "title": "Hilfe aktualisieren",
-      "category": "Hilfe",
-      "body": "Die Hilfe ist getrennt von der Firmware aktualisierbar. Die eingebaute Hilfe ist immer vorhanden. Wenn Internetzugang besteht, kann die WebUI die aktuelle Sprachdatei aus releases/firmware/klc/help laden und lokal in LittleFS speichern."
-    },
-    {
-      "id": "diagnostics.system",
-      "title": "Systemdiagnose",
-      "category": "Diagnose",
-      "body": "Die Systemseite zeigt Firmwareprofil, Netzwerk, Speicher, LED-Backend, Power-Limiter, KNX/BAOS, OTA und Diagnose. Bei Fehlern zuerst den betroffenen Block oeffnen, danach Support-Snapshot erzeugen."
-    },
-    {
-      "id": "diagnostics.support",
-      "title": "Support-Snapshot",
-      "category": "Diagnose",
-      "body": "Der Support-Snapshot sammelt Profil, Version, Pins, Netzwerk, OTA, Speicher und letzte Ereignisse. Bei Rueckfragen diesen Snapshot kopieren, weil er deutlich genauer ist als eine Beschreibung aus dem Kopf."
-    },
-    {
-      "id": "diagnostics.troubleshooting",
-      "title": "Fehlersuche",
-      "category": "Diagnose",
-      "body": "LEDs bleiben dunkel: Ausgang aktiv, Pixelzahl, GPIO, Masse, Datenrichtung, Pegelwandler, LED-Spannung und Farbreihenfolge pruefen. KNX reagiert nicht: BAOS bereit, Baudrate, Datenpunkte, Objektmapping und Sperre/Zwang pruefen. Update geht nicht: Netzwerk, DNS, Updatepfad, Profil und freien Speicher pruefen."
-    }
-  ],
-  "fields": [
-    {
-      "id": "ui.language",
-      "page": "System",
-      "label": "Sprache",
-      "short": "Waehlt die Sprache der WebUI und der Hilfe.",
-      "details": "Die Hilfe-Seite laedt die passende Datei help_de.json, help_en.json, help_fr.json, help_es.json, help_it.json, help_nl.json oder help_pl.json."
-    },
-    {
-      "id": "ui.view_mode",
-      "page": "System",
-      "label": "Ansicht",
-      "short": "Schaltet zwischen normaler und erweiterter Bedienung.",
-      "details": "Expertenbereiche wie LED, Steuerung, KNX und tiefe Diagnose koennen ausgeblendet werden, damit der normale Betrieb uebersichtlich bleibt."
-    },
-    {
-      "id": "network.device_name",
-      "page": "Netzwerk",
-      "label": "Geraetename",
-      "short": "Freier Name zur Wiedererkennung des Controllers.",
-      "details": "Der Name hilft in Backups, Support-Snapshots und bei mehreren Controllern im selben Projekt."
-    },
-    {
-      "id": "network.hostname",
-      "page": "Netzwerk",
-      "label": "Hostname",
-      "short": "Netzwerkname des Controllers.",
-      "details": "Nur Zeichen verwenden, die im lokalen Netzwerk sauber aufgeloest werden. Nach Aenderung ist meist ein Neustart sinnvoll."
-    },
-    {
-      "id": "network.eth_enabled",
-      "page": "Netzwerk",
-      "label": "Ethernet aktiv",
-      "short": "Schaltet die W5500-Ethernet-Schnittstelle ein oder aus.",
-      "details": "Ethernet sollte aktiv bleiben, wenn kein sicherer alternativer Zugang eingerichtet ist."
-    },
-    {
-      "id": "network.dhcp",
-      "page": "Netzwerk",
-      "label": "DHCP",
-      "short": "IP-Adresse automatisch vom Router beziehen.",
-      "details": "Empfohlen fuer die meisten Installationen. Statische Adressen nur verwenden, wenn Netzwerkdaten sicher bekannt sind."
-    },
-    {
-      "id": "network.static_ip",
-      "page": "Netzwerk",
-      "label": "Statische IP",
-      "short": "Feste IP-Adresse fuer den Controller.",
-      "details": "Nur wirksam, wenn DHCP ausgeschaltet ist. Muss zum Subnetz passen und darf nicht doppelt vergeben sein."
-    },
-    {
-      "id": "network.gateway",
-      "page": "Netzwerk",
-      "label": "Gateway",
-      "short": "Router-Adresse fuer Verbindungen ins Internet.",
-      "details": "Ohne korrektes Gateway funktionieren Online-Update und Hilfe-Download nicht."
-    },
-    {
-      "id": "network.dns",
-      "page": "Netzwerk",
-      "label": "DNS",
-      "short": "Nameserver fuer Internet-Adressen.",
-      "details": "Ohne DNS kann der Controller raw.githubusercontent.com nicht aufloesen."
-    },
-    {
-      "id": "network.wifi_ssid",
-      "page": "Netzwerk",
-      "label": "WLAN SSID",
-      "short": "Name des WLANs fuer den Client-Modus.",
-      "details": "Nur beim W-Build verfuegbar. Schreibweise muss exakt zum WLAN passen."
-    },
-    {
-      "id": "network.wifi_password",
-      "page": "Netzwerk",
-      "label": "WLAN Passwort",
-      "short": "Passwort fuer den WLAN Client.",
-      "details": "Leeres Feld bedeutet: gespeichertes Passwort behalten. Das Passwort wird nicht im Standard-Backup exportiert."
-    },
-    {
-      "id": "network.ap_enabled",
-      "page": "Netzwerk",
-      "label": "Access Point aktiv",
-      "short": "Startet einen lokalen Servicezugang.",
-      "details": "Der AP ist praktisch fuer Wartung, sollte aber bewusst abgesichert und dokumentiert werden."
-    },
-    {
-      "id": "network.priority",
-      "page": "Netzwerk",
-      "label": "Ausgehende Route",
-      "short": "Prioritaet fuer Verbindungen nach aussen.",
-      "details": "Betrifft Online-Update, Hilfe-Download und andere ausgehende HTTP-Verbindungen. Automatisch oder Ethernet zuerst ist meist sinnvoll."
-    },
-    {
-      "id": "outputs.name",
-      "page": "Ausgaenge",
-      "label": "Name",
-      "short": "Anzeigename des LED-Ausgangs.",
-      "details": "Sprechende Namen wie Decke, Wand links oder Vitrine erleichtern Diagnose, KNX-Zuordnung und Support."
-    },
-    {
-      "id": "outputs.enabled",
-      "page": "Ausgaenge",
-      "label": "Aktiv",
-      "short": "Schaltet einen LED-Ausgang logisch ein oder aus.",
-      "details": "Deaktiviert bedeutet: Werte bleiben gespeichert, aber der Ausgang wird nicht real ausgegeben und in der Diagnose als deaktiviert angezeigt."
-    },
-    {
-      "id": "outputs.pixels",
-      "page": "Ausgaenge",
-      "label": "Pixel",
-      "short": "Anzahl der LEDs am physischen Strang.",
-      "details": "Der Wert muss zur realen LED-Anzahl passen. Falsche Werte fuehren zu abgeschnittenen Effekten, falscher Stromschaetzung oder unpassender Vorschau."
-    },
-    {
-      "id": "outputs.string_segment_count",
-      "page": "Ausgaenge",
-      "label": "Gleich grosse String-Segmente",
-      "short": "Teilt einen physischen Strang in gleich grosse Wiederholungen.",
-      "details": "1 bedeutet normaler Strang. Mehr Segmente sind hilfreich, wenn derselbe Effekt auf mehreren gleich langen Abschnitten wiederholt werden soll."
-    },
-    {
-      "id": "outputs.pixel_offset",
-      "page": "Ausgaenge",
-      "label": "LED-Versatz",
-      "short": "Verschiebt den gefuehlten Startpunkt des Ausgangs.",
-      "details": "Nuetzlich zur Korrektur von Stossstellen, Mitte oder Laufrichtung. Der erlaubte Bereich ist begrenzt, damit die Einstellung nicht versehentlich extreme Verschiebungen erzeugt."
-    },
-    {
-      "id": "outputs.power_on_mode",
-      "page": "Ausgaenge",
-      "label": "Nach Stromunterbrechung",
-      "short": "Legt das Verhalten nach Neustart oder Stromausfall fest.",
-      "details": "Aus bleibt dunkel. Letzte Einstellung stellt den zuletzt bekannten Zustand wieder her. Feste Szene startet immer die gewaehlte Szene."
-    },
-    {
-      "id": "outputs.power_on_scene",
-      "page": "Ausgaenge",
-      "label": "Feste Szene",
-      "short": "Szene, die nach Stromunterbrechung gestartet wird.",
-      "details": "Nur relevant, wenn Nach Stromunterbrechung auf Feste Szene steht."
-    },
-    {
-      "id": "outputs.chipset",
-      "page": "Ausgaenge",
-      "label": "LED-Chip",
-      "short": "Timingprofil des verbauten LED-Strips.",
-      "details": "Muss zum Strip passen. Falsches Timing kann zu Flackern, falschen Farben oder gar keiner Ausgabe fuehren."
-    },
-    {
-      "id": "outputs.type",
-      "page": "Ausgaenge",
-      "label": "LED-Farben",
-      "short": "RGB oder RGBW pro LED.",
-      "details": "RGBW sendet einen zusaetzlichen Weisskanal. Der Wert muss zur realen LED passen."
-    },
-    {
-      "id": "outputs.color_order",
-      "page": "Ausgaenge",
-      "label": "Farbreihenfolge",
-      "short": "Korrigiert vertauschte Farbkanale.",
-      "details": "Wenn Rot, Gruen oder Blau beim Test falsch angezeigt werden, hier die Reihenfolge anpassen."
-    },
-    {
-      "id": "outputs.edge_blink",
-      "page": "Ausgaenge",
-      "label": "Anfang/Ende blinken",
-      "short": "Testet erste und letzte LED eines Ausgangs.",
-      "details": "Damit lassen sich Datenrichtung, Strangende, Farbreihenfolge und physische Zuordnung schnell pruefen."
-    },
-    {
-      "id": "outputs.power_group",
-      "page": "Ausgaenge",
-      "label": "Power-Gruppe",
-      "short": "Ordnet den Ausgang einem Netzteil-/Leistungsbereich zu.",
-      "details": "Ausgaenge am selben Netzteil sollten dieselbe Power-Gruppe verwenden."
-    },
-    {
-      "id": "outputs.limit_ma",
-      "page": "Ausgaenge",
-      "label": "Strang-Begrenzung mA",
-      "short": "Maximal erlaubter Strom fuer diesen Ausgang.",
-      "details": "Der Power-Limiter verwendet diesen Wert fuer Warnungen und Dimmung. Wert passend zur Verkabelung und Einspeisung waehlen."
-    },
-    {
-      "id": "outputs.max_brightness",
-      "page": "Ausgaenge",
-      "label": "Max. Helligkeit",
-      "short": "Begrenzt die Helligkeit eines Ausgangs.",
-      "details": "0 bleibt dunkel, 255 ist volle Helligkeit. Niedrigere Werte reduzieren alle Farben dieses Ausgangs."
-    },
-    {
-      "id": "outputs.manual_tests",
-      "page": "Ausgaenge",
-      "label": "Manuelle Tests aktiv",
-      "short": "Anzahl aktuell laufender manueller Farb- oder Kanten-Tests.",
-      "details": "0 bedeutet: kein Ausgang wird gerade durch einen manuellen Test uebersteuert. Bei aktiven Tests normale Szenen erst nach Testende bewerten."
-    },
-    {
-      "id": "power.global_brightness",
-      "page": "Leistung",
-      "label": "Zentralhelligkeit",
-      "short": "Globale Helligkeitsbegrenzung 0 bis 255.",
-      "details": "Wirkt als zentrale Dimmung. 255 ist volle Helligkeit; 0 macht die Ausgabe dunkel."
-    },
-    {
-      "id": "power.controller_limit_ma",
-      "page": "Leistung",
-      "label": "Controller-Begrenzung mA",
-      "short": "Gesamtstromgrenze fuer den Controller.",
-      "details": "Sollte zur sicher nutzbaren Gesamtleistung passen. Der Wert ist eine Softwaregrenze und keine elektrische Sicherung."
-    },
-    {
-      "id": "power.idle_ma",
-      "page": "Leistung",
-      "label": "Basisstrom mA",
-      "short": "Fester, nicht dimmbarer Stromanteil.",
-      "details": "Typisch aus Messung alle LEDs aus. Wird bei der Gesamtbegrenzung mitgezaehlt."
-    },
-    {
-      "id": "power.safety_percent",
-      "page": "Leistung",
-      "label": "Safety %",
-      "short": "Sicherheitsfaktor fuer Stromlimits.",
-      "details": "Reduziert nutzbare Limits, damit Reserve fuer Messungenauigkeit, Temperatur und Netzteilalterung bleibt."
-    },
-    {
-      "id": "power.rgbw_ma_per_pixel",
-      "page": "Leistung",
-      "label": "R/G/B/W mA pro Pixel",
-      "short": "Strommodell fuer die einzelnen Farbkanale.",
-      "details": "Je genauer diese Werte sind, desto besser passt die Stromschaetzung. Idealerweise ueber die Messfunktion ermitteln."
-    },
-    {
-      "id": "power.standby_ma_per_pixel",
-      "page": "Leistung",
-      "label": "Standby mA/LED",
-      "short": "Ruhestrom pro LED.",
-      "details": "Nur verwenden, wenn dieser Anteil nicht bereits im Basisstrom enthalten ist, sonst wird er doppelt gezaehlt."
-    },
-    {
-      "id": "power.group_count",
-      "page": "Leistung",
-      "label": "Aktive Power-Gruppen",
-      "short": "Anzahl der verwendeten Netzteilgruppen.",
-      "details": "Nur so viele Gruppen aktivieren, wie wirklich benoetigt werden."
-    },
-    {
-      "id": "power.group_limit_ma",
-      "page": "Leistung",
-      "label": "Power-Gruppe Begrenzung mA",
-      "short": "Stromgrenze fuer eine Gruppe.",
-      "details": "Muss zur Absicherung und zum Netzteil dieser Gruppe passen."
-    },
-    {
-      "id": "power.calibration_output",
-      "page": "Leistung",
-      "label": "Test-Ausgang",
-      "short": "Ausgang fuer die Stromprofilmessung.",
-      "details": "Einen gut erreichbaren Ausgang mit bekannter LED-Anzahl waehlen."
-    },
-    {
-      "id": "power.calibration_count",
-      "page": "Leistung",
-      "label": "Mess-LEDs",
-      "short": "Anzahl LEDs, die fuer die Messung geschaltet werden.",
-      "details": "Nicht mehr LEDs messen, als sicher vom Netzteil und Messaufbau versorgt werden koennen."
-    },
-    {
-      "id": "flows.scene_name",
-      "page": "Ablaeufe",
-      "label": "Name",
-      "short": "Anzeigename einer Szene oder eines Ablaufs.",
-      "details": "Sprechende Namen erleichtern KNX-Zuordnung und Bedienung."
-    },
-    {
-      "id": "flows.copy",
-      "page": "Ablaeufe",
-      "label": "Ausgewaehlten Ablauf kopieren nach",
-      "short": "Dupliziert einen Ablauf auf einen Zielplatz.",
-      "details": "Der Ziel-Ablauf wird ueberschrieben. Vorher pruefen, ob er produktiv verwendet wird."
-    },
-    {
-      "id": "flows.reset",
-      "page": "Ablaeufe",
-      "label": "Ablauf zuruecksetzen",
-      "short": "Setzt den ausgewaehlten Ablauf auf Werkstandard.",
-      "details": "Nur den gewaehlten Ablauf zuruecksetzen, danach Vorschau und realen Test ausfuehren."
-    },
-    {
-      "id": "knx.enabled",
-      "page": "KNX",
-      "label": "KNX aktiv",
-      "short": "Aktiviert die KNX/BAOS-Verarbeitung.",
-      "details": "Wenn ausgeschaltet, werden KNX-Befehle ignoriert und keine Statuswerte gesendet."
-    },
-    {
-      "id": "knx.baudrate",
-      "page": "KNX",
-      "label": "Baudrate",
-      "short": "UART-Geschwindigkeit zum BAOS-Modul.",
-      "details": "Muss zum BAOS-Modul passen. Bei Problemen Auto-Baud oder Systemdiagnose verwenden."
-    },
-    {
-      "id": "knx.status_send_mode",
-      "page": "KNX",
-      "label": "Status senden",
-      "short": "Legt fest, wann Statusobjekte auf den Bus gesendet werden.",
-      "details": "Passiv sendet nur manuell/auf Abfrage. Aenderung sendet bei Zustandsaenderungen. Zeit sendet zyklisch. Kombination nutzt beides."
-    },
-    {
-      "id": "knx.status_interval",
-      "page": "KNX",
-      "label": "Status-Intervall",
-      "short": "Zeit zwischen zyklischen Statusmeldungen.",
-      "details": "Zu kurze Intervalle koennen den Bus unnoetig belasten. 0 ist hier nicht als normaler Zykluswert gedacht."
-    },
-    {
-      "id": "knx.object_number",
-      "page": "KNX",
-      "label": "BAOS-Datenpunktnummer",
-      "short": "Nummer des Datenpunkts oder Objekts.",
-      "details": "0 bedeutet meist deaktiviert. Nach ETS-Ersteinrichtung nur bewusst aendern."
-    },
-    {
-      "id": "knx.central_switch",
-      "page": "KNX",
-      "label": "Zentral Ein/Aus",
-      "short": "KNX-Objekt fuer zentralen Schaltbefehl.",
-      "details": "Wert 0 schaltet direkt aus, Wert 1 startet den Ein-Zustand."
-    },
-    {
-      "id": "knx.central_scene",
-      "page": "KNX",
-      "label": "Zentrale Szenenwahl",
-      "short": "Startet eine Szene ueber KNX.",
-      "details": "Der empfangene Wert wird auf die entsprechende Szene abgebildet."
-    },
-    {
-      "id": "knx.central_brightness",
-      "page": "KNX",
-      "label": "Zentrale Helligkeit",
-      "short": "Helligkeitswert 0 bis 255.",
-      "details": "Kann die WebUI- oder Szenenhelligkeit zentral beeinflussen."
-    },
-    {
-      "id": "knx.central_color",
-      "page": "KNX",
-      "label": "Zentrale Farbe R/G/B/W",
-      "short": "Direkte Farbkomponenten 0 bis 255.",
-      "details": "Bei RGB-Ausgaengen wird Weiss ignoriert oder passend verarbeitet, je nach Runtime-Logik."
-    },
-    {
-      "id": "knx.output_switch",
-      "page": "KNX",
-      "label": "Ausgang Ein/Aus",
-      "short": "Schaltobjekt fuer einen einzelnen Ausgang.",
-      "details": "Wirkt nur auf den zugeordneten Ausgang und kann durch Sperre/Zwang uebersteuert werden."
-    },
-    {
-      "id": "knx.output_scene",
-      "page": "KNX",
-      "label": "Ausgang Szene",
-      "short": "Szenenwahl fuer einen einzelnen Ausgang.",
-      "details": "Nuetzlich, wenn verschiedene Ausgaenge unabhaengig gesteuert werden sollen."
-    },
-    {
-      "id": "knx.lock_object",
-      "page": "KNX",
-      "label": "Sperrobjekt",
-      "short": "Sperrt normale Bedienung eines Ausgangs.",
-      "details": "Aktive Ebene beachten: je nach Einstellung sperrt Wert 0 oder Wert 1."
-    },
-    {
-      "id": "knx.force_object",
-      "page": "KNX",
-      "label": "Zwangsobjekt",
-      "short": "Erzwingt eine definierte Aktion.",
-      "details": "Zwang uebersteuert normale Szenenbefehle, solange er aktiv ist."
-    },
-    {
-      "id": "knx.lock_force_action",
-      "page": "KNX",
-      "label": "Aktion bei Sperre/Zwang",
-      "short": "Legt fest, was bei aktivem oder inaktivem Objekt passiert.",
-      "details": "Typische Aktionen sind Aus, Ein oder keine Aenderung. Vor produktiver Nutzung mit ETS-Gruppenadressen testen."
-    },
-    {
-      "id": "update.beta_program",
-      "page": "Update",
-      "label": "Beta-Versionen",
-      "short": "Erlaubt Testversionen.",
-      "details": "Nur bewusst aktivieren. Beta-Versionen koennen neue Funktionen, aber auch Fehler enthalten."
-    },
-    {
-      "id": "update.auto_check",
-      "page": "Update",
-      "label": "Automatisch suchen",
-      "short": "Prueft online auf neue Firmware.",
-      "details": "Benoetigt funktionierende Internetverbindung, DNS und passenden Updatepfad."
-    },
-    {
-      "id": "update.auto_install",
-      "page": "Update",
-      "label": "Automatisch installieren",
-      "short": "Installiert gefundene Updates ohne weiteren Klick.",
-      "details": "Praktisch, aber bei Testversionen riskant. Fuer produktive Installationen sehr bewusst einsetzen."
-    },
-    {
-      "id": "update.local_upload",
-      "page": "Update",
-      "label": "Lokale BIN-Datei",
-      "short": "Firmware-Datei aus dem Browser hochladen.",
-      "details": "Nur passende Firmware fuer dieses Profil verwenden. Vorher Backup herunterladen."
-    },
-    {
-      "id": "help.search",
-      "page": "Hilfe",
-      "label": "Hilfe durchsuchen",
-      "short": "Durchsucht Titel, Seiten, Kurztexte und Details.",
-      "details": "Geeignet fuer Begriffe wie Pixel, KNX, Gateway, Zwang, Backup, Update oder manuelle Tests."
-    },
-    {
-      "id": "help.download",
-      "page": "Hilfe",
-      "label": "Hilfe aktualisieren",
-      "short": "Laedt die aktuelle Hilfe-Datei fuer die aktive Sprache.",
-      "details": "Der Controller speichert die Datei lokal in LittleFS. Ohne Internet bleibt die eingebaute Hilfe verfuegbar."
-    },
-    {
-      "id": "config.backup_download",
-      "page": "Konfiguration",
-      "label": "Backup herunterladen",
-      "short": "Speichert die aktuelle Konfiguration als JSON.",
-      "details": "Vor Updates, KNX-Umbauten und groesseren Tests immer ein Backup erstellen."
-    },
-    {
-      "id": "config.import",
-      "page": "Konfiguration",
-      "label": "Backup importieren",
-      "short": "Spielt eine gespeicherte Konfiguration ein.",
-      "details": "Die Datei wird validiert. Trotzdem vorher pruefen, ob sie zum Firmwareprofil und zur Installation passt."
-    },
-    {
-      "id": "events.clear",
-      "page": "Ereignisse",
-      "label": "Ereignisse loeschen",
-      "short": "Leert die Ereignisliste.",
-      "details": "Nur nach Dokumentation oder Support-Snapshot loeschen, sonst gehen wichtige Diagnosehinweise verloren."
-    },
-    {
-      "id": "network.fallback_enabled",
-      "page": "Netzwerk",
-      "label": "Fallback-IP aktiv",
-      "short": "Aktiviert eine Ersatz-IP, falls die normale Netzwerkkonfiguration nicht erreichbar ist.",
-      "details": "Hilft bei DHCP-/IP-Problemen. Die Fallback-Adresse muss im lokalen Wartungsnetz erreichbar sein und darf keine produktive Adresse doppelt belegen."
-    },
-    {
-      "id": "network.fallback_ip",
-      "page": "Netzwerk",
-      "label": "Fallback IP",
-      "short": "Ersatzadresse fuer den Notfallzugang.",
-      "details": "Nur nutzen, wenn die Adresse bewusst zum Service-Netz passt. Nach erfolgreicher Reparatur der Hauptkonfiguration pruefen, ob Fallback weiter benoetigt wird."
-    },
-    {
-      "id": "network.fallback_gateway",
-      "page": "Netzwerk",
-      "label": "Fallback Gateway",
-      "short": "Router-Adresse fuer den Fallback-Modus.",
-      "details": "Fuer reinen lokalen Wartungszugang kann Gateway leer oder ungenutzt sein. Fuer Online-Update/Hilfe muss es korrekt sein."
-    },
-    {
-      "id": "network.fallback_subnet",
-      "page": "Netzwerk",
-      "label": "Fallback Subnetz",
-      "short": "Netzmaske der Fallback-Adresse.",
-      "details": "Muss zur Fallback-IP und zum Wartungsnetz passen."
-    },
-    {
-      "id": "network.fallback_dns",
-      "page": "Netzwerk",
-      "label": "Fallback DNS",
-      "short": "Nameserver im Fallback-Modus.",
-      "details": "Nur relevant, wenn der Controller im Fallback-Modus Internetnamen aufloesen soll."
-    },
-    {
-      "id": "network.ap_ip",
-      "page": "Netzwerk",
-      "label": "AP-IP",
-      "short": "IP-Adresse des Controller-Access-Points.",
-      "details": "Diese Adresse wird verwendet, wenn sich ein Servicegeraet direkt mit dem Controller-AP verbindet."
-    },
-    {
-      "id": "network.ap_ssid",
-      "page": "Netzwerk",
-      "label": "AP-SSID",
-      "short": "WLAN-Name des lokalen Service-Access-Points.",
-      "details": "Soll eindeutig sein, damit mehrere Controller vor Ort nicht verwechselt werden."
-    },
-    {
-      "id": "network.ap_password",
-      "page": "Netzwerk",
-      "label": "AP-Passwort",
-      "short": "Passwort fuer den Service-Access-Point.",
-      "details": "Leeres Feld behaelt das gespeicherte Passwort. WPA2-Passwoerter muessen mindestens 8 Zeichen haben; leer kann je nach Firmware als offener Service-AP interpretiert werden."
-    },
-    {
-      "id": "flows.selected_scene",
-      "page": "Ablaeufe",
-      "label": "Ablauf auswaehlen",
-      "short": "Waehlt den Szenen-/Ablaufplatz, der bearbeitet wird.",
-      "details": "Aenderungen beziehen sich immer auf den aktuell ausgewaehlten Ablauf. Vor dem Kopieren oder Zuruecksetzen den richtigen Platz pruefen."
-    },
-    {
-      "id": "flows.preview_time",
-      "page": "Vorschau",
-      "label": "Zeitposition im Ablauf",
-      "short": "Zeigt einen bestimmten Zeitpunkt des Ablaufs.",
-      "details": "Hilft, Aufbau, Hauptphase und Ausblendung gezielt zu pruefen."
-    },
-    {
-      "id": "flows.preview_speed",
-      "page": "Vorschau",
-      "label": "Vorschau-Tempo",
-      "short": "Geschwindigkeit der Browser-Vorschau.",
-      "details": "Beeinflusst nur die Vorschau im Browser, nicht zwingend die reale LED-Ausgabe."
-    },
-    {
-      "id": "flows.sync_mode",
-      "page": "Ablaeufe",
-      "label": "Globale Lauflicht-/Wellen-Synchronisation",
-      "short": "Legt fest, wie mehrere Ausgaenge zeitlich zusammenlaufen.",
-      "details": "Start/Stopp synchronisiert Beginn und Ende. Runtime nutzt gleiche Schrittzeit je Pixel, wodurch kurze Straenge frueher fertig sein koennen."
-    },
-    {
-      "id": "flows.pixel_mode",
-      "page": "Ablaeufe",
-      "label": "Betroffene LEDs",
-      "short": "Bestimmt, ob Füllwerte prozentual oder absolut interpretiert werden.",
-      "details": "Prozent passt sich an unterschiedliche Ausgangslaengen an. Absolut nutzt feste LED-Anzahlen und wird pro Ausgang begrenzt."
-    },
-    {
-      "id": "flows.lit_percent",
-      "page": "Ablaeufe",
-      "label": "# Pixel / Füllgrad",
-      "short": "Bestimmt, wie viele LEDs vom Effekt betroffen sind.",
-      "details": "Je nach Pixelmodus als Prozentwert oder absolute Pixelanzahl zu verstehen."
-    },
-    {
-      "id": "flows.phase_effect",
-      "page": "Ablaeufe",
-      "label": "Start-/Ein-/Aus-Effekt",
-      "short": "Waehlt den Effekt fuer eine Ablaufphase.",
-      "details": "Start ist der Aufbau, Ein/Hauptphase der dauerhafte Zustand, Aus die Abblend-/Abbauphase."
-    },
-    {
-      "id": "flows.phase_duration",
-      "page": "Ablaeufe",
-      "label": "Start-/Haupt-/Aus-Dauer",
-      "short": "Dauer oder Rampe einer Ablaufphase in Millisekunden.",
-      "details": "Kleine Werte wirken hart und schnell, groessere Werte weicher. Bei sehr langen LED-Strips reale Ausgabe testen."
-    },
-    {
-      "id": "flows.phase_fill",
-      "page": "Ablaeufe",
-      "label": "Start-/Ein-/Aus-Füllgrad",
-      "short": "Füllgrad einer Phase.",
-      "details": "Steuert, wie breit oder voll ein Effekt innerhalb der Phase erscheint."
-    },
-    {
-      "id": "flows.step_ms",
-      "page": "Ablaeufe",
-      "label": "Schrittzeit ms",
-      "short": "Zeit zwischen Bewegungsschritten.",
-      "details": "Kleinere Werte laufen schneller. Zu kleine Werte koennen bei langen Ablaeufen unruhig wirken."
-    },
-    {
-      "id": "flows.pulse_period",
-      "page": "Ablaeufe",
-      "label": "Puls-/Blinkperiode ms",
-      "short": "Periodendauer fuer Puls- oder Blinkeffekte.",
-      "details": "Bestimmt, wie schnell ein Effekt heller/dunkler wird oder blinkt."
-    },
-    {
-      "id": "flows.transition_duration",
-      "page": "Ablaeufe",
-      "label": "Uebergangs-Dauer ms",
-      "short": "Zeit fuer weiche Uebergaenge.",
-      "details": "Groessere Werte reduzieren harte Spruenge zwischen Zustaenden."
-    },
-    {
-      "id": "flows.channel_delay",
-      "page": "Ablaeufe",
-      "label": "Start-/Stopp-Versatz je Kanal",
-      "short": "Zeitlicher Versatz zwischen Farb- oder Segmentkanaelen.",
-      "details": "Erzeugt gestaffelte Bewegungen. Sehr hohe Werte koennen den Effekt schwer vorhersehbar machen."
-    },
-    {
-      "id": "flows.segment_size",
-      "page": "Ablaeufe",
-      "label": "Segment LEDs",
-      "short": "Blockgroesse in LEDs fuer Segmentleuchten.",
-      "details": "Getrennte Werte fuer Start, Ein und Aus erlauben veraendernde Segmentbreiten im Ablauf."
-    },
-    {
-      "id": "flows.segment_soft_edge",
-      "page": "Ablaeufe",
-      "label": "Weiche Kante LEDs",
-      "short": "Anzahl LEDs fuer sanftes Ausblenden am Segmentrand.",
-      "details": "0 ist eine harte Kante. Groessere Werte erzeugen weichere Uebergaenge."
-    },
-    {
-      "id": "flows.tail_percent",
-      "page": "Ablaeufe",
-      "label": "Nachleuchten %",
-      "short": "Laenge des Schweifs oder Nachleuchtbereichs.",
-      "details": "Der helle Kopf und der weiche Schweif ergeben zusammen die sichtbare Laenge."
-    },
-    {
-      "id": "flows.sparkle_speed",
-      "page": "Ablaeufe",
-      "label": "Funkel Geschwindigkeit ms",
-      "short": "Geschwindigkeit fuer Funkel-/Sparkle-Effekte.",
-      "details": "Kleinere Werte erzeugen mehr Aktivitaet. Mit Lebenszeit und Füllgrad zusammen abstimmen."
-    },
-    {
-      "id": "flows.sparkle_fill",
-      "page": "Ablaeufe",
-      "label": "Funkel Füllgrad %",
-      "short": "Dichte der Funkel-Pixel.",
-      "details": "Hohe Werte wirken dichter und heller, koennen aber Stromschaetzung und Wahrnehmung stark veraendern."
-    },
-    {
-      "id": "flows.sparkle_lifetime",
-      "page": "Ablaeufe",
-      "label": "Funkel Lebenszeit ms",
-      "short": "Wie lange einzelne Funkel-Punkte sichtbar bleiben.",
-      "details": "Kurze Lebenszeit wirkt hektisch, lange Lebenszeit ruhiger."
-    },
-    {
-      "id": "flows.tetris_group",
-      "page": "Ablaeufe",
-      "label": "Tetris Gruppe min./max",
-      "short": "Groesse der Tetris-Bausteine.",
-      "details": "Min und Max legen den Zufallsbereich fest. Min sollte nie groesser als Max sein."
-    },
-    {
-      "id": "flows.tetris_gap",
-      "page": "Ablaeufe",
-      "label": "Tetris Abstand",
-      "short": "Abstand zwischen Tetris-Bausteinen.",
-      "details": "Groessere Abstaende machen einzelne Bloecke deutlicher, verringern aber die sichtbare Fuellung."
-    },
-    {
-      "id": "flows.tetris_direction",
-      "page": "Ablaeufe",
-      "label": "Tetris Richtung",
-      "short": "Richtung oder Spiegelung des Tetris-Aufbaus.",
-      "details": "Richtung umdrehen, Mitte spiegeln und Zufallsrichtung koennen je Phase getrennt gesetzt werden."
-    },
-    {
-      "id": "flows.tetris_teardown",
-      "page": "Ablaeufe",
-      "label": "Tetris Abbauart",
-      "short": "Legt fest, wie aufgebaute Bloecke wieder verschwinden.",
-      "details": "Je nach Modus reverse, zufaellig, wipe oder weicher Abbau. In der Vorschau und real testen."
-    },
-    {
-      "id": "flows.tetris_random_timing",
-      "page": "Ablaeufe",
-      "label": "Zufalls-Fallzeit / Pause",
-      "short": "Zufallsbereiche fuer Tetris-Timing.",
-      "details": "Min/Max-Werte erzeugen organischere Bewegung. Extreme Bereiche koennen den Effekt schwer planbar machen."
-    },
-    {
-      "id": "flows.tetris2_next_preview",
-      "page": "Ablaeufe",
-      "label": "Tetris_2 Next-Preview",
-      "short": "Zeigt den naechsten Baustein als Vorschau.",
-      "details": "Optischer Zusatz fuer Tetris_2. Erhoeht die Komplexitaet des Effekts."
-    },
-    {
-      "id": "flows.tetris2_sync_segments",
-      "page": "Ablaeufe",
-      "label": "Tetris_2 Segmente synchronisieren",
-      "short": "Synchronisiert Tetris_2 ueber Segmente.",
-      "details": "Sinnvoll bei gleich grossen String-Segmenten oder symmetrischen Installationen."
-    },
-    {
-      "id": "flows.tetris2_block_size",
-      "page": "Ablaeufe",
-      "label": "Tetris_2 Blockgroesse min./max",
-      "short": "Zufallsbereich der Tetris_2-Blockgroesse.",
-      "details": "Kleinere Bloecke wirken feiner, groessere Bloecke ruhiger und massiver."
-    },
-    {
-      "id": "flows.tetris2_speed",
-      "page": "Ablaeufe",
-      "label": "Tetris_2 Geschwindigkeit min./max mm/s",
-      "short": "Physikalisch gedachte Geschwindigkeit fuer Tetris_2.",
-      "details": "Zusammen mit Pixel/Meter wird daraus die sichtbare Bewegungsgeschwindigkeit berechnet."
-    },
-    {
-      "id": "flows.tetris2_pixels_per_meter",
-      "page": "Ablaeufe",
-      "label": "Tetris_2 Pixel/Meter",
-      "short": "LED-Dichte fuer Geschwindigkeitsberechnung.",
-      "details": "Muss zur realen Installation passen, wenn mm/s realistisch wirken sollen."
-    },
-    {
-      "id": "flows.tetris2_early_start",
-      "page": "Ablaeufe",
-      "label": "Tetris_2 Fruehstart",
-      "short": "Laesst neue Bloecke beginnen, bevor der vorherige vollstaendig fertig ist.",
-      "details": "Chance sowie Min/Max legen fest, wie oft und wie frueh ueberlappend gestartet wird."
-    },
-    {
-      "id": "flows.tetris2_hsv_distance",
-      "page": "Ablaeufe",
-      "label": "Tetris_2 HSV-Mindestabstand",
-      "short": "Mindestabstand zwischen zufaelligen Farben.",
-      "details": "Hoehere Werte vermeiden sehr aehnliche Farben, koennen die Farbauswahl aber einschraenken."
-    },
-    {
-      "id": "knx.status_switch",
-      "page": "KNX",
-      "label": "Status Ein/Aus TX",
-      "short": "KNX-Statusobjekt fuer Schaltzustand.",
-      "details": "Sendet den aktuellen Ein/Aus-Zustand an den KNX-Bus."
-    },
-    {
-      "id": "knx.status_scene",
-      "page": "KNX",
-      "label": "Status Szene TX",
-      "short": "KNX-Statusobjekt fuer aktive Szene.",
-      "details": "Hilft Visualisierungen, den aktuellen Szenenstatus anzuzeigen."
-    },
-    {
-      "id": "knx.status_brightness",
-      "page": "KNX",
-      "label": "Status Helligkeit TX",
-      "short": "KNX-Statusobjekt fuer Helligkeit.",
-      "details": "Sendet den aktuellen Helligkeitswert zurueck."
-    },
-    {
-      "id": "knx.status_color",
-      "page": "KNX",
-      "label": "Status Farbe R/G/B/W TX",
-      "short": "KNX-Statusobjekte fuer Farbkomponenten.",
-      "details": "Jeder Farbkanal wird separat gemeldet. Nur benoetigte Kanaele aktivieren."
-    },
-    {
-      "id": "knx.status_lock_force",
-      "page": "KNX",
-      "label": "Status Sperre/Zwang TX",
-      "short": "Rueckmeldung fuer Sperr- und Zwangszustand.",
-      "details": "Nuetzlich fuer Visualisierung und Diagnose, wenn Bedienung blockiert oder uebersteuert wird."
-    },
-    {
-      "id": "knx.status_error_power",
-      "page": "KNX",
-      "label": "Status Fehlercode / Power-Limit",
-      "short": "Rueckmeldung fuer Fehler und aktives Power-Limit.",
-      "details": "Erlaubt KNX-seitige Alarmierung oder Anzeige technischer Zustaende."
-    },
-    {
-      "id": "admin.unlock",
-      "page": "Admin",
-      "label": "Admin-Code",
-      "short": "Oeffnet den geschuetzten Adminbereich.",
-      "details": "Admin ist fuer Diagnose, JSON-Endpunkte und tiefe technische Informationen gedacht. Nicht als vollwertiger Netzwerkschutz verstehen."
-    },
-    {
-      "id": "system.support_snapshot",
-      "page": "Support",
-      "label": "Support-Snapshot",
-      "short": "Sammelt technische Daten fuer Fehlersuche.",
-      "details": "Bei Supportfragen zuerst Snapshot laden und kopieren, damit Version, Profil, Pins, Netzwerk, Speicher und letzte Ereignisse sichtbar sind."
-    },
-    {
-      "id": "system.factory_defaults",
-      "page": "Konfiguration",
-      "label": "Werkstandard",
-      "short": "Setzt Konfiguration auf Defaults zurueck.",
-      "details": "Nur bewusst ausfuehren und vorher Backup herunterladen. Danach Ausgaenge, KNX und Netzwerk neu pruefen."
-    },
-    {
-      "id": "backup.plain_export",
-      "page": "Konfiguration",
-      "label": "Passwoerter im Export",
-      "short": "Steuert, ob sensible Daten im Backup enthalten sind.",
-      "details": "Standard-Export sollte Passwoerter nicht im Klartext enthalten. Klartext nur fuer bewusste lokale Wartung verwenden."
-    },
-    {
-      "id": "control.scene_apply",
-      "page": "Steuerung",
-      "label": "Szene anwenden",
-      "short": "Startet eine Szene direkt aus der WebUI.",
-      "details": "Wirkt sofort auf die aktiven Ausgaenge. Wenn KNX, Sperre, Zwang oder ein manueller Test aktiv ist, kann der sichtbare Zustand abweichen."
-    },
-    {
-      "id": "control.direct_off",
-      "page": "Steuerung",
-      "label": "Direkt aus",
-      "short": "Schaltet die LED-Ausgabe direkt dunkel.",
-      "details": "Nuetzlich vor Updates, Messungen oder Verdrahtungsarbeiten. KNX kann spaeter wieder einen neuen Zustand setzen."
-    },
-    {
-      "id": "control.direct_brightness",
-      "page": "Steuerung",
-      "label": "Helligkeit",
-      "short": "Direkter Helligkeitswert fuer Tests.",
-      "details": "Hilft beim schnellen Pruefen ohne Ablauf-Editor. Power-Limits und Ausgangs-Maximalhelligkeit koennen weiterhin begrenzen."
-    },
-    {
-      "id": "control.direct_color",
-      "page": "Steuerung",
-      "label": "R/G/B/W",
-      "short": "Direkte Farbwerte fuer Rot, Gruen, Blau und Weiss.",
-      "details": "Gut geeignet fuer Farbreihenfolge-Test und schnelle Sichtpruefung. Bei RGB-Strips ist der Weisskanal nicht als separater Kanal vorhanden."
-    },
-    {
-      "id": "power.live_values",
-      "page": "Leistung",
-      "label": "Live-Last / Standby / Summe",
-      "short": "Aktuelle Stromschaetzung aus dem LED-Zustand.",
-      "details": "Diese Werte sind berechnet, nicht gemessen. Sie helfen beim Erkennen von Power-Limit-Eingriffen und falschen Pixel-/Farbwerten."
-    },
-    {
-      "id": "power.safe_limit",
-      "page": "Leistung",
-      "label": "Sichere Begrenzung",
-      "short": "Limit nach Sicherheitsfaktor.",
-      "details": "Aus Controller- oder Gruppenlimit und Safety-Prozent berechneter nutzbarer Wert."
-    },
-    {
-      "id": "power.dim_factor",
-      "page": "Leistung",
-      "label": "Dimmfaktor",
-      "short": "Zeigt, ob der Power-Limiter aktuell dimmt.",
-      "details": "100 Prozent bedeutet keine Begrenzung. Niedrigere Werte zeigen aktive Leistungsreduktion."
-    },
-    {
-      "id": "power.calibration_off",
-      "page": "Leistung",
-      "label": "Alle LEDs aus mA",
-      "short": "Gemessener Strom bei dunklen LEDs.",
-      "details": "Dieser Wert wird als Basisstrom uebernommen, wenn das Messprofil gespeichert wird."
-    },
-    {
-      "id": "power.calibration_rgbw_measurements",
-      "page": "Leistung",
-      "label": "Rot/Gruen/Blau/Weiss mA",
-      "short": "Messwerte fuer einzelne Farbkanaele.",
-      "details": "Nach jedem Testschritt Strom am Netzteil messen und eintragen. Die Firmware rechnet daraus mA pro Pixel."
-    },
-    {
-      "id": "power.calibration_rgb_white",
-      "page": "Leistung",
-      "label": "RGB-Weiss mA",
-      "short": "Kontrollmessung fuer Rot+Gruen+Blau gemeinsam.",
-      "details": "Optionaler Plausibilitaetscheck. Der Wert sollte grob zur Summe der Einzelkanaele passen."
-    },
-    {
-      "id": "flows.speed",
-      "page": "Ablaeufe",
-      "label": "Geschwindigkeit",
-      "short": "Allgemeine Effektgeschwindigkeit.",
-      "details": "Je nach Effekt wird dieser Wert direkt oder zusammen mit Schrittzeit, Pixel/Meter oder Phasendauer verwendet."
-    },
-    {
-      "id": "flows.wave_bounce",
-      "page": "Ablaeufe",
-      "label": "Waehrend EIN / Bounce",
-      "short": "Option fuer laufende oder gespiegelt federnde Bewegung.",
-      "details": "Geeignet fuer Wellen- oder Lauflichteffekte, die nicht nur einmalig starten sollen."
-    },
-    {
-      "id": "flows.fireworks",
-      "page": "Ablaeufe",
-      "label": "Fireworks Geschwindigkeit / Intensitaet",
-      "short": "Parameter fuer Feuerwerk-artige Effekte.",
-      "details": "Geschwindigkeit steuert zeitliche Aktivitaet, Intensitaet die Dichte oder Helligkeitswirkung."
-    },
-    {
-      "id": "flows.tetrix",
-      "page": "Ablaeufe",
-      "label": "Tetrix Geschwindigkeit / Blockbreite",
-      "short": "Parameter fuer den Tetrix-Effekt.",
-      "details": "Blockbreite bestimmt die sichtbare Groesse, Geschwindigkeit die Bewegung."
-    },
-    {
-      "id": "update.history",
-      "page": "Update",
-      "label": "Versionshistorie",
-      "short": "Liste installierbarer oder historischer Firmwarestaende.",
-      "details": "Erlaubt Update auf neue Versionen oder bewusstes Rollback. Vor Rollback immer Backup speichern."
-    },
-    {
-      "id": "update.install_version",
-      "page": "Update",
-      "label": "Diese Version installieren",
-      "short": "Installiert einen Eintrag aus der Versionshistorie.",
-      "details": "Nur Firmware fuer das passende Profil verwenden. Die WebUI prueft Profil und Dateinamen, trotzdem vorab Backup erstellen."
-    },
-    {
-      "id": "update.reboot",
-      "page": "Update",
-      "label": "Controller neu starten",
-      "short": "Startet den Controller per WebUI neu.",
-      "details": "Nach Netzwerk- oder Update-Aenderungen nuetzlich. Kurzzeitig ist die WebUI nicht erreichbar."
-    },
-    {
-      "id": "update.bootsel",
-      "page": "Update",
-      "label": "BOOTSEL / UF2-Modus",
-      "short": "Versetzt das Board in den USB-Flashmodus.",
-      "details": "Nur fuer Wartung per USB verwenden. Die WebUI ist danach nicht erreichbar, bis das Board neu startet oder geflasht wurde."
-    },
-    {
-      "id": "update.backup_before_update",
-      "page": "Update",
-      "label": "Konfiguration vorher sichern",
-      "short": "Laedt vor Firmwareaktionen ein Backup herunter.",
-      "details": "Empfohlen vor jedem Update, Rollback oder lokalem Firmware-Upload."
-    },
-    {
-      "id": "events.table",
-      "page": "Ereignisse",
-      "label": "Ereignistabelle",
-      "short": "Zeigt Fehler, Warnungen und Laufzeitereignisse.",
-      "details": "Die neuesten Eintraege helfen bei Diagnose. Bei sporadischen Problemen vor dem Loeschen als Support-Snapshot sichern."
-    },
-    {
-      "id": "led.backend_status",
-      "page": "LED",
-      "label": "LED-Backend",
-      "short": "Zeigt, ob reale LED-Ausgabe aktiv ist.",
-      "details": "Wenn das Backend nicht bereit oder nur virtuell ist, werden Konfigurationswerte zwar verarbeitet, aber nicht real ausgegeben."
-    },
-    {
-      "id": "led.configured_profiles",
-      "page": "LED",
-      "label": "LED-Profile",
-      "short": "Anzahl unterschiedlicher LED-Timingprofile.",
-      "details": "Viele unterschiedliche Profile koennen Diagnose und Timing komplexer machen. Gleiche Strips moeglichst gleich konfigurieren."
-    },
-    {
-      "id": "system.storage",
-      "page": "System",
-      "label": "Speicher / LittleFS",
-      "short": "Status des lokalen Dateisystems.",
-      "details": "LittleFS speichert Konfiguration, lokal geladene Hilfe und OTA-Hilfsdaten. Bei Speicherfehlern Backup sichern und Diagnose pruefen."
-    },
-    {
-      "id": "system.release_check",
-      "page": "System",
-      "label": "Release-Check",
-      "short": "Prueft Profil, Updatepfade und Release-Daten.",
-      "details": "Hilfreich vor Veroeffentlichungen, damit Manifest, Versionsliste, Boardprofil und Flashgroesse zusammenpassen."
-    }
-  ]
+﻿{
+    "schema":  1,
+    "kind":  "klc_help",
+    "version":  "0.3.2",
+    "firmware_min":  "0.0.296",
+    "language":  "de",
+    "title":  "KLC Hilfe",
+    "release_note":  "Feldreferenz fuer Fallback-Netzwerk, Ablauf-Editor, Tetris/Tetris_2, Steuerung, Kalibrierung, Update-Historie, Ereignisse und System-/Admin-Funktionen erweitert.",
+    "sections":  [
+                     {
+                         "id":  "start.quickstart",
+                         "title":  "Schnellstart",
+                         "category":  "Start",
+                         "body":  "Empfohlene Reihenfolge: 1. Controller versorgen und WebUI oeffnen. 2. Netzwerk pruefen. 3. Backup der Werk-/Startkonfiguration speichern. 4. Ausgaenge und Pixelzahlen einrichten. 5. LED-Typ und Farbreihenfolge mit Kanten-Blinktest pruefen. 6. Leistungslimits setzen. 7. KNX/BAOS verbinden. 8. Szenen oder Ablaeufe testen. 9. Danach erneut ein Backup speichern."
+                     },
+                     {
+                         "id":  "start.first_commissioning",
+                         "title":  "Erstinbetriebnahme",
+                         "category":  "Start",
+                         "body":  "Bei der Erstinbetriebnahme zuerst nur einen kurzen LED-Strang oder einen einzelnen Ausgang testen. So lassen sich Datenrichtung, Masseverbindung, Pegelwandler, LED-Typ und Farbreihenfolge gefahrlos pruefen. Erst wenn der Test sauber laeuft, weitere Ausgaenge aktivieren und die endgueltigen Pixelzahlen eintragen."
+                     },
+                     {
+                         "id":  "start.safety",
+                         "title":  "Sicherheit und Stromversorgung",
+                         "category":  "Start",
+                         "body":  "LED-Strips koennen sehr hohe Stroeme aufnehmen. Netzteil, Einspeisung, Leitungsquerschnitt und Sicherungen muessen zur realen Installation passen. Der Power-Limiter ist eine Software-Hilfe und ersetzt keine elektrische Absicherung. Masse von Controller, Pegelwandler und LED-Netzteil muss verbunden sein."
+                     },
+                     {
+                         "id":  "ui.dashboard",
+                         "title":  "Dashboard",
+                         "category":  "Bedienung",
+                         "body":  "Das Dashboard ist die Uebersicht fuer den normalen Betrieb. Die Kachel Ausgaenge / Szene / geschaetzte Last zeigt jeden konfigurierten Ausgang mit Status. Deaktivierte Ausgaenge werden ausdruecklich als deaktiviert angezeigt, zaehlen mit 0 mA und zeigen als Szene/Test Ausgang deaktiviert. Warnungen auf dem Dashboard bedeuten: die Detailseite oeffnen und dort die Diagnose lesen."
+                     },
+                     {
+                         "id":  "ui.language_view",
+                         "title":  "Sprache und Ansichtsmodus",
+                         "category":  "Bedienung",
+                         "body":  "Die WebUI kann in mehreren Sprachen angezeigt werden. Der Ansichtsmodus blendet Expertenbereiche aus oder ein. Fuer Endanwender ist die normale Ansicht gedacht; fuer Inbetriebnahme, KNX, Diagnose und Release-Arbeiten sollte die Experten-/Admin-Ansicht verwendet werden."
+                     },
+                     {
+                         "id":  "network.overview",
+                         "title":  "Netzwerk",
+                         "category":  "Netzwerk",
+                         "body":  "Die Netzwerkseite zeigt Ethernet und, beim W-Build, WLAN Client und Access Point getrennt. Ethernet, WLAN Client und AP koennen je nach Boardprofil parallel existieren. Die WebUI ist ueber alle aktiven Interfaces erreichbar; die Prioritaet betrifft vor allem ausgehende Verbindungen wie Update- und Hilfe-Download."
+                     },
+                     {
+                         "id":  "network.ethernet",
+                         "title":  "Ethernet einrichten",
+                         "category":  "Netzwerk",
+                         "body":  "Ethernet ist die bevorzugte stabile Verbindung fuer Installation und Update. DHCP ist meistens die einfachste Wahl. Statische IP-Adressen nur verwenden, wenn Gateway, Subnetz und DNS korrekt bekannt sind. Bei falscher statischer Konfiguration kann der Controller im Netzwerk schwer erreichbar werden."
+                     },
+                     {
+                         "id":  "network.wifi",
+                         "title":  "WLAN Client und Access Point",
+                         "category":  "Netzwerk",
+                         "body":  "Der WLAN Client verbindet den Controller mit einem vorhandenen WLAN. Der Access Point ist als Servicezugang gedacht. Passwoerter werden nicht in der WebUI angezeigt und nicht im normalen Backup exportiert. Leere Passwortfelder bedeuten: gespeichertes Passwort behalten."
+                     },
+                     {
+                         "id":  "outputs.overview",
+                         "title":  "Ausgaenge / LED-Straenge",
+                         "category":  "Ausgaenge",
+                         "body":  "Diese Seite beschreibt die vorgesehenen Platinen-Ausgaenge. In der Uebersicht bleiben nur die praktisch relevanten Zaehler: aktive Ausgaenge, Power-Gruppen, Zentralhelligkeit und laufende manuelle Tests. Deaktivierte Ausgaenge bleiben gespeichert, werden aber nicht an das LED-Backend uebergeben."
+                     },
+                     {
+                         "id":  "outputs.diagnosis",
+                         "title":  "Aktuelle Diagnose der Ausgaenge",
+                         "category":  "Ausgaenge",
+                         "body":  "Die Diagnose zeigt Status, Pixel, LED-Profil, sichere Strombegrenzung, Live-Last, Szene/Test und aktive LEDs. Ein deaktivierter Ausgang ist bewusst abgeschaltet, wird mit 0 mA angezeigt und erscheint im Dashboard ebenfalls als deaktiviert. Manuelle Tests uebersteuern die normale Szene, bis sie geloescht oder beim Verlassen der Seite beendet werden."
+                     },
+                     {
+                         "id":  "outputs.test_procedure",
+                         "title":  "LED-Ausgang testen",
+                         "category":  "Ausgaenge",
+                         "body":  "Zum Testen zuerst nur einen Ausgang aktivieren. Pixelzahl niedrig halten oder mit einem kurzen Teststrang arbeiten. Danach Kanten-Blinktest fuer Rot, Gruen, Blau und bei RGBW auch Weiss ausfuehren. Wenn Farben vertauscht sind, Farbreihenfolge korrigieren. Wenn gar nichts leuchtet, Masse, Datenrichtung, Pegelwandler, GPIO und LED-Spannung pruefen."
+                     },
+                     {
+                         "id":  "power.overview",
+                         "title":  "Leistung / Power-Limiter",
+                         "category":  "Leistung",
+                         "body":  "Der Power-Limiter schaetzt den LED-Strom und kann Helligkeit begrenzen. Er arbeitet mit Controller-Begrenzung, Power-Gruppen, Strang-Begrenzungen, Sicherheitsfaktor und Stromprofil. Die Werte sind Planungs- und Schutzwerte, keine Messung."
+                     },
+                     {
+                         "id":  "power.groups",
+                         "title":  "Power-Gruppen / Netzteile",
+                         "category":  "Leistung",
+                         "body":  "Eine Power-Gruppe entspricht typischerweise einem Netzteil oder einem gemeinsamen Leistungsbereich. Ausgaenge, die an demselben Netzteil haengen, sollten derselben Gruppe zugeordnet werden. Die Gruppenbegrenzung muss kleiner oder gleich der sicher nutzbaren Leistung des Netzteils sein."
+                     },
+                     {
+                         "id":  "power.calibration",
+                         "title":  "Stromprofil messen",
+                         "category":  "Leistung",
+                         "body":  "Die Messfunktion hilft, realistische mA/Pixel-Werte zu ermitteln. Ablauf: LED aus messen, dann definierte Anzahl LEDs in Rot, Gruen, Blau und optional Weiss schalten, Strom messen und Werte uebernehmen. Das verbessert die Schaetzung gegenueber pauschalen Standardwerten."
+                     },
+                     {
+                         "id":  "control.overview",
+                         "title":  "Steuerung",
+                         "category":  "Bedienung",
+                         "body":  "Die Steuerungsseite ist fuer direkte Bedienung gedacht: Szene starten, direkt ausschalten oder aktuelle Werte testen. Wenn KNX gleichzeitig Befehle sendet, kann der sichtbare Zustand von KNX, WebUI oder einem manuellen Test beeinflusst werden."
+                     },
+                     {
+                         "id":  "flows.overview",
+                         "title":  "Szenen und Ablaeufe",
+                         "category":  "Ablaeufe",
+                         "body":  "Ablaeufe definieren, was eine Szene optisch macht. Eine Szene ist der Speicherplatz und die KNX-/WebUI-Nummer; der Ablauf legt Start-, Haupt- und Aus-Verhalten fest. Nach groesseren Aenderungen eine Vorschau und danach einen realen Ausgangstest verwenden."
+                     },
+                     {
+                         "id":  "flows.editor",
+                         "title":  "Ablauf-Editor",
+                         "category":  "Ablaeufe",
+                         "body":  "Der Editor laedt grosse Ablaufdaten separat, um RAM zu sparen. Namen, Kopieren, Zuruecksetzen und Vorschau sind Werkzeuge zur Pflege der Szenen. Vor dem Ueberschreiben eines Ziel-Ablaufs pruefen, ob dieser bereits produktiv per KNX genutzt wird."
+                     },
+                     {
+                         "id":  "preview.overview",
+                         "title":  "Vorschau",
+                         "category":  "Ablaeufe",
+                         "body":  "Die Vorschau zeigt einen berechneten LED-Frame im Browser. Sie ersetzt keinen Hardwaretest, hilft aber beim Pruefen von Effektlogik, Richtung, Segmenten, Geschwindigkeit und Timing."
+                     },
+                     {
+                         "id":  "knx.overview",
+                         "title":  "KNX / BAOS",
+                         "category":  "KNX",
+                         "body":  "KNX/BAOS verbindet den Controller mit dem KNX-System. Die Firmware arbeitet mit festen Objektnummern und konfigurierbaren BAOS-Datenpunkten. Nach der ETS-Ersteinrichtung sollten Objektnummern nur bewusst und dokumentiert geaendert werden."
+                     },
+                     {
+                         "id":  "knx.objects",
+                         "title":  "Datenpunkte und Objekte",
+                         "category":  "KNX",
+                         "body":  "Globale Objekte steuern zentrale Funktionen wie Ein/Aus, Szene und Helligkeit. Ausgangsobjekte steuern einzelne LED-Ausgaenge. Statusobjekte melden Zustand zurueck. 0 als Datenpunktnummer bedeutet in der Regel: dieses Objekt ist deaktiviert."
+                     },
+                     {
+                         "id":  "knx.lock_force",
+                         "title":  "Sperre und Zwang",
+                         "category":  "KNX",
+                         "body":  "Sperrobjekte verhindern normale Bedienung, solange die Sperre aktiv ist. Zwangsobjekte uebersteuern normale Szenenbefehle mit einer definierten Aktion. Wichtig ist die aktive Ebene: je nach Einstellung aktiviert Wert 0 oder Wert 1 die Funktion."
+                     },
+                     {
+                         "id":  "knx.system",
+                         "title":  "KNX Systemdiagnose",
+                         "category":  "KNX",
+                         "body":  "Die KNX-Systemseite dient der Inbetriebnahme: Baudrate testen, BAOS-Firmware abfragen, Beschreibungen und Werte lesen, Status senden und Loopback testen. Diese Seite ist fuer Diagnose gedacht und sollte im Normalbetrieb nicht benoetigt werden."
+                     },
+                     {
+                         "id":  "config.backup",
+                         "title":  "Konfiguration und Backup",
+                         "category":  "System",
+                         "body":  "Vor Updates, groesseren KNX-Aenderungen und Experimenten immer ein Backup herunterladen. Ein Import ersetzt die gespeicherte Konfiguration nach Validierung. Passwortfelder fuer WLAN/AP werden im normalen Export nicht als Klartext ausgegeben."
+                     },
+                     {
+                         "id":  "update.firmware",
+                         "title":  "Firmware-Update",
+                         "category":  "Update",
+                         "body":  "Die Update-Seite prueft Online-Versionen, laedt Firmware oder akzeptiert lokale BIN-Dateien. Vor Updates am besten ein Backup speichern und LED-Ausgaenge dunkel schalten. Waehrend des Updates Stromversorgung nicht trennen."
+                     },
+                     {
+                         "id":  "update.help",
+                         "title":  "Hilfe aktualisieren",
+                         "category":  "Hilfe",
+                         "body":  "Die Hilfe ist getrennt von der Firmware aktualisierbar. Die eingebaute Hilfe ist immer vorhanden. Wenn Internetzugang besteht, kann die WebUI die aktuelle Sprachdatei aus releases/firmware/klc/help laden und lokal in LittleFS speichern."
+                     },
+                     {
+                         "id":  "diagnostics.system",
+                         "title":  "Systemdiagnose",
+                         "category":  "Diagnose",
+                         "body":  "Die Systemseite zeigt Firmwareprofil, Netzwerk, Speicher, LED-Backend, Power-Limiter, KNX/BAOS, OTA und Diagnose. Bei Fehlern zuerst den betroffenen Block oeffnen, danach Support-Snapshot erzeugen."
+                     },
+                     {
+                         "id":  "diagnostics.support",
+                         "title":  "Support-Snapshot",
+                         "category":  "Diagnose",
+                         "body":  "Der Support-Snapshot sammelt Profil, Version, Pins, Netzwerk, OTA, Speicher und letzte Ereignisse. Bei Rueckfragen diesen Snapshot kopieren, weil er deutlich genauer ist als eine Beschreibung aus dem Kopf."
+                     },
+                     {
+                         "id":  "diagnostics.troubleshooting",
+                         "title":  "Fehlersuche",
+                         "category":  "Diagnose",
+                         "body":  "LEDs bleiben dunkel: Ausgang aktiv, Pixelzahl, GPIO, Masse, Datenrichtung, Pegelwandler, LED-Spannung und Farbreihenfolge pruefen. KNX reagiert nicht: BAOS bereit, Baudrate, Datenpunkte, Objektmapping und Sperre/Zwang pruefen. Update geht nicht: Netzwerk, DNS, Updatepfad, Profil und freien Speicher pruefen."
+                     }
+                 ],
+    "fields":  [
+                   {
+                       "id":  "ui.language",
+                       "page":  "System",
+                       "label":  "Sprache",
+                       "short":  "Waehlt die Sprache der WebUI und der Hilfe.",
+                       "details":  "Die Hilfe-Seite laedt die passende Datei help_de.json, help_en.json, help_fr.json, help_es.json, help_it.json, help_nl.json oder help_pl.json."
+                   },
+                   {
+                       "id":  "ui.view_mode",
+                       "page":  "System",
+                       "label":  "Ansicht",
+                       "short":  "Schaltet zwischen normaler und erweiterter Bedienung.",
+                       "details":  "Expertenbereiche wie LED, Steuerung, KNX und tiefe Diagnose koennen ausgeblendet werden, damit der normale Betrieb uebersichtlich bleibt."
+                   },
+                   {
+                       "id":  "network.device_name",
+                       "page":  "Netzwerk",
+                       "label":  "Geraetename",
+                       "short":  "Freier Name zur Wiedererkennung des Controllers.",
+                       "details":  "Der Name hilft in Backups, Support-Snapshots und bei mehreren Controllern im selben Projekt."
+                   },
+                   {
+                       "id":  "network.hostname",
+                       "page":  "Netzwerk",
+                       "label":  "Hostname",
+                       "short":  "Netzwerkname des Controllers.",
+                       "details":  "Nur Zeichen verwenden, die im lokalen Netzwerk sauber aufgeloest werden. Nach Aenderung ist meist ein Neustart sinnvoll."
+                   },
+                   {
+                       "id":  "network.eth_enabled",
+                       "page":  "Netzwerk",
+                       "label":  "Ethernet aktiv",
+                       "short":  "Schaltet die W5500-Ethernet-Schnittstelle ein oder aus.",
+                       "details":  "Ethernet sollte aktiv bleiben, wenn kein sicherer alternativer Zugang eingerichtet ist."
+                   },
+                   {
+                       "id":  "network.dhcp",
+                       "page":  "Netzwerk",
+                       "label":  "DHCP",
+                       "short":  "IP-Adresse automatisch vom Router beziehen.",
+                       "details":  "Empfohlen fuer die meisten Installationen. Statische Adressen nur verwenden, wenn Netzwerkdaten sicher bekannt sind."
+                   },
+                   {
+                       "id":  "network.static_ip",
+                       "page":  "Netzwerk",
+                       "label":  "Statische IP",
+                       "short":  "Feste IP-Adresse fuer den Controller.",
+                       "details":  "Nur wirksam, wenn DHCP ausgeschaltet ist. Muss zum Subnetz passen und darf nicht doppelt vergeben sein."
+                   },
+                   {
+                       "id":  "network.gateway",
+                       "page":  "Netzwerk",
+                       "label":  "Gateway",
+                       "short":  "Router-Adresse fuer Verbindungen ins Internet.",
+                       "details":  "Ohne korrektes Gateway funktionieren Online-Update und Hilfe-Download nicht."
+                   },
+                   {
+                       "id":  "network.dns",
+                       "page":  "Netzwerk",
+                       "label":  "DNS",
+                       "short":  "Nameserver fuer Internet-Adressen.",
+                       "details":  "Ohne DNS kann der Controller raw.githubusercontent.com nicht aufloesen."
+                   },
+                   {
+                       "id":  "network.wifi_ssid",
+                       "page":  "Netzwerk",
+                       "label":  "WLAN SSID",
+                       "short":  "Name des WLANs fuer den Client-Modus.",
+                       "details":  "Nur beim W-Build verfuegbar. Schreibweise muss exakt zum WLAN passen."
+                   },
+                   {
+                       "id":  "network.wifi_password",
+                       "page":  "Netzwerk",
+                       "label":  "WLAN Passwort",
+                       "short":  "Passwort fuer den WLAN Client.",
+                       "details":  "Leeres Feld bedeutet: gespeichertes Passwort behalten. Das Passwort wird nicht im Standard-Backup exportiert."
+                   },
+                   {
+                       "id":  "network.ap_enabled",
+                       "page":  "Netzwerk",
+                       "label":  "Access Point aktiv",
+                       "short":  "Startet einen lokalen Servicezugang.",
+                       "details":  "Der AP ist praktisch fuer Wartung, sollte aber bewusst abgesichert und dokumentiert werden."
+                   },
+                   {
+                       "id":  "network.priority",
+                       "page":  "Netzwerk",
+                       "label":  "Ausgehende Route",
+                       "short":  "Prioritaet fuer Verbindungen nach aussen.",
+                       "details":  "Betrifft Online-Update, Hilfe-Download und andere ausgehende HTTP-Verbindungen. Automatisch oder Ethernet zuerst ist meist sinnvoll."
+                   },
+                   {
+                       "id":  "outputs.name",
+                       "page":  "Ausgaenge",
+                       "label":  "Name",
+                       "short":  "Anzeigename des LED-Ausgangs.",
+                       "details":  "Sprechende Namen wie Decke, Wand links oder Vitrine erleichtern Diagnose, KNX-Zuordnung und Support."
+                   },
+                   {
+                       "id":  "outputs.enabled",
+                       "page":  "Ausgaenge",
+                       "label":  "Aktiv",
+                       "short":  "Schaltet einen LED-Ausgang logisch ein oder aus.",
+                       "details":  "Deaktiviert bedeutet: Werte bleiben gespeichert, aber der Ausgang wird nicht real ausgegeben und in der Diagnose als deaktiviert angezeigt."
+                   },
+                   {
+                       "id":  "outputs.pixels",
+                       "page":  "Ausgaenge",
+                       "label":  "Pixel",
+                       "short":  "Anzahl der LEDs am physischen Strang.",
+                       "details":  "Der Wert muss zur realen LED-Anzahl passen. Falsche Werte fuehren zu abgeschnittenen Effekten, falscher Stromschaetzung oder unpassender Vorschau."
+                   },
+                   {
+                       "id":  "outputs.string_segment_count",
+                       "page":  "Ausgaenge",
+                       "label":  "Gleich grosse String-Segmente",
+                       "short":  "Teilt einen physischen Strang in gleich grosse Wiederholungen.",
+                       "details":  "1 bedeutet normaler Strang. Mehr Segmente sind hilfreich, wenn derselbe Effekt auf mehreren gleich langen Abschnitten wiederholt werden soll."
+                   },
+                   {
+                       "id":  "outputs.pixel_offset",
+                       "page":  "Ausgaenge",
+                       "label":  "LED-Versatz",
+                       "short":  "Verschiebt den gefuehlten Startpunkt des Ausgangs.",
+                       "details":  "Nuetzlich zur Korrektur von Stossstellen, Mitte oder Laufrichtung. Der erlaubte Bereich ist begrenzt, damit die Einstellung nicht versehentlich extreme Verschiebungen erzeugt."
+                   },
+                   {
+                       "id":  "outputs.power_on_mode",
+                       "page":  "Ausgaenge",
+                       "label":  "Nach Stromunterbrechung",
+                       "short":  "Legt das Verhalten nach Neustart oder Stromausfall fest.",
+                       "details":  "Aus bleibt dunkel. Letzte Einstellung stellt den zuletzt bekannten Zustand wieder her. Feste Szene startet immer die gewaehlte Szene."
+                   },
+                   {
+                       "id":  "outputs.power_on_scene",
+                       "page":  "Ausgaenge",
+                       "label":  "Feste Szene",
+                       "short":  "Szene, die nach Stromunterbrechung gestartet wird.",
+                       "details":  "Nur relevant, wenn Nach Stromunterbrechung auf Feste Szene steht."
+                   },
+                   {
+                       "id":  "outputs.chipset",
+                       "page":  "Ausgaenge",
+                       "label":  "LED-Chip",
+                       "short":  "Timingprofil des verbauten LED-Strips.",
+                       "details":  "Muss zum Strip passen. Falsches Timing kann zu Flackern, falschen Farben oder gar keiner Ausgabe fuehren."
+                   },
+                   {
+                       "id":  "outputs.type",
+                       "page":  "Ausgaenge",
+                       "label":  "LED-Farben",
+                       "short":  "RGB oder RGBW pro LED.",
+                       "details":  "RGBW sendet einen zusaetzlichen Weisskanal. Der Wert muss zur realen LED passen."
+                   },
+                   {
+                       "id":  "outputs.color_order",
+                       "page":  "Ausgaenge",
+                       "label":  "Farbreihenfolge",
+                       "short":  "Korrigiert vertauschte Farbkanale.",
+                       "details":  "Wenn Rot, Gruen oder Blau beim Test falsch angezeigt werden, hier die Reihenfolge anpassen."
+                   },
+                   {
+                       "id":  "outputs.edge_blink",
+                       "page":  "Ausgaenge",
+                       "label":  "Anfang/Ende blinken",
+                       "short":  "Testet erste und letzte LED eines Ausgangs.",
+                       "details":  "Damit lassen sich Datenrichtung, Strangende, Farbreihenfolge und physische Zuordnung schnell pruefen."
+                   },
+                   {
+                       "id":  "outputs.power_group",
+                       "page":  "Ausgaenge",
+                       "label":  "Power-Gruppe",
+                       "short":  "Ordnet den Ausgang einem Netzteil-/Leistungsbereich zu.",
+                       "details":  "Ausgaenge am selben Netzteil sollten dieselbe Power-Gruppe verwenden."
+                   },
+                   {
+                       "id":  "outputs.limit_ma",
+                       "page":  "Ausgaenge",
+                       "label":  "Strang-Begrenzung mA",
+                       "short":  "Maximal erlaubter Strom fuer diesen Ausgang.",
+                       "details":  "Der Power-Limiter verwendet diesen Wert fuer Warnungen und Dimmung. Wert passend zur Verkabelung und Einspeisung waehlen."
+                   },
+                   {
+                       "id":  "outputs.max_brightness",
+                       "page":  "Ausgaenge",
+                       "label":  "Max. Helligkeit",
+                       "short":  "Begrenzt die Helligkeit eines Ausgangs.",
+                       "details":  "0 bleibt dunkel, 255 ist volle Helligkeit. Niedrigere Werte reduzieren alle Farben dieses Ausgangs."
+                   },
+                   {
+                       "id":  "outputs.manual_tests",
+                       "page":  "Ausgaenge",
+                       "label":  "Manuelle Tests aktiv",
+                       "short":  "Anzahl aktuell laufender manueller Farb- oder Kanten-Tests.",
+                       "details":  "0 bedeutet: kein Ausgang wird gerade durch einen manuellen Test uebersteuert. Bei aktiven Tests normale Szenen erst nach Testende bewerten."
+                   },
+                   {
+                       "id":  "power.global_brightness",
+                       "page":  "Leistung",
+                       "label":  "Zentralhelligkeit",
+                       "short":  "Globale Helligkeitsbegrenzung 0 bis 255.",
+                       "details":  "Wirkt als zentrale Dimmung. 255 ist volle Helligkeit; 0 macht die Ausgabe dunkel."
+                   },
+                   {
+                       "id":  "power.controller_limit_ma",
+                       "page":  "Leistung",
+                       "label":  "Controller-Begrenzung mA",
+                       "short":  "Gesamtstromgrenze fuer den Controller.",
+                       "details":  "Sollte zur sicher nutzbaren Gesamtleistung passen. Der Wert ist eine Softwaregrenze und keine elektrische Sicherung."
+                   },
+                   {
+                       "id":  "power.idle_ma",
+                       "page":  "Leistung",
+                       "label":  "Basisstrom mA",
+                       "short":  "Fester, nicht dimmbarer Stromanteil.",
+                       "details":  "Typisch aus Messung alle LEDs aus. Wird bei der Gesamtbegrenzung mitgezaehlt."
+                   },
+                   {
+                       "id":  "power.safety_percent",
+                       "page":  "Leistung",
+                       "label":  "Safety %",
+                       "short":  "Sicherheitsfaktor fuer Stromlimits.",
+                       "details":  "Reduziert nutzbare Limits, damit Reserve fuer Messungenauigkeit, Temperatur und Netzteilalterung bleibt."
+                   },
+                   {
+                       "id":  "power.rgbw_ma_per_pixel",
+                       "page":  "Leistung",
+                       "label":  "R/G/B/W mA pro Pixel",
+                       "short":  "Strommodell fuer die einzelnen Farbkanale.",
+                       "details":  "Je genauer diese Werte sind, desto besser passt die Stromschaetzung. Idealerweise ueber die Messfunktion ermitteln."
+                   },
+                   {
+                       "id":  "power.standby_ma_per_pixel",
+                       "page":  "Leistung",
+                       "label":  "Standby mA/LED",
+                       "short":  "Ruhestrom pro LED.",
+                       "details":  "Nur verwenden, wenn dieser Anteil nicht bereits im Basisstrom enthalten ist, sonst wird er doppelt gezaehlt."
+                   },
+                   {
+                       "id":  "power.group_count",
+                       "page":  "Leistung",
+                       "label":  "Aktive Power-Gruppen",
+                       "short":  "Anzahl der verwendeten Netzteilgruppen.",
+                       "details":  "Nur so viele Gruppen aktivieren, wie wirklich benoetigt werden."
+                   },
+                   {
+                       "id":  "power.group_limit_ma",
+                       "page":  "Leistung",
+                       "label":  "Power-Gruppe Begrenzung mA",
+                       "short":  "Stromgrenze fuer eine Gruppe.",
+                       "details":  "Muss zur Absicherung und zum Netzteil dieser Gruppe passen."
+                   },
+                   {
+                       "id":  "power.calibration_output",
+                       "page":  "Leistung",
+                       "label":  "Test-Ausgang",
+                       "short":  "Ausgang fuer die Stromprofilmessung.",
+                       "details":  "Einen gut erreichbaren Ausgang mit bekannter LED-Anzahl waehlen."
+                   },
+                   {
+                       "id":  "power.calibration_count",
+                       "page":  "Leistung",
+                       "label":  "Mess-LEDs",
+                       "short":  "Anzahl LEDs, die fuer die Messung geschaltet werden.",
+                       "details":  "Nicht mehr LEDs messen, als sicher vom Netzteil und Messaufbau versorgt werden koennen."
+                   },
+                   {
+                       "id":  "flows.scene_name",
+                       "page":  "Ablaeufe",
+                       "label":  "Name",
+                       "short":  "Anzeigename einer Szene oder eines Ablaufs.",
+                       "details":  "Sprechende Namen erleichtern KNX-Zuordnung und Bedienung."
+                   },
+                   {
+                       "id":  "flows.copy",
+                       "page":  "Ablaeufe",
+                       "label":  "Ausgewaehlten Ablauf kopieren nach",
+                       "short":  "Dupliziert einen Ablauf auf einen Zielplatz.",
+                       "details":  "Der Ziel-Ablauf wird ueberschrieben. Vorher pruefen, ob er produktiv verwendet wird."
+                   },
+                   {
+                       "id":  "flows.reset",
+                       "page":  "Ablaeufe",
+                       "label":  "Ablauf zuruecksetzen",
+                       "short":  "Setzt den ausgewaehlten Ablauf auf Werkstandard.",
+                       "details":  "Nur den gewaehlten Ablauf zuruecksetzen, danach Vorschau und realen Test ausfuehren."
+                   },
+                   {
+                       "id":  "knx.enabled",
+                       "page":  "KNX",
+                       "label":  "KNX aktiv",
+                       "short":  "Aktiviert die KNX/BAOS-Verarbeitung.",
+                       "details":  "Wenn ausgeschaltet, werden KNX-Befehle ignoriert und keine Statuswerte gesendet."
+                   },
+                   {
+                       "id":  "knx.baudrate",
+                       "page":  "KNX",
+                       "label":  "Baudrate",
+                       "short":  "UART-Geschwindigkeit zum BAOS-Modul.",
+                       "details":  "Muss zum BAOS-Modul passen. Bei Problemen Auto-Baud oder Systemdiagnose verwenden."
+                   },
+                   {
+                       "id":  "knx.status_send_mode",
+                       "page":  "KNX",
+                       "label":  "Status senden",
+                       "short":  "Legt fest, wann Statusobjekte auf den Bus gesendet werden.",
+                       "details":  "Passiv sendet nur manuell/auf Abfrage. Aenderung sendet bei Zustandsaenderungen. Zeit sendet zyklisch. Kombination nutzt beides."
+                   },
+                   {
+                       "id":  "knx.status_interval",
+                       "page":  "KNX",
+                       "label":  "Status-Intervall",
+                       "short":  "Zeit zwischen zyklischen Statusmeldungen.",
+                       "details":  "Zu kurze Intervalle koennen den Bus unnoetig belasten. 0 ist hier nicht als normaler Zykluswert gedacht."
+                   },
+                   {
+                       "id":  "knx.object_number",
+                       "page":  "KNX",
+                       "label":  "BAOS-Datenpunktnummer",
+                       "short":  "Nummer des Datenpunkts oder Objekts.",
+                       "details":  "0 bedeutet meist deaktiviert. Nach ETS-Ersteinrichtung nur bewusst aendern."
+                   },
+                   {
+                       "id":  "knx.central_switch",
+                       "page":  "KNX",
+                       "label":  "Zentral Ein/Aus",
+                       "short":  "KNX-Objekt fuer zentralen Schaltbefehl.",
+                       "details":  "Wert 0 schaltet direkt aus, Wert 1 startet den Ein-Zustand."
+                   },
+                   {
+                       "id":  "knx.central_scene",
+                       "page":  "KNX",
+                       "label":  "Zentrale Szenenwahl",
+                       "short":  "Startet eine Szene ueber KNX.",
+                       "details":  "Der empfangene Wert wird auf die entsprechende Szene abgebildet."
+                   },
+                   {
+                       "id":  "knx.central_brightness",
+                       "page":  "KNX",
+                       "label":  "Zentrale Helligkeit",
+                       "short":  "Helligkeitswert 0 bis 255.",
+                       "details":  "Kann die WebUI- oder Szenenhelligkeit zentral beeinflussen."
+                   },
+                   {
+                       "id":  "knx.central_color",
+                       "page":  "KNX",
+                       "label":  "Zentrale Farbe R/G/B/W",
+                       "short":  "Direkte Farbkomponenten 0 bis 255.",
+                       "details":  "Bei RGB-Ausgaengen wird Weiss ignoriert oder passend verarbeitet, je nach Runtime-Logik."
+                   },
+                   {
+                       "id":  "knx.output_switch",
+                       "page":  "KNX",
+                       "label":  "Ausgang Ein/Aus",
+                       "short":  "Schaltobjekt fuer einen einzelnen Ausgang.",
+                       "details":  "Wirkt nur auf den zugeordneten Ausgang und kann durch Sperre/Zwang uebersteuert werden."
+                   },
+                   {
+                       "id":  "knx.output_scene",
+                       "page":  "KNX",
+                       "label":  "Ausgang Szene",
+                       "short":  "Szenenwahl fuer einen einzelnen Ausgang.",
+                       "details":  "Nuetzlich, wenn verschiedene Ausgaenge unabhaengig gesteuert werden sollen."
+                   },
+                   {
+                       "id":  "knx.lock_object",
+                       "page":  "KNX",
+                       "label":  "Sperrobjekt",
+                       "short":  "Sperrt normale Bedienung eines Ausgangs.",
+                       "details":  "Aktive Ebene beachten: je nach Einstellung sperrt Wert 0 oder Wert 1."
+                   },
+                   {
+                       "id":  "knx.force_object",
+                       "page":  "KNX",
+                       "label":  "Zwangsobjekt",
+                       "short":  "Erzwingt eine definierte Aktion.",
+                       "details":  "Zwang uebersteuert normale Szenenbefehle, solange er aktiv ist."
+                   },
+                   {
+                       "id":  "knx.lock_force_action",
+                       "page":  "KNX",
+                       "label":  "Aktion bei Sperre/Zwang",
+                       "short":  "Legt fest, was bei aktivem oder inaktivem Objekt passiert.",
+                       "details":  "Typische Aktionen sind Aus, Ein oder keine Aenderung. Vor produktiver Nutzung mit ETS-Gruppenadressen testen."
+                   },
+                   {
+                       "id":  "update.beta_program",
+                       "page":  "Update",
+                       "label":  "Beta-Versionen",
+                       "short":  "Erlaubt Testversionen.",
+                       "details":  "Nur bewusst aktivieren. Beta-Versionen koennen neue Funktionen, aber auch Fehler enthalten."
+                   },
+                   {
+                       "id":  "update.auto_check",
+                       "page":  "Update",
+                       "label":  "Automatisch suchen",
+                       "short":  "Prueft online auf neue Firmware.",
+                       "details":  "Benoetigt funktionierende Internetverbindung, DNS und passenden Updatepfad."
+                   },
+                   {
+                       "id":  "update.auto_install",
+                       "page":  "Update",
+                       "label":  "Automatisch installieren",
+                       "short":  "Installiert gefundene Updates ohne weiteren Klick.",
+                       "details":  "Praktisch, aber bei Testversionen riskant. Fuer produktive Installationen sehr bewusst einsetzen."
+                   },
+                   {
+                       "id":  "update.local_upload",
+                       "page":  "Update",
+                       "label":  "Lokale BIN-Datei",
+                       "short":  "Firmware-Datei aus dem Browser hochladen.",
+                       "details":  "Nur passende Firmware fuer dieses Profil verwenden. Vorher Backup herunterladen."
+                   },
+                   {
+                       "id":  "help.search",
+                       "page":  "Hilfe",
+                       "label":  "Hilfe durchsuchen",
+                       "short":  "Durchsucht Titel, Seiten, Kurztexte und Details.",
+                       "details":  "Geeignet fuer Begriffe wie Pixel, KNX, Gateway, Zwang, Backup, Update oder manuelle Tests."
+                   },
+                   {
+                       "id":  "help.download",
+                       "page":  "Hilfe",
+                       "label":  "Hilfe aktualisieren",
+                       "short":  "Laedt die aktuelle Hilfe-Datei fuer die aktive Sprache.",
+                       "details":  "Der Controller speichert die Datei lokal in LittleFS. Ohne Internet bleibt die eingebaute Hilfe verfuegbar."
+                   },
+                   {
+                       "id":  "config.backup_download",
+                       "page":  "Konfiguration",
+                       "label":  "Backup herunterladen",
+                       "short":  "Speichert die aktuelle Konfiguration als JSON.",
+                       "details":  "Vor Updates, KNX-Umbauten und groesseren Tests immer ein Backup erstellen."
+                   },
+                   {
+                       "id":  "config.import",
+                       "page":  "Konfiguration",
+                       "label":  "Backup importieren",
+                       "short":  "Spielt eine gespeicherte Konfiguration ein.",
+                       "details":  "Die Datei wird validiert. Trotzdem vorher pruefen, ob sie zum Firmwareprofil und zur Installation passt."
+                   },
+                   {
+                       "id":  "events.clear",
+                       "page":  "Ereignisse",
+                       "label":  "Ereignisse loeschen",
+                       "short":  "Leert die Ereignisliste.",
+                       "details":  "Nur nach Dokumentation oder Support-Snapshot loeschen, sonst gehen wichtige Diagnosehinweise verloren."
+                   },
+                   {
+                       "id":  "network.fallback_enabled",
+                       "page":  "Netzwerk",
+                       "label":  "Fallback-IP aktiv",
+                       "short":  "Aktiviert eine Ersatz-IP, falls die normale Netzwerkkonfiguration nicht erreichbar ist.",
+                       "details":  "Hilft bei DHCP-/IP-Problemen. Die Fallback-Adresse muss im lokalen Wartungsnetz erreichbar sein und darf keine produktive Adresse doppelt belegen."
+                   },
+                   {
+                       "id":  "network.fallback_ip",
+                       "page":  "Netzwerk",
+                       "label":  "Fallback IP",
+                       "short":  "Ersatzadresse fuer den Notfallzugang.",
+                       "details":  "Nur nutzen, wenn die Adresse bewusst zum Service-Netz passt. Nach erfolgreicher Reparatur der Hauptkonfiguration pruefen, ob Fallback weiter benoetigt wird."
+                   },
+                   {
+                       "id":  "network.fallback_gateway",
+                       "page":  "Netzwerk",
+                       "label":  "Fallback Gateway",
+                       "short":  "Router-Adresse fuer den Fallback-Modus.",
+                       "details":  "Fuer reinen lokalen Wartungszugang kann Gateway leer oder ungenutzt sein. Fuer Online-Update/Hilfe muss es korrekt sein."
+                   },
+                   {
+                       "id":  "network.fallback_subnet",
+                       "page":  "Netzwerk",
+                       "label":  "Fallback Subnetz",
+                       "short":  "Netzmaske der Fallback-Adresse.",
+                       "details":  "Muss zur Fallback-IP und zum Wartungsnetz passen."
+                   },
+                   {
+                       "id":  "network.fallback_dns",
+                       "page":  "Netzwerk",
+                       "label":  "Fallback DNS",
+                       "short":  "Nameserver im Fallback-Modus.",
+                       "details":  "Nur relevant, wenn der Controller im Fallback-Modus Internetnamen aufloesen soll."
+                   },
+                   {
+                       "id":  "network.ap_ip",
+                       "page":  "Netzwerk",
+                       "label":  "AP-IP",
+                       "short":  "IP-Adresse des Controller-Access-Points.",
+                       "details":  "Diese Adresse wird verwendet, wenn sich ein Servicegeraet direkt mit dem Controller-AP verbindet."
+                   },
+                   {
+                       "id":  "network.ap_ssid",
+                       "page":  "Netzwerk",
+                       "label":  "AP-SSID",
+                       "short":  "WLAN-Name des lokalen Service-Access-Points.",
+                       "details":  "Soll eindeutig sein, damit mehrere Controller vor Ort nicht verwechselt werden."
+                   },
+                   {
+                       "id":  "network.ap_password",
+                       "page":  "Netzwerk",
+                       "label":  "AP-Passwort",
+                       "short":  "Passwort fuer den Service-Access-Point.",
+                       "details":  "Leeres Feld behaelt das gespeicherte Passwort. WPA2-Passwoerter muessen mindestens 8 Zeichen haben; leer kann je nach Firmware als offener Service-AP interpretiert werden."
+                   },
+                   {
+                       "id":  "flows.selected_scene",
+                       "page":  "Ablaeufe",
+                       "label":  "Ablauf auswaehlen",
+                       "short":  "Waehlt den Szenen-/Ablaufplatz, der bearbeitet wird.",
+                       "details":  "Aenderungen beziehen sich immer auf den aktuell ausgewaehlten Ablauf. Vor dem Kopieren oder Zuruecksetzen den richtigen Platz pruefen."
+                   },
+                   {
+                       "id":  "flows.preview_time",
+                       "page":  "Vorschau",
+                       "label":  "Zeitposition im Ablauf",
+                       "short":  "Zeigt einen bestimmten Zeitpunkt des Ablaufs.",
+                       "details":  "Hilft, Aufbau, Hauptphase und Ausblendung gezielt zu pruefen."
+                   },
+                   {
+                       "id":  "flows.preview_speed",
+                       "page":  "Vorschau",
+                       "label":  "Vorschau-Tempo",
+                       "short":  "Geschwindigkeit der Browser-Vorschau.",
+                       "details":  "Beeinflusst nur die Vorschau im Browser, nicht zwingend die reale LED-Ausgabe."
+                   },
+                   {
+                       "id":  "flows.sync_mode",
+                       "page":  "Ablaeufe",
+                       "label":  "Globale Lauflicht-/Wellen-Synchronisation",
+                       "short":  "Legt fest, wie mehrere Ausgaenge zeitlich zusammenlaufen.",
+                       "details":  "Start/Stopp synchronisiert Beginn und Ende. Runtime nutzt gleiche Schrittzeit je Pixel, wodurch kurze Straenge frueher fertig sein koennen."
+                   },
+                   {
+                       "id":  "flows.pixel_mode",
+                       "page":  "Ablaeufe",
+                       "label":  "Betroffene LEDs",
+                       "short":  "Bestimmt, ob Füllwerte prozentual oder absolut interpretiert werden.",
+                       "details":  "Prozent passt sich an unterschiedliche Ausgangslaengen an. Absolut nutzt feste LED-Anzahlen und wird pro Ausgang begrenzt."
+                   },
+                   {
+                       "id":  "flows.lit_percent",
+                       "page":  "Ablaeufe",
+                       "label":  "# Pixel / Füllgrad",
+                       "short":  "Bestimmt, wie viele LEDs vom Effekt betroffen sind.",
+                       "details":  "Je nach Pixelmodus als Prozentwert oder absolute Pixelanzahl zu verstehen."
+                   },
+                   {
+                       "id":  "flows.phase_effect",
+                       "page":  "Ablaeufe",
+                       "label":  "Start-/Ein-/Aus-Effekt",
+                       "short":  "Waehlt den Effekt fuer eine Ablaufphase.",
+                       "details":  "Start ist der Aufbau, Ein/Hauptphase der dauerhafte Zustand, Aus die Abblend-/Abbauphase."
+                   },
+                   {
+                       "id":  "flows.phase_duration",
+                       "page":  "Ablaeufe",
+                       "label":  "Start-/Haupt-/Aus-Dauer",
+                       "short":  "Dauer oder Rampe einer Ablaufphase in Millisekunden.",
+                       "details":  "Kleine Werte wirken hart und schnell, groessere Werte weicher. Bei sehr langen LED-Strips reale Ausgabe testen."
+                   },
+                   {
+                       "id":  "flows.phase_fill",
+                       "page":  "Ablaeufe",
+                       "label":  "Start-/Ein-/Aus-Füllgrad",
+                       "short":  "Füllgrad einer Phase.",
+                       "details":  "Steuert, wie breit oder voll ein Effekt innerhalb der Phase erscheint."
+                   },
+                   {
+                       "id":  "flows.step_ms",
+                       "page":  "Ablaeufe",
+                       "label":  "Schrittzeit ms",
+                       "short":  "Zeit zwischen Bewegungsschritten.",
+                       "details":  "Kleinere Werte laufen schneller. Zu kleine Werte koennen bei langen Ablaeufen unruhig wirken."
+                   },
+                   {
+                       "id":  "flows.pulse_period",
+                       "page":  "Ablaeufe",
+                       "label":  "Puls-/Blinkperiode ms",
+                       "short":  "Periodendauer fuer Puls- oder Blinkeffekte.",
+                       "details":  "Bestimmt, wie schnell ein Effekt heller/dunkler wird oder blinkt."
+                   },
+                   {
+                       "id":  "flows.transition_duration",
+                       "page":  "Ablaeufe",
+                       "label":  "Uebergangs-Dauer ms",
+                       "short":  "Zeit fuer weiche Uebergaenge.",
+                       "details":  "Groessere Werte reduzieren harte Spruenge zwischen Zustaenden."
+                   },
+                   {
+                       "id":  "flows.channel_delay",
+                       "page":  "Ablaeufe",
+                       "label":  "Start-/Stopp-Versatz je Kanal",
+                       "short":  "Zeitlicher Versatz zwischen Farb- oder Segmentkanaelen.",
+                       "details":  "Erzeugt gestaffelte Bewegungen. Sehr hohe Werte koennen den Effekt schwer vorhersehbar machen."
+                   },
+                   {
+                       "id":  "flows.segment_size",
+                       "page":  "Ablaeufe",
+                       "label":  "Segment LEDs",
+                       "short":  "Blockgroesse in LEDs fuer Segmentleuchten.",
+                       "details":  "Getrennte Werte fuer Start, Ein und Aus erlauben veraendernde Segmentbreiten im Ablauf."
+                   },
+                   {
+                       "id":  "flows.segment_soft_edge",
+                       "page":  "Ablaeufe",
+                       "label":  "Weiche Kante LEDs",
+                       "short":  "Anzahl LEDs fuer sanftes Ausblenden am Segmentrand.",
+                       "details":  "0 ist eine harte Kante. Groessere Werte erzeugen weichere Uebergaenge."
+                   },
+                   {
+                       "id":  "flows.tail_percent",
+                       "page":  "Ablaeufe",
+                       "label":  "Nachleuchten %",
+                       "short":  "Laenge des Schweifs oder Nachleuchtbereichs.",
+                       "details":  "Der helle Kopf und der weiche Schweif ergeben zusammen die sichtbare Laenge."
+                   },
+                   {
+                       "id":  "flows.sparkle_speed",
+                       "page":  "Ablaeufe",
+                       "label":  "Funkel Geschwindigkeit ms",
+                       "short":  "Geschwindigkeit fuer Funkel-/Sparkle-Effekte.",
+                       "details":  "Kleinere Werte erzeugen mehr Aktivitaet. Mit Lebenszeit und Füllgrad zusammen abstimmen."
+                   },
+                   {
+                       "id":  "flows.sparkle_fill",
+                       "page":  "Ablaeufe",
+                       "label":  "Funkel Füllgrad %",
+                       "short":  "Dichte der Funkel-Pixel.",
+                       "details":  "Hohe Werte wirken dichter und heller, koennen aber Stromschaetzung und Wahrnehmung stark veraendern."
+                   },
+                   {
+                       "id":  "flows.sparkle_lifetime",
+                       "page":  "Ablaeufe",
+                       "label":  "Funkel Lebenszeit ms",
+                       "short":  "Wie lange einzelne Funkel-Punkte sichtbar bleiben.",
+                       "details":  "Kurze Lebenszeit wirkt hektisch, lange Lebenszeit ruhiger."
+                   },
+                   {
+                       "id":  "flows.tetris_group",
+                       "page":  "Ablaeufe",
+                       "label":  "Tetris Gruppe min./max",
+                       "short":  "Groesse der Tetris-Bausteine.",
+                       "details":  "Min und Max legen den Zufallsbereich fest. Min sollte nie groesser als Max sein."
+                   },
+                   {
+                       "id":  "flows.tetris_gap",
+                       "page":  "Ablaeufe",
+                       "label":  "Tetris Abstand",
+                       "short":  "Abstand zwischen Tetris-Bausteinen.",
+                       "details":  "Groessere Abstaende machen einzelne Bloecke deutlicher, verringern aber die sichtbare Fuellung."
+                   },
+                   {
+                       "id":  "flows.tetris_direction",
+                       "page":  "Ablaeufe",
+                       "label":  "Tetris Richtung",
+                       "short":  "Richtung oder Spiegelung des Tetris-Aufbaus.",
+                       "details":  "Richtung umdrehen, Mitte spiegeln und Zufallsrichtung koennen je Phase getrennt gesetzt werden."
+                   },
+                   {
+                       "id":  "flows.tetris_teardown",
+                       "page":  "Ablaeufe",
+                       "label":  "Tetris Abbauart",
+                       "short":  "Legt fest, wie aufgebaute Bloecke wieder verschwinden.",
+                       "details":  "Je nach Modus reverse, zufaellig, wipe oder weicher Abbau. In der Vorschau und real testen."
+                   },
+                   {
+                       "id":  "flows.tetris_random_timing",
+                       "page":  "Ablaeufe",
+                       "label":  "Zufalls-Fallzeit / Pause",
+                       "short":  "Zufallsbereiche fuer Tetris-Timing.",
+                       "details":  "Min/Max-Werte erzeugen organischere Bewegung. Extreme Bereiche koennen den Effekt schwer planbar machen."
+                   },
+                   {
+                       "id":  "flows.tetris2_next_preview",
+                       "page":  "Ablaeufe",
+                       "label":  "Tetris_2 Next-Preview",
+                       "short":  "Zeigt den naechsten Baustein als Vorschau.",
+                       "details":  "Optischer Zusatz fuer Tetris_2. Erhoeht die Komplexitaet des Effekts."
+                   },
+                   {
+                       "id":  "flows.tetris2_sync_segments",
+                       "page":  "Ablaeufe",
+                       "label":  "Tetris_2 Segmente synchronisieren",
+                       "short":  "Synchronisiert Tetris_2 ueber Segmente.",
+                       "details":  "Sinnvoll bei gleich grossen String-Segmenten oder symmetrischen Installationen."
+                   },
+                   {
+                       "id":  "flows.tetris2_block_size",
+                       "page":  "Ablaeufe",
+                       "label":  "Tetris_2 Blockgroesse min./max",
+                       "short":  "Zufallsbereich der Tetris_2-Blockgroesse.",
+                       "details":  "Kleinere Bloecke wirken feiner, groessere Bloecke ruhiger und massiver."
+                   },
+                   {
+                       "id":  "flows.tetris2_speed",
+                       "page":  "Ablaeufe",
+                       "label":  "Tetris_2 Geschwindigkeit min./max mm/s",
+                       "short":  "Physikalisch gedachte Geschwindigkeit fuer Tetris_2.",
+                       "details":  "Zusammen mit Pixel/Meter wird daraus die sichtbare Bewegungsgeschwindigkeit berechnet."
+                   },
+                   {
+                       "id":  "flows.tetris2_pixels_per_meter",
+                       "page":  "Ablaeufe",
+                       "label":  "Tetris_2 Pixel/Meter",
+                       "short":  "LED-Dichte fuer Geschwindigkeitsberechnung.",
+                       "details":  "Muss zur realen Installation passen, wenn mm/s realistisch wirken sollen."
+                   },
+                   {
+                       "id":  "flows.tetris2_early_start",
+                       "page":  "Ablaeufe",
+                       "label":  "Tetris_2 Fruehstart",
+                       "short":  "Laesst neue Bloecke beginnen, bevor der vorherige vollstaendig fertig ist.",
+                       "details":  "Chance sowie Min/Max legen fest, wie oft und wie frueh ueberlappend gestartet wird."
+                   },
+                   {
+                       "id":  "flows.tetris2_hsv_distance",
+                       "page":  "Ablaeufe",
+                       "label":  "Tetris_2 HSV-Mindestabstand",
+                       "short":  "Mindestabstand zwischen zufaelligen Farben.",
+                       "details":  "Hoehere Werte vermeiden sehr aehnliche Farben, koennen die Farbauswahl aber einschraenken."
+                   },
+                   {
+                       "id":  "knx.status_switch",
+                       "page":  "KNX",
+                       "label":  "Status Ein/Aus TX",
+                       "short":  "KNX-Statusobjekt fuer Schaltzustand.",
+                       "details":  "Sendet den aktuellen Ein/Aus-Zustand an den KNX-Bus."
+                   },
+                   {
+                       "id":  "knx.status_scene",
+                       "page":  "KNX",
+                       "label":  "Status Szene TX",
+                       "short":  "KNX-Statusobjekt fuer aktive Szene.",
+                       "details":  "Hilft Visualisierungen, den aktuellen Szenenstatus anzuzeigen."
+                   },
+                   {
+                       "id":  "knx.status_brightness",
+                       "page":  "KNX",
+                       "label":  "Status Helligkeit TX",
+                       "short":  "KNX-Statusobjekt fuer Helligkeit.",
+                       "details":  "Sendet den aktuellen Helligkeitswert zurueck."
+                   },
+                   {
+                       "id":  "knx.status_color",
+                       "page":  "KNX",
+                       "label":  "Status Farbe R/G/B/W TX",
+                       "short":  "KNX-Statusobjekte fuer Farbkomponenten.",
+                       "details":  "Jeder Farbkanal wird separat gemeldet. Nur benoetigte Kanaele aktivieren."
+                   },
+                   {
+                       "id":  "knx.status_lock_force",
+                       "page":  "KNX",
+                       "label":  "Status Sperre/Zwang TX",
+                       "short":  "Rueckmeldung fuer Sperr- und Zwangszustand.",
+                       "details":  "Nuetzlich fuer Visualisierung und Diagnose, wenn Bedienung blockiert oder uebersteuert wird."
+                   },
+                   {
+                       "id":  "knx.status_error_power",
+                       "page":  "KNX",
+                       "label":  "Status Fehlercode / Power-Limit",
+                       "short":  "Rueckmeldung fuer Fehler und aktives Power-Limit.",
+                       "details":  "Erlaubt KNX-seitige Alarmierung oder Anzeige technischer Zustaende."
+                   },
+                   {
+                       "id":  "admin.unlock",
+                       "page":  "Admin",
+                       "label":  "Admin-Code",
+                       "short":  "Oeffnet den geschuetzten Adminbereich.",
+                       "details":  "Admin ist fuer Diagnose, JSON-Endpunkte und tiefe technische Informationen gedacht. Nicht als vollwertiger Netzwerkschutz verstehen."
+                   },
+                   {
+                       "id":  "system.support_snapshot",
+                       "page":  "Support",
+                       "label":  "Support-Snapshot",
+                       "short":  "Sammelt technische Daten fuer Fehlersuche.",
+                       "details":  "Bei Supportfragen zuerst Snapshot laden und kopieren, damit Version, Profil, Pins, Netzwerk, Speicher und letzte Ereignisse sichtbar sind."
+                   },
+                   {
+                       "id":  "system.factory_defaults",
+                       "page":  "Konfiguration",
+                       "label":  "Werkstandard",
+                       "short":  "Setzt Konfiguration auf Defaults zurueck.",
+                       "details":  "Nur bewusst ausfuehren und vorher Backup herunterladen. Danach Ausgaenge, KNX und Netzwerk neu pruefen."
+                   },
+                   {
+                       "id":  "backup.plain_export",
+                       "page":  "Konfiguration",
+                       "label":  "Passwoerter im Export",
+                       "short":  "Steuert, ob sensible Daten im Backup enthalten sind.",
+                       "details":  "Standard-Export sollte Passwoerter nicht im Klartext enthalten. Klartext nur fuer bewusste lokale Wartung verwenden."
+                   },
+                   {
+                       "id":  "control.scene_apply",
+                       "page":  "Steuerung",
+                       "label":  "Szene anwenden",
+                       "short":  "Startet eine Szene direkt aus der WebUI.",
+                       "details":  "Wirkt sofort auf die aktiven Ausgaenge. Wenn KNX, Sperre, Zwang oder ein manueller Test aktiv ist, kann der sichtbare Zustand abweichen."
+                   },
+                   {
+                       "id":  "control.direct_off",
+                       "page":  "Steuerung",
+                       "label":  "Direkt aus",
+                       "short":  "Schaltet die LED-Ausgabe direkt dunkel.",
+                       "details":  "Nuetzlich vor Updates, Messungen oder Verdrahtungsarbeiten. KNX kann spaeter wieder einen neuen Zustand setzen."
+                   },
+                   {
+                       "id":  "control.direct_brightness",
+                       "page":  "Steuerung",
+                       "label":  "Helligkeit",
+                       "short":  "Direkter Helligkeitswert fuer Tests.",
+                       "details":  "Hilft beim schnellen Pruefen ohne Ablauf-Editor. Power-Limits und Ausgangs-Maximalhelligkeit koennen weiterhin begrenzen."
+                   },
+                   {
+                       "id":  "control.direct_color",
+                       "page":  "Steuerung",
+                       "label":  "R/G/B/W",
+                       "short":  "Direkte Farbwerte fuer Rot, Gruen, Blau und Weiss.",
+                       "details":  "Gut geeignet fuer Farbreihenfolge-Test und schnelle Sichtpruefung. Bei RGB-Strips ist der Weisskanal nicht als separater Kanal vorhanden."
+                   },
+                   {
+                       "id":  "power.live_values",
+                       "page":  "Leistung",
+                       "label":  "Live-Last / Standby / Summe",
+                       "short":  "Aktuelle Stromschaetzung aus dem LED-Zustand.",
+                       "details":  "Diese Werte sind berechnet, nicht gemessen. Sie helfen beim Erkennen von Power-Limit-Eingriffen und falschen Pixel-/Farbwerten."
+                   },
+                   {
+                       "id":  "power.safe_limit",
+                       "page":  "Leistung",
+                       "label":  "Sichere Begrenzung",
+                       "short":  "Limit nach Sicherheitsfaktor.",
+                       "details":  "Aus Controller- oder Gruppenlimit und Safety-Prozent berechneter nutzbarer Wert."
+                   },
+                   {
+                       "id":  "power.dim_factor",
+                       "page":  "Leistung",
+                       "label":  "Dimmfaktor",
+                       "short":  "Zeigt, ob der Power-Limiter aktuell dimmt.",
+                       "details":  "100 Prozent bedeutet keine Begrenzung. Niedrigere Werte zeigen aktive Leistungsreduktion."
+                   },
+                   {
+                       "id":  "power.calibration_off",
+                       "page":  "Leistung",
+                       "label":  "Alle LEDs aus mA",
+                       "short":  "Gemessener Strom bei dunklen LEDs.",
+                       "details":  "Dieser Wert wird als Basisstrom uebernommen, wenn das Messprofil gespeichert wird."
+                   },
+                   {
+                       "id":  "power.calibration_rgbw_measurements",
+                       "page":  "Leistung",
+                       "label":  "Rot/Gruen/Blau/Weiss mA",
+                       "short":  "Messwerte fuer einzelne Farbkanaele.",
+                       "details":  "Nach jedem Testschritt Strom am Netzteil messen und eintragen. Die Firmware rechnet daraus mA pro Pixel."
+                   },
+                   {
+                       "id":  "power.calibration_rgb_white",
+                       "page":  "Leistung",
+                       "label":  "RGB-Weiss mA",
+                       "short":  "Kontrollmessung fuer Rot+Gruen+Blau gemeinsam.",
+                       "details":  "Optionaler Plausibilitaetscheck. Der Wert sollte grob zur Summe der Einzelkanaele passen."
+                   },
+                   {
+                       "id":  "flows.speed",
+                       "page":  "Ablaeufe",
+                       "label":  "Geschwindigkeit",
+                       "short":  "Allgemeine Effektgeschwindigkeit.",
+                       "details":  "Je nach Effekt wird dieser Wert direkt oder zusammen mit Schrittzeit, Pixel/Meter oder Phasendauer verwendet."
+                   },
+                   {
+                       "id":  "flows.wave_bounce",
+                       "page":  "Ablaeufe",
+                       "label":  "Waehrend EIN / Bounce",
+                       "short":  "Option fuer laufende oder gespiegelt federnde Bewegung.",
+                       "details":  "Geeignet fuer Wellen- oder Lauflichteffekte, die nicht nur einmalig starten sollen."
+                   },
+                   {
+                       "id":  "flows.fireworks",
+                       "page":  "Ablaeufe",
+                       "label":  "Fireworks Geschwindigkeit / Intensitaet",
+                       "short":  "Parameter fuer Feuerwerk-artige Effekte.",
+                       "details":  "Geschwindigkeit steuert zeitliche Aktivitaet, Intensitaet die Dichte oder Helligkeitswirkung."
+                   },
+                   {
+                       "id":  "flows.tetrix",
+                       "page":  "Ablaeufe",
+                       "label":  "Tetrix Geschwindigkeit / Blockbreite",
+                       "short":  "Parameter fuer den Tetrix-Effekt.",
+                       "details":  "Blockbreite bestimmt die sichtbare Groesse, Geschwindigkeit die Bewegung."
+                   },
+                   {
+                       "id":  "update.history",
+                       "page":  "Update",
+                       "label":  "Versionshistorie",
+                       "short":  "Liste installierbarer oder historischer Firmwarestaende.",
+                       "details":  "Erlaubt Update auf neue Versionen oder bewusstes Rollback. Vor Rollback immer Backup speichern."
+                   },
+                   {
+                       "id":  "update.install_version",
+                       "page":  "Update",
+                       "label":  "Diese Version installieren",
+                       "short":  "Installiert einen Eintrag aus der Versionshistorie.",
+                       "details":  "Nur Firmware fuer das passende Profil verwenden. Die WebUI prueft Profil und Dateinamen, trotzdem vorab Backup erstellen."
+                   },
+                   {
+                       "id":  "update.reboot",
+                       "page":  "Update",
+                       "label":  "Controller neu starten",
+                       "short":  "Startet den Controller per WebUI neu.",
+                       "details":  "Nach Netzwerk- oder Update-Aenderungen nuetzlich. Kurzzeitig ist die WebUI nicht erreichbar."
+                   },
+                   {
+                       "id":  "update.bootsel",
+                       "page":  "Update",
+                       "label":  "BOOTSEL / UF2-Modus",
+                       "short":  "Versetzt das Board in den USB-Flashmodus.",
+                       "details":  "Nur fuer Wartung per USB verwenden. Die WebUI ist danach nicht erreichbar, bis das Board neu startet oder geflasht wurde."
+                   },
+                   {
+                       "id":  "update.backup_before_update",
+                       "page":  "Update",
+                       "label":  "Konfiguration vorher sichern",
+                       "short":  "Laedt vor Firmwareaktionen ein Backup herunter.",
+                       "details":  "Empfohlen vor jedem Update, Rollback oder lokalem Firmware-Upload."
+                   },
+                   {
+                       "id":  "events.table",
+                       "page":  "Ereignisse",
+                       "label":  "Ereignistabelle",
+                       "short":  "Zeigt Fehler, Warnungen und Laufzeitereignisse.",
+                       "details":  "Die neuesten Eintraege helfen bei Diagnose. Bei sporadischen Problemen vor dem Loeschen als Support-Snapshot sichern."
+                   },
+                   {
+                       "id":  "led.backend_status",
+                       "page":  "LED",
+                       "label":  "LED-Backend",
+                       "short":  "Zeigt, ob reale LED-Ausgabe aktiv ist.",
+                       "details":  "Wenn das Backend nicht bereit oder nur virtuell ist, werden Konfigurationswerte zwar verarbeitet, aber nicht real ausgegeben."
+                   },
+                   {
+                       "id":  "led.configured_profiles",
+                       "page":  "LED",
+                       "label":  "LED-Profile",
+                       "short":  "Anzahl unterschiedlicher LED-Timingprofile.",
+                       "details":  "Viele unterschiedliche Profile koennen Diagnose und Timing komplexer machen. Gleiche Strips moeglichst gleich konfigurieren."
+                   },
+                   {
+                       "id":  "system.storage",
+                       "page":  "System",
+                       "label":  "Speicher / LittleFS",
+                       "short":  "Status des lokalen Dateisystems.",
+                       "details":  "LittleFS speichert Konfiguration, lokal geladene Hilfe und OTA-Hilfsdaten. Bei Speicherfehlern Backup sichern und Diagnose pruefen."
+                   },
+                   {
+                       "id":  "system.release_check",
+                       "page":  "System",
+                       "label":  "Release-Check",
+                       "short":  "Prueft Profil, Updatepfade und Release-Daten.",
+                       "details":  "Hilfreich vor Veroeffentlichungen, damit Manifest, Versionsliste, Boardprofil und Flashgroesse zusammenpassen."
+                   },
+                   {
+                       "id":  "dashboard.output_load_status",
+                       "page":  "Dashboard",
+                       "label":  "Ausgaenge / Szene / geschaetzte Last",
+                       "short":  "Dashboard-Tabelle fuer Ausgangsstatus, Szene und Live-Last.",
+                       "details":  "Aktive Ausgaenge zeigen reale Live-Last und Szene. Deaktivierte Ausgaenge werden mit Status deaktiviert, 0 mA, Ausgang deaktiviert und 0 aktiven LEDs angezeigt."
+                   },
+                   {
+                       "id":  "outputs.summary_active",
+                       "page":  "Ausgaenge",
+                       "label":  "Aktive Ausgaenge",
+                       "short":  "Zaehlt aktive Ausgaenge im Verhaeltnis zur vorgesehenen Konfiguration.",
+                       "details":  "Die separaten Kacheln Vorgesehene Ausgaenge und Platinen-Ausgaenge sind entfernt, weil bei der KLC-Platine das Hardware-Maximum 5 ist und der relevante Betriebswert die aktiven Ausgaenge sind."
+                   }
+               ]
 }
