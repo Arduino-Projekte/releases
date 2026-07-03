@@ -1,11 +1,11 @@
 ﻿{
     "schema":  1,
     "kind":  "klc_help",
-    "version":  "0.3.4",
+    "version":  "0.3.5",
     "firmware_min":  "0.0.299",
     "language":  "de",
     "title":  "KLC Hilfe",
-    "release_note":  "Schnellstart fachlich korrigiert, Backup-Punkt angepasst und deutsche Texte mit korrekten Umlauten bereinigt.",
+    "release_note":  "Neue Hilfebereiche: LED-Backend, Fallback-IP, Ereignisliste, Versionshistorie/Rollback und Admin-Bereich. Hinweis auf Hardware-Maximum 5 Ausgänge, Umlaut-Suche dokumentiert, Textkorrekturen.",
     "sections":  [
                      {
                          "id":  "start.quickstart",
@@ -56,10 +56,16 @@
                          "body":  "Der WLAN Client verbindet den Controller mit einem vorhandenen WLAN. Der Access Point ist als Servicezugang gedacht. Passwörter werden nicht in der WebUI angezeigt und nicht im normalen Backup exportiert. Leere Passwortfelder bedeuten: gespeichertes Passwort behalten."
                      },
                      {
+                         "id":  "network.fallback",
+                         "title":  "Fallback-IP / Notfallzugang",
+                         "category":  "Netzwerk",
+                         "body":  "Die Fallback-IP ist ein Notfallzugang für den Fall, dass die normale Netzwerkkonfiguration nicht erreichbar ist, zum Beispiel nach DHCP-Problemen oder einer fehlerhaften statischen Konfiguration. Die Fallback-Adresse muss zum Wartungsnetz passen und darf keine produktive Adresse doppelt belegen. Nach der Reparatur der Hauptkonfiguration prüfen, ob der Fallback weiterhin benötigt wird."
+                     },
+                     {
                          "id":  "outputs.overview",
                          "title":  "Ausgänge / LED-Stränge",
                          "category":  "Ausgänge",
-                         "body":  "Diese Seite beschreibt die vorgesehenen Platinen-Ausgänge. In der Übersicht bleiben nur die praktisch relevanten Zähler: aktive Ausgänge, Power-Gruppen, Zentralhelligkeit und laufende manuelle Tests. Deaktivierte Ausgänge bleiben gespeichert, werden aber nicht an das LED-Backend übergeben."
+                         "body":  "Diese Seite beschreibt die vorgesehenen Platinen-Ausgänge. Die aktuelle KLC-Platine stellt hardwareseitig maximal 5 Ausgänge bereit. In der Übersicht bleiben nur die praktisch relevanten Zähler: aktive Ausgänge, Power-Gruppen, Zentralhelligkeit und laufende manuelle Tests. Deaktivierte Ausgänge bleiben gespeichert, werden aber nicht an das LED-Backend übergeben."
                      },
                      {
                          "id":  "outputs.diagnosis",
@@ -72,6 +78,12 @@
                          "title":  "LED-Ausgang testen",
                          "category":  "Ausgänge",
                          "body":  "Zum Testen zuerst nur einen Ausgang aktivieren. Pixelzahl niedrig halten oder mit einem kurzen Teststrang arbeiten. Danach Kanten-Blinktest für Rot, Grün, Blau und bei RGBW auch Weiß ausführen. Wenn Farben vertauscht sind, Farbreihenfolge korrigieren. Wenn gar nichts leuchtet, Masse, Datenrichtung, Pegelwandler, GPIO und LED-Spannung prüfen."
+                     },
+                     {
+                         "id":  "led.overview",
+                         "title":  "LED-Backend und Profile",
+                         "category":  "Ausgänge",
+                         "body":  "Die LED-Seite ist eine Expertenansicht für die technische LED-Ausgabe. Sie zeigt, ob das LED-Backend real ausgibt oder nur virtuell arbeitet, und welche Timingprofile die konfigurierten Ausgänge verwenden. Wenn das Backend nicht bereit ist, werden Konfigurationswerte zwar verarbeitet, aber keine LEDs angesteuert."
                      },
                      {
                          "id":  "power.overview",
@@ -146,10 +158,22 @@
                          "body":  "Vor Updates, größeren KNX-Änderungen und Experimenten immer ein Backup herunterladen. Ein Import ersetzt die gespeicherte Konfiguration nach Validierung. Passwortfelder für WLAN/AP werden im normalen Export nicht als Klartext ausgegeben."
                      },
                      {
+                         "id":  "admin.overview",
+                         "title":  "Admin-Bereich",
+                         "category":  "System",
+                         "body":  "Der Admin-Bereich ist durch einen Admin-Code geschützt und für Inbetriebnahme, Diagnose, JSON-Endpunkte und tiefe technische Informationen gedacht. Der Code ist eine Bedienhürde und kein vollwertiger Netzwerkschutz; der Controller sollte nur in vertrauenswürdigen Netzen betrieben werden."
+                     },
+                     {
                          "id":  "update.firmware",
                          "title":  "Firmware-Update",
                          "category":  "Update",
                          "body":  "Die Update-Seite prüft Online-Versionen, lädt Firmware oder akzeptiert lokale BIN-Dateien. Vor Updates am besten ein Backup speichern und LED-Ausgänge dunkel schalten. Während des Updates Stromversorgung nicht trennen."
+                     },
+                     {
+                         "id":  "update.rollback",
+                         "title":  "Versionshistorie und Rollback",
+                         "category":  "Update",
+                         "body":  "Die Versionshistorie listet installierbare Firmwarestände. Damit ist ein Update auf eine neuere Version oder ein bewusstes Rollback auf einen früheren Stand möglich. Vor jedem Rollback ein Backup speichern, weil ältere Firmware neuere Konfigurationsfelder unter Umständen nicht kennt."
                      },
                      {
                          "id":  "update.help",
@@ -168,6 +192,12 @@
                          "title":  "Support-Snapshot",
                          "category":  "Diagnose",
                          "body":  "Der Support-Snapshot sammelt Profil, Version, Pins, Netzwerk, OTA, Speicher und letzte Ereignisse. Bei Rückfragen diesen Snapshot kopieren, weil er deutlich genauer ist als eine Beschreibung aus dem Kopf."
+                     },
+                     {
+                         "id":  "events.overview",
+                         "title":  "Ereignisliste",
+                         "category":  "Diagnose",
+                         "body":  "Die Ereignisliste sammelt Fehler, Warnungen und wichtige Laufzeitereignisse. Sie ist oft der schnellste Einstieg bei sporadischen Problemen. Vor dem Löschen relevante Einträge dokumentieren oder einen Support-Snapshot sichern, sonst gehen Diagnosehinweise verloren."
                      },
                      {
                          "id":  "diagnostics.troubleshooting",
@@ -420,7 +450,7 @@
                        "page":  "Leistung",
                        "label":  "Aktive Power-Gruppen",
                        "short":  "Anzahl der verwendeten Netzteilgruppen.",
-                       "details":  "Nur so viele Gruppen aktivieren, wie wirklich benötigt werden."
+                       "details":  "Nur so viele Gruppen aktivieren, wie wirklich benötigt werden. Die Zuordnung sollte die reale Netzteilaufteilung abbilden, damit Gruppenlimits und Warnungen aussagekräftig sind."
                    },
                    {
                        "id":  "power.group_limit_ma",
@@ -595,7 +625,7 @@
                        "page":  "Hilfe",
                        "label":  "Hilfe durchsuchen",
                        "short":  "Durchsucht Titel, Seiten, Kurztexte und Details.",
-                       "details":  "Geeignet für Begriffe wie Pixel, KNX, Gateway, Zwang, Backup, Update oder manuelle Tests."
+                       "details":  "Geeignet für Begriffe wie Pixel, KNX, Gateway, Zwang, Backup, Update oder manuelle Tests. Die Suche normalisiert Umlaute: Ausgänge und Ausgaenge liefern dieselben Treffer."
                    },
                    {
                        "id":  "help.download",
@@ -1147,7 +1177,7 @@
                        "id":  "outputs.summary_active",
                        "page":  "Ausgänge",
                        "label":  "Aktive Ausgänge",
-                       "short":  "Zaehlt aktive Ausgänge im Verhältnis zur vorgesehenen Konfiguration.",
+                       "short":  "Zählt aktive Ausgänge im Verhältnis zur vorgesehenen Konfiguration.",
                        "details":  "Die separaten Kacheln Vorgesehene Ausgänge und Platinen-Ausgänge sind entfernt, weil bei der KLC-Platine das Hardware-Maximum 5 ist und der relevante Betriebswert die aktiven Ausgänge sind."
                    }
                ]
