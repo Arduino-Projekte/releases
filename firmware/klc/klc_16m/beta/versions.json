@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.302",
+                      "bin":  "knx-led-controller-16m_0.0.302_codex.bin",
+                      "date":  "2026-07-04",
+                      "note":  "Codex - LED-Ausgabe sendet schwarze Reserve hinter der parametrierten Laenge, damit Rest-LEDs nicht eingeschaltet stehen bleiben."
+                  },
+                  {
                       "version":  "0.0.301",
                       "bin":  "knx-led-controller-16m_0.0.301_claude.bin",
                       "date":  "2026-07-04",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m_0.0.298_codex.bin",
                       "date":  "2026-07-03",
                       "note":  "Codex - Hilfe-Schnellstart neu sortiert; Hilfe rendert Zeilenumbrueche fuer nummerierte Schritte untereinander."
-                  },
-                  {
-                      "version":  "0.0.297",
-                      "bin":  "knx-led-controller-16m_0.0.297_codex.bin",
-                      "date":  "2026-07-03",
-                      "note":  "Codex - Buildfix Dashboard: deaktivierte Ausgaenge werden im Dashboard korrekt gezaehlt und angezeigt."
                   }
               ]
 }
