@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.303",
+                      "bin":  "knx-led-controller-16m_0.0.303_codex.bin",
+                      "date":  "2026-07-04",
+                      "note":  "Codex - LED-Restpixel werden schwarz geloescht. WebUI schneller durch i18n-/JS-Cache mit Firmware-Version."
+                  },
+                  {
                       "version":  "0.0.302",
                       "bin":  "knx-led-controller-16m_0.0.302_codex.bin",
                       "date":  "2026-07-04",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m_0.0.299_codex.bin",
                       "date":  "2026-07-03",
                       "note":  "Codex - Hilfe nutzt korrekte deutsche Umlaute; Suche findet Umlaute und ae/oe/ue-Schreibweisen."
-                  },
-                  {
-                      "version":  "0.0.298",
-                      "bin":  "knx-led-controller-16m_0.0.298_codex.bin",
-                      "date":  "2026-07-03",
-                      "note":  "Codex - Hilfe-Schnellstart neu sortiert; Hilfe rendert Zeilenumbrueche fuer nummerierte Schritte untereinander."
                   }
               ]
 }

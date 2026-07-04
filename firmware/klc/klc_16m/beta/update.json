@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m_0.0.302_codex.bin",
+                     "url":  "knx-led-controller-16m_0.0.303_codex.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.302",
-                     "bin":  "knx-led-controller-16m_0.0.302_codex.bin",
-                     "file":  "knx-led-controller-16m_0.0.302_codex.bin",
-                     "sha256":  "0298e074b7ea848d7d88f8b35c67fd15c7176cebeb7077fbeee6a55654c6fdea",
-                     "message":  "Codex - LED-Ausgabe sendet schwarze Reserve hinter der parametrierten Laenge, damit Rest-LEDs nicht eingeschaltet stehen bleiben.",
+                     "version":  "0.0.303",
+                     "bin":  "knx-led-controller-16m_0.0.303_codex.bin",
+                     "file":  "knx-led-controller-16m_0.0.303_codex.bin",
+                     "sha256":  "793ce5bec17a93d160b87a90b654ab893a14dcd0997b0f1f244d78eb4e2f9ebe",
+                     "message":  "Codex - LED-Restpixel werden schwarz geloescht. WebUI schneller durch i18n-/JS-Cache mit Firmware-Version.",
                      "http_code":  200
                  }
 }
