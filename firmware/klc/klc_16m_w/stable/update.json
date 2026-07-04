@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m-w_0.0.300_claude.bin",
+                     "url":  "knx-led-controller-16m-w_0.0.301_claude.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.300",
-                     "bin":  "knx-led-controller-16m-w_0.0.300_claude.bin",
-                     "file":  "knx-led-controller-16m-w_0.0.300_claude.bin",
-                     "sha256":  "b59c3de92172e09839ab9c03d83dde6776875cabc1bfb10fb9423c514cd2e2ce",
-                     "message":  "Claude - Dashboard zeigt Uptime lesbar: unter 1 Stunde Minuten+Sekunden, ab 1 Stunde Stunden+Minuten, ab 1 Tag Tage+Stunden statt roher Sekunden.",
+                     "version":  "0.0.301",
+                     "bin":  "knx-led-controller-16m-w_0.0.301_claude.bin",
+                     "file":  "knx-led-controller-16m-w_0.0.301_claude.bin",
+                     "sha256":  "b82ec582c9a25606aac22c7d67f5e5e81dfbe2ad1979bf870867ee249acfc26b",
+                     "message":  "Claude - Uptime lesbar (min/h/d statt Sekunden). RP2350B-Plus-W: finaler Pinplan, Taster GP40, Run-LED GP41, Error-LED GP42. /outputs: Weiss-Blinktest erscheint sofort beim Wechsel RGB/RGBW ohne Neuladen.",
                      "http_code":  200
                  }
 }
