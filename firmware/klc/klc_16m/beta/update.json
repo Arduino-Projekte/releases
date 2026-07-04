@@ -6,7 +6,7 @@
                      "version":  "0.0.300",
                      "bin":  "knx-led-controller-16m_0.0.300_claude.bin",
                      "file":  "knx-led-controller-16m_0.0.300_claude.bin",
-                     "sha256":  "f50afe66f73dc26ccd099b1e33dae5cdc81df03c0699690923a7873e03159c6b",
+                     "sha256":  "bc843b43e0faccef214767ab53c579a5069466358269a17182df7fdabf19c42e",
                      "message":  "Claude - Dashboard zeigt Uptime lesbar: unter 1 Stunde Minuten+Sekunden, ab 1 Stunde Stunden+Minuten, ab 1 Tag Tage+Stunden statt roher Sekunden.",
                      "http_code":  200
                  }
