@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.305",
+                      "bin":  "knx-led-controller-16m_0.0.305_codex.bin",
+                      "date":  "2026-07-05",
+                      "note":  "Codex - Error-LED geht beim Boot sofort an, nach erfolgreichem Start aus und blinkt bei aktivem Fehler."
+                  },
+                  {
                       "version":  "0.0.303",
                       "bin":  "knx-led-controller-16m_0.0.303_codex.bin",
                       "date":  "2026-07-04",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m_0.0.300_claude.bin",
                       "date":  "2026-07-04",
                       "note":  "Claude - Dashboard zeigt Uptime lesbar: unter 1 Stunde Minuten+Sekunden, ab 1 Stunde Stunden+Minuten, ab 1 Tag Tage+Stunden statt roher Sekunden."
-                  },
-                  {
-                      "version":  "0.0.299",
-                      "bin":  "knx-led-controller-16m_0.0.299_codex.bin",
-                      "date":  "2026-07-03",
-                      "note":  "Codex - Hilfe nutzt korrekte deutsche Umlaute; Suche findet Umlaute und ae/oe/ue-Schreibweisen."
                   }
               ]
 }
