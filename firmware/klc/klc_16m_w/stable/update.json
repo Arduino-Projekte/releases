@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m-w_0.0.303_codex.bin",
+                     "url":  "knx-led-controller-16m-w_0.0.305_codex.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.303",
-                     "bin":  "knx-led-controller-16m-w_0.0.303_codex.bin",
-                     "file":  "knx-led-controller-16m-w_0.0.303_codex.bin",
-                     "sha256":  "0f05269654bd8e9b2b673dbe8e56f388161cf41d273d839efec4b1e553003cbe",
-                     "message":  "Codex - LED-Restpixel werden schwarz geloescht. WebUI schneller durch i18n-/JS-Cache mit Firmware-Version.",
+                     "version":  "0.0.305",
+                     "bin":  "knx-led-controller-16m-w_0.0.305_codex.bin",
+                     "file":  "knx-led-controller-16m-w_0.0.305_codex.bin",
+                     "sha256":  "1bd70950fa86dd757bf71bf8c7711e9c8259c559096c3f7c5fb90a0649cc824b",
+                     "message":  "Codex - Error-LED geht beim Boot sofort an, nach erfolgreichem Start aus und blinkt bei aktivem Fehler.",
                      "http_code":  200
                  }
 }
