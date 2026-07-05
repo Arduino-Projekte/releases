@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m_0.0.311.bin",
+                     "url":  "knx-led-controller-16m_0.0.312.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.311",
-                     "bin":  "knx-led-controller-16m_0.0.311.bin",
-                     "file":  "knx-led-controller-16m_0.0.311.bin",
-                     "sha256":  "ad1a15a111dc3c1f54bbe63e24ab1e9de34a90b943b6f51c631cba33f190b7ed",
-                     "message":  "W5500 zurueck auf Polling mit 4-ms-Intervall statt INT-Leitung - der IRQ-Pfad verursachte Komplett-Haenger; RX-Selbstheilung bleibt aktiv.",
+                     "version":  "0.0.312",
+                     "bin":  "knx-led-controller-16m_0.0.312.bin",
+                     "file":  "knx-led-controller-16m_0.0.312.bin",
+                     "sha256":  "074ad8c154636bb769635e1b92d537570f5ef8cb6f434900a86107f82ba40ec7",
+                     "message":  "Webserver entblockt: TCP-flush-Wartepunkte aus HTTP-Antworten entfernt, /ping-Diagnose und Slow-Request-Logging ergaenzt, CSS-Cache mit Theme-ETag.",
                      "http_code":  200
                  }
 }
