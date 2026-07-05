@@ -6,8 +6,8 @@
                      "version":  "0.0.305",
                      "bin":  "knx-led-controller-16m-w_0.0.305_codex.bin",
                      "file":  "knx-led-controller-16m-w_0.0.305_codex.bin",
-                     "sha256":  "1bd70950fa86dd757bf71bf8c7711e9c8259c559096c3f7c5fb90a0649cc824b",
-                     "message":  "Codex - Error-LED geht beim Boot sofort an, nach erfolgreichem Start aus und blinkt bei aktivem Fehler.",
+                     "sha256":  "c676e4ea2d65a69a2c39482abdf69f598e3834f44c87e97d318c429996871981",
+                     "message":  "Error-LED geht beim Boot sofort an, nach erfolgreichem Start aus und blinkt bei aktivem Fehler.",
                      "http_code":  200
                  }
 }
