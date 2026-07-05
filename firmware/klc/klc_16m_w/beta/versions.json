@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.315",
+                      "bin":  "knx-led-controller-16m-w_0.0.315.bin",
+                      "date":  "2026-07-05",
+                      "note":  "Netzwerk per KNX schaltbar (DP 20/21 + Status 54/55, dauerhaft), Kacheln WLAN/Ethernet neu geordnet, Betrieb ohne W5500 ohne Fehler, Service-Taster: kurz=Netzwerk ein, 5-10s=Werksreset, \u003e10s=Klemmschutz."
+                  },
+                  {
                       "version":  "0.0.314",
                       "bin":  "knx-led-controller-16m-w_0.0.314.bin",
                       "date":  "2026-07-05",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m-w_0.0.311.bin",
                       "date":  "2026-07-05",
                       "note":  "W5500 zurueck auf Polling mit 4-ms-Intervall statt INT-Leitung - der IRQ-Pfad verursachte Komplett-Haenger; RX-Selbstheilung bleibt aktiv."
-                  },
-                  {
-                      "version":  "0.0.310",
-                      "bin":  "knx-led-controller-16m-w_0.0.310.bin",
-                      "date":  "2026-07-05",
-                      "note":  "W5500-RX-Reparatur ohne Chip-Reset (Socket-Reopen, Link bleibt oben) und streng zeitbegrenzt - behebt Komplett-Haenger unter Last auf /control."
                   }
               ]
 }

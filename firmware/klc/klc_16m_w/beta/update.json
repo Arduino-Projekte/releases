@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m-w_0.0.314.bin",
+                     "url":  "knx-led-controller-16m-w_0.0.315.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.314",
-                     "bin":  "knx-led-controller-16m-w_0.0.314.bin",
-                     "file":  "knx-led-controller-16m-w_0.0.314.bin",
-                     "sha256":  "c78a3757d05b76916981fb9a5baa2561037bb4e00648f823d3eb088a141d8cae",
-                     "message":  "WLAN/W5500 entkoppelt: aktiven Vordergrund-Poll ergaenzt und grosse HTTP-Antworten in bediente TCP-Bloecke geteilt.",
+                     "version":  "0.0.315",
+                     "bin":  "knx-led-controller-16m-w_0.0.315.bin",
+                     "file":  "knx-led-controller-16m-w_0.0.315.bin",
+                     "sha256":  "1b93f9a017d82143978c1d59ddb2ee2f3b2e3acb0273b7e6b620f08e1b059435",
+                     "message":  "Netzwerk per KNX schaltbar (DP 20/21 + Status 54/55, dauerhaft), Kacheln WLAN/Ethernet neu geordnet, Betrieb ohne W5500 ohne Fehler, Service-Taster: kurz=Netzwerk ein, 5-10s=Werksreset, \u003e10s=Klemmschutz.",
                      "http_code":  200
                  }
 }
