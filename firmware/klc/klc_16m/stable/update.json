@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m_0.0.307_claude.bin",
+                     "url":  "knx-led-controller-16m_0.0.308_claude.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.307",
-                     "bin":  "knx-led-controller-16m_0.0.307_claude.bin",
-                     "file":  "knx-led-controller-16m_0.0.307_claude.bin",
-                     "sha256":  "d30602c38c47cfb77e6486fe831fbf63888a59609f7aec4472aca8b1fedbab85",
-                     "message":  "W-Profil: W5500-Empfang ueber INT-Leitung (GP21) statt Polling - Ethernet-WebUI und Online-Pruefung wieder erreichbar.",
+                     "version":  "0.0.308",
+                     "bin":  "knx-led-controller-16m_0.0.308_claude.bin",
+                     "file":  "knx-led-controller-16m_0.0.308_claude.bin",
+                     "sha256":  "b68d16df1c5fd2562efc63ea50e78f64a762be23092ac3358ad752a80ffefc0c",
+                     "message":  "W5500: RX-Pufferueberlauf wird erkannt und der Empfang automatisch neu synchronisiert (kein Ethernet-Ausfall mehr nach Lastspitzen); Routing-/DNS-Diagnose vor Online-Pruefung.",
                      "http_code":  200
                  }
 }
