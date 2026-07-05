@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.310",
+                      "bin":  "knx-led-controller-16m-w_0.0.310.bin",
+                      "date":  "2026-07-05",
+                      "note":  "W5500-RX-Reparatur ohne Chip-Reset (Socket-Reopen, Link bleibt oben) und streng zeitbegrenzt - behebt Komplett-Haenger unter Last auf /control."
+                  },
+                  {
                       "version":  "0.0.309",
                       "bin":  "knx-led-controller-16m-w_0.0.309.bin",
                       "date":  "2026-07-05",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m-w_0.0.307_claude.bin",
                       "date":  "2026-07-05",
                       "note":  "W-Profil: W5500-Empfang ueber INT-Leitung (GP21) statt Polling - Ethernet-WebUI und Online-Pruefung wieder erreichbar."
-                  },
-                  {
-                      "version":  "0.0.306",
-                      "bin":  "knx-led-controller-16m-w_0.0.306_claude.bin",
-                      "date":  "2026-07-05",
-                      "note":  "W-Profil: Service-AP KLC-xxxxxx startet ab Werk; neue Diagnosezeilen fuer Update-Pruefung und ersten Webzugriff."
                   }
               ]
 }

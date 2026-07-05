@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m-w_0.0.309.bin",
+                     "url":  "knx-led-controller-16m-w_0.0.310.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.309",
-                     "bin":  "knx-led-controller-16m-w_0.0.309.bin",
-                     "file":  "knx-led-controller-16m-w_0.0.309.bin",
-                     "sha256":  "b8f87ce3049c8bf57142e4a82623592274555a350e2f230b76b67f60f7cae2b5",
-                     "message":  "W-Profil: Online-Updatepfad korrigiert auf firmware/klc/klc_16m_w (vorher 404 unter firmware/klc_w) - Online-Pruefung und Updates funktionieren wieder.",
+                     "version":  "0.0.310",
+                     "bin":  "knx-led-controller-16m-w_0.0.310.bin",
+                     "file":  "knx-led-controller-16m-w_0.0.310.bin",
+                     "sha256":  "0086a589480edb57394108dc223abc03b0eee46067615cf9704a3dd9c6679af0",
+                     "message":  "W5500-RX-Reparatur ohne Chip-Reset (Socket-Reopen, Link bleibt oben) und streng zeitbegrenzt - behebt Komplett-Haenger unter Last auf /control.",
                      "http_code":  200
                  }
 }
