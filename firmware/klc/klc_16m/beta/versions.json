@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.312",
+                      "bin":  "knx-led-controller-16m_0.0.312.bin",
+                      "date":  "2026-07-05",
+                      "note":  "Webserver entblockt: TCP-flush-Wartepunkte aus HTTP-Antworten entfernt, /ping-Diagnose und Slow-Request-Logging ergaenzt, CSS-Cache mit Theme-ETag."
+                  },
+                  {
                       "version":  "0.0.311",
                       "bin":  "knx-led-controller-16m_0.0.311.bin",
                       "date":  "2026-07-05",
@@ -21,12 +27,6 @@
                   {
                       "version":  "0.0.308",
                       "bin":  "knx-led-controller-16m_0.0.308.bin",
-                      "date":  "2026-07-05",
-                      "note":  "W5500: RX-Pufferueberlauf wird erkannt und der Empfang automatisch neu synchronisiert (kein Ethernet-Ausfall mehr nach Lastspitzen); Routing-/DNS-Diagnose vor Online-Pruefung."
-                  },
-                  {
-                      "version":  "0.0.308",
-                      "bin":  "knx-led-controller-16m_0.0.308_claude.bin",
                       "date":  "2026-07-05",
                       "note":  "W5500: RX-Pufferueberlauf wird erkannt und der Empfang automatisch neu synchronisiert (kein Ethernet-Ausfall mehr nach Lastspitzen); Routing-/DNS-Diagnose vor Online-Pruefung."
                   }
