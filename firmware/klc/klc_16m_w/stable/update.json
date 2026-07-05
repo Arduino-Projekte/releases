@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m-w_0.0.305_codex.bin",
+                     "url":  "knx-led-controller-16m-w_0.0.306_claude.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.305",
-                     "bin":  "knx-led-controller-16m-w_0.0.305_codex.bin",
-                     "file":  "knx-led-controller-16m-w_0.0.305_codex.bin",
-                     "sha256":  "c676e4ea2d65a69a2c39482abdf69f598e3834f44c87e97d318c429996871981",
-                     "message":  "Error-LED geht beim Boot sofort an, nach erfolgreichem Start aus und blinkt bei aktivem Fehler.",
+                     "version":  "0.0.306",
+                     "bin":  "knx-led-controller-16m-w_0.0.306_claude.bin",
+                     "file":  "knx-led-controller-16m-w_0.0.306_claude.bin",
+                     "sha256":  "aca6ba1a75e1e2ed1ef33014bc81312d0b402bdce423f3fac8d5e441379ed264",
+                     "message":  "W-Profil: Service-AP KLC-xxxxxx startet ab Werk; neue Diagnosezeilen fuer Update-Pruefung und ersten Webzugriff.",
                      "http_code":  200
                  }
 }
