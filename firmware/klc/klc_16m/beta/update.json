@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m_0.0.317.bin",
+                     "url":  "knx-led-controller-16m_0.0.319.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.317",
-                     "bin":  "knx-led-controller-16m_0.0.317.bin",
-                     "file":  "knx-led-controller-16m_0.0.317.bin",
-                     "sha256":  "3c9e63e4d7eabee589ac8eb86f09b76e1bdf3a389464c1d9a64648901f19a1e5",
-                     "message":  "WLAN-Kachel: neuer Masterschalter \u0027WLAN verwenden\u0027 (wie KNX DP 21), AP-Haken klarer benannt, WLAN-Aenderungen wirken sofort ohne Neustart; Update-Seite faengt leeren Datei-Upload ab.",
+                     "version":  "0.0.319",
+                     "bin":  "knx-led-controller-16m_0.0.319.bin",
+                     "file":  "knx-led-controller-16m_0.0.319.bin",
+                     "sha256":  "4359bcc40c16ae2b7a9a8a26261ee82628deb22d5f7edadbeab62fcfe8f98963",
+                     "message":  "Service-Taster final: unter 2s nichts, 2-5s Netzwerk-Reset (LED blinkt), 5-10s Werksreset (LED an), ueber 10s nichts (Klemmschutz). Dazu OTA-Fix: verwaister Updater-Rest blockiert keine weiteren Versuche mehr.",
                      "http_code":  200
                  }
 }

@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.319",
+                      "bin":  "knx-led-controller-16m-w_0.0.319.bin",
+                      "date":  "2026-07-05",
+                      "note":  "Service-Taster final: unter 2s nichts, 2-5s Netzwerk-Reset (LED blinkt), 5-10s Werksreset (LED an), ueber 10s nichts (Klemmschutz). Dazu OTA-Fix: verwaister Updater-Rest blockiert keine weiteren Versuche mehr."
+                  },
+                  {
                       "version":  "0.0.317",
                       "bin":  "knx-led-controller-16m-w_0.0.317.bin",
                       "date":  "2026-07-05",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m-w_0.0.314.bin",
                       "date":  "2026-07-05",
                       "note":  "WLAN/W5500 entkoppelt: aktiven Vordergrund-Poll ergaenzt und grosse HTTP-Antworten in bediente TCP-Bloecke geteilt."
-                  },
-                  {
-                      "version":  "0.0.313",
-                      "bin":  "knx-led-controller-16m-w_0.0.313.bin",
-                      "date":  "2026-07-05",
-                      "note":  "W5500-TX-Pfad gegen Endlosschleifen abgesichert: begrenzte Wartezeiten, MACRAW-Socket-Recovery und Polling-Worker-Diagnose ergaenzt."
                   }
               ]
 }
