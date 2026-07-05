@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m_0.0.308.bin",
+                     "url":  "knx-led-controller-16m_0.0.309.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.308",
-                     "bin":  "knx-led-controller-16m_0.0.308.bin",
-                     "file":  "knx-led-controller-16m_0.0.308.bin",
-                     "sha256":  "b47a0fc27264ed4a94d67523c20ef13dafd3310bea507a38e26b45ae48da6d29",
-                     "message":  "W5500: RX-Pufferueberlauf wird erkannt und der Empfang automatisch neu synchronisiert (kein Ethernet-Ausfall mehr nach Lastspitzen); Routing-/DNS-Diagnose vor Online-Pruefung.",
+                     "version":  "0.0.309",
+                     "bin":  "knx-led-controller-16m_0.0.309.bin",
+                     "file":  "knx-led-controller-16m_0.0.309.bin",
+                     "sha256":  "f9df6906a012a1fc3343463075cd51046098ae6bb5bfbd244f7f33f325bea6f1",
+                     "message":  "W-Profil: Online-Updatepfad korrigiert auf firmware/klc/klc_16m_w (vorher 404 unter firmware/klc_w) - Online-Pruefung und Updates funktionieren wieder.",
                      "http_code":  200
                  }
 }
