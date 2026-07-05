@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m_0.0.312.bin",
+                     "url":  "knx-led-controller-16m_0.0.313.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.312",
-                     "bin":  "knx-led-controller-16m_0.0.312.bin",
-                     "file":  "knx-led-controller-16m_0.0.312.bin",
-                     "sha256":  "074ad8c154636bb769635e1b92d537570f5ef8cb6f434900a86107f82ba40ec7",
-                     "message":  "Webserver entblockt: TCP-flush-Wartepunkte aus HTTP-Antworten entfernt, /ping-Diagnose und Slow-Request-Logging ergaenzt, CSS-Cache mit Theme-ETag.",
+                     "version":  "0.0.313",
+                     "bin":  "knx-led-controller-16m_0.0.313.bin",
+                     "file":  "knx-led-controller-16m_0.0.313.bin",
+                     "sha256":  "daf39848917fad9dac407ef3c7bfae5af71d97d14626db7f866779648d6c06cb",
+                     "message":  "W5500-TX-Pfad gegen Endlosschleifen abgesichert: begrenzte Wartezeiten, MACRAW-Socket-Recovery und Polling-Worker-Diagnose ergaenzt.",
                      "http_code":  200
                  }
 }
