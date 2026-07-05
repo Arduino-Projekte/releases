@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.316",
+                      "bin":  "knx-led-controller-16m-w_0.0.316.bin",
+                      "date":  "2026-07-05",
+                      "note":  "Update-Seite: Klick auf \u0027Lokale Firmware-Datei hochladen\u0027 ohne gewaehlte Datei wird jetzt klar abgefangen (Hinweis statt \u0027keine .bin-Datei\u0027); Online-Update von GitHub war nicht betroffen."
+                  },
+                  {
                       "version":  "0.0.315",
                       "bin":  "knx-led-controller-16m-w_0.0.315.bin",
                       "date":  "2026-07-05",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m-w_0.0.312.bin",
                       "date":  "2026-07-05",
                       "note":  "Webserver entblockt: TCP-flush-Wartepunkte aus HTTP-Antworten entfernt, /ping-Diagnose und Slow-Request-Logging ergaenzt, CSS-Cache mit Theme-ETag."
-                  },
-                  {
-                      "version":  "0.0.311",
-                      "bin":  "knx-led-controller-16m-w_0.0.311.bin",
-                      "date":  "2026-07-05",
-                      "note":  "W5500 zurueck auf Polling mit 4-ms-Intervall statt INT-Leitung - der IRQ-Pfad verursachte Komplett-Haenger; RX-Selbstheilung bleibt aktiv."
                   }
               ]
 }

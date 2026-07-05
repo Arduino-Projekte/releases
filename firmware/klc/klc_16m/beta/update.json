@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m_0.0.315.bin",
+                     "url":  "knx-led-controller-16m_0.0.316.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.315",
-                     "bin":  "knx-led-controller-16m_0.0.315.bin",
-                     "file":  "knx-led-controller-16m_0.0.315.bin",
-                     "sha256":  "07925e4275fa0bb349fcb53730231cc751abb5910d270a941bf7a2ffd465a48a",
-                     "message":  "Netzwerk per KNX schaltbar (DP 20/21 + Status 54/55, dauerhaft), Kacheln WLAN/Ethernet neu geordnet, Betrieb ohne W5500 ohne Fehler, Service-Taster: kurz=Netzwerk ein, 5-10s=Werksreset, \u003e10s=Klemmschutz.",
+                     "version":  "0.0.316",
+                     "bin":  "knx-led-controller-16m_0.0.316.bin",
+                     "file":  "knx-led-controller-16m_0.0.316.bin",
+                     "sha256":  "a34dc756320b54f36c00dcd2722ff8b9943d2c3bec8f948e57700d41a9f311d3",
+                     "message":  "Update-Seite: Klick auf \u0027Lokale Firmware-Datei hochladen\u0027 ohne gewaehlte Datei wird jetzt klar abgefangen (Hinweis statt \u0027keine .bin-Datei\u0027); Online-Update von GitHub war nicht betroffen.",
                      "http_code":  200
                  }
 }
