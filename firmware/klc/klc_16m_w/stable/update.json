@@ -6,7 +6,7 @@
                      "version":  "0.0.314",
                      "bin":  "knx-led-controller-16m-w_0.0.314.bin",
                      "file":  "knx-led-controller-16m-w_0.0.314.bin",
-                     "sha256":  "73efe0ff557cbd615356400c1588ed9f58867b625a8e83d9d30dd409ac22cadd",
+                     "sha256":  "c78a3757d05b76916981fb9a5baa2561037bb4e00648f823d3eb088a141d8cae",
                      "message":  "WLAN/W5500 entkoppelt: aktiven Vordergrund-Poll ergaenzt und grosse HTTP-Antworten in bediente TCP-Bloecke geteilt.",
                      "http_code":  200
                  }
