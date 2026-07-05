@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.319",
+                      "bin":  "knx-led-controller-16m-w_0.0.319.bin",
+                      "date":  "2026-07-05",
+                      "note":  "Service-Taster final: unter 2s nichts, 2-5s Netzwerk-Reset (LED blinkt), 5-10s Werksreset (LED an), ueber 10s nichts (Klemmschutz). Dazu OTA-Fix: verwaister Updater-Rest blockiert keine weiteren Versuche mehr."
+                  },
+                  {
                       "version":  "0.0.314",
                       "bin":  "knx-led-controller-16m-w_0.0.314.bin",
                       "date":  "2026-07-05",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m-w_0.0.311.bin",
                       "date":  "2026-07-05",
                       "note":  "W5500 zurueck auf Polling mit 4-ms-Intervall statt INT-Leitung - der IRQ-Pfad verursachte Komplett-Haenger; RX-Selbstheilung bleibt aktiv."
-                  },
-                  {
-                      "version":  "0.0.310",
-                      "bin":  "knx-led-controller-16m-w_0.0.310.bin",
-                      "date":  "2026-07-05",
-                      "note":  "W5500-RX-Reparatur ohne Chip-Reset (Socket-Reopen, Link bleibt oben) und streng zeitbegrenzt - behebt Komplett-Haenger unter Last auf /control."
                   }
               ]
 }
