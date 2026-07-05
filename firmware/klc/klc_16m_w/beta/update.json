@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m-w_0.0.306_claude.bin",
+                     "url":  "knx-led-controller-16m-w_0.0.307_claude.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.306",
-                     "bin":  "knx-led-controller-16m-w_0.0.306_claude.bin",
-                     "file":  "knx-led-controller-16m-w_0.0.306_claude.bin",
-                     "sha256":  "aca6ba1a75e1e2ed1ef33014bc81312d0b402bdce423f3fac8d5e441379ed264",
-                     "message":  "W-Profil: Service-AP KLC-xxxxxx startet ab Werk; neue Diagnosezeilen fuer Update-Pruefung und ersten Webzugriff.",
+                     "version":  "0.0.307",
+                     "bin":  "knx-led-controller-16m-w_0.0.307_claude.bin",
+                     "file":  "knx-led-controller-16m-w_0.0.307_claude.bin",
+                     "sha256":  "f6e1418a66909f226da6a3b084cc3a664f8554afd2e55b79e492f54e3dfd6dd0",
+                     "message":  "W-Profil: W5500-Empfang ueber INT-Leitung (GP21) statt Polling - Ethernet-WebUI und Online-Pruefung wieder erreichbar.",
                      "http_code":  200
                  }
 }
