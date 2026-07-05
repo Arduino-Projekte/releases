@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.314",
+                      "bin":  "knx-led-controller-16m-w_0.0.314.bin",
+                      "date":  "2026-07-05",
+                      "note":  "WLAN/W5500 entkoppelt: aktiven Vordergrund-Poll ergaenzt und grosse HTTP-Antworten in bediente TCP-Bloecke geteilt."
+                  },
+                  {
                       "version":  "0.0.313",
                       "bin":  "knx-led-controller-16m-w_0.0.313.bin",
                       "date":  "2026-07-05",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m-w_0.0.310.bin",
                       "date":  "2026-07-05",
                       "note":  "W5500-RX-Reparatur ohne Chip-Reset (Socket-Reopen, Link bleibt oben) und streng zeitbegrenzt - behebt Komplett-Haenger unter Last auf /control."
-                  },
-                  {
-                      "version":  "0.0.309",
-                      "bin":  "knx-led-controller-16m-w_0.0.309.bin",
-                      "date":  "2026-07-05",
-                      "note":  "W-Profil: Online-Updatepfad korrigiert auf firmware/klc/klc_16m_w (vorher 404 unter firmware/klc_w) - Online-Pruefung und Updates funktionieren wieder."
                   }
               ]
 }
