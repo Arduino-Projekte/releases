@@ -2,6 +2,12 @@
     "items":  [
                   {
                       "version":  "0.0.308",
+                      "bin":  "knx-led-controller-16m_0.0.308.bin",
+                      "date":  "2026-07-05",
+                      "note":  "W5500: RX-Pufferueberlauf wird erkannt und der Empfang automatisch neu synchronisiert (kein Ethernet-Ausfall mehr nach Lastspitzen); Routing-/DNS-Diagnose vor Online-Pruefung."
+                  },
+                  {
+                      "version":  "0.0.308",
                       "bin":  "knx-led-controller-16m_0.0.308_claude.bin",
                       "date":  "2026-07-05",
                       "note":  "W5500: RX-Pufferueberlauf wird erkannt und der Empfang automatisch neu synchronisiert (kein Ethernet-Ausfall mehr nach Lastspitzen); Routing-/DNS-Diagnose vor Online-Pruefung."
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m_0.0.305_codex.bin",
                       "date":  "2026-07-05",
                       "note":  "Error-LED geht beim Boot sofort an, nach erfolgreichem Start aus und blinkt bei aktivem Fehler."
-                  },
-                  {
-                      "version":  "0.0.303",
-                      "bin":  "knx-led-controller-16m_0.0.303_codex.bin",
-                      "date":  "2026-07-04",
-                      "note":  "Codex - LED-Restpixel werden schwarz geloescht. WebUI schneller durch i18n-/JS-Cache mit Firmware-Version."
                   }
               ]
 }
