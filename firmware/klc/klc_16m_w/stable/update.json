@@ -6,7 +6,7 @@
                      "version":  "0.0.307",
                      "bin":  "knx-led-controller-16m-w_0.0.307_claude.bin",
                      "file":  "knx-led-controller-16m-w_0.0.307_claude.bin",
-                     "sha256":  "f6e1418a66909f226da6a3b084cc3a664f8554afd2e55b79e492f54e3dfd6dd0",
+                     "sha256":  "6b6dffaf3e07e8e4369760f73bd84209d6722c7cd043d167020d9cfcc739cc99",
                      "message":  "W-Profil: W5500-Empfang ueber INT-Leitung (GP21) statt Polling - Ethernet-WebUI und Online-Pruefung wieder erreichbar.",
                      "http_code":  200
                  }
