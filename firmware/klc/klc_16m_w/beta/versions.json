@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.309",
+                      "bin":  "knx-led-controller-16m-w_0.0.309.bin",
+                      "date":  "2026-07-05",
+                      "note":  "W-Profil: Online-Updatepfad korrigiert auf firmware/klc/klc_16m_w (vorher 404 unter firmware/klc_w) - Online-Pruefung und Updates funktionieren wieder."
+                  },
+                  {
                       "version":  "0.0.308",
                       "bin":  "knx-led-controller-16m-w_0.0.308.bin",
                       "date":  "2026-07-05",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m-w_0.0.306_claude.bin",
                       "date":  "2026-07-05",
                       "note":  "W-Profil: Service-AP KLC-xxxxxx startet ab Werk; neue Diagnosezeilen fuer Update-Pruefung und ersten Webzugriff."
-                  },
-                  {
-                      "version":  "0.0.305",
-                      "bin":  "knx-led-controller-16m-w_0.0.305_codex.bin",
-                      "date":  "2026-07-05",
-                      "note":  "Error-LED geht beim Boot sofort an, nach erfolgreichem Start aus und blinkt bei aktivem Fehler."
                   }
               ]
 }
