@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.306",
+                      "bin":  "knx-led-controller-16m_0.0.306_claude.bin",
+                      "date":  "2026-07-05",
+                      "note":  "W-Profil: Service-AP KLC-xxxxxx startet ab Werk; neue Diagnosezeilen fuer Update-Pruefung und ersten Webzugriff."
+                  },
+                  {
                       "version":  "0.0.305",
                       "bin":  "knx-led-controller-16m_0.0.305_codex.bin",
                       "date":  "2026-07-05",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m_0.0.301_claude.bin",
                       "date":  "2026-07-04",
                       "note":  "Claude - Uptime lesbar (min/h/d statt Sekunden). RP2350B-Plus-W: finaler Pinplan, Taster GP40, Run-LED GP41, Error-LED GP42. /outputs: Weiss-Blinktest erscheint sofort beim Wechsel RGB/RGBW ohne Neuladen."
-                  },
-                  {
-                      "version":  "0.0.300",
-                      "bin":  "knx-led-controller-16m_0.0.300_claude.bin",
-                      "date":  "2026-07-04",
-                      "note":  "Claude - Dashboard zeigt Uptime lesbar: unter 1 Stunde Minuten+Sekunden, ab 1 Stunde Stunden+Minuten, ab 1 Tag Tage+Stunden statt roher Sekunden."
                   }
               ]
 }
