@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.317",
+                      "bin":  "knx-led-controller-16m-w_0.0.317.bin",
+                      "date":  "2026-07-05",
+                      "note":  "WLAN-Kachel: neuer Masterschalter \u0027WLAN verwenden\u0027 (wie KNX DP 21), AP-Haken klarer benannt, WLAN-Aenderungen wirken sofort ohne Neustart; Update-Seite faengt leeren Datei-Upload ab."
+                  },
+                  {
                       "version":  "0.0.316",
                       "bin":  "knx-led-controller-16m-w_0.0.316.bin",
                       "date":  "2026-07-05",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m-w_0.0.313.bin",
                       "date":  "2026-07-05",
                       "note":  "W5500-TX-Pfad gegen Endlosschleifen abgesichert: begrenzte Wartezeiten, MACRAW-Socket-Recovery und Polling-Worker-Diagnose ergaenzt."
-                  },
-                  {
-                      "version":  "0.0.312",
-                      "bin":  "knx-led-controller-16m-w_0.0.312.bin",
-                      "date":  "2026-07-05",
-                      "note":  "Webserver entblockt: TCP-flush-Wartepunkte aus HTTP-Antworten entfernt, /ping-Diagnose und Slow-Request-Logging ergaenzt, CSS-Cache mit Theme-ETag."
                   }
               ]
 }

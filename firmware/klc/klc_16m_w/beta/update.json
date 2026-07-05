@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m-w_0.0.316.bin",
+                     "url":  "knx-led-controller-16m-w_0.0.317.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.316",
-                     "bin":  "knx-led-controller-16m-w_0.0.316.bin",
-                     "file":  "knx-led-controller-16m-w_0.0.316.bin",
-                     "sha256":  "cddc7f0bec68c9c7112b98e5b1300ef78e856b7593364d305895732f37a0792f",
-                     "message":  "Update-Seite: Klick auf \u0027Lokale Firmware-Datei hochladen\u0027 ohne gewaehlte Datei wird jetzt klar abgefangen (Hinweis statt \u0027keine .bin-Datei\u0027); Online-Update von GitHub war nicht betroffen.",
+                     "version":  "0.0.317",
+                     "bin":  "knx-led-controller-16m-w_0.0.317.bin",
+                     "file":  "knx-led-controller-16m-w_0.0.317.bin",
+                     "sha256":  "ce0cd512e6a30c50a6318e63eb688f13eed2a0cea4831ee7b614171b023dfa19",
+                     "message":  "WLAN-Kachel: neuer Masterschalter \u0027WLAN verwenden\u0027 (wie KNX DP 21), AP-Haken klarer benannt, WLAN-Aenderungen wirken sofort ohne Neustart; Update-Seite faengt leeren Datei-Upload ab.",
                      "http_code":  200
                  }
 }
