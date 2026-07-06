@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.320",
+                      "bin":  "knx-led-controller-16m_0.0.320.bin",
+                      "date":  "2026-07-06",
+                      "note":  "OTA-Download repariert: W5500-Vordergrundservice laeuft jetzt auch waehrend des BIN-Downloads mit - vorher verhungerte der Empfang ueber eth0 und der Download brach nach 15 s ohne Daten ab."
+                  },
+                  {
                       "version":  "0.0.319",
                       "bin":  "knx-led-controller-16m_0.0.319.bin",
                       "date":  "2026-07-05",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m_0.0.312.bin",
                       "date":  "2026-07-05",
                       "note":  "Webserver entblockt: TCP-flush-Wartepunkte aus HTTP-Antworten entfernt, /ping-Diagnose und Slow-Request-Logging ergaenzt, CSS-Cache mit Theme-ETag."
-                  },
-                  {
-                      "version":  "0.0.311",
-                      "bin":  "knx-led-controller-16m_0.0.311.bin",
-                      "date":  "2026-07-05",
-                      "note":  "W5500 zurueck auf Polling mit 4-ms-Intervall statt INT-Leitung - der IRQ-Pfad verursachte Komplett-Haenger; RX-Selbstheilung bleibt aktiv."
                   }
               ]
 }

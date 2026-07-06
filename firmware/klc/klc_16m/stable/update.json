@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m_0.0.319.bin",
+                     "url":  "knx-led-controller-16m_0.0.320.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.319",
-                     "bin":  "knx-led-controller-16m_0.0.319.bin",
-                     "file":  "knx-led-controller-16m_0.0.319.bin",
-                     "sha256":  "4359bcc40c16ae2b7a9a8a26261ee82628deb22d5f7edadbeab62fcfe8f98963",
-                     "message":  "Service-Taster final: unter 2s nichts, 2-5s Netzwerk-Reset (LED blinkt), 5-10s Werksreset (LED an), ueber 10s nichts (Klemmschutz). Dazu OTA-Fix: verwaister Updater-Rest blockiert keine weiteren Versuche mehr.",
+                     "version":  "0.0.320",
+                     "bin":  "knx-led-controller-16m_0.0.320.bin",
+                     "file":  "knx-led-controller-16m_0.0.320.bin",
+                     "sha256":  "71ee22187d60c07ea2da130c26148ed580d06c06ff088d8c7e3757f37933a94d",
+                     "message":  "OTA-Download repariert: W5500-Vordergrundservice laeuft jetzt auch waehrend des BIN-Downloads mit - vorher verhungerte der Empfang ueber eth0 und der Download brach nach 15 s ohne Daten ab.",
                      "http_code":  200
                  }
 }
