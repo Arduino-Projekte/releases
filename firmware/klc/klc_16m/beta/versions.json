@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.320",
+                      "bin":  "knx-led-controller-16m_0.0.320.bin",
+                      "date":  "2026-07-06",
+                      "note":  "OTA-Download repariert: W5500-Vordergrundservice laeuft jetzt auch waehrend des BIN-Downloads mit - vorher verhungerte der Empfang ueber eth0 und der Download brach nach 15 s ohne Daten ab."
+                  },
+                  {
                       "version":  "0.0.319",
                       "bin":  "knx-led-controller-16m_0.0.319.bin",
                       "date":  "2026-07-05",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m_0.0.315.bin",
                       "date":  "2026-07-05",
                       "note":  "Netzwerk per KNX schaltbar (DP 20/21 + Status 54/55, dauerhaft), Kacheln WLAN/Ethernet neu geordnet, Betrieb ohne W5500 ohne Fehler, Service-Taster: kurz=Netzwerk ein, 5-10s=Werksreset, \u003e10s=Klemmschutz."
-                  },
-                  {
-                      "version":  "0.0.314",
-                      "bin":  "knx-led-controller-16m_0.0.314.bin",
-                      "date":  "2026-07-05",
-                      "note":  "WLAN/W5500 entkoppelt: aktiven Vordergrund-Poll ergaenzt und grosse HTTP-Antworten in bediente TCP-Bloecke geteilt."
                   }
               ]
 }
