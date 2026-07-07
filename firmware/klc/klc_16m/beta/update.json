@@ -6,7 +6,7 @@
                      "version":  "0.0.320",
                      "bin":  "knx-led-controller-16m_0.0.320.bin",
                      "file":  "knx-led-controller-16m_0.0.320.bin",
-                     "sha256":  "71ee22187d60c07ea2da130c26148ed580d06c06ff088d8c7e3757f37933a94d",
+                     "sha256":  "03c63314e9e9475cfab1b92458f2e5bd675a53f49606b74f10e5b7a994cf18fb",
                      "message":  "OTA-Download repariert: W5500-Vordergrundservice laeuft jetzt auch waehrend des BIN-Downloads mit - vorher verhungerte der Empfang ueber eth0 und der Download brach nach 15 s ohne Daten ab.",
                      "http_code":  200
                  }
