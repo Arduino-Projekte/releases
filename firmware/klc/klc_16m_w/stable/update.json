@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m-w_0.0.320.bin",
+                     "url":  "knx-led-controller-16m-w_0.0.323.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.320",
-                     "bin":  "knx-led-controller-16m-w_0.0.320.bin",
-                     "file":  "knx-led-controller-16m-w_0.0.320.bin",
-                     "sha256":  "5835f433311569ef2fc4185af4907a451c29dfeafad44bdcaf5a3246f164ab88",
-                     "message":  "OTA-Download repariert: W5500-Vordergrundservice laeuft jetzt auch waehrend des BIN-Downloads mit - vorher verhungerte der Empfang ueber eth0 und der Download brach nach 15 s ohne Daten ab.",
+                     "version":  "0.0.323",
+                     "bin":  "knx-led-controller-16m-w_0.0.323.bin",
+                     "file":  "knx-led-controller-16m-w_0.0.323.bin",
+                     "sha256":  "675e508b0f9a020aa9827e52055e924135b49defb6b2a6d38cb0e8ff8386cf59",
+                     "message":  "Szenen-Pool/KNX: globales \u0027Naechste Szene\u0027-Objekt hat jetzt eine Standard-Objektnummer (DP 4 / GA 2/2/4) statt aus, damit die KNX-Import-Dateien in sich stimmig sind und die zentrale Weiter/Zurueck-Adresse ohne WebUI-Zusatzschritt funktioniert. Pro Kanal weiterhin DP base+5 (105/205/305/405/505, GA 2/2/26/56/86/116/146). KNX-Import-Dateien auf v0.0.323 aktualisiert (BAOS-Datenpunkte, DCA-CSV, ETS-Gruppenadressen txt+xml).",
                      "http_code":  200
                  }
 }

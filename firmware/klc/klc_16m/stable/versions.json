@@ -1,9 +1,27 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.323",
+                      "bin":  "knx-led-controller-16m_0.0.323.bin",
+                      "date":  "2026-07-09",
+                      "note":  "Szenen-Pool/KNX: globales \u0027Naechste Szene\u0027-Objekt hat jetzt eine Standard-Objektnummer (DP 4 / GA 2/2/4) statt aus, damit die KNX-Import-Dateien in sich stimmig sind und die zentrale Weiter/Zurueck-Adresse ohne WebUI-Zusatzschritt funktioniert. Pro Kanal weiterhin DP base+5 (105/205/305/405/505, GA 2/2/26/56/86/116/146). KNX-Import-Dateien auf v0.0.323 aktualisiert (BAOS-Datenpunkte, DCA-CSV, ETS-Gruppenadressen txt+xml)."
+                  },
+                  {
+                      "version":  "0.0.305",
+                      "bin":  "knx-led-controller-16m_0.0.305.bin",
+                      "date":  "2026-07-09",
+                      "note":  "Error-LED geht beim Boot sofort an, nach erfolgreichem Start aus und blinkt bei aktivem Fehler."
+                  },
+                  {
+                      "version":  "0.0.321",
+                      "bin":  "knx-led-controller-16m_0.0.321.bin",
+                      "date":  "2026-07-09",
+                      "note":  "Kabel + WLAN gleichzeitig: automatisches Failover. Liegen eth0 und WLAN-Client im SELBEN Subnetz, haelt nur noch ein Interface aktiv die LAN-IP (Prioritaet einstellbar), das andere geht in Standby (netif_down) - das behebt die Web-Timeouts bei parallelem Kabel+WLAN am selben Router. Faellt das aktive Interface aus (Kabel gezogen/WLAN weg), uebernimmt das andere automatisch. In getrennten Subnetzen bleiben weiterhin beide gleichzeitig erreichbar."
+                  },
+                  {
                       "version":  "0.0.320",
                       "bin":  "knx-led-controller-16m_0.0.320.bin",
-                      "date":  "2026-07-07",
+                      "date":  "2026-07-06",
                       "note":  "OTA-Download repariert: W5500-Vordergrundservice laeuft jetzt auch waehrend des BIN-Downloads mit - vorher verhungerte der Empfang ueber eth0 und der Download brach nach 15 s ohne Daten ab."
                   },
                   {
@@ -11,24 +29,6 @@
                       "bin":  "knx-led-controller-16m_0.0.319.bin",
                       "date":  "2026-07-05",
                       "note":  "Service-Taster final: unter 2s nichts, 2-5s Netzwerk-Reset (LED blinkt), 5-10s Werksreset (LED an), ueber 10s nichts (Klemmschutz). Dazu OTA-Fix: verwaister Updater-Rest blockiert keine weiteren Versuche mehr."
-                  },
-                  {
-                      "version":  "0.0.314",
-                      "bin":  "knx-led-controller-16m_0.0.314.bin",
-                      "date":  "2026-07-05",
-                      "note":  "WLAN/W5500 entkoppelt: aktiven Vordergrund-Poll ergaenzt und grosse HTTP-Antworten in bediente TCP-Bloecke geteilt."
-                  },
-                  {
-                      "version":  "0.0.313",
-                      "bin":  "knx-led-controller-16m_0.0.313.bin",
-                      "date":  "2026-07-05",
-                      "note":  "W5500-TX-Pfad gegen Endlosschleifen abgesichert: begrenzte Wartezeiten, MACRAW-Socket-Recovery und Polling-Worker-Diagnose ergaenzt."
-                  },
-                  {
-                      "version":  "0.0.312",
-                      "bin":  "knx-led-controller-16m_0.0.312.bin",
-                      "date":  "2026-07-05",
-                      "note":  "Webserver entblockt: TCP-flush-Wartepunkte aus HTTP-Antworten entfernt, /ping-Diagnose und Slow-Request-Logging ergaenzt, CSS-Cache mit Theme-ETag."
                   }
               ]
 }
