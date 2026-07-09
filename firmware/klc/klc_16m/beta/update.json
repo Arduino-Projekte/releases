@@ -6,7 +6,7 @@
                      "version":  "0.0.323",
                      "bin":  "knx-led-controller-16m_0.0.323.bin",
                      "file":  "knx-led-controller-16m_0.0.323.bin",
-                     "sha256":  "6fac66da0189c587fa4dec42156f0809e2c84d01392e765c022c0855c3364123",
+                     "sha256":  "0321c2330fdec669107f8787e5cc99cf366edc6f36948b2b20a74c85a59406ce",
                      "message":  "Szenen-Pool/KNX: globales \u0027Naechste Szene\u0027-Objekt hat jetzt eine Standard-Objektnummer (DP 4 / GA 2/2/4) statt aus, damit die KNX-Import-Dateien in sich stimmig sind und die zentrale Weiter/Zurueck-Adresse ohne WebUI-Zusatzschritt funktioniert. Pro Kanal weiterhin DP base+5 (105/205/305/405/505, GA 2/2/26/56/86/116/146). KNX-Import-Dateien auf v0.0.323 aktualisiert (BAOS-Datenpunkte, DCA-CSV, ETS-Gruppenadressen txt+xml).",
                      "http_code":  200
                  }
