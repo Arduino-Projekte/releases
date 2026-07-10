@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "kind": "klc_help",
-  "version": "0.3.5",
+  "version": "0.3.6",
   "firmware_min": "0.0.299",
   "language": "nl",
   "title": "KLC Help",
@@ -181,5 +181,48 @@
     {"id": "system.release_check", "page": "Systeem", "label": "Releasecheck", "short": "Controleert profiel, updatepaden en releasegegevens.", "details": "Handig voor publicaties zodat manifest, versielijst, boardprofiel en flashgrootte bij elkaar passen."},
     {"id": "dashboard.output_load_status", "page": "Dashboard", "label": "Uitgangen / scène / geschatte belasting", "short": "Dashboardtabel voor uitgangsstatus, scène en live-belasting.", "details": "Actieve uitgangen tonen echte live-belasting en scène. Uitgeschakelde uitgangen worden getoond met status uitgeschakeld, 0 mA, Uitgang uitgeschakeld en 0 actieve LED's."},
     {"id": "outputs.summary_active", "page": "Uitgangen", "label": "Actieve uitgangen", "short": "Telt actieve uitgangen in verhouding tot de voorziene configuratie.", "details": "De aparte tegels Voorziene uitgangen en Printplaatuitgangen zijn verwijderd omdat het hardwaremaximum van de KLC-printplaat 5 is en de relevante bedrijfswaarde de actieve uitgangen zijn."}
-  ]
+  ,
+                   {
+                       "id":  "outputs.follows_output",
+                       "page":  "Uitgangen",
+                       "label":  "Kanaalkoppeling (volgt)",
+                       "short":  "Hangt deze uitgang als volger aan een ander kanaal; samen werken ze als één LED-strip.",
+                       "details":  "De kop van de ketting (master) stuurt alles: scène, KNX, maximale helderheid en LED-offset komen van de kop, effecten lopen naadloos over de totale lengte. De volger erft LED-chip, kleuren en kleurvolgorde van de master en reageert niet meer op KNX. Eigen blijven: GPIO, aantal pixels, powergroep en stroomlimiet. Stringsegmenten zijn onverenigbaar met koppeling."
+                   },
+                   {
+                       "id":  "outputs.chain_reverse",
+                       "page":  "Uitgangen",
+                       "label":  "Omkeren in de ketting",
+                       "short":  "Keert de pixelvolgorde van deze schakel om.",
+                       "details":  "Nodig als een strip tegen de kettingrichting in ligt. Herkenning in de test Ketting doorlopen: de punt springt bij de naad en loopt terug. De kop bepaalt de richting en wordt nooit omgekeerd."
+                   },
+                   {
+                       "id":  "outputs.chain_walk",
+                       "page":  "Uitgangen",
+                       "label":  "Ketting doorlopen",
+                       "short":  "Uitlijnhulp: een punt loopt één keer door de hele pixelruimte van de ketting.",
+                       "details":  "Elke schakel krijgt een eigen kleur, het begin van elke schakel blijft gemarkeerd; een ronde duurt circa 5 seconden. Loopt de punt bij een naad terug, zet dan Omkeren in de ketting bij die schakel. Stoppen: zelfde knop, Tests wissen of een scène starten."
+                   },
+                   {
+                       "id":  "network.failover",
+                       "page":  "Netwerk",
+                       "label":  "LAN-failover",
+                       "short":  "Delen kabel en WLAN één subnet, dan bedient maar één interface het LAN; de andere gaat in stand-by.",
+                       "details":  "Anders zouden antwoorden via de verkeerde interface vertrekken (timeouts). De geparkeerde interface houdt zijn IP maar antwoordt er niet op. Valt de actieve uit, dan neemt de geparkeerde het in 1-2 seconden over. In verschillende subnetten blijven beide bereikbaar."
+                   },
+                   {
+                       "id":  "flows.scene_pool",
+                       "page":  "Verlopen",
+                       "label":  "Scènepool",
+                       "short":  "Neemt dit verloop op in de pool die het KNX-object Scène volgende/vorige doorloopt.",
+                       "details":  "De pool bevat alle actieve verlopen met het vinkje gezet, oplopend per slot, met omloop. Telegram 1 = volgende, 0 = vorige. Buiten de pool of kanaal uit: volgende = eerste, vorige = laatste."
+                   },
+                   {
+                       "id":  "knx.next_scene",
+                       "page":  "KNX",
+                       "label":  "Scène volgende/vorige",
+                       "short":  "1-bits object: 1 schakelt naar de volgende scene uit de pool, 0 naar de vorige.",
+                       "details":  "Bestaat per kanaal (datapunten 105, 205, 305, 405, 505; groepsadressen vanaf 2/2/26 in stappen van 30) en centraal (datapunt 4, adres 2/2/4). De actuele scènestatus van het kanaal is de aanwijzer."
+                   }
+               ]
 }

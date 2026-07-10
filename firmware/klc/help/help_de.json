@@ -1,7 +1,7 @@
 ﻿{
     "schema":  1,
     "kind":  "klc_help",
-    "version":  "0.3.5",
+    "version":  "0.3.6",
     "firmware_min":  "0.0.299",
     "language":  "de",
     "title":  "KLC Hilfe",
@@ -1179,6 +1179,49 @@
                        "label":  "Aktive Ausgänge",
                        "short":  "Zählt aktive Ausgänge im Verhältnis zur vorgesehenen Konfiguration.",
                        "details":  "Die separaten Kacheln Vorgesehene Ausgänge und Platinen-Ausgänge sind entfernt, weil bei der KLC-Platine das Hardware-Maximum 5 ist und der relevante Betriebswert die aktiven Ausgänge sind."
+                   }
+               ,
+                   {
+                       "id":  "outputs.follows_output",
+                       "page":  "Ausgänge",
+                       "label":  "Kanal-Verkettung (folgt dem)",
+                       "short":  "Hängt diesen Ausgang als Nachfolger an einen anderen Kanal; beide wirken wie eine einzige LED-Leiste.",
+                       "details":  "Der Kettenkopf (Master) steuert die komplette Kette: Szene, KNX, maximale Helligkeit und LED-Versatz kommen vom Kopf, Effekte laufen nahtlos über die Gesamtlänge. Der Nachfolger übernimmt LED-Chip, LED-Farben und Farbreihenfolge automatisch vom Master und reagiert nicht mehr auf KNX (kein Empfang, kein Status). Eigene Werte des Nachfolgers bleiben: GPIO, Pixelanzahl, Power-Gruppe und Strang-Begrenzung. String-Segmente sind mit der Verkettung unvereinbar. Zum Ausrichten dient der Test Kette durchlaufen."
+                   },
+                   {
+                       "id":  "outputs.chain_reverse",
+                       "page":  "Ausgänge",
+                       "label":  "In der Kette umdrehen",
+                       "short":  "Dreht die Pixelreihenfolge dieses Kettenglieds innerhalb der Kette um.",
+                       "details":  "Nötig, wenn ein Strang physisch gegen die Laufrichtung der Kette verlegt ist. Erkennungszeichen im Test Kette durchlaufen: Der Punkt springt an der Nahtstelle ans Ende des Glieds und läuft rückwärts. Der Kettenkopf gibt die Richtung vor und wird nie gedreht."
+                   },
+                   {
+                       "id":  "outputs.chain_walk",
+                       "page":  "Ausgänge",
+                       "label":  "Kette durchlaufen",
+                       "short":  "Ausrichthilfe: Ein Punkt läuft einmal durch den gesamten Pixelraum der Kette.",
+                       "details":  "Jedes Kettenglied bekommt eine eigene Farbe, der Anfang jedes Glieds bleibt gedimmt markiert; ein Durchlauf dauert etwa 5 Sekunden. Läuft der Punkt an einer Nahtstelle rückwärts, beim betroffenen Glied In der Kette umdrehen setzen. Beenden: dieselbe Taste, Tests löschen oder ein Szenenstart."
+                   },
+                   {
+                       "id":  "network.failover",
+                       "page":  "Netzwerk",
+                       "label":  "LAN-Failover",
+                       "short":  "Liegen Kabel und WLAN im selben Subnetz, hält nur ein Interface das LAN; das andere geht in Standby.",
+                       "details":  "In einem gemeinsamen Subnetz würden Antworten sonst teilweise über das falsche Interface gesendet (Folge: Timeouts). Das geparkte Interface behält seine IP-Adresse, ist unter ihr aber nicht erreichbar. Fällt das aktive Interface aus, übernimmt das geparkte automatisch innerhalb von 1-2 Sekunden. Welches Interface gewinnt, bestimmt Priorität ausgehend. In verschiedenen Subnetzen bleiben beide Interfaces gleichzeitig erreichbar."
+                   },
+                   {
+                       "id":  "flows.scene_pool",
+                       "page":  "Abläufe",
+                       "label":  "Szenen-Pool",
+                       "short":  "Nimmt diesen Ablauf in den Pool auf, den das KNX-Objekt Szene weiter/zurück durchschaltet.",
+                       "details":  "Der Pool enthält alle aktivierten Abläufe mit gesetztem Haken, aufsteigend nach Speicherplatz, mit Umlauf am Ende. KNX-Telegramm 1 = nächste Szene, 0 = vorherige. Läuft gerade eine Szene ausserhalb des Pools oder ist der Kanal aus, springt weiter zum ersten und zurück zum letzten Pool-Eintrag."
+                   },
+                   {
+                       "id":  "knx.next_scene",
+                       "page":  "KNX",
+                       "label":  "Szene weiter/zurück",
+                       "short":  "1-Bit-Objekt: Telegramm 1 schaltet zur nächsten, 0 zur vorherigen Szene aus dem Szenen-Pool.",
+                       "details":  "Existiert je Kanal (Standard-Datenpunkte 105, 205, 305, 405, 505; Gruppenadressen ab 2/2/26 im 30er-Raster) und zentral für alle Kanäle (Datenpunkt 4, Gruppenadresse 2/2/4). Der aktuelle Szenenzustand des Kanals dient als Zeiger; einen separaten Zähler gibt es nicht. Welche Abläufe im Pool sind, bestimmt der Haken Szenen-Pool im Ablauf-Editor."
                    }
                ]
 }

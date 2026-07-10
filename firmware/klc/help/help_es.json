@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "kind": "klc_help",
-  "version": "0.3.5",
+  "version": "0.3.6",
   "firmware_min": "0.0.299",
   "language": "es",
   "title": "Ayuda KLC",
@@ -181,5 +181,48 @@
     {"id": "system.release_check", "page": "Sistema", "label": "Comprobación de release", "short": "Comprueba perfil, rutas de actualización y datos de release.", "details": "Útil antes de publicaciones para que el manifiesto, la lista de versiones, el perfil de placa y el tamaño de flash concuerden."},
     {"id": "dashboard.output_load_status", "page": "Panel", "label": "Salidas / escena / carga estimada", "short": "Tabla del panel para estado de salidas, escena y carga en vivo.", "details": "Las salidas activas muestran la carga en vivo real y la escena. Las salidas desactivadas se muestran con estado desactivado, 0 mA, Salida desactivada y 0 LED activos."},
     {"id": "outputs.summary_active", "page": "Salidas", "label": "Salidas activas", "short": "Cuenta las salidas activas en relación con la configuración prevista.", "details": "Las tarjetas separadas Salidas previstas y Salidas de placa se eliminaron porque el máximo de hardware de la placa KLC es 5 y el valor operativo relevante son las salidas activas."}
-  ]
+  ,
+                   {
+                       "id":  "outputs.follows_output",
+                       "page":  "Salidas",
+                       "label":  "Encadenado de canales (sigue a)",
+                       "short":  "Añade esta salida como seguidor de otro canal; ambos actúan como una sola tira LED.",
+                       "details":  "La cabeza de la cadena (master) controla todo: escena, KNX, brillo máximo y desplazamiento LED vienen de la cabeza, los efectos corren sin cortes por la longitud total. El seguidor hereda chip LED, colores y orden de colores del master y ya no reacciona al KNX. Conserva GPIO, número de píxeles, grupo de potencia y límite de corriente. Los segmentos de tira son incompatibles con el encadenado."
+                   },
+                   {
+                       "id":  "outputs.chain_reverse",
+                       "page":  "Salidas",
+                       "label":  "Invertir en la cadena",
+                       "short":  "Invierte el orden de píxeles de este eslabón.",
+                       "details":  "Necesario cuando una tira está montada contra el sentido de la cadena. Señal en la prueba Recorrer cadena: el punto salta en la unión y retrocede. La cabeza marca el sentido y nunca se invierte."
+                   },
+                   {
+                       "id":  "outputs.chain_walk",
+                       "page":  "Salidas",
+                       "label":  "Recorrer cadena",
+                       "short":  "Ayuda de alineación: un punto recorre una vez todo el espacio de píxeles de la cadena.",
+                       "details":  "Cada eslabón tiene su color, el inicio de cada eslabón queda marcado; una pasada dura unos 5 segundos. Si el punto retrocede en una unión, active Invertir en la cadena en ese eslabón. Parar: mismo botón, Borrar pruebas o iniciar una escena."
+                   },
+                   {
+                       "id":  "network.failover",
+                       "page":  "Red",
+                       "label":  "Conmutación LAN",
+                       "short":  "Si cable y WLAN comparten subred, solo una interfaz sirve la LAN; la otra queda en espera.",
+                       "details":  "Si no, algunas respuestas saldrían por la interfaz equivocada (timeouts). La interfaz aparcada conserva su IP pero no responde en ella. Si la activa falla, la aparcada toma el relevo en 1-2 segundos. En subredes distintas ambas siguen accesibles."
+                   },
+                   {
+                       "id":  "flows.scene_pool",
+                       "page":  "Secuencias",
+                       "label":  "Pool de escenas",
+                       "short":  "Añade esta secuencia al pool que recorre el objeto KNX Escena siguiente/anterior.",
+                       "details":  "El pool contiene todas las secuencias activadas con la casilla marcada, por posición ascendente, con vuelta al inicio. Telegrama 1 = siguiente, 0 = anterior. Fuera del pool o canal apagado: siguiente = primera, anterior = última."
+                   },
+                   {
+                       "id":  "knx.next_scene",
+                       "page":  "KNX",
+                       "label":  "Escena siguiente/anterior",
+                       "short":  "Objeto de 1 bit: 1 cambia a la siguiente escena del pool, 0 a la anterior.",
+                       "details":  "Existe por canal (puntos de datos 105, 205, 305, 405, 505; direcciones de grupo desde 2/2/26 en pasos de 30) y central (punto 4, dirección 2/2/4). El estado de escena actual del canal es el puntero."
+                   }
+               ]
 }

@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "kind": "klc_help",
-  "version": "0.3.5",
+  "version": "0.3.6",
   "firmware_min": "0.0.299",
   "language": "en",
   "title": "KLC Help",
@@ -181,5 +181,48 @@
     {"id": "system.release_check", "page": "System", "label": "Release check", "short": "Checks profile, update paths and release data.", "details": "Helpful before releases so that manifest, version list, board profile and flash size fit together."},
     {"id": "dashboard.output_load_status", "page": "Dashboard", "label": "Outputs / scene / estimated load", "short": "Dashboard table for output status, scene and live load.", "details": "Active outputs show real live load and scene. Disabled outputs are shown with status disabled, 0 mA, Output disabled and 0 active LEDs."},
     {"id": "outputs.summary_active", "page": "Outputs", "label": "Active outputs", "short": "Counts active outputs relative to the provided configuration.", "details": "The separate tiles Provided outputs and Board outputs were removed because the hardware maximum of the KLC board is 5 and the relevant operating value is the active outputs."}
-  ]
+  ,
+                   {
+                       "id":  "outputs.follows_output",
+                       "page":  "Outputs",
+                       "label":  "Channel chaining (follows)",
+                       "short":  "Attaches this output as a follower of another channel; both act as one LED strip.",
+                       "details":  "The chain head (master) controls the whole chain: scene, KNX, maximum brightness and LED offset come from the head, effects run seamlessly across the total length. The follower inherits LED chip, LED colors and color order from the master and no longer reacts to KNX (no receive, no status). The follower keeps its own GPIO, pixel count, power group and string current limit. String segments are incompatible with chaining. Use the Walk chain test for alignment."
+                   },
+                   {
+                       "id":  "outputs.chain_reverse",
+                       "page":  "Outputs",
+                       "label":  "Reverse in chain",
+                       "short":  "Reverses the pixel order of this chain link.",
+                       "details":  "Needed when a strip is physically installed against the chain direction. Telltale in the Walk chain test: the dot jumps to the end of the link at the seam and runs backwards. The chain head sets the direction and is never reversed."
+                   },
+                   {
+                       "id":  "outputs.chain_walk",
+                       "page":  "Outputs",
+                       "label":  "Walk chain",
+                       "short":  "Alignment aid: a dot runs once through the entire pixel space of the chain.",
+                       "details":  "Each link gets its own color and the start of each link stays dimly marked; one pass takes about 5 seconds. If the dot runs backwards at a seam, set Reverse in chain on that link. Stop: same button, Clear tests, or starting a scene."
+                   },
+                   {
+                       "id":  "network.failover",
+                       "page":  "Network",
+                       "label":  "LAN failover",
+                       "short":  "If cable and WLAN share one subnet, only one interface serves the LAN; the other goes to standby.",
+                       "details":  "In a shared subnet replies could otherwise leave through the wrong interface (result: timeouts). The parked interface keeps its IP address but does not respond on it. If the active interface fails, the parked one takes over automatically within 1-2 seconds. Outbound priority selects the winner. In different subnets both interfaces stay reachable."
+                   },
+                   {
+                       "id":  "flows.scene_pool",
+                       "page":  "Sequences",
+                       "label":  "Scene pool",
+                       "short":  "Adds this sequence to the pool cycled by the KNX object Scene next/previous.",
+                       "details":  "The pool contains all enabled sequences with the checkbox set, ascending by slot, wrapping at the end. KNX telegram 1 = next scene, 0 = previous. If the current scene is outside the pool or the channel is off, next jumps to the first and previous to the last pool entry."
+                   },
+                   {
+                       "id":  "knx.next_scene",
+                       "page":  "KNX",
+                       "label":  "Scene next/previous",
+                       "short":  "1-bit object: telegram 1 switches to the next, 0 to the previous scene from the scene pool.",
+                       "details":  "Exists per channel (default datapoints 105, 205, 305, 405, 505; group addresses from 2/2/26 in steps of 30) and centrally for all channels (datapoint 4, group address 2/2/4). The channel's current scene state is the pointer; there is no separate counter. The Scene pool checkbox in the sequence editor decides which sequences are in the pool."
+                   }
+               ]
 }

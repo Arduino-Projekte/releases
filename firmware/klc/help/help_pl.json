@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "kind": "klc_help",
-  "version": "0.3.5",
+  "version": "0.3.6",
   "firmware_min": "0.0.299",
   "language": "pl",
   "title": "Pomoc KLC",
@@ -181,5 +181,48 @@
     {"id": "system.release_check", "page": "System", "label": "Kontrola wydania", "short": "Sprawdza profil, ścieżki aktualizacji i dane wydania.", "details": "Pomocne przed publikacjami, aby manifest, lista wersji, profil płytki i wielkość flash pasowały do siebie."},
     {"id": "dashboard.output_load_status", "page": "Pulpit", "label": "Wyjścia / scena / szacowane obciążenie", "short": "Tabela pulpitu dla statusu wyjść, sceny i obciążenia na żywo.", "details": "Aktywne wyjścia pokazują rzeczywiste obciążenie na żywo i scenę. Wyłączone wyjścia są pokazywane ze statusem wyłączone, 0 mA, Wyjście wyłączone i 0 aktywnych LED."},
     {"id": "outputs.summary_active", "page": "Wyjścia", "label": "Aktywne wyjścia", "short": "Liczy aktywne wyjścia w stosunku do przewidzianej konfiguracji.", "details": "Osobne kafelki Przewidziane wyjścia i Wyjścia płytki zostały usunięte, bo sprzętowe maksimum płytki KLC to 5, a istotną wartością roboczą są aktywne wyjścia."}
-  ]
+  ,
+                   {
+                       "id":  "outputs.follows_output",
+                       "page":  "Wyjścia",
+                       "label":  "Łączenie kanałów (podąża za)",
+                       "short":  "Dołącza to wyjście jako następnik innego kanału; oba działają jak jedna taśma LED.",
+                       "details":  "Głowa łańcucha (master) steruje wszystkim: scena, KNX, maksymalna jasność i przesunięcie LED pochodzą z głowy, efekty biegną bez przerw przez całą długość. Następnik dziedziczy chip LED, kolory i kolejność kolorów od mastera i nie reaguje już na KNX. Własne pozostają: GPIO, liczba pikseli, grupa mocy i limit prądu. Segmenty taśmy są niezgodne z łączeniem."
+                   },
+                   {
+                       "id":  "outputs.chain_reverse",
+                       "page":  "Wyjścia",
+                       "label":  "Odwróć w łańcuchu",
+                       "short":  "Odwraca kolejność pikseli tego ogniwa.",
+                       "details":  "Potrzebne, gdy taśma leży przeciwnie do kierunku łańcucha. Oznaka w teście Przejdź łańcuch: punkt skacze na łączeniu i cofa się. Głowa wyznacza kierunek i nigdy nie jest odwracana."
+                   },
+                   {
+                       "id":  "outputs.chain_walk",
+                       "page":  "Wyjścia",
+                       "label":  "Przejdź łańcuch",
+                       "short":  "Pomoc w ustawianiu: punkt przebiega raz przez całą przestrzeń pikseli łańcucha.",
+                       "details":  "Każde ogniwo ma własny kolor, początek każdego ogniwa pozostaje oznaczony; przebieg trwa około 5 sekund. Jeśli punkt cofa się na łączeniu, ustaw Odwróć w łańcuchu przy tym ogniwie. Stop: ten sam przycisk, Wyczyść testy lub start sceny."
+                   },
+                   {
+                       "id":  "network.failover",
+                       "page":  "Sieć",
+                       "label":  "Przełączanie LAN",
+                       "short":  "Gdy kabel i WLAN dzielą podsieć, LAN obsługuje tylko jeden interfejs; drugi czeka w gotowości.",
+                       "details":  "Inaczej część odpowiedzi wychodziłaby złym interfejsem (timeouty). Zaparkowany interfejs zachowuje IP, ale nie odpowiada. Gdy aktywny padnie, zaparkowany przejmuje w 1-2 sekundy. W różnych podsieciach oba pozostają osiągalne."
+                   },
+                   {
+                       "id":  "flows.scene_pool",
+                       "page":  "Sekwencje",
+                       "label":  "Pula scen",
+                       "short":  "Dodaje tę sekwencję do puli przełączanej obiektem KNX Scena następna/poprzednia.",
+                       "details":  "Pula zawiera wszystkie aktywne sekwencje z zaznaczonym polem, rosnąco według slotu, z zapętleniem. Telegram 1 = następna, 0 = poprzednia. Poza pulą lub kanał wyłączony: następna = pierwsza, poprzednia = ostatnia."
+                   },
+                   {
+                       "id":  "knx.next_scene",
+                       "page":  "KNX",
+                       "label":  "Scena następna/poprzednia",
+                       "short":  "Obiekt 1-bitowy: 1 przełącza na następną scenę z puli, 0 na poprzednią.",
+                       "details":  "Istnieje na kanał (punkty danych 105, 205, 305, 405, 505; adresy grupowe od 2/2/26 co 30) i centralnie (punkt 4, adres 2/2/4). Aktualny stan sceny kanału jest wskaźnikiem."
+                   }
+               ]
 }

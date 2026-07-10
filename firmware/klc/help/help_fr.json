@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "kind": "klc_help",
-  "version": "0.3.5",
+  "version": "0.3.6",
   "firmware_min": "0.0.299",
   "language": "fr",
   "title": "Aide KLC",
@@ -181,5 +181,48 @@
     {"id": "system.release_check", "page": "Système", "label": "Contrôle de release", "short": "Vérifie le profil, les chemins de mise à jour et les données de release.", "details": "Utile avant les publications pour que le manifeste, la liste des versions, le profil de carte et la taille de flash concordent."},
     {"id": "dashboard.output_load_status", "page": "Tableau de bord", "label": "Sorties / scène / charge estimée", "short": "Table du tableau de bord pour l'état des sorties, la scène et la charge en direct.", "details": "Les sorties actives montrent la charge en direct réelle et la scène. Les sorties désactivées sont affichées avec l'état désactivé, 0 mA, Sortie désactivée et 0 LED actives."},
     {"id": "outputs.summary_active", "page": "Sorties", "label": "Sorties actives", "short": "Compte les sorties actives par rapport à la configuration prévue.", "details": "Les tuiles séparées Sorties prévues et Sorties de carte ont été supprimées car le maximum matériel de la carte KLC est 5 et la valeur d'exploitation pertinente est celle des sorties actives."}
-  ]
+  ,
+                   {
+                       "id":  "outputs.follows_output",
+                       "page":  "Sorties",
+                       "label":  "Chaînage de canaux (suit)",
+                       "short":  "Attache cette sortie comme suiveur d'un autre canal ; les deux agissent comme une seule bande LED.",
+                       "details":  "La tête de chaîne (master) contrôle tout : scène, KNX, luminosité maximale et décalage LED viennent de la tête, les effets courent sans rupture sur la longueur totale. Le suiveur hérite de la puce LED, des couleurs et de l'ordre des couleurs du master et ne réagit plus au KNX. Il garde GPIO, nombre de pixels, groupe de puissance et limite de courant. Les segments de chaîne sont incompatibles avec le chaînage."
+                   },
+                   {
+                       "id":  "outputs.chain_reverse",
+                       "page":  "Sorties",
+                       "label":  "Inverser dans la chaîne",
+                       "short":  "Inverse l'ordre des pixels de ce maillon.",
+                       "details":  "Nécessaire quand une bande est posée contre le sens de la chaîne. Signe dans le test Parcourir la chaîne : le point saute à la jonction et recule. La tête de chaîne donne le sens et n'est jamais inversée."
+                   },
+                   {
+                       "id":  "outputs.chain_walk",
+                       "page":  "Sorties",
+                       "label":  "Parcourir la chaîne",
+                       "short":  "Aide d'alignement : un point parcourt une fois tout l'espace pixel de la chaîne.",
+                       "details":  "Chaque maillon a sa couleur, le début de chaque maillon reste marqué ; un passage dure environ 5 secondes. Si le point recule à une jonction, activer Inverser dans la chaîne sur ce maillon. Arrêt : même bouton, Effacer les tests ou démarrage d'une scène."
+                   },
+                   {
+                       "id":  "network.failover",
+                       "page":  "Réseau",
+                       "label":  "Basculement LAN",
+                       "short":  "Si câble et WLAN partagent un sous-réseau, une seule interface sert le LAN ; l'autre passe en veille.",
+                       "details":  "Sinon des réponses partiraient par la mauvaise interface (timeouts). L'interface garée garde son IP mais n'y répond pas. Si l'interface active tombe, l'autre prend le relais en 1-2 secondes. Dans des sous-réseaux différents, les deux restent joignables."
+                   },
+                   {
+                       "id":  "flows.scene_pool",
+                       "page":  "Séquences",
+                       "label":  "Pool de scènes",
+                       "short":  "Ajoute cette séquence au pool parcouru par l'objet KNX Scène suivante/précédente.",
+                       "details":  "Le pool contient toutes les séquences activées avec la case cochée, par emplacement croissant, en boucle. Télégramme 1 = suivante, 0 = précédente. Hors pool ou canal éteint : suivante = premier, précédente = dernier."
+                   },
+                   {
+                       "id":  "knx.next_scene",
+                       "page":  "KNX",
+                       "label":  "Scène suivante/précédente",
+                       "short":  "Objet 1 bit : 1 passe à la scène suivante, 0 à la précédente du pool.",
+                       "details":  "Existe par canal (points de données 105, 205, 305, 405, 505 ; adresses de groupe à partir de 2/2/26 par pas de 30) et en central (point 4, adresse 2/2/4). L'état de scène actuel du canal sert de pointeur."
+                   }
+               ]
 }
