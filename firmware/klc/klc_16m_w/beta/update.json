@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m-w_0.0.332.bin",
+                     "url":  "knx-led-controller-16m-w_0.0.336.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.332",
-                     "bin":  "knx-led-controller-16m-w_0.0.332.bin",
-                     "file":  "knx-led-controller-16m-w_0.0.332.bin",
-                     "sha256":  "eb2dfcae19b139e628748645d57c1afbaeccacaea7365bbfe6f5da9f867a55e2",
-                     "message":  "Szenen-Pool sichtbar gemacht: /api/flows/summary liefert jetzt in_pool, die Ablauf-Auswahl markiert Pool-Szenen mit \u0027- Pool\u0027, und unter der Auswahl steht die komplette Durchschaltreihenfolge des KNX-Objekts \u0027naechste/vorherige Szene\u0027 (weiter=1, zurueck=0), inkl. Umlauf und dem Verhalten bei ausgeschaltetem Kanal bzw. einer Szene ausserhalb des Pools. Die Anzeige nutzt exakt dieselbe Bedingung wie der Controller (in_pool UND aktiviert), damit sie nichts verspricht, was KNX nicht durchschaltet. Nach dem Speichern im Ablauf-Editor aktualisiert sie sich sofort.",
+                     "version":  "0.0.336",
+                     "bin":  "knx-led-controller-16m-w_0.0.336.bin",
+                     "file":  "knx-led-controller-16m-w_0.0.336.bin",
+                     "sha256":  "8704463572342cda2c435bba244dc065c133bb53c1eead762dfb070b34b84ad1",
+                     "message":  "Buildfix: Der WLAN-Hinweis in klcWebUiNetworkHtml() oeffnete ein typografisches Anfuehrungszeichen, schloss es aber mit einem ASCII-Zeichen, das den C-String beendete. Beide sind jetzt HTML-Entities (bdquo/ldquo), damit kein Text im String je wieder das Stringende verschieben kann. Enthaelt ausserdem 0.0.335: Vorschau markiert die Nahtstellen einer Kette. /preview/data.js liefert pro Strang das Feld seams mit den Startindizes der Nachfolger im Ketten-Pixelraum (nur bei echten Ketten), und der Canvas zeichnet dort gestrichelte Linien in Textfarbe, damit sie in hellem und dunklem Theme sichtbar sind. Der Infotext erklaert die Marker, sobald eine Kette existiert. Der LED-Versatz fliesst bewusst nicht ein: er verschiebt nur das Muster im Ketten-Pixelraum, nicht die physischen Straenge. Enthaelt ausserdem 0.0.334: Failover-Status sichtbar gemacht. Liegen Kabel und WLAN im selben Subnetz, haelt nur ein Interface das LAN; das andere wird geparkt und ist unter seiner IP nicht erreichbar. Bisher stand dieser Zustand nur im Serial-Log. Neu: klcNetIsEthLanParked() und klcNetIsStaLanParked() in klc_wifi (Stubs ohne Funkmodul), auf /network eine Zeile \u0027LAN-Failover\u0027 (\u0027Ethernet haelt das LAN, WLAN-Client in Standby\u0027 bzw. umgekehrt oder \u0027kein Subnetz-Konflikt\u0027), bei aktivem Standby ein Hinweis, ueber welche IP das Geraet erreichbar ist und dass das geparkte Interface bei Ausfall in 1-2 s uebernimmt. /api/network liefert je Interface das Feld lan_parked, damit API-Clients dieselbe Wahrheit sehen. Ausserdem korrigiert: der WLAN-Hinweis versprach \u0027die WebUI bleibt ueber alle aktiven Interfaces erreichbar\u0027 - das gilt nur in getrennten Subnetzen. Enthaelt ausserdem 0.0.333: toter Code entfernt (klcWebUiBuildOutputConfigForms samt 32-kB-Puffer g_output_config_forms und KLC_WEBUI_OUTPUT_CONFIG_FORMS_LEN); die Funktion baute serverseitig Ausgangs-Formulare und wurde seit der Umstellung von /outputs auf clientseitiges Rendern nie mehr aufgerufen. Die Route /output/save bleibt bestehen. Kein Schemawechsel.",
                      "http_code":  200
                  }
 }

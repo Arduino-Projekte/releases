@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.336",
+                      "bin":  "knx-led-controller-16m_0.0.336.bin",
+                      "date":  "2026-07-10",
+                      "note":  "Buildfix: Der WLAN-Hinweis in klcWebUiNetworkHtml() oeffnete ein typografisches Anfuehrungszeichen, schloss es aber mit einem ASCII-Zeichen, das den C-String beendete. Beide sind jetzt HTML-Entities (bdquo/ldquo), damit kein Text im String je wieder das Stringende verschieben kann. Enthaelt ausserdem 0.0.335: Vorschau markiert die Nahtstellen einer Kette. /preview/data.js liefert pro Strang das Feld seams mit den Startindizes der Nachfolger im Ketten-Pixelraum (nur bei echten Ketten), und der Canvas zeichnet dort gestrichelte Linien in Textfarbe, damit sie in hellem und dunklem Theme sichtbar sind. Der Infotext erklaert die Marker, sobald eine Kette existiert. Der LED-Versatz fliesst bewusst nicht ein: er verschiebt nur das Muster im Ketten-Pixelraum, nicht die physischen Straenge. Enthaelt ausserdem 0.0.334: Failover-Status sichtbar gemacht. Liegen Kabel und WLAN im selben Subnetz, haelt nur ein Interface das LAN; das andere wird geparkt und ist unter seiner IP nicht erreichbar. Bisher stand dieser Zustand nur im Serial-Log. Neu: klcNetIsEthLanParked() und klcNetIsStaLanParked() in klc_wifi (Stubs ohne Funkmodul), auf /network eine Zeile \u0027LAN-Failover\u0027 (\u0027Ethernet haelt das LAN, WLAN-Client in Standby\u0027 bzw. umgekehrt oder \u0027kein Subnetz-Konflikt\u0027), bei aktivem Standby ein Hinweis, ueber welche IP das Geraet erreichbar ist und dass das geparkte Interface bei Ausfall in 1-2 s uebernimmt. /api/network liefert je Interface das Feld lan_parked, damit API-Clients dieselbe Wahrheit sehen. Ausserdem korrigiert: der WLAN-Hinweis versprach \u0027die WebUI bleibt ueber alle aktiven Interfaces erreichbar\u0027 - das gilt nur in getrennten Subnetzen. Enthaelt ausserdem 0.0.333: toter Code entfernt (klcWebUiBuildOutputConfigForms samt 32-kB-Puffer g_output_config_forms und KLC_WEBUI_OUTPUT_CONFIG_FORMS_LEN); die Funktion baute serverseitig Ausgangs-Formulare und wurde seit der Umstellung von /outputs auf clientseitiges Rendern nie mehr aufgerufen. Die Route /output/save bleibt bestehen. Kein Schemawechsel."
+                  },
+                  {
                       "version":  "0.0.332",
                       "bin":  "knx-led-controller-16m_0.0.332.bin",
                       "date":  "2026-07-10",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m_0.0.326.bin",
                       "date":  "2026-07-10",
                       "note":  "Fehlerbehebung: Das Auswahlfeld \u0027Kanal-Verkettung\u0027 war in 0.0.324 versehentlich in ein serverseitiges Ausgangs-Formular eingebaut worden, das gar nicht mehr ausgeliefert wird (/outputs baut die Karten im Browser aus /api/outputs). Es war dadurch nirgends sichtbar. Jetzt liefert /api/outputs die Felder follows_output, chain_reverse, chain_pixels, chain_follower_count, chain_members und chain_targets (die vom Controller geprueften erlaubten Folge-Ziele), und die Ausgangs-Karte zeigt Dropdown \u0027Kanal-Verkettung\u0027, Checkbox \u0027in der Kette umdrehen\u0027 sowie einen Hinweis fuer Kettenkopf bzw. Nachfolger. Nach einer Aenderung wird die Seite neu geladen, weil sich die erlaubten Ziele der anderen Kanaele mitaendern."
-                  },
-                  {
-                      "version":  "0.0.325",
-                      "bin":  "knx-led-controller-16m_0.0.325.bin",
-                      "date":  "2026-07-10",
-                      "note":  "Vorschau kettenfaehig: Die Canvas-Vorschau und der serverseitige Vorschau-Frame zeigen eine verkettete Gruppe jetzt als EINEN langen Strang mit der Gesamtlaenge statt als getrennte Kanaele. Nachfolger erscheinen nicht mehr einzeln; der Kopf traegt die Beschriftung \u0027Name (Kette 2+3+4)\u0027 bzw. \u0027Kette 2+3+4\u0027. Der Kanal-Zeitversatz der Vorschau zaehlt jetzt ebenfalls nur ueber steuerbare Kanaele und passt damit zum Laufzeitverhalten."
                   }
               ]
 }
