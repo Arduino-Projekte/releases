@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m-w_0.0.325.bin",
+                     "url":  "knx-led-controller-16m-w_0.0.326.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.325",
-                     "bin":  "knx-led-controller-16m-w_0.0.325.bin",
-                     "file":  "knx-led-controller-16m-w_0.0.325.bin",
-                     "sha256":  "7e799ebf92febb59a1e2dc9f25894bd725b8665cb43746eff56e3c36b05157ee",
-                     "message":  "Vorschau kettenfaehig: Die Canvas-Vorschau und der serverseitige Vorschau-Frame zeigen eine verkettete Gruppe jetzt als EINEN langen Strang mit der Gesamtlaenge statt als getrennte Kanaele. Nachfolger erscheinen nicht mehr einzeln; der Kopf traegt die Beschriftung \u0027Name (Kette 2+3+4)\u0027 bzw. \u0027Kette 2+3+4\u0027. Der Kanal-Zeitversatz der Vorschau zaehlt jetzt ebenfalls nur ueber steuerbare Kanaele und passt damit zum Laufzeitverhalten.",
+                     "version":  "0.0.326",
+                     "bin":  "knx-led-controller-16m-w_0.0.326.bin",
+                     "file":  "knx-led-controller-16m-w_0.0.326.bin",
+                     "sha256":  "8f1fc349c96f61ae4ca90e51250dddca56248b172cfe58fbec92cd29dcd25da9",
+                     "message":  "Fehlerbehebung: Das Auswahlfeld \u0027Kanal-Verkettung\u0027 war in 0.0.324 versehentlich in ein serverseitiges Ausgangs-Formular eingebaut worden, das gar nicht mehr ausgeliefert wird (/outputs baut die Karten im Browser aus /api/outputs). Es war dadurch nirgends sichtbar. Jetzt liefert /api/outputs die Felder follows_output, chain_reverse, chain_pixels, chain_follower_count, chain_members und chain_targets (die vom Controller geprueften erlaubten Folge-Ziele), und die Ausgangs-Karte zeigt Dropdown \u0027Kanal-Verkettung\u0027, Checkbox \u0027in der Kette umdrehen\u0027 sowie einen Hinweis fuer Kettenkopf bzw. Nachfolger. Nach einer Aenderung wird die Seite neu geladen, weil sich die erlaubten Ziele der anderen Kanaele mitaendern.",
                      "http_code":  200
                  }
 }
