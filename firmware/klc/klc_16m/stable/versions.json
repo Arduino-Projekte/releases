@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.326",
+                      "bin":  "knx-led-controller-16m_0.0.326.bin",
+                      "date":  "2026-07-10",
+                      "note":  "Fehlerbehebung: Das Auswahlfeld \u0027Kanal-Verkettung\u0027 war in 0.0.324 versehentlich in ein serverseitiges Ausgangs-Formular eingebaut worden, das gar nicht mehr ausgeliefert wird (/outputs baut die Karten im Browser aus /api/outputs). Es war dadurch nirgends sichtbar. Jetzt liefert /api/outputs die Felder follows_output, chain_reverse, chain_pixels, chain_follower_count, chain_members und chain_targets (die vom Controller geprueften erlaubten Folge-Ziele), und die Ausgangs-Karte zeigt Dropdown \u0027Kanal-Verkettung\u0027, Checkbox \u0027in der Kette umdrehen\u0027 sowie einen Hinweis fuer Kettenkopf bzw. Nachfolger. Nach einer Aenderung wird die Seite neu geladen, weil sich die erlaubten Ziele der anderen Kanaele mitaendern."
+                  },
+                  {
                       "version":  "0.0.325",
                       "bin":  "knx-led-controller-16m_0.0.325.bin",
                       "date":  "2026-07-10",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m_0.0.321.bin",
                       "date":  "2026-07-09",
                       "note":  "Kabel + WLAN gleichzeitig: automatisches Failover. Liegen eth0 und WLAN-Client im SELBEN Subnetz, haelt nur noch ein Interface aktiv die LAN-IP (Prioritaet einstellbar), das andere geht in Standby (netif_down) - das behebt die Web-Timeouts bei parallelem Kabel+WLAN am selben Router. Faellt das aktive Interface aus (Kabel gezogen/WLAN weg), uebernimmt das andere automatisch. In getrennten Subnetzen bleiben weiterhin beide gleichzeitig erreichbar."
-                  },
-                  {
-                      "version":  "0.0.320",
-                      "bin":  "knx-led-controller-16m_0.0.320.bin",
-                      "date":  "2026-07-06",
-                      "note":  "OTA-Download repariert: W5500-Vordergrundservice laeuft jetzt auch waehrend des BIN-Downloads mit - vorher verhungerte der Empfang ueber eth0 und der Download brach nach 15 s ohne Daten ab."
                   }
               ]
 }
