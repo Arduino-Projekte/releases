@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m_0.0.327.bin",
+                     "url":  "knx-led-controller-16m_0.0.328.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.327",
-                     "bin":  "knx-led-controller-16m_0.0.327.bin",
-                     "file":  "knx-led-controller-16m_0.0.327.bin",
-                     "sha256":  "fa40df6772b8dd03eeeb09f9e121368388c0128a13716dc5c76310d6d0d3aa06",
-                     "message":  "Kanal-Verkettung jetzt typunabhaengig: Im Dropdown \u0027Kanal-Verkettung\u0027 stehen alle anderen Kanaele zur Auswahl, auch mit abweichendem LED-Typ. Beim Speichern uebernimmt der Nachfolger LED-Chip, LED-Farben und Farbreihenfolge vom Master-Kanal (Wurzel der Kette) und seine String-Segmente werden auf 1 gesetzt - andernfalls haetten PIO-Timing und Farbreihenfolge des physischen Strangs nicht zur Kette gepasst. Aendert der Master seinen LED-Typ, ziehen alle Nachfolger mit. Die Ausgangs-Karte eines Nachfolgers blendet die Kachel \u00272. LED-Typ / Strip\u0027 aus und zeigt stattdessen einen Hinweis mit den geerbten Werten; der Anfang/Ende-Blinktest bleibt erhalten und steht in Kachel 1. Nicht waehlbar sind nur noch Ziele mit bereits vorhandenem Nachfolger, mit String-Segmenten oder solche, die einen Ring erzeugen wuerden.",
+                     "version":  "0.0.328",
+                     "bin":  "knx-led-controller-16m_0.0.328.bin",
+                     "file":  "knx-led-controller-16m_0.0.328.bin",
+                     "sha256":  "6f1b3a0e1e9f4d6e2f1509b8ac330a4af3a05014c5015adf77bfcc44fef79015",
+                     "message":  "Uebersicht /outputs: Die zugeklappte Zeile jeder Ausgangs-Kachel zeigt jetzt mehr als nur \u0027aktiv / N Pixel\u0027. Ein verketteter Nachfolger meldet \u0027folgt Kanal X\u0027. Alle anderen zeigen LED-Chip, LED-Farben und Farbreihenfolge (z. B. \u0027WS2815 - RGB - GRB\u0027); ein Master-Kanal zusaetzlich \u0027Master (Kette 1+2)\u0027. Renderer und Live-Aktualisierung nutzen denselben Formatierer, damit die Zusatzinfos beim Bearbeiten nicht verloren gehen.",
                      "http_code":  200
                  }
 }

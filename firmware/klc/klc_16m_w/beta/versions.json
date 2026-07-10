@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.328",
+                      "bin":  "knx-led-controller-16m-w_0.0.328.bin",
+                      "date":  "2026-07-10",
+                      "note":  "Uebersicht /outputs: Die zugeklappte Zeile jeder Ausgangs-Kachel zeigt jetzt mehr als nur \u0027aktiv / N Pixel\u0027. Ein verketteter Nachfolger meldet \u0027folgt Kanal X\u0027. Alle anderen zeigen LED-Chip, LED-Farben und Farbreihenfolge (z. B. \u0027WS2815 - RGB - GRB\u0027); ein Master-Kanal zusaetzlich \u0027Master (Kette 1+2)\u0027. Renderer und Live-Aktualisierung nutzen denselben Formatierer, damit die Zusatzinfos beim Bearbeiten nicht verloren gehen."
+                  },
+                  {
                       "version":  "0.0.327",
                       "bin":  "knx-led-controller-16m-w_0.0.327.bin",
                       "date":  "2026-07-10",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m-w_0.0.323.bin",
                       "date":  "2026-07-09",
                       "note":  "Szenen-Pool/KNX: globales \u0027Naechste Szene\u0027-Objekt hat jetzt eine Standard-Objektnummer (DP 4 / GA 2/2/4) statt aus, damit die KNX-Import-Dateien in sich stimmig sind und die zentrale Weiter/Zurueck-Adresse ohne WebUI-Zusatzschritt funktioniert. Pro Kanal weiterhin DP base+5 (105/205/305/405/505, GA 2/2/26/56/86/116/146). KNX-Import-Dateien auf v0.0.323 aktualisiert (BAOS-Datenpunkte, DCA-CSV, ETS-Gruppenadressen txt+xml)."
-                  },
-                  {
-                      "version":  "0.0.305",
-                      "bin":  "knx-led-controller-16m-w_0.0.305.bin",
-                      "date":  "2026-07-09",
-                      "note":  "Error-LED geht beim Boot sofort an, nach erfolgreichem Start aus und blinkt bei aktivem Fehler."
                   }
               ]
 }
