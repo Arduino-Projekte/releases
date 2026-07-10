@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.339",
+                      "bin":  "knx-led-controller-16m-w_0.0.339.bin",
+                      "date":  "2026-07-10",
+                      "note":  "Ausgaenge am Stecker gedreht: Ausgang 1 liegt jetzt auf GPIO 8, Ausgang 2 auf 7, Ausgang 3 bleibt 6, Ausgang 4 auf 3, Ausgang 5 auf 2 - die Software zaehlt damit von links nach rechts am Stecker. Geaendert nur im Board-Profil (beide Varianten); der GPIO wird beim Laden immer frisch aus dem Profil gesetzt, bestehende Konfigurationen brauchen keine Migration. ACHTUNG: Name, Pixelzahl und Szenen haengen an der Ausgangs-Nummer und steuern nach dem Update den jeweils anderen physischen Strang - Straenge passend umstecken oder Pixelzahlen je Ausgang pruefen. Enthaelt ausserdem 0.0.338: UI-Sprachen als nachladbare Sprachpakete. Die 1200 fest eingebauten Uebersetzungszeilen (alle 7 Sprachen im Binary) sind raus; en/fr/es/it/nl/pl liegen jetzt als language_\u003clang\u003e.json im Release-Repo (firmware/klc/language) und werden beim Sprachwechsel einmalig nach LittleFS geladen - gleiches Muster wie die Hilfe. Eingebaute Notsprache ist Englisch (klc_i18n_en.h, generiert per gen_i18n_en_header.pl): fehlt ein Paket, zeigt die Oberflaeche Englisch, merkt den Download vor und holt ihn nach, sobald Netz da ist (Wiederholung nach 60 s). Deutsch bleibt die eingebaute Quellsprache und braucht nie ein Paket. Neues Modul klc_language (Download mit Inhaltsvalidierung: eine HTML-Fehlerseite statt JSON wuerde sonst als JavaScript ausgeliefert und jede Seite brechen). /i18n.js streamt jetzt Kopf + Woerterbuch + Laufzeitteil direkt aus der Datei: der 220-kB-RAM-Puffer KLC_WEBUI_I18N_JS_LEN entfaellt komplett, ETag unterscheidet Paket und Englisch-Fallback. /system zeigt den Sprachpaket-Status unter der Sprachauswahl. Sprachwechsel laedt das Paket sofort (blockierend, Nutzeraktion); Boot und /i18n.js-Requests merken fehlende Pakete nur vor, damit der LED-Loop nie unerwartet haengt. Die Sprachpakete im releases-Repo muessen gepusht werden. Enthaelt ausserdem 0.0.337: Hilfe komplettiert:Jedes Eingabefeld der Weboberflaeche hat jetzt einen Tooltip (title), und komplexe Felder tragen zusaetzlich ein kleines Fragezeichen, das auf den passenden Artikel unter /help verlinkt. Betroffen: Ablauf-Editor (alle Effekt-, Tetris-, Funkel-, Segment-, Nachleucht- und Sync-Felder), /network (WLAN, AP, Ethernet, Fallback, Prioritaet), /power (Limits, Gruppen, Stromprofil-Messung), /outputs (Verkettungsfelder mit Hilfe-Link), /flows, /preview, /control, /update, /admin und KNX-Simulation. Sechs neue Hilfe-Artikel in allen 7 Sprachen: Kanal-Verkettung, Kettenrichtung, Kette durchlaufen, LAN-Failover, Szenen-Pool und KNX Szene weiter/zurueck - eingebettet (Hilfe-Version 0.1.5) und in den Online-Dateien help_de..pl.json (0.3.6, liegen im releases-Repo und muessen dort noch gepusht werden). Alle 37 verlinkten Hilfe-IDs sind gegen die Hilfedatenbank geprueft. HTML-Puffer angepasst: Ablauf-Editor 72000 auf 84000, Netzwerkseite 26000 auf 31000. Kein Funktions- und kein Schemawechsel."
+                  },
+                  {
                       "version":  "0.0.338",
                       "bin":  "knx-led-controller-16m-w_0.0.338.bin",
                       "date":  "2026-07-10",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m-w_0.0.332.bin",
                       "date":  "2026-07-10",
                       "note":  "Szenen-Pool sichtbar gemacht: /api/flows/summary liefert jetzt in_pool, die Ablauf-Auswahl markiert Pool-Szenen mit \u0027- Pool\u0027, und unter der Auswahl steht die komplette Durchschaltreihenfolge des KNX-Objekts \u0027naechste/vorherige Szene\u0027 (weiter=1, zurueck=0), inkl. Umlauf und dem Verhalten bei ausgeschaltetem Kanal bzw. einer Szene ausserhalb des Pools. Die Anzeige nutzt exakt dieselbe Bedingung wie der Controller (in_pool UND aktiviert), damit sie nichts verspricht, was KNX nicht durchschaltet. Nach dem Speichern im Ablauf-Editor aktualisiert sie sich sofort."
-                  },
-                  {
-                      "version":  "0.0.328",
-                      "bin":  "knx-led-controller-16m-w_0.0.328.bin",
-                      "date":  "2026-07-10",
-                      "note":  "Uebersicht /outputs: Die zugeklappte Zeile jeder Ausgangs-Kachel zeigt jetzt mehr als nur \u0027aktiv / N Pixel\u0027. Ein verketteter Nachfolger meldet \u0027folgt Kanal X\u0027. Alle anderen zeigen LED-Chip, LED-Farben und Farbreihenfolge (z. B. \u0027WS2815 - RGB - GRB\u0027); ein Master-Kanal zusaetzlich \u0027Master (Kette 1+2)\u0027. Renderer und Live-Aktualisierung nutzen denselben Formatierer, damit die Zusatzinfos beim Bearbeiten nicht verloren gehen."
                   }
               ]
 }
