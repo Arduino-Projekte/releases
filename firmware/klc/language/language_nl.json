@@ -1,7 +1,7 @@
 {
 "__schema": "1",
 "__language": "nl",
-"__version": "1.0.0",
+"__version": "1.0.1",
 "__firmware_min": "0.0.338",
 "Steuerung": "Bediening",
 "Abläufe": "Verlopen",
@@ -1118,4 +1118,17 @@
 "WLAN-Einstellungen gespeichert und angewendet": "WiFi-instellingen opgeslagen en toegepast",
 "WLAN-Konfiguration ungültig": "WiFi-configuratie ongeldig",
 "Abgelehnt: Ethernet, WLAN Client und AP dürfen nicht alle deaktiviert sein": "Geweigerd: Ethernet, WiFi-client en AP mogen niet allemaal uit staan"
+,
+"Hilfe": "Help",
+"fehlt": "ontbreekt",
+"Sprachpaket": "Taalpakket",
+"gespeichert auf dem Controller": "opgeslagen op de controller",
+"Kein Internet mehr nötig.": "Geen internet meer nodig.",
+"Noch kein Sprachpaket geladen": "Nog geen taalpakket geladen",
+"Konfiguration unauffällig": "Configuratie in orde",
+"Keine typischen Konfigurationsfehler erkannt. Hardware wie Pegelwandler, Masse und Datenrichtung trotzdem separat prüfen.": "Geen typische configuratiefouten gevonden. Controleer hardware zoals levelshifter, massa en datarichting toch apart.",
+"die Oberfläche weicht auf Englisch aus (eingebaute Notsprache) und versucht den Download automatisch erneut. Status:": "de interface valt terug op Engels (ingebouwde noodtaal) en probeert de download automatisch opnieuw. Status:",
+"Automatisch: Der Browser wählt die Sprache. Fehlt deren Sprachpaket, zeigt die Oberfläche Englisch und lädt das Paket im Hintergrund nach (einmalig, Internet nötig).": "Automatisch: de browser kiest de taal. Ontbreekt het taalpakket, dan toont de interface Engels en haalt het pakket op de achtergrond op (eenmalig, internet nodig)."
+,
+"Verhalten": "Gedrag"
 }

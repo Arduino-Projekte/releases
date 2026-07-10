@@ -1,7 +1,7 @@
 {
 "__schema": "1",
 "__language": "es",
-"__version": "1.0.0",
+"__version": "1.0.1",
 "__firmware_min": "0.0.338",
 "Dashboard": "Panel",
 "Steuerung": "Control",
@@ -1135,4 +1135,17 @@
 "WLAN-Einstellungen gespeichert und angewendet": "Ajustes WiFi guardados y aplicados",
 "WLAN-Konfiguration ungültig": "Configuración WiFi no válida",
 "Abgelehnt: Ethernet, WLAN Client und AP dürfen nicht alle deaktiviert sein": "Rechazado: Ethernet, cliente WiFi y AP no pueden estar todos desactivados"
+,
+"Hilfe": "Ayuda",
+"fehlt": "falta",
+"Sprachpaket": "Paquete de idioma",
+"gespeichert auf dem Controller": "guardado en el controlador",
+"Kein Internet mehr nötig.": "Ya no se necesita internet.",
+"Noch kein Sprachpaket geladen": "Ningún paquete de idioma cargado",
+"Konfiguration unauffällig": "Configuración correcta",
+"Keine typischen Konfigurationsfehler erkannt. Hardware wie Pegelwandler, Masse und Datenrichtung trotzdem separat prüfen.": "No se detectaron errores típicos de configuración. Compruebe igualmente por separado el hardware: conversor de nivel, masa y dirección de datos.",
+"die Oberfläche weicht auf Englisch aus (eingebaute Notsprache) und versucht den Download automatisch erneut. Status:": "la interfaz cambia a inglés (idioma de emergencia integrado) y reintenta la descarga automáticamente. Estado:",
+"Automatisch: Der Browser wählt die Sprache. Fehlt deren Sprachpaket, zeigt die Oberfläche Englisch und lädt das Paket im Hintergrund nach (einmalig, Internet nötig).": "Automático: el navegador elige el idioma. Si falta su paquete, la interfaz muestra inglés y descarga el paquete en segundo plano (una vez, requiere internet)."
+,
+"Verhalten": "Comportamiento"
 }

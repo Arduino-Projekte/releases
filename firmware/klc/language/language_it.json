@@ -1,7 +1,7 @@
 {
 "__schema": "1",
 "__language": "it",
-"__version": "1.0.0",
+"__version": "1.0.1",
 "__firmware_min": "0.0.338",
 "Steuerung": "Controllo",
 "Abläufe": "Sequenze",
@@ -1131,4 +1131,17 @@
 "WLAN-Einstellungen gespeichert und angewendet": "Impostazioni WiFi salvate e applicate",
 "WLAN-Konfiguration ungültig": "Configurazione WiFi non valida",
 "Abgelehnt: Ethernet, WLAN Client und AP dürfen nicht alle deaktiviert sein": "Rifiutato: Ethernet, client WiFi e AP non possono essere tutti disattivati"
+,
+"Hilfe": "Aiuto",
+"fehlt": "mancante",
+"Sprachpaket": "Pacchetto lingua",
+"gespeichert auf dem Controller": "salvato sul controller",
+"Kein Internet mehr nötig.": "Internet non più necessario.",
+"Noch kein Sprachpaket geladen": "Nessun pacchetto lingua caricato",
+"Konfiguration unauffällig": "Configurazione regolare",
+"Keine typischen Konfigurationsfehler erkannt. Hardware wie Pegelwandler, Masse und Datenrichtung trotzdem separat prüfen.": "Nessun errore di configurazione tipico rilevato. Controllare comunque separatamente l'hardware: level shifter, massa e direzione dati.",
+"die Oberfläche weicht auf Englisch aus (eingebaute Notsprache) und versucht den Download automatisch erneut. Status:": "l'interfaccia passa all'inglese (lingua di riserva integrata) e ritenta il download automaticamente. Stato:",
+"Automatisch: Der Browser wählt die Sprache. Fehlt deren Sprachpaket, zeigt die Oberfläche Englisch und lädt das Paket im Hintergrund nach (einmalig, Internet nötig).": "Automatico: il browser sceglie la lingua. Se manca il pacchetto, l'interfaccia mostra l'inglese e scarica il pacchetto in background (una volta, serve internet)."
+,
+"Verhalten": "Comportamento"
 }

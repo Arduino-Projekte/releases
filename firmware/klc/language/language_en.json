@@ -1,7 +1,7 @@
 {
 "__schema": "1",
 "__language": "en",
-"__version": "1.0.0",
+"__version": "1.0.1",
 "__firmware_min": "0.0.338",
 "Steuerung": "Control",
 "Abläufe": "Sequences",
@@ -1121,4 +1121,17 @@
 "WLAN-Einstellungen gespeichert und angewendet": "WiFi settings saved and applied",
 "WLAN-Konfiguration ungültig": "WiFi configuration invalid",
 "Abgelehnt: Ethernet, WLAN Client und AP dürfen nicht alle deaktiviert sein": "Rejected: Ethernet, WiFi client and AP must not all be disabled"
+,
+"Hilfe": "Help",
+"fehlt": "missing",
+"Sprachpaket": "Language pack",
+"gespeichert auf dem Controller": "stored on the controller",
+"Kein Internet mehr nötig.": "No internet needed anymore.",
+"Noch kein Sprachpaket geladen": "No language pack loaded yet",
+"Konfiguration unauffällig": "Configuration looks fine",
+"Keine typischen Konfigurationsfehler erkannt. Hardware wie Pegelwandler, Masse und Datenrichtung trotzdem separat prüfen.": "No typical configuration errors detected. Still check hardware such as level shifter, ground and data direction separately.",
+"die Oberfläche weicht auf Englisch aus (eingebaute Notsprache) und versucht den Download automatisch erneut. Status:": "the interface falls back to English (built-in fallback language) and retries the download automatically. Status:",
+"Automatisch: Der Browser wählt die Sprache. Fehlt deren Sprachpaket, zeigt die Oberfläche Englisch und lädt das Paket im Hintergrund nach (einmalig, Internet nötig).": "Automatic: the browser picks the language. If its language pack is missing, the interface shows English and fetches the pack in the background (once, internet required)."
+,
+"Verhalten": "Behavior"
 }

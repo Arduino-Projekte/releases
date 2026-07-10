@@ -1,7 +1,7 @@
 {
 "__schema": "1",
 "__language": "fr",
-"__version": "1.0.0",
+"__version": "1.0.1",
 "__firmware_min": "0.0.338",
 "Dashboard": "Tableau de bord",
 "Steuerung": "Commande",
@@ -1130,4 +1130,17 @@
 "WLAN-Einstellungen gespeichert und angewendet": "Réglages WiFi enregistrés et appliqués",
 "WLAN-Konfiguration ungültig": "Configuration WiFi invalide",
 "Abgelehnt: Ethernet, WLAN Client und AP dürfen nicht alle deaktiviert sein": "Refusé : Ethernet, client WiFi et AP ne peuvent pas être tous désactivés"
+,
+"Hilfe": "Aide",
+"fehlt": "manquant",
+"Sprachpaket": "Pack de langue",
+"gespeichert auf dem Controller": "enregistré sur le contrôleur",
+"Kein Internet mehr nötig.": "Plus besoin d'internet.",
+"Noch kein Sprachpaket geladen": "Aucun pack de langue chargé",
+"Konfiguration unauffällig": "Configuration correcte",
+"Keine typischen Konfigurationsfehler erkannt. Hardware wie Pegelwandler, Masse und Datenrichtung trotzdem separat prüfen.": "Aucune erreur de configuration typique détectée. Vérifiez néanmoins séparément le matériel : convertisseur de niveau, masse et sens des données.",
+"die Oberfläche weicht auf Englisch aus (eingebaute Notsprache) und versucht den Download automatisch erneut. Status:": "l'interface bascule en anglais (langue de secours intégrée) et réessaie le téléchargement automatiquement. Statut :",
+"Automatisch: Der Browser wählt die Sprache. Fehlt deren Sprachpaket, zeigt die Oberfläche Englisch und lädt das Paket im Hintergrund nach (einmalig, Internet nötig).": "Automatique : le navigateur choisit la langue. Si son pack manque, l'interface affiche l'anglais et charge le pack en arrière-plan (une fois, internet requis)."
+,
+"Verhalten": "Comportement"
 }

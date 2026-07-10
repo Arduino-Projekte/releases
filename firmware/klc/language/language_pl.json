@@ -1,7 +1,7 @@
 {
 "__schema": "1",
 "__language": "pl",
-"__version": "1.0.0",
+"__version": "1.0.1",
 "__firmware_min": "0.0.338",
 "Dashboard": "Pulpit",
 "Steuerung": "Sterowanie",
@@ -1130,4 +1130,17 @@
 "WLAN-Einstellungen gespeichert und angewendet": "Ustawienia WiFi zapisane i zastosowane",
 "WLAN-Konfiguration ungültig": "Konfiguracja WiFi nieprawidłowa",
 "Abgelehnt: Ethernet, WLAN Client und AP dürfen nicht alle deaktiviert sein": "Odrzucono: Ethernet, klient WiFi i AP nie mogą być wszystkie wyłączone"
+,
+"Hilfe": "Pomoc",
+"fehlt": "brak",
+"Sprachpaket": "Pakiet językowy",
+"gespeichert auf dem Controller": "zapisany na sterowniku",
+"Kein Internet mehr nötig.": "Internet nie jest już potrzebny.",
+"Noch kein Sprachpaket geladen": "Nie załadowano jeszcze pakietu językowego",
+"Konfiguration unauffällig": "Konfiguracja w porządku",
+"Keine typischen Konfigurationsfehler erkannt. Hardware wie Pegelwandler, Masse und Datenrichtung trotzdem separat prüfen.": "Nie wykryto typowych błędów konfiguracji. Mimo to sprawdź osobno sprzęt: konwerter poziomów, masę i kierunek danych.",
+"die Oberfläche weicht auf Englisch aus (eingebaute Notsprache) und versucht den Download automatisch erneut. Status:": "interfejs przechodzi na angielski (wbudowany język awaryjny) i automatycznie ponawia pobieranie. Status:",
+"Automatisch: Der Browser wählt die Sprache. Fehlt deren Sprachpaket, zeigt die Oberfläche Englisch und lädt das Paket im Hintergrund nach (einmalig, Internet nötig).": "Automatycznie: przeglądarka wybiera język. Gdy brakuje pakietu, interfejs pokazuje angielski i pobiera pakiet w tle (jednorazowo, wymagany internet)."
+,
+"Verhalten": "Zachowanie"
 }
