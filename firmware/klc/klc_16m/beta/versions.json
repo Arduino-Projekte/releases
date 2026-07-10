@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.325",
+                      "bin":  "knx-led-controller-16m_0.0.325.bin",
+                      "date":  "2026-07-10",
+                      "note":  "Vorschau kettenfaehig: Die Canvas-Vorschau und der serverseitige Vorschau-Frame zeigen eine verkettete Gruppe jetzt als EINEN langen Strang mit der Gesamtlaenge statt als getrennte Kanaele. Nachfolger erscheinen nicht mehr einzeln; der Kopf traegt die Beschriftung \u0027Name (Kette 2+3+4)\u0027 bzw. \u0027Kette 2+3+4\u0027. Der Kanal-Zeitversatz der Vorschau zaehlt jetzt ebenfalls nur ueber steuerbare Kanaele und passt damit zum Laufzeitverhalten."
+                  },
+                  {
                       "version":  "0.0.323",
                       "bin":  "knx-led-controller-16m_0.0.323.bin",
                       "date":  "2026-07-09",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m_0.0.320.bin",
                       "date":  "2026-07-06",
                       "note":  "OTA-Download repariert: W5500-Vordergrundservice laeuft jetzt auch waehrend des BIN-Downloads mit - vorher verhungerte der Empfang ueber eth0 und der Download brach nach 15 s ohne Daten ab."
-                  },
-                  {
-                      "version":  "0.0.319",
-                      "bin":  "knx-led-controller-16m_0.0.319.bin",
-                      "date":  "2026-07-05",
-                      "note":  "Service-Taster final: unter 2s nichts, 2-5s Netzwerk-Reset (LED blinkt), 5-10s Werksreset (LED an), ueber 10s nichts (Klemmschutz). Dazu OTA-Fix: verwaister Updater-Rest blockiert keine weiteren Versuche mehr."
                   }
               ]
 }

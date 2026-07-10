@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m-w_0.0.323.bin",
+                     "url":  "knx-led-controller-16m-w_0.0.325.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.323",
-                     "bin":  "knx-led-controller-16m-w_0.0.323.bin",
-                     "file":  "knx-led-controller-16m-w_0.0.323.bin",
-                     "sha256":  "ebc915f2d455091e037c574a2deba58c541cf292eef9739ef1a9251bbab8a950",
-                     "message":  "Szenen-Pool/KNX: globales \u0027Naechste Szene\u0027-Objekt hat jetzt eine Standard-Objektnummer (DP 4 / GA 2/2/4) statt aus, damit die KNX-Import-Dateien in sich stimmig sind und die zentrale Weiter/Zurueck-Adresse ohne WebUI-Zusatzschritt funktioniert. Pro Kanal weiterhin DP base+5 (105/205/305/405/505, GA 2/2/26/56/86/116/146). KNX-Import-Dateien auf v0.0.323 aktualisiert (BAOS-Datenpunkte, DCA-CSV, ETS-Gruppenadressen txt+xml).",
+                     "version":  "0.0.325",
+                     "bin":  "knx-led-controller-16m-w_0.0.325.bin",
+                     "file":  "knx-led-controller-16m-w_0.0.325.bin",
+                     "sha256":  "7e799ebf92febb59a1e2dc9f25894bd725b8665cb43746eff56e3c36b05157ee",
+                     "message":  "Vorschau kettenfaehig: Die Canvas-Vorschau und der serverseitige Vorschau-Frame zeigen eine verkettete Gruppe jetzt als EINEN langen Strang mit der Gesamtlaenge statt als getrennte Kanaele. Nachfolger erscheinen nicht mehr einzeln; der Kopf traegt die Beschriftung \u0027Name (Kette 2+3+4)\u0027 bzw. \u0027Kette 2+3+4\u0027. Der Kanal-Zeitversatz der Vorschau zaehlt jetzt ebenfalls nur ueber steuerbare Kanaele und passt damit zum Laufzeitverhalten.",
                      "http_code":  200
                  }
 }
