@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.338",
+                      "bin":  "knx-led-controller-16m_0.0.338.bin",
+                      "date":  "2026-07-10",
+                      "note":  "UI-Sprachen als nachladbare Sprachpakete. Die 1200 fest eingebauten Uebersetzungszeilen (alle 7 Sprachen im Binary) sind raus; en/fr/es/it/nl/pl liegen jetzt als language_\u003clang\u003e.json im Release-Repo (firmware/klc/language) und werden beim Sprachwechsel einmalig nach LittleFS geladen - gleiches Muster wie die Hilfe. Eingebaute Notsprache ist Englisch (klc_i18n_en.h, generiert per gen_i18n_en_header.pl): fehlt ein Paket, zeigt die Oberflaeche Englisch, merkt den Download vor und holt ihn nach, sobald Netz da ist (Wiederholung nach 60 s). Deutsch bleibt die eingebaute Quellsprache und braucht nie ein Paket. Neues Modul klc_language (Download mit Inhaltsvalidierung: eine HTML-Fehlerseite statt JSON wuerde sonst als JavaScript ausgeliefert und jede Seite brechen). /i18n.js streamt jetzt Kopf + Woerterbuch + Laufzeitteil direkt aus der Datei: der 220-kB-RAM-Puffer KLC_WEBUI_I18N_JS_LEN entfaellt komplett, ETag unterscheidet Paket und Englisch-Fallback. /system zeigt den Sprachpaket-Status unter der Sprachauswahl. Sprachwechsel laedt das Paket sofort (blockierend, Nutzeraktion); Boot und /i18n.js-Requests merken fehlende Pakete nur vor, damit der LED-Loop nie unerwartet haengt. Die Sprachpakete im releases-Repo muessen gepusht werden. Enthaelt ausserdem 0.0.337: Hilfe komplettiert:Jedes Eingabefeld der Weboberflaeche hat jetzt einen Tooltip (title), und komplexe Felder tragen zusaetzlich ein kleines Fragezeichen, das auf den passenden Artikel unter /help verlinkt. Betroffen: Ablauf-Editor (alle Effekt-, Tetris-, Funkel-, Segment-, Nachleucht- und Sync-Felder), /network (WLAN, AP, Ethernet, Fallback, Prioritaet), /power (Limits, Gruppen, Stromprofil-Messung), /outputs (Verkettungsfelder mit Hilfe-Link), /flows, /preview, /control, /update, /admin und KNX-Simulation. Sechs neue Hilfe-Artikel in allen 7 Sprachen: Kanal-Verkettung, Kettenrichtung, Kette durchlaufen, LAN-Failover, Szenen-Pool und KNX Szene weiter/zurueck - eingebettet (Hilfe-Version 0.1.5) und in den Online-Dateien help_de..pl.json (0.3.6, liegen im releases-Repo und muessen dort noch gepusht werden). Alle 37 verlinkten Hilfe-IDs sind gegen die Hilfedatenbank geprueft. HTML-Puffer angepasst: Ablauf-Editor 72000 auf 84000, Netzwerkseite 26000 auf 31000. Kein Funktions- und kein Schemawechsel."
+                  },
+                  {
                       "version":  "0.0.337",
                       "bin":  "knx-led-controller-16m_0.0.337.bin",
                       "date":  "2026-07-10",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m_0.0.328.bin",
                       "date":  "2026-07-10",
                       "note":  "Uebersicht /outputs: Die zugeklappte Zeile jeder Ausgangs-Kachel zeigt jetzt mehr als nur \u0027aktiv / N Pixel\u0027. Ein verketteter Nachfolger meldet \u0027folgt Kanal X\u0027. Alle anderen zeigen LED-Chip, LED-Farben und Farbreihenfolge (z. B. \u0027WS2815 - RGB - GRB\u0027); ein Master-Kanal zusaetzlich \u0027Master (Kette 1+2)\u0027. Renderer und Live-Aktualisierung nutzen denselben Formatierer, damit die Zusatzinfos beim Bearbeiten nicht verloren gehen."
-                  },
-                  {
-                      "version":  "0.0.327",
-                      "bin":  "knx-led-controller-16m_0.0.327.bin",
-                      "date":  "2026-07-10",
-                      "note":  "Kanal-Verkettung jetzt typunabhaengig: Im Dropdown \u0027Kanal-Verkettung\u0027 stehen alle anderen Kanaele zur Auswahl, auch mit abweichendem LED-Typ. Beim Speichern uebernimmt der Nachfolger LED-Chip, LED-Farben und Farbreihenfolge vom Master-Kanal (Wurzel der Kette) und seine String-Segmente werden auf 1 gesetzt - andernfalls haetten PIO-Timing und Farbreihenfolge des physischen Strangs nicht zur Kette gepasst. Aendert der Master seinen LED-Typ, ziehen alle Nachfolger mit. Die Ausgangs-Karte eines Nachfolgers blendet die Kachel \u00272. LED-Typ / Strip\u0027 aus und zeigt stattdessen einen Hinweis mit den geerbten Werten; der Anfang/Ende-Blinktest bleibt erhalten und steht in Kachel 1. Nicht waehlbar sind nur noch Ziele mit bereits vorhandenem Nachfolger, mit String-Segmenten oder solche, die einen Ring erzeugen wuerden."
                   }
               ]
 }
