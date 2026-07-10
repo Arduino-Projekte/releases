@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.332",
+                      "bin":  "knx-led-controller-16m-w_0.0.332.bin",
+                      "date":  "2026-07-10",
+                      "note":  "Szenen-Pool sichtbar gemacht: /api/flows/summary liefert jetzt in_pool, die Ablauf-Auswahl markiert Pool-Szenen mit \u0027- Pool\u0027, und unter der Auswahl steht die komplette Durchschaltreihenfolge des KNX-Objekts \u0027naechste/vorherige Szene\u0027 (weiter=1, zurueck=0), inkl. Umlauf und dem Verhalten bei ausgeschaltetem Kanal bzw. einer Szene ausserhalb des Pools. Die Anzeige nutzt exakt dieselbe Bedingung wie der Controller (in_pool UND aktiviert), damit sie nichts verspricht, was KNX nicht durchschaltet. Nach dem Speichern im Ablauf-Editor aktualisiert sie sich sofort."
+                  },
+                  {
                       "version":  "0.0.328",
                       "bin":  "knx-led-controller-16m-w_0.0.328.bin",
                       "date":  "2026-07-10",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m-w_0.0.325.bin",
                       "date":  "2026-07-10",
                       "note":  "Vorschau kettenfaehig: Die Canvas-Vorschau und der serverseitige Vorschau-Frame zeigen eine verkettete Gruppe jetzt als EINEN langen Strang mit der Gesamtlaenge statt als getrennte Kanaele. Nachfolger erscheinen nicht mehr einzeln; der Kopf traegt die Beschriftung \u0027Name (Kette 2+3+4)\u0027 bzw. \u0027Kette 2+3+4\u0027. Der Kanal-Zeitversatz der Vorschau zaehlt jetzt ebenfalls nur ueber steuerbare Kanaele und passt damit zum Laufzeitverhalten."
-                  },
-                  {
-                      "version":  "0.0.323",
-                      "bin":  "knx-led-controller-16m-w_0.0.323.bin",
-                      "date":  "2026-07-09",
-                      "note":  "Szenen-Pool/KNX: globales \u0027Naechste Szene\u0027-Objekt hat jetzt eine Standard-Objektnummer (DP 4 / GA 2/2/4) statt aus, damit die KNX-Import-Dateien in sich stimmig sind und die zentrale Weiter/Zurueck-Adresse ohne WebUI-Zusatzschritt funktioniert. Pro Kanal weiterhin DP base+5 (105/205/305/405/505, GA 2/2/26/56/86/116/146). KNX-Import-Dateien auf v0.0.323 aktualisiert (BAOS-Datenpunkte, DCA-CSV, ETS-Gruppenadressen txt+xml)."
                   }
               ]
 }

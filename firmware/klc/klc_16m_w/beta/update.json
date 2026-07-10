@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m-w_0.0.328.bin",
+                     "url":  "knx-led-controller-16m-w_0.0.332.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.328",
-                     "bin":  "knx-led-controller-16m-w_0.0.328.bin",
-                     "file":  "knx-led-controller-16m-w_0.0.328.bin",
-                     "sha256":  "e513294f56dc50239fa3c26748cbde1d179935eaa9430f447d334661bd68381d",
-                     "message":  "Uebersicht /outputs: Die zugeklappte Zeile jeder Ausgangs-Kachel zeigt jetzt mehr als nur \u0027aktiv / N Pixel\u0027. Ein verketteter Nachfolger meldet \u0027folgt Kanal X\u0027. Alle anderen zeigen LED-Chip, LED-Farben und Farbreihenfolge (z. B. \u0027WS2815 - RGB - GRB\u0027); ein Master-Kanal zusaetzlich \u0027Master (Kette 1+2)\u0027. Renderer und Live-Aktualisierung nutzen denselben Formatierer, damit die Zusatzinfos beim Bearbeiten nicht verloren gehen.",
+                     "version":  "0.0.332",
+                     "bin":  "knx-led-controller-16m-w_0.0.332.bin",
+                     "file":  "knx-led-controller-16m-w_0.0.332.bin",
+                     "sha256":  "eb2dfcae19b139e628748645d57c1afbaeccacaea7365bbfe6f5da9f867a55e2",
+                     "message":  "Szenen-Pool sichtbar gemacht: /api/flows/summary liefert jetzt in_pool, die Ablauf-Auswahl markiert Pool-Szenen mit \u0027- Pool\u0027, und unter der Auswahl steht die komplette Durchschaltreihenfolge des KNX-Objekts \u0027naechste/vorherige Szene\u0027 (weiter=1, zurueck=0), inkl. Umlauf und dem Verhalten bei ausgeschaltetem Kanal bzw. einer Szene ausserhalb des Pools. Die Anzeige nutzt exakt dieselbe Bedingung wie der Controller (in_pool UND aktiviert), damit sie nichts verspricht, was KNX nicht durchschaltet. Nach dem Speichern im Ablauf-Editor aktualisiert sie sich sofort.",
                      "http_code":  200
                  }
 }
