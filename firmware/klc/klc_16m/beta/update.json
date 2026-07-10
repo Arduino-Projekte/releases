@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m_0.0.326.bin",
+                     "url":  "knx-led-controller-16m_0.0.327.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.326",
-                     "bin":  "knx-led-controller-16m_0.0.326.bin",
-                     "file":  "knx-led-controller-16m_0.0.326.bin",
-                     "sha256":  "e3ae513c3c102bee3107292ac8277692004b4321f66593d37e12b5aff70d80a7",
-                     "message":  "Fehlerbehebung: Das Auswahlfeld \u0027Kanal-Verkettung\u0027 war in 0.0.324 versehentlich in ein serverseitiges Ausgangs-Formular eingebaut worden, das gar nicht mehr ausgeliefert wird (/outputs baut die Karten im Browser aus /api/outputs). Es war dadurch nirgends sichtbar. Jetzt liefert /api/outputs die Felder follows_output, chain_reverse, chain_pixels, chain_follower_count, chain_members und chain_targets (die vom Controller geprueften erlaubten Folge-Ziele), und die Ausgangs-Karte zeigt Dropdown \u0027Kanal-Verkettung\u0027, Checkbox \u0027in der Kette umdrehen\u0027 sowie einen Hinweis fuer Kettenkopf bzw. Nachfolger. Nach einer Aenderung wird die Seite neu geladen, weil sich die erlaubten Ziele der anderen Kanaele mitaendern.",
+                     "version":  "0.0.327",
+                     "bin":  "knx-led-controller-16m_0.0.327.bin",
+                     "file":  "knx-led-controller-16m_0.0.327.bin",
+                     "sha256":  "fa40df6772b8dd03eeeb09f9e121368388c0128a13716dc5c76310d6d0d3aa06",
+                     "message":  "Kanal-Verkettung jetzt typunabhaengig: Im Dropdown \u0027Kanal-Verkettung\u0027 stehen alle anderen Kanaele zur Auswahl, auch mit abweichendem LED-Typ. Beim Speichern uebernimmt der Nachfolger LED-Chip, LED-Farben und Farbreihenfolge vom Master-Kanal (Wurzel der Kette) und seine String-Segmente werden auf 1 gesetzt - andernfalls haetten PIO-Timing und Farbreihenfolge des physischen Strangs nicht zur Kette gepasst. Aendert der Master seinen LED-Typ, ziehen alle Nachfolger mit. Die Ausgangs-Karte eines Nachfolgers blendet die Kachel \u00272. LED-Typ / Strip\u0027 aus und zeigt stattdessen einen Hinweis mit den geerbten Werten; der Anfang/Ende-Blinktest bleibt erhalten und steht in Kachel 1. Nicht waehlbar sind nur noch Ziele mit bereits vorhandenem Nachfolger, mit String-Segmenten oder solche, die einen Ring erzeugen wuerden.",
                      "http_code":  200
                  }
 }

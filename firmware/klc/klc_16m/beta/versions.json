@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.327",
+                      "bin":  "knx-led-controller-16m_0.0.327.bin",
+                      "date":  "2026-07-10",
+                      "note":  "Kanal-Verkettung jetzt typunabhaengig: Im Dropdown \u0027Kanal-Verkettung\u0027 stehen alle anderen Kanaele zur Auswahl, auch mit abweichendem LED-Typ. Beim Speichern uebernimmt der Nachfolger LED-Chip, LED-Farben und Farbreihenfolge vom Master-Kanal (Wurzel der Kette) und seine String-Segmente werden auf 1 gesetzt - andernfalls haetten PIO-Timing und Farbreihenfolge des physischen Strangs nicht zur Kette gepasst. Aendert der Master seinen LED-Typ, ziehen alle Nachfolger mit. Die Ausgangs-Karte eines Nachfolgers blendet die Kachel \u00272. LED-Typ / Strip\u0027 aus und zeigt stattdessen einen Hinweis mit den geerbten Werten; der Anfang/Ende-Blinktest bleibt erhalten und steht in Kachel 1. Nicht waehlbar sind nur noch Ziele mit bereits vorhandenem Nachfolger, mit String-Segmenten oder solche, die einen Ring erzeugen wuerden."
+                  },
+                  {
                       "version":  "0.0.326",
                       "bin":  "knx-led-controller-16m_0.0.326.bin",
                       "date":  "2026-07-10",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m_0.0.305.bin",
                       "date":  "2026-07-09",
                       "note":  "Error-LED geht beim Boot sofort an, nach erfolgreichem Start aus und blinkt bei aktivem Fehler."
-                  },
-                  {
-                      "version":  "0.0.321",
-                      "bin":  "knx-led-controller-16m_0.0.321.bin",
-                      "date":  "2026-07-09",
-                      "note":  "Kabel + WLAN gleichzeitig: automatisches Failover. Liegen eth0 und WLAN-Client im SELBEN Subnetz, haelt nur noch ein Interface aktiv die LAN-IP (Prioritaet einstellbar), das andere geht in Standby (netif_down) - das behebt die Web-Timeouts bei parallelem Kabel+WLAN am selben Router. Faellt das aktive Interface aus (Kabel gezogen/WLAN weg), uebernimmt das andere automatisch. In getrennten Subnetzen bleiben weiterhin beide gleichzeitig erreichbar."
                   }
               ]
 }
