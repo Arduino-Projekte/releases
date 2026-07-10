@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m_0.0.327.bin",
+                     "url":  "knx-led-controller-16m_0.0.332.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.327",
-                     "bin":  "knx-led-controller-16m_0.0.327.bin",
-                     "file":  "knx-led-controller-16m_0.0.327.bin",
-                     "sha256":  "fa40df6772b8dd03eeeb09f9e121368388c0128a13716dc5c76310d6d0d3aa06",
-                     "message":  "Kanal-Verkettung jetzt typunabhaengig: Im Dropdown \u0027Kanal-Verkettung\u0027 stehen alle anderen Kanaele zur Auswahl, auch mit abweichendem LED-Typ. Beim Speichern uebernimmt der Nachfolger LED-Chip, LED-Farben und Farbreihenfolge vom Master-Kanal (Wurzel der Kette) und seine String-Segmente werden auf 1 gesetzt - andernfalls haetten PIO-Timing und Farbreihenfolge des physischen Strangs nicht zur Kette gepasst. Aendert der Master seinen LED-Typ, ziehen alle Nachfolger mit. Die Ausgangs-Karte eines Nachfolgers blendet die Kachel \u00272. LED-Typ / Strip\u0027 aus und zeigt stattdessen einen Hinweis mit den geerbten Werten; der Anfang/Ende-Blinktest bleibt erhalten und steht in Kachel 1. Nicht waehlbar sind nur noch Ziele mit bereits vorhandenem Nachfolger, mit String-Segmenten oder solche, die einen Ring erzeugen wuerden.",
+                     "version":  "0.0.332",
+                     "bin":  "knx-led-controller-16m_0.0.332.bin",
+                     "file":  "knx-led-controller-16m_0.0.332.bin",
+                     "sha256":  "7ddfdecd176796b484adeb257b0838e3588bcd08b7a677865014965116b0b5c5",
+                     "message":  "Szenen-Pool sichtbar gemacht: /api/flows/summary liefert jetzt in_pool, die Ablauf-Auswahl markiert Pool-Szenen mit \u0027- Pool\u0027, und unter der Auswahl steht die komplette Durchschaltreihenfolge des KNX-Objekts \u0027naechste/vorherige Szene\u0027 (weiter=1, zurueck=0), inkl. Umlauf und dem Verhalten bei ausgeschaltetem Kanal bzw. einer Szene ausserhalb des Pools. Die Anzeige nutzt exakt dieselbe Bedingung wie der Controller (in_pool UND aktiviert), damit sie nichts verspricht, was KNX nicht durchschaltet. Nach dem Speichern im Ablauf-Editor aktualisiert sie sich sofort.",
                      "http_code":  200
                  }
 }
