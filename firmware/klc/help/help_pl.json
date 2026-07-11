@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "kind": "klc_help",
-  "version": "0.3.6",
+  "version": "0.3.8",
   "firmware_min": "0.0.299",
   "language": "pl",
   "title": "Pomoc KLC",
@@ -61,6 +61,8 @@
     {"id": "outputs.string_segment_count", "page": "Wyjścia", "label": "Równe segmenty łańcucha", "short": "Dzieli fizyczny łańcuch na powtórzenia równej wielkości.", "details": "1 oznacza normalny łańcuch. Więcej segmentów pomaga, gdy ten sam efekt ma się powtarzać na kilku odcinkach tej samej długości."},
     {"id": "outputs.pixel_offset", "page": "Wyjścia", "label": "Przesunięcie LED", "short": "Przesuwa odczuwany punkt startowy wyjścia.", "details": "Przydatne do korekty łączeń, środka lub kierunku biegu. Dozwolony zakres jest ograniczony, aby ustawienie nie tworzyło przypadkiem skrajnych przesunięć."},
     {"id": "outputs.power_on_mode", "page": "Wyjścia", "label": "Po przerwie zasilania", "short": "Określa zachowanie po restarcie lub zaniku zasilania.", "details": "Wył. pozostaje ciemne. Ostatnie ustawienie przywraca ostatni znany stan. Stała scena zawsze uruchamia wybraną scenę."},
+    {"id": "outputs.led_send_mode", "page": "Wyjścia", "label": "Wysyłanie danych LED", "short": "Wyjście fizyczne tylko przy zmianie lub dodatkowo cyklicznie.", "details": "Tylko przy zmianie: bufor LED jest wysyłany, gdy zmieni się jego zawartość. Przy zmianie i cyklicznie: dodatkowo ostatnio ważny fizyczny bufor LED jest wysyłany ponownie w interwale wysyłania. Wysyłanie cykliczne nigdy nie restartuje sceny ani animacji, nie reinterpretuje stanu KNX i niczego nie zapisuje."},
+    {"id": "outputs.led_send_interval_seconds", "page": "Wyjścia", "label": "Interwał wysyłania", "short": "Czas między dodatkowymi wysyłkami cyklicznymi.", "details": "Używany tylko w trybie cyklicznym. Dozwolone wartości: 1 s, 5 s, 10 s, 30 s, 1 min, 5 min, 10 min, 30 min, 1 h; standard 10 s. Interwał obowiązuje dla każdego wyjścia osobno. Ponownie wysyłany jest wyłącznie aktualnie ważny bufor LED; trwające animacje i tak wysyłają przy zmianie i automatycznie przesuwają następną wysyłkę cykliczną."},
     {"id": "outputs.power_on_scene", "page": "Wyjścia", "label": "Stała scena", "short": "Scena uruchamiana po przerwie zasilania.", "details": "Istotne tylko, gdy Po przerwie zasilania stoi na Stała scena."},
     {"id": "outputs.chipset", "page": "Wyjścia", "label": "Układ LED", "short": "Profil taktowania zamontowanego paska LED.", "details": "Musi pasować do paska. Błędne taktowanie może powodować migotanie, złe kolory lub brak wyjścia."},
     {"id": "outputs.type", "page": "Wyjścia", "label": "Kolory LED", "short": "RGB lub RGBW na LED.", "details": "RGBW wysyła dodatkowy kanał bieli. Wartość musi pasować do rzeczywistej LED."},

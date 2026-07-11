@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "kind": "klc_help",
-  "version": "0.3.6",
+  "version": "0.3.8",
   "firmware_min": "0.0.299",
   "language": "es",
   "title": "Ayuda KLC",
@@ -61,6 +61,8 @@
     {"id": "outputs.string_segment_count", "page": "Salidas", "label": "Segmentos de tira iguales", "short": "Divide una tira física en repeticiones de igual tamaño.", "details": "1 significa tira normal. Más segmentos son útiles cuando el mismo efecto debe repetirse en varios tramos de igual longitud."},
     {"id": "outputs.pixel_offset", "page": "Salidas", "label": "Desplazamiento LED", "short": "Desplaza el punto de inicio percibido de la salida.", "details": "Útil para corregir empalmes, el centro o la dirección de recorrido. El rango permitido está limitado para que el ajuste no cree desplazamientos extremos por accidente."},
     {"id": "outputs.power_on_mode", "page": "Salidas", "label": "Tras corte de corriente", "short": "Define el comportamiento tras reinicio o corte de corriente.", "details": "Apagado permanece oscuro. Último ajuste restaura el último estado conocido. Escena fija inicia siempre la escena elegida."},
+    {"id": "outputs.led_send_mode", "page": "Salidas", "label": "Envío de datos LED", "short": "Salida física solo al cambiar o adicionalmente cíclica.", "details": "Solo al cambiar: el búfer LED se transmite cuando su contenido cambia. Al cambiar y cíclicamente: además, el último búfer LED físico válido se retransmite en el intervalo de envío. El envío cíclico nunca reinicia una escena o animación, no reinterpreta el estado KNX y no guarda nada."},
+    {"id": "outputs.led_send_interval_seconds", "page": "Salidas", "label": "Intervalo de envío", "short": "Tiempo entre transmisiones cíclicas adicionales.", "details": "Se usa solo en modo cíclico. Valores permitidos: 1 s, 5 s, 10 s, 30 s, 1 min, 5 min, 10 min, 30 min, 1 h; estándar 10 s. El intervalo se aplica por salida. Solo se retransmite el búfer LED válido actual; las animaciones en curso ya envían al cambiar y aplazan automáticamente la siguiente transmisión cíclica."},
     {"id": "outputs.power_on_scene", "page": "Salidas", "label": "Escena fija", "short": "Escena que se inicia tras un corte de corriente.", "details": "Solo relevante cuando Tras corte de corriente está en Escena fija."},
     {"id": "outputs.chipset", "page": "Salidas", "label": "Chip LED", "short": "Perfil de timing de la tira LED instalada.", "details": "Debe corresponder a la tira. Un timing erróneo puede producir parpadeo, colores incorrectos o ninguna salida."},
     {"id": "outputs.type", "page": "Salidas", "label": "Colores LED", "short": "RGB o RGBW por LED.", "details": "RGBW envía un canal blanco adicional. El valor debe corresponder al LED real."},

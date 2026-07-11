@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "kind": "klc_help",
-  "version": "0.3.6",
+  "version": "0.3.8",
   "firmware_min": "0.0.299",
   "language": "fr",
   "title": "Aide KLC",
@@ -61,6 +61,8 @@
     {"id": "outputs.string_segment_count", "page": "Sorties", "label": "Segments de ruban égaux", "short": "Divise un ruban physique en répétitions de taille égale.", "details": "1 signifie ruban normal. Plus de segments sont utiles quand le même effet doit se répéter sur plusieurs tronçons de même longueur."},
     {"id": "outputs.pixel_offset", "page": "Sorties", "label": "Décalage LED", "short": "Décale le point de départ perçu de la sortie.", "details": "Utile pour corriger les jonctions, le centre ou le sens de défilement. La plage autorisée est limitée pour éviter des décalages extrêmes involontaires."},
     {"id": "outputs.power_on_mode", "page": "Sorties", "label": "Après coupure de courant", "short": "Définit le comportement après redémarrage ou coupure de courant.", "details": "Éteint reste sombre. Dernier réglage restaure le dernier état connu. Scène fixe démarre toujours la scène choisie."},
+    {"id": "outputs.led_send_mode", "page": "Sorties", "label": "Envoi des données LED", "short": "Sortie physique uniquement au changement ou en plus cyclique.", "details": "Uniquement au changement : le tampon LED est transmis quand son contenu change. Au changement et cyclique : le dernier tampon LED physique valide est en plus retransmis à l'intervalle d'envoi. L'envoi cyclique ne redémarre jamais une scène ou une animation, ne réinterprète pas l'état KNX et n'écrit rien en flash."},
+    {"id": "outputs.led_send_interval_seconds", "page": "Sorties", "label": "Intervalle d'envoi", "short": "Temps entre les envois cycliques supplémentaires.", "details": "Utilisé seulement en mode cyclique. Valeurs permises : 1 s, 5 s, 10 s, 30 s, 1 min, 5 min, 10 min, 30 min, 1 h ; standard 10 s. L'intervalle s'applique par sortie. Seul le tampon LED actuellement valide est retransmis ; les animations en cours envoient déjà à chaque changement et repoussent automatiquement le prochain envoi cyclique."},
     {"id": "outputs.power_on_scene", "page": "Sorties", "label": "Scène fixe", "short": "Scène démarrée après une coupure de courant.", "details": "Pertinent seulement quand Après coupure de courant est réglé sur Scène fixe."},
     {"id": "outputs.chipset", "page": "Sorties", "label": "Puce LED", "short": "Profil de timing du ruban LED installé.", "details": "Doit correspondre au ruban. Un timing erroné peut provoquer du scintillement, de fausses couleurs ou aucune sortie."},
     {"id": "outputs.type", "page": "Sorties", "label": "Couleurs LED", "short": "RGB ou RGBW par LED.", "details": "RGBW envoie un canal blanc supplémentaire. La valeur doit correspondre à la LED réelle."},

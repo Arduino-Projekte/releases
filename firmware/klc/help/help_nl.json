@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "kind": "klc_help",
-  "version": "0.3.6",
+  "version": "0.3.8",
   "firmware_min": "0.0.299",
   "language": "nl",
   "title": "KLC Help",
@@ -61,6 +61,8 @@
     {"id": "outputs.string_segment_count", "page": "Uitgangen", "label": "Gelijke strengsegmenten", "short": "Verdeelt een fysieke streng in even grote herhalingen.", "details": "1 betekent normale streng. Meer segmenten zijn handig wanneer hetzelfde effect op meerdere even lange delen herhaald moet worden."},
     {"id": "outputs.pixel_offset", "page": "Uitgangen", "label": "LED-verschuiving", "short": "Verschuift het gevoelde startpunt van de uitgang.", "details": "Nuttig voor het corrigeren van naadplekken, midden of looprichting. Het toegestane bereik is begrensd zodat de instelling niet per ongeluk extreme verschuivingen maakt."},
     {"id": "outputs.power_on_mode", "page": "Uitgangen", "label": "Na stroomonderbreking", "short": "Bepaalt het gedrag na herstart of stroomuitval.", "details": "Uit blijft donker. Laatste instelling herstelt de laatst bekende toestand. Vaste scène start altijd de gekozen scène."},
+    {"id": "outputs.led_send_mode", "page": "Uitgangen", "label": "LED-data verzenden", "short": "Fysieke uitvoer alleen bij wijziging of aanvullend cyclisch.", "details": "Alleen bij wijziging: de LED-buffer wordt verzonden wanneer de inhoud wijzigt. Bij wijziging en cyclisch: aanvullend wordt de laatst geldige fysieke LED-buffer op het verzendinterval opnieuw verzonden. Cyclisch verzenden herstart nooit een scène of animatie, herinterpreteert geen KNX-status en slaat niets op."},
+    {"id": "outputs.led_send_interval_seconds", "page": "Uitgangen", "label": "Verzendinterval", "short": "Tijd tussen aanvullende cyclische verzendingen.", "details": "Alleen in cyclische modus gebruikt. Toegestane waarden: 1 s, 5 s, 10 s, 30 s, 1 min, 5 min, 10 min, 30 min, 1 u; standaard 10 s. Het interval geldt per uitgang. Alleen de actueel geldige LED-buffer wordt opnieuw verzonden; lopende animaties verzenden al bij wijziging en verschuiven de volgende cyclische verzending automatisch."},
     {"id": "outputs.power_on_scene", "page": "Uitgangen", "label": "Vaste scène", "short": "Scène die na een stroomonderbreking wordt gestart.", "details": "Alleen relevant als Na stroomonderbreking op Vaste scène staat."},
     {"id": "outputs.chipset", "page": "Uitgangen", "label": "LED-chip", "short": "Timingprofiel van de gemonteerde LED-strip.", "details": "Moet bij de strip passen. Fout timing kan flikkeren, foute kleuren of helemaal geen uitvoer veroorzaken."},
     {"id": "outputs.type", "page": "Uitgangen", "label": "LED-kleuren", "short": "RGB of RGBW per LED.", "details": "RGBW stuurt een extra witkanaal. De waarde moet bij de echte LED passen."},

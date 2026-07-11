@@ -1,7 +1,7 @@
 ﻿{
     "schema":  1,
     "kind":  "klc_help",
-"version":  "0.3.7",
+"version":  "0.3.8",
     "firmware_min":  "0.0.299",
     "language":  "de",
     "title":  "KLC Hilfe",
@@ -352,14 +352,14 @@
                        "page":  "Ausgänge",
                        "label":  "LED-Daten senden",
                        "short":  "Wählt die physische Ausgabe nur bei Änderung oder zusätzlich zyklisch.",
-                       "details":  "Der zyklische Modus sendet ausschließlich den zuletzt gültigen LED-Puffer erneut. Szene, Animation, Zufall, Rampe und Zeitsteuerung werden dabei nicht neu gestartet."
+                       "details":  "Nur bei Änderung: der LED-Puffer wird gesendet, wenn sich sein Inhalt ändert. Bei Änderung und zyklisch: zusätzlich wird der zuletzt gültige physische LED-Puffer im Sendeintervall erneut übertragen. Der zyklische Versand startet nie Szene, Animation, Zufall, Rampe oder Zeitsteuerung neu, interpretiert keinen KNX-Zustand neu und speichert nichts."
                    },
                    {
                        "id":  "outputs.led_send_interval_seconds",
                        "page":  "Ausgänge",
                        "label":  "Sendeintervall",
                        "short":  "Zeitabstand für den zusätzlichen zyklischen Versand.",
-                       "details":  "Das Intervall gilt pro physischem Ausgang. Laufende Animationen senden ohnehin bei Änderungen und verschieben den nächsten zyklischen Termin automatisch."
+                       "details":  "Wird nur im zyklischen Modus verwendet. Erlaubte Werte: 1 s, 5 s, 10 s, 30 s, 1 min, 5 min, 10 min, 30 min, 1 h; Standard 10 s. Das Intervall gilt pro physischem Ausgang. Es wird ausschließlich der aktuell gültige LED-Puffer erneut übertragen; laufende Animationen senden ohnehin bei Änderungen und verschieben den nächsten zyklischen Termin automatisch."
                    },
                    {
                        "id":  "outputs.chipset",

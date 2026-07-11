@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "kind": "klc_help",
-  "version": "0.3.6",
+  "version": "0.3.8",
   "firmware_min": "0.0.299",
   "language": "it",
   "title": "Aiuto KLC",
@@ -61,6 +61,8 @@
     {"id": "outputs.string_segment_count", "page": "Uscite", "label": "Segmenti di striscia uguali", "short": "Divide una striscia fisica in ripetizioni di uguale dimensione.", "details": "1 significa striscia normale. Più segmenti sono utili quando lo stesso effetto deve ripetersi su più tratti di uguale lunghezza."},
     {"id": "outputs.pixel_offset", "page": "Uscite", "label": "Offset LED", "short": "Sposta il punto di partenza percepito dell'uscita.", "details": "Utile per correggere giunzioni, centro o direzione di scorrimento. L'intervallo consentito è limitato perché l'impostazione non crei spostamenti estremi per errore."},
     {"id": "outputs.power_on_mode", "page": "Uscite", "label": "Dopo interruzione di corrente", "short": "Definisce il comportamento dopo riavvio o mancanza di corrente.", "details": "Spento resta scuro. Ultima impostazione ripristina l'ultimo stato noto. Scena fissa avvia sempre la scena scelta."},
+    {"id": "outputs.led_send_mode", "page": "Uscite", "label": "Invio dati LED", "short": "Uscita fisica solo alla modifica o in aggiunta ciclica.", "details": "Solo alla modifica: il buffer LED viene trasmesso quando il suo contenuto cambia. Alla modifica e ciclicamente: in aggiunta l'ultimo buffer LED fisico valido viene ritrasmesso all'intervallo di invio. L'invio ciclico non riavvia mai una scena o un'animazione, non reinterpreta lo stato KNX e non salva nulla."},
+    {"id": "outputs.led_send_interval_seconds", "page": "Uscite", "label": "Intervallo di invio", "short": "Tempo tra le trasmissioni cicliche aggiuntive.", "details": "Usato solo in modalità ciclica. Valori ammessi: 1 s, 5 s, 10 s, 30 s, 1 min, 5 min, 10 min, 30 min, 1 h; standard 10 s. L'intervallo vale per uscita. Viene ritrasmesso solo il buffer LED attualmente valido; le animazioni in corso inviano già a ogni modifica e rinviano automaticamente la prossima trasmissione ciclica."},
     {"id": "outputs.power_on_scene", "page": "Uscite", "label": "Scena fissa", "short": "Scena avviata dopo un'interruzione di corrente.", "details": "Rilevante solo quando Dopo interruzione di corrente è impostato su Scena fissa."},
     {"id": "outputs.chipset", "page": "Uscite", "label": "Chip LED", "short": "Profilo di timing della striscia LED installata.", "details": "Deve corrispondere alla striscia. Un timing errato può causare sfarfallio, colori sbagliati o nessuna uscita."},
     {"id": "outputs.type", "page": "Uscite", "label": "Colori LED", "short": "RGB o RGBW per LED.", "details": "RGBW invia un canale bianco aggiuntivo. Il valore deve corrispondere al LED reale."},
