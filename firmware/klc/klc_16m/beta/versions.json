@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.357",
+                      "bin":  "knx-led-controller-16m_0.0.357.bin",
+                      "date":  "2026-07-11",
+                      "note":  "Sprachumschaltung und dynamische UI-Uebersetzungen vervollstaendigt: Die Sprachwahl wird beim Paketwechsel nicht mehr durch ein erneutes Schreiben der kompletten grossen Hauptkonfiguration persistiert. Stattdessen nutzt sie die kleine atomare Datei /klc_ui_language.sel mit .tmp/.bak, Stromausfall-Recovery und Bindung an Groesse sowie FNV-Hash der aktuellen /klc_config.json. Dadurch entfallen die config_save_failed-Fehler, die beim gleichzeitigen Vorhalten von Active- und Backup-Sprachpaket durch zusaetzlichen LittleFS-/RAM-Bedarf entstehen konnten. Beim Boot wird die Auswahl nur angewendet, solange die zugehoerige Hauptkonfiguration unveraendert ist; nach jedem regulaeren Konfigurationsspeichern wird das Journal entfernt beziehungsweise aufgrund des abweichenden Hashs sicher verworfen. Paketaktivierung, Commit und Rollback bleiben atomar; bei einem echten Auswahl-Speicherfehler wird jetzt die konkrete Storage-Ursache auf /system angezeigt. Fehlende dynamische Texte fuer aktuelle Darstellung/Ansicht, Sprachstatus, Ausgangsnamen und -zusammenfassungen, KNX-Statusintervalle, aktives Sprachpaket, Kanten-Blinktasten und LED-Profil wurden in allen sieben Sprachpaketen ergaenzt. Die Sprachnamen Français und Español wurden korrekt akzentuiert. Sprachpakete auf Version 2.0.2 und kanonischen Umfang 1554 Schluessel aktualisiert; eingebautes englisches Offline-Paket synchronisiert. Version 0.0.357, Konfigurationsschema unveraendert 60."
+                  },
+                  {
                       "version":  "0.0.356",
                       "bin":  "knx-led-controller-16m_0.0.356.bin",
                       "date":  "2026-07-11",
@@ -21,12 +27,6 @@
                   {
                       "version":  "0.0.353",
                       "bin":  "knx-led-controller-16m_0.0.353.bin",
-                      "date":  "2026-07-11",
-                      "note":  "Release-Manifest automatisch erstellt"
-                  },
-                  {
-                      "version":  "0.0.352",
-                      "bin":  "knx-led-controller-16m_0.0.352.bin",
                       "date":  "2026-07-11",
                       "note":  "Release-Manifest automatisch erstellt"
                   }
