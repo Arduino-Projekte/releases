@@ -5,7 +5,7 @@
   "firmware_min": "0.0.299",
   "language": "nl",
   "title": "KLC Help",
-  "release_note": "Volledige pariteit met de Duitse help 0.3.5: alle 33 secties en 139 veldhelpen vertaald.",
+  "release_note": "Volledige pariteit met de Duitse help 0.3.8: alle 33 secties en 147 veldhelpen vertaald.",
   "sections": [
     {"id": "start.quickstart", "title": "Snelstart", "category": "Start", "body": "1. Controller van spanning voorzien en de WebUI openen.\n2. Netwerk controleren.\n3. Firmware- en helpupdates controleren.\n4. Uitgangen en pixelaantallen instellen.\n5. LED-type, LED-aantal en kleurvolgorde met de randknippertest controleren.\n6. Vermogenslimieten instellen.\n7. Scènes of verlopen testen.\n8. ETS instellen en KNX-/BAOS-datapunten koppelen.\n9. Een back-up opslaan."},
     {"id": "start.first_commissioning", "title": "Eerste inbedrijfstelling", "category": "Start", "body": "Bij de eerste inbedrijfstelling eerst alleen een korte LED-streng of één enkele uitgang testen. Zo kunnen datarichting, massaverbinding, levelshifter, LED-type en kleurvolgorde zonder risico worden gecontroleerd. Pas als deze test goed loopt, meer uitgangen activeren en de definitieve pixelaantallen invoeren."},

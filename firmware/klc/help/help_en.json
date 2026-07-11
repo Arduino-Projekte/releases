@@ -5,7 +5,7 @@
   "firmware_min": "0.0.299",
   "language": "en",
   "title": "KLC Help",
-  "release_note": "Full parity with the German help 0.3.5: all 33 sections and 139 field helps translated.",
+  "release_note": "Full parity with the German help 0.3.8: all 33 sections and 147 field helps translated.",
   "sections": [
     {"id": "start.quickstart", "title": "Quick start", "category": "Start", "body": "1. Power the controller and open the WebUI.\n2. Check the network.\n3. Check for firmware and help updates.\n4. Set up outputs and pixel counts.\n5. Verify LED type, LED count and color order with the edge blink test.\n6. Set power limits.\n7. Test scenes or sequences.\n8. Set up ETS and link KNX/BAOS datapoints.\n9. Save a backup."},
     {"id": "start.first_commissioning", "title": "First commissioning", "category": "Start", "body": "For first commissioning, start by testing only a short LED string or a single output. This lets you safely verify data direction, ground connection, level shifter, LED type and color order. Only when this test runs cleanly, enable further outputs and enter the final pixel counts."},

@@ -5,7 +5,7 @@
   "firmware_min": "0.0.299",
   "language": "pl",
   "title": "Pomoc KLC",
-  "release_note": "Pełna zgodność z niemiecką pomocą 0.3.5: przetłumaczone wszystkie 33 sekcje i 139 pomocy pól.",
+  "release_note": "Pełna zgodność z niemiecką pomocą 0.3.8: przetłumaczone wszystkie 33 sekcje i 147 pomocy pól.",
   "sections": [
     {"id": "start.quickstart", "title": "Szybki start", "category": "Start", "body": "1. Zasilić sterownik i otworzyć WebUI.\n2. Sprawdzić sieć.\n3. Sprawdzić aktualizacje firmware i pomocy.\n4. Skonfigurować wyjścia i liczby pikseli.\n5. Sprawdzić typ LED, liczbę LED i kolejność kolorów testem migania końców.\n6. Ustawić limity mocy.\n7. Przetestować sceny lub sekwencje.\n8. Skonfigurować ETS i powiązać punkty danych KNX/BAOS.\n9. Zapisać kopię zapasową."},
     {"id": "start.first_commissioning", "title": "Pierwsze uruchomienie", "category": "Start", "body": "Przy pierwszym uruchomieniu najpierw przetestować tylko krótki łańcuch LED lub jedno wyjście. Tak można bezpiecznie sprawdzić kierunek danych, połączenie masy, konwerter poziomów, typ LED i kolejność kolorów. Dopiero gdy test przebiega czysto, aktywować kolejne wyjścia i wpisać ostateczne liczby pikseli."},

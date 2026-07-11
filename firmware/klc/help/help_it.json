@@ -5,7 +5,7 @@
   "firmware_min": "0.0.299",
   "language": "it",
   "title": "Aiuto KLC",
-  "release_note": "Parità completa con l'aiuto tedesco 0.3.5: tradotte tutte le 33 sezioni e le 139 guide dei campi.",
+  "release_note": "Parità completa con l'aiuto tedesco 0.3.8: tradotte tutte le 33 sezioni e le 147 guide dei campi.",
   "sections": [
     {"id": "start.quickstart", "title": "Avvio rapido", "category": "Avvio", "body": "1. Alimentare il controller e aprire la WebUI.\n2. Controllare la rete.\n3. Controllare gli aggiornamenti di firmware e aiuto.\n4. Configurare le uscite e il numero di pixel.\n5. Verificare tipo di LED, numero di LED e ordine dei colori con il test di lampeggio delle estremità.\n6. Impostare i limiti di potenza.\n7. Provare scene o sequenze.\n8. Configurare ETS e collegare i datapoint KNX/BAOS.\n9. Salvare un backup."},
     {"id": "start.first_commissioning", "title": "Prima messa in servizio", "category": "Avvio", "body": "Alla prima messa in servizio, provare prima solo una striscia LED corta o una singola uscita. Così si possono verificare senza rischi direzione dei dati, collegamento di massa, traslatore di livello, tipo di LED e ordine dei colori. Solo quando il test funziona correttamente, attivare altre uscite e inserire i numeri di pixel definitivi."},
