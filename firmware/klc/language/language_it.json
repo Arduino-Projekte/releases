@@ -1,7 +1,7 @@
 {
 "__schema": "1",
 "__language": "it",
-"__version": "1.0.3",
+"__version": "1.0.4",
 "__firmware_min": "0.0.338",
 "Steuerung": "Controllo",
 "Abläufe": "Sequenze",
@@ -722,7 +722,8 @@
 "Baudrate der BAOS-UART-Verbindung": "Baud rate del collegamento UART BAOS",
 "Bestimmt, welcher KNX-Wert das Sperrobjekt aktiviert.": "Determina quale valore KNX attiva l oggetto di blocco.",
 "Bestimmt, welcher KNX-Wert das Zwangsobjekt aktiviert.": "Determina quale valore KNX attiva l oggetto forzato.",
-"Intervall in Sekunden, erlaubt sind 5 bis 86400": "Intervallo in secondi, consentito da 5 a 86400",
+"Feste Stufen von 1 s bis 1 h. Kurze Intervalle erhöhen die KNX-Buslast.": "Livelli fissi da 1 s a 1 h. Gli intervalli brevi aumentano il carico del bus KNX.",
+"Kurze Statusintervalle können die KNX-Buslast erhöhen.": "Intervalli di stato brevi possono aumentare il carico del bus KNX.",
 "KNX-Objekt für direkte zentrale Rot-Komponente 0 bis 255.": "Oggetto KNX per la componente rossa centrale diretta 0 a 255.",
 "KNX-Objekt für direkte zentrale Grün-Komponente 0 bis 255.": "Oggetto KNX per la componente verde centrale diretta 0 a 255.",
 "KNX-Objekt für direkte zentrale Blau-Komponente 0 bis 255.": "Oggetto KNX per la componente blu centrale diretta 0 a 255.",

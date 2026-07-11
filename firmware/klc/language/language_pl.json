@@ -1,7 +1,7 @@
 {
 "__schema": "1",
 "__language": "pl",
-"__version": "1.0.3",
+"__version": "1.0.4",
 "__firmware_min": "0.0.338",
 "Dashboard": "Pulpit",
 "Steuerung": "Sterowanie",
@@ -721,7 +721,8 @@
 "Baudrate der BAOS-UART-Verbindung": "Prędkość połączenia UART BAOS",
 "Bestimmt, welcher KNX-Wert das Sperrobjekt aktiviert.": "Określa, która wartość KNX aktywuje obiekt blokady.",
 "Bestimmt, welcher KNX-Wert das Zwangsobjekt aktiviert.": "Określa, która wartość KNX aktywuje obiekt wymuszenia.",
-"Intervall in Sekunden, erlaubt sind 5 bis 86400": "Interwał w sekundach, dozwolone od 5 do 86400",
+"Feste Stufen von 1 s bis 1 h. Kurze Intervalle erhöhen die KNX-Buslast.": "Stałe stopnie od 1 s do 1 h. Krótkie interwały zwiększają obciążenie magistrali KNX.",
+"Kurze Statusintervalle können die KNX-Buslast erhöhen.": "Krótkie interwały statusu mogą zwiększyć obciążenie magistrali KNX.",
 "KNX-Objekt für direkte zentrale Rot-Komponente 0 bis 255.": "Obiekt KNX dla bezpośredniej centralnej składowej czerwonej 0 do 255.",
 "KNX-Objekt für direkte zentrale Grün-Komponente 0 bis 255.": "Obiekt KNX dla bezpośredniej centralnej składowej zielonej 0 do 255.",
 "KNX-Objekt für direkte zentrale Blau-Komponente 0 bis 255.": "Obiekt KNX dla bezpośredniej centralnej składowej niebieskiej 0 do 255.",
