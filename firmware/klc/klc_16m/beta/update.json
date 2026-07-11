@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m_0.0.357.bin",
+                     "url":  "knx-led-controller-16m_0.0.358.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.357",
-                     "bin":  "knx-led-controller-16m_0.0.357.bin",
-                     "file":  "knx-led-controller-16m_0.0.357.bin",
-                     "sha256":  "be6d7afa049b1eac095d288a9436e5d4dd1c8c9339557188127720b5d7824b3b",
-                     "message":  "Sprachumschaltung und dynamische UI-Uebersetzungen vervollstaendigt: Die Sprachwahl wird beim Paketwechsel nicht mehr durch ein erneutes Schreiben der kompletten grossen Hauptkonfiguration persistiert. Stattdessen nutzt sie die kleine atomare Datei /klc_ui_language.sel mit .tmp/.bak, Stromausfall-Recovery und Bindung an Groesse sowie FNV-Hash der aktuellen /klc_config.json. Dadurch entfallen die config_save_failed-Fehler, die beim gleichzeitigen Vorhalten von Active- und Backup-Sprachpaket durch zusaetzlichen LittleFS-/RAM-Bedarf entstehen konnten. Beim Boot wird die Auswahl nur angewendet, solange die zugehoerige Hauptkonfiguration unveraendert ist; nach jedem regulaeren Konfigurationsspeichern wird das Journal entfernt beziehungsweise aufgrund des abweichenden Hashs sicher verworfen. Paketaktivierung, Commit und Rollback bleiben atomar; bei einem echten Auswahl-Speicherfehler wird jetzt die konkrete Storage-Ursache auf /system angezeigt. Fehlende dynamische Texte fuer aktuelle Darstellung/Ansicht, Sprachstatus, Ausgangsnamen und -zusammenfassungen, KNX-Statusintervalle, aktives Sprachpaket, Kanten-Blinktasten und LED-Profil wurden in allen sieben Sprachpaketen ergaenzt. Die Sprachnamen Français und Español wurden korrekt akzentuiert. Sprachpakete auf Version 2.0.2 und kanonischen Umfang 1554 Schluessel aktualisiert; eingebautes englisches Offline-Paket synchronisiert. Version 0.0.357, Konfigurationsschema unveraendert 60.",
+                     "version":  "0.0.358",
+                     "bin":  "knx-led-controller-16m_0.0.358.bin",
+                     "file":  "knx-led-controller-16m_0.0.358.bin",
+                     "sha256":  "8fd1401c37d4b378a8a9784dd53b7b02abf179b6d9efa6d9b14d260099038f83",
+                     "message":  "Sprachpaket-Audit fuer /outputs, /flows, KNX-Verhalten, Support-Snapshot und Hilfe vervollstaendigt: nummerierte Bereichsueberschriften, Kanal-Verkettung samt Dropdown-Werten und Kettenrichtung, Kettenstatus und -hinweise, deaktivierte-Ausgaenge-Zusammenfassung, Szenen-Pool-Status und KNX-Weiter/Zurueck-Texte, Verhalten-pro-Ausgang-Hinweis, dynamische Ready-/Warnungs-Templates, Fehler-/Warncodezeilen, Firmwarebezeichnung sowie der durch das code-Element getrennte Hilfe-Einleitungstext sind nun in allen sieben Sprachen enthalten. Zusaetzliche englische Alias-Schluessel fangen bereits englisch gerenderte Statusbezeichnungen sicher ab. Verschachtelte %s-Templates uebersetzen nun auch semikolongetrennte Ready-Hinweise und deren Diagnosecode-Texte rekursiv. Verkettungsnahe dynamische Hinweise und Ausrichtungs-/Durchlauftasten wurden ebenfalls vollstaendig ergaenzt. Sprachpakete auf 2.0.3 und kanonischen Umfang 1608 Schluessel aktualisiert; eingebautes englisches Offline-Paket synchronisiert. Version 0.0.358, Konfigurationsschema unveraendert 60.",
                      "http_code":  200
                  }
 }
