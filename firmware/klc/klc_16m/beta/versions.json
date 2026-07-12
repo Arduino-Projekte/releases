@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.375",
+                      "bin":  "knx-led-controller-16m_0.0.375.bin",
+                      "date":  "2026-07-12",
+                      "note":  "Dateibackup, Stable-Update im Wizard und Service-Taster verbessert."
+                  },
+                  {
                       "version":  "0.0.374",
                       "bin":  "knx-led-controller-16m_0.0.374.bin",
                       "date":  "2026-07-12",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m_0.0.371.bin",
                       "date":  "2026-07-12",
                       "note":  "Offline-Sprachwechsel im Einrichtungsassistenten stabilisiert."
-                  },
-                  {
-                      "version":  "0.0.370",
-                      "bin":  "knx-led-controller-16m_0.0.370.bin",
-                      "date":  "2026-07-12",
-                      "note":  "Offline mehrsprachigen Einrichtungsassistenten mit lokalem Sprachpaket-Upload ergaenzt."
                   }
               ]
 }
