@@ -5,7 +5,7 @@
   "minimum_firmware_version": "0.0.358",
   "maximum_firmware_version": "0.0.999",
   "compatibility_version": 1,
-  "package_version": "2.0.4",
+  "package_version": "2.0.5",
   "translations": {
     "Steuerung": "Control",
     "Abläufe": "Sequences",
@@ -1642,6 +1642,13 @@
     "Sichere Pixelgrenzen mit Leistungswarnung und harter Maximalbegrenzung ergaenzt.": "Added safe pixel limits with performance warning and hard maximum limit.",
     "Pixelkonfiguration im Leistungswarnbereich": "Pixel configuration in performance warning range",
     "LED-Framebuffer konnte nicht reserviert werden": "LED framebuffer could not be allocated",
-    "Warnbereich: %lu aktive Pixel, ca. %lu Byte LED-Puffer; Animationen, Uebergaenge und WebUI koennen langsamer sein": "Warning range: %lu active pixels, approx. %lu bytes LED buffer; animations, transitions and the Web UI may be slower"
+    "Warnbereich: %lu aktive Pixel, ca. %lu Byte LED-Puffer; Animationen, Uebergaenge und WebUI koennen langsamer sein": "Warning range: %lu active pixels, approx. %lu bytes LED buffer; animations, transitions and the Web UI may be slower",
+    "LED-Speicherreserve": "LED memory reserve",
+    "Heap-Vorabmessung nicht verfügbar": "Heap preflight measurement unavailable",
+    "Statisches 128-KiB-LED-Pufferbudget und einzelne Allokationsprüfungen bleiben aktiv.": "The static 128 KiB LED buffer budget and individual allocation checks remain active.",
+    "Kette gesperrt": "Chain blocked",
+    "Ausgang durch Kettenfehler gesperrt": "Output blocked by chain error",
+    "Ausgang %u wird weder als Einzelkanal noch als Kettenmitglied angesteuert.": "Output %u is controlled neither as an independent channel nor as a chain member.",
+    "Vor Allokation %u KiB frei, danach %u KiB; Mindestreserve %u KiB.": "%u KiB free before allocation, %u KiB afterwards; minimum reserve %u KiB."
   }
 }

@@ -5,7 +5,7 @@
   "minimum_firmware_version": "0.0.358",
   "maximum_firmware_version": "0.0.999",
   "compatibility_version": 1,
-  "package_version": "2.0.4",
+  "package_version": "2.0.5",
   "translations": {
     "Steuerung": "Steuerung",
     "Abläufe": "Abläufe",
@@ -1642,6 +1642,13 @@
     "Sichere Pixelgrenzen mit Leistungswarnung und harter Maximalbegrenzung ergaenzt.": "Sichere Pixelgrenzen mit Leistungswarnung und harter Maximalbegrenzung ergaenzt.",
     "Pixelkonfiguration im Leistungswarnbereich": "Pixelkonfiguration im Leistungswarnbereich",
     "LED-Framebuffer konnte nicht reserviert werden": "LED-Framebuffer konnte nicht reserviert werden",
-    "Warnbereich: %lu aktive Pixel, ca. %lu Byte LED-Puffer; Animationen, Uebergaenge und WebUI koennen langsamer sein": "Warnbereich: %lu aktive Pixel, ca. %lu Byte LED-Puffer; Animationen, Uebergaenge und WebUI koennen langsamer sein"
+    "Warnbereich: %lu aktive Pixel, ca. %lu Byte LED-Puffer; Animationen, Uebergaenge und WebUI koennen langsamer sein": "Warnbereich: %lu aktive Pixel, ca. %lu Byte LED-Puffer; Animationen, Uebergaenge und WebUI koennen langsamer sein",
+    "LED-Speicherreserve": "LED-Speicherreserve",
+    "Heap-Vorabmessung nicht verfügbar": "Heap-Vorabmessung nicht verfügbar",
+    "Statisches 128-KiB-LED-Pufferbudget und einzelne Allokationsprüfungen bleiben aktiv.": "Statisches 128-KiB-LED-Pufferbudget und einzelne Allokationsprüfungen bleiben aktiv.",
+    "Kette gesperrt": "Kette gesperrt",
+    "Ausgang durch Kettenfehler gesperrt": "Ausgang durch Kettenfehler gesperrt",
+    "Ausgang %u wird weder als Einzelkanal noch als Kettenmitglied angesteuert.": "Ausgang %u wird weder als Einzelkanal noch als Kettenmitglied angesteuert.",
+    "Vor Allokation %u KiB frei, danach %u KiB; Mindestreserve %u KiB.": "Vor Allokation %u KiB frei, danach %u KiB; Mindestreserve %u KiB."
   }
 }

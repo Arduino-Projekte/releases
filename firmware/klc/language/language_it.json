@@ -5,7 +5,7 @@
   "minimum_firmware_version": "0.0.358",
   "maximum_firmware_version": "0.0.999",
   "compatibility_version": 1,
-  "package_version": "2.0.4",
+  "package_version": "2.0.5",
   "translations": {
     "Steuerung": "Controllo",
     "Abläufe": "Sequenze",
@@ -1642,6 +1642,13 @@
     "Sichere Pixelgrenzen mit Leistungswarnung und harter Maximalbegrenzung ergaenzt.": "Aggiunti limiti sicuri dei pixel con avviso sulle prestazioni e limite massimo rigido.",
     "Pixelkonfiguration im Leistungswarnbereich": "Configurazione pixel nell’intervallo di avviso prestazioni",
     "LED-Framebuffer konnte nicht reserviert werden": "Impossibile allocare il framebuffer LED",
-    "Warnbereich: %lu aktive Pixel, ca. %lu Byte LED-Puffer; Animationen, Uebergaenge und WebUI koennen langsamer sein": "Intervallo di avviso: %lu pixel attivi, circa %lu byte di buffer LED; animazioni, transizioni e interfaccia Web possono essere più lente"
+    "Warnbereich: %lu aktive Pixel, ca. %lu Byte LED-Puffer; Animationen, Uebergaenge und WebUI koennen langsamer sein": "Intervallo di avviso: %lu pixel attivi, circa %lu byte di buffer LED; animazioni, transizioni e interfaccia Web possono essere più lente",
+    "LED-Speicherreserve": "Riserva di memoria LED",
+    "Heap-Vorabmessung nicht verfügbar": "Misurazione preventiva dell’heap non disponibile",
+    "Statisches 128-KiB-LED-Pufferbudget und einzelne Allokationsprüfungen bleiben aktiv.": "Il budget statico di 128 KiB per i buffer LED e i controlli delle singole allocazioni restano attivi.",
+    "Kette gesperrt": "Catena bloccata",
+    "Ausgang durch Kettenfehler gesperrt": "Uscita bloccata da un errore della catena",
+    "Ausgang %u wird weder als Einzelkanal noch als Kettenmitglied angesteuert.": "L’uscita %u non viene controllata né come canale indipendente né come membro di una catena.",
+    "Vor Allokation %u KiB frei, danach %u KiB; Mindestreserve %u KiB.": "%u KiB liberi prima dell’allocazione, %u KiB dopo; riserva minima %u KiB."
   }
 }

@@ -5,7 +5,7 @@
   "minimum_firmware_version": "0.0.358",
   "maximum_firmware_version": "0.0.999",
   "compatibility_version": 1,
-  "package_version": "2.0.4",
+  "package_version": "2.0.5",
   "translations": {
     "Steuerung": "Commande",
     "Abläufe": "Séquences",
@@ -1642,6 +1642,13 @@
     "Sichere Pixelgrenzen mit Leistungswarnung und harter Maximalbegrenzung ergaenzt.": "Ajout de limites sûres de pixels avec avertissement de performances et limite maximale stricte.",
     "Pixelkonfiguration im Leistungswarnbereich": "Configuration des pixels dans la zone d’avertissement de performances",
     "LED-Framebuffer konnte nicht reserviert werden": "Impossible d’allouer le framebuffer LED",
-    "Warnbereich: %lu aktive Pixel, ca. %lu Byte LED-Puffer; Animationen, Uebergaenge und WebUI koennen langsamer sein": "Zone d’avertissement : %lu pixels actifs, env. %lu octets de tampon LED ; les animations, les transitions et l’interface Web peuvent être plus lentes"
+    "Warnbereich: %lu aktive Pixel, ca. %lu Byte LED-Puffer; Animationen, Uebergaenge und WebUI koennen langsamer sein": "Zone d’avertissement : %lu pixels actifs, env. %lu octets de tampon LED ; les animations, les transitions et l’interface Web peuvent être plus lentes",
+    "LED-Speicherreserve": "Réserve mémoire LED",
+    "Heap-Vorabmessung nicht verfügbar": "Mesure préalable du tas indisponible",
+    "Statisches 128-KiB-LED-Pufferbudget und einzelne Allokationsprüfungen bleiben aktiv.": "Le budget statique de 128 Kio pour les tampons LED et les contrôles d’allocation individuels restent actifs.",
+    "Kette gesperrt": "Chaîne bloquée",
+    "Ausgang durch Kettenfehler gesperrt": "Sortie bloquée par une erreur de chaîne",
+    "Ausgang %u wird weder als Einzelkanal noch als Kettenmitglied angesteuert.": "La sortie %u n’est commandée ni comme canal indépendant ni comme membre d’une chaîne.",
+    "Vor Allokation %u KiB frei, danach %u KiB; Mindestreserve %u KiB.": "%u Kio libres avant allocation, %u Kio après ; réserve minimale %u Kio."
   }
 }

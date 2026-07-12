@@ -5,7 +5,7 @@
   "minimum_firmware_version": "0.0.358",
   "maximum_firmware_version": "0.0.999",
   "compatibility_version": 1,
-  "package_version": "2.0.4",
+  "package_version": "2.0.5",
   "translations": {
     "Steuerung": "Sterowanie",
     "Abläufe": "Sekwencje",
@@ -1642,6 +1642,13 @@
     "Sichere Pixelgrenzen mit Leistungswarnung und harter Maximalbegrenzung ergaenzt.": "Dodano bezpieczne limity pikseli z ostrzeżeniem o wydajności i twardym limitem maksymalnym.",
     "Pixelkonfiguration im Leistungswarnbereich": "Konfiguracja pikseli w zakresie ostrzegawczym wydajności",
     "LED-Framebuffer konnte nicht reserviert werden": "Nie można przydzielić bufora ramki LED",
-    "Warnbereich: %lu aktive Pixel, ca. %lu Byte LED-Puffer; Animationen, Uebergaenge und WebUI koennen langsamer sein": "Zakres ostrzegawczy: %lu aktywnych pikseli, ok. %lu bajtów bufora LED; animacje, przejścia i interfejs Web mogą działać wolniej"
+    "Warnbereich: %lu aktive Pixel, ca. %lu Byte LED-Puffer; Animationen, Uebergaenge und WebUI koennen langsamer sein": "Zakres ostrzegawczy: %lu aktywnych pikseli, ok. %lu bajtów bufora LED; animacje, przejścia i interfejs Web mogą działać wolniej",
+    "LED-Speicherreserve": "Rezerwa pamięci LED",
+    "Heap-Vorabmessung nicht verfügbar": "Pomiar wstępny sterty niedostępny",
+    "Statisches 128-KiB-LED-Pufferbudget und einzelne Allokationsprüfungen bleiben aktiv.": "Statyczny budżet 128 KiB na bufory LED oraz kontrole poszczególnych alokacji pozostają aktywne.",
+    "Kette gesperrt": "Łańcuch zablokowany",
+    "Ausgang durch Kettenfehler gesperrt": "Wyjście zablokowane przez błąd łańcucha",
+    "Ausgang %u wird weder als Einzelkanal noch als Kettenmitglied angesteuert.": "Wyjście %u nie jest sterowane ani jako niezależny kanał, ani jako element łańcucha.",
+    "Vor Allokation %u KiB frei, danach %u KiB; Mindestreserve %u KiB.": "%u KiB wolne przed alokacją, %u KiB po niej; minimalna rezerwa %u KiB."
   }
 }

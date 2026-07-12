@@ -1,0 +1,61 @@
+KLC – Verkettete Ausgänge: atomare Topologie und Laufzeit-Failsafe
+Firmwarestand: 0.0.367
+
+1. Grundprinzip
+
+Die Konfiguration einer Ausgangskette wird nicht mehr direkt in den globalen
+Laufzeittabellen aufgebaut. klcChainBuildTopology() erzeugt zuerst eine lokale
+KlcChainTopology. Erst wenn IDs, Verweise, Ringfreiheit, Aktivzustand,
+String-Segmente, Mitgliederzahl, Pixelgrenzen und alle Summen vollständig gültig
+sind, übernimmt klcChainCommitTopology() die Topologie in einem Schritt.
+
+Konfiguration und Topologie werden bei WebUI/API-Übernahme deshalb in dieser
+Reihenfolge behandelt:
+
+1. Kandidatenwerte streng parsen,
+2. Kandidatenkonfiguration validieren,
+3. zentrale Pixelgrenzen prüfen,
+4. lokale Kettentopologie vollständig aufbauen,
+5. Konfiguration speichern/aktivieren,
+6. die bereits geprüfte Topologie atomar übernehmen.
+
+Ein vorhandenes, aber ungültiges Importfeld wird nicht durch einen Defaultwert
+ersetzt. Der gesamte Import wird mit Feldname, Ausgangsindex und zulässigem
+Bereich abgelehnt.
+
+2. Verhalten bei einem unerwarteten Rebuild-Fehler
+
+Schlägt klcChainRebuild() trotz vorheriger Prüfung fehl, bleibt die zuletzt
+gültige globale Topologie erhalten. Zusätzlich werden die Mitglieder der
+betroffenen Kandidatenkette als runtime-gesperrt markiert. Diagnosefehler 1702
+wird gesetzt und die konkrete Ursache bleibt für API/WebUI abrufbar.
+
+Ein gesperrter Ausgang gilt nicht als selbstständiger Kanal. Die zentrale
+Abfrage klcChainOutputRuntimeAllowed() wird in Szenen-, KNX-, Render-,
+manuellen Test- und LED-Backend-Pfaden verwendet. Auch direkte Set-/Fill-/Clear-
+Aufrufe und der DMA-Show-Pfad überspringen einen gesperrten Ausgang. Dadurch
+kann ein ehemaliger Follower nach einem Fehler nicht still als Einzelkanal
+weiterlaufen.
+
+Unabhängige, nicht betroffene Ausgänge bleiben weiterhin betriebsfähig.
+
+3. Arithmetik und Grenzen
+
+Kettenlängen, Startindizes und Pixeloffsets werden als uint32_t geführt.
+Additionen erfolgen ausschließlich geprüft, bevor ein Ergebnis verwendet oder
+in einen kleineren Typ konvertiert wird. Die zentralen profilbezogenen
+Pixelgrenzen aus klc_pixel_limits.* bleiben die einzige maßgebliche Quelle.
+
+Aktuelle Profile:
+- maximal 1200 Pixel je physischem Ausgang,
+- maximal 6000 aktive Pixel insgesamt.
+
+Die Grenze selbst ist zulässig; ein Pixel darüber wird abgelehnt. Es gibt kein
+Clamping und keinen uint16_t-Wraparound.
+
+4. Sichtbarkeit
+
+/api/outputs liefert für jeden Ausgang den Runtime-Sperrstatus. Zusätzlich wird
+die konkrete letzte Kettenursache als chain_runtime_error ausgegeben. Die WebUI
+zeigt eine gesperrte Kette beziehungsweise einen gesperrten Ausgang ausdrücklich
+als Fehler und nicht als normal aktiv an.

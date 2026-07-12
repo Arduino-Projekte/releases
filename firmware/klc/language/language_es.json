@@ -5,7 +5,7 @@
   "minimum_firmware_version": "0.0.358",
   "maximum_firmware_version": "0.0.999",
   "compatibility_version": 1,
-  "package_version": "2.0.4",
+  "package_version": "2.0.5",
   "translations": {
     "Steuerung": "Control",
     "Abläufe": "Secuencias",
@@ -1642,6 +1642,13 @@
     "Sichere Pixelgrenzen mit Leistungswarnung und harter Maximalbegrenzung ergaenzt.": "Se añadieron límites seguros de píxeles con advertencia de rendimiento y límite máximo estricto.",
     "Pixelkonfiguration im Leistungswarnbereich": "Configuración de píxeles en la zona de advertencia de rendimiento",
     "LED-Framebuffer konnte nicht reserviert werden": "No se pudo asignar el framebuffer LED",
-    "Warnbereich: %lu aktive Pixel, ca. %lu Byte LED-Puffer; Animationen, Uebergaenge und WebUI koennen langsamer sein": "Zona de advertencia: %lu píxeles activos, aprox. %lu bytes de búfer LED; las animaciones, transiciones y la interfaz web pueden ser más lentas"
+    "Warnbereich: %lu aktive Pixel, ca. %lu Byte LED-Puffer; Animationen, Uebergaenge und WebUI koennen langsamer sein": "Zona de advertencia: %lu píxeles activos, aprox. %lu bytes de búfer LED; las animaciones, transiciones y la interfaz web pueden ser más lentas",
+    "LED-Speicherreserve": "Reserva de memoria LED",
+    "Heap-Vorabmessung nicht verfügbar": "Medición previa del heap no disponible",
+    "Statisches 128-KiB-LED-Pufferbudget und einzelne Allokationsprüfungen bleiben aktiv.": "El presupuesto estático de 128 KiB para búferes LED y las comprobaciones individuales de asignación siguen activos.",
+    "Kette gesperrt": "Cadena bloqueada",
+    "Ausgang durch Kettenfehler gesperrt": "Salida bloqueada por error de cadena",
+    "Ausgang %u wird weder als Einzelkanal noch als Kettenmitglied angesteuert.": "La salida %u no se controla ni como canal independiente ni como miembro de una cadena.",
+    "Vor Allokation %u KiB frei, danach %u KiB; Mindestreserve %u KiB.": "%u KiB libres antes de la asignación, %u KiB después; reserva mínima %u KiB."
   }
 }

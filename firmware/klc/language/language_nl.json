@@ -5,7 +5,7 @@
   "minimum_firmware_version": "0.0.358",
   "maximum_firmware_version": "0.0.999",
   "compatibility_version": 1,
-  "package_version": "2.0.4",
+  "package_version": "2.0.5",
   "translations": {
     "Steuerung": "Bediening",
     "Abläufe": "Verlopen",
@@ -1642,6 +1642,13 @@
     "Sichere Pixelgrenzen mit Leistungswarnung und harter Maximalbegrenzung ergaenzt.": "Veilige pixelgrenzen toegevoegd met prestatiewaarschuwing en harde maximumlimiet.",
     "Pixelkonfiguration im Leistungswarnbereich": "Pixelconfiguratie in prestatiewaarschuwingsgebied",
     "LED-Framebuffer konnte nicht reserviert werden": "LED-framebuffer kon niet worden toegewezen",
-    "Warnbereich: %lu aktive Pixel, ca. %lu Byte LED-Puffer; Animationen, Uebergaenge und WebUI koennen langsamer sein": "Waarschuwingsgebied: %lu actieve pixels, circa %lu bytes LED-buffer; animaties, overgangen en de webinterface kunnen trager zijn"
+    "Warnbereich: %lu aktive Pixel, ca. %lu Byte LED-Puffer; Animationen, Uebergaenge und WebUI koennen langsamer sein": "Waarschuwingsgebied: %lu actieve pixels, circa %lu bytes LED-buffer; animaties, overgangen en de webinterface kunnen trager zijn",
+    "LED-Speicherreserve": "LED-geheugenreserve",
+    "Heap-Vorabmessung nicht verfügbar": "Voorafmeting van heap niet beschikbaar",
+    "Statisches 128-KiB-LED-Pufferbudget und einzelne Allokationsprüfungen bleiben aktiv.": "Het statische LED-bufferbudget van 128 KiB en de afzonderlijke allocatiecontroles blijven actief.",
+    "Kette gesperrt": "Keten geblokkeerd",
+    "Ausgang durch Kettenfehler gesperrt": "Uitgang geblokkeerd door ketenfout",
+    "Ausgang %u wird weder als Einzelkanal noch als Kettenmitglied angesteuert.": "Uitgang %u wordt niet als zelfstandig kanaal en ook niet als ketenlid aangestuurd.",
+    "Vor Allokation %u KiB frei, danach %u KiB; Mindestreserve %u KiB.": "%u KiB vrij vóór allocatie, %u KiB daarna; minimumreserve %u KiB."
   }
 }
