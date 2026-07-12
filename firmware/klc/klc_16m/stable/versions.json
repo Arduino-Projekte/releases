@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.373",
+                      "bin":  "knx-led-controller-16m_0.0.373.bin",
+                      "date":  "2026-07-12",
+                      "note":  "Auth-/IPv4-Import fail-closed; Ketten, Hilfe-Download und UI-Speicherung abgesichert."
+                  },
+                  {
                       "version":  "0.0.371",
                       "bin":  "knx-led-controller-16m_0.0.371.bin",
                       "date":  "2026-07-12",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m_0.0.361.bin",
                       "date":  "2026-07-12",
                       "note":  "Sichere Pixelgrenzen mit Leistungswarnung und harter Maximalbegrenzung ergaenzt."
-                  },
-                  {
-                      "version":  "0.0.356",
-                      "bin":  "knx-led-controller-16m_0.0.356.bin",
-                      "date":  "2026-07-11",
-                      "note":  "Sprachwechsel auf /system abgeschlossen: Konkrete serverseitige Fehlerursachen werden jetzt direkt im sichtbaren Status ausgegeben, statt nur generische Fehlercodes anzuzeigen. Die Meldung wird weiterhin ausschliesslich per textContent eingesetzt und kann daher kein HTML einschleusen. Der kooperative Sprachpaketablauf trennt nun Paketvalidierung und Dateihash in zwei eigene Loop-Phasen; Parser und Hash geben nach Dateibloecken an den Arduino-Core ab. Die unvermeidbar synchrone DNS/TLS/HTTP-Header-Phase von HTTPClient ist auf 3000 ms pro Bibliotheks-Timeout begrenzt und wird zusammen mit Validierungs- und Hashdauer im seriellen LANG-Log sowie unter /api/language als http_open_ms, validation_ms und hash_ms ausgewiesen. Downloadbody, atomare .tmp/.bak/Aktivierung, Rollback, Offline-Englisch, 303-Rueckkehr nach /system, Mehrfachklickschutz und Same-Language-Pruefung bleiben unveraendert erhalten. Version 0.0.356, Konfigurationsschema unveraendert 60."
                   }
               ]
 }
