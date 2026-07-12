@@ -1,11 +1,11 @@
 {
   "schema": 1,
   "kind": "klc_help",
-  "version": "0.3.8",
+  "version": "0.4.0",
   "firmware_min": "0.0.299",
   "language": "nl",
   "title": "KLC Help",
-  "release_note": "Volledige pariteit met de Duitse help 0.3.8: alle 33 secties en 147 veldhelpen vertaald.",
+  "release_note": "Nieuw helponderdeel Beveiliging: gebruikers-/beheerdersrollen, gebruikerslogin, weergaven, standaardwachtwoorden, wachtwoordwijziging, herstel, beveiligde bèta-update en offline upload van taalpakketten.",
   "sections": [
     {"id": "start.quickstart", "title": "Snelstart", "category": "Start", "body": "1. Controller van spanning voorzien en de WebUI openen.\n2. Netwerk controleren.\n3. Firmware- en helpupdates controleren.\n4. Uitgangen en pixelaantallen instellen.\n5. LED-type, LED-aantal en kleurvolgorde met de randknippertest controleren.\n6. Vermogenslimieten instellen.\n7. Scènes of verlopen testen.\n8. ETS instellen en KNX-/BAOS-datapunten koppelen.\n9. Een back-up opslaan."},
     {"id": "start.first_commissioning", "title": "Eerste inbedrijfstelling", "category": "Start", "body": "Bij de eerste inbedrijfstelling eerst alleen een korte LED-streng of één enkele uitgang testen. Zo kunnen datarichting, massaverbinding, levelshifter, LED-type en kleurvolgorde zonder risico worden gecontroleerd. Pas als deze test goed loopt, meer uitgangen activeren en de definitieve pixelaantallen invoeren."},
@@ -226,5 +226,54 @@
                        "short":  "1-bits object: 1 schakelt naar de volgende scene uit de pool, 0 naar de vorige.",
                        "details":  "Bestaat per kanaal (datapunten 105, 205, 305, 405, 505; groepsadressen vanaf 2/2/26 in stappen van 30) en centraal (datapunt 4, adres 2/2/4). De actuele scènestatus van het kanaal is de aanwijzer."
                    }
-               ]
+               ,
+                     {
+                         "id":  "security.roles",
+                         "title":  "Gebruiker en beheerder",
+                         "category":  "Beveiliging",
+                         "body":  "Er is precies één gebruikersaccount en één beheerdersaccount. De gebruiker bedient de verlichting: scènes en sequenties starten en bewerken, weergave wisselen, taal en uiterlijk wijzigen. De beheerder mag daarnaast alle systeeminstellingen wijzigen: netwerk en wifi, firmware-updates, import en export van de configuratie, fabrieks- en netwerkreset, KNX/BAOS-basisconfiguratie, upload van taalpakketten en de beveiligingsinstellingen zelf. Alle rechten worden op de server afgedwongen; directe URL- of API-aanroepen volgen dezelfde regels als de navigatie. Aanmelden gebeurt op de pagina /login met rol en wachtwoord."
+                     },
+                     {
+                         "id":  "security.user_login",
+                         "title":  "Gebruikerslogin in-/uitschakelen",
+                         "category":  "Beveiliging",
+                         "body":  "De beheerder kan de gebruikerslogin op de pagina Beveiliging in- of uitschakelen. Ingeschakeld: het normale bedieningsgedeelte vereist een gebruikers- of beheerdersaanmelding. Uitgeschakeld (fabrieksinstelling): bediening is mogelijk zonder aan te melden. Het beheergedeelte blijft in beide gevallen beschermd door het beheerderswachtwoord. De taalkeuze blijft zonder aanmelding beschikbaar en werkt volledig offline."
+                     },
+                     {
+                         "id":  "security.views",
+                         "title":  "Eenvoudige en uitgebreide weergave",
+                         "category":  "Beveiliging",
+                         "body":  "De eenvoudige weergave toont alleen het dashboard en de vereenvoudigde sequentie-editor; de uitgebreide weergave toont daarnaast alle expertparameters. Het wisselen van weergave is puur een weergavemodus en geen beveiligingsrol: ook in de uitgebreide weergave blijven beheerfuncties vergrendeld tot een beheerdersaanmelding. Gebruiker en beheerder kunnen de weergave op elk moment op de systeempagina wisselen; dit geeft nooit beheerdersrechten."
+                     },
+                     {
+                         "id":  "security.default_passwords",
+                         "title":  "Standaardwachtwoorden",
+                         "category":  "Beveiliging",
+                         "body":  "Af fabriek en na een fabrieksreset gelden: gebruikerswachtwoord 123456, beheerderswachtwoord Admin (hoofdlettergevoelig). De gebruikerslogin is aanvankelijk uitgeschakeld; de beheerdersbescherming is altijd actief. Zolang standaardwachtwoorden actief zijn, toont de interface een duidelijke beveiligingswaarschuwing. Wijzig beide wachtwoorden na de ingebruikname op de pagina Beveiliging."
+                     },
+                     {
+                         "id":  "security.password_change",
+                         "title":  "Wachtwoorden wijzigen",
+                         "category":  "Beveiliging",
+                         "body":  "Wachtwoorden worden gewijzigd op de pagina Beveiliging. Het nieuwe wachtwoord wordt twee keer ingevoerd (maximaal 64 tekens, niet leeg). Het wijzigen van het beheerderswachtwoord vereist bovendien het huidige beheerderswachtwoord en meldt daarna alle beheerderssessies af. De beheerder kan een nieuw gebruikerswachtwoord instellen zonder het vorige (duidelijk gemarkeerd als beheerdersactie); een aangemelde gebruiker wijzigt zijn eigen wachtwoord door het huidige te bevestigen. Wachtwoorden worden alleen als salt plus PBKDF2-hash opgeslagen, nooit in klare tekst, en verschijnen niet in configuratie-exports of logboeken."
+                     },
+                     {
+                         "id":  "security.recovery",
+                         "title":  "Beheerderswachtwoord vergeten (herstel)",
+                         "category":  "Beveiliging",
+                         "body":  "Er is geen hoofdwachtwoord en geen verborgen ontgrendeling. Bij een vergeten beheerderswachtwoord helpt alleen de serviceknop op het apparaat: 2 tot net geen 5 seconden vasthouden herstelt alleen de netwerkinstellingen; 5 tot net geen 10 seconden voert de volledige fabrieksreset uit. Na de fabrieksreset gelden weer de standaardgegevens (gebruiker 123456, admin Admin, gebruikerslogin uitgeschakeld) en is het service-AP bereikbaar."
+                     },
+                     {
+                         "id":  "security.beta_update",
+                         "title":  "Beveiligde bèta-updateprocedure",
+                         "category":  "Beveiliging",
+                         "body":  "Het aanroepen van /update/beta-latest via GET start geen installatie meer: na een beheerdersaanmelding toont het alleen een controle- en bevestigingspagina met de beschikbare bètaversie. De daadwerkelijke installatie gebeurt uitsluitend via een expliciete POST met geldige beheerderssessie, CSRF-token en bevestiging. Browservoorbeeld, linkscanners of het herladen van de pagina kunnen geen installatie meer starten."
+                     },
+                     {
+                         "id":  "security.language_upload",
+                         "title":  "Taalpakket offline uploaden",
+                         "category":  "Beveiliging",
+                         "body":  "Op de systeempagina kan de beheerder een taalpakket (JSON, maximaal 256 KB) rechtstreeks vanaf een pc of smartphone uploaden - ook volledig zonder internet, bijvoorbeeld in het service-AP. Het bestand wordt volledig gevalideerd (UTF-8, JSON-syntaxis, sleutelset, taalcode, firmwarebereik, grootte) en pas na een geslaagde controle atomair geactiveerd; bij elke fout blijft de vorige taal actief. De bestandsnaam doet er niet toe, de gekozen doeltaal is bepalend. Het ingebouwde Engels blijft altijd beschikbaar als terugvaloptie en kan niet worden verwijderd."
+                     }
+]
 }

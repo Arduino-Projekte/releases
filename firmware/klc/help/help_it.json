@@ -1,11 +1,11 @@
 {
   "schema": 1,
   "kind": "klc_help",
-  "version": "0.3.8",
+  "version": "0.4.0",
   "firmware_min": "0.0.299",
   "language": "it",
   "title": "Aiuto KLC",
-  "release_note": "Parità completa con l'aiuto tedesco 0.3.8: tradotte tutte le 33 sezioni e le 147 guide dei campi.",
+  "release_note": "Nuova area guida Sicurezza: ruoli utente/admin, accesso utente, viste, password predefinite, cambio password, ripristino, aggiornamento beta protetto e caricamento offline dei pacchetti lingua.",
   "sections": [
     {"id": "start.quickstart", "title": "Avvio rapido", "category": "Avvio", "body": "1. Alimentare il controller e aprire la WebUI.\n2. Controllare la rete.\n3. Controllare gli aggiornamenti di firmware e aiuto.\n4. Configurare le uscite e il numero di pixel.\n5. Verificare tipo di LED, numero di LED e ordine dei colori con il test di lampeggio delle estremità.\n6. Impostare i limiti di potenza.\n7. Provare scene o sequenze.\n8. Configurare ETS e collegare i datapoint KNX/BAOS.\n9. Salvare un backup."},
     {"id": "start.first_commissioning", "title": "Prima messa in servizio", "category": "Avvio", "body": "Alla prima messa in servizio, provare prima solo una striscia LED corta o una singola uscita. Così si possono verificare senza rischi direzione dei dati, collegamento di massa, traslatore di livello, tipo di LED e ordine dei colori. Solo quando il test funziona correttamente, attivare altre uscite e inserire i numeri di pixel definitivi."},
@@ -226,5 +226,54 @@
                        "short":  "Oggetto a 1 bit: 1 passa alla scena successiva del pool, 0 alla precedente.",
                        "details":  "Esiste per canale (datapoint 105, 205, 305, 405, 505; indirizzi di gruppo da 2/2/26 a passi di 30) e centrale (datapoint 4, indirizzo 2/2/4). Lo stato scena attuale del canale è il puntatore."
                    }
-               ]
+               ,
+                     {
+                         "id":  "security.roles",
+                         "title":  "Utente e amministratore",
+                         "category":  "Sicurezza",
+                         "body":  "Esistono esattamente un account utente e un account amministratore. L'utente comanda le luci: avviare e modificare scene e sequenze, cambiare vista, cambiare lingua e aspetto. L'amministratore può inoltre modificare tutte le impostazioni di sistema: rete e Wi-Fi, aggiornamenti firmware, importazione ed esportazione della configurazione, ripristino di fabbrica e di rete, configurazione base KNX/BAOS, caricamento dei pacchetti lingua e le stesse impostazioni di sicurezza. Tutte le autorizzazioni sono applicate sul server; le chiamate dirette via URL o API seguono le stesse regole della navigazione. L'accesso avviene nella pagina /login con ruolo e password."
+                     },
+                     {
+                         "id":  "security.user_login",
+                         "title":  "Attivare/disattivare l'accesso utente",
+                         "category":  "Sicurezza",
+                         "body":  "L'amministratore può attivare o disattivare l'accesso utente nella pagina Sicurezza. Attivato: l'area di utilizzo normale richiede un accesso utente o amministratore. Disattivato (stato di fabbrica): l'uso è possibile senza accesso. L'area di amministrazione resta in entrambi i casi protetta dalla password amministratore. La scelta della lingua resta possibile senza accesso e funziona completamente offline."
+                     },
+                     {
+                         "id":  "security.views",
+                         "title":  "Vista semplice e avanzata",
+                         "category":  "Sicurezza",
+                         "body":  "La vista semplice mostra solo il pannello e l'editor di sequenze semplificato; la vista avanzata mostra in più tutti i parametri esperti. Il cambio di vista è solo una modalità di visualizzazione e non un ruolo di sicurezza: anche nella vista avanzata le funzioni di amministrazione restano bloccate fino a un accesso amministratore. Utente e amministratore possono cambiare vista in qualsiasi momento nella pagina di sistema; questo non concede mai diritti di amministratore."
+                     },
+                     {
+                         "id":  "security.default_passwords",
+                         "title":  "Password predefinite",
+                         "category":  "Sicurezza",
+                         "body":  "Di fabbrica e dopo un ripristino di fabbrica valgono: password utente 123456, password amministratore Admin (rispettare maiuscole/minuscole). L'accesso utente è inizialmente disattivato; la protezione amministratore è sempre attiva. Finché le password predefinite sono attive, l'interfaccia mostra un chiaro avviso di sicurezza. Cambiare entrambe le password dopo la messa in servizio nella pagina Sicurezza."
+                     },
+                     {
+                         "id":  "security.password_change",
+                         "title":  "Cambiare le password",
+                         "category":  "Sicurezza",
+                         "body":  "Le password si cambiano nella pagina Sicurezza. La nuova password va inserita due volte (massimo 64 caratteri, non vuota). Il cambio della password amministratore richiede inoltre la password amministratore attuale e disconnette poi tutte le sessioni admin. L'amministratore può impostare una nuova password utente senza quella precedente (chiaramente contrassegnato come azione admin); un utente connesso cambia la propria password confermando quella attuale. Le password sono salvate solo come sale più hash PBKDF2, mai in chiaro, e non compaiono né nelle esportazioni di configurazione né nei log."
+                     },
+                     {
+                         "id":  "security.recovery",
+                         "title":  "Password amministratore dimenticata (ripristino)",
+                         "category":  "Sicurezza",
+                         "body":  "Non esiste una password principale né uno sblocco nascosto. Se la password amministratore viene persa, aiuta solo il pulsante di servizio sul dispositivo: tenere premuto da 2 a meno di 5 secondi ripristina solo le impostazioni di rete; da 5 a meno di 10 secondi esegue il ripristino di fabbrica completo. Dopo il ripristino di fabbrica valgono di nuovo le credenziali predefinite (utente 123456, admin Admin, accesso utente disattivato) e l'AP di servizio è raggiungibile."
+                     },
+                     {
+                         "id":  "security.beta_update",
+                         "title":  "Procedura beta protetta",
+                         "category":  "Sicurezza",
+                         "body":  "La chiamata di /update/beta-latest via GET non avvia più alcuna installazione: dopo l'accesso amministratore mostra solo una pagina di verifica e conferma con la versione beta disponibile. L'installazione reale avviene esclusivamente tramite un POST esplicito con sessione admin valida, token CSRF e conferma. Anteprima del browser, scanner di link o il ricaricamento della pagina non possono più attivare un'installazione."
+                     },
+                     {
+                         "id":  "security.language_upload",
+                         "title":  "Caricare un pacchetto lingua offline",
+                         "category":  "Sicurezza",
+                         "body":  "Nella pagina di sistema l'amministratore può caricare un pacchetto lingua (JSON, massimo 256 KB) direttamente da PC o smartphone - anche completamente senza Internet, per esempio nell'AP di servizio. Il file viene validato completamente (UTF-8, sintassi JSON, insieme delle chiavi, codice lingua, intervallo firmware, dimensione) e attivato in modo atomico solo dopo una verifica riuscita; in caso di errore resta attiva la lingua precedente. Il nome del file non conta, è determinante la lingua di destinazione selezionata. L'inglese integrato resta sempre disponibile come riserva e non può essere cancellato."
+                     }
+]
 }

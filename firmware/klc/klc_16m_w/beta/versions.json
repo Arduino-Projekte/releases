@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.368",
+                      "bin":  "knx-led-controller-16m-w_0.0.368.bin",
+                      "date":  "2026-07-12",
+                      "note":  "Neues Benutzer-/Adminsystem: abschaltbares Benutzer-Login, getrennte Rollen, aenderbare Passwoerter (PBKDF2), sichere RAM-Sitzungen mit CSRF-Schutz, serverseitig geschuetzte kritische Endpunkte, abgesicherter Beta-Update-Ablauf, komplett offline nutzbare Login-/Sicherheitsseiten und admin-geschuetzter lokaler Sprachpaket-Upload."
+                  },
+                  {
                       "version":  "0.0.367",
                       "bin":  "knx-led-controller-16m-w_0.0.367.bin",
                       "date":  "2026-07-12",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m-w_0.0.361.bin",
                       "date":  "2026-07-12",
                       "note":  "Sichere Pixelgrenzen mit Leistungswarnung und harter Maximalbegrenzung ergaenzt."
-                  },
-                  {
-                      "version":  "0.0.359",
-                      "bin":  "knx-led-controller-16m-w_0.0.359.bin",
-                      "date":  "2026-07-12",
-                      "note":  "Hilfe-Sprachdateien werden nun robust validiert: Das schema-Feld wird als JSON-Zahl mit beliebig vielen erlaubten Leerzeichen gelesen, statt nur zwei exakt formatierte Schreibweisen zu akzeptieren. Dadurch wird insbesondere das gueltige deutsche help_de.json nicht mehr faelschlich als unvollstaendig, beschaedigt oder fremdsprachig verworfen. Fehlt die lokale Hilfe fuer die aktive Nicht-Englisch-Sprache, startet /help einmal pro Browsersitzung automatisch den passenden Online-Download und zeigt bis zum Ergebnis den Ladezustand; bei fehlendem Internet bleibt der englische Offline-Fallback verfuegbar. Direkte Feldhilfe-Links wie /help?q=flows.pixel_mode laden danach den exakten deutschsprachigen Eintrag statt der unscharfen englischen Fallback-Treffer. Version 0.0.359, Sprachpakete unveraendert 2.0.3, Konfigurationsschema unveraendert 60."
                   }
               ]
 }

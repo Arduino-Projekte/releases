@@ -1,11 +1,11 @@
 {
     "schema":  1,
     "kind":  "klc_help",
-"version":  "0.3.8",
+"version":  "0.4.0",
     "firmware_min":  "0.0.299",
     "language":  "de",
     "title":  "KLC Hilfe",
-    "release_note":  "Neue Hilfebereiche: LED-Backend, Fallback-IP, Ereignisliste, Versionshistorie/Rollback und Admin-Bereich. Hinweis auf Hardware-Maximum 5 Ausgänge, Umlaut-Suche dokumentiert, Textkorrekturen.",
+    "release_note":  "Neuer Hilfebereich Sicherheit: Benutzer/Admin-Rollen, Benutzer-Login, Ansichten, Standardpasswörter, Passwortänderung, Recovery, geschützter Beta-Update-Ablauf und Offline-Sprachpaket-Upload.",
     "sections":  [
                      {
                          "id":  "start.quickstart",
@@ -1237,5 +1237,54 @@
                        "short":  "1-Bit-Objekt: Telegramm 1 schaltet zur nächsten, 0 zur vorherigen Szene aus dem Szenen-Pool.",
                        "details":  "Existiert je Kanal (Standard-Datenpunkte 105, 205, 305, 405, 505; Gruppenadressen ab 2/2/26 im 30er-Raster) und zentral für alle Kanäle (Datenpunkt 4, Gruppenadresse 2/2/4). Der aktuelle Szenenzustand des Kanals dient als Zeiger; einen separaten Zähler gibt es nicht. Welche Abläufe im Pool sind, bestimmt der Haken Szenen-Pool im Ablauf-Editor."
                    }
-               ]
+               ,
+                     {
+                         "id":  "security.roles",
+                         "title":  "Benutzer und Administrator",
+                         "category":  "Sicherheit",
+                         "body":  "Es gibt genau ein Benutzerkonto und ein Administratorkonto. Der Benutzer bedient das Licht: Szenen und Abläufe starten und bearbeiten, Ansicht wechseln, Sprache und Darstellung ändern. Der Administrator darf zusätzlich alle Systemeinstellungen ändern: Netzwerk und WLAN, Firmware-Updates, Konfigurations-Import und -Export, Werks- und Netzwerkreset, KNX-/BAOS-Grundkonfiguration, Sprachpaket-Upload und die Sicherheitseinstellungen selbst. Alle Berechtigungen werden serverseitig geprüft; direkte URL- oder API-Aufrufe unterliegen denselben Regeln wie die Navigation. Angemeldet wird auf der Seite /login mit Rolle und Passwort."
+                     },
+                     {
+                         "id":  "security.user_login",
+                         "title":  "Benutzer-Login ein-/ausschalten",
+                         "category":  "Sicherheit",
+                         "body":  "Der Administrator kann den Benutzer-Login auf der Seite Sicherheit aktivieren oder deaktivieren. Aktiviert: Der normale Bedienbereich verlangt eine Benutzer- oder Adminanmeldung. Deaktiviert (Werkszustand): Die Bedienung ist ohne Anmeldung möglich. Der Adminbereich bleibt in beiden Fällen immer durch das Adminpasswort geschützt. Die Sprachauswahl der Oberfläche bleibt auch ohne Anmeldung möglich und funktioniert komplett offline."
+                     },
+                     {
+                         "id":  "security.views",
+                         "title":  "Einfache und erweiterte Ansicht",
+                         "category":  "Sicherheit",
+                         "body":  "Die einfache Ansicht zeigt nur das Dashboard und den vereinfachten Ablauf-Editor; die erweiterte Ansicht blendet zusätzlich alle Experten-Parameter ein. Die Umschaltung ist ein reiner Darstellungsmodus und keine Sicherheitsrolle: Auch in der erweiterten Ansicht bleiben Adminfunktionen gesperrt, bis eine Adminanmeldung erfolgt. Benutzer und Administrator können die Ansicht jederzeit auf der Systemseite wechseln; Adminrechte entstehen dadurch nicht."
+                     },
+                     {
+                         "id":  "security.default_passwords",
+                         "title":  "Standardpasswörter",
+                         "category":  "Sicherheit",
+                         "body":  "Ab Werk und nach einem Werksreset gelten: Benutzerpasswort 123456, Adminpasswort Admin (Groß-/Kleinschreibung beachten). Der Benutzer-Login ist zunächst deaktiviert; der Adminschutz ist immer aktiv. Solange Standardpasswörter aktiv sind, zeigt die Oberfläche eine deutliche Sicherheitswarnung. Bitte beide Passwörter nach der Inbetriebnahme auf der Seite Sicherheit ändern."
+                     },
+                     {
+                         "id":  "security.password_change",
+                         "title":  "Passwort ändern",
+                         "category":  "Sicherheit",
+                         "body":  "Passwörter werden auf der Seite Sicherheit geändert. Das neue Passwort wird zweimal abgefragt (maximal 64 Zeichen, nicht leer). Die Änderung des Adminpassworts verlangt zusätzlich das aktuelle Adminpasswort und meldet danach alle Adminsitzungen ab. Der Administrator kann das Benutzerpasswort ohne dessen bisheriges Passwort neu setzen (deutlich als Admin-Aktion gekennzeichnet); ein angemeldeter Benutzer ändert sein eigenes Passwort mit Bestätigung des aktuellen Passworts. Passwörter werden nur als Salt plus PBKDF2-Hash gespeichert, nie im Klartext, und erscheinen weder in Konfigurationsexporten noch in Logs."
+                     },
+                     {
+                         "id":  "security.recovery",
+                         "title":  "Adminpasswort vergessen (Recovery)",
+                         "category":  "Sicherheit",
+                         "body":  "Es gibt kein Masterpasswort und keinen versteckten Freischaltweg. Bei vergessenem Adminpasswort hilft nur der Service-Taster am Gerät: 2 bis unter 5 Sekunden halten setzt nur die Netzwerkeinstellungen zurück; 5 bis unter 10 Sekunden halten führt den kompletten Werksreset aus. Nach dem Werksreset gelten wieder die Standardzugänge (Benutzer 123456, Admin Admin, Benutzer-Login deaktiviert) und der Service-AP ist erreichbar."
+                     },
+                     {
+                         "id":  "security.beta_update",
+                         "title":  "Geschützter Beta-Update-Ablauf",
+                         "category":  "Sicherheit",
+                         "body":  "Der Aufruf von /update/beta-latest per GET startet keine Installation mehr: Nach Adminanmeldung erscheint nur eine Prüf- und Bestätigungsseite mit dem verfügbaren Beta-Stand. Die tatsächliche Installation erfolgt ausschließlich über einen expliziten POST mit gültiger Adminsitzung, CSRF-Token und Bestätigung. Browser-Vorschau, Linkscanner oder ein Neuladen der Seite können dadurch keine Installation auslösen."
+                     },
+                     {
+                         "id":  "security.language_upload",
+                         "title":  "Sprachpaket offline hochladen",
+                         "category":  "Sicherheit",
+                         "body":  "Auf der Systemseite kann der Administrator ein Sprachpaket (JSON, maximal 256 KB) direkt vom PC oder Smartphone hochladen - auch komplett ohne Internet, zum Beispiel im Service-AP. Die Datei wird vollständig geprüft (UTF-8, JSON-Syntax, Schlüsselmenge, Sprachkennung, Firmwarebereich, Größe) und erst nach erfolgreicher Prüfung atomar aktiviert; bei jedem Fehler bleibt die bisherige Sprache aktiv. Der Dateiname spielt keine Rolle, entscheidend ist die gewählte Zielsprache. Das eingebettete Englisch bleibt immer als Rückfallebene erhalten und kann nicht gelöscht werden."
+                     }
+]
 }

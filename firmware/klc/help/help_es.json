@@ -1,11 +1,11 @@
 {
   "schema": 1,
   "kind": "klc_help",
-  "version": "0.3.8",
+  "version": "0.4.0",
   "firmware_min": "0.0.299",
   "language": "es",
   "title": "Ayuda KLC",
-  "release_note": "Paridad completa con la ayuda alemana 0.3.8: traducidas las 33 secciones y las 147 ayudas de campo.",
+  "release_note": "Nueva área de ayuda Seguridad: roles usuario/admin, inicio de sesión de usuario, vistas, contraseñas predeterminadas, cambio de contraseña, recuperación, actualización beta protegida y subida de paquetes de idioma sin conexión.",
   "sections": [
     {"id": "start.quickstart", "title": "Inicio rápido", "category": "Inicio", "body": "1. Alimentar el controlador y abrir la WebUI.\n2. Comprobar la red.\n3. Comprobar actualizaciones de firmware y de la ayuda.\n4. Configurar las salidas y el número de píxeles.\n5. Verificar tipo de LED, cantidad de LED y orden de colores con la prueba de parpadeo de extremos.\n6. Definir los límites de potencia.\n7. Probar escenas o secuencias.\n8. Configurar ETS y enlazar los puntos de datos KNX/BAOS.\n9. Guardar una copia de seguridad."},
     {"id": "start.first_commissioning", "title": "Primera puesta en marcha", "category": "Inicio", "body": "En la primera puesta en marcha, probar primero solo una tira LED corta o una única salida. Así se pueden verificar sin riesgo la dirección de datos, la conexión de masa, el conversor de nivel, el tipo de LED y el orden de colores. Solo cuando la prueba funcione limpiamente, activar más salidas e introducir los números de píxeles definitivos."},
@@ -226,5 +226,54 @@
                        "short":  "Objeto de 1 bit: 1 cambia a la siguiente escena del pool, 0 a la anterior.",
                        "details":  "Existe por canal (puntos de datos 105, 205, 305, 405, 505; direcciones de grupo desde 2/2/26 en pasos de 30) y central (punto 4, dirección 2/2/4). El estado de escena actual del canal es el puntero."
                    }
-               ]
+               ,
+                     {
+                         "id":  "security.roles",
+                         "title":  "Usuario y administrador",
+                         "category":  "Seguridad",
+                         "body":  "Existe exactamente una cuenta de usuario y una cuenta de administrador. El usuario maneja la iluminación: iniciar y editar escenas y secuencias, cambiar la vista, cambiar idioma y apariencia. El administrador puede además cambiar todos los ajustes del sistema: red y Wi-Fi, actualizaciones de firmware, importación y exportación de configuración, restablecimiento de fábrica y de red, configuración base KNX/BAOS, subida de paquetes de idioma y los propios ajustes de seguridad. Todos los permisos se aplican en el servidor; las llamadas directas por URL o API siguen las mismas reglas que la navegación. El acceso se hace en la página /login con rol y contraseña."
+                     },
+                     {
+                         "id":  "security.user_login",
+                         "title":  "Activar/desactivar el inicio de sesión de usuario",
+                         "category":  "Seguridad",
+                         "body":  "El administrador puede activar o desactivar el inicio de sesión de usuario en la página Seguridad. Activado: el área de manejo normal exige una sesión de usuario o de administrador. Desactivado (estado de fábrica): el manejo es posible sin iniciar sesión. El área de administración permanece en ambos casos protegida por la contraseña de administrador. La selección de idioma sigue disponible sin sesión y funciona completamente sin conexión."
+                     },
+                     {
+                         "id":  "security.views",
+                         "title":  "Vista sencilla y avanzada",
+                         "category":  "Seguridad",
+                         "body":  "La vista sencilla muestra solo el panel y el editor de secuencias simplificado; la vista avanzada muestra además todos los parámetros de experto. El cambio de vista es un mero modo de presentación y no un rol de seguridad: incluso en la vista avanzada, las funciones de administrador permanecen bloqueadas hasta iniciar sesión como administrador. Usuario y administrador pueden cambiar la vista en cualquier momento en la página del sistema; esto nunca otorga derechos de administrador."
+                     },
+                     {
+                         "id":  "security.default_passwords",
+                         "title":  "Contraseñas predeterminadas",
+                         "category":  "Seguridad",
+                         "body":  "De fábrica y tras un restablecimiento de fábrica rigen: contraseña de usuario 123456, contraseña de administrador Admin (distingue mayúsculas). El inicio de sesión de usuario está inicialmente desactivado; la protección de administrador está siempre activa. Mientras las contraseñas predeterminadas estén activas, la interfaz muestra una advertencia de seguridad clara. Cambie ambas contraseñas tras la puesta en marcha en la página Seguridad."
+                     },
+                     {
+                         "id":  "security.password_change",
+                         "title":  "Cambiar contraseñas",
+                         "category":  "Seguridad",
+                         "body":  "Las contraseñas se cambian en la página Seguridad. La nueva contraseña se introduce dos veces (máximo 64 caracteres, no vacía). El cambio de la contraseña de administrador exige además la contraseña de administrador actual y cierra después todas las sesiones de administrador. El administrador puede establecer una nueva contraseña de usuario sin la anterior (marcado claramente como acción de administrador); un usuario con sesión cambia su propia contraseña confirmando la actual. Las contraseñas se guardan solo como sal más hash PBKDF2, nunca en texto claro, y no aparecen en exportaciones de configuración ni en registros."
+                     },
+                     {
+                         "id":  "security.recovery",
+                         "title":  "Contraseña de administrador olvidada (recuperación)",
+                         "category":  "Seguridad",
+                         "body":  "No existe contraseña maestra ni desbloqueo oculto. Si se pierde la contraseña de administrador, solo ayuda el botón de servicio del equipo: mantener de 2 a menos de 5 segundos restablece solo los ajustes de red; mantener de 5 a menos de 10 segundos ejecuta el restablecimiento de fábrica completo. Tras el restablecimiento de fábrica vuelven a regir las credenciales predeterminadas (usuario 123456, admin Admin, inicio de sesión de usuario desactivado) y el AP de servicio queda accesible."
+                     },
+                     {
+                         "id":  "security.beta_update",
+                         "title":  "Proceso protegido de actualización beta",
+                         "category":  "Seguridad",
+                         "body":  "Llamar a /update/beta-latest por GET ya no inicia ninguna instalación: tras iniciar sesión como administrador solo muestra una página de comprobación y confirmación con la versión beta disponible. La instalación real se realiza exclusivamente mediante un POST explícito con sesión de administrador válida, token CSRF y confirmación. La vista previa del navegador, los escáneres de enlaces o recargar la página ya no pueden desencadenar una instalación."
+                     },
+                     {
+                         "id":  "security.language_upload",
+                         "title":  "Subir un paquete de idioma sin conexión",
+                         "category":  "Seguridad",
+                         "body":  "En la página del sistema, el administrador puede subir un paquete de idioma (JSON, máximo 256 KB) directamente desde un PC o smartphone, incluso completamente sin Internet, por ejemplo en el AP de servicio. El archivo se valida por completo (UTF-8, sintaxis JSON, conjunto de claves, código de idioma, rango de firmware, tamaño) y solo se activa de forma atómica tras una comprobación correcta; ante cualquier error, el idioma anterior sigue activo. El nombre del archivo no importa, lo decisivo es el idioma de destino seleccionado. El inglés integrado permanece siempre disponible como reserva y no puede borrarse."
+                     }
+]
 }

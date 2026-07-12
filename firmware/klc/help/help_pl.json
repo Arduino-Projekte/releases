@@ -1,11 +1,11 @@
 {
   "schema": 1,
   "kind": "klc_help",
-  "version": "0.3.8",
+  "version": "0.4.0",
   "firmware_min": "0.0.299",
   "language": "pl",
   "title": "Pomoc KLC",
-  "release_note": "Pełna zgodność z niemiecką pomocą 0.3.8: przetłumaczone wszystkie 33 sekcje i 147 pomocy pól.",
+  "release_note": "Nowy dział pomocy Bezpieczeństwo: role użytkownik/administrator, logowanie użytkownika, widoki, hasła domyślne, zmiana hasła, odzyskiwanie, chroniona aktualizacja beta i wgrywanie pakietów językowych offline.",
   "sections": [
     {"id": "start.quickstart", "title": "Szybki start", "category": "Start", "body": "1. Zasilić sterownik i otworzyć WebUI.\n2. Sprawdzić sieć.\n3. Sprawdzić aktualizacje firmware i pomocy.\n4. Skonfigurować wyjścia i liczby pikseli.\n5. Sprawdzić typ LED, liczbę LED i kolejność kolorów testem migania końców.\n6. Ustawić limity mocy.\n7. Przetestować sceny lub sekwencje.\n8. Skonfigurować ETS i powiązać punkty danych KNX/BAOS.\n9. Zapisać kopię zapasową."},
     {"id": "start.first_commissioning", "title": "Pierwsze uruchomienie", "category": "Start", "body": "Przy pierwszym uruchomieniu najpierw przetestować tylko krótki łańcuch LED lub jedno wyjście. Tak można bezpiecznie sprawdzić kierunek danych, połączenie masy, konwerter poziomów, typ LED i kolejność kolorów. Dopiero gdy test przebiega czysto, aktywować kolejne wyjścia i wpisać ostateczne liczby pikseli."},
@@ -226,5 +226,54 @@
                        "short":  "Obiekt 1-bitowy: 1 przełącza na następną scenę z puli, 0 na poprzednią.",
                        "details":  "Istnieje na kanał (punkty danych 105, 205, 305, 405, 505; adresy grupowe od 2/2/26 co 30) i centralnie (punkt 4, adres 2/2/4). Aktualny stan sceny kanału jest wskaźnikiem."
                    }
-               ]
+               ,
+                     {
+                         "id":  "security.roles",
+                         "title":  "Użytkownik i administrator",
+                         "category":  "Bezpieczeństwo",
+                         "body":  "Istnieje dokładnie jedno konto użytkownika i jedno konto administratora. Użytkownik obsługuje oświetlenie: uruchamia i edytuje sceny oraz sekwencje, przełącza widok, zmienia język i wygląd. Administrator może dodatkowo zmieniać wszystkie ustawienia systemowe: sieć i Wi-Fi, aktualizacje oprogramowania, import i eksport konfiguracji, reset fabryczny i sieciowy, konfigurację bazową KNX/BAOS, wgrywanie pakietów językowych oraz same ustawienia bezpieczeństwa. Wszystkie uprawnienia są egzekwowane po stronie serwera; bezpośrednie wywołania URL lub API podlegają tym samym regułom co nawigacja. Logowanie odbywa się na stronie /login z rolą i hasłem."
+                     },
+                     {
+                         "id":  "security.user_login",
+                         "title":  "Włączanie/wyłączanie logowania użytkownika",
+                         "category":  "Bezpieczeństwo",
+                         "body":  "Administrator może włączyć lub wyłączyć logowanie użytkownika na stronie Bezpieczeństwo. Włączone: normalny obszar obsługi wymaga zalogowania jako użytkownik lub administrator. Wyłączone (stan fabryczny): obsługa jest możliwa bez logowania. Obszar administracyjny w obu przypadkach pozostaje chroniony hasłem administratora. Wybór języka interfejsu pozostaje możliwy bez logowania i działa całkowicie offline."
+                     },
+                     {
+                         "id":  "security.views",
+                         "title":  "Widok prosty i rozszerzony",
+                         "category":  "Bezpieczeństwo",
+                         "body":  "Widok prosty pokazuje tylko pulpit i uproszczony edytor sekwencji; widok rozszerzony pokazuje dodatkowo wszystkie parametry eksperckie. Przełączanie widoku to wyłącznie tryb prezentacji, a nie rola bezpieczeństwa: także w widoku rozszerzonym funkcje administracyjne pozostają zablokowane do czasu zalogowania administratora. Użytkownik i administrator mogą w każdej chwili przełączyć widok na stronie systemowej; nie daje to nigdy uprawnień administratora."
+                     },
+                     {
+                         "id":  "security.default_passwords",
+                         "title":  "Hasła domyślne",
+                         "category":  "Bezpieczeństwo",
+                         "body":  "Fabrycznie i po resecie fabrycznym obowiązują: hasło użytkownika 123456, hasło administratora Admin (wielkość liter ma znaczenie). Logowanie użytkownika jest początkowo wyłączone; ochrona administratora jest zawsze aktywna. Dopóki hasła domyślne są aktywne, interfejs pokazuje wyraźne ostrzeżenie bezpieczeństwa. Po uruchomieniu zmień oba hasła na stronie Bezpieczeństwo."
+                     },
+                     {
+                         "id":  "security.password_change",
+                         "title":  "Zmiana haseł",
+                         "category":  "Bezpieczeństwo",
+                         "body":  "Hasła zmienia się na stronie Bezpieczeństwo. Nowe hasło wpisuje się dwa razy (maksymalnie 64 znaki, nie może być puste). Zmiana hasła administratora wymaga dodatkowo aktualnego hasła administratora i wylogowuje potem wszystkie sesje administratora. Administrator może ustawić nowe hasło użytkownika bez znajomości poprzedniego (wyraźnie oznaczone jako działanie administratora); zalogowany użytkownik zmienia własne hasło, potwierdzając aktualne. Hasła są zapisywane wyłącznie jako sól plus skrót PBKDF2, nigdy jawnym tekstem, i nie pojawiają się w eksportach konfiguracji ani w logach."
+                     },
+                     {
+                         "id":  "security.recovery",
+                         "title":  "Zapomniane hasło administratora (odzyskiwanie)",
+                         "category":  "Bezpieczeństwo",
+                         "body":  "Nie ma hasła głównego ani ukrytego odblokowania. W razie utraty hasła administratora pomaga tylko przycisk serwisowy na urządzeniu: przytrzymanie od 2 do niecałych 5 sekund resetuje tylko ustawienia sieciowe; od 5 do niecałych 10 sekund wykonuje pełny reset fabryczny. Po resecie fabrycznym znów obowiązują dane domyślne (użytkownik 123456, admin Admin, logowanie użytkownika wyłączone), a serwisowy punkt dostępowy jest osiągalny."
+                     },
+                     {
+                         "id":  "security.beta_update",
+                         "title":  "Chroniony przebieg aktualizacji beta",
+                         "category":  "Bezpieczeństwo",
+                         "body":  "Wywołanie /update/beta-latest przez GET nie uruchamia już instalacji: po zalogowaniu administratora pokazuje tylko stronę kontroli i potwierdzenia z dostępną wersją beta. Właściwa instalacja odbywa się wyłącznie przez jawny POST z ważną sesją administratora, tokenem CSRF i potwierdzeniem. Podgląd przeglądarki, skanery linków ani przeładowanie strony nie mogą już wywołać instalacji."
+                     },
+                     {
+                         "id":  "security.language_upload",
+                         "title":  "Wgrywanie pakietu językowego offline",
+                         "category":  "Bezpieczeństwo",
+                         "body":  "Na stronie systemowej administrator może wgrać pakiet językowy (JSON, maksymalnie 256 KB) bezpośrednio z komputera lub smartfona - także całkowicie bez internetu, na przykład w serwisowym punkcie dostępowym. Plik jest w pełni sprawdzany (UTF-8, składnia JSON, zestaw kluczy, kod języka, zakres oprogramowania, rozmiar) i aktywowany atomowo dopiero po pomyślnej weryfikacji; przy każdym błędzie poprzedni język pozostaje aktywny. Nazwa pliku nie ma znaczenia, decyduje wybrany język docelowy. Wbudowany angielski pozostaje zawsze dostępny jako zapas i nie może zostać usunięty."
+                     }
+]
 }

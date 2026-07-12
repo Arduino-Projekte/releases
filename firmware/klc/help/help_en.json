@@ -1,11 +1,11 @@
 {
   "schema": 1,
   "kind": "klc_help",
-"version": "0.3.8",
+"version": "0.4.0",
   "firmware_min": "0.0.299",
   "language": "en",
   "title": "KLC Help",
-  "release_note": "Full parity with the German help 0.3.8: all 33 sections and 147 field helps translated.",
+  "release_note": "New Security help area: user/admin roles, user login, views, default passwords, password change, recovery, protected beta update flow and offline language package upload.",
   "sections": [
     {"id": "start.quickstart", "title": "Quick start", "category": "Start", "body": "1. Power the controller and open the WebUI.\n2. Check the network.\n3. Check for firmware and help updates.\n4. Set up outputs and pixel counts.\n5. Verify LED type, LED count and color order with the edge blink test.\n6. Set power limits.\n7. Test scenes or sequences.\n8. Set up ETS and link KNX/BAOS datapoints.\n9. Save a backup."},
     {"id": "start.first_commissioning", "title": "First commissioning", "category": "Start", "body": "For first commissioning, start by testing only a short LED string or a single output. This lets you safely verify data direction, ground connection, level shifter, LED type and color order. Only when this test runs cleanly, enable further outputs and enter the final pixel counts."},
@@ -226,5 +226,54 @@
                        "short":  "1-bit object: telegram 1 switches to the next, 0 to the previous scene from the scene pool.",
                        "details":  "Exists per channel (default datapoints 105, 205, 305, 405, 505; group addresses from 2/2/26 in steps of 30) and centrally for all channels (datapoint 4, group address 2/2/4). The channel's current scene state is the pointer; there is no separate counter. The Scene pool checkbox in the sequence editor decides which sequences are in the pool."
                    }
-               ]
+               ,
+                     {
+                         "id":  "security.roles",
+                         "title":  "User and administrator",
+                         "category":  "Security",
+                         "body":  "There is exactly one user account and one administrator account. The user operates the lighting: starting and editing scenes and sequences, switching the view, changing language and appearance. The administrator may additionally change all system settings: network and Wi-Fi, firmware updates, configuration import and export, factory and network reset, KNX/BAOS base configuration, language package upload and the security settings themselves. All permissions are enforced on the server; direct URL or API calls follow the same rules as the navigation. Sign in on the /login page with role and password."
+                     },
+                     {
+                         "id":  "security.user_login",
+                         "title":  "Enabling/disabling user login",
+                         "category":  "Security",
+                         "body":  "The administrator can enable or disable user login on the Security page. Enabled: the normal operating area requires a user or admin login. Disabled (factory state): operation is possible without signing in. The admin area always stays protected by the admin password in both cases. The interface language selection remains available without signing in and works completely offline."
+                     },
+                     {
+                         "id":  "security.views",
+                         "title":  "Simple and advanced view",
+                         "category":  "Security",
+                         "body":  "The simple view shows only the dashboard and the simplified sequence editor; the advanced view additionally shows all expert parameters. Switching views is purely a display mode and not a security role: even in the advanced view, admin functions stay locked until an admin login. User and administrator can switch the view at any time on the system page; this never grants admin rights."
+                     },
+                     {
+                         "id":  "security.default_passwords",
+                         "title":  "Default passwords",
+                         "category":  "Security",
+                         "body":  "From the factory and after a factory reset the following apply: user password 123456, admin password Admin (case-sensitive). User login is initially disabled; admin protection is always active. As long as default passwords are active, the interface shows a clear security warning. Please change both passwords on the Security page after commissioning."
+                     },
+                     {
+                         "id":  "security.password_change",
+                         "title":  "Changing passwords",
+                         "category":  "Security",
+                         "body":  "Passwords are changed on the Security page. The new password is entered twice (maximum 64 characters, not empty). Changing the admin password additionally requires the current admin password and signs out all admin sessions afterwards. The administrator can set a new user password without the previous one (clearly marked as an admin action); a signed-in user changes their own password by confirming the current one. Passwords are stored only as salt plus PBKDF2 hash, never in plain text, and never appear in configuration exports or logs."
+                     },
+                     {
+                         "id":  "security.recovery",
+                         "title":  "Forgotten admin password (recovery)",
+                         "category":  "Security",
+                         "body":  "There is no master password and no hidden unlock path. If the admin password is lost, only the service button on the device helps: holding it for 2 to just under 5 seconds resets only the network settings; holding it for 5 to just under 10 seconds performs a full factory reset. After the factory reset the default credentials apply again (user 123456, admin Admin, user login disabled) and the service AP is reachable."
+                     },
+                     {
+                         "id":  "security.beta_update",
+                         "title":  "Protected beta update flow",
+                         "category":  "Security",
+                         "body":  "Calling /update/beta-latest via GET no longer starts an installation: after an admin login it only shows a check and confirmation page with the available beta version. The actual installation happens exclusively via an explicit POST with a valid admin session, CSRF token and confirmation. Browser preview, link scanners or reloading the page can no longer trigger an installation."
+                     },
+                     {
+                         "id":  "security.language_upload",
+                         "title":  "Uploading a language package offline",
+                         "category":  "Security",
+                         "body":  "On the system page the administrator can upload a language package (JSON, maximum 256 KB) directly from a PC or smartphone - even completely without internet, for example in the service AP. The file is fully validated (UTF-8, JSON syntax, key set, language code, firmware range, size) and only activated atomically after a successful check; on any error the previous language stays active. The file name does not matter, the selected target language is decisive. The built-in English always remains available as fallback and cannot be deleted."
+                     }
+]
 }

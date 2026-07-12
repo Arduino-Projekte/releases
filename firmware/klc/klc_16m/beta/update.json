@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m_0.0.367.bin",
+                     "url":  "knx-led-controller-16m_0.0.368.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.367",
-                     "bin":  "knx-led-controller-16m_0.0.367.bin",
-                     "file":  "knx-led-controller-16m_0.0.367.bin",
-                     "sha256":  "0f9d956f9f7c40102270754afd2f45be6460addbf94bf548f5512f68f7b42f56",
-                     "message":  "Verkettete Ausgaenge bei ungueltigen Importen und Laufzeitfehlern sicher gesperrt.",
+                     "version":  "0.0.368",
+                     "bin":  "knx-led-controller-16m_0.0.368.bin",
+                     "file":  "knx-led-controller-16m_0.0.368.bin",
+                     "sha256":  "9923ac513a0c0f54cfdc1a3c04fcab34377fc0bb4390b9c13264ada268e00c71",
+                     "message":  "Neues Benutzer-/Adminsystem: abschaltbares Benutzer-Login, getrennte Rollen, aenderbare Passwoerter (PBKDF2), sichere RAM-Sitzungen mit CSRF-Schutz, serverseitig geschuetzte kritische Endpunkte, abgesicherter Beta-Update-Ablauf, komplett offline nutzbare Login-/Sicherheitsseiten und admin-geschuetzter lokaler Sprachpaket-Upload.",
                      "http_code":  200
                  }
 }

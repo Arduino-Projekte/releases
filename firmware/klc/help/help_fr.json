@@ -1,11 +1,11 @@
 {
   "schema": 1,
   "kind": "klc_help",
-  "version": "0.3.8",
+  "version": "0.4.0",
   "firmware_min": "0.0.299",
   "language": "fr",
   "title": "Aide KLC",
-  "release_note": "Parité complète avec l'aide allemande 0.3.8 : les 33 sections et 147 aides de champ sont traduites.",
+  "release_note": "Nouvelle rubrique Sécurité : rôles utilisateur/admin, connexion utilisateur, affichages, mots de passe par défaut, changement de mot de passe, récupération, mise à jour bêta protégée et téléversement hors ligne des packs de langue.",
   "sections": [
     {"id": "start.quickstart", "title": "Démarrage rapide", "category": "Démarrage", "body": "1. Alimenter le contrôleur et ouvrir la WebUI.\n2. Vérifier le réseau.\n3. Vérifier les mises à jour du firmware et de l'aide.\n4. Configurer les sorties et le nombre de pixels.\n5. Vérifier le type de LED, le nombre de LED et l'ordre des couleurs avec le test de clignotement des extrémités.\n6. Définir les limites de puissance.\n7. Tester les scènes ou les séquences.\n8. Configurer ETS et lier les points de données KNX/BAOS.\n9. Enregistrer une sauvegarde."},
     {"id": "start.first_commissioning", "title": "Première mise en service", "category": "Démarrage", "body": "Lors de la première mise en service, tester d'abord uniquement un ruban LED court ou une seule sortie. Cela permet de vérifier sans risque le sens des données, la liaison de masse, le convertisseur de niveau, le type de LED et l'ordre des couleurs. Ce n'est que lorsque ce test fonctionne proprement qu'il faut activer d'autres sorties et saisir les nombres de pixels définitifs."},
@@ -226,5 +226,54 @@
                        "short":  "Objet 1 bit : 1 passe à la scène suivante, 0 à la précédente du pool.",
                        "details":  "Existe par canal (points de données 105, 205, 305, 405, 505 ; adresses de groupe à partir de 2/2/26 par pas de 30) et en central (point 4, adresse 2/2/4). L'état de scène actuel du canal sert de pointeur."
                    }
-               ]
+               ,
+                     {
+                         "id":  "security.roles",
+                         "title":  "Utilisateur et administrateur",
+                         "category":  "Sécurité",
+                         "body":  "Il existe exactement un compte utilisateur et un compte administrateur. L'utilisateur commande l'éclairage : démarrer et modifier scènes et séquences, changer d'affichage, changer la langue et l'apparence. L'administrateur peut en plus modifier tous les réglages système : réseau et Wi-Fi, mises à jour du micrologiciel, import et export de configuration, réinitialisation d'usine et du réseau, configuration de base KNX/BAOS, téléversement de packs de langue et les réglages de sécurité eux-mêmes. Toutes les autorisations sont appliquées côté serveur ; les appels directs par URL ou API suivent les mêmes règles que la navigation. La connexion se fait sur la page /login avec rôle et mot de passe."
+                     },
+                     {
+                         "id":  "security.user_login",
+                         "title":  "Activer/désactiver la connexion utilisateur",
+                         "category":  "Sécurité",
+                         "body":  "L'administrateur peut activer ou désactiver la connexion utilisateur sur la page Sécurité. Activée : la zone d'utilisation normale exige une connexion utilisateur ou administrateur. Désactivée (état d'usine) : l'utilisation est possible sans connexion. La zone d'administration reste dans les deux cas protégée par le mot de passe administrateur. Le choix de la langue reste possible sans connexion et fonctionne entièrement hors ligne."
+                     },
+                     {
+                         "id":  "security.views",
+                         "title":  "Affichage simple et avancé",
+                         "category":  "Sécurité",
+                         "body":  "L'affichage simple ne montre que le tableau de bord et l'éditeur de séquences simplifié ; l'affichage avancé montre en plus tous les paramètres experts. Le changement d'affichage est un simple mode de présentation et non un rôle de sécurité : même en affichage avancé, les fonctions d'administration restent verrouillées jusqu'à une connexion administrateur. Utilisateur et administrateur peuvent changer d'affichage à tout moment sur la page système ; cela ne donne jamais de droits d'administration."
+                     },
+                     {
+                         "id":  "security.default_passwords",
+                         "title":  "Mots de passe par défaut",
+                         "category":  "Sécurité",
+                         "body":  "En sortie d'usine et après une réinitialisation d'usine : mot de passe utilisateur 123456, mot de passe administrateur Admin (respecter la casse). La connexion utilisateur est d'abord désactivée ; la protection administrateur est toujours active. Tant que les mots de passe par défaut sont actifs, l'interface affiche un avertissement de sécurité bien visible. Merci de changer les deux mots de passe après la mise en service sur la page Sécurité."
+                     },
+                     {
+                         "id":  "security.password_change",
+                         "title":  "Changer les mots de passe",
+                         "category":  "Sécurité",
+                         "body":  "Les mots de passe se changent sur la page Sécurité. Le nouveau mot de passe est saisi deux fois (maximum 64 caractères, non vide). Le changement du mot de passe administrateur exige en plus le mot de passe administrateur actuel et déconnecte ensuite toutes les sessions admin. L'administrateur peut définir un nouveau mot de passe utilisateur sans l'ancien (clairement signalé comme action admin) ; un utilisateur connecté change son propre mot de passe en confirmant l'actuel. Les mots de passe ne sont stockés que sous forme de sel plus hachage PBKDF2, jamais en clair, et n'apparaissent ni dans les exports de configuration ni dans les journaux."
+                     },
+                     {
+                         "id":  "security.recovery",
+                         "title":  "Mot de passe administrateur oublié (récupération)",
+                         "category":  "Sécurité",
+                         "body":  "Il n'existe ni mot de passe maître ni déverrouillage caché. En cas de perte du mot de passe administrateur, seul le bouton service de l'appareil aide : maintenir 2 à moins de 5 secondes ne réinitialise que les réglages réseau ; maintenir 5 à moins de 10 secondes effectue une réinitialisation d'usine complète. Après la réinitialisation d'usine, les identifiants par défaut s'appliquent à nouveau (utilisateur 123456, admin Admin, connexion utilisateur désactivée) et le point d'accès de service est joignable."
+                     },
+                     {
+                         "id":  "security.beta_update",
+                         "title":  "Processus de mise à jour bêta protégé",
+                         "category":  "Sécurité",
+                         "body":  "L'appel de /update/beta-latest en GET ne lance plus d'installation : après connexion administrateur, il n'affiche qu'une page de vérification et de confirmation avec la version bêta disponible. L'installation réelle se fait exclusivement par un POST explicite avec session admin valide, jeton CSRF et confirmation. Aperçu du navigateur, scanners de liens ou rechargement de la page ne peuvent plus déclencher d'installation."
+                     },
+                     {
+                         "id":  "security.language_upload",
+                         "title":  "Téléverser un pack de langue hors ligne",
+                         "category":  "Sécurité",
+                         "body":  "Sur la page système, l'administrateur peut téléverser un pack de langue (JSON, maximum 256 Ko) directement depuis un PC ou un smartphone - même complètement sans Internet, par exemple via le point d'accès de service. Le fichier est entièrement validé (UTF-8, syntaxe JSON, jeu de clés, code de langue, plage de micrologiciel, taille) et activé de manière atomique seulement après une vérification réussie ; en cas d'erreur, la langue précédente reste active. Le nom du fichier n'a pas d'importance, la langue cible sélectionnée est déterminante. L'anglais intégré reste toujours disponible comme repli et ne peut pas être supprimé."
+                     }
+]
 }
