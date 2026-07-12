@@ -6,7 +6,7 @@
                      "version":  "0.0.368",
                      "bin":  "knx-led-controller-16m-w_0.0.368.bin",
                      "file":  "knx-led-controller-16m-w_0.0.368.bin",
-                     "sha256":  "5ea152cf8db57c977b9e088b5f6b2e9222bc28404b5bfcb2cf69f434f6afbd02",
+                     "sha256":  "431be40ce0a55d6158705d13bbfcfb06c033055560b0fe0b36acd4578177d7e0",
                      "message":  "Neues Benutzer-/Adminsystem: abschaltbares Benutzer-Login, getrennte Rollen, aenderbare Passwoerter (PBKDF2), sichere RAM-Sitzungen mit CSRF-Schutz, serverseitig geschuetzte kritische Endpunkte, abgesicherter Beta-Update-Ablauf, komplett offline nutzbare Login-/Sicherheitsseiten und admin-geschuetzter lokaler Sprachpaket-Upload.",
                      "http_code":  200
                  }
