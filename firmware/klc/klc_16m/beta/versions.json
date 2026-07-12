@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.374",
+                      "bin":  "knx-led-controller-16m_0.0.374.bin",
+                      "date":  "2026-07-12",
+                      "note":  "Wizard-Navigation, WLAN-Direktweg und verifizierten Abschluss korrigiert."
+                  },
+                  {
                       "version":  "0.0.373",
                       "bin":  "knx-led-controller-16m_0.0.373.bin",
                       "date":  "2026-07-12",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m_0.0.370.bin",
                       "date":  "2026-07-12",
                       "note":  "Offline mehrsprachigen Einrichtungsassistenten mit lokalem Sprachpaket-Upload ergaenzt."
-                  },
-                  {
-                      "version":  "0.0.369",
-                      "bin":  "knx-led-controller-16m_0.0.369.bin",
-                      "date":  "2026-07-12",
-                      "note":  "Benutzer-/Adminsystem: Benutzer-Login-Schalter jetzt auch fuer angemeldete Benutzer, Umleitungsschleife beim Adminwechsel von der Benutzerrolle behoben, Sprachpaket-Pruefkonstante korrigiert (Pakete 2.1.0 werden wieder angenommen)."
                   }
               ]
 }

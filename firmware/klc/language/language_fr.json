@@ -5,7 +5,7 @@
   "minimum_firmware_version": "0.0.370",
   "maximum_firmware_version": "0.0.999",
   "compatibility_version": 1,
-  "package_version": "2.3.1",
+  "package_version": "2.3.2",
   "translations": {
     "Steuerung": "Commande",
     "Abläufe": "Séquences",
@@ -1832,6 +1832,12 @@
     "Eingebettetes Englisch wiederherstellen": "Restaurer l’anglais intégré",
     "Damit kann auch ein hochgeladenes englisches Paket zurückgesetzt werden; der Firmware-Fallback selbst bleibt unveränderlich erhalten.": "Cela permet également de réinitialiser un paquet anglais importé ; la langue de secours du firmware reste inchangée.",
     "Der Assistent zeigt die vorhandenen Grundeinstellungen, hält Änderungen bis zum Abschluss nur im Browser und speichert erst nach der Zusammenfassung atomar. Passwörter werden nie angezeigt; leere Felder behalten den gespeicherten Wert.": "L’assistant affiche les réglages de base existants, conserve les modifications uniquement dans le navigateur jusqu’à la fin et ne les enregistre de manière atomique qu’après le récapitulatif. Les mots de passe ne sont jamais affichés ; les champs vides conservent la valeur enregistrée.",
-    "Einrichtungsassistent erneut aufrufen": "Ouvrir à nouveau l’assistant de configuration"
+    "Einrichtungsassistent erneut aufrufen": "Ouvrir à nouveau l’assistant de configuration",
+    "Skip this question": "Ignorer cette question",
+    "Abort setup wizard": "Quitter l’assistant de configuration",
+    "Confirm each active default password or enter a new password.": "Confirmez chaque mot de passe par défaut actif ou saisissez-en un nouveau.",
+    "The controller did not confirm the save. Check the form and retry.": "Le contrôleur n’a pas confirmé l’enregistrement. Vérifiez le formulaire et réessayez.",
+    "The connection changed while checking the save result. Wait for the restart, then open KLC again.": "La connexion a changé pendant la vérification. Attendez le redémarrage, puis ouvrez de nouveau KLC.",
+    "Configuration saved and verified. Restarting…": "Configuration enregistrée et vérifiée. Redémarrage…"
   }
 }

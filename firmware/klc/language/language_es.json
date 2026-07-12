@@ -5,7 +5,7 @@
   "minimum_firmware_version": "0.0.370",
   "maximum_firmware_version": "0.0.999",
   "compatibility_version": 1,
-  "package_version": "2.3.1",
+  "package_version": "2.3.2",
   "translations": {
     "Steuerung": "Control",
     "Abläufe": "Secuencias",
@@ -1832,6 +1832,12 @@
     "Eingebettetes Englisch wiederherstellen": "Restaurar el inglés integrado",
     "Damit kann auch ein hochgeladenes englisches Paket zurückgesetzt werden; der Firmware-Fallback selbst bleibt unveränderlich erhalten.": "Esto también permite restablecer un paquete en inglés cargado; el idioma de respaldo del firmware permanece sin cambios.",
     "Der Assistent zeigt die vorhandenen Grundeinstellungen, hält Änderungen bis zum Abschluss nur im Browser und speichert erst nach der Zusammenfassung atomar. Passwörter werden nie angezeigt; leere Felder behalten den gespeicherten Wert.": "El asistente muestra los ajustes básicos existentes, mantiene los cambios solo en el navegador hasta finalizar y los guarda de forma atómica únicamente después del resumen. Las contraseñas nunca se muestran; los campos vacíos conservan el valor guardado.",
-    "Einrichtungsassistent erneut aufrufen": "Abrir de nuevo el asistente de configuración"
+    "Einrichtungsassistent erneut aufrufen": "Abrir de nuevo el asistente de configuración",
+    "Skip this question": "Omitir esta pregunta",
+    "Abort setup wizard": "Cancelar el asistente de configuración",
+    "Confirm each active default password or enter a new password.": "Confirme cada contraseña predeterminada activa o introduzca una nueva.",
+    "The controller did not confirm the save. Check the form and retry.": "El controlador no confirmó el guardado. Revise el formulario e inténtelo de nuevo.",
+    "The connection changed while checking the save result. Wait for the restart, then open KLC again.": "La conexión cambió mientras se comprobaba el resultado. Espere al reinicio y vuelva a abrir KLC.",
+    "Configuration saved and verified. Restarting…": "Configuración guardada y verificada. Reiniciando…"
   }
 }

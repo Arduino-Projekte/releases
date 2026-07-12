@@ -5,7 +5,7 @@
   "minimum_firmware_version": "0.0.370",
   "maximum_firmware_version": "0.0.999",
   "compatibility_version": 1,
-  "package_version": "2.3.1",
+  "package_version": "2.3.2",
   "translations": {
     "Steuerung": "Control",
     "Abläufe": "Sequences",
@@ -1832,6 +1832,12 @@
     "Eingebettetes Englisch wiederherstellen": "Restore embedded English",
     "Damit kann auch ein hochgeladenes englisches Paket zurückgesetzt werden; der Firmware-Fallback selbst bleibt unveränderlich erhalten.": "This also resets an uploaded English package; the firmware fallback itself remains unchanged.",
     "Der Assistent zeigt die vorhandenen Grundeinstellungen, hält Änderungen bis zum Abschluss nur im Browser und speichert erst nach der Zusammenfassung atomar. Passwörter werden nie angezeigt; leere Felder behalten den gespeicherten Wert.": "The wizard shows the existing basic settings, keeps changes only in the browser until completion, and saves them atomically only after the summary. Passwords are never displayed; empty fields retain the stored value.",
-    "Einrichtungsassistent erneut aufrufen": "Open setup wizard again"
+    "Einrichtungsassistent erneut aufrufen": "Open setup wizard again",
+    "Skip this question": "Skip this question",
+    "Abort setup wizard": "Abort setup wizard",
+    "Confirm each active default password or enter a new password.": "Confirm each active default password or enter a new password.",
+    "The controller did not confirm the save. Check the form and retry.": "The controller did not confirm the save. Check the form and retry.",
+    "The connection changed while checking the save result. Wait for the restart, then open KLC again.": "The connection changed while checking the save result. Wait for the restart, then open KLC again.",
+    "Configuration saved and verified. Restarting…": "Configuration saved and verified. Restarting…"
   }
 }

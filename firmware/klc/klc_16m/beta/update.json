@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m_0.0.373.bin",
+                     "url":  "knx-led-controller-16m_0.0.374.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.373",
-                     "bin":  "knx-led-controller-16m_0.0.373.bin",
-                     "file":  "knx-led-controller-16m_0.0.373.bin",
-                     "sha256":  "db5ccbf8cd7500388edb7989e0a5bcbd6859ef82bca3f209b1606c166c33c674",
-                     "message":  "Auth-/IPv4-Import fail-closed; Ketten, Hilfe-Download und UI-Speicherung abgesichert.",
+                     "version":  "0.0.374",
+                     "bin":  "knx-led-controller-16m_0.0.374.bin",
+                     "file":  "knx-led-controller-16m_0.0.374.bin",
+                     "sha256":  "34811b2e27b880ff40f09f493c0571762530ba1aa2b9ccbfc21951f24b15e834",
+                     "message":  "Wizard-Navigation, WLAN-Direktweg und verifizierten Abschluss korrigiert.",
                      "http_code":  200
                  }
 }

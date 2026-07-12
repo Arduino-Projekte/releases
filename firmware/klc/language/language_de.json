@@ -5,7 +5,7 @@
   "minimum_firmware_version": "0.0.370",
   "maximum_firmware_version": "0.0.999",
   "compatibility_version": 1,
-  "package_version": "2.3.1",
+  "package_version": "2.3.2",
   "translations": {
     "Steuerung": "Steuerung",
     "Abläufe": "Abläufe",
@@ -1832,6 +1832,12 @@
     "Eingebettetes Englisch wiederherstellen": "Eingebettetes Englisch wiederherstellen",
     "Damit kann auch ein hochgeladenes englisches Paket zurückgesetzt werden; der Firmware-Fallback selbst bleibt unveränderlich erhalten.": "Damit kann auch ein hochgeladenes englisches Paket zurückgesetzt werden; der Firmware-Fallback selbst bleibt unveränderlich erhalten.",
     "Der Assistent zeigt die vorhandenen Grundeinstellungen, hält Änderungen bis zum Abschluss nur im Browser und speichert erst nach der Zusammenfassung atomar. Passwörter werden nie angezeigt; leere Felder behalten den gespeicherten Wert.": "Der Assistent zeigt die vorhandenen Grundeinstellungen, hält Änderungen bis zum Abschluss nur im Browser und speichert erst nach der Zusammenfassung atomar. Passwörter werden nie angezeigt; leere Felder behalten den gespeicherten Wert.",
-    "Einrichtungsassistent erneut aufrufen": "Einrichtungsassistent erneut aufrufen"
+    "Einrichtungsassistent erneut aufrufen": "Einrichtungsassistent erneut aufrufen",
+    "Skip this question": "Diese Frage überspringen",
+    "Abort setup wizard": "Einrichtungsassistent abbrechen",
+    "Confirm each active default password or enter a new password.": "Bestätige jedes aktive Standardpasswort oder gib ein neues Passwort ein.",
+    "The controller did not confirm the save. Check the form and retry.": "Der Controller hat das Speichern nicht bestätigt. Prüfe das Formular und versuche es erneut.",
+    "The connection changed while checking the save result. Wait for the restart, then open KLC again.": "Die Verbindung hat sich während der Prüfung geändert. Warte den Neustart ab und öffne KLC danach erneut.",
+    "Configuration saved and verified. Restarting…": "Konfiguration gespeichert und geprüft. Neustart läuft …"
   }
 }

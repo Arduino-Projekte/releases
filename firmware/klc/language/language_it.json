@@ -5,7 +5,7 @@
   "minimum_firmware_version": "0.0.370",
   "maximum_firmware_version": "0.0.999",
   "compatibility_version": 1,
-  "package_version": "2.3.1",
+  "package_version": "2.3.2",
   "translations": {
     "Steuerung": "Controllo",
     "Abläufe": "Sequenze",
@@ -1832,6 +1832,12 @@
     "Eingebettetes Englisch wiederherstellen": "Ripristina l’inglese integrato",
     "Damit kann auch ein hochgeladenes englisches Paket zurückgesetzt werden; der Firmware-Fallback selbst bleibt unveränderlich erhalten.": "In questo modo è possibile ripristinare anche un pacchetto inglese caricato; la lingua di fallback del firmware rimane invariata.",
     "Der Assistent zeigt die vorhandenen Grundeinstellungen, hält Änderungen bis zum Abschluss nur im Browser und speichert erst nach der Zusammenfassung atomar. Passwörter werden nie angezeigt; leere Felder behalten den gespeicherten Wert.": "La procedura guidata mostra le impostazioni di base esistenti, mantiene le modifiche solo nel browser fino al completamento e le salva in modo atomico soltanto dopo il riepilogo. Le password non vengono mai visualizzate; i campi vuoti mantengono il valore salvato.",
-    "Einrichtungsassistent erneut aufrufen": "Riapri la procedura guidata di configurazione"
+    "Einrichtungsassistent erneut aufrufen": "Riapri la procedura guidata di configurazione",
+    "Skip this question": "Salta questa domanda",
+    "Abort setup wizard": "Interrompi la procedura guidata",
+    "Confirm each active default password or enter a new password.": "Conferma ogni password predefinita attiva oppure inseriscine una nuova.",
+    "The controller did not confirm the save. Check the form and retry.": "Il controller non ha confermato il salvataggio. Controlla il modulo e riprova.",
+    "The connection changed while checking the save result. Wait for the restart, then open KLC again.": "La connessione è cambiata durante la verifica. Attendi il riavvio, quindi riapri KLC.",
+    "Configuration saved and verified. Restarting…": "Configurazione salvata e verificata. Riavvio…"
   }
 }

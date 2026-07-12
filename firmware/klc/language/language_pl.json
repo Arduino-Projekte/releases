@@ -5,7 +5,7 @@
   "minimum_firmware_version": "0.0.370",
   "maximum_firmware_version": "0.0.999",
   "compatibility_version": 1,
-  "package_version": "2.3.1",
+  "package_version": "2.3.2",
   "translations": {
     "Steuerung": "Sterowanie",
     "Abläufe": "Sekwencje",
@@ -1832,6 +1832,12 @@
     "Eingebettetes Englisch wiederherstellen": "Przywróć wbudowany język angielski",
     "Damit kann auch ein hochgeladenes englisches Paket zurückgesetzt werden; der Firmware-Fallback selbst bleibt unveränderlich erhalten.": "Pozwala to również zresetować wgrany pakiet angielski; awaryjny język oprogramowania układowego pozostaje bez zmian.",
     "Der Assistent zeigt die vorhandenen Grundeinstellungen, hält Änderungen bis zum Abschluss nur im Browser und speichert erst nach der Zusammenfassung atomar. Passwörter werden nie angezeigt; leere Felder behalten den gespeicherten Wert.": "Kreator wyświetla istniejące ustawienia podstawowe, przechowuje zmiany tylko w przeglądarce do czasu zakończenia i zapisuje je atomowo dopiero po podsumowaniu. Hasła nigdy nie są wyświetlane; puste pola zachowują zapisaną wartość.",
-    "Einrichtungsassistent erneut aufrufen": "Otwórz ponownie kreator konfiguracji"
+    "Einrichtungsassistent erneut aufrufen": "Otwórz ponownie kreator konfiguracji",
+    "Skip this question": "Pomiń to pytanie",
+    "Abort setup wizard": "Przerwij kreator konfiguracji",
+    "Confirm each active default password or enter a new password.": "Potwierdź każde aktywne hasło domyślne albo wprowadź nowe hasło.",
+    "The controller did not confirm the save. Check the form and retry.": "Kontroler nie potwierdził zapisu. Sprawdź formularz i spróbuj ponownie.",
+    "The connection changed while checking the save result. Wait for the restart, then open KLC again.": "Połączenie zmieniło się podczas sprawdzania. Poczekaj na ponowne uruchomienie, a następnie otwórz KLC ponownie.",
+    "Configuration saved and verified. Restarting…": "Konfiguracja zapisana i zweryfikowana. Ponowne uruchamianie…"
   }
 }
