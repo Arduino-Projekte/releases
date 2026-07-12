@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m-w_0.0.369.bin",
+                     "url":  "knx-led-controller-16m-w_0.0.370.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.369",
-                     "bin":  "knx-led-controller-16m-w_0.0.369.bin",
-                     "file":  "knx-led-controller-16m-w_0.0.369.bin",
-                     "sha256":  "b07ed7aacba54a35b620e0a65ec14d6412ab3827efbc2854df3ac377c4c4dba4",
-                     "message":  "Benutzer-/Adminsystem: Benutzer-Login-Schalter jetzt auch fuer angemeldete Benutzer, Umleitungsschleife beim Adminwechsel von der Benutzerrolle behoben, Sprachpaket-Pruefkonstante korrigiert (Pakete 2.1.0 werden wieder angenommen).",
+                     "version":  "0.0.370",
+                     "bin":  "knx-led-controller-16m-w_0.0.370.bin",
+                     "file":  "knx-led-controller-16m-w_0.0.370.bin",
+                     "sha256":  "df2e5255cc7364ba1d66c840b1d2debcfd4ca987e9bb63a75c5d2a746572c80e",
+                     "message":  "Offline mehrsprachigen Einrichtungsassistenten mit lokalem Sprachpaket-Upload ergaenzt.",
                      "http_code":  200
                  }
 }
