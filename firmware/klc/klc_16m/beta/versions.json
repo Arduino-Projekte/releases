@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.373",
+                      "bin":  "knx-led-controller-16m_0.0.373.bin",
+                      "date":  "2026-07-12",
+                      "note":  "Auth-/IPv4-Import fail-closed; Ketten, Hilfe-Download und UI-Speicherung abgesichert."
+                  },
+                  {
                       "version":  "0.0.372",
                       "bin":  "knx-led-controller-16m_0.0.372.bin",
                       "date":  "2026-07-12",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m_0.0.369.bin",
                       "date":  "2026-07-12",
                       "note":  "Benutzer-/Adminsystem: Benutzer-Login-Schalter jetzt auch fuer angemeldete Benutzer, Umleitungsschleife beim Adminwechsel von der Benutzerrolle behoben, Sprachpaket-Pruefkonstante korrigiert (Pakete 2.1.0 werden wieder angenommen)."
-                  },
-                  {
-                      "version":  "0.0.368",
-                      "bin":  "knx-led-controller-16m_0.0.368.bin",
-                      "date":  "2026-07-12",
-                      "note":  "Neues Benutzer-/Adminsystem: abschaltbares Benutzer-Login, getrennte Rollen, aenderbare Passwoerter (PBKDF2), sichere RAM-Sitzungen mit CSRF-Schutz, serverseitig geschuetzte kritische Endpunkte, abgesicherter Beta-Update-Ablauf, komplett offline nutzbare Login-/Sicherheitsseiten und admin-geschuetzter lokaler Sprachpaket-Upload."
                   }
               ]
 }

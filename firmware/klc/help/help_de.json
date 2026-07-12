@@ -179,7 +179,7 @@
                          "id":  "update.help",
                          "title":  "Hilfe aktualisieren",
                          "category":  "Hilfe",
-                         "body":  "Die Hilfe ist getrennt von der Firmware aktualisierbar. Die eingebaute Hilfe ist immer vorhanden. Wenn Internetzugang besteht, kann die WebUI die aktuelle Sprachdatei aus releases/firmware/klc/help laden und lokal in LittleFS speichern."
+                         "body":  "Die Hilfe ist getrennt von der Firmware aktualisierbar. Die eingebaute Hilfe ist immer vorhanden. Wenn Internetzugang besteht, kann ein angemeldeter Administrator die aktuelle Sprachdatei aus releases/firmware/klc/help laden und dauerhaft in LittleFS speichern. Normale Benutzer können die Hilfe weiterhin lesen und durchsuchen."
                      },
                      {
                          "id":  "diagnostics.system",
@@ -646,7 +646,7 @@
                        "page":  "Hilfe",
                        "label":  "Hilfe aktualisieren",
                        "short":  "Lädt die aktuelle Hilfe-Datei für die aktive Sprache.",
-                       "details":  "Der Controller speichert die Datei lokal in LittleFS. Ohne Internet bleibt die eingebaute Hilfe verfügbar."
+                       "details":  "Dieser dauerhafte LittleFS-Schreibvorgang verlangt eine Adminanmeldung und CSRF-Schutz. Ohne Internet bleibt die eingebaute Hilfe verfügbar."
                    },
                    {
                        "id":  "config.backup_download",
