@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.372",
+                      "bin":  "knx-led-controller-16m-w_0.0.372.bin",
+                      "date":  "2026-07-12",
+                      "note":  "Wizard-Abschluss stabilisiert und Sprachtexte vervollstaendigt."
+                  },
+                  {
                       "version":  "0.0.371",
                       "bin":  "knx-led-controller-16m-w_0.0.371.bin",
                       "date":  "2026-07-12",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m-w_0.0.368.bin",
                       "date":  "2026-07-12",
                       "note":  "Neues Benutzer-/Adminsystem: abschaltbares Benutzer-Login, getrennte Rollen, aenderbare Passwoerter (PBKDF2), sichere RAM-Sitzungen mit CSRF-Schutz, serverseitig geschuetzte kritische Endpunkte, abgesicherter Beta-Update-Ablauf, komplett offline nutzbare Login-/Sicherheitsseiten und admin-geschuetzter lokaler Sprachpaket-Upload."
-                  },
-                  {
-                      "version":  "0.0.367",
-                      "bin":  "knx-led-controller-16m-w_0.0.367.bin",
-                      "date":  "2026-07-12",
-                      "note":  "Verkettete Ausgaenge bei ungueltigen Importen und Laufzeitfehlern sicher gesperrt."
                   }
               ]
 }

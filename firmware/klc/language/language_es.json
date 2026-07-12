@@ -5,7 +5,7 @@
   "minimum_firmware_version": "0.0.370",
   "maximum_firmware_version": "0.0.999",
   "compatibility_version": 1,
-  "package_version": "2.3.0",
+  "package_version": "2.3.1",
   "translations": {
     "Steuerung": "Control",
     "Abläufe": "Secuencias",
@@ -1827,6 +1827,11 @@
     "Local language upload": "Cargar paquete de idioma local",
     "Administrator login": "Inicio de administrador",
     "LED chipset": "Chip LED",
-    "Pixels": "P?xeles"
+    "Pixels": "Píxeles",
+    "Aktives lokales Sprachpaket durch das eingebettete Englisch ersetzen?": "¿Sustituir el paquete de idioma local activo por el inglés integrado?",
+    "Eingebettetes Englisch wiederherstellen": "Restaurar el inglés integrado",
+    "Damit kann auch ein hochgeladenes englisches Paket zurückgesetzt werden; der Firmware-Fallback selbst bleibt unveränderlich erhalten.": "Esto también permite restablecer un paquete en inglés cargado; el idioma de respaldo del firmware permanece sin cambios.",
+    "Der Assistent zeigt die vorhandenen Grundeinstellungen, hält Änderungen bis zum Abschluss nur im Browser und speichert erst nach der Zusammenfassung atomar. Passwörter werden nie angezeigt; leere Felder behalten den gespeicherten Wert.": "El asistente muestra los ajustes básicos existentes, mantiene los cambios solo en el navegador hasta finalizar y los guarda de forma atómica únicamente después del resumen. Las contraseñas nunca se muestran; los campos vacíos conservan el valor guardado.",
+    "Einrichtungsassistent erneut aufrufen": "Abrir de nuevo el asistente de configuración"
   }
 }

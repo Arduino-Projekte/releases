@@ -5,7 +5,7 @@
   "minimum_firmware_version": "0.0.370",
   "maximum_firmware_version": "0.0.999",
   "compatibility_version": 1,
-  "package_version": "2.3.0",
+  "package_version": "2.3.1",
   "translations": {
     "Steuerung": "Steuerung",
     "Abläufe": "Abläufe",
@@ -1827,6 +1827,11 @@
     "Local language upload": "Lokales Sprachpaket hochladen",
     "Administrator login": "Admin-Anmeldung",
     "LED chipset": "LED-Chip",
-    "Pixels": "Pixel"
+    "Pixels": "Pixel",
+    "Aktives lokales Sprachpaket durch das eingebettete Englisch ersetzen?": "Aktives lokales Sprachpaket durch das eingebettete Englisch ersetzen?",
+    "Eingebettetes Englisch wiederherstellen": "Eingebettetes Englisch wiederherstellen",
+    "Damit kann auch ein hochgeladenes englisches Paket zurückgesetzt werden; der Firmware-Fallback selbst bleibt unveränderlich erhalten.": "Damit kann auch ein hochgeladenes englisches Paket zurückgesetzt werden; der Firmware-Fallback selbst bleibt unveränderlich erhalten.",
+    "Der Assistent zeigt die vorhandenen Grundeinstellungen, hält Änderungen bis zum Abschluss nur im Browser und speichert erst nach der Zusammenfassung atomar. Passwörter werden nie angezeigt; leere Felder behalten den gespeicherten Wert.": "Der Assistent zeigt die vorhandenen Grundeinstellungen, hält Änderungen bis zum Abschluss nur im Browser und speichert erst nach der Zusammenfassung atomar. Passwörter werden nie angezeigt; leere Felder behalten den gespeicherten Wert.",
+    "Einrichtungsassistent erneut aufrufen": "Einrichtungsassistent erneut aufrufen"
   }
 }

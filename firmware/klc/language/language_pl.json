@@ -5,7 +5,7 @@
   "minimum_firmware_version": "0.0.370",
   "maximum_firmware_version": "0.0.999",
   "compatibility_version": 1,
-  "package_version": "2.3.0",
+  "package_version": "2.3.1",
   "translations": {
     "Steuerung": "Sterowanie",
     "Abläufe": "Sekwencje",
@@ -1824,9 +1824,14 @@
     "Yes": "Tak",
     "No": "Nie",
     "disabled": "wyłączone",
-    "Local language upload": "Prze?lij lokalny pakiet j?zykowy",
+    "Local language upload": "Prześlij lokalny pakiet językowy",
     "Administrator login": "Logowanie administratora",
-    "LED chipset": "Uk?ad LED",
-    "Pixels": "Piksele"
+    "LED chipset": "Układ LED",
+    "Pixels": "Piksele",
+    "Aktives lokales Sprachpaket durch das eingebettete Englisch ersetzen?": "Zastąpić aktywny lokalny pakiet językowy wbudowanym językiem angielskim?",
+    "Eingebettetes Englisch wiederherstellen": "Przywróć wbudowany język angielski",
+    "Damit kann auch ein hochgeladenes englisches Paket zurückgesetzt werden; der Firmware-Fallback selbst bleibt unveränderlich erhalten.": "Pozwala to również zresetować wgrany pakiet angielski; awaryjny język oprogramowania układowego pozostaje bez zmian.",
+    "Der Assistent zeigt die vorhandenen Grundeinstellungen, hält Änderungen bis zum Abschluss nur im Browser und speichert erst nach der Zusammenfassung atomar. Passwörter werden nie angezeigt; leere Felder behalten den gespeicherten Wert.": "Kreator wyświetla istniejące ustawienia podstawowe, przechowuje zmiany tylko w przeglądarce do czasu zakończenia i zapisuje je atomowo dopiero po podsumowaniu. Hasła nigdy nie są wyświetlane; puste pola zachowują zapisaną wartość.",
+    "Einrichtungsassistent erneut aufrufen": "Otwórz ponownie kreator konfiguracji"
   }
 }

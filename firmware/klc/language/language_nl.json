@@ -5,7 +5,7 @@
   "minimum_firmware_version": "0.0.370",
   "maximum_firmware_version": "0.0.999",
   "compatibility_version": 1,
-  "package_version": "2.3.0",
+  "package_version": "2.3.1",
   "translations": {
     "Steuerung": "Bediening",
     "Abläufe": "Verlopen",
@@ -1827,6 +1827,11 @@
     "Local language upload": "Lokaal taalpakket uploaden",
     "Administrator login": "Beheerderslogin",
     "LED chipset": "LED-chip",
-    "Pixels": "Pixels"
+    "Pixels": "Pixels",
+    "Aktives lokales Sprachpaket durch das eingebettete Englisch ersetzen?": "Het actieve lokale taalpakket vervangen door het ingebouwde Engels?",
+    "Eingebettetes Englisch wiederherstellen": "Ingebouwd Engels herstellen",
+    "Damit kann auch ein hochgeladenes englisches Paket zurückgesetzt werden; der Firmware-Fallback selbst bleibt unveränderlich erhalten.": "Hiermee kan ook een geüpload Engels pakket worden hersteld; de firmwarefallback zelf blijft ongewijzigd.",
+    "Der Assistent zeigt die vorhandenen Grundeinstellungen, hält Änderungen bis zum Abschluss nur im Browser und speichert erst nach der Zusammenfassung atomar. Passwörter werden nie angezeigt; leere Felder behalten den gespeicherten Wert.": "De wizard toont de bestaande basisinstellingen, bewaart wijzigingen tot de voltooiing alleen in de browser en slaat ze pas na de samenvatting atomair op. Wachtwoorden worden nooit weergegeven; lege velden behouden de opgeslagen waarde.",
+    "Einrichtungsassistent erneut aufrufen": "Installatiewizard opnieuw openen"
   }
 }

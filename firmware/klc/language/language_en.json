@@ -5,7 +5,7 @@
   "minimum_firmware_version": "0.0.370",
   "maximum_firmware_version": "0.0.999",
   "compatibility_version": 1,
-  "package_version": "2.3.0",
+  "package_version": "2.3.1",
   "translations": {
     "Steuerung": "Control",
     "Abläufe": "Sequences",
@@ -1827,6 +1827,11 @@
     "Local language upload": "Local language upload",
     "Administrator login": "Administrator login",
     "LED chipset": "LED chipset",
-    "Pixels": "Pixels"
+    "Pixels": "Pixels",
+    "Aktives lokales Sprachpaket durch das eingebettete Englisch ersetzen?": "Replace the active local language package with embedded English?",
+    "Eingebettetes Englisch wiederherstellen": "Restore embedded English",
+    "Damit kann auch ein hochgeladenes englisches Paket zurückgesetzt werden; der Firmware-Fallback selbst bleibt unveränderlich erhalten.": "This also resets an uploaded English package; the firmware fallback itself remains unchanged.",
+    "Der Assistent zeigt die vorhandenen Grundeinstellungen, hält Änderungen bis zum Abschluss nur im Browser und speichert erst nach der Zusammenfassung atomar. Passwörter werden nie angezeigt; leere Felder behalten den gespeicherten Wert.": "The wizard shows the existing basic settings, keeps changes only in the browser until completion, and saves them atomically only after the summary. Passwords are never displayed; empty fields retain the stored value.",
+    "Einrichtungsassistent erneut aufrufen": "Open setup wizard again"
   }
 }
