@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m_0.0.370.bin",
+                     "url":  "knx-led-controller-16m_0.0.371.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.370",
-                     "bin":  "knx-led-controller-16m_0.0.370.bin",
-                     "file":  "knx-led-controller-16m_0.0.370.bin",
-                     "sha256":  "9f1074502de1900cdbb9cabe167e331e4248019de2762c78ca4c55eced3fbbd8",
-                     "message":  "Offline mehrsprachigen Einrichtungsassistenten mit lokalem Sprachpaket-Upload ergaenzt.",
+                     "version":  "0.0.371",
+                     "bin":  "knx-led-controller-16m_0.0.371.bin",
+                     "file":  "knx-led-controller-16m_0.0.371.bin",
+                     "sha256":  "1a14361253d205005118c57d0bd063ff9b10a63b946ee4f7ef031b8cb0b785bf",
+                     "message":  "Offline-Sprachwechsel im Einrichtungsassistenten stabilisiert.",
                      "http_code":  200
                  }
 }
