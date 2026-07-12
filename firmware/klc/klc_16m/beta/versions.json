@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.371",
+                      "bin":  "knx-led-controller-16m_0.0.371.bin",
+                      "date":  "2026-07-12",
+                      "note":  "Offline-Sprachwechsel im Einrichtungsassistenten stabilisiert."
+                  },
+                  {
                       "version":  "0.0.370",
                       "bin":  "knx-led-controller-16m_0.0.370.bin",
                       "date":  "2026-07-12",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m_0.0.367.bin",
                       "date":  "2026-07-12",
                       "note":  "Verkettete Ausgaenge bei ungueltigen Importen und Laufzeitfehlern sicher gesperrt."
-                  },
-                  {
-                      "version":  "0.0.363",
-                      "bin":  "knx-led-controller-16m_0.0.363.bin",
-                      "date":  "2026-07-12",
-                      "note":  "IPv4-, Gateway- und Netzmaskenvalidierung korrigiert."
                   }
               ]
 }
