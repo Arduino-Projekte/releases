@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.370",
+                      "bin":  "knx-led-controller-16m-w_0.0.370.bin",
+                      "date":  "2026-07-12",
+                      "note":  "Offline mehrsprachigen Einrichtungsassistenten mit lokalem Sprachpaket-Upload ergaenzt."
+                  },
+                  {
                       "version":  "0.0.369",
                       "bin":  "knx-led-controller-16m-w_0.0.369.bin",
                       "date":  "2026-07-12",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m-w_0.0.363.bin",
                       "date":  "2026-07-12",
                       "note":  "IPv4-, Gateway- und Netzmaskenvalidierung korrigiert."
-                  },
-                  {
-                      "version":  "0.0.362",
-                      "bin":  "knx-led-controller-16m-w_0.0.362.bin",
-                      "date":  "2026-07-12",
-                      "note":  "Ueberlaufsichere Berechnung und Validierung verketteter LED-Ausgaenge ergaenzt."
                   }
               ]
 }
