@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m-w_0.0.362.bin",
+                     "url":  "knx-led-controller-16m-w_0.0.363.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.362",
-                     "bin":  "knx-led-controller-16m-w_0.0.362.bin",
-                     "file":  "knx-led-controller-16m-w_0.0.362.bin",
-                     "sha256":  "d88a800ccf3b60f603463f7cbb5447b179c1b293ba25824f5fc02ac58b163fcf",
-                     "message":  "Ueberlaufsichere Berechnung und Validierung verketteter LED-Ausgaenge ergaenzt.",
+                     "version":  "0.0.363",
+                     "bin":  "knx-led-controller-16m-w_0.0.363.bin",
+                     "file":  "knx-led-controller-16m-w_0.0.363.bin",
+                     "sha256":  "19c4d628c5b886da7309382ead8fdeba1d834db47112b156ff5b61aec1fa022f",
+                     "message":  "IPv4-, Gateway- und Netzmaskenvalidierung korrigiert.",
                      "http_code":  200
                  }
 }
