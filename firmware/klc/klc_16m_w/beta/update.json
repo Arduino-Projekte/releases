@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m-w_0.0.361.bin",
+                     "url":  "knx-led-controller-16m-w_0.0.362.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.361",
-                     "bin":  "knx-led-controller-16m-w_0.0.361.bin",
-                     "file":  "knx-led-controller-16m-w_0.0.361.bin",
-                     "sha256":  "9e76a4f6774fbcbac756f65c6c3c36f14e31525b12a0316117944a196f9b2c49",
-                     "message":  "Sichere Pixelgrenzen mit Leistungswarnung und harter Maximalbegrenzung ergaenzt.",
+                     "version":  "0.0.362",
+                     "bin":  "knx-led-controller-16m-w_0.0.362.bin",
+                     "file":  "knx-led-controller-16m-w_0.0.362.bin",
+                     "sha256":  "d88a800ccf3b60f603463f7cbb5447b179c1b293ba25824f5fc02ac58b163fcf",
+                     "message":  "Ueberlaufsichere Berechnung und Validierung verketteter LED-Ausgaenge ergaenzt.",
                      "http_code":  200
                  }
 }
