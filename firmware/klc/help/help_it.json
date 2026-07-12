@@ -237,7 +237,7 @@
                          "id":  "security.user_login",
                          "title":  "Attivare/disattivare l'accesso utente",
                          "category":  "Sicurezza",
-                         "body":  "L'amministratore può attivare o disattivare l'accesso utente nella pagina Sicurezza. Attivato: l'area di utilizzo normale richiede un accesso utente o amministratore. Disattivato (stato di fabbrica): l'uso è possibile senza accesso. L'area di amministrazione resta in entrambi i casi protetta dalla password amministratore. La scelta della lingua resta possibile senza accesso e funziona completamente offline."
+                         "body":  "L'utente e l'amministratore possono attivare o disattivare l'accesso utente nella pagina Sicurezza. Attivato: l'area di utilizzo normale richiede un accesso utente o amministratore. Disattivato (stato di fabbrica): l'uso è possibile senza accesso. L'area di amministrazione resta in entrambi i casi protetta dalla password amministratore. La scelta della lingua resta possibile senza accesso e funziona completamente offline."
                      },
                      {
                          "id":  "security.views",

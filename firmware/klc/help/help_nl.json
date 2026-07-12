@@ -237,7 +237,7 @@
                          "id":  "security.user_login",
                          "title":  "Gebruikerslogin in-/uitschakelen",
                          "category":  "Beveiliging",
-                         "body":  "De beheerder kan de gebruikerslogin op de pagina Beveiliging in- of uitschakelen. Ingeschakeld: het normale bedieningsgedeelte vereist een gebruikers- of beheerdersaanmelding. Uitgeschakeld (fabrieksinstelling): bediening is mogelijk zonder aan te melden. Het beheergedeelte blijft in beide gevallen beschermd door het beheerderswachtwoord. De taalkeuze blijft zonder aanmelding beschikbaar en werkt volledig offline."
+                         "body":  "Gebruiker en beheerder kunnen de gebruikerslogin op de pagina Beveiliging in- of uitschakelen. Ingeschakeld: het normale bedieningsgedeelte vereist een gebruikers- of beheerdersaanmelding. Uitgeschakeld (fabrieksinstelling): bediening is mogelijk zonder aan te melden. Het beheergedeelte blijft in beide gevallen beschermd door het beheerderswachtwoord. De taalkeuze blijft zonder aanmelding beschikbaar en werkt volledig offline."
                      },
                      {
                          "id":  "security.views",

@@ -237,7 +237,7 @@
                          "id":  "security.user_login",
                          "title":  "Włączanie/wyłączanie logowania użytkownika",
                          "category":  "Bezpieczeństwo",
-                         "body":  "Administrator może włączyć lub wyłączyć logowanie użytkownika na stronie Bezpieczeństwo. Włączone: normalny obszar obsługi wymaga zalogowania jako użytkownik lub administrator. Wyłączone (stan fabryczny): obsługa jest możliwa bez logowania. Obszar administracyjny w obu przypadkach pozostaje chroniony hasłem administratora. Wybór języka interfejsu pozostaje możliwy bez logowania i działa całkowicie offline."
+                         "body":  "Użytkownik i administrator mogą włączyć lub wyłączyć logowanie użytkownika na stronie Bezpieczeństwo. Włączone: normalny obszar obsługi wymaga zalogowania jako użytkownik lub administrator. Wyłączone (stan fabryczny): obsługa jest możliwa bez logowania. Obszar administracyjny w obu przypadkach pozostaje chroniony hasłem administratora. Wybór języka interfejsu pozostaje możliwy bez logowania i działa całkowicie offline."
                      },
                      {
                          "id":  "security.views",

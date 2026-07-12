@@ -237,7 +237,7 @@
                          "id":  "security.user_login",
                          "title":  "Activer/désactiver la connexion utilisateur",
                          "category":  "Sécurité",
-                         "body":  "L'administrateur peut activer ou désactiver la connexion utilisateur sur la page Sécurité. Activée : la zone d'utilisation normale exige une connexion utilisateur ou administrateur. Désactivée (état d'usine) : l'utilisation est possible sans connexion. La zone d'administration reste dans les deux cas protégée par le mot de passe administrateur. Le choix de la langue reste possible sans connexion et fonctionne entièrement hors ligne."
+                         "body":  "L'utilisateur et l'administrateur peuvent activer ou désactiver la connexion utilisateur sur la page Sécurité. Activée : la zone d'utilisation normale exige une connexion utilisateur ou administrateur. Désactivée (état d'usine) : l'utilisation est possible sans connexion. La zone d'administration reste dans les deux cas protégée par le mot de passe administrateur. Le choix de la langue reste possible sans connexion et fonctionne entièrement hors ligne."
                      },
                      {
                          "id":  "security.views",

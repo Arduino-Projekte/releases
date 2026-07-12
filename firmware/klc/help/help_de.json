@@ -1248,7 +1248,7 @@
                          "id":  "security.user_login",
                          "title":  "Benutzer-Login ein-/ausschalten",
                          "category":  "Sicherheit",
-                         "body":  "Der Administrator kann den Benutzer-Login auf der Seite Sicherheit aktivieren oder deaktivieren. Aktiviert: Der normale Bedienbereich verlangt eine Benutzer- oder Adminanmeldung. Deaktiviert (Werkszustand): Die Bedienung ist ohne Anmeldung möglich. Der Adminbereich bleibt in beiden Fällen immer durch das Adminpasswort geschützt. Die Sprachauswahl der Oberfläche bleibt auch ohne Anmeldung möglich und funktioniert komplett offline."
+                         "body":  "Benutzer und Administrator können den Benutzer-Login auf der Seite Sicherheit aktivieren oder deaktivieren. Aktiviert: Der normale Bedienbereich verlangt eine Benutzer- oder Adminanmeldung. Deaktiviert (Werkszustand): Die Bedienung ist ohne Anmeldung möglich. Der Adminbereich bleibt in beiden Fällen immer durch das Adminpasswort geschützt. Die Sprachauswahl der Oberfläche bleibt auch ohne Anmeldung möglich und funktioniert komplett offline."
                      },
                      {
                          "id":  "security.views",

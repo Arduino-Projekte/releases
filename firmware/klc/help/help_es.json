@@ -237,7 +237,7 @@
                          "id":  "security.user_login",
                          "title":  "Activar/desactivar el inicio de sesión de usuario",
                          "category":  "Seguridad",
-                         "body":  "El administrador puede activar o desactivar el inicio de sesión de usuario en la página Seguridad. Activado: el área de manejo normal exige una sesión de usuario o de administrador. Desactivado (estado de fábrica): el manejo es posible sin iniciar sesión. El área de administración permanece en ambos casos protegida por la contraseña de administrador. La selección de idioma sigue disponible sin sesión y funciona completamente sin conexión."
+                         "body":  "El usuario y el administrador pueden activar o desactivar el inicio de sesión de usuario en la página Seguridad. Activado: el área de manejo normal exige una sesión de usuario o de administrador. Desactivado (estado de fábrica): el manejo es posible sin iniciar sesión. El área de administración permanece en ambos casos protegida por la contraseña de administrador. La selección de idioma sigue disponible sin sesión y funciona completamente sin conexión."
                      },
                      {
                          "id":  "security.views",

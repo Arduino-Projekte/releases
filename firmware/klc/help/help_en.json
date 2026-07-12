@@ -237,7 +237,7 @@
                          "id":  "security.user_login",
                          "title":  "Enabling/disabling user login",
                          "category":  "Security",
-                         "body":  "The administrator can enable or disable user login on the Security page. Enabled: the normal operating area requires a user or admin login. Disabled (factory state): operation is possible without signing in. The admin area always stays protected by the admin password in both cases. The interface language selection remains available without signing in and works completely offline."
+                         "body":  "User and administrator can enable or disable user login on the Security page. Enabled: the normal operating area requires a user or admin login. Disabled (factory state): operation is possible without signing in. The admin area always stays protected by the admin password in both cases. The interface language selection remains available without signing in and works completely offline."
                      },
                      {
                          "id":  "security.views",
