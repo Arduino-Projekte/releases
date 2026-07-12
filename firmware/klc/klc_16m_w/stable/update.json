@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m-w_0.0.361.bin",
+                     "url":  "knx-led-controller-16m-w_0.0.369.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.361",
-                     "bin":  "knx-led-controller-16m-w_0.0.361.bin",
-                     "file":  "knx-led-controller-16m-w_0.0.361.bin",
-                     "sha256":  "9e76a4f6774fbcbac756f65c6c3c36f14e31525b12a0316117944a196f9b2c49",
-                     "message":  "Sichere Pixelgrenzen mit Leistungswarnung und harter Maximalbegrenzung ergaenzt.",
+                     "version":  "0.0.369",
+                     "bin":  "knx-led-controller-16m-w_0.0.369.bin",
+                     "file":  "knx-led-controller-16m-w_0.0.369.bin",
+                     "sha256":  "b07ed7aacba54a35b620e0a65ec14d6412ab3827efbc2854df3ac377c4c4dba4",
+                     "message":  "Benutzer-/Adminsystem: Benutzer-Login-Schalter jetzt auch fuer angemeldete Benutzer, Umleitungsschleife beim Adminwechsel von der Benutzerrolle behoben, Sprachpaket-Pruefkonstante korrigiert (Pakete 2.1.0 werden wieder angenommen).",
                      "http_code":  200
                  }
 }
