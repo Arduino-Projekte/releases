@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.361",
+                      "bin":  "knx-led-controller-16m_0.0.361.bin",
+                      "date":  "2026-07-12",
+                      "note":  "Sichere Pixelgrenzen mit Leistungswarnung und harter Maximalbegrenzung ergaenzt."
+                  },
+                  {
                       "version":  "0.0.359",
                       "bin":  "knx-led-controller-16m_0.0.359.bin",
                       "date":  "2026-07-12",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m_0.0.356.bin",
                       "date":  "2026-07-11",
                       "note":  "Sprachwechsel auf /system abgeschlossen: Konkrete serverseitige Fehlerursachen werden jetzt direkt im sichtbaren Status ausgegeben, statt nur generische Fehlercodes anzuzeigen. Die Meldung wird weiterhin ausschliesslich per textContent eingesetzt und kann daher kein HTML einschleusen. Der kooperative Sprachpaketablauf trennt nun Paketvalidierung und Dateihash in zwei eigene Loop-Phasen; Parser und Hash geben nach Dateibloecken an den Arduino-Core ab. Die unvermeidbar synchrone DNS/TLS/HTTP-Header-Phase von HTTPClient ist auf 3000 ms pro Bibliotheks-Timeout begrenzt und wird zusammen mit Validierungs- und Hashdauer im seriellen LANG-Log sowie unter /api/language als http_open_ms, validation_ms und hash_ms ausgewiesen. Downloadbody, atomare .tmp/.bak/Aktivierung, Rollback, Offline-Englisch, 303-Rueckkehr nach /system, Mehrfachklickschutz und Same-Language-Pruefung bleiben unveraendert erhalten. Version 0.0.356, Konfigurationsschema unveraendert 60."
-                  },
-                  {
-                      "version":  "0.0.355",
-                      "bin":  "knx-led-controller-16m_0.0.355.bin",
-                      "date":  "2026-07-11",
-                      "note":  "Sprachwechsel auf der Systemseite ueberarbeitet: /ui/language ist nur noch ein interner POST-Endpunkt und antwortet sofort per HTTP 303 auf /system; ein direkter GET-Aufruf wird ebenfalls sicher dorthin umgeleitet. Die angeklickte Sprache wird vor jeder Buttonsperre in einem Hidden-Feld gesichert. /system sendet den POST im Hintergrund, zeigt einen kurzlebigen serverseitigen Status fuer Vormerken, Download, Pruefung, Aktivierung, Erfolg oder konkreten Fehler und laedt sich nach erfolgreicher Aktivierung genau einmal in der neuen Sprache. Fehlende oder ungueltige Sprachangaben starten nicht mehr stillschweigend Englisch und zeigen keine technische POST- oder Recovery-Seite. Serverseitige Busy- und Generationspruefungen verhindern parallele Mehrfachdownloads; die bereits aktive gueltige Sprache wird ohne erneuten Download bestaetigt. Der Paketkoerper wird kooperativ in begrenzten Bloecken ueber mehrere Loop-Ticks nach /language_active.json.tmp geschrieben; die bestehende atomare Reihenfolge mit .tmp, .bak, /language_active.json, Konfigurationsspeicherung, Commit und Rollback bleibt erhalten. Ein alter automatischer Pending-Download kann die manuell aktivierte Sprache nicht mehr ueberschreiben. Der Hilfe-Download ist vom Sprach-POST entkoppelt; die unabhaengige englische Hilfe- und UI-Offline-Rueckfallebene bleibt erhalten. Validierte Active-Identitaet und Paket-ETag werden im RAM wiederverwendet, die Schluessel-Duplikatpruefung arbeitet sortiert statt quadratisch und grosse i18n-Antworten nutzen Content-Length sowie W5500-freundliche Sendebloecke. Langsame WEB-Anfragen protokollieren jetzt die vor dem Handler gesicherte HTTP-Methode und Route. Browser- oder Betriebssystemsprache werden weiterhin nicht ausgewertet. Version 0.0.355, Konfigurationsschema unveraendert 60."
                   }
               ]
 }

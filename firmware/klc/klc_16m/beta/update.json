@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m_0.0.359.bin",
+                     "url":  "knx-led-controller-16m_0.0.361.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.359",
-                     "bin":  "knx-led-controller-16m_0.0.359.bin",
-                     "file":  "knx-led-controller-16m_0.0.359.bin",
-                     "sha256":  "46fb58d10e8c310d62eefa181fa57ad32657736349344153621bdb85f4600a2f",
-                     "message":  "Hilfe-Sprachdateien werden nun robust validiert: Das schema-Feld wird als JSON-Zahl mit beliebig vielen erlaubten Leerzeichen gelesen, statt nur zwei exakt formatierte Schreibweisen zu akzeptieren. Dadurch wird insbesondere das gueltige deutsche help_de.json nicht mehr faelschlich als unvollstaendig, beschaedigt oder fremdsprachig verworfen. Fehlt die lokale Hilfe fuer die aktive Nicht-Englisch-Sprache, startet /help einmal pro Browsersitzung automatisch den passenden Online-Download und zeigt bis zum Ergebnis den Ladezustand; bei fehlendem Internet bleibt der englische Offline-Fallback verfuegbar. Direkte Feldhilfe-Links wie /help?q=flows.pixel_mode laden danach den exakten deutschsprachigen Eintrag statt der unscharfen englischen Fallback-Treffer. Version 0.0.359, Sprachpakete unveraendert 2.0.3, Konfigurationsschema unveraendert 60.",
+                     "version":  "0.0.361",
+                     "bin":  "knx-led-controller-16m_0.0.361.bin",
+                     "file":  "knx-led-controller-16m_0.0.361.bin",
+                     "sha256":  "a4dcda3acb9e4c9351ff649840a38901ce3149d17e00c949294520a8d79c8789",
+                     "message":  "Sichere Pixelgrenzen mit Leistungswarnung und harter Maximalbegrenzung ergaenzt.",
                      "http_code":  200
                  }
 }
