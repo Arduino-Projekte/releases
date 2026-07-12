@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m-w_0.0.374.bin",
+                     "url":  "knx-led-controller-16m-w_0.0.375.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.374",
-                     "bin":  "knx-led-controller-16m-w_0.0.374.bin",
-                     "file":  "knx-led-controller-16m-w_0.0.374.bin",
-                     "sha256":  "1d3390b5f641167ea91d1f9ec634027e5dcb2adb0d5676b765f65ae61d344db4",
-                     "message":  "Wizard-Navigation, WLAN-Direktweg und verifizierten Abschluss korrigiert.",
+                     "version":  "0.0.375",
+                     "bin":  "knx-led-controller-16m-w_0.0.375.bin",
+                     "file":  "knx-led-controller-16m-w_0.0.375.bin",
+                     "sha256":  "b3b618d6a6962705c75358a07e0e0ffb3a90c67890243eebe1ff64a382ea908b",
+                     "message":  "Dateibackup, Stable-Update im Wizard und Service-Taster verbessert.",
                      "http_code":  200
                  }
 }
