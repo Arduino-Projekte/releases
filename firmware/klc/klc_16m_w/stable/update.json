@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m-w_0.0.378.bin",
+                     "url":  "knx-led-controller-16m-w_0.0.379.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.378",
-                     "bin":  "knx-led-controller-16m-w_0.0.378.bin",
-                     "file":  "knx-led-controller-16m-w_0.0.378.bin",
-                     "sha256":  "352310c6df7e2fadc5828debd1d3af5cd8f2a850f08542b6ebd8447cd6b29ee3",
-                     "message":  "LED-Speicher wird beim Start reserviert; Output-Tests bleiben fluechtig, strukturelle Aenderungen werden erst nach Neustart aktiviert und Pending/LKG-Recovery faellt bei Aktivierungsfehlern sicher zurueck. Der Wizard-Abschluss bestaetigt den Speicher-Commit ohne grosse Request-Stack-Kopie.",
+                     "version":  "0.0.379",
+                     "bin":  "knx-led-controller-16m-w_0.0.379.bin",
+                     "file":  "knx-led-controller-16m-w_0.0.379.bin",
+                     "sha256":  "1a801650d8bdd77616a4ee484dcd8d251a470a446fa65870572070077ffc916c",
+                     "message":  "LED-Speicher wird beim Start reserviert; Tests bleiben fluechtig, Struktur wird nach Neustart mit Pending/LKG-Recovery aktiviert. Wizard/Outputs speichern RAM-schonend; /control laedt kompakt; Diagnose nur fuer Admins.",
                      "http_code":  200
                  }
 }
