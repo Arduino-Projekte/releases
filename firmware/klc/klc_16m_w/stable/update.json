@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m-w_0.0.380.bin",
+                     "url":  "knx-led-controller-16m-w_0.0.382.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.380",
-                     "bin":  "knx-led-controller-16m-w_0.0.380.bin",
-                     "file":  "knx-led-controller-16m-w_0.0.380.bin",
-                     "sha256":  "ea834475969734081aa0fbbc1d86d8f63ab74bdcbde0a115dd3db60260611a9c",
-                     "message":  "LED-Speicher wird beim Start reserviert; Tests bleiben fluechtig, Struktur wird nach Neustart mit Pending/LKG-Recovery aktiviert. Wizard/Outputs speichern ohne grosse Config-Kopien auf dem Request-Stack; Wizard-ACK bleibt nach Reset pruefbar.",
+                     "version":  "0.0.382",
+                     "bin":  "knx-led-controller-16m-w_0.0.382.bin",
+                     "file":  "knx-led-controller-16m-w_0.0.382.bin",
+                     "sha256":  "eaf0745e8ec79bec1b95653f1d96c5c72b797534958a5e32244119a023a64ec1",
+                     "message":  "KNX-Farbstatus auf tatsaechlich gerenderte RGBW-Ausgabe umgestellt (repraesentativer Mittelwert sichtbarer Pixel, busschonend gesendet).",
                      "http_code":  200
                  }
 }
