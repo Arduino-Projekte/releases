@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m_0.0.382.bin",
+                     "url":  "knx-led-controller-16m_0.0.383.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.382",
-                     "bin":  "knx-led-controller-16m_0.0.382.bin",
-                     "file":  "knx-led-controller-16m_0.0.382.bin",
-                     "sha256":  "83dbf1ca7b1ea6a9eacd39abd003fbb8bdef29a6e11b6cef301f6a07a764fa96",
-                     "message":  "KNX-Farbstatus auf tatsaechlich gerenderte RGBW-Ausgabe umgestellt (repraesentativer Mittelwert sichtbarer Pixel, busschonend gesendet).",
+                     "version":  "0.0.383",
+                     "bin":  "knx-led-controller-16m_0.0.383.bin",
+                     "file":  "knx-led-controller-16m_0.0.383.bin",
+                     "sha256":  "08f33d07c46f9f94c7d8c4cebd8825b405f96bff2a7bf4b4a2e260db42a3acb0",
+                     "message":  "Einrichtungsassistent: Abschluss-Request gefiltert und URL-kodiert, Fehlerantworten robuster ausgewertet und Setup-Commit-Diagnose erweitert.",
                      "http_code":  200
                  }
 }
