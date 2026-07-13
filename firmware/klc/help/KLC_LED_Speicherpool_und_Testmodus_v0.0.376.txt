@@ -1,0 +1,78 @@
+KLC – LED-MASTERPOOL UND FLÜCHTIGER AUSGANGS-TESTMODUS (ab v0.0.376)
+====================================================================
+
+AKTIV / IM TEST / GESPEICHERT
+-----------------------------
+- AKTIV ist die beim letzten erfolgreichen Start vollständig geladene,
+  validierte und initialisierte Konfiguration. Sie bestimmt Speicherplan,
+  PIO/DMA, Ketten, Szenen, KNX und die normale LED-Ausgabe.
+- IM TEST sind temporäre Werte des flüchtigen Testmodus unter /outputs.
+  Sie existieren nur im RAM, gelten nur für den gerade getesteten Ausgang
+  und werden NICHT automatisch gespeichert. Beim Beenden des Tests
+  („Test zurücksetzen", Kachel schließen, Seite verlassen, Speichern)
+  wird der aktive Zustand wiederhergestellt.
+- GESPEICHERT ist der zuletzt atomar in der Konfigurationsdatei abgelegte
+  Stand. Strukturelle Ausgangswerte (Aktiv, Pixelzahl, LED-Farben,
+  LED-Chip, Farbreihenfolge, Verkettung, Kettenrichtung) werden beim
+  Speichern nur persistent abgelegt („ausstehend") und erst durch einen
+  kontrollierten Neustart vollständig aktiv. Alle übrigen Werte (Name,
+  Leistung, Sendeeinstellungen, LED-Versatz, String-Segmente,
+  Power-On-/KNX-Verhalten, Max. Helligkeit) wirken weiterhin sofort.
+
+NEUSTARTBANNER
+--------------
+Nach dem Speichern struktureller Änderungen erscheint auf allen Seiten:
+„Gespeicherte Ausgangsänderungen warten auf Aktivierung. Ein Neustart ist
+erforderlich." mit den Schaltflächen „Jetzt neu starten" (kontrollierter
+Neustart, aktiviert den gespeicherten Stand) und „Später neu starten"
+(blendet den Hinweis nur in der aktuellen Ansicht aus). Der Bedarf
+entsteht immer aus dem VERGLEICH gespeicherter gegen aktiver
+Strukturwerte: Wer alle Werte exakt auf den aktiven Stand zurückstellt
+und speichert, sieht den Banner automatisch verschwinden.
+
+LED-MASTERPOOL UND TESTPOOL
+---------------------------
+Beim Hochfahren wird EIN zusammenhängender LED-Masterpool reserviert:
+alle Render- und DMA-Puffer der aktiven Ausgänge (inklusive
+Blackout-Tail von 64 Pixeln je Ausgang) plus ein fester TESTPOOL für
+genau einen Ausgang bis zur absoluten Maximalpixelzahl (1200 Pixel,
+RGB und RGBW identisch 8 Byte je Pixel, also 10 112 Byte). Der Pool wird
+im Betrieb nie freigegeben oder neu alloziert, sondern nur mit
+berechneten Offsets aufgeteilt. Tests mit geänderter Pixelzahl, Chip,
+RGB/RGBW oder Farbreihenfolge laufen im Testpool – ohne eine einzige
+große Heap-Allokation. Es ist immer nur ein kontrollierter Ausgangstest
+gleichzeitig aktiv.
+
+BUDGET UND RESERVE
+------------------
+Das gesamte LED-Speicherkonzept einschließlich Testpool bleibt innerhalb
+des festen LED-Pufferbudgets von 128 KiB (Maximalfall: 6000 aktive Pixel
++ 5 x 64 Tail = 50 560 Byte aktiv + 10 112 Byte Testpool = 60 672 Byte).
+Zusätzlich bleibt die Systemreserve von 64 KiB für WebUI, Netzwerk, BAOS,
+JSON und Laufzeitspitzen unangetastet; sie wird vor der Reservierung
+konservativ geprüft.
+
+VERHALTEN BEI FEHLGESCHLAGENER AKTIVIERUNG
+------------------------------------------
+Kann der Pool beim Start nicht reserviert werden oder passt eine (z. B.
+per Import) aktivierte Konfiguration nicht mehr in den reservierten
+Pool, gibt es KEINE Neustartschleife: Die LED-Ausgabe bleibt sicher
+deaktiviert, WebUI, Netzwerk und Service-AP bleiben erreichbar, ein
+konkreter Diagnosefehler wird gesetzt (1701 = Allokation fehlgeschlagen,
+1703 = Pool zu klein, Neustart erforderlich) und die gespeicherte
+Konfiguration bleibt zur Korrektur erhalten. Ein späterer korrigierter
+Stand kann normal gespeichert und per Neustart aktiviert werden.
+
+DIAGNOSE UND SUPPORT-SNAPSHOT
+-----------------------------
+Die Seite /led zeigt unter „RAM- / LED-Speicher": Boardprofil, Heap
+gesamt/belegt/frei, niedrigsten freien Heap seit Start, Masterpool-,
+Testpool- und Budgetwerte, freie Reserve oberhalb der Mindestreserve,
+aktive und gespeicherte (ausstehende) Gesamtpixel, aktiven und
+ausstehenden Speicherplan, Neustartstatus, letzten Poolfehler und die
+Anzahl fehlgeschlagener Allokationen – dazu drei Balken (Heap-Auslastung,
+Systemreserve, LED-Pufferbudget) und einen Heap-Verlauf (fester
+RAM-Ringpuffer, Messung alle 5 Sekunden, rund 10 Minuten, mit der
+64-KiB-Mindestreserve als Referenzlinie; nichts davon wird in LittleFS
+geschrieben). Der Support-Snapshot (/support.txt) und /api/leddiag
+(„memory") verwenden dieselbe zentrale Diagnosedatenquelle.

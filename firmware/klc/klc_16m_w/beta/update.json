@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m-w_0.0.375.bin",
+                     "url":  "knx-led-controller-16m-w_0.0.376.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.375",
-                     "bin":  "knx-led-controller-16m-w_0.0.375.bin",
-                     "file":  "knx-led-controller-16m-w_0.0.375.bin",
-                     "sha256":  "b3b618d6a6962705c75358a07e0e0ffb3a90c67890243eebe1ff64a382ea908b",
-                     "message":  "Dateibackup, Stable-Update im Wizard und Service-Taster verbessert.",
+                     "version":  "0.0.376",
+                     "bin":  "knx-led-controller-16m-w_0.0.376.bin",
+                     "file":  "knx-led-controller-16m-w_0.0.376.bin",
+                     "sha256":  "b97b57aa866451faa03b29aef48efe91085d78ba33a45b1f88c8246d03549df1",
+                     "message":  "LED-Speicher wird beim Start reserviert; Ausgangsparameter bleiben ueber einen fluechtigen Testmodus sofort pruefbar.",
                      "http_code":  200
                  }
 }
