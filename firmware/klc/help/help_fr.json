@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "kind": "klc_help",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "firmware_min": "0.0.299",
   "language": "fr",
   "title": "Aide KLC",
@@ -151,7 +151,7 @@
     {"id": "knx.status_switch", "page": "KNX", "label": "État marche/arrêt TX", "short": "Objet d'état KNX pour l'état de commutation.", "details": "Envoie l'état marche/arrêt actuel sur le bus KNX."},
     {"id": "knx.status_scene", "page": "KNX", "label": "État scène TX", "short": "Objet d'état KNX pour la scène active.", "details": "Aide les visualisations à afficher l'état de scène actuel."},
     {"id": "knx.status_brightness", "page": "KNX", "label": "État luminosité TX", "short": "Objet d'état KNX pour la luminosité.", "details": "Renvoie la valeur de luminosité actuelle."},
-    {"id": "knx.status_color", "page": "KNX", "label": "État couleur R/G/B/W TX", "short": "Objets d'état KNX pour les composantes de couleur.", "details": "Chaque canal de couleur est signalé séparément. N'activer que les canaux nécessaires."},
+    {"id": "knx.status_color", "page": "KNX", "label": "État couleur R/G/B/W TX", "short": "Objets d'état KNX pour les composantes de couleur.", "details": "Signale la couleur réellement émise : la moyenne arithmétique des pixels actuellement visibles par canal, luminosités globale et de sortie incluses. Pour les scènes, transitions et animations, la valeur est une moyenne représentative envoyée avec limitation de débit ; une sortie éteinte signale 0. Une tête de chaîne fait la moyenne sur toute la chaîne. N'activer que les canaux nécessaires."},
     {"id": "knx.status_lock_force", "page": "KNX", "label": "État blocage/forçage TX", "short": "Retour pour l'état de blocage et de forçage.", "details": "Utile pour la visualisation et le diagnostic quand l'utilisation est bloquée ou forcée."},
     {"id": "knx.status_error_power", "page": "KNX", "label": "État code d'erreur / limite de puissance", "short": "Retour pour les erreurs et une limite de puissance active.", "details": "Permet des alarmes côté KNX ou l'affichage d'états techniques."},
     {"id": "admin.unlock", "page": "Admin", "label": "Code admin", "short": "Ouvre la zone admin protégée.", "details": "Admin est destiné au diagnostic, aux points d'accès JSON et aux informations techniques approfondies. Ne pas le considérer comme une vraie protection réseau."},

@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "kind": "klc_help",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "firmware_min": "0.0.299",
   "language": "es",
   "title": "Ayuda KLC",
@@ -151,7 +151,7 @@
     {"id": "knx.status_switch", "page": "KNX", "label": "Estado encendido/apagado TX", "short": "Objeto de estado KNX para el estado de conmutación.", "details": "Envía el estado actual de encendido/apagado al bus KNX."},
     {"id": "knx.status_scene", "page": "KNX", "label": "Estado escena TX", "short": "Objeto de estado KNX para la escena activa.", "details": "Ayuda a las visualizaciones a mostrar el estado de escena actual."},
     {"id": "knx.status_brightness", "page": "KNX", "label": "Estado brillo TX", "short": "Objeto de estado KNX para el brillo.", "details": "Devuelve el valor de brillo actual."},
-    {"id": "knx.status_color", "page": "KNX", "label": "Estado color R/G/B/W TX", "short": "Objetos de estado KNX para las componentes de color.", "details": "Cada canal de color se informa por separado. Activar solo los canales necesarios."},
+    {"id": "knx.status_color", "page": "KNX", "label": "Estado color R/G/B/W TX", "short": "Objetos de estado KNX para las componentes de color.", "details": "Informa el color realmente emitido: la media aritmética de los píxeles actualmente visibles por canal, incluidas la luminosidad global y la de salida. En escenas, transiciones y animaciones el valor es una media representativa y se envía con limitación de tasa; una salida apagada informa 0. Una cabeza de cadena promedia toda la cadena. Activar solo los canales necesarios."},
     {"id": "knx.status_lock_force", "page": "KNX", "label": "Estado bloqueo/forzado TX", "short": "Realimentación del estado de bloqueo y forzado.", "details": "Útil para visualización y diagnóstico cuando el manejo está bloqueado o anulado."},
     {"id": "knx.status_error_power", "page": "KNX", "label": "Estado código de error / límite de potencia", "short": "Realimentación de errores y de un límite de potencia activo.", "details": "Permite alarmas del lado KNX o la visualización de estados técnicos."},
     {"id": "admin.unlock", "page": "Admin", "label": "Código admin", "short": "Abre el área de administración protegida.", "details": "Admin está pensado para diagnóstico, puntos JSON e información técnica profunda. No considerarlo una protección de red completa."},

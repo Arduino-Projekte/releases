@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "kind": "klc_help",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "firmware_min": "0.0.299",
   "language": "it",
   "title": "Aiuto KLC",
@@ -151,7 +151,7 @@
     {"id": "knx.status_switch", "page": "KNX", "label": "Stato on/off TX", "short": "Oggetto di stato KNX per lo stato di commutazione.", "details": "Invia lo stato on/off attuale al bus KNX."},
     {"id": "knx.status_scene", "page": "KNX", "label": "Stato scena TX", "short": "Oggetto di stato KNX per la scena attiva.", "details": "Aiuta le visualizzazioni a mostrare lo stato attuale della scena."},
     {"id": "knx.status_brightness", "page": "KNX", "label": "Stato luminosità TX", "short": "Oggetto di stato KNX per la luminosità.", "details": "Rimanda il valore di luminosità attuale."},
-    {"id": "knx.status_color", "page": "KNX", "label": "Stato colore R/G/B/W TX", "short": "Oggetti di stato KNX per le componenti colore.", "details": "Ogni canale colore viene segnalato separatamente. Attivare solo i canali necessari."},
+    {"id": "knx.status_color", "page": "KNX", "label": "Stato colore R/G/B/W TX", "short": "Oggetti di stato KNX per le componenti colore.", "details": "Segnala il colore realmente emesso: la media aritmetica dei pixel attualmente visibili per canale, incluse la luminosità globale e quella di uscita. Con scene, transizioni e animazioni il valore è una media rappresentativa inviata con limitazione di frequenza; un'uscita spenta segnala 0. Una testa di catena calcola la media sull'intera catena. Attivare solo i canali necessari."},
     {"id": "knx.status_lock_force", "page": "KNX", "label": "Stato blocco/forzatura TX", "short": "Riscontro per lo stato di blocco e forzatura.", "details": "Utile per visualizzazione e diagnosi quando l'uso è bloccato o sovrascritto."},
     {"id": "knx.status_error_power", "page": "KNX", "label": "Stato codice errore / limite di potenza", "short": "Riscontro per errori e limite di potenza attivo.", "details": "Consente allarmi lato KNX o la visualizzazione di stati tecnici."},
     {"id": "admin.unlock", "page": "Admin", "label": "Codice admin", "short": "Apre l'area admin protetta.", "details": "Admin è pensato per diagnosi, endpoint JSON e informazioni tecniche approfondite. Non considerarlo una vera protezione di rete."},

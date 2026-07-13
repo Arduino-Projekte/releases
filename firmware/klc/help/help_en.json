@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "kind": "klc_help",
-"version": "0.4.1",
+"version": "0.4.2",
   "firmware_min": "0.0.299",
   "language": "en",
   "title": "KLC Help",
@@ -151,7 +151,7 @@
     {"id": "knx.status_switch", "page": "KNX", "label": "Status on/off TX", "short": "KNX status object for the switching state.", "details": "Sends the current on/off state to the KNX bus."},
     {"id": "knx.status_scene", "page": "KNX", "label": "Status scene TX", "short": "KNX status object for the active scene.", "details": "Helps visualizations display the current scene status."},
     {"id": "knx.status_brightness", "page": "KNX", "label": "Status brightness TX", "short": "KNX status object for brightness.", "details": "Sends the current brightness value back."},
-    {"id": "knx.status_color", "page": "KNX", "label": "Status color R/G/B/W TX", "short": "KNX status objects for color components.", "details": "Each color channel is reported separately. Only enable the channels you need."},
+    {"id": "knx.status_color", "page": "KNX", "label": "Status color R/G/B/W TX", "short": "KNX status objects for color components.", "details": "Reports the actually rendered output color: the arithmetic mean of the currently visible pixels per channel, including global and output brightness. During scenes, transitions and animations the value is a representative average and is sent rate-limited; an output that is off reports 0. A chain head averages across the whole chain. Only enable the channels you need."},
     {"id": "knx.status_lock_force", "page": "KNX", "label": "Status lock/force TX", "short": "Feedback for lock and force state.", "details": "Useful for visualization and diagnostics when operation is blocked or overridden."},
     {"id": "knx.status_error_power", "page": "KNX", "label": "Status error code / power limit", "short": "Feedback for errors and an active power limit.", "details": "Allows KNX-side alarms or display of technical states."},
     {"id": "admin.unlock", "page": "Admin", "label": "Admin code", "short": "Opens the protected admin area.", "details": "Admin is meant for diagnostics, JSON endpoints and deep technical information. Do not treat it as full network protection."},

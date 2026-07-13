@@ -1,7 +1,7 @@
 {
     "schema":  1,
     "kind":  "klc_help",
-"version":  "0.4.1",
+"version":  "0.4.2",
     "firmware_min":  "0.0.299",
     "language":  "de",
     "title":  "KLC Hilfe",
@@ -969,7 +969,7 @@
                        "page":  "KNX",
                        "label":  "Status Farbe R/G/B/W TX",
                        "short":  "KNX-Statusobjekte für Farbkomponenten.",
-                       "details":  "Jeder Farbkanal wird separat gemeldet. Nur benötigte Kanäle aktivieren."
+                       "details":  "Meldet die tatsächlich ausgegebene Farbe: den arithmetischen Mittelwert der aktuell sichtbaren Pixel je Kanal, inklusive Global- und Ausgangshelligkeit. Bei Szenen, Übergängen und Animationen ist der Wert ein repräsentativer Mittelwert und wird ratenbegrenzt gesendet; ein ausgeschalteter Ausgang meldet 0. Ein Kettenkopf mittelt über die gesamte Kette. Nur benötigte Kanäle aktivieren."
                    },
                    {
                        "id":  "knx.status_lock_force",

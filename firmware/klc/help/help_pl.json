@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "kind": "klc_help",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "firmware_min": "0.0.299",
   "language": "pl",
   "title": "Pomoc KLC",
@@ -151,7 +151,7 @@
     {"id": "knx.status_switch", "page": "KNX", "label": "Status wł./wył. TX", "short": "Obiekt statusu KNX dla stanu łączenia.", "details": "Wysyła aktualny stan wł./wył. na magistralę KNX."},
     {"id": "knx.status_scene", "page": "KNX", "label": "Status sceny TX", "short": "Obiekt statusu KNX dla aktywnej sceny.", "details": "Pomaga wizualizacjom pokazywać aktualny status sceny."},
     {"id": "knx.status_brightness", "page": "KNX", "label": "Status jasności TX", "short": "Obiekt statusu KNX dla jasności.", "details": "Odsyła aktualną wartość jasności."},
-    {"id": "knx.status_color", "page": "KNX", "label": "Status koloru R/G/B/W TX", "short": "Obiekty statusu KNX dla składowych koloru.", "details": "Każdy kanał koloru jest zgłaszany osobno. Aktywować tylko potrzebne kanały."},
+    {"id": "knx.status_color", "page": "KNX", "label": "Status koloru R/G/B/W TX", "short": "Obiekty statusu KNX dla składowych koloru.", "details": "Zgłasza rzeczywiście wysyłany kolor: średnią arytmetyczną aktualnie widocznych pikseli na kanał, z uwzględnieniem jasności globalnej i jasności wyjścia. Przy scenach, przejściach i animacjach wartość jest średnią reprezentatywną wysyłaną z ograniczeniem częstotliwości; wyłączone wyjście zgłasza 0. Głowa łańcucha uśrednia cały łańcuch. Aktywować tylko potrzebne kanały."},
     {"id": "knx.status_lock_force", "page": "KNX", "label": "Status blokady/wymuszenia TX", "short": "Informacja zwrotna o stanie blokady i wymuszenia.", "details": "Przydatne dla wizualizacji i diagnostyki, gdy obsługa jest zablokowana lub nadpisana."},
     {"id": "knx.status_error_power", "page": "KNX", "label": "Status kodu błędu / limitu mocy", "short": "Informacja zwrotna o błędach i aktywnym limicie mocy.", "details": "Umożliwia alarmowanie po stronie KNX lub pokazywanie stanów technicznych."},
     {"id": "admin.unlock", "page": "Admin", "label": "Kod admina", "short": "Otwiera chroniony obszar administratora.", "details": "Admin jest przeznaczony do diagnostyki, endpointów JSON i pogłębionych informacji technicznych. Nie traktować jako pełnowartościowej ochrony sieciowej."},

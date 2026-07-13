@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "kind": "klc_help",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "firmware_min": "0.0.299",
   "language": "nl",
   "title": "KLC Help",
@@ -151,7 +151,7 @@
     {"id": "knx.status_switch", "page": "KNX", "label": "Status aan/uit TX", "short": "KNX-statusobject voor de schakeltoestand.", "details": "Verzendt de actuele aan/uit-toestand naar de KNX-bus."},
     {"id": "knx.status_scene", "page": "KNX", "label": "Status scène TX", "short": "KNX-statusobject voor de actieve scène.", "details": "Helpt visualisaties de actuele scènestatus te tonen."},
     {"id": "knx.status_brightness", "page": "KNX", "label": "Status helderheid TX", "short": "KNX-statusobject voor helderheid.", "details": "Stuurt de actuele helderheidswaarde terug."},
-    {"id": "knx.status_color", "page": "KNX", "label": "Status kleur R/G/B/W TX", "short": "KNX-statusobjecten voor kleurcomponenten.", "details": "Elk kleurkanaal wordt apart gemeld. Alleen benodigde kanalen activeren."},
+    {"id": "knx.status_color", "page": "KNX", "label": "Status kleur R/G/B/W TX", "short": "KNX-statusobjecten voor kleurcomponenten.", "details": "Meldt de werkelijk uitgestuurde kleur: het rekenkundig gemiddelde van de momenteel zichtbare pixels per kanaal, inclusief globale en uitgangshelderheid. Bij scènes, overgangen en animaties is de waarde een representatief gemiddelde dat met snelheidsbegrenzing wordt verzonden; een uitgeschakelde uitgang meldt 0. Een kettingkop middelt over de hele ketting. Alleen benodigde kanalen activeren."},
     {"id": "knx.status_lock_force", "page": "KNX", "label": "Status blokkering/dwang TX", "short": "Terugmelding voor blokkerings- en dwangtoestand.", "details": "Nuttig voor visualisatie en diagnose wanneer bediening geblokkeerd of overschreven wordt."},
     {"id": "knx.status_error_power", "page": "KNX", "label": "Status foutcode / powerlimiet", "short": "Terugmelding voor fouten en actieve powerlimiet.", "details": "Maakt KNX-zijdige alarmering of weergave van technische toestanden mogelijk."},
     {"id": "admin.unlock", "page": "Admin", "label": "Admincode", "short": "Opent het beveiligde admingedeelte.", "details": "Admin is bedoeld voor diagnose, JSON-endpoints en diepgaande technische informatie. Niet als volwaardige netwerkbeveiliging beschouwen."},
