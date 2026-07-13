@@ -6,7 +6,7 @@
                      "version":  "0.0.379",
                      "bin":  "knx-led-controller-16m-w_0.0.379.bin",
                      "file":  "knx-led-controller-16m-w_0.0.379.bin",
-                     "sha256":  "1a801650d8bdd77616a4ee484dcd8d251a470a446fa65870572070077ffc916c",
+                     "sha256":  "189b95e0cef3ba51f15ca45067f380969a7b864d6b70ce2e54bd50cc7844c10b",
                      "message":  "LED-Speicher wird beim Start reserviert; Tests bleiben fluechtig, Struktur wird nach Neustart mit Pending/LKG-Recovery aktiviert. Wizard/Outputs speichern RAM-schonend; /control laedt kompakt; Diagnose nur fuer Admins.",
                      "http_code":  200
                  }
