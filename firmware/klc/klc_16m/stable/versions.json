@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.378",
+                      "bin":  "knx-led-controller-16m_0.0.378.bin",
+                      "date":  "2026-07-13",
+                      "note":  "LED-Speicher wird beim Start reserviert; Output-Tests bleiben fluechtig, strukturelle Aenderungen werden erst nach Neustart aktiviert und Pending/LKG-Recovery faellt bei Aktivierungsfehlern sicher zurueck. Der Wizard-Abschluss bestaetigt den Speicher-Commit ohne grosse Request-Stack-Kopie."
+                  },
+                  {
                       "version":  "0.0.377",
                       "bin":  "knx-led-controller-16m_0.0.377.bin",
                       "date":  "2026-07-13",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m_0.0.374.bin",
                       "date":  "2026-07-12",
                       "note":  "Wizard-Navigation, WLAN-Direktweg und verifizierten Abschluss korrigiert."
-                  },
-                  {
-                      "version":  "0.0.373",
-                      "bin":  "knx-led-controller-16m_0.0.373.bin",
-                      "date":  "2026-07-12",
-                      "note":  "Auth-/IPv4-Import fail-closed; Ketten, Hilfe-Download und UI-Speicherung abgesichert."
                   }
               ]
 }
