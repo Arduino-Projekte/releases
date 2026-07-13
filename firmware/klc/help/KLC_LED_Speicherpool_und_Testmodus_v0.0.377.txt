@@ -1,0 +1,80 @@
+KLC – LED-MASTERPOOL, PENDING UND FLÜCHTIGER AUSGANGSTEST (ab v0.0.377)
+============================================================================
+
+AKTIV / IM TEST / GESPEICHERT / PENDING / LAST-KNOWN-GOOD
+-----------------------------------------------------------
+- AKTIV ist ausschließlich die Konfiguration, deren vollständiger
+  LED-Aktivierungspfad erfolgreich abgeschlossen wurde: Validierung,
+  Pixel- und Kettenprüfung, Speicherplan, Masterpool, Poolbereiche, PIO,
+  DMA, alle erforderlichen Ausgänge, Backend und Mindestreserve.
+- IM TEST sind temporäre Werte unter /outputs. Sie liegen nur im RAM,
+  verwenden den festen Testpool und werden niemals automatisch gespeichert.
+  Beim Beenden, Verlassen der Seite, Abbruch oder Verbindungsverlust wird
+  der aktive Ausgang einschließlich Kettentopologie wiederhergestellt.
+- GESPEICHERT/PENDING ist ein atomar geschriebener struktureller Stand, der
+  für den nächsten Neustart vorgesehen ist. Er ist noch nicht aktiv und
+  noch nicht Last-Known-Good.
+- LAST-KNOWN-GOOD (LKG) ist ausschließlich der zuletzt vollständig und
+  erfolgreich aktivierte Stand. Ein erfolgreicher Datei-Commit allein
+  reicht dafür ausdrücklich nicht.
+
+BOOT, BESTÄTIGUNG UND RECOVERY
+------------------------------
+Beim Neustart wird ein Pending-Kandidat zuerst vollständig validiert. Danach
+werden der LED-Masterpool reserviert und aufgeteilt sowie PIO, DMA und alle
+benötigten Ausgänge gestartet. Erst nach der abschließenden Reserveprüfung
+wird der Kandidat bestätigt, als LKG gesichert und Pending abgeschlossen.
+
+Scheitert irgendein Schritt, werden Pool, PIO, DMA und bereits gestartete
+Ausgänge vollständig zurückgerollt. Pending bleibt mit Fehler, Schritt,
+betroffenem Ausgang, Versuchszähler und Aktivierungssequenz sichtbar. Danach
+wird genau einmal LKG geladen. Derselbe fehlgeschlagene Kandidat wird nicht
+in einer Neustartschleife erneut versucht. Schlägt auch LKG fehl, startet der
+sichere Recoverymodus: LED-Ausgänge bleiben aus, WebUI, Netzwerk und
+Service-AP sollen für Korrektur und neuen Speicherungsversuch erreichbar
+bleiben.
+
+LED-MASTERPOOL, TESTPOOL, BUDGET UND RESERVE
+--------------------------------------------
+Beim Hochfahren wird ein zusammenhängender LED-Masterpool reserviert. Er
+enthält die Render- und DMA-Bereiche aller aktiven Ausgänge einschließlich
+64 Pixel Blackout-Tail je Ausgang sowie einen festen Testpool für genau einen
+Ausgang bis 1200 Pixel. RGB und RGBW benötigen im aktuellen Backend je Pixel
+ein Render- und ein DMA-Wort. Der Pool wird nach erfolgreichem Boot nicht neu
+alloziert oder vergrößert, sondern nur über geprüfte, nicht überlappende
+Offsets verwendet.
+
+Das gesamte LED-Pufferbudget einschließlich Testpool beträgt 128 KiB.
+Zusätzlich müssen mindestens 64 KiB Systemreserve für WebUI, Netzwerk, BAOS,
+JSON, Szenen und Laufzeitspitzen verbleiben. Alle Additionen,
+Multiplikationen, Offsets und Endpositionen werden vor Cast oder
+Zeigerbildung geprüft.
+
+PIXELGRENZEN UND 0-PIXEL-REGEL
+------------------------------
+- 0 Pixel: nur im flüchtigen Testmodus zulässig; keine Ausgabe, kein PIO,
+  kein DMA, kein Anfang-/Endetest und keine Berechnung von pixels - 1.
+- 1 Pixel: Anfang und Ende zeigen beide sicher auf Pixel 0.
+- 800 Pixel: Normalbereich.
+- 801 Pixel: Beginn des zulässigen Warnbereichs.
+- 1200 Pixel: oberes zulässiges Maximum mit Warnung.
+- 1201 Pixel: zentral abgelehnt, keine Teilaktivierung und keine Kürzung.
+
+VERKETTETE AUSGÄNGE
+-------------------
+Ein Follower wird niemals als Einzelkanal getestet. Für einen sicheren Test
+wird die gesamte betroffene Kette kontrolliert pausiert beziehungsweise der
+Test abgelehnt. Nach Testende werden Master-/Follower-Zuordnung, Richtung,
+KNX, Szenen, Animationen und normale Ausgabe vollständig wiederhergestellt.
+
+DIAGNOSE UND SUPPORT-SNAPSHOT
+-----------------------------
+Die LED-Diagnose zeigt Boardprofil, Heap gesamt/belegt/frei und Tiefstwert,
+Heap vor Pool, nach Pool und nach Backend, Masterpool, aktiven Pufferbedarf,
+Testpool, 128-KiB-Budget, 64-KiB-Mindestreserve und Reserve darüber. Weiterhin
+sichtbar sind aktive, Pending- und LKG-Pixel sowie deren Speicherpläne,
+Neustart- und Pendingstatus, Poolfehler und Allokationszähler sowie letzter
+Aktivierungsfehler, Schritt, Ausgang, Fehlversuche, Sequenz, LKG-Rückfall und
+Recoverymodus. Heap-Auslastung, Systemreserve und LED-Pufferbudget sind drei
+getrennte Balken. Der Support-Snapshot und /api/leddiag verwenden dieselbe
+zentrale Datenstruktur und daher dieselben Werte.

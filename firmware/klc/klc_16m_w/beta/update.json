@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m-w_0.0.376.bin",
+                     "url":  "knx-led-controller-16m-w_0.0.377.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.376",
-                     "bin":  "knx-led-controller-16m-w_0.0.376.bin",
-                     "file":  "knx-led-controller-16m-w_0.0.376.bin",
-                     "sha256":  "b97b57aa866451faa03b29aef48efe91085d78ba33a45b1f88c8246d03549df1",
-                     "message":  "LED-Speicher wird beim Start reserviert; Ausgangsparameter bleiben ueber einen fluechtigen Testmodus sofort pruefbar.",
+                     "version":  "0.0.377",
+                     "bin":  "knx-led-controller-16m-w_0.0.377.bin",
+                     "file":  "knx-led-controller-16m-w_0.0.377.bin",
+                     "sha256":  "68565d2fd8c06efc95cb747183940695f143383c2f7d2cf3dd45eb90654077a0",
+                     "message":  "LED-Speicher wird beim Start reserviert; Output-Tests bleiben fluechtig, strukturelle Aenderungen werden erst nach Neustart aktiviert und Pending/LKG-Recovery faellt bei Aktivierungsfehlern sicher zurueck.",
                      "http_code":  200
                  }
 }
