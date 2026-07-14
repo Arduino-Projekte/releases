@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.403",
+                      "bin":  "knx-led-controller-16m-w_0.0.403.bin",
+                      "date":  "2026-07-14",
+                      "note":  "Offline-Einrichtungsassistent uebersetzt Darstellung und Theme-Auswahl vollstaendig."
+                  },
+                  {
                       "version":  "0.0.401",
                       "bin":  "knx-led-controller-16m-w_0.0.401.bin",
                       "date":  "2026-07-14",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m-w_0.0.398.bin",
                       "date":  "2026-07-14",
                       "note":  "Backup-Vorgangskennung bei blockweisen Setup-Uploads robust uebertragen."
-                  },
-                  {
-                      "version":  "0.0.397",
-                      "bin":  "knx-led-controller-16m-w_0.0.397.bin",
-                      "date":  "2026-07-14",
-                      "note":  "Buildfehler im Setup-Wizard behoben; Backup-Import bleibt speicherschonend und abwaertskompatibel."
                   }
               ]
 }
