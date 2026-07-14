@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.384",
+                      "bin":  "knx-led-controller-16m_0.0.384.bin",
+                      "date":  "2026-07-14",
+                      "note":  "Prüfung auf doppelte IDs und kollidierende KNX-Objekte ergänzt; Einrichtungsassistent und Benutzer-Navigation verbessert."
+                  },
+                  {
                       "version":  "0.0.383",
                       "bin":  "knx-led-controller-16m_0.0.383.bin",
                       "date":  "2026-07-13",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m_0.0.379.bin",
                       "date":  "2026-07-13",
                       "note":  "LED-Speicher wird beim Start reserviert; Tests bleiben fluechtig, Struktur wird nach Neustart mit Pending/LKG-Recovery aktiviert. Wizard/Outputs speichern RAM-schonend; /control laedt kompakt; Diagnose nur fuer Admins."
-                  },
-                  {
-                      "version":  "0.0.378",
-                      "bin":  "knx-led-controller-16m_0.0.378.bin",
-                      "date":  "2026-07-13",
-                      "note":  "LED-Speicher wird beim Start reserviert; Output-Tests bleiben fluechtig, strukturelle Aenderungen werden erst nach Neustart aktiviert und Pending/LKG-Recovery faellt bei Aktivierungsfehlern sicher zurueck. Der Wizard-Abschluss bestaetigt den Speicher-Commit ohne grosse Request-Stack-Kopie."
                   }
               ]
 }
