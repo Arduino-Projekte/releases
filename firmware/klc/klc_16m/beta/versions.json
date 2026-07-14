@@ -1,10 +1,16 @@
 {
     "items":  [
                   {
-                      "version":  "0.0.388",
-                      "bin":  "knx-led-controller-16m_0.0.388.bin",
+                      "version":  "0.0.391",
+                      "bin":  "knx-led-controller-16m_0.0.391.bin",
                       "date":  "2026-07-14",
-                      "note":  "Grosse WebUI-Antworten speicherschonend gestreamt und Trunkierung verhindert."
+                      "note":  "Grosse WebUI-Antworten vollstaendig gestreamt und Firmwaremodule mit klaren Schnittstellen aufgeteilt."
+                  },
+                  {
+                      "version":  "0.0.390",
+                      "bin":  "knx-led-controller-16m_0.0.390.bin",
+                      "date":  "2026-07-14",
+                      "note":  "ID- und KNX-Kollisionserkennung vervollstaendigt sowie BAOS-/KNX-Schnittstellendateien automatisch geprueft."
                   },
                   {
                       "version":  "0.0.387",
@@ -13,22 +19,16 @@
                       "note":  "BAOS-Datenpunkte, KNX-Dateien und Firmwarebelegung synchronisiert."
                   },
                   {
-                      "version":  "0.0.385",
-                      "bin":  "knx-led-controller-16m_0.0.385.bin",
+                      "version":  "0.0.389",
+                      "bin":  "knx-led-controller-16m_0.0.389.bin",
                       "date":  "2026-07-14",
-                      "note":  "Automatischen Start mit gültiger Konfigurations-Rettungskopie ergänzt."
+                      "note":  "Grosse Firmwaremodule funktional aufgeteilt und Wartbarkeit verbessert."
                   },
                   {
-                      "version":  "0.0.384",
-                      "bin":  "knx-led-controller-16m_0.0.384.bin",
+                      "version":  "0.0.388",
+                      "bin":  "knx-led-controller-16m_0.0.388.bin",
                       "date":  "2026-07-14",
-                      "note":  "Prüfung auf doppelte IDs und kollidierende KNX-Objekte ergänzt; Einrichtungsassistent und Benutzer-Navigation verbessert."
-                  },
-                  {
-                      "version":  "0.0.383",
-                      "bin":  "knx-led-controller-16m_0.0.383.bin",
-                      "date":  "2026-07-13",
-                      "note":  "Einrichtungsassistent: Abschluss-Request gefiltert und URL-kodiert, Fehlerantworten robuster ausgewertet und Setup-Commit-Diagnose erweitert."
+                      "note":  "Grosse WebUI-Antworten speicherschonend gestreamt und Trunkierung verhindert."
                   }
               ]
 }
