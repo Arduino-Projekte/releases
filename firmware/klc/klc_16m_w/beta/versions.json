@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.388",
+                      "bin":  "knx-led-controller-16m-w_0.0.388.bin",
+                      "date":  "2026-07-14",
+                      "note":  "Grosse WebUI-Antworten speicherschonend gestreamt und Trunkierung verhindert."
+                  },
+                  {
                       "version":  "0.0.387",
                       "bin":  "knx-led-controller-16m-w_0.0.387.bin",
                       "date":  "2026-07-14",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m-w_0.0.383.bin",
                       "date":  "2026-07-13",
                       "note":  "Einrichtungsassistent: Abschluss-Request gefiltert und URL-kodiert, Fehlerantworten robuster ausgewertet und Setup-Commit-Diagnose erweitert."
-                  },
-                  {
-                      "version":  "0.0.382",
-                      "bin":  "knx-led-controller-16m-w_0.0.382.bin",
-                      "date":  "2026-07-13",
-                      "note":  "KNX-Farbstatus auf tatsaechlich gerenderte RGBW-Ausgabe umgestellt (repraesentativer Mittelwert sichtbarer Pixel, busschonend gesendet)."
                   }
               ]
 }
