@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m_0.0.395.bin",
+                     "url":  "knx-led-controller-16m_0.0.397.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.395",
-                     "bin":  "knx-led-controller-16m_0.0.395.bin",
-                     "file":  "knx-led-controller-16m_0.0.395.bin",
-                     "sha256":  "e68c756eb5d9a2698cb0086c212271425cee626234291d27e9fa7f089fa7d1d6",
-                     "message":  "Sprachumschaltung durch synchronisierten Sprachpaketvertrag wiederhergestellt.",
+                     "version":  "0.0.397",
+                     "bin":  "knx-led-controller-16m_0.0.397.bin",
+                     "file":  "knx-led-controller-16m_0.0.397.bin",
+                     "sha256":  "055519005724cb71a0fedb811622a4fe1cfae15e494a1625ad6a09087a698f04",
+                     "message":  "Buildfehler im Setup-Wizard behoben; Backup-Import bleibt speicherschonend und abwaertskompatibel.",
                      "http_code":  200
                  }
 }

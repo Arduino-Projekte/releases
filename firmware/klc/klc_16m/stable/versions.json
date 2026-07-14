@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.397",
+                      "bin":  "knx-led-controller-16m_0.0.397.bin",
+                      "date":  "2026-07-14",
+                      "note":  "Buildfehler im Setup-Wizard behoben; Backup-Import bleibt speicherschonend und abwaertskompatibel."
+                  },
+                  {
                       "version":  "0.0.395",
                       "bin":  "knx-led-controller-16m_0.0.395.bin",
                       "date":  "2026-07-14",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m_0.0.391.bin",
                       "date":  "2026-07-14",
                       "note":  "Grosse WebUI-Antworten vollstaendig gestreamt und Firmwaremodule mit klaren Schnittstellen aufgeteilt."
-                  },
-                  {
-                      "version":  "0.0.387",
-                      "bin":  "knx-led-controller-16m_0.0.387.bin",
-                      "date":  "2026-07-14",
-                      "note":  "BAOS-Datenpunkte, KNX-Dateien und Firmwarebelegung synchronisiert."
                   }
               ]
 }
