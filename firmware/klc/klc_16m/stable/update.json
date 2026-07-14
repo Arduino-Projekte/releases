@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m_0.0.399.bin",
+                     "url":  "knx-led-controller-16m_0.0.400.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.399",
-                     "bin":  "knx-led-controller-16m_0.0.399.bin",
-                     "file":  "knx-led-controller-16m_0.0.399.bin",
-                     "sha256":  "e969eb94d580c95fd50b6b84bf38732f42cb8b25609f0addc80ae36441c76225",
-                     "message":  "Backup-Import gibt Uploadpuffer vor Commit frei; Run-LED-Takt stabilisiert.",
+                     "version":  "0.0.400",
+                     "bin":  "knx-led-controller-16m_0.0.400.bin",
+                     "file":  "knx-led-controller-16m_0.0.400.bin",
+                     "sha256":  "0cb0bc8693a5fb4c70e0077c073c0f4834556cb5ce7d499cdb6fd9f88c156a35",
+                     "message":  "Status-LED-Zustaende, Backup-Neustart und Darstellung im Einrichtungsassistenten ergaenzt.",
                      "http_code":  200
                  }
 }
