@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m-w_0.0.384.bin",
+                     "url":  "knx-led-controller-16m-w_0.0.385.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.384",
-                     "bin":  "knx-led-controller-16m-w_0.0.384.bin",
-                     "file":  "knx-led-controller-16m-w_0.0.384.bin",
-                     "sha256":  "130341f0395d6dc592150e98c602e25557cf9af2ac0ee2f63245a343d7904565",
-                     "message":  "Prüfung auf doppelte IDs und kollidierende KNX-Objekte ergänzt; Einrichtungsassistent und Benutzer-Navigation verbessert.",
+                     "version":  "0.0.385",
+                     "bin":  "knx-led-controller-16m-w_0.0.385.bin",
+                     "file":  "knx-led-controller-16m-w_0.0.385.bin",
+                     "sha256":  "b1fb108c898331c1a2a00d2462027b9ba4894fc4101f6dc7eb6a2a29fd87faef",
+                     "message":  "Automatischen Start mit gültiger Konfigurations-Rettungskopie ergänzt.",
                      "http_code":  200
                  }
 }

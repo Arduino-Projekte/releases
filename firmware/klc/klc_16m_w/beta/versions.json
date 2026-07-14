@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.385",
+                      "bin":  "knx-led-controller-16m-w_0.0.385.bin",
+                      "date":  "2026-07-14",
+                      "note":  "Automatischen Start mit gültiger Konfigurations-Rettungskopie ergänzt."
+                  },
+                  {
                       "version":  "0.0.384",
                       "bin":  "knx-led-controller-16m-w_0.0.384.bin",
                       "date":  "2026-07-14",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m-w_0.0.380.bin",
                       "date":  "2026-07-13",
                       "note":  "LED-Speicher wird beim Start reserviert; Tests bleiben fluechtig, Struktur wird nach Neustart mit Pending/LKG-Recovery aktiviert. Wizard/Outputs speichern ohne grosse Config-Kopien auf dem Request-Stack; Wizard-ACK bleibt nach Reset pruefbar."
-                  },
-                  {
-                      "version":  "0.0.379",
-                      "bin":  "knx-led-controller-16m-w_0.0.379.bin",
-                      "date":  "2026-07-13",
-                      "note":  "LED-Speicher wird beim Start reserviert; Tests bleiben fluechtig, Struktur wird nach Neustart mit Pending/LKG-Recovery aktiviert. Wizard/Outputs speichern RAM-schonend; /control laedt kompakt; Diagnose nur fuer Admins."
                   }
               ]
 }
