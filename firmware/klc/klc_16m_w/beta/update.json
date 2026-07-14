@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m-w_0.0.385.bin",
+                     "url":  "knx-led-controller-16m-w_0.0.387.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.385",
-                     "bin":  "knx-led-controller-16m-w_0.0.385.bin",
-                     "file":  "knx-led-controller-16m-w_0.0.385.bin",
-                     "sha256":  "b1fb108c898331c1a2a00d2462027b9ba4894fc4101f6dc7eb6a2a29fd87faef",
-                     "message":  "Automatischen Start mit gültiger Konfigurations-Rettungskopie ergänzt.",
+                     "version":  "0.0.387",
+                     "bin":  "knx-led-controller-16m-w_0.0.387.bin",
+                     "file":  "knx-led-controller-16m-w_0.0.387.bin",
+                     "sha256":  "dbc56d07b89060f9d138e3398b8861b70f50f9e7179b559e8ee4b1263f7f8e28",
+                     "message":  "BAOS-Datenpunkte, KNX-Dateien und Firmwarebelegung synchronisiert.",
                      "http_code":  200
                  }
 }

@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.387",
+                      "bin":  "knx-led-controller-16m_0.0.387.bin",
+                      "date":  "2026-07-14",
+                      "note":  "BAOS-Datenpunkte, KNX-Dateien und Firmwarebelegung synchronisiert."
+                  },
+                  {
                       "version":  "0.0.385",
                       "bin":  "knx-led-controller-16m_0.0.385.bin",
                       "date":  "2026-07-14",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m_0.0.382.bin",
                       "date":  "2026-07-13",
                       "note":  "KNX-Farbstatus auf tatsaechlich gerenderte RGBW-Ausgabe umgestellt (repraesentativer Mittelwert sichtbarer Pixel, busschonend gesendet)."
-                  },
-                  {
-                      "version":  "0.0.380",
-                      "bin":  "knx-led-controller-16m_0.0.380.bin",
-                      "date":  "2026-07-13",
-                      "note":  "LED-Speicher wird beim Start reserviert; Tests bleiben fluechtig, Struktur wird nach Neustart mit Pending/LKG-Recovery aktiviert. Wizard/Outputs speichern ohne grosse Config-Kopien auf dem Request-Stack; Wizard-ACK bleibt nach Reset pruefbar."
                   }
               ]
 }
