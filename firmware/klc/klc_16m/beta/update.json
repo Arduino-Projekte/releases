@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m_0.0.397.bin",
+                     "url":  "knx-led-controller-16m_0.0.398.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.397",
-                     "bin":  "knx-led-controller-16m_0.0.397.bin",
-                     "file":  "knx-led-controller-16m_0.0.397.bin",
-                     "sha256":  "055519005724cb71a0fedb811622a4fe1cfae15e494a1625ad6a09087a698f04",
-                     "message":  "Buildfehler im Setup-Wizard behoben; Backup-Import bleibt speicherschonend und abwaertskompatibel.",
+                     "version":  "0.0.398",
+                     "bin":  "knx-led-controller-16m_0.0.398.bin",
+                     "file":  "knx-led-controller-16m_0.0.398.bin",
+                     "sha256":  "9de51f90cf0c30ecef05bf667b20d3cf2ec427c850fe097b57c89ad773ae0a66",
+                     "message":  "Backup-Vorgangskennung bei blockweisen Setup-Uploads robust uebertragen.",
                      "http_code":  200
                  }
 }
