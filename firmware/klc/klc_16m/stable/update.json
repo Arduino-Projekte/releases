@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m_0.0.392.bin",
+                     "url":  "knx-led-controller-16m_0.0.394.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.392",
-                     "bin":  "knx-led-controller-16m_0.0.392.bin",
-                     "file":  "knx-led-controller-16m_0.0.392.bin",
-                     "sha256":  "8dff8fbecc5dc19ce1bc88eb4cb3af7f6093e366cd06baf1765d52a12cffb811",
-                     "message":  "Streaming-Antworten der Sicherheits- und KNX-Formulare korrigiert.",
+                     "version":  "0.0.394",
+                     "bin":  "knx-led-controller-16m_0.0.394.bin",
+                     "file":  "knx-led-controller-16m_0.0.394.bin",
+                     "sha256":  "bd127214b5c0f209cca1ce5516aa55247664af2fddbfa69fd47ca7a7d1de8e57",
+                     "message":  "Fehlplatzierte Diagnosezeilen vor Dashboard und Adminseite korrigiert.",
                      "http_code":  200
                  }
 }
