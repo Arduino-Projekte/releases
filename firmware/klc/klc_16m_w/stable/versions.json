@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.398",
+                      "bin":  "knx-led-controller-16m-w_0.0.398.bin",
+                      "date":  "2026-07-14",
+                      "note":  "Backup-Vorgangskennung bei blockweisen Setup-Uploads robust uebertragen."
+                  },
+                  {
                       "version":  "0.0.397",
                       "bin":  "knx-led-controller-16m-w_0.0.397.bin",
                       "date":  "2026-07-14",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m-w_0.0.392.bin",
                       "date":  "2026-07-14",
                       "note":  "Streaming-Antworten der Sicherheits- und KNX-Formulare korrigiert."
-                  },
-                  {
-                      "version":  "0.0.391",
-                      "bin":  "knx-led-controller-16m-w_0.0.391.bin",
-                      "date":  "2026-07-14",
-                      "note":  "Grosse WebUI-Antworten vollstaendig gestreamt und Firmwaremodule mit klaren Schnittstellen aufgeteilt."
                   }
               ]
 }
