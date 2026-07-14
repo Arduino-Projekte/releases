@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.401",
+                      "bin":  "knx-led-controller-16m_0.0.401.bin",
+                      "date":  "2026-07-14",
+                      "note":  "Backup-Meldung unterscheidet Schema-Migration und Profilanpassung korrekt."
+                  },
+                  {
                       "version":  "0.0.400",
                       "bin":  "knx-led-controller-16m_0.0.400.bin",
                       "date":  "2026-07-14",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m_0.0.397.bin",
                       "date":  "2026-07-14",
                       "note":  "Buildfehler im Setup-Wizard behoben; Backup-Import bleibt speicherschonend und abwaertskompatibel."
-                  },
-                  {
-                      "version":  "0.0.395",
-                      "bin":  "knx-led-controller-16m_0.0.395.bin",
-                      "date":  "2026-07-14",
-                      "note":  "Sprachumschaltung durch synchronisierten Sprachpaketvertrag wiederhergestellt."
                   }
               ]
 }
