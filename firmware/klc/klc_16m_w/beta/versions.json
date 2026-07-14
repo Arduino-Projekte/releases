@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.394",
+                      "bin":  "knx-led-controller-16m-w_0.0.394.bin",
+                      "date":  "2026-07-14",
+                      "note":  "Fehlplatzierte Diagnosezeilen vor Dashboard und Adminseite korrigiert."
+                  },
+                  {
                       "version":  "0.0.392",
                       "bin":  "knx-led-controller-16m-w_0.0.392.bin",
                       "date":  "2026-07-14",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m-w_0.0.389.bin",
                       "date":  "2026-07-14",
                       "note":  "Grosse Firmwaremodule funktional aufgeteilt und Wartbarkeit verbessert."
-                  },
-                  {
-                      "version":  "0.0.388",
-                      "bin":  "knx-led-controller-16m-w_0.0.388.bin",
-                      "date":  "2026-07-14",
-                      "note":  "Grosse WebUI-Antworten speicherschonend gestreamt und Trunkierung verhindert."
                   }
               ]
 }
