@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.395",
+                      "bin":  "knx-led-controller-16m-w_0.0.395.bin",
+                      "date":  "2026-07-14",
+                      "note":  "Sprachumschaltung durch synchronisierten Sprachpaketvertrag wiederhergestellt."
+                  },
+                  {
                       "version":  "0.0.394",
                       "bin":  "knx-led-controller-16m-w_0.0.394.bin",
                       "date":  "2026-07-14",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m-w_0.0.387.bin",
                       "date":  "2026-07-14",
                       "note":  "BAOS-Datenpunkte, KNX-Dateien und Firmwarebelegung synchronisiert."
-                  },
-                  {
-                      "version":  "0.0.385",
-                      "bin":  "knx-led-controller-16m-w_0.0.385.bin",
-                      "date":  "2026-07-14",
-                      "note":  "Automatischen Start mit gültiger Konfigurations-Rettungskopie ergänzt."
                   }
               ]
 }
