@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m_0.0.394.bin",
+                     "url":  "knx-led-controller-16m_0.0.395.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.394",
-                     "bin":  "knx-led-controller-16m_0.0.394.bin",
-                     "file":  "knx-led-controller-16m_0.0.394.bin",
-                     "sha256":  "bd127214b5c0f209cca1ce5516aa55247664af2fddbfa69fd47ca7a7d1de8e57",
-                     "message":  "Fehlplatzierte Diagnosezeilen vor Dashboard und Adminseite korrigiert.",
+                     "version":  "0.0.395",
+                     "bin":  "knx-led-controller-16m_0.0.395.bin",
+                     "file":  "knx-led-controller-16m_0.0.395.bin",
+                     "sha256":  "e68c756eb5d9a2698cb0086c212271425cee626234291d27e9fa7f089fa7d1d6",
+                     "message":  "Sprachumschaltung durch synchronisierten Sprachpaketvertrag wiederhergestellt.",
                      "http_code":  200
                  }
 }
