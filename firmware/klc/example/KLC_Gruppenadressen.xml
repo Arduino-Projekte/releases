@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GroupAddress-Export xmlns="http://knx.org/xml/ga-export/01">
+  <GroupRange Name="KLC" RangeStart="4608" RangeEnd="4863">
+    <GroupAddress Name="Reserve" Address="2/2/0"/>
+    <GroupAddress Name="KLC Zentral Ein Aus" Address="2/2/1" DPTs="DPST-1-001"/>
+    <GroupAddress Name="KLC Zentral Szene" Address="2/2/2" DPTs="DPST-5-005"/>
+    <GroupAddress Name="KLC Zentral Helligkeit" Address="2/2/3" DPTs="DPST-5-001"/>
+    <GroupAddress Name="KLC Zentral Szene weiter zurueck" Address="2/2/4" DPTs="DPST-1-001"/>
+    <GroupAddress Name="KLC Zentral Farbe Rot" Address="2/2/10" DPTs="DPST-5-001"/>
+    <GroupAddress Name="KLC Zentral Farbe Gr&#252;n" Address="2/2/11" DPTs="DPST-5-001"/>
+    <GroupAddress Name="KLC Zentral Farbe Blau" Address="2/2/12" DPTs="DPST-5-001"/>
+    <GroupAddress Name="KLC Zentral Farbe Weiss" Address="2/2/13" DPTs="DPST-5-001"/>
+    <GroupAddress Name="KLC Ethernet Ein Aus" Address="2/2/14" DPTs="DPST-1-001"/>
+    <GroupAddress Name="KLC WLAN Ein Aus" Address="2/2/15" DPTs="DPST-1-001"/>
+    <GroupAddress Name="KLC Status Ethernet" Address="2/2/16" DPTs="DPST-1-001"/>
+    <GroupAddress Name="KLC Status WLAN" Address="2/2/17" DPTs="DPST-1-001"/>
+    <GroupAddress Name="KLC Status Power Limit" Address="2/2/18" DPTs="DPST-1-001"/>
+    <GroupAddress Name="KLC Status Fehlercode" Address="2/2/19" DPTs="DPST-5-005"/>
+    <GroupAddress Name="KLC A1 Ein Aus" Address="2/2/21" DPTs="DPST-1-001"/>
+    <GroupAddress Name="KLC A1 Szene" Address="2/2/22" DPTs="DPST-5-005"/>
+    <GroupAddress Name="KLC A1 Helligkeit" Address="2/2/23" DPTs="DPST-5-001"/>
+    <GroupAddress Name="KLC A1 Sperre" Address="2/2/24" DPTs="DPST-1-001"/>
+    <GroupAddress Name="KLC A1 Zwangsobjekt" Address="2/2/25" DPTs="DPST-1-001"/>
+    <GroupAddress Name="KLC A1 Szene weiter zurueck" Address="2/2/26" DPTs="DPST-1-001"/>
+    <GroupAddress Name="KLC A1 Farbe Rot" Address="2/2/31" DPTs="DPST-5-001"/>
+    <GroupAddress Name="KLC A1 Farbe Gr&#252;n" Address="2/2/32" DPTs="DPST-5-001"/>
+    <GroupAddress Name="KLC A1 Farbe Blau" Address="2/2/33" DPTs="DPST-5-001"/>
+    <GroupAddress Name="KLC A1 Farbe Weiss" Address="2/2/34" DPTs="DPST-5-001"/>
+    <GroupAddress Name="KLC A1 Status Szene" Address="2/2/41" DPTs="DPST-5-005"/>
+    <GroupAddress Name="KLC A1 Status Helligkeit" Address="2/2/42" DPTs="DPST-5-001"/>
+    <GroupAddress Name="KLC A1 Status Sperre" Address="2/2/43" DPTs="DPST-1-001"/>
+    <GroupAddress Name="KLC A1 Status Zwangsobjekt" Address="2/2/44" DPTs="DPST-1-001"/>
+    <GroupAddress Name="KLC A1 Status Ein Aus" Address="2/2/45" DPTs="DPST-1-001"/>
+    <GroupAddress Name="KLC A1 Status Farbe Rot" Address="2/2/46" DPTs="DPST-5-001"/>
+    <GroupAddress Name="KLC A1 Status Farbe Gr&#252;n" Address="2/2/47" DPTs="DPST-5-001"/>
+    <GroupAddress Name="KLC A1 Status Farbe Blau" Address="2/2/48" DPTs="DPST-5-001"/>
+    <GroupAddress Name="KLC A1 Status Farbe Weiss" Address="2/2/49" DPTs="DPST-5-001"/>
+    <GroupAddress Name="KLC A2 Ein Aus" Address="2/2/51" DPTs="DPST-1-001"/>
+    <GroupAddress Name="KLC A2 Szene" Address="2/2/52" DPTs="DPST-5-005"/>
+    <GroupAddress Name="KLC A2 Helligkeit" Address="2/2/53" DPTs="DPST-5-001"/>
+    <GroupAddress Name="KLC A2 Sperre" Address="2/2/54" DPTs="DPST-1-001"/>
+    <GroupAddress Name="KLC A2 Zwangsobjekt" Address="2/2/55" DPTs="DPST-1-001"/>
+    <GroupAddress Name="KLC A2 Szene weiter zurueck" Address="2/2/56" DPTs="DPST-1-001"/>
+    <GroupAddress Name="KLC A2 Farbe Rot" Address="2/2/61" DPTs="DPST-5-001"/>
+    <GroupAddress Name="KLC A2 Farbe Gr&#252;n" Address="2/2/62" DPTs="DPST-5-001"/>
+    <GroupAddress Name="KLC A2 Farbe Blau" Address="2/2/63" DPTs="DPST-5-001"/>
+    <GroupAddress Name="KLC A2 Farbe Weiss" Address="2/2/64" DPTs="DPST-5-001"/>
+    <GroupAddress Name="KLC A2 Status Szene" Address="2/2/71" DPTs="DPST-5-005"/>
+    <GroupAddress Name="KLC A2 Status Helligkeit" Address="2/2/72" DPTs="DPST-5-001"/>
+    <GroupAddress Name="KLC A2 Status Sperre" Address="2/2/73" DPTs="DPST-1-001"/>
+    <GroupAddress Name="KLC A2 Status Zwangsobjekt" Address="2/2/74" DPTs="DPST-1-001"/>
+    <GroupAddress Name="KLC A2 Status Ein Aus" Address="2/2/75" DPTs="DPST-1-001"/>
+    <GroupAddress Name="KLC A2 Status Farbe Rot" Address="2/2/76" DPTs="DPST-5-001"/>
+    <GroupAddress Name="KLC A2 Status Farbe Gr&#252;n" Address="2/2/77" DPTs="DPST-5-001"/>
+    <GroupAddress Name="KLC A2 Status Farbe Blau" Address="2/2/78" DPTs="DPST-5-001"/>
+    <GroupAddress Name="KLC A2 Status Farbe Weiss" Address="2/2/79" DPTs="DPST-5-001"/>
+    <GroupAddress Name="KLC A3 Ein Aus" Address="2/2/81" DPTs="DPST-1-001"/>
+    <GroupAddress Name="KLC A3 Szene" Address="2/2/82" DPTs="DPST-5-005"/>
+    <GroupAddress Name="KLC A3 Helligkeit" Address="2/2/83" DPTs="DPST-5-001"/>
+    <GroupAddress Name="KLC A3 Sperre" Address="2/2/84" DPTs="DPST-1-001"/>
+    <GroupAddress Name="KLC A3 Zwangsobjekt" Address="2/2/85" DPTs="DPST-1-001"/>
+    <GroupAddress Name="KLC A3 Szene weiter zurueck" Address="2/2/86" DPTs="DPST-1-001"/>
+    <GroupAddress Name="KLC A3 Farbe Rot" Address="2/2/91" DPTs="DPST-5-001"/>
+    <GroupAddress Name="KLC A3 Farbe Gr&#252;n" Address="2/2/92" DPTs="DPST-5-001"/>
+    <GroupAddress Name="KLC A3 Farbe Blau" Address="2/2/93" DPTs="DPST-5-001"/>
+    <GroupAddress Name="KLC A3 Farbe Weiss" Address="2/2/94" DPTs="DPST-5-001"/>
+    <GroupAddress Name="KLC A3 Status Szene" Address="2/2/101" DPTs="DPST-5-005"/>
+    <GroupAddress Name="KLC A3 Status Helligkeit" Address="2/2/102" DPTs="DPST-5-001"/>
+    <GroupAddress Name="KLC A3 Status Sperre" Address="2/2/103" DPTs="DPST-1-001"/>
+    <GroupAddress Name="KLC A3 Status Zwangsobjekt" Address="2/2/104" DPTs="DPST-1-001"/>
+    <GroupAddress Name="KLC A3 Status Ein Aus" Address="2/2/105" DPTs="DPST-1-001"/>
+    <GroupAddress Name="KLC A3 Status Farbe Rot" Address="2/2/106" DPTs="DPST-5-001"/>
+    <GroupAddress Name="KLC A3 Status Farbe Gr&#252;n" Address="2/2/107" DPTs="DPST-5-001"/>
+    <GroupAddress Name="KLC A3 Status Farbe Blau" Address="2/2/108" DPTs="DPST-5-001"/>
+    <GroupAddress Name="KLC A3 Status Farbe Weiss" Address="2/2/109" DPTs="DPST-5-001"/>
+    <GroupAddress Name="KLC A4 Ein Aus" Address="2/2/111" DPTs="DPST-1-001"/>
+    <GroupAddress Name="KLC A4 Szene" Address="2/2/112" DPTs="DPST-5-005"/>
+    <GroupAddress Name="KLC A4 Helligkeit" Address="2/2/113" DPTs="DPST-5-001"/>
+    <GroupAddress Name="KLC A4 Sperre" Address="2/2/114" DPTs="DPST-1-001"/>
+    <GroupAddress Name="KLC A4 Zwangsobjekt" Address="2/2/115" DPTs="DPST-1-001"/>
+    <GroupAddress Name="KLC A4 Szene weiter zurueck" Address="2/2/116" DPTs="DPST-1-001"/>
+    <GroupAddress Name="KLC A4 Farbe Rot" Address="2/2/121" DPTs="DPST-5-001"/>
+    <GroupAddress Name="KLC A4 Farbe Gr&#252;n" Address="2/2/122" DPTs="DPST-5-001"/>
+    <GroupAddress Name="KLC A4 Farbe Blau" Address="2/2/123" DPTs="DPST-5-001"/>
+    <GroupAddress Name="KLC A4 Farbe Weiss" Address="2/2/124" DPTs="DPST-5-001"/>
+    <GroupAddress Name="KLC A4 Status Szene" Address="2/2/131" DPTs="DPST-5-005"/>
+    <GroupAddress Name="KLC A4 Status Helligkeit" Address="2/2/132" DPTs="DPST-5-001"/>
+    <GroupAddress Name="KLC A4 Status Sperre" Address="2/2/133" DPTs="DPST-1-001"/>
+    <GroupAddress Name="KLC A4 Status Zwangsobjekt" Address="2/2/134" DPTs="DPST-1-001"/>
+    <GroupAddress Name="KLC A4 Status Ein Aus" Address="2/2/135" DPTs="DPST-1-001"/>
+    <GroupAddress Name="KLC A4 Status Farbe Rot" Address="2/2/136" DPTs="DPST-5-001"/>
+    <GroupAddress Name="KLC A4 Status Farbe Gr&#252;n" Address="2/2/137" DPTs="DPST-5-001"/>
+    <GroupAddress Name="KLC A4 Status Farbe Blau" Address="2/2/138" DPTs="DPST-5-001"/>
+    <GroupAddress Name="KLC A4 Status Farbe Weiss" Address="2/2/139" DPTs="DPST-5-001"/>
+    <GroupAddress Name="KLC A5 Ein Aus" Address="2/2/141" DPTs="DPST-1-001"/>
+    <GroupAddress Name="KLC A5 Szene" Address="2/2/142" DPTs="DPST-5-005"/>
+    <GroupAddress Name="KLC A5 Helligkeit" Address="2/2/143" DPTs="DPST-5-001"/>
+    <GroupAddress Name="KLC A5 Sperre" Address="2/2/144" DPTs="DPST-1-001"/>
+    <GroupAddress Name="KLC A5 Zwangsobjekt" Address="2/2/145" DPTs="DPST-1-001"/>
+    <GroupAddress Name="KLC A5 Szene weiter zurueck" Address="2/2/146" DPTs="DPST-1-001"/>
+    <GroupAddress Name="KLC A5 Farbe Rot" Address="2/2/151" DPTs="DPST-5-001"/>
+    <GroupAddress Name="KLC A5 Farbe Gr&#252;n" Address="2/2/152" DPTs="DPST-5-001"/>
+    <GroupAddress Name="KLC A5 Farbe Blau" Address="2/2/153" DPTs="DPST-5-001"/>
+    <GroupAddress Name="KLC A5 Farbe Weiss" Address="2/2/154" DPTs="DPST-5-001"/>
+    <GroupAddress Name="KLC A5 Status Szene" Address="2/2/161" DPTs="DPST-5-005"/>
+    <GroupAddress Name="KLC A5 Status Helligkeit" Address="2/2/162" DPTs="DPST-5-001"/>
+    <GroupAddress Name="KLC A5 Status Sperre" Address="2/2/163" DPTs="DPST-1-001"/>
+    <GroupAddress Name="KLC A5 Status Zwangsobjekt" Address="2/2/164" DPTs="DPST-1-001"/>
+    <GroupAddress Name="KLC A5 Status Ein Aus" Address="2/2/165" DPTs="DPST-1-001"/>
+    <GroupAddress Name="KLC A5 Status Farbe Rot" Address="2/2/166" DPTs="DPST-5-001"/>
+    <GroupAddress Name="KLC A5 Status Farbe Gr&#252;n" Address="2/2/167" DPTs="DPST-5-001"/>
+    <GroupAddress Name="KLC A5 Status Farbe Blau" Address="2/2/168" DPTs="DPST-5-001"/>
+    <GroupAddress Name="KLC A5 Status Farbe Weiss" Address="2/2/169" DPTs="DPST-5-001"/>
+  </GroupRange>
+</GroupAddress-Export>

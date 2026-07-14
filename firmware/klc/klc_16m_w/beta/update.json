@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m-w_0.0.391.bin",
+                     "url":  "knx-led-controller-16m-w_0.0.392.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.391",
-                     "bin":  "knx-led-controller-16m-w_0.0.391.bin",
-                     "file":  "knx-led-controller-16m-w_0.0.391.bin",
-                     "sha256":  "363a00d017e5decd73f3c75f6fce8706a8c4b9e048ff2ab5631ddd4b3fa53255",
-                     "message":  "Grosse WebUI-Antworten vollstaendig gestreamt und Firmwaremodule mit klaren Schnittstellen aufgeteilt.",
+                     "version":  "0.0.392",
+                     "bin":  "knx-led-controller-16m-w_0.0.392.bin",
+                     "file":  "knx-led-controller-16m-w_0.0.392.bin",
+                     "sha256":  "ac26841932f6100e584bf3b0ca51608121522eb761f4ee8f148cff30959e3432",
+                     "message":  "Streaming-Antworten der Sicherheits- und KNX-Formulare korrigiert.",
                      "http_code":  200
                  }
 }
