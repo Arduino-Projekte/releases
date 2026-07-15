@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m-w_0.0.404.bin",
+                     "url":  "knx-led-controller-16m-w_0.0.406.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.404",
-                     "bin":  "knx-led-controller-16m-w_0.0.404.bin",
-                     "file":  "knx-led-controller-16m-w_0.0.404.bin",
-                     "sha256":  "6393a92c7ce57deb94d69fb63ef5543fea44f7c9ee7fcd5a61ac92ba8bfeafb5",
-                     "message":  "Backup-Erfolgsmeldung vereinfacht und in der importierten Sprache ausgegeben.",
+                     "version":  "0.0.406",
+                     "bin":  "knx-led-controller-16m-w_0.0.406.bin",
+                     "file":  "knx-led-controller-16m-w_0.0.406.bin",
+                     "sha256":  "444b96194e1f061e6dc8d9cf73cb7d0b3320fe39905d6c02ff89868b1f497169",
+                     "message":  "KNX-/BAOS-Korrektur: Prioritaet Zwang vor Sperre vor Normalbefehl; DP 1 nutzt je Ausgang konfigurierte Ein-/Ausschaltaktion und Rampen; Szenen oeffentlich 0=Aus und 1..50 mit konsistentem Status; DP 3, RGBW und Letzte Einstellung bleiben reine RAM-Laufzeitwerte; Power-On bietet feste RGBW-Werte, Schema 64 migriert altes Letzte Einstellung sicher zu Aus; DP 52, WebUI und LED-Ausgabe verwenden dieselbe proportionale Live-Leistungsbegrenzung; Netzwerkreset-Hinweis, Sprach-/Hilfetexte und Schnittstellenschemata aktualisiert; Buildfehler im Speicherimport durch explizite Einbindung der Szenendefinitionen behoben.",
                      "http_code":  200
                  }
 }

@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.406",
+                      "bin":  "knx-led-controller-16m-w_0.0.406.bin",
+                      "date":  "2026-07-15",
+                      "note":  "KNX-/BAOS-Korrektur: Prioritaet Zwang vor Sperre vor Normalbefehl; DP 1 nutzt je Ausgang konfigurierte Ein-/Ausschaltaktion und Rampen; Szenen oeffentlich 0=Aus und 1..50 mit konsistentem Status; DP 3, RGBW und Letzte Einstellung bleiben reine RAM-Laufzeitwerte; Power-On bietet feste RGBW-Werte, Schema 64 migriert altes Letzte Einstellung sicher zu Aus; DP 52, WebUI und LED-Ausgabe verwenden dieselbe proportionale Live-Leistungsbegrenzung; Netzwerkreset-Hinweis, Sprach-/Hilfetexte und Schnittstellenschemata aktualisiert; Buildfehler im Speicherimport durch explizite Einbindung der Szenendefinitionen behoben."
+                  },
+                  {
                       "version":  "0.0.404",
                       "bin":  "knx-led-controller-16m-w_0.0.404.bin",
                       "date":  "2026-07-15",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m-w_0.0.400.bin",
                       "date":  "2026-07-14",
                       "note":  "Status-LED-Zustaende, Backup-Neustart und Darstellung im Einrichtungsassistenten ergaenzt."
-                  },
-                  {
-                      "version":  "0.0.399",
-                      "bin":  "knx-led-controller-16m-w_0.0.399.bin",
-                      "date":  "2026-07-14",
-                      "note":  "Backup-Import gibt Uploadpuffer vor Commit frei; Run-LED-Takt stabilisiert."
                   }
               ]
 }
