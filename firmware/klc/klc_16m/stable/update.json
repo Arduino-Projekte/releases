@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m_0.0.403.bin",
+                     "url":  "knx-led-controller-16m_0.0.404.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.403",
-                     "bin":  "knx-led-controller-16m_0.0.403.bin",
-                     "file":  "knx-led-controller-16m_0.0.403.bin",
-                     "sha256":  "366a4a88e7202c6404c5a37b314979bc857fdae65a0ce25f81cc66a2fd9bc8b8",
-                     "message":  "Offline-Einrichtungsassistent uebersetzt Darstellung und Theme-Auswahl vollstaendig.",
+                     "version":  "0.0.404",
+                     "bin":  "knx-led-controller-16m_0.0.404.bin",
+                     "file":  "knx-led-controller-16m_0.0.404.bin",
+                     "sha256":  "c09947699494083f28dc2aaf0cbb8b3e8f7e2e03871d4beb1b0c64d964398055",
+                     "message":  "Backup-Erfolgsmeldung vereinfacht und in der importierten Sprache ausgegeben.",
                      "http_code":  200
                  }
 }
