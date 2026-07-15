@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.407",
+                      "bin":  "knx-led-controller-16m_0.0.407.bin",
+                      "date":  "2026-07-15",
+                      "note":  "KLC KNX/BAOS-Restkorrektur: Szenen verwenden bei DP 1 und DP x00 nun ebenfalls die parametrierten Ein- und Ausschalt-Rampen; dynamische Szenen laufen waehrend der ausgangsbezogenen Helligkeitshuellkurve weiter und Unterbrechungen beginnen ohne Faktorsprung am aktuellen Wert. Szene 0 ist ausschliesslich Aus und kein editierbarer Szenenplatz; Export und WebUI verwenden nur Szenen 1..50, alte Backup-Eintraege mit Szene 0 werden ohne Verschiebung verworfen. Controller-, Gruppen- und Ausgangslimits wirken getrennt in ihrem jeweiligen Geltungsbereich; LED-Ausgabe, KNX-Status, DP 52 und WebUI verwenden dieselbe live_rendered-Berechnung mit dem tatsaechlich wirksamen Faktor je physischem Ausgang. Power-On-Hilfetexte wurden auf Aus, feste RGBW-Werte und feste Szene bereinigt."
+                  },
+                  {
                       "version":  "0.0.406",
                       "bin":  "knx-led-controller-16m_0.0.406.bin",
                       "date":  "2026-07-15",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m_0.0.401.bin",
                       "date":  "2026-07-14",
                       "note":  "Backup-Meldung unterscheidet Schema-Migration und Profilanpassung korrekt."
-                  },
-                  {
-                      "version":  "0.0.400",
-                      "bin":  "knx-led-controller-16m_0.0.400.bin",
-                      "date":  "2026-07-14",
-                      "note":  "Status-LED-Zustaende, Backup-Neustart und Darstellung im Einrichtungsassistenten ergaenzt."
                   }
               ]
 }

@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m_0.0.406.bin",
+                     "url":  "knx-led-controller-16m_0.0.407.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.406",
-                     "bin":  "knx-led-controller-16m_0.0.406.bin",
-                     "file":  "knx-led-controller-16m_0.0.406.bin",
-                     "sha256":  "d9bfe609281082df2e87088ba431ba65186e2813c49ab9ca51b13f93fdd9bb85",
-                     "message":  "KNX-/BAOS-Korrektur: Prioritaet Zwang vor Sperre vor Normalbefehl; DP 1 nutzt je Ausgang konfigurierte Ein-/Ausschaltaktion und Rampen; Szenen oeffentlich 0=Aus und 1..50 mit konsistentem Status; DP 3, RGBW und Letzte Einstellung bleiben reine RAM-Laufzeitwerte; Power-On bietet feste RGBW-Werte, Schema 64 migriert altes Letzte Einstellung sicher zu Aus; DP 52, WebUI und LED-Ausgabe verwenden dieselbe proportionale Live-Leistungsbegrenzung; Netzwerkreset-Hinweis, Sprach-/Hilfetexte und Schnittstellenschemata aktualisiert; Buildfehler im Speicherimport durch explizite Einbindung der Szenendefinitionen behoben.",
+                     "version":  "0.0.407",
+                     "bin":  "knx-led-controller-16m_0.0.407.bin",
+                     "file":  "knx-led-controller-16m_0.0.407.bin",
+                     "sha256":  "e12b5d89019e2238fc225dc34d807606fce9b95a3fb5e296453ea31833878d72",
+                     "message":  "KLC KNX/BAOS-Restkorrektur: Szenen verwenden bei DP 1 und DP x00 nun ebenfalls die parametrierten Ein- und Ausschalt-Rampen; dynamische Szenen laufen waehrend der ausgangsbezogenen Helligkeitshuellkurve weiter und Unterbrechungen beginnen ohne Faktorsprung am aktuellen Wert. Szene 0 ist ausschliesslich Aus und kein editierbarer Szenenplatz; Export und WebUI verwenden nur Szenen 1..50, alte Backup-Eintraege mit Szene 0 werden ohne Verschiebung verworfen. Controller-, Gruppen- und Ausgangslimits wirken getrennt in ihrem jeweiligen Geltungsbereich; LED-Ausgabe, KNX-Status, DP 52 und WebUI verwenden dieselbe live_rendered-Berechnung mit dem tatsaechlich wirksamen Faktor je physischem Ausgang. Power-On-Hilfetexte wurden auf Aus, feste RGBW-Werte und feste Szene bereinigt.",
                      "http_code":  200
                  }
 }
