@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.404",
+                      "bin":  "knx-led-controller-16m-w_0.0.404.bin",
+                      "date":  "2026-07-15",
+                      "note":  "Backup-Erfolgsmeldung vereinfacht und in der importierten Sprache ausgegeben."
+                  },
+                  {
                       "version":  "0.0.403",
                       "bin":  "knx-led-controller-16m-w_0.0.403.bin",
                       "date":  "2026-07-14",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m-w_0.0.399.bin",
                       "date":  "2026-07-14",
                       "note":  "Backup-Import gibt Uploadpuffer vor Commit frei; Run-LED-Takt stabilisiert."
-                  },
-                  {
-                      "version":  "0.0.398",
-                      "bin":  "knx-led-controller-16m-w_0.0.398.bin",
-                      "date":  "2026-07-14",
-                      "note":  "Backup-Vorgangskennung bei blockweisen Setup-Uploads robust uebertragen."
                   }
               ]
 }
