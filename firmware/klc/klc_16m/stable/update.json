@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m_0.0.413.bin",
+                     "url":  "knx-led-controller-16m_0.0.415.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.413",
-                     "bin":  "knx-led-controller-16m_0.0.413.bin",
-                     "file":  "knx-led-controller-16m_0.0.413.bin",
-                     "sha256":  "6fbd0362e5a89b16d41392452e5eed04e1d2756a102c34ab15a95a6c9ed00372",
-                     "message":  "Die Adminseite bleibt ohne Vollseiten-Autoreload stabil. Im Einrichtungsassistenten wird die WLAN-Verbindung sofort getestet, der erfolgreiche Schritt dauerhaft gespeichert und danach automatisch nach einer stabilen Firmware gesucht; nach einem Update-Neustart wird an dieser Stelle fortgesetzt.",
+                     "version":  "0.0.415",
+                     "bin":  "knx-led-controller-16m_0.0.415.bin",
+                     "file":  "knx-led-controller-16m_0.0.415.bin",
+                     "sha256":  "10736c55d56b3146ae21ea6e883dd5a4ade7ce2ff2ecbb0fd539d9be787faf54",
+                     "message":  "Der WLAN-Test im Einrichtungsassistenten uebersteht die kurze Service-AP-Neusynchronisierung und pollt den Verbindungsstatus weiter. Schrittueberschriften werden passend zur sichtbaren Reihenfolge dynamisch nummeriert.",
                      "http_code":  200
                  }
 }
