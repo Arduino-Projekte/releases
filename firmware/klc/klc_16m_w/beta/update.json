@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m-w_0.0.412.bin",
+                     "url":  "knx-led-controller-16m-w_0.0.413.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.412",
-                     "bin":  "knx-led-controller-16m-w_0.0.412.bin",
-                     "file":  "knx-led-controller-16m-w_0.0.412.bin",
-                     "sha256":  "56e344de60fd34897bdba16befc7ee355a075ef7d6d25623e6484ffb317e4e8d",
-                     "message":  "Der Ethernet-DHCP-Client wird beim tatsaechlichen Kabel-Link aktiv neu angestossen und kann dadurch auch beim nicht blockierenden Geraetestart wieder eine Routeradresse beziehen. Bei WLAN als Ausgangsroute wird dessen DNS gegen eine spaetere Ethernet-Fallback-Konfiguration geschuetzt. BOOTSEL/UF2 bleibt per Service-Taster beim Einschalten erreichbar.",
+                     "version":  "0.0.413",
+                     "bin":  "knx-led-controller-16m-w_0.0.413.bin",
+                     "file":  "knx-led-controller-16m-w_0.0.413.bin",
+                     "sha256":  "d3dc2f48de0af5596de976d4de45c73c00fafe6bbdf75baa4ffa83339a79dff6",
+                     "message":  "Die Adminseite bleibt ohne Vollseiten-Autoreload stabil. Im Einrichtungsassistenten wird die WLAN-Verbindung sofort getestet, der erfolgreiche Schritt dauerhaft gespeichert und danach automatisch nach einer stabilen Firmware gesucht; nach einem Update-Neustart wird an dieser Stelle fortgesetzt.",
                      "http_code":  200
                  }
 }
