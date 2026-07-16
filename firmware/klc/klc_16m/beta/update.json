@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m_0.0.416.bin",
+                     "url":  "knx-led-controller-16m_0.0.417.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.416",
-                     "bin":  "knx-led-controller-16m_0.0.416.bin",
-                     "file":  "knx-led-controller-16m_0.0.416.bin",
-                     "sha256":  "302dfe9d4137d06a49f1554a477835ec2afb455c0df1ba47d996eac7953d171b",
-                     "message":  "Statusfelder sind im Dunkelmodus lesbar. Der WLAN-Test zeigt Spinner, Phase und Wartezeit. Nach erfolgreichem Assistenten wird der Service-AP abgeschaltet und die neue WLAN-IP als anklickbarer Uebergabelink angezeigt.",
+                     "version":  "0.0.417",
+                     "bin":  "knx-led-controller-16m_0.0.417.bin",
+                     "file":  "knx-led-controller-16m_0.0.417.bin",
+                     "sha256":  "0f44c69f44e98af16e98447bc8d307c53dfea1249fb28de2490b0630c24deac0",
+                     "message":  "Der Einrichtungsassistent wechselt nach Verlust des Service-AP automatisch ueber den lokalen Hostnamen ins Heimnetz und setzt dort fort. Der Seitenhintergrund deckt auch kurze Mobilansichten vollstaendig ab; eine doppelte WLAN-Erfolgsspeicherung wird vermieden.",
                      "http_code":  200
                  }
 }
