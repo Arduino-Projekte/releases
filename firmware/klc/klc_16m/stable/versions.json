@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.423",
+                      "bin":  "knx-led-controller-16m_0.0.423.bin",
+                      "date":  "2026-07-16",
+                      "note":  "Nach der DHCP-IP-Bestaetigung wird ausschliesslich der lokale KLC-Service-AP 192.168.4.1 sofort beendet; der WLAN-Client bleibt verbunden. Erst nach dem Netzwechsel des Smartphones wird die numerische Heimnetz-IP geoeffnet."
+                  },
+                  {
                       "version":  "0.0.422",
                       "bin":  "knx-led-controller-16m_0.0.422.bin",
                       "date":  "2026-07-16",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m_0.0.419.bin",
                       "date":  "2026-07-16",
                       "note":  "Die Abschlussseite zeigt die neue WLAN-IP vor dem Abschalten des Service-AP. Eine zehnsekündige Uebergabephase gibt Mobilbrowsern genug Zeit, Antwort und IP-Link sicher darzustellen; der Neustart folgt danach."
-                  },
-                  {
-                      "version":  "0.0.418",
-                      "bin":  "knx-led-controller-16m_0.0.418.bin",
-                      "date":  "2026-07-16",
-                      "note":  "Nach erfolgreicher WLAN-Verbindung zeigt die Setupseite serverseitig und unabhaengig von JavaScript die neue Heimnetz-IP mit Links zum Fortsetzen des Assistenten und zum direkten Oeffnen des Controllers an."
                   }
               ]
 }
