@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m_0.0.409.bin",
+                     "url":  "knx-led-controller-16m_0.0.410.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.409",
-                     "bin":  "knx-led-controller-16m_0.0.409.bin",
-                     "file":  "knx-led-controller-16m_0.0.409.bin",
-                     "sha256":  "107ab8413ef89cfacf47ae65b044beb0ecedcb1d342340fd6b55d04a694be2d2",
-                     "message":  "Ethernet und DHCP blockieren den Geraetestart nicht; die Fallback-IP wird nach der DHCP-Frist nun mit einem sauberen einmaligen Treiberwechsel aktiviert. Im Werkszustand sind alle LED-Ausgaenge deaktiviert und werden erst nach bewusster Einrichtung gestartet. Die Web-Szenen-API akzeptiert Szene 0 als Ausschaltbefehl, und die Hauptnavigation ist aufgeraeumt.",
+                     "version":  "0.0.410",
+                     "bin":  "knx-led-controller-16m_0.0.410.bin",
+                     "file":  "knx-led-controller-16m_0.0.410.bin",
+                     "sha256":  "f2084cf753c16e78076e56a689bd9bc82a769b2f28bb1d0f4b62b51242d6e3c0",
+                     "message":  "Der Service-Taster kann den Controller beim Einschalten nach drei Sekunden direkt in den BOOTSEL/UF2-Modus bringen; die Status-LEDs zeigen die Haltestufen eindeutig an. Im Netzwerk-Automatikmodus bleibt ein verbundener WLAN-Client die ausgehende Route, wenn Ethernet nur ueber die Fallback-IP verfuegbar ist. Ethernet und DHCP blockieren den Geraetestart weiterhin nicht.",
                      "http_code":  200
                  }
 }
