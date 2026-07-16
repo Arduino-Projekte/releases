@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.425",
+                      "bin":  "knx-led-controller-16m-w_0.0.425.bin",
+                      "date":  "2026-07-16",
+                      "note":  "Nach der DHCP-IP-Bestaetigung wird ausschliesslich der lokale KLC-Service-AP 192.168.4.1 sofort beendet; der WLAN-Client bleibt verbunden. Erst nach dem Netzwechsel des Smartphones wird die numerische Heimnetz-IP geoeffnet."
+                  },
+                  {
                       "version":  "0.0.424",
                       "bin":  "knx-led-controller-16m-w_0.0.424.bin",
                       "date":  "2026-07-16",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m-w_0.0.421.bin",
                       "date":  "2026-07-16",
                       "note":  "Service-Taster-LEDs zeigen die Resetstufen eindeutig: gruen blinkend, gruen plus rot blinkend, beide dauerhaft, ab zehn Sekunden aus. Benutzer duerfen Online-Updates suchen und installieren. Eingebettete Sprachpakete wurden neu synchronisiert."
-                  },
-                  {
-                      "version":  "0.0.420",
-                      "bin":  "knx-led-controller-16m-w_0.0.420.bin",
-                      "date":  "2026-07-16",
-                      "note":  "Die im Einrichtungsassistenten ausgewaehlte Sprache wird bereits mit dem WLAN-Schritt dauerhaft gespeichert. Nach einem Firmwareupdate oder Neustart wird der Assistent sofort in dieser Sprache fortgesetzt."
                   }
               ]
 }
