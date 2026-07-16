@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.408",
+                      "bin":  "knx-led-controller-16m_0.0.408.bin",
+                      "date":  "2026-07-16",
+                      "note":  "Die Web-Szenen-API akzeptiert Szene 0 wieder als Ausschaltbefehl. Ethernet und DHCP starten nun ohne den Geraetestart zu blockieren; eine konfigurierte Fallback-IP wird nach Ablauf der DHCP-Frist im Hintergrund aktiviert. Die Hauptnavigation ist aufgeraeumt: Das KLC-Logo oeffnet das Dashboard, der Adminlink erscheint erst nach der Adminanmeldung und die weiterhin vorhandenen Bereiche Beta Update und KNX System sind ueber System beziehungsweise Admin erreichbar. KNX-Arbeitsdateien sowie deutsche und englische Hilfetexte wurden auf den aktuellen Stand konsolidiert."
+                  },
+                  {
                       "version":  "0.0.407",
                       "bin":  "knx-led-controller-16m_0.0.407.bin",
                       "date":  "2026-07-15",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m_0.0.403.bin",
                       "date":  "2026-07-14",
                       "note":  "Offline-Einrichtungsassistent uebersetzt Darstellung und Theme-Auswahl vollstaendig."
-                  },
-                  {
-                      "version":  "0.0.401",
-                      "bin":  "knx-led-controller-16m_0.0.401.bin",
-                      "date":  "2026-07-14",
-                      "note":  "Backup-Meldung unterscheidet Schema-Migration und Profilanpassung korrekt."
                   }
               ]
 }
