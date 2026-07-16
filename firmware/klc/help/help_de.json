@@ -1137,7 +1137,7 @@
                        "page":  "Update",
                        "label":  "BOOTSEL / UF2-Modus",
                        "short":  "Versetzt das Board in den USB-Flashmodus.",
-                       "details":  "Nur für Wartung per USB verwenden. Die WebUI ist danach nicht erreichbar, bis das Board neu startet oder geflasht wurde."
+                       "details":  "Nur für Wartung per USB verwenden. Alternativ den Service-Taster bereits beim Einschalten gedrückt halten: Grün blinkt zunächst schnell, ab 1,5 Sekunden leuchtet Grün und Rot blinkt schnell; nach 3 Sekunden wechselt der Controller direkt in den BOOTSEL-/UF2-Modus. Vor 3 Sekunden loslassen setzt den normalen Start fort. Die WebUI ist im USB-Flashmodus nicht erreichbar, bis das Board neu startet oder geflasht wurde."
                    },
                    {
                        "id":  "update.backup_before_update",
