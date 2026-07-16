@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.416",
+                      "bin":  "knx-led-controller-16m-w_0.0.416.bin",
+                      "date":  "2026-07-16",
+                      "note":  "Statusfelder sind im Dunkelmodus lesbar. Der WLAN-Test zeigt Spinner, Phase und Wartezeit. Nach erfolgreichem Assistenten wird der Service-AP abgeschaltet und die neue WLAN-IP als anklickbarer Uebergabelink angezeigt."
+                  },
+                  {
                       "version":  "0.0.415",
                       "bin":  "knx-led-controller-16m-w_0.0.415.bin",
                       "date":  "2026-07-16",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m-w_0.0.411.bin",
                       "date":  "2026-07-16",
                       "note":  "Der nicht blockierende Ethernetstart uebernimmt den realen Kabel-Link nun explizit in den DHCP-Zustand; die DHCP-Frist beginnt erst bei vorhandenem Link und eine Fallback-IP wird nicht mehr waehrend des Linkaufbaus aktiviert. Der Service-Taster kann den Controller beim Einschalten nach drei Sekunden direkt in den BOOTSEL/UF2-Modus bringen."
-                  },
-                  {
-                      "version":  "0.0.410",
-                      "bin":  "knx-led-controller-16m-w_0.0.410.bin",
-                      "date":  "2026-07-16",
-                      "note":  "Der Service-Taster kann den Controller beim Einschalten nach drei Sekunden direkt in den BOOTSEL/UF2-Modus bringen; die Status-LEDs zeigen die Haltestufen eindeutig an. Im Netzwerk-Automatikmodus bleibt ein verbundener WLAN-Client die ausgehende Route, wenn Ethernet nur ueber die Fallback-IP verfuegbar ist. Ethernet und DHCP blockieren den Geraetestart weiterhin nicht."
                   }
               ]
 }

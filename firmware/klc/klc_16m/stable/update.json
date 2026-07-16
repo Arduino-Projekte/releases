@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m_0.0.415.bin",
+                     "url":  "knx-led-controller-16m_0.0.416.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.415",
-                     "bin":  "knx-led-controller-16m_0.0.415.bin",
-                     "file":  "knx-led-controller-16m_0.0.415.bin",
-                     "sha256":  "10736c55d56b3146ae21ea6e883dd5a4ade7ce2ff2ecbb0fd539d9be787faf54",
-                     "message":  "Der WLAN-Test im Einrichtungsassistenten uebersteht die kurze Service-AP-Neusynchronisierung und pollt den Verbindungsstatus weiter. Schrittueberschriften werden passend zur sichtbaren Reihenfolge dynamisch nummeriert.",
+                     "version":  "0.0.416",
+                     "bin":  "knx-led-controller-16m_0.0.416.bin",
+                     "file":  "knx-led-controller-16m_0.0.416.bin",
+                     "sha256":  "302dfe9d4137d06a49f1554a477835ec2afb455c0df1ba47d996eac7953d171b",
+                     "message":  "Statusfelder sind im Dunkelmodus lesbar. Der WLAN-Test zeigt Spinner, Phase und Wartezeit. Nach erfolgreichem Assistenten wird der Service-AP abgeschaltet und die neue WLAN-IP als anklickbarer Uebergabelink angezeigt.",
                      "http_code":  200
                  }
 }
