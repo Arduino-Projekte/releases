@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.419",
+                      "bin":  "knx-led-controller-16m_0.0.419.bin",
+                      "date":  "2026-07-16",
+                      "note":  "Die Abschlussseite zeigt die neue WLAN-IP vor dem Abschalten des Service-AP. Eine zehnsekündige Uebergabephase gibt Mobilbrowsern genug Zeit, Antwort und IP-Link sicher darzustellen; der Neustart folgt danach."
+                  },
+                  {
                       "version":  "0.0.418",
                       "bin":  "knx-led-controller-16m_0.0.418.bin",
                       "date":  "2026-07-16",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m_0.0.415.bin",
                       "date":  "2026-07-16",
                       "note":  "Der WLAN-Test im Einrichtungsassistenten uebersteht die kurze Service-AP-Neusynchronisierung und pollt den Verbindungsstatus weiter. Schrittueberschriften werden passend zur sichtbaren Reihenfolge dynamisch nummeriert."
-                  },
-                  {
-                      "version":  "0.0.414",
-                      "bin":  "knx-led-controller-16m_0.0.414.bin",
-                      "date":  "2026-07-16",
-                      "note":  "Die Schrittueberschriften des Einrichtungsassistenten werden passend zur tatsaechlich sichtbaren Reihenfolge dynamisch nummeriert. WLAN-Test, Updatepruefung und Fortsetzung nach Neustart bleiben erhalten."
                   }
               ]
 }

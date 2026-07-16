@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m_0.0.418.bin",
+                     "url":  "knx-led-controller-16m_0.0.419.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.418",
-                     "bin":  "knx-led-controller-16m_0.0.418.bin",
-                     "file":  "knx-led-controller-16m_0.0.418.bin",
-                     "sha256":  "c72e4e0aa2fcf913cf218c11fa6edb194f2dae9a2484703e299cfd7bdf00b32e",
-                     "message":  "Nach erfolgreicher WLAN-Verbindung zeigt die Setupseite serverseitig und unabhaengig von JavaScript die neue Heimnetz-IP mit Links zum Fortsetzen des Assistenten und zum direkten Oeffnen des Controllers an.",
+                     "version":  "0.0.419",
+                     "bin":  "knx-led-controller-16m_0.0.419.bin",
+                     "file":  "knx-led-controller-16m_0.0.419.bin",
+                     "sha256":  "0ba251eeb4f90ececc7aeb7093106210ffb7d93432860ce6ee2491e7400d8aa6",
+                     "message":  "Die Abschlussseite zeigt die neue WLAN-IP vor dem Abschalten des Service-AP. Eine zehnsekündige Uebergabephase gibt Mobilbrowsern genug Zeit, Antwort und IP-Link sicher darzustellen; der Neustart folgt danach.",
                      "http_code":  200
                  }
 }
