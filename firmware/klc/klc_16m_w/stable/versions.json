@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.417",
+                      "bin":  "knx-led-controller-16m-w_0.0.417.bin",
+                      "date":  "2026-07-16",
+                      "note":  "Der Einrichtungsassistent wechselt nach Verlust des Service-AP automatisch ueber den lokalen Hostnamen ins Heimnetz und setzt dort fort. Der Seitenhintergrund deckt auch kurze Mobilansichten vollstaendig ab; eine doppelte WLAN-Erfolgsspeicherung wird vermieden."
+                  },
+                  {
                       "version":  "0.0.416",
                       "bin":  "knx-led-controller-16m-w_0.0.416.bin",
                       "date":  "2026-07-16",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m-w_0.0.412.bin",
                       "date":  "2026-07-16",
                       "note":  "Der Ethernet-DHCP-Client wird beim tatsaechlichen Kabel-Link aktiv neu angestossen und kann dadurch auch beim nicht blockierenden Geraetestart wieder eine Routeradresse beziehen. Bei WLAN als Ausgangsroute wird dessen DNS gegen eine spaetere Ethernet-Fallback-Konfiguration geschuetzt. BOOTSEL/UF2 bleibt per Service-Taster beim Einschalten erreichbar."
-                  },
-                  {
-                      "version":  "0.0.411",
-                      "bin":  "knx-led-controller-16m-w_0.0.411.bin",
-                      "date":  "2026-07-16",
-                      "note":  "Der nicht blockierende Ethernetstart uebernimmt den realen Kabel-Link nun explizit in den DHCP-Zustand; die DHCP-Frist beginnt erst bei vorhandenem Link und eine Fallback-IP wird nicht mehr waehrend des Linkaufbaus aktiviert. Der Service-Taster kann den Controller beim Einschalten nach drei Sekunden direkt in den BOOTSEL/UF2-Modus bringen."
                   }
               ]
 }
