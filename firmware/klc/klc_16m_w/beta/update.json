@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m-w_0.0.417.bin",
+                     "url":  "knx-led-controller-16m-w_0.0.418.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.417",
-                     "bin":  "knx-led-controller-16m-w_0.0.417.bin",
-                     "file":  "knx-led-controller-16m-w_0.0.417.bin",
-                     "sha256":  "e92950f5c266ff7ab1800c844fb02eb7be35573afd12e344c8920740bc1cc8be",
-                     "message":  "Der Einrichtungsassistent wechselt nach Verlust des Service-AP automatisch ueber den lokalen Hostnamen ins Heimnetz und setzt dort fort. Der Seitenhintergrund deckt auch kurze Mobilansichten vollstaendig ab; eine doppelte WLAN-Erfolgsspeicherung wird vermieden.",
+                     "version":  "0.0.418",
+                     "bin":  "knx-led-controller-16m-w_0.0.418.bin",
+                     "file":  "knx-led-controller-16m-w_0.0.418.bin",
+                     "sha256":  "03694d312c31d7b0651d4d176dcadce68045ee1ef114095244317de440fbc096",
+                     "message":  "Nach erfolgreicher WLAN-Verbindung zeigt die Setupseite serverseitig und unabhaengig von JavaScript die neue Heimnetz-IP mit Links zum Fortsetzen des Assistenten und zum direkten Oeffnen des Controllers an.",
                      "http_code":  200
                  }
 }

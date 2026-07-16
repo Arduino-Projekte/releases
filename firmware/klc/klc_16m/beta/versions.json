@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.418",
+                      "bin":  "knx-led-controller-16m_0.0.418.bin",
+                      "date":  "2026-07-16",
+                      "note":  "Nach erfolgreicher WLAN-Verbindung zeigt die Setupseite serverseitig und unabhaengig von JavaScript die neue Heimnetz-IP mit Links zum Fortsetzen des Assistenten und zum direkten Oeffnen des Controllers an."
+                  },
+                  {
                       "version":  "0.0.417",
                       "bin":  "knx-led-controller-16m_0.0.417.bin",
                       "date":  "2026-07-16",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m_0.0.414.bin",
                       "date":  "2026-07-16",
                       "note":  "Die Schrittueberschriften des Einrichtungsassistenten werden passend zur tatsaechlich sichtbaren Reihenfolge dynamisch nummeriert. WLAN-Test, Updatepruefung und Fortsetzung nach Neustart bleiben erhalten."
-                  },
-                  {
-                      "version":  "0.0.413",
-                      "bin":  "knx-led-controller-16m_0.0.413.bin",
-                      "date":  "2026-07-16",
-                      "note":  "Die Adminseite bleibt ohne Vollseiten-Autoreload stabil. Im Einrichtungsassistenten wird die WLAN-Verbindung sofort getestet, der erfolgreiche Schritt dauerhaft gespeichert und danach automatisch nach einer stabilen Firmware gesucht; nach einem Update-Neustart wird an dieser Stelle fortgesetzt."
                   }
               ]
 }
