@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m-w_0.0.422.bin",
+                     "url":  "knx-led-controller-16m-w_0.0.423.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.422",
-                     "bin":  "knx-led-controller-16m-w_0.0.422.bin",
-                     "file":  "knx-led-controller-16m-w_0.0.422.bin",
-                     "sha256":  "3c983bf80b0f1047f761d1216e877850c3e4c22597bfe05bfdaf496cbabcd40e",
-                     "message":  "Der WLAN-Assistent bestaetigt die numerische DHCP-IP vor dem langen Config-Commit, zeigt einen IP-Link, schaltet danach den Service-AP ab und setzt unter der IP fort. Hostnamen werden fuer diese Weiterleitung nicht mehr verwendet.",
+                     "version":  "0.0.423",
+                     "bin":  "knx-led-controller-16m-w_0.0.423.bin",
+                     "file":  "knx-led-controller-16m-w_0.0.423.bin",
+                     "sha256":  "539c8c4f5f509f9261efe4b60d69ee6720d6b70c7a80162bf2b6f32dbf7ecc5c",
+                     "message":  "Nach der DHCP-IP-Bestaetigung wird ausschliesslich der lokale KLC-Service-AP 192.168.4.1 sofort beendet; der WLAN-Client bleibt verbunden. Erst nach dem Netzwechsel des Smartphones wird die numerische Heimnetz-IP geoeffnet.",
                      "http_code":  200
                  }
 }
