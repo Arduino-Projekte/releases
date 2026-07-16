@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m-w_0.0.419.bin",
+                     "url":  "knx-led-controller-16m-w_0.0.420.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.419",
-                     "bin":  "knx-led-controller-16m-w_0.0.419.bin",
-                     "file":  "knx-led-controller-16m-w_0.0.419.bin",
-                     "sha256":  "abe235b00f0a2a650f33380392364881639eb4eb4619873c4e5bd92f2b5b00e6",
-                     "message":  "Die Abschlussseite zeigt die neue WLAN-IP vor dem Abschalten des Service-AP. Eine zehnsekündige Uebergabephase gibt Mobilbrowsern genug Zeit, Antwort und IP-Link sicher darzustellen; der Neustart folgt danach.",
+                     "version":  "0.0.420",
+                     "bin":  "knx-led-controller-16m-w_0.0.420.bin",
+                     "file":  "knx-led-controller-16m-w_0.0.420.bin",
+                     "sha256":  "219e41b7156263d417f0011a492484731a8122c45abba3e5dd2061bceccc95b9",
+                     "message":  "Die im Einrichtungsassistenten ausgewaehlte Sprache wird bereits mit dem WLAN-Schritt dauerhaft gespeichert. Nach einem Firmwareupdate oder Neustart wird der Assistent sofort in dieser Sprache fortgesetzt.",
                      "http_code":  200
                  }
 }
