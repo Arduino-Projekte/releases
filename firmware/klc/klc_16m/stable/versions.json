@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.412",
+                      "bin":  "knx-led-controller-16m_0.0.412.bin",
+                      "date":  "2026-07-16",
+                      "note":  "Der Ethernet-DHCP-Client wird beim tatsaechlichen Kabel-Link aktiv neu angestossen und kann dadurch auch beim nicht blockierenden Geraetestart wieder eine Routeradresse beziehen. Bei WLAN als Ausgangsroute wird dessen DNS gegen eine spaetere Ethernet-Fallback-Konfiguration geschuetzt. BOOTSEL/UF2 bleibt per Service-Taster beim Einschalten erreichbar."
+                  },
+                  {
                       "version":  "0.0.411",
                       "bin":  "knx-led-controller-16m_0.0.411.bin",
                       "date":  "2026-07-16",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m_0.0.408.bin",
                       "date":  "2026-07-16",
                       "note":  "Die Web-Szenen-API akzeptiert Szene 0 wieder als Ausschaltbefehl. Ethernet und DHCP starten nun ohne den Geraetestart zu blockieren; eine konfigurierte Fallback-IP wird nach Ablauf der DHCP-Frist im Hintergrund aktiviert. Die Hauptnavigation ist aufgeraeumt: Das KLC-Logo oeffnet das Dashboard, der Adminlink erscheint erst nach der Adminanmeldung und die weiterhin vorhandenen Bereiche Beta Update und KNX System sind ueber System beziehungsweise Admin erreichbar. KNX-Arbeitsdateien sowie deutsche und englische Hilfetexte wurden auf den aktuellen Stand konsolidiert."
-                  },
-                  {
-                      "version":  "0.0.407",
-                      "bin":  "knx-led-controller-16m_0.0.407.bin",
-                      "date":  "2026-07-15",
-                      "note":  "KLC KNX/BAOS-Restkorrektur: Szenen verwenden bei DP 1 und DP x00 nun ebenfalls die parametrierten Ein- und Ausschalt-Rampen; dynamische Szenen laufen waehrend der ausgangsbezogenen Helligkeitshuellkurve weiter und Unterbrechungen beginnen ohne Faktorsprung am aktuellen Wert. Szene 0 ist ausschliesslich Aus und kein editierbarer Szenenplatz; Export und WebUI verwenden nur Szenen 1..50, alte Backup-Eintraege mit Szene 0 werden ohne Verschiebung verworfen. Controller-, Gruppen- und Ausgangslimits wirken getrennt in ihrem jeweiligen Geltungsbereich; LED-Ausgabe, KNX-Status, DP 52 und WebUI verwenden dieselbe live_rendered-Berechnung mit dem tatsaechlich wirksamen Faktor je physischem Ausgang. Power-On-Hilfetexte wurden auf Aus, feste RGBW-Werte und feste Szene bereinigt."
                   }
               ]
 }
