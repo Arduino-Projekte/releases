@@ -1,6 +1,18 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.415",
+                      "bin":  "knx-led-controller-16m-w_0.0.415.bin",
+                      "date":  "2026-07-16",
+                      "note":  "Der WLAN-Test im Einrichtungsassistenten uebersteht die kurze Service-AP-Neusynchronisierung und pollt den Verbindungsstatus weiter. Schrittueberschriften werden passend zur sichtbaren Reihenfolge dynamisch nummeriert."
+                  },
+                  {
+                      "version":  "0.0.414",
+                      "bin":  "knx-led-controller-16m-w_0.0.414.bin",
+                      "date":  "2026-07-16",
+                      "note":  "Die Schrittueberschriften des Einrichtungsassistenten werden passend zur tatsaechlich sichtbaren Reihenfolge dynamisch nummeriert. WLAN-Test, Updatepruefung und Fortsetzung nach Neustart bleiben erhalten."
+                  },
+                  {
                       "version":  "0.0.413",
                       "bin":  "knx-led-controller-16m-w_0.0.413.bin",
                       "date":  "2026-07-16",
@@ -17,18 +29,6 @@
                       "bin":  "knx-led-controller-16m-w_0.0.411.bin",
                       "date":  "2026-07-16",
                       "note":  "Der nicht blockierende Ethernetstart uebernimmt den realen Kabel-Link nun explizit in den DHCP-Zustand; die DHCP-Frist beginnt erst bei vorhandenem Link und eine Fallback-IP wird nicht mehr waehrend des Linkaufbaus aktiviert. Der Service-Taster kann den Controller beim Einschalten nach drei Sekunden direkt in den BOOTSEL/UF2-Modus bringen."
-                  },
-                  {
-                      "version":  "0.0.410",
-                      "bin":  "knx-led-controller-16m-w_0.0.410.bin",
-                      "date":  "2026-07-16",
-                      "note":  "Der Service-Taster kann den Controller beim Einschalten nach drei Sekunden direkt in den BOOTSEL/UF2-Modus bringen; die Status-LEDs zeigen die Haltestufen eindeutig an. Im Netzwerk-Automatikmodus bleibt ein verbundener WLAN-Client die ausgehende Route, wenn Ethernet nur ueber die Fallback-IP verfuegbar ist. Ethernet und DHCP blockieren den Geraetestart weiterhin nicht."
-                  },
-                  {
-                      "version":  "0.0.409",
-                      "bin":  "knx-led-controller-16m-w_0.0.409.bin",
-                      "date":  "2026-07-16",
-                      "note":  "Ethernet und DHCP blockieren den Geraetestart nicht; die Fallback-IP wird nach der DHCP-Frist nun mit einem sauberen einmaligen Treiberwechsel aktiviert. Im Werkszustand sind alle LED-Ausgaenge deaktiviert und werden erst nach bewusster Einrichtung gestartet. Die Web-Szenen-API akzeptiert Szene 0 als Ausschaltbefehl, und die Hauptnavigation ist aufgeraeumt."
                   }
               ]
 }
