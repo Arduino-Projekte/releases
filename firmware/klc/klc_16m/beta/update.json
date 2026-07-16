@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m_0.0.410.bin",
+                     "url":  "knx-led-controller-16m_0.0.411.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.410",
-                     "bin":  "knx-led-controller-16m_0.0.410.bin",
-                     "file":  "knx-led-controller-16m_0.0.410.bin",
-                     "sha256":  "f2084cf753c16e78076e56a689bd9bc82a769b2f28bb1d0f4b62b51242d6e3c0",
-                     "message":  "Der Service-Taster kann den Controller beim Einschalten nach drei Sekunden direkt in den BOOTSEL/UF2-Modus bringen; die Status-LEDs zeigen die Haltestufen eindeutig an. Im Netzwerk-Automatikmodus bleibt ein verbundener WLAN-Client die ausgehende Route, wenn Ethernet nur ueber die Fallback-IP verfuegbar ist. Ethernet und DHCP blockieren den Geraetestart weiterhin nicht.",
+                     "version":  "0.0.411",
+                     "bin":  "knx-led-controller-16m_0.0.411.bin",
+                     "file":  "knx-led-controller-16m_0.0.411.bin",
+                     "sha256":  "9aee533c8d3ddd74ea15d5bf0392b7527ca9f8e56a72e4482fb6462df266ceed",
+                     "message":  "Der nicht blockierende Ethernetstart uebernimmt den realen Kabel-Link nun explizit in den DHCP-Zustand; die DHCP-Frist beginnt erst bei vorhandenem Link und eine Fallback-IP wird nicht mehr waehrend des Linkaufbaus aktiviert. Der Service-Taster kann den Controller beim Einschalten nach drei Sekunden direkt in den BOOTSEL/UF2-Modus bringen.",
                      "http_code":  200
                  }
 }
