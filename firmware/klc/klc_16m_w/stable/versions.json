@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.413",
+                      "bin":  "knx-led-controller-16m-w_0.0.413.bin",
+                      "date":  "2026-07-16",
+                      "note":  "Die Adminseite bleibt ohne Vollseiten-Autoreload stabil. Im Einrichtungsassistenten wird die WLAN-Verbindung sofort getestet, der erfolgreiche Schritt dauerhaft gespeichert und danach automatisch nach einer stabilen Firmware gesucht; nach einem Update-Neustart wird an dieser Stelle fortgesetzt."
+                  },
+                  {
                       "version":  "0.0.412",
                       "bin":  "knx-led-controller-16m-w_0.0.412.bin",
                       "date":  "2026-07-16",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m-w_0.0.409.bin",
                       "date":  "2026-07-16",
                       "note":  "Ethernet und DHCP blockieren den Geraetestart nicht; die Fallback-IP wird nach der DHCP-Frist nun mit einem sauberen einmaligen Treiberwechsel aktiviert. Im Werkszustand sind alle LED-Ausgaenge deaktiviert und werden erst nach bewusster Einrichtung gestartet. Die Web-Szenen-API akzeptiert Szene 0 als Ausschaltbefehl, und die Hauptnavigation ist aufgeraeumt."
-                  },
-                  {
-                      "version":  "0.0.408",
-                      "bin":  "knx-led-controller-16m-w_0.0.408.bin",
-                      "date":  "2026-07-16",
-                      "note":  "Die Web-Szenen-API akzeptiert Szene 0 wieder als Ausschaltbefehl. Ethernet und DHCP starten nun ohne den Geraetestart zu blockieren; eine konfigurierte Fallback-IP wird nach Ablauf der DHCP-Frist im Hintergrund aktiviert. Die Hauptnavigation ist aufgeraeumt: Das KLC-Logo oeffnet das Dashboard, der Adminlink erscheint erst nach der Adminanmeldung und die weiterhin vorhandenen Bereiche Beta Update und KNX System sind ueber System beziehungsweise Admin erreichbar. KNX-Arbeitsdateien sowie deutsche und englische Hilfetexte wurden auf den aktuellen Stand konsolidiert."
                   }
               ]
 }
