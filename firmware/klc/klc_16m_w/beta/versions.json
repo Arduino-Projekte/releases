@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.409",
+                      "bin":  "knx-led-controller-16m-w_0.0.409.bin",
+                      "date":  "2026-07-16",
+                      "note":  "Ethernet und DHCP blockieren den Geraetestart nicht; die Fallback-IP wird nach der DHCP-Frist nun mit einem sauberen einmaligen Treiberwechsel aktiviert. Im Werkszustand sind alle LED-Ausgaenge deaktiviert und werden erst nach bewusster Einrichtung gestartet. Die Web-Szenen-API akzeptiert Szene 0 als Ausschaltbefehl, und die Hauptnavigation ist aufgeraeumt."
+                  },
+                  {
                       "version":  "0.0.408",
                       "bin":  "knx-led-controller-16m-w_0.0.408.bin",
                       "date":  "2026-07-16",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m-w_0.0.404.bin",
                       "date":  "2026-07-15",
                       "note":  "Backup-Erfolgsmeldung vereinfacht und in der importierten Sprache ausgegeben."
-                  },
-                  {
-                      "version":  "0.0.403",
-                      "bin":  "knx-led-controller-16m-w_0.0.403.bin",
-                      "date":  "2026-07-14",
-                      "note":  "Offline-Einrichtungsassistent uebersetzt Darstellung und Theme-Auswahl vollstaendig."
                   }
               ]
 }

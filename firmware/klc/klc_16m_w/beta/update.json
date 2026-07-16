@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m-w_0.0.408.bin",
+                     "url":  "knx-led-controller-16m-w_0.0.409.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.408",
-                     "bin":  "knx-led-controller-16m-w_0.0.408.bin",
-                     "file":  "knx-led-controller-16m-w_0.0.408.bin",
-                     "sha256":  "f5e39acac36687e6ebc9faf94296c7cb6b7722827e7ef55b99765c2389241470",
-                     "message":  "Die Web-Szenen-API akzeptiert Szene 0 wieder als Ausschaltbefehl. Ethernet und DHCP starten nun ohne den Geraetestart zu blockieren; eine konfigurierte Fallback-IP wird nach Ablauf der DHCP-Frist im Hintergrund aktiviert. Die Hauptnavigation ist aufgeraeumt: Das KLC-Logo oeffnet das Dashboard, der Adminlink erscheint erst nach der Adminanmeldung und die weiterhin vorhandenen Bereiche Beta Update und KNX System sind ueber System beziehungsweise Admin erreichbar. KNX-Arbeitsdateien sowie deutsche und englische Hilfetexte wurden auf den aktuellen Stand konsolidiert.",
+                     "version":  "0.0.409",
+                     "bin":  "knx-led-controller-16m-w_0.0.409.bin",
+                     "file":  "knx-led-controller-16m-w_0.0.409.bin",
+                     "sha256":  "e2b32c580e25fb9a86e01da5114580eef7e7b9348888a712fc797f033ddc48ed",
+                     "message":  "Ethernet und DHCP blockieren den Geraetestart nicht; die Fallback-IP wird nach der DHCP-Frist nun mit einem sauberen einmaligen Treiberwechsel aktiviert. Im Werkszustand sind alle LED-Ausgaenge deaktiviert und werden erst nach bewusster Einrichtung gestartet. Die Web-Szenen-API akzeptiert Szene 0 als Ausschaltbefehl, und die Hauptnavigation ist aufgeraeumt.",
                      "http_code":  200
                  }
 }
