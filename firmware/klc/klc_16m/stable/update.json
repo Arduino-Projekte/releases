@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m_0.0.421.bin",
+                     "url":  "knx-led-controller-16m_0.0.422.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.421",
-                     "bin":  "knx-led-controller-16m_0.0.421.bin",
-                     "file":  "knx-led-controller-16m_0.0.421.bin",
-                     "sha256":  "f0f95a57097a1e2e90ceb9af27ef2946691a7a5be42dd0fffe157bd120825fad",
-                     "message":  "Service-Taster-LEDs zeigen die Resetstufen eindeutig: gruen blinkend, gruen plus rot blinkend, beide dauerhaft, ab zehn Sekunden aus. Benutzer duerfen Online-Updates suchen und installieren. Eingebettete Sprachpakete wurden neu synchronisiert.",
+                     "version":  "0.0.422",
+                     "bin":  "knx-led-controller-16m_0.0.422.bin",
+                     "file":  "knx-led-controller-16m_0.0.422.bin",
+                     "sha256":  "c36676d6e38ca0e076bf49c041860242148b9c3bf510cbe71650e6bf6a8f6855",
+                     "message":  "Der WLAN-Assistent bestaetigt die numerische DHCP-IP vor dem langen Config-Commit, zeigt einen IP-Link, schaltet danach den Service-AP ab und setzt unter der IP fort. Hostnamen werden fuer diese Weiterleitung nicht mehr verwendet.",
                      "http_code":  200
                  }
 }
