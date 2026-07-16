@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.421",
+                      "bin":  "knx-led-controller-16m_0.0.421.bin",
+                      "date":  "2026-07-16",
+                      "note":  "Service-Taster-LEDs zeigen die Resetstufen eindeutig: gruen blinkend, gruen plus rot blinkend, beide dauerhaft, ab zehn Sekunden aus. Benutzer duerfen Online-Updates suchen und installieren. Eingebettete Sprachpakete wurden neu synchronisiert."
+                  },
+                  {
                       "version":  "0.0.420",
                       "bin":  "knx-led-controller-16m_0.0.420.bin",
                       "date":  "2026-07-16",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m_0.0.417.bin",
                       "date":  "2026-07-16",
                       "note":  "Der Einrichtungsassistent wechselt nach Verlust des Service-AP automatisch ueber den lokalen Hostnamen ins Heimnetz und setzt dort fort. Der Seitenhintergrund deckt auch kurze Mobilansichten vollstaendig ab; eine doppelte WLAN-Erfolgsspeicherung wird vermieden."
-                  },
-                  {
-                      "version":  "0.0.416",
-                      "bin":  "knx-led-controller-16m_0.0.416.bin",
-                      "date":  "2026-07-16",
-                      "note":  "Statusfelder sind im Dunkelmodus lesbar. Der WLAN-Test zeigt Spinner, Phase und Wartezeit. Nach erfolgreichem Assistenten wird der Service-AP abgeschaltet und die neue WLAN-IP als anklickbarer Uebergabelink angezeigt."
                   }
               ]
 }
