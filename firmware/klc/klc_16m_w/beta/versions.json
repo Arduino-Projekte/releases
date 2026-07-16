@@ -1,6 +1,18 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.427",
+                      "bin":  "knx-led-controller-16m-w_0.0.427.bin",
+                      "date":  "2026-07-16",
+                      "note":  "Nach der DHCP-IP-Bestaetigung wird ausschliesslich der lokale KLC-Service-AP 192.168.4.1 sofort beendet; der WLAN-Client bleibt verbunden. Erst nach dem Netzwechsel des Smartphones wird die numerische Heimnetz-IP geoeffnet."
+                  },
+                  {
+                      "version":  "0.0.426",
+                      "bin":  "knx-led-controller-16m-w_0.0.426.bin",
+                      "date":  "2026-07-16",
+                      "note":  "Nach der DHCP-IP-Bestaetigung wird ausschliesslich der lokale KLC-Service-AP 192.168.4.1 sofort beendet; der WLAN-Client bleibt verbunden. Erst nach dem Netzwechsel des Smartphones wird die numerische Heimnetz-IP geoeffnet."
+                  },
+                  {
                       "version":  "0.0.425",
                       "bin":  "knx-led-controller-16m-w_0.0.425.bin",
                       "date":  "2026-07-16",
@@ -17,18 +29,6 @@
                       "bin":  "knx-led-controller-16m-w_0.0.423.bin",
                       "date":  "2026-07-16",
                       "note":  "Nach der DHCP-IP-Bestaetigung wird ausschliesslich der lokale KLC-Service-AP 192.168.4.1 sofort beendet; der WLAN-Client bleibt verbunden. Erst nach dem Netzwechsel des Smartphones wird die numerische Heimnetz-IP geoeffnet."
-                  },
-                  {
-                      "version":  "0.0.422",
-                      "bin":  "knx-led-controller-16m-w_0.0.422.bin",
-                      "date":  "2026-07-16",
-                      "note":  "Der WLAN-Assistent bestaetigt die numerische DHCP-IP vor dem langen Config-Commit, zeigt einen IP-Link, schaltet danach den Service-AP ab und setzt unter der IP fort. Hostnamen werden fuer diese Weiterleitung nicht mehr verwendet."
-                  },
-                  {
-                      "version":  "0.0.421",
-                      "bin":  "knx-led-controller-16m-w_0.0.421.bin",
-                      "date":  "2026-07-16",
-                      "note":  "Service-Taster-LEDs zeigen die Resetstufen eindeutig: gruen blinkend, gruen plus rot blinkend, beide dauerhaft, ab zehn Sekunden aus. Benutzer duerfen Online-Updates suchen und installieren. Eingebettete Sprachpakete wurden neu synchronisiert."
                   }
               ]
 }
