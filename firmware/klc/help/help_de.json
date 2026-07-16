@@ -29,7 +29,7 @@
                          "id":  "ui.dashboard",
                          "title":  "Dashboard",
                          "category":  "Bedienung",
-                         "body":  "Das Dashboard ist die Übersicht für den normalen Betrieb. Die Kachel Ausgänge / Szene / geschätzte Last zeigt jeden konfigurierten Ausgang mit Status. Deaktivierte Ausgänge werden ausdrücklich als deaktiviert angezeigt, zählen mit 0 mA und zeigen als Szene/Test Ausgang deaktiviert. Warnungen auf dem Dashboard bedeuten: die Detailseite öffnen und dort die Diagnose lesen."
+                         "body":  "Das Dashboard ist die Übersicht für den normalen Betrieb und wird über das KLC-Logo oben links geöffnet. Die Kachel Ausgänge / Szene / geschätzte Last zeigt jeden konfigurierten Ausgang mit Status. Deaktivierte Ausgänge werden ausdrücklich als deaktiviert angezeigt, zählen mit 0 mA und zeigen als Szene/Test Ausgang deaktiviert. Warnungen auf dem Dashboard bedeuten: die Detailseite öffnen und dort die Diagnose lesen."
                      },
                      {
                          "id":  "ui.language_view",
@@ -149,7 +149,7 @@
                          "id":  "knx.system",
                          "title":  "KNX Systemdiagnose",
                          "category":  "KNX",
-                         "body":  "Die KNX-Systemseite dient der Inbetriebnahme: Baudrate testen, BAOS-Firmware abfragen, Beschreibungen und Werte lesen, Status senden und Loopback testen. Diese Seite ist für Diagnose gedacht und sollte im Normalbetrieb nicht benötigt werden."
+                         "body":  "Die KNX-Systemseite dient der Inbetriebnahme: Baudrate testen, BAOS-Firmware abfragen, Beschreibungen und Werte lesen, Status senden und Loopback testen. Sie bleibt nach der Adminanmeldung über den Adminbereich erreichbar. Diese Seite ist für Diagnose gedacht und sollte im Normalbetrieb nicht benötigt werden."
                      },
                      {
                          "id":  "config.backup",
