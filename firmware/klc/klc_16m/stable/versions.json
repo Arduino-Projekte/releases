@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.411",
+                      "bin":  "knx-led-controller-16m_0.0.411.bin",
+                      "date":  "2026-07-16",
+                      "note":  "Der nicht blockierende Ethernetstart uebernimmt den realen Kabel-Link nun explizit in den DHCP-Zustand; die DHCP-Frist beginnt erst bei vorhandenem Link und eine Fallback-IP wird nicht mehr waehrend des Linkaufbaus aktiviert. Der Service-Taster kann den Controller beim Einschalten nach drei Sekunden direkt in den BOOTSEL/UF2-Modus bringen."
+                  },
+                  {
                       "version":  "0.0.410",
                       "bin":  "knx-led-controller-16m_0.0.410.bin",
                       "date":  "2026-07-16",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m_0.0.407.bin",
                       "date":  "2026-07-15",
                       "note":  "KLC KNX/BAOS-Restkorrektur: Szenen verwenden bei DP 1 und DP x00 nun ebenfalls die parametrierten Ein- und Ausschalt-Rampen; dynamische Szenen laufen waehrend der ausgangsbezogenen Helligkeitshuellkurve weiter und Unterbrechungen beginnen ohne Faktorsprung am aktuellen Wert. Szene 0 ist ausschliesslich Aus und kein editierbarer Szenenplatz; Export und WebUI verwenden nur Szenen 1..50, alte Backup-Eintraege mit Szene 0 werden ohne Verschiebung verworfen. Controller-, Gruppen- und Ausgangslimits wirken getrennt in ihrem jeweiligen Geltungsbereich; LED-Ausgabe, KNX-Status, DP 52 und WebUI verwenden dieselbe live_rendered-Berechnung mit dem tatsaechlich wirksamen Faktor je physischem Ausgang. Power-On-Hilfetexte wurden auf Aus, feste RGBW-Werte und feste Szene bereinigt."
-                  },
-                  {
-                      "version":  "0.0.406",
-                      "bin":  "knx-led-controller-16m_0.0.406.bin",
-                      "date":  "2026-07-15",
-                      "note":  "KNX-/BAOS-Korrektur: Prioritaet Zwang vor Sperre vor Normalbefehl; DP 1 nutzt je Ausgang konfigurierte Ein-/Ausschaltaktion und Rampen; Szenen oeffentlich 0=Aus und 1..50 mit konsistentem Status; DP 3, RGBW und Letzte Einstellung bleiben reine RAM-Laufzeitwerte; Power-On bietet feste RGBW-Werte, Schema 64 migriert altes Letzte Einstellung sicher zu Aus; DP 52, WebUI und LED-Ausgabe verwenden dieselbe proportionale Live-Leistungsbegrenzung; Netzwerkreset-Hinweis, Sprach-/Hilfetexte und Schnittstellenschemata aktualisiert; Buildfehler im Speicherimport durch explizite Einbindung der Szenendefinitionen behoben."
                   }
               ]
 }
