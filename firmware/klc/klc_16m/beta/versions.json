@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.422",
+                      "bin":  "knx-led-controller-16m_0.0.422.bin",
+                      "date":  "2026-07-16",
+                      "note":  "Der WLAN-Assistent bestaetigt die numerische DHCP-IP vor dem langen Config-Commit, zeigt einen IP-Link, schaltet danach den Service-AP ab und setzt unter der IP fort. Hostnamen werden fuer diese Weiterleitung nicht mehr verwendet."
+                  },
+                  {
                       "version":  "0.0.421",
                       "bin":  "knx-led-controller-16m_0.0.421.bin",
                       "date":  "2026-07-16",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m_0.0.418.bin",
                       "date":  "2026-07-16",
                       "note":  "Nach erfolgreicher WLAN-Verbindung zeigt die Setupseite serverseitig und unabhaengig von JavaScript die neue Heimnetz-IP mit Links zum Fortsetzen des Assistenten und zum direkten Oeffnen des Controllers an."
-                  },
-                  {
-                      "version":  "0.0.417",
-                      "bin":  "knx-led-controller-16m_0.0.417.bin",
-                      "date":  "2026-07-16",
-                      "note":  "Der Einrichtungsassistent wechselt nach Verlust des Service-AP automatisch ueber den lokalen Hostnamen ins Heimnetz und setzt dort fort. Der Seitenhintergrund deckt auch kurze Mobilansichten vollstaendig ab; eine doppelte WLAN-Erfolgsspeicherung wird vermieden."
                   }
               ]
 }
