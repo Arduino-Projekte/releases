@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.443",
+                      "bin":  "knx-led-controller-16m-w_0.0.443.bin",
+                      "date":  "2026-07-17",
+                      "note":  "Szenen werden RAM-first ueber ein versioniertes CRC32-A/B-Binaerformat und einen kooperativen Speicherautomaten gesichert. /flows blockiert keinen vollstaendigen JSON-Konfigurationscommit mehr; Revisionen und Commitstatus werden in der WebUI bestaetigt. Die interaktive Ablaufvorschau ist wieder verfuegbar."
+                  },
+                  {
                       "version":  "0.0.442",
                       "bin":  "knx-led-controller-16m-w_0.0.442.bin",
                       "date":  "2026-07-17",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m-w_0.0.439.bin",
                       "date":  "2026-07-17",
                       "note":  "Die WLAN-Uebergabe im Einrichtungsassistenten beendet den Service-AP erst nach bestaetigter Uebertragung der neuen IP und bleibt bei einem Funkkanalwechsel wiederaufnehmbar. Szenen und Ablaeufe werden ohne langsamen Vollseiten-Neuaufbau gespeichert und aktualisiert."
-                  },
-                  {
-                      "version":  "0.0.438",
-                      "bin":  "knx-led-controller-16m-w_0.0.438.bin",
-                      "date":  "2026-07-17",
-                      "note":  "Ablauf-Aenderungen uebertragen den Sicherheits-Token wieder zuverlaessig. Hell-/Dunkelmodus werden im Einrichtungsassistenten korrekt uebersetzt, der Service-AP bleibt bis zur Handover-Meldung stabil erreichbar und nach dem kontrollierten Neustart wird automatisch zur Startseite weitergeleitet."
                   }
               ]
 }
