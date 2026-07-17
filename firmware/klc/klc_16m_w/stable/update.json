@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m-w_0.0.443.bin",
+                     "url":  "knx-led-controller-16m-w_0.0.444.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.443",
-                     "bin":  "knx-led-controller-16m-w_0.0.443.bin",
-                     "file":  "knx-led-controller-16m-w_0.0.443.bin",
-                     "sha256":  "f8aeb638532921f0e1caba5f78d98bf27960c0d4424755ce1546bac4c905c620",
-                     "message":  "Szenen werden RAM-first ueber ein versioniertes CRC32-A/B-Binaerformat und einen kooperativen Speicherautomaten gesichert. /flows blockiert keinen vollstaendigen JSON-Konfigurationscommit mehr; Revisionen und Commitstatus werden in der WebUI bestaetigt. Die interaktive Ablaufvorschau ist wieder verfuegbar.",
+                     "version":  "0.0.444",
+                     "bin":  "knx-led-controller-16m-w_0.0.444.bin",
+                     "file":  "knx-led-controller-16m-w_0.0.444.bin",
+                     "sha256":  "a7f5fbeaa2f0420967d0a21898f5dbd99c5a95954a4de8282d3f07f68540f008",
+                     "message":  "Der WLAN-Assistent zeigt die stabile STA-IP jetzt vor dem Konfigurationscommit gross mit Link und Kopierfunktion an und verlangt eine an Vorgang, IP und Verbindungsrevision gebundene Browserbestaetigung. Erst danach wird atomar gespeichert, OTA bleibt bis zum verifizierten STA-only-Zustand gesperrt und ein kontrollierter Neustart dient als letzter AP-Stopp-Fallback. Die nicht blockierende KLS1-Szenenspeicherung und die interaktive Ablaufvorschau bleiben enthalten.",
                      "http_code":  200
                  }
 }
