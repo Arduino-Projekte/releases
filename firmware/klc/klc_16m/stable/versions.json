@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.447",
+                      "bin":  "knx-led-controller-16m_0.0.447.bin",
+                      "date":  "2026-07-18",
+                      "note":  "KLS1-Generationsabschluss: Hauptkonfiguration und Szenen werden ueber eine gemeinsame Configgeneration gebunden; Replacement wird erst nach erfolgreicher Pool-, PIO-/DMA- und LED-Backend-Aktivierung COMPLETE. LKG-, Previous- und Recovery-Fallback binden ihre KLS-Zielmenge neu. accepted-, applied- und persisted-Revision sind getrennt. 64-Bit-operation_id kombiniert persistente Bootgeneration und Zaehler und wird in JSON verlustfrei als String uebertragen. sessionStorage prueft Vorgangstyp, Szene, Revision und Bootgeneration und stellt bei fremden Vorgangen die Serverrevision wieder her. Runtime-Apply-, Rollback- und Storagefehler liefern getrennte Phasen; Slotdiagnose wird nach Schreibfehlern sofort neu gelesen. LKG-Promotion verwendet den zentralen Storage-Lease; alle Replacement-Ausloeser liefern ihre Vorgangs-ID."
+                  },
+                  {
                       "version":  "0.0.446",
                       "bin":  "knx-led-controller-16m_0.0.446.bin",
                       "date":  "2026-07-18",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m_0.0.443.bin",
                       "date":  "2026-07-17",
                       "note":  "Szenen werden RAM-first ueber ein versioniertes CRC32-A/B-Binaerformat und einen kooperativen Speicherautomaten gesichert. /flows blockiert keinen vollstaendigen JSON-Konfigurationscommit mehr; Revisionen und Commitstatus werden in der WebUI bestaetigt. Die interaktive Ablaufvorschau ist wieder verfuegbar."
-                  },
-                  {
-                      "version":  "0.0.442",
-                      "bin":  "knx-led-controller-16m_0.0.442.bin",
-                      "date":  "2026-07-17",
-                      "note":  "KNX-Helligkeit 0 schaltet aus und behaelt den letzten positiven Dimmwert; Werte groesser 0 schalten mit mindestens 1 Prozent ein. Aktive Szenen verwenden ihren eigenen Aus-Effekt; Letzter Wert/Szene wird eindeutig dargestellt."
                   }
               ]
 }

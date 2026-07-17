@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m_0.0.446.bin",
+                     "url":  "knx-led-controller-16m_0.0.447.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.446",
-                     "bin":  "knx-led-controller-16m_0.0.446.bin",
-                     "file":  "knx-led-controller-16m_0.0.446.bin",
-                     "sha256":  "3cedc58b5ab941e9d168905147eb6ca56c749721f47f4c76eecd4c8b1d7adceb",
-                     "message":  "KLS1-Restmaengel: Migration schreibt die Zielszene als eindeutig neueste, erneut gelesene A/B-Generation und behaelt den Importvorgang samt Fortschritt ueber Neustarts. Operation-, aktuelle Szenen-, persistierte Bearbeitungsrevision und Flash-Sequenz sind getrennt. Nach Flashfehler ist ein direkter Retry ohne Reload moeglich; laufende Auftraege werden per sessionStorage wieder aufgenommen. Runtime-Apply erfolgt an der Loop-/Frame-Grenze mit gepruefter Ruecknahme. Boot-Recovery und vollstaendiger Per-Szene-Persistenzstatus sind per API sichtbar. Der systemweite LittleFS-Koordinator verwendet transaktionsgebundene Tokens und umfasst nun auch Hilfe und Setup-Backup-Staging. WLAN-STA-Handover und Ablaufvorschau bleiben enthalten.",
+                     "version":  "0.0.447",
+                     "bin":  "knx-led-controller-16m_0.0.447.bin",
+                     "file":  "knx-led-controller-16m_0.0.447.bin",
+                     "sha256":  "aacbe9531053edaf59c037644bc31c7e64855429c067bf0e8d8320b635df5207",
+                     "message":  "KLS1-Generationsabschluss: Hauptkonfiguration und Szenen werden ueber eine gemeinsame Configgeneration gebunden; Replacement wird erst nach erfolgreicher Pool-, PIO-/DMA- und LED-Backend-Aktivierung COMPLETE. LKG-, Previous- und Recovery-Fallback binden ihre KLS-Zielmenge neu. accepted-, applied- und persisted-Revision sind getrennt. 64-Bit-operation_id kombiniert persistente Bootgeneration und Zaehler und wird in JSON verlustfrei als String uebertragen. sessionStorage prueft Vorgangstyp, Szene, Revision und Bootgeneration und stellt bei fremden Vorgangen die Serverrevision wieder her. Runtime-Apply-, Rollback- und Storagefehler liefern getrennte Phasen; Slotdiagnose wird nach Schreibfehlern sofort neu gelesen. LKG-Promotion verwendet den zentralen Storage-Lease; alle Replacement-Ausloeser liefern ihre Vorgangs-ID.",
                      "http_code":  200
                  }
 }
