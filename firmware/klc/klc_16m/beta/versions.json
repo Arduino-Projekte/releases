@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.442",
+                      "bin":  "knx-led-controller-16m_0.0.442.bin",
+                      "date":  "2026-07-17",
+                      "note":  "KNX-Helligkeit 0 schaltet aus und behaelt den letzten positiven Dimmwert; Werte groesser 0 schalten mit mindestens 1 Prozent ein. Aktive Szenen verwenden ihren eigenen Aus-Effekt; Letzter Wert/Szene wird eindeutig dargestellt."
+                  },
+                  {
                       "version":  "0.0.441",
                       "bin":  "knx-led-controller-16m_0.0.441.bin",
                       "date":  "2026-07-17",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m_0.0.438.bin",
                       "date":  "2026-07-17",
                       "note":  "Ablauf-Aenderungen uebertragen den Sicherheits-Token wieder zuverlaessig. Hell-/Dunkelmodus werden im Einrichtungsassistenten korrekt uebersetzt, der Service-AP bleibt bis zur Handover-Meldung stabil erreichbar und nach dem kontrollierten Neustart wird automatisch zur Startseite weitergeleitet."
-                  },
-                  {
-                      "version":  "0.0.437",
-                      "bin":  "knx-led-controller-16m_0.0.437.bin",
-                      "date":  "2026-07-17",
-                      "note":  "Setup-WLAN-Status und konkurrierende Netzwerkaenderungen korrigiert. Grosse Setup-, Sprach-, BAOS-, Import- und Systemmodule fachlich weiter aufgeteilt und interne Abhaengigkeiten reduziert; Firmwareverhalten und Konfigurationsformat bleiben unveraendert."
                   }
               ]
 }
