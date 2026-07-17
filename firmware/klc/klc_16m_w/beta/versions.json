@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.445",
+                      "bin":  "knx-led-controller-16m-w_0.0.445.bin",
+                      "date":  "2026-07-18",
+                      "note":  "KLS1-Korrektur: Fehlgeschlagene Szenen-Commits bleiben eindeutig RAM-only und koennen sicher wiederholt werden; Bearbeitungsrevision, Flash-Sequenz und Vorgangs-ID sind getrennt. A/B-Autoritaet und ein resumierbares Transaktionsjournal schuetzen Migration, Import, Recovery und Werksreset ohne vorhandene Szenenslots zu loeschen. Runtime-Aktivierung erfolgt vor dem Persistenzauftrag, Slots werden semantisch validiert, gleiche Sequenzen diagnostiziert und LittleFS-Schreiber zentral koordiniert. Klassische Formulare zeigen einen dauerhaften Speicherstatus, Backups warten auf einen vollstaendig persistenten Szenenstand und Rollbacks warnen vor Firmware ohne KLS1. WLAN-STA-Handover und Ablaufvorschau aus 0.0.444 bleiben enthalten."
+                  },
+                  {
                       "version":  "0.0.444",
                       "bin":  "knx-led-controller-16m-w_0.0.444.bin",
                       "date":  "2026-07-17",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m-w_0.0.441.bin",
                       "date":  "2026-07-17",
                       "note":  "Zentralhelligkeit aus Ausgabe und WebUI entfernt; alte Backupfelder werden neutralisiert. Benutzer duerfen das KNX-Ausgangsverhalten speichern. Direkte KNX-Farbaenderungen verlaufen weich ueber 1,5 Sekunden."
-                  },
-                  {
-                      "version":  "0.0.440",
-                      "bin":  "knx-led-controller-16m-w_0.0.440.bin",
-                      "date":  "2026-07-17",
-                      "note":  "Ablauf- und Szenenformulare verwenden fuer den schnellen Speicherweg wieder das kompakte, controllerkompatible URL-Encoding. Falls die schnelle Antwort nicht erreichbar ist, wird automatisch auf den klassischen Speicherweg zurueckgefallen."
                   }
               ]
 }
