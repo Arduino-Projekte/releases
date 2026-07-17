@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.446",
+                      "bin":  "knx-led-controller-16m_0.0.446.bin",
+                      "date":  "2026-07-18",
+                      "note":  "KLS1-Restmaengel: Migration schreibt die Zielszene als eindeutig neueste, erneut gelesene A/B-Generation und behaelt den Importvorgang samt Fortschritt ueber Neustarts. Operation-, aktuelle Szenen-, persistierte Bearbeitungsrevision und Flash-Sequenz sind getrennt. Nach Flashfehler ist ein direkter Retry ohne Reload moeglich; laufende Auftraege werden per sessionStorage wieder aufgenommen. Runtime-Apply erfolgt an der Loop-/Frame-Grenze mit gepruefter Ruecknahme. Boot-Recovery und vollstaendiger Per-Szene-Persistenzstatus sind per API sichtbar. Der systemweite LittleFS-Koordinator verwendet transaktionsgebundene Tokens und umfasst nun auch Hilfe und Setup-Backup-Staging. WLAN-STA-Handover und Ablaufvorschau bleiben enthalten."
+                  },
+                  {
                       "version":  "0.0.445",
                       "bin":  "knx-led-controller-16m_0.0.445.bin",
                       "date":  "2026-07-18",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m_0.0.442.bin",
                       "date":  "2026-07-17",
                       "note":  "KNX-Helligkeit 0 schaltet aus und behaelt den letzten positiven Dimmwert; Werte groesser 0 schalten mit mindestens 1 Prozent ein. Aktive Szenen verwenden ihren eigenen Aus-Effekt; Letzter Wert/Szene wird eindeutig dargestellt."
-                  },
-                  {
-                      "version":  "0.0.440",
-                      "bin":  "knx-led-controller-16m_0.0.440.bin",
-                      "date":  "2026-07-17",
-                      "note":  "Ablauf- und Szenenformulare verwenden fuer den schnellen Speicherweg wieder das kompakte, controllerkompatible URL-Encoding. Falls die schnelle Antwort nicht erreichbar ist, wird automatisch auf den klassischen Speicherweg zurueckgefallen."
                   }
               ]
 }
