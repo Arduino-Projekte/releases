@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m-w_0.0.442.bin",
+                     "url":  "knx-led-controller-16m-w_0.0.443.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.442",
-                     "bin":  "knx-led-controller-16m-w_0.0.442.bin",
-                     "file":  "knx-led-controller-16m-w_0.0.442.bin",
-                     "sha256":  "403c4be68779e20e467ce4a4d37d2ace31793282223ee2c550bd87d8cfa98a58",
-                     "message":  "KNX-Helligkeit 0 schaltet aus und behaelt den letzten positiven Dimmwert; Werte groesser 0 schalten mit mindestens 1 Prozent ein. Aktive Szenen verwenden ihren eigenen Aus-Effekt; Letzter Wert/Szene wird eindeutig dargestellt.",
+                     "version":  "0.0.443",
+                     "bin":  "knx-led-controller-16m-w_0.0.443.bin",
+                     "file":  "knx-led-controller-16m-w_0.0.443.bin",
+                     "sha256":  "f8aeb638532921f0e1caba5f78d98bf27960c0d4424755ce1546bac4c905c620",
+                     "message":  "Szenen werden RAM-first ueber ein versioniertes CRC32-A/B-Binaerformat und einen kooperativen Speicherautomaten gesichert. /flows blockiert keinen vollstaendigen JSON-Konfigurationscommit mehr; Revisionen und Commitstatus werden in der WebUI bestaetigt. Die interaktive Ablaufvorschau ist wieder verfuegbar.",
                      "http_code":  200
                  }
 }
