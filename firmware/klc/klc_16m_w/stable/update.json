@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m-w_0.0.437.bin",
+                     "url":  "knx-led-controller-16m-w_0.0.438.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.437",
-                     "bin":  "knx-led-controller-16m-w_0.0.437.bin",
-                     "file":  "knx-led-controller-16m-w_0.0.437.bin",
-                     "sha256":  "f6206c0df428be7fc8b14b8db1208c0b8a1158f1a1a9491ee112ac56af16cb37",
-                     "message":  "Setup-WLAN-Status und konkurrierende Netzwerkaenderungen korrigiert. Grosse Setup-, Sprach-, BAOS-, Import- und Systemmodule fachlich weiter aufgeteilt und interne Abhaengigkeiten reduziert; Firmwareverhalten und Konfigurationsformat bleiben unveraendert.",
+                     "version":  "0.0.438",
+                     "bin":  "knx-led-controller-16m-w_0.0.438.bin",
+                     "file":  "knx-led-controller-16m-w_0.0.438.bin",
+                     "sha256":  "0e139771d2adf68b0b8f469a82207c33db9e86461ff90c8abd7a0591b16a923b",
+                     "message":  "Ablauf-Aenderungen uebertragen den Sicherheits-Token wieder zuverlaessig. Hell-/Dunkelmodus werden im Einrichtungsassistenten korrekt uebersetzt, der Service-AP bleibt bis zur Handover-Meldung stabil erreichbar und nach dem kontrollierten Neustart wird automatisch zur Startseite weitergeleitet.",
                      "http_code":  200
                  }
 }
