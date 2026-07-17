@@ -6,7 +6,7 @@
                      "version":  "0.0.437",
                      "bin":  "knx-led-controller-16m-w_0.0.437.bin",
                      "file":  "knx-led-controller-16m-w_0.0.437.bin",
-                     "sha256":  "4ac74a7a7dfac5b61e2f798f7810ad3bd55e4f990b723b521ad1358238b8b8be",
+                     "sha256":  "f6206c0df428be7fc8b14b8db1208c0b8a1158f1a1a9491ee112ac56af16cb37",
                      "message":  "Setup-WLAN-Status und konkurrierende Netzwerkaenderungen korrigiert. Grosse Setup-, Sprach-, BAOS-, Import- und Systemmodule fachlich weiter aufgeteilt und interne Abhaengigkeiten reduziert; Firmwareverhalten und Konfigurationsformat bleiben unveraendert.",
                      "http_code":  200
                  }
