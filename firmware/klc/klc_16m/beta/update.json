@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m_0.0.445.bin",
+                     "url":  "knx-led-controller-16m_0.0.446.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.445",
-                     "bin":  "knx-led-controller-16m_0.0.445.bin",
-                     "file":  "knx-led-controller-16m_0.0.445.bin",
-                     "sha256":  "b384aac0260a959ce6bbf17832af8fec8e1a38bff834cb9f8012a444aa96ead4",
-                     "message":  "KLS1-Korrektur: Fehlgeschlagene Szenen-Commits bleiben eindeutig RAM-only und koennen sicher wiederholt werden; Bearbeitungsrevision, Flash-Sequenz und Vorgangs-ID sind getrennt. A/B-Autoritaet und ein resumierbares Transaktionsjournal schuetzen Migration, Import, Recovery und Werksreset ohne vorhandene Szenenslots zu loeschen. Runtime-Aktivierung erfolgt vor dem Persistenzauftrag, Slots werden semantisch validiert, gleiche Sequenzen diagnostiziert und LittleFS-Schreiber zentral koordiniert. Klassische Formulare zeigen einen dauerhaften Speicherstatus, Backups warten auf einen vollstaendig persistenten Szenenstand und Rollbacks warnen vor Firmware ohne KLS1. WLAN-STA-Handover und Ablaufvorschau aus 0.0.444 bleiben enthalten.",
+                     "version":  "0.0.446",
+                     "bin":  "knx-led-controller-16m_0.0.446.bin",
+                     "file":  "knx-led-controller-16m_0.0.446.bin",
+                     "sha256":  "3cedc58b5ab941e9d168905147eb6ca56c749721f47f4c76eecd4c8b1d7adceb",
+                     "message":  "KLS1-Restmaengel: Migration schreibt die Zielszene als eindeutig neueste, erneut gelesene A/B-Generation und behaelt den Importvorgang samt Fortschritt ueber Neustarts. Operation-, aktuelle Szenen-, persistierte Bearbeitungsrevision und Flash-Sequenz sind getrennt. Nach Flashfehler ist ein direkter Retry ohne Reload moeglich; laufende Auftraege werden per sessionStorage wieder aufgenommen. Runtime-Apply erfolgt an der Loop-/Frame-Grenze mit gepruefter Ruecknahme. Boot-Recovery und vollstaendiger Per-Szene-Persistenzstatus sind per API sichtbar. Der systemweite LittleFS-Koordinator verwendet transaktionsgebundene Tokens und umfasst nun auch Hilfe und Setup-Backup-Staging. WLAN-STA-Handover und Ablaufvorschau bleiben enthalten.",
                      "http_code":  200
                  }
 }
