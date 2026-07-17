@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.438",
+                      "bin":  "knx-led-controller-16m-w_0.0.438.bin",
+                      "date":  "2026-07-17",
+                      "note":  "Ablauf-Aenderungen uebertragen den Sicherheits-Token wieder zuverlaessig. Hell-/Dunkelmodus werden im Einrichtungsassistenten korrekt uebersetzt, der Service-AP bleibt bis zur Handover-Meldung stabil erreichbar und nach dem kontrollierten Neustart wird automatisch zur Startseite weitergeleitet."
+                  },
+                  {
                       "version":  "0.0.437",
                       "bin":  "knx-led-controller-16m-w_0.0.437.bin",
                       "date":  "2026-07-17",
@@ -21,12 +27,6 @@
                   {
                       "version":  "0.0.427",
                       "bin":  "knx-led-controller-16m-w_0.0.427.bin",
-                      "date":  "2026-07-16",
-                      "note":  "Nach der DHCP-IP-Bestaetigung wird ausschliesslich der lokale KLC-Service-AP 192.168.4.1 sofort beendet; der WLAN-Client bleibt verbunden. Erst nach dem Netzwechsel des Smartphones wird die numerische Heimnetz-IP geoeffnet."
-                  },
-                  {
-                      "version":  "0.0.426",
-                      "bin":  "knx-led-controller-16m-w_0.0.426.bin",
                       "date":  "2026-07-16",
                       "note":  "Nach der DHCP-IP-Bestaetigung wird ausschliesslich der lokale KLC-Service-AP 192.168.4.1 sofort beendet; der WLAN-Client bleibt verbunden. Erst nach dem Netzwechsel des Smartphones wird die numerische Heimnetz-IP geoeffnet."
                   }
