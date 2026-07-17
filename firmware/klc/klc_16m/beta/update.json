@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m_0.0.439.bin",
+                     "url":  "knx-led-controller-16m_0.0.440.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.439",
-                     "bin":  "knx-led-controller-16m_0.0.439.bin",
-                     "file":  "knx-led-controller-16m_0.0.439.bin",
-                     "sha256":  "70cb659a9c1f2e07315d6d7aa062698c396a1dab4a38713d6b0b795838ee1c91",
-                     "message":  "Die WLAN-Uebergabe im Einrichtungsassistenten beendet den Service-AP erst nach bestaetigter Uebertragung der neuen IP und bleibt bei einem Funkkanalwechsel wiederaufnehmbar. Szenen und Ablaeufe werden ohne langsamen Vollseiten-Neuaufbau gespeichert und aktualisiert.",
+                     "version":  "0.0.440",
+                     "bin":  "knx-led-controller-16m_0.0.440.bin",
+                     "file":  "knx-led-controller-16m_0.0.440.bin",
+                     "sha256":  "03af04ea84747193d0269c2b4e4608615c41a87e2d74fe6fe2dc5227ed0e1a34",
+                     "message":  "Ablauf- und Szenenformulare verwenden fuer den schnellen Speicherweg wieder das kompakte, controllerkompatible URL-Encoding. Falls die schnelle Antwort nicht erreichbar ist, wird automatisch auf den klassischen Speicherweg zurueckgefallen.",
                      "http_code":  200
                  }
 }
