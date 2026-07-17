@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.439",
+                      "bin":  "knx-led-controller-16m_0.0.439.bin",
+                      "date":  "2026-07-17",
+                      "note":  "Die WLAN-Uebergabe im Einrichtungsassistenten beendet den Service-AP erst nach bestaetigter Uebertragung der neuen IP und bleibt bei einem Funkkanalwechsel wiederaufnehmbar. Szenen und Ablaeufe werden ohne langsamen Vollseiten-Neuaufbau gespeichert und aktualisiert."
+                  },
+                  {
                       "version":  "0.0.438",
                       "bin":  "knx-led-controller-16m_0.0.438.bin",
                       "date":  "2026-07-17",
@@ -21,12 +27,6 @@
                   {
                       "version":  "0.0.428",
                       "bin":  "knx-led-controller-16m_0.0.428.bin",
-                      "date":  "2026-07-16",
-                      "note":  "Nach der DHCP-IP-Bestaetigung wird ausschliesslich der lokale KLC-Service-AP 192.168.4.1 sofort beendet; der WLAN-Client bleibt verbunden. Erst nach dem Netzwechsel des Smartphones wird die numerische Heimnetz-IP geoeffnet."
-                  },
-                  {
-                      "version":  "0.0.427",
-                      "bin":  "knx-led-controller-16m_0.0.427.bin",
                       "date":  "2026-07-16",
                       "note":  "Nach der DHCP-IP-Bestaetigung wird ausschliesslich der lokale KLC-Service-AP 192.168.4.1 sofort beendet; der WLAN-Client bleibt verbunden. Erst nach dem Netzwechsel des Smartphones wird die numerische Heimnetz-IP geoeffnet."
                   }

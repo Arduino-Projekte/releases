@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m-w_0.0.438.bin",
+                     "url":  "knx-led-controller-16m-w_0.0.439.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.438",
-                     "bin":  "knx-led-controller-16m-w_0.0.438.bin",
-                     "file":  "knx-led-controller-16m-w_0.0.438.bin",
-                     "sha256":  "0e139771d2adf68b0b8f469a82207c33db9e86461ff90c8abd7a0591b16a923b",
-                     "message":  "Ablauf-Aenderungen uebertragen den Sicherheits-Token wieder zuverlaessig. Hell-/Dunkelmodus werden im Einrichtungsassistenten korrekt uebersetzt, der Service-AP bleibt bis zur Handover-Meldung stabil erreichbar und nach dem kontrollierten Neustart wird automatisch zur Startseite weitergeleitet.",
+                     "version":  "0.0.439",
+                     "bin":  "knx-led-controller-16m-w_0.0.439.bin",
+                     "file":  "knx-led-controller-16m-w_0.0.439.bin",
+                     "sha256":  "e14dacedf188a0563b33705bb8dcd8419d481a1c9e96b946f9b13e8dbdb8a15b",
+                     "message":  "Die WLAN-Uebergabe im Einrichtungsassistenten beendet den Service-AP erst nach bestaetigter Uebertragung der neuen IP und bleibt bei einem Funkkanalwechsel wiederaufnehmbar. Szenen und Ablaeufe werden ohne langsamen Vollseiten-Neuaufbau gespeichert und aktualisiert.",
                      "http_code":  200
                  }
 }
