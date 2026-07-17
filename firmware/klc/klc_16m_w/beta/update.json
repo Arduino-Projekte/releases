@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m-w_0.0.440.bin",
+                     "url":  "knx-led-controller-16m-w_0.0.441.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.440",
-                     "bin":  "knx-led-controller-16m-w_0.0.440.bin",
-                     "file":  "knx-led-controller-16m-w_0.0.440.bin",
-                     "sha256":  "cb5254bbe7e87093aba0ef119432e4a4b74755cd077d17ee10fe2ee0ed86d5be",
-                     "message":  "Ablauf- und Szenenformulare verwenden fuer den schnellen Speicherweg wieder das kompakte, controllerkompatible URL-Encoding. Falls die schnelle Antwort nicht erreichbar ist, wird automatisch auf den klassischen Speicherweg zurueckgefallen.",
+                     "version":  "0.0.441",
+                     "bin":  "knx-led-controller-16m-w_0.0.441.bin",
+                     "file":  "knx-led-controller-16m-w_0.0.441.bin",
+                     "sha256":  "f82ce70ab006a9606a60780e4cac5cd84e1b2da85868095315790aaa05e02a57",
+                     "message":  "Zentralhelligkeit aus Ausgabe und WebUI entfernt; alte Backupfelder werden neutralisiert. Benutzer duerfen das KNX-Ausgangsverhalten speichern. Direkte KNX-Farbaenderungen verlaufen weich ueber 1,5 Sekunden.",
                      "http_code":  200
                  }
 }
