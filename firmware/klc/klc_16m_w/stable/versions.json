@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.442",
+                      "bin":  "knx-led-controller-16m-w_0.0.442.bin",
+                      "date":  "2026-07-17",
+                      "note":  "KNX-Helligkeit 0 schaltet aus und behaelt den letzten positiven Dimmwert; Werte groesser 0 schalten mit mindestens 1 Prozent ein. Aktive Szenen verwenden ihren eigenen Aus-Effekt; Letzter Wert/Szene wird eindeutig dargestellt."
+                  },
+                  {
                       "version":  "0.0.440",
                       "bin":  "knx-led-controller-16m-w_0.0.440.bin",
                       "date":  "2026-07-17",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m-w_0.0.437.bin",
                       "date":  "2026-07-17",
                       "note":  "Setup-WLAN-Status und konkurrierende Netzwerkaenderungen korrigiert. Grosse Setup-, Sprach-, BAOS-, Import- und Systemmodule fachlich weiter aufgeteilt und interne Abhaengigkeiten reduziert; Firmwareverhalten und Konfigurationsformat bleiben unveraendert."
-                  },
-                  {
-                      "version":  "0.0.429",
-                      "bin":  "knx-led-controller-16m-w_0.0.429.bin",
-                      "date":  "2026-07-16",
-                      "note":  "Nach der DHCP-IP-Bestaetigung wird ausschliesslich der lokale KLC-Service-AP 192.168.4.1 sofort beendet; der WLAN-Client bleibt verbunden. Erst nach dem Netzwechsel des Smartphones wird die numerische Heimnetz-IP geoeffnet."
                   }
               ]
 }

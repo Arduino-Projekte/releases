@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m_0.0.440.bin",
+                     "url":  "knx-led-controller-16m_0.0.442.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.440",
-                     "bin":  "knx-led-controller-16m_0.0.440.bin",
-                     "file":  "knx-led-controller-16m_0.0.440.bin",
-                     "sha256":  "03af04ea84747193d0269c2b4e4608615c41a87e2d74fe6fe2dc5227ed0e1a34",
-                     "message":  "Ablauf- und Szenenformulare verwenden fuer den schnellen Speicherweg wieder das kompakte, controllerkompatible URL-Encoding. Falls die schnelle Antwort nicht erreichbar ist, wird automatisch auf den klassischen Speicherweg zurueckgefallen.",
+                     "version":  "0.0.442",
+                     "bin":  "knx-led-controller-16m_0.0.442.bin",
+                     "file":  "knx-led-controller-16m_0.0.442.bin",
+                     "sha256":  "25147ae79cd0670220911ae7c7a2c5052e697c3cceed7955733a77464b04d769",
+                     "message":  "KNX-Helligkeit 0 schaltet aus und behaelt den letzten positiven Dimmwert; Werte groesser 0 schalten mit mindestens 1 Prozent ein. Aktive Szenen verwenden ihren eigenen Aus-Effekt; Letzter Wert/Szene wird eindeutig dargestellt.",
                      "http_code":  200
                  }
 }
