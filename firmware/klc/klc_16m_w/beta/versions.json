@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.444",
+                      "bin":  "knx-led-controller-16m-w_0.0.444.bin",
+                      "date":  "2026-07-17",
+                      "note":  "Der WLAN-Assistent zeigt die stabile STA-IP jetzt vor dem Konfigurationscommit gross mit Link und Kopierfunktion an und verlangt eine an Vorgang, IP und Verbindungsrevision gebundene Browserbestaetigung. Erst danach wird atomar gespeichert, OTA bleibt bis zum verifizierten STA-only-Zustand gesperrt und ein kontrollierter Neustart dient als letzter AP-Stopp-Fallback. Die nicht blockierende KLS1-Szenenspeicherung und die interaktive Ablaufvorschau bleiben enthalten."
+                  },
+                  {
                       "version":  "0.0.443",
                       "bin":  "knx-led-controller-16m-w_0.0.443.bin",
                       "date":  "2026-07-17",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m-w_0.0.440.bin",
                       "date":  "2026-07-17",
                       "note":  "Ablauf- und Szenenformulare verwenden fuer den schnellen Speicherweg wieder das kompakte, controllerkompatible URL-Encoding. Falls die schnelle Antwort nicht erreichbar ist, wird automatisch auf den klassischen Speicherweg zurueckgefallen."
-                  },
-                  {
-                      "version":  "0.0.439",
-                      "bin":  "knx-led-controller-16m-w_0.0.439.bin",
-                      "date":  "2026-07-17",
-                      "note":  "Die WLAN-Uebergabe im Einrichtungsassistenten beendet den Service-AP erst nach bestaetigter Uebertragung der neuen IP und bleibt bei einem Funkkanalwechsel wiederaufnehmbar. Szenen und Ablaeufe werden ohne langsamen Vollseiten-Neuaufbau gespeichert und aktualisiert."
                   }
               ]
 }
