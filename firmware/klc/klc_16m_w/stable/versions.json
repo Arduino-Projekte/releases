@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.454",
+                      "bin":  "knx-led-controller-16m-w_0.0.454.bin",
+                      "date":  "2026-07-18",
+                      "note":  "Ausgangsseite repariert: /api/outputs erzeugt wieder gueltiges JSON mit korrekt zugeordneten Formatargumenten, sodass /outputs den Controller nicht mehr durch einen ungueltigen Speicherzugriff blockiert. Zusaetzliche printf-Formatpruefung fuer den zentralen WebUI-Appender erkennt vergleichbare Platzhalterfehler bereits beim Kompilieren. Keine Schemaaenderung (Schema 64)."
+                  },
+                  {
                       "version":  "0.0.453",
                       "bin":  "knx-led-controller-16m-w_0.0.453.bin",
                       "date":  "2026-07-18",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m-w_0.0.446.bin",
                       "date":  "2026-07-18",
                       "note":  "KLS1-Restmaengel: Migration schreibt die Zielszene als eindeutig neueste, erneut gelesene A/B-Generation und behaelt den Importvorgang samt Fortschritt ueber Neustarts. Operation-, aktuelle Szenen-, persistierte Bearbeitungsrevision und Flash-Sequenz sind getrennt. Nach Flashfehler ist ein direkter Retry ohne Reload moeglich; laufende Auftraege werden per sessionStorage wieder aufgenommen. Runtime-Apply erfolgt an der Loop-/Frame-Grenze mit gepruefter Ruecknahme. Boot-Recovery und vollstaendiger Per-Szene-Persistenzstatus sind per API sichtbar. Der systemweite LittleFS-Koordinator verwendet transaktionsgebundene Tokens und umfasst nun auch Hilfe und Setup-Backup-Staging. WLAN-STA-Handover und Ablaufvorschau bleiben enthalten."
-                  },
-                  {
-                      "version":  "0.0.445",
-                      "bin":  "knx-led-controller-16m-w_0.0.445.bin",
-                      "date":  "2026-07-18",
-                      "note":  "KLS1-Korrektur: Fehlgeschlagene Szenen-Commits bleiben eindeutig RAM-only und koennen sicher wiederholt werden; Bearbeitungsrevision, Flash-Sequenz und Vorgangs-ID sind getrennt. A/B-Autoritaet und ein resumierbares Transaktionsjournal schuetzen Migration, Import, Recovery und Werksreset ohne vorhandene Szenenslots zu loeschen. Runtime-Aktivierung erfolgt vor dem Persistenzauftrag, Slots werden semantisch validiert, gleiche Sequenzen diagnostiziert und LittleFS-Schreiber zentral koordiniert. Klassische Formulare zeigen einen dauerhaften Speicherstatus, Backups warten auf einen vollstaendig persistenten Szenenstand und Rollbacks warnen vor Firmware ohne KLS1. WLAN-STA-Handover und Ablaufvorschau aus 0.0.444 bleiben enthalten."
                   }
               ]
 }
