@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.455",
+                      "bin":  "knx-led-controller-16m_0.0.455.bin",
+                      "date":  "2026-07-18",
+                      "note":  "LED-Versatz im Ausgangstest vervollstaendigt: Anfang/Ende blinken verwendet jetzt den gespeicherten oder aktuell ungespeicherten Versatz und bildet die logischen Endpunkte wie die Szenenausgabe umlaufend auf die physischen LEDs ab. Der temporaere Testrequest uebertraegt und validiert temp_pixel_offset. /outputs laedt die zentrale Ausgangs-API nun zuerst, wiederholt einen transient fehlgeschlagenen Abruf einmal und startet die Zusatzdiagnosen erst danach; konkrete Ladefehler werden angezeigt. Der /api/outputs-Formatstring-Fix und die Compiler-Formatpruefung aus 0.0.454 bleiben enthalten. Keine Schemaaenderung (Schema 64)."
+                  },
+                  {
                       "version":  "0.0.454",
                       "bin":  "knx-led-controller-16m_0.0.454.bin",
                       "date":  "2026-07-18",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m_0.0.447.bin",
                       "date":  "2026-07-18",
                       "note":  "KLS1-Generationsabschluss: Hauptkonfiguration und Szenen werden ueber eine gemeinsame Configgeneration gebunden; Replacement wird erst nach erfolgreicher Pool-, PIO-/DMA- und LED-Backend-Aktivierung COMPLETE. LKG-, Previous- und Recovery-Fallback binden ihre KLS-Zielmenge neu. accepted-, applied- und persisted-Revision sind getrennt. 64-Bit-operation_id kombiniert persistente Bootgeneration und Zaehler und wird in JSON verlustfrei als String uebertragen. sessionStorage prueft Vorgangstyp, Szene, Revision und Bootgeneration und stellt bei fremden Vorgangen die Serverrevision wieder her. Runtime-Apply-, Rollback- und Storagefehler liefern getrennte Phasen; Slotdiagnose wird nach Schreibfehlern sofort neu gelesen. LKG-Promotion verwendet den zentralen Storage-Lease; alle Replacement-Ausloeser liefern ihre Vorgangs-ID."
-                  },
-                  {
-                      "version":  "0.0.446",
-                      "bin":  "knx-led-controller-16m_0.0.446.bin",
-                      "date":  "2026-07-18",
-                      "note":  "KLS1-Restmaengel: Migration schreibt die Zielszene als eindeutig neueste, erneut gelesene A/B-Generation und behaelt den Importvorgang samt Fortschritt ueber Neustarts. Operation-, aktuelle Szenen-, persistierte Bearbeitungsrevision und Flash-Sequenz sind getrennt. Nach Flashfehler ist ein direkter Retry ohne Reload moeglich; laufende Auftraege werden per sessionStorage wieder aufgenommen. Runtime-Apply erfolgt an der Loop-/Frame-Grenze mit gepruefter Ruecknahme. Boot-Recovery und vollstaendiger Per-Szene-Persistenzstatus sind per API sichtbar. Der systemweite LittleFS-Koordinator verwendet transaktionsgebundene Tokens und umfasst nun auch Hilfe und Setup-Backup-Staging. WLAN-STA-Handover und Ablaufvorschau bleiben enthalten."
                   }
               ]
 }
