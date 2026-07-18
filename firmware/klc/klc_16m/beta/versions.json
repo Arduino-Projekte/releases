@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.457",
+                      "bin":  "knx-led-controller-16m_0.0.457.bin",
+                      "date":  "2026-07-18",
+                      "note":  "Outputs-WebUI entkoppelt Pflicht- und Diagnoseabrufe: /api/outputs rendert die Ausgangskacheln sofort; /api/power, /api/ledbackend und /api/leddiag werden danach einzeln mit Zeitlimit nachgeladen. Eine haengende optionale Diagnose kann die Seite nicht mehr dauerhaft auf Status laedt halten. Pflichtabrufe erhalten Retry, Timeout und sichtbare Fehlermeldungen. LED-Versatz- und Outputs-JSON-Korrekturen bleiben enthalten. Keine Schemaaenderung (Schema 64)."
+                  },
+                  {
                       "version":  "0.0.456",
                       "bin":  "knx-led-controller-16m_0.0.456.bin",
                       "date":  "2026-07-18",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m_0.0.453.bin",
                       "date":  "2026-07-18",
                       "note":  "Bootabschluss neu geordnet: LKG-Promotion erst nach KLA3-bestaetigter Szenenbank ueber den eigenen Zweck ACTIVATION_LKG; ein reiner LKG-Fehler setzt kein retry_suppressed mehr und wird beim naechsten Boot gezielt wiederholt. Factory-Reset und Recovery superseden festgefahrene Replacement-Vorgaenge kontrolliert (alte Vorgangs-ID terminal dokumentiert). Boot-Reconciliation und Rollback suchen KLA3-Autoritaeten gezielt nach previous/target-Generation. Factory-Statusseite pollt mit begrenztem Backoff statt 90-Sekunden-Abbruch. Statusschema 3 trennt Hardware-, Szenenbank- und LKG-Zustand; neue Host-Regressionstests unter tests/host_scene_store."
-                  },
-                  {
-                      "version":  "0.0.448",
-                      "bin":  "knx-led-controller-16m_0.0.448.bin",
-                      "date":  "2026-07-18",
-                      "note":  "Szenenspeicherung KLS2: Base-Config-Generation und Szenenbankgeneration sind getrennt; Szenenpayloads sind nicht mehr Teil der Basisgeneration. Die atomare KLA3-Autoritaet bindet je Szene Slot, Sequenz, Laenge und CRC, sodass vorbereitete Replacement-Slots vor dem finalen Autoritaetswechsel nicht gewinnen und Stromausfaelle keine Mischbank erzeugen. Normale /flows-Commits aktualisieren nur den betroffenen KLS2-Slot und anschliessend den kleinen Autoritaetssatz, ohne klc_config.json/LKG zu schreiben. Bootgeneration nutzt verifizierte A/B-Kontrollsaetze mit Hardware-RNG-Fallback. Factory-Reset liefert Replacement-ID, Status-URL und Zielgenerationen. Zwei ungueltige Slots neutralisieren Persistenzmetadaten; Browser-Timeout sperrt Folgeauftraege bis zur Statusklaerung."
                   }
               ]
 }
