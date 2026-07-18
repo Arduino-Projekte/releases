@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.453",
+                      "bin":  "knx-led-controller-16m-w_0.0.453.bin",
+                      "date":  "2026-07-18",
+                      "note":  "Bootabschluss neu geordnet: LKG-Promotion erst nach KLA3-bestaetigter Szenenbank ueber den eigenen Zweck ACTIVATION_LKG; ein reiner LKG-Fehler setzt kein retry_suppressed mehr und wird beim naechsten Boot gezielt wiederholt. Factory-Reset und Recovery superseden festgefahrene Replacement-Vorgaenge kontrolliert (alte Vorgangs-ID terminal dokumentiert). Boot-Reconciliation und Rollback suchen KLA3-Autoritaeten gezielt nach previous/target-Generation. Factory-Statusseite pollt mit begrenztem Backoff statt 90-Sekunden-Abbruch. Statusschema 3 trennt Hardware-, Szenenbank- und LKG-Zustand; neue Host-Regressionstests unter tests/host_scene_store."
+                  },
+                  {
                       "version":  "0.0.448",
                       "bin":  "knx-led-controller-16m-w_0.0.448.bin",
                       "date":  "2026-07-18",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m-w_0.0.445.bin",
                       "date":  "2026-07-18",
                       "note":  "KLS1-Korrektur: Fehlgeschlagene Szenen-Commits bleiben eindeutig RAM-only und koennen sicher wiederholt werden; Bearbeitungsrevision, Flash-Sequenz und Vorgangs-ID sind getrennt. A/B-Autoritaet und ein resumierbares Transaktionsjournal schuetzen Migration, Import, Recovery und Werksreset ohne vorhandene Szenenslots zu loeschen. Runtime-Aktivierung erfolgt vor dem Persistenzauftrag, Slots werden semantisch validiert, gleiche Sequenzen diagnostiziert und LittleFS-Schreiber zentral koordiniert. Klassische Formulare zeigen einen dauerhaften Speicherstatus, Backups warten auf einen vollstaendig persistenten Szenenstand und Rollbacks warnen vor Firmware ohne KLS1. WLAN-STA-Handover und Ablaufvorschau aus 0.0.444 bleiben enthalten."
-                  },
-                  {
-                      "version":  "0.0.444",
-                      "bin":  "knx-led-controller-16m-w_0.0.444.bin",
-                      "date":  "2026-07-17",
-                      "note":  "Der WLAN-Assistent zeigt die stabile STA-IP jetzt vor dem Konfigurationscommit gross mit Link und Kopierfunktion an und verlangt eine an Vorgang, IP und Verbindungsrevision gebundene Browserbestaetigung. Erst danach wird atomar gespeichert, OTA bleibt bis zum verifizierten STA-only-Zustand gesperrt und ein kontrollierter Neustart dient als letzter AP-Stopp-Fallback. Die nicht blockierende KLS1-Szenenspeicherung und die interaktive Ablaufvorschau bleiben enthalten."
                   }
               ]
 }

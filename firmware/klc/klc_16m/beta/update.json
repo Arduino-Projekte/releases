@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m_0.0.448.bin",
+                     "url":  "knx-led-controller-16m_0.0.453.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.448",
-                     "bin":  "knx-led-controller-16m_0.0.448.bin",
-                     "file":  "knx-led-controller-16m_0.0.448.bin",
-                     "sha256":  "9573f97aa6db462505ed200e92079e9b7c6d7c7f0882491f1a24fcfc62bbe466",
-                     "message":  "Szenenspeicherung KLS2: Base-Config-Generation und Szenenbankgeneration sind getrennt; Szenenpayloads sind nicht mehr Teil der Basisgeneration. Die atomare KLA3-Autoritaet bindet je Szene Slot, Sequenz, Laenge und CRC, sodass vorbereitete Replacement-Slots vor dem finalen Autoritaetswechsel nicht gewinnen und Stromausfaelle keine Mischbank erzeugen. Normale /flows-Commits aktualisieren nur den betroffenen KLS2-Slot und anschliessend den kleinen Autoritaetssatz, ohne klc_config.json/LKG zu schreiben. Bootgeneration nutzt verifizierte A/B-Kontrollsaetze mit Hardware-RNG-Fallback. Factory-Reset liefert Replacement-ID, Status-URL und Zielgenerationen. Zwei ungueltige Slots neutralisieren Persistenzmetadaten; Browser-Timeout sperrt Folgeauftraege bis zur Statusklaerung.",
+                     "version":  "0.0.453",
+                     "bin":  "knx-led-controller-16m_0.0.453.bin",
+                     "file":  "knx-led-controller-16m_0.0.453.bin",
+                     "sha256":  "3bd2831ece027d402a5773aff602ba4c340feb17f5aa3f5145d8228daa4ecab3",
+                     "message":  "Bootabschluss neu geordnet: LKG-Promotion erst nach KLA3-bestaetigter Szenenbank ueber den eigenen Zweck ACTIVATION_LKG; ein reiner LKG-Fehler setzt kein retry_suppressed mehr und wird beim naechsten Boot gezielt wiederholt. Factory-Reset und Recovery superseden festgefahrene Replacement-Vorgaenge kontrolliert (alte Vorgangs-ID terminal dokumentiert). Boot-Reconciliation und Rollback suchen KLA3-Autoritaeten gezielt nach previous/target-Generation. Factory-Statusseite pollt mit begrenztem Backoff statt 90-Sekunden-Abbruch. Statusschema 3 trennt Hardware-, Szenenbank- und LKG-Zustand; neue Host-Regressionstests unter tests/host_scene_store.",
                      "http_code":  200
                  }
 }
