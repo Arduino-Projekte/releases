@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m-w_0.0.458.bin",
+                     "url":  "knx-led-controller-16m-w_0.0.459.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.458",
-                     "bin":  "knx-led-controller-16m-w_0.0.458.bin",
-                     "file":  "knx-led-controller-16m-w_0.0.458.bin",
-                     "sha256":  "4c9ff48d1c5398ec4e4649dda17fd99d7cc3c63b77cc5c93ffdf4b1d6438aa4b",
-                     "message":  "Ablauf-Editor korrigiert die phasenbezogenen Fuellgrade: Beim Wechsel eines Start-, Ein- oder Aus-Effekts wird nur noch der Fuellgrad genau dieser Phase einmalig auf den empfohlenen Wert gesetzt. Aenderungen an Laufrichtung, Bereich oder Mitte spiegeln veraendern keine Fuellgrade mehr. Start-, Ein- und Aus-Fuellgrad sind mit sauber ausgerichteten Beschriftungen, Reglern und Zahlenfeldern dargestellt. Keine Schemaaenderung (Schema 64).",
+                     "version":  "0.0.459",
+                     "bin":  "knx-led-controller-16m-w_0.0.459.bin",
+                     "file":  "knx-led-controller-16m-w_0.0.459.bin",
+                     "sha256":  "f1d022b1ee697926498427a057ed418ac1e1bc55d870365eac0017fa519423da",
+                     "message":  "Ablaufuebergaenge und Animationsvorschau korrigiert: Beim Wechsel von der Hauptphase in den Aus-Effekt wird kein leerer manueller Testpuffer mehr ausgegeben; der erste Aus-Frame wird sofort gerendert. Aus-Lauflicht beginnt am voll sichtbaren Hauptbild statt den Strang auf den Aus-Fuellgrad abzudunkeln. Die Canvas-Vorschau startet automatisch, pausiert nicht mehr bei blosser Mausbewegung und stellt Lauflicht/Welle fuer Start-, Haupt- und Aus-Phase sichtbar und umlaufend dar. Keine Schemaaenderung (Schema 64).",
                      "http_code":  200
                  }
 }
