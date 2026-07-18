@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.458",
+                      "bin":  "knx-led-controller-16m-w_0.0.458.bin",
+                      "date":  "2026-07-18",
+                      "note":  "Ablauf-Editor korrigiert die phasenbezogenen Fuellgrade: Beim Wechsel eines Start-, Ein- oder Aus-Effekts wird nur noch der Fuellgrad genau dieser Phase einmalig auf den empfohlenen Wert gesetzt. Aenderungen an Laufrichtung, Bereich oder Mitte spiegeln veraendern keine Fuellgrade mehr. Start-, Ein- und Aus-Fuellgrad sind mit sauber ausgerichteten Beschriftungen, Reglern und Zahlenfeldern dargestellt. Keine Schemaaenderung (Schema 64)."
+                  },
+                  {
                       "version":  "0.0.457",
                       "bin":  "knx-led-controller-16m-w_0.0.457.bin",
                       "date":  "2026-07-18",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m-w_0.0.454.bin",
                       "date":  "2026-07-18",
                       "note":  "Ausgangsseite repariert: /api/outputs erzeugt wieder gueltiges JSON mit korrekt zugeordneten Formatargumenten, sodass /outputs den Controller nicht mehr durch einen ungueltigen Speicherzugriff blockiert. Zusaetzliche printf-Formatpruefung fuer den zentralen WebUI-Appender erkennt vergleichbare Platzhalterfehler bereits beim Kompilieren. Keine Schemaaenderung (Schema 64)."
-                  },
-                  {
-                      "version":  "0.0.453",
-                      "bin":  "knx-led-controller-16m-w_0.0.453.bin",
-                      "date":  "2026-07-18",
-                      "note":  "Bootabschluss neu geordnet: LKG-Promotion erst nach KLA3-bestaetigter Szenenbank ueber den eigenen Zweck ACTIVATION_LKG; ein reiner LKG-Fehler setzt kein retry_suppressed mehr und wird beim naechsten Boot gezielt wiederholt. Factory-Reset und Recovery superseden festgefahrene Replacement-Vorgaenge kontrolliert (alte Vorgangs-ID terminal dokumentiert). Boot-Reconciliation und Rollback suchen KLA3-Autoritaeten gezielt nach previous/target-Generation. Factory-Statusseite pollt mit begrenztem Backoff statt 90-Sekunden-Abbruch. Statusschema 3 trennt Hardware-, Szenenbank- und LKG-Zustand; neue Host-Regressionstests unter tests/host_scene_store."
                   }
               ]
 }

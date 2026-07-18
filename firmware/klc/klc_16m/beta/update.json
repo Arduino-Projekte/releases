@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m_0.0.457.bin",
+                     "url":  "knx-led-controller-16m_0.0.458.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.457",
-                     "bin":  "knx-led-controller-16m_0.0.457.bin",
-                     "file":  "knx-led-controller-16m_0.0.457.bin",
-                     "sha256":  "1088a0b8246dba99ff17b05be9c04d1a524b8d8c467d0d1603ebe09e7bb38f01",
-                     "message":  "Outputs-WebUI entkoppelt Pflicht- und Diagnoseabrufe: /api/outputs rendert die Ausgangskacheln sofort; /api/power, /api/ledbackend und /api/leddiag werden danach einzeln mit Zeitlimit nachgeladen. Eine haengende optionale Diagnose kann die Seite nicht mehr dauerhaft auf Status laedt halten. Pflichtabrufe erhalten Retry, Timeout und sichtbare Fehlermeldungen. LED-Versatz- und Outputs-JSON-Korrekturen bleiben enthalten. Keine Schemaaenderung (Schema 64).",
+                     "version":  "0.0.458",
+                     "bin":  "knx-led-controller-16m_0.0.458.bin",
+                     "file":  "knx-led-controller-16m_0.0.458.bin",
+                     "sha256":  "8c4f45fe770e54eddc3310e0cf02d235c589229800c959f5fb10d267f03fbec3",
+                     "message":  "Ablauf-Editor korrigiert die phasenbezogenen Fuellgrade: Beim Wechsel eines Start-, Ein- oder Aus-Effekts wird nur noch der Fuellgrad genau dieser Phase einmalig auf den empfohlenen Wert gesetzt. Aenderungen an Laufrichtung, Bereich oder Mitte spiegeln veraendern keine Fuellgrade mehr. Start-, Ein- und Aus-Fuellgrad sind mit sauber ausgerichteten Beschriftungen, Reglern und Zahlenfeldern dargestellt. Keine Schemaaenderung (Schema 64).",
                      "http_code":  200
                  }
 }
