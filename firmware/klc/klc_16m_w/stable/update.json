@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m-w_0.0.447.bin",
+                     "url":  "knx-led-controller-16m-w_0.0.448.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.447",
-                     "bin":  "knx-led-controller-16m-w_0.0.447.bin",
-                     "file":  "knx-led-controller-16m-w_0.0.447.bin",
-                     "sha256":  "0967a5b45373bf87701798cb29f9163f2963609e97ed01e61de44286fab4d2df",
-                     "message":  "KLS1-Generationsabschluss: Hauptkonfiguration und Szenen werden ueber eine gemeinsame Configgeneration gebunden; Replacement wird erst nach erfolgreicher Pool-, PIO-/DMA- und LED-Backend-Aktivierung COMPLETE. LKG-, Previous- und Recovery-Fallback binden ihre KLS-Zielmenge neu. accepted-, applied- und persisted-Revision sind getrennt. 64-Bit-operation_id kombiniert persistente Bootgeneration und Zaehler und wird in JSON verlustfrei als String uebertragen. sessionStorage prueft Vorgangstyp, Szene, Revision und Bootgeneration und stellt bei fremden Vorgangen die Serverrevision wieder her. Runtime-Apply-, Rollback- und Storagefehler liefern getrennte Phasen; Slotdiagnose wird nach Schreibfehlern sofort neu gelesen. LKG-Promotion verwendet den zentralen Storage-Lease; alle Replacement-Ausloeser liefern ihre Vorgangs-ID.",
+                     "version":  "0.0.448",
+                     "bin":  "knx-led-controller-16m-w_0.0.448.bin",
+                     "file":  "knx-led-controller-16m-w_0.0.448.bin",
+                     "sha256":  "d44ddd81f258203b795e6555e275f1f434ccd55bbf052088c18b75db9669269e",
+                     "message":  "Szenenspeicherung KLS2: Base-Config-Generation und Szenenbankgeneration sind getrennt; Szenenpayloads sind nicht mehr Teil der Basisgeneration. Die atomare KLA3-Autoritaet bindet je Szene Slot, Sequenz, Laenge und CRC, sodass vorbereitete Replacement-Slots vor dem finalen Autoritaetswechsel nicht gewinnen und Stromausfaelle keine Mischbank erzeugen. Normale /flows-Commits aktualisieren nur den betroffenen KLS2-Slot und anschliessend den kleinen Autoritaetssatz, ohne klc_config.json/LKG zu schreiben. Bootgeneration nutzt verifizierte A/B-Kontrollsaetze mit Hardware-RNG-Fallback. Factory-Reset liefert Replacement-ID, Status-URL und Zielgenerationen. Zwei ungueltige Slots neutralisieren Persistenzmetadaten; Browser-Timeout sperrt Folgeauftraege bis zur Statusklaerung.",
                      "http_code":  200
                  }
 }
