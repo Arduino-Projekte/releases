@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.448",
+                      "bin":  "knx-led-controller-16m_0.0.448.bin",
+                      "date":  "2026-07-18",
+                      "note":  "Szenenspeicherung KLS2: Base-Config-Generation und Szenenbankgeneration sind getrennt; Szenenpayloads sind nicht mehr Teil der Basisgeneration. Die atomare KLA3-Autoritaet bindet je Szene Slot, Sequenz, Laenge und CRC, sodass vorbereitete Replacement-Slots vor dem finalen Autoritaetswechsel nicht gewinnen und Stromausfaelle keine Mischbank erzeugen. Normale /flows-Commits aktualisieren nur den betroffenen KLS2-Slot und anschliessend den kleinen Autoritaetssatz, ohne klc_config.json/LKG zu schreiben. Bootgeneration nutzt verifizierte A/B-Kontrollsaetze mit Hardware-RNG-Fallback. Factory-Reset liefert Replacement-ID, Status-URL und Zielgenerationen. Zwei ungueltige Slots neutralisieren Persistenzmetadaten; Browser-Timeout sperrt Folgeauftraege bis zur Statusklaerung."
+                  },
+                  {
                       "version":  "0.0.447",
                       "bin":  "knx-led-controller-16m_0.0.447.bin",
                       "date":  "2026-07-18",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m_0.0.444.bin",
                       "date":  "2026-07-17",
                       "note":  "Der WLAN-Assistent zeigt die stabile STA-IP jetzt vor dem Konfigurationscommit gross mit Link und Kopierfunktion an und verlangt eine an Vorgang, IP und Verbindungsrevision gebundene Browserbestaetigung. Erst danach wird atomar gespeichert, OTA bleibt bis zum verifizierten STA-only-Zustand gesperrt und ein kontrollierter Neustart dient als letzter AP-Stopp-Fallback. Die nicht blockierende KLS1-Szenenspeicherung und die interaktive Ablaufvorschau bleiben enthalten."
-                  },
-                  {
-                      "version":  "0.0.430",
-                      "bin":  "knx-led-controller-16m_0.0.430.bin",
-                      "date":  "2026-07-17",
-                      "note":  "Service-AP-Abschaltung fuer Arduino-Pico 5.6.1 korrigiert: direkter disconnectAP-Aufruf, CYW43-Hardware-Fallback, AP-Netif-/MAC-/Modusdiagnose, Soll-Ist-Waechter mit Retry-Begrenzung, STA-Erhalt und dauerhaftes Speichern von ap_enabled=false ohne doppelten Flash-Schreibvorgang."
                   }
               ]
 }
