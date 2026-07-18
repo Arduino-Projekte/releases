@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m_0.0.455.bin",
+                     "url":  "knx-led-controller-16m_0.0.456.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.455",
-                     "bin":  "knx-led-controller-16m_0.0.455.bin",
-                     "file":  "knx-led-controller-16m_0.0.455.bin",
-                     "sha256":  "07a184c349c3b00838d24f2e0ccb77e8be90c7c15092be1ca2092a9217f6addb",
-                     "message":  "LED-Versatz im Ausgangstest vervollstaendigt: Anfang/Ende blinken verwendet jetzt den gespeicherten oder aktuell ungespeicherten Versatz und bildet die logischen Endpunkte wie die Szenenausgabe umlaufend auf die physischen LEDs ab. Der temporaere Testrequest uebertraegt und validiert temp_pixel_offset. /outputs laedt die zentrale Ausgangs-API nun zuerst, wiederholt einen transient fehlgeschlagenen Abruf einmal und startet die Zusatzdiagnosen erst danach; konkrete Ladefehler werden angezeigt. Der /api/outputs-Formatstring-Fix und die Compiler-Formatpruefung aus 0.0.454 bleiben enthalten. Keine Schemaaenderung (Schema 64).",
+                     "version":  "0.0.456",
+                     "bin":  "knx-led-controller-16m_0.0.456.bin",
+                     "file":  "knx-led-controller-16m_0.0.456.bin",
+                     "sha256":  "cd29c50f19c4cb202c8dd28b25c7fb68989a3e11e9a97af61e21ec28790122e8",
+                     "message":  "Korrektur fuer /api/outputs: JSON-Boolesche Werte werden beim Streaming nicht mehr als variadische %s-Argumente formatiert, sondern als feste true/false-Literale geschrieben. Der API-Kopf, Aktivierungsstatus, Ausgangs-, Verkettungs-, Pending- und Szenenwerte erzeugen dadurch keine leeren JSON-Werte mehr. Der LED-Versatz-Fix aus 0.0.455 bleibt enthalten. Keine Schemaaenderung (Schema 64).",
                      "http_code":  200
                  }
 }
