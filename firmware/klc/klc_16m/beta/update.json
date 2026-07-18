@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m_0.0.453.bin",
+                     "url":  "knx-led-controller-16m_0.0.454.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.453",
-                     "bin":  "knx-led-controller-16m_0.0.453.bin",
-                     "file":  "knx-led-controller-16m_0.0.453.bin",
-                     "sha256":  "3bd2831ece027d402a5773aff602ba4c340feb17f5aa3f5145d8228daa4ecab3",
-                     "message":  "Bootabschluss neu geordnet: LKG-Promotion erst nach KLA3-bestaetigter Szenenbank ueber den eigenen Zweck ACTIVATION_LKG; ein reiner LKG-Fehler setzt kein retry_suppressed mehr und wird beim naechsten Boot gezielt wiederholt. Factory-Reset und Recovery superseden festgefahrene Replacement-Vorgaenge kontrolliert (alte Vorgangs-ID terminal dokumentiert). Boot-Reconciliation und Rollback suchen KLA3-Autoritaeten gezielt nach previous/target-Generation. Factory-Statusseite pollt mit begrenztem Backoff statt 90-Sekunden-Abbruch. Statusschema 3 trennt Hardware-, Szenenbank- und LKG-Zustand; neue Host-Regressionstests unter tests/host_scene_store.",
+                     "version":  "0.0.454",
+                     "bin":  "knx-led-controller-16m_0.0.454.bin",
+                     "file":  "knx-led-controller-16m_0.0.454.bin",
+                     "sha256":  "c0fb034b7dfb823ac54cbb40ef6d2f66316a397830c2c5f90dd0dd78f64635e8",
+                     "message":  "Ausgangsseite repariert: /api/outputs erzeugt wieder gueltiges JSON mit korrekt zugeordneten Formatargumenten, sodass /outputs den Controller nicht mehr durch einen ungueltigen Speicherzugriff blockiert. Zusaetzliche printf-Formatpruefung fuer den zentralen WebUI-Appender erkennt vergleichbare Platzhalterfehler bereits beim Kompilieren. Keine Schemaaenderung (Schema 64).",
                      "http_code":  200
                  }
 }
