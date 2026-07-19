@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.463",
+                      "bin":  "knx-led-controller-16m-w_0.0.463.bin",
+                      "date":  "2026-07-19",
+                      "note":  "Restmaengel der einheitlichen KNX-Szenensteuerung behoben: ausdruecklicher Szenenaufruf und LAST-Wiederherstellung sind getrennt; temporaere Farbe und Helligkeit werden beim ausdruecklichen Aufruf verworfen, ohne dieselbe laufende Animation neu zu starten. KNX-Ausschalt-Rampen wirken gemeinsam mit Szenen-Aus-Effekten und enden ebenso wie natuerlich ablaufende Szenen in einem konsistenten logischen AUS-Zustand. Konkurrierende KNX-Farbakkumulatoren wurden entfernt; Teilkanalwerte verwenden die wirksame Farbe jedes Kettenkopfs. Folgeausgaenge besitzen keine eigene KNX-/LAST-Runtime oder Verhaltenskonfiguration. Szenen- und Schaltstatus bleiben waehrend sichtbarer Aus-Phasen konsistent. Konfigurationsschema bleibt 65."
+                  },
+                  {
                       "version":  "0.0.462",
                       "bin":  "knx-led-controller-16m-w_0.0.462.bin",
                       "date":  "2026-07-19",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m-w_0.0.458.bin",
                       "date":  "2026-07-18",
                       "note":  "Ablauf-Editor korrigiert die phasenbezogenen Fuellgrade: Beim Wechsel eines Start-, Ein- oder Aus-Effekts wird nur noch der Fuellgrad genau dieser Phase einmalig auf den empfohlenen Wert gesetzt. Aenderungen an Laufrichtung, Bereich oder Mitte spiegeln veraendern keine Fuellgrade mehr. Start-, Ein- und Aus-Fuellgrad sind mit sauber ausgerichteten Beschriftungen, Reglern und Zahlenfeldern dargestellt. Keine Schemaaenderung (Schema 64)."
-                  },
-                  {
-                      "version":  "0.0.457",
-                      "bin":  "knx-led-controller-16m-w_0.0.457.bin",
-                      "date":  "2026-07-18",
-                      "note":  "Outputs-WebUI entkoppelt Pflicht- und Diagnoseabrufe: /api/outputs rendert die Ausgangskacheln sofort; /api/power, /api/ledbackend und /api/leddiag werden danach einzeln mit Zeitlimit nachgeladen. Eine haengende optionale Diagnose kann die Seite nicht mehr dauerhaft auf Status laedt halten. Pflichtabrufe erhalten Retry, Timeout und sichtbare Fehlermeldungen. LED-Versatz- und Outputs-JSON-Korrekturen bleiben enthalten. Keine Schemaaenderung (Schema 64)."
                   }
               ]
 }

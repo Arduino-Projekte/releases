@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m_0.0.462.bin",
+                     "url":  "knx-led-controller-16m_0.0.463.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.462",
-                     "bin":  "knx-led-controller-16m_0.0.462.bin",
-                     "file":  "knx-led-controller-16m_0.0.462.bin",
-                     "sha256":  "5b0398c13f6f0ce1cf1dd573a52c2e5a7a2712eb7ac0e8b9ce6e1d1cb630be50",
-                     "message":  "KNX-Farbe und KNX-Helligkeit arbeiten jetzt einheitlich ueber die Szenen-/Ablauf-Engine: Eine aktive Szene bleibt mit Phase, Bewegung und Effektparametern erhalten; Farbwerte werden nur als RAM-Laufzeituebersteuerung angewendet. Ist kein Szenenzustand bekannt, startet die neue pro Ausgang gespeicherte KNX-Basisszene. Letzte Szene und temporaere Farbe bleiben bis zum Neustart im RAM, Szene 0 bleibt AUS. KNX-Basisszene in /knx, Export, Import, Validierung und Migration ergaenzt. Konfigurationsschema 65.",
+                     "version":  "0.0.463",
+                     "bin":  "knx-led-controller-16m_0.0.463.bin",
+                     "file":  "knx-led-controller-16m_0.0.463.bin",
+                     "sha256":  "1dbcd459df445e3161fa52f716f4a8d794d5d105927b2863c6dc82d0b6b76856",
+                     "message":  "Restmaengel der einheitlichen KNX-Szenensteuerung behoben: ausdruecklicher Szenenaufruf und LAST-Wiederherstellung sind getrennt; temporaere Farbe und Helligkeit werden beim ausdruecklichen Aufruf verworfen, ohne dieselbe laufende Animation neu zu starten. KNX-Ausschalt-Rampen wirken gemeinsam mit Szenen-Aus-Effekten und enden ebenso wie natuerlich ablaufende Szenen in einem konsistenten logischen AUS-Zustand. Konkurrierende KNX-Farbakkumulatoren wurden entfernt; Teilkanalwerte verwenden die wirksame Farbe jedes Kettenkopfs. Folgeausgaenge besitzen keine eigene KNX-/LAST-Runtime oder Verhaltenskonfiguration. Szenen- und Schaltstatus bleiben waehrend sichtbarer Aus-Phasen konsistent. Konfigurationsschema bleibt 65.",
                      "http_code":  200
                  }
 }
