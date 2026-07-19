@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m-w_0.0.459.bin",
+                     "url":  "knx-led-controller-16m-w_0.0.461.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.459",
-                     "bin":  "knx-led-controller-16m-w_0.0.459.bin",
-                     "file":  "knx-led-controller-16m-w_0.0.459.bin",
-                     "sha256":  "f1d022b1ee697926498427a057ed418ac1e1bc55d870365eac0017fa519423da",
-                     "message":  "Ablaufuebergaenge und Animationsvorschau korrigiert: Beim Wechsel von der Hauptphase in den Aus-Effekt wird kein leerer manueller Testpuffer mehr ausgegeben; der erste Aus-Frame wird sofort gerendert. Aus-Lauflicht beginnt am voll sichtbaren Hauptbild statt den Strang auf den Aus-Fuellgrad abzudunkeln. Die Canvas-Vorschau startet automatisch, pausiert nicht mehr bei blosser Mausbewegung und stellt Lauflicht/Welle fuer Start-, Haupt- und Aus-Phase sichtbar und umlaufend dar. Keine Schemaaenderung (Schema 64).",
+                     "version":  "0.0.461",
+                     "bin":  "knx-led-controller-16m-w_0.0.461.bin",
+                     "file":  "knx-led-controller-16m-w_0.0.461.bin",
+                     "sha256":  "7c9f06bcc7acbf3389dae119f28bc274b6f8d013493466529c5586f74453abeb",
+                     "message":  "Wiederholte Szenen-EIN-Befehle entprellt: Ist dieselbe Szene auf einem Ausgang bereits stabil aktiv, bleibt ihre Laufzeit unveraendert und der Start-Effekt wird nicht erneut ausgefuehrt. Dies gilt fuer einzelne Ausgaenge, zentrale Szenenbefehle und Szenenstarts mit KNX-Rampe. Befindet sich die Szene bereits in der Aus-Phase, ist sie beendet, wird ausgeblendet oder zeigt ein manueller LED-Test den Ausgang, darf dasselbe Szenentelegramm weiterhin neu starten beziehungsweise den Test beenden. Keine Schemaaenderung (Schema 64).",
                      "http_code":  200
                  }
 }
