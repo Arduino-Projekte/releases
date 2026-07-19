@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.462",
+                      "bin":  "knx-led-controller-16m-w_0.0.462.bin",
+                      "date":  "2026-07-19",
+                      "note":  "KNX-Farbe und KNX-Helligkeit arbeiten jetzt einheitlich ueber die Szenen-/Ablauf-Engine: Eine aktive Szene bleibt mit Phase, Bewegung und Effektparametern erhalten; Farbwerte werden nur als RAM-Laufzeituebersteuerung angewendet. Ist kein Szenenzustand bekannt, startet die neue pro Ausgang gespeicherte KNX-Basisszene. Letzte Szene und temporaere Farbe bleiben bis zum Neustart im RAM, Szene 0 bleibt AUS. KNX-Basisszene in /knx, Export, Import, Validierung und Migration ergaenzt. Konfigurationsschema 65."
+                  },
+                  {
                       "version":  "0.0.461",
                       "bin":  "knx-led-controller-16m-w_0.0.461.bin",
                       "date":  "2026-07-19",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m-w_0.0.457.bin",
                       "date":  "2026-07-18",
                       "note":  "Outputs-WebUI entkoppelt Pflicht- und Diagnoseabrufe: /api/outputs rendert die Ausgangskacheln sofort; /api/power, /api/ledbackend und /api/leddiag werden danach einzeln mit Zeitlimit nachgeladen. Eine haengende optionale Diagnose kann die Seite nicht mehr dauerhaft auf Status laedt halten. Pflichtabrufe erhalten Retry, Timeout und sichtbare Fehlermeldungen. LED-Versatz- und Outputs-JSON-Korrekturen bleiben enthalten. Keine Schemaaenderung (Schema 64)."
-                  },
-                  {
-                      "version":  "0.0.456",
-                      "bin":  "knx-led-controller-16m-w_0.0.456.bin",
-                      "date":  "2026-07-18",
-                      "note":  "Korrektur fuer /api/outputs: JSON-Boolesche Werte werden beim Streaming nicht mehr als variadische %s-Argumente formatiert, sondern als feste true/false-Literale geschrieben. Der API-Kopf, Aktivierungsstatus, Ausgangs-, Verkettungs-, Pending- und Szenenwerte erzeugen dadurch keine leeren JSON-Werte mehr. Der LED-Versatz-Fix aus 0.0.455 bleibt enthalten. Keine Schemaaenderung (Schema 64)."
                   }
               ]
 }

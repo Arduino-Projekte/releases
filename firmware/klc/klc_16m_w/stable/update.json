@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m-w_0.0.461.bin",
+                     "url":  "knx-led-controller-16m-w_0.0.462.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.461",
-                     "bin":  "knx-led-controller-16m-w_0.0.461.bin",
-                     "file":  "knx-led-controller-16m-w_0.0.461.bin",
-                     "sha256":  "7c9f06bcc7acbf3389dae119f28bc274b6f8d013493466529c5586f74453abeb",
-                     "message":  "Wiederholte Szenen-EIN-Befehle entprellt: Ist dieselbe Szene auf einem Ausgang bereits stabil aktiv, bleibt ihre Laufzeit unveraendert und der Start-Effekt wird nicht erneut ausgefuehrt. Dies gilt fuer einzelne Ausgaenge, zentrale Szenenbefehle und Szenenstarts mit KNX-Rampe. Befindet sich die Szene bereits in der Aus-Phase, ist sie beendet, wird ausgeblendet oder zeigt ein manueller LED-Test den Ausgang, darf dasselbe Szenentelegramm weiterhin neu starten beziehungsweise den Test beenden. Keine Schemaaenderung (Schema 64).",
+                     "version":  "0.0.462",
+                     "bin":  "knx-led-controller-16m-w_0.0.462.bin",
+                     "file":  "knx-led-controller-16m-w_0.0.462.bin",
+                     "sha256":  "d2a9d636fb7e9d83353030e32e60b0b09047f5f4492ded34fcf3cf098fea4c19",
+                     "message":  "KNX-Farbe und KNX-Helligkeit arbeiten jetzt einheitlich ueber die Szenen-/Ablauf-Engine: Eine aktive Szene bleibt mit Phase, Bewegung und Effektparametern erhalten; Farbwerte werden nur als RAM-Laufzeituebersteuerung angewendet. Ist kein Szenenzustand bekannt, startet die neue pro Ausgang gespeicherte KNX-Basisszene. Letzte Szene und temporaere Farbe bleiben bis zum Neustart im RAM, Szene 0 bleibt AUS. KNX-Basisszene in /knx, Export, Import, Validierung und Migration ergaenzt. Konfigurationsschema 65.",
                      "http_code":  200
                  }
 }
