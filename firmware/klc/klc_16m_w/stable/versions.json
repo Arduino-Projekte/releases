@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.465",
+                      "bin":  "knx-led-controller-16m-w_0.0.465.bin",
+                      "date":  "2026-07-19",
+                      "note":  "KNX-RGBW-Teilkanalfolgen behalten jetzt auch ein vollstaendig schwarzes kumuliertes Zwischenziel als reine RAM-Zielbasis. Nachfolgende Farbkanaltelegramme bauen deterministisch auf diesem Schwarz auf, statt alte Szenen-, LAST- oder Rampenfarben wiederzuverwenden; der positive LAST-EIN-Zustand bleibt davon getrennt und weiterhin einschaltbar. Ausgangsbezogene und globale Farbobjekte nutzen dieselbe Zielsemantik je Kettenkopf, auch waehrend und nach der Ausphase. KNX-Konfigurationsspeicherpfade validieren ausserdem bereits gespeicherte ausstehende Entkettungen vor Objekt-, Folgeausgangs- und Basisszenenpruefungen gegen den vollstaendigen kuenftigen Zielzustand, ohne die Struktur vor dem Neustart zu aktivieren. Konfigurationsschema bleibt 65."
+                  },
+                  {
                       "version":  "0.0.464",
                       "bin":  "knx-led-controller-16m-w_0.0.464.bin",
                       "date":  "2026-07-19",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m-w_0.0.461.bin",
                       "date":  "2026-07-19",
                       "note":  "Wiederholte Szenen-EIN-Befehle entprellt: Ist dieselbe Szene auf einem Ausgang bereits stabil aktiv, bleibt ihre Laufzeit unveraendert und der Start-Effekt wird nicht erneut ausgefuehrt. Dies gilt fuer einzelne Ausgaenge, zentrale Szenenbefehle und Szenenstarts mit KNX-Rampe. Befindet sich die Szene bereits in der Aus-Phase, ist sie beendet, wird ausgeblendet oder zeigt ein manueller LED-Test den Ausgang, darf dasselbe Szenentelegramm weiterhin neu starten beziehungsweise den Test beenden. Keine Schemaaenderung (Schema 64)."
-                  },
-                  {
-                      "version":  "0.0.459",
-                      "bin":  "knx-led-controller-16m-w_0.0.459.bin",
-                      "date":  "2026-07-18",
-                      "note":  "Ablaufuebergaenge und Animationsvorschau korrigiert: Beim Wechsel von der Hauptphase in den Aus-Effekt wird kein leerer manueller Testpuffer mehr ausgegeben; der erste Aus-Frame wird sofort gerendert. Aus-Lauflicht beginnt am voll sichtbaren Hauptbild statt den Strang auf den Aus-Fuellgrad abzudunkeln. Die Canvas-Vorschau startet automatisch, pausiert nicht mehr bei blosser Mausbewegung und stellt Lauflicht/Welle fuer Start-, Haupt- und Aus-Phase sichtbar und umlaufend dar. Keine Schemaaenderung (Schema 64)."
                   }
               ]
 }

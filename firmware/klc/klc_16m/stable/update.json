@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m_0.0.464.bin",
+                     "url":  "knx-led-controller-16m_0.0.465.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.464",
-                     "bin":  "knx-led-controller-16m_0.0.464.bin",
-                     "file":  "knx-led-controller-16m_0.0.464.bin",
-                     "sha256":  "0a975f7634a369c9722889aa66a854f1572c7a404fa3baaf3647f359036f1e99",
-                     "message":  "KNX-RGBW-Teilkanaltelegramme werden waehrend aktiver Farbrampen jetzt zuverlaessig kumuliert: Als semantische Basis dient das bereits festgelegte Rampenziel, waehrend der sichtbare Zwischenwert nur den sprungfreien Start der neu berechneten Rampe bildet. Ausgangsbezogene und globale Farbobjekte verwenden dieselbe Zielwertlogik je Kettenkopf; LAST erhaelt dadurch die vollstaendige kumulierte Zielfarbe. Beim Loesen einer Verkettung koennen kollidierende alte KNX-Objektnummern im selben transaktionalen Speichervorgang bewusst auf nicht verwendet gesetzt werden; ohne diese Auswahl liefert die bestehende Eindeutigkeitspruefung eine klare Kollision und uebernimmt nichts teilweise. Konfigurationsschema bleibt 65.",
+                     "version":  "0.0.465",
+                     "bin":  "knx-led-controller-16m_0.0.465.bin",
+                     "file":  "knx-led-controller-16m_0.0.465.bin",
+                     "sha256":  "f119e7dd69fdc7109ccb98ef0ece037f78b5f8834f1da5408c7840812404893c",
+                     "message":  "KNX-RGBW-Teilkanalfolgen behalten jetzt auch ein vollstaendig schwarzes kumuliertes Zwischenziel als reine RAM-Zielbasis. Nachfolgende Farbkanaltelegramme bauen deterministisch auf diesem Schwarz auf, statt alte Szenen-, LAST- oder Rampenfarben wiederzuverwenden; der positive LAST-EIN-Zustand bleibt davon getrennt und weiterhin einschaltbar. Ausgangsbezogene und globale Farbobjekte nutzen dieselbe Zielsemantik je Kettenkopf, auch waehrend und nach der Ausphase. KNX-Konfigurationsspeicherpfade validieren ausserdem bereits gespeicherte ausstehende Entkettungen vor Objekt-, Folgeausgangs- und Basisszenenpruefungen gegen den vollstaendigen kuenftigen Zielzustand, ohne die Struktur vor dem Neustart zu aktivieren. Konfigurationsschema bleibt 65.",
                      "http_code":  200
                  }
 }
