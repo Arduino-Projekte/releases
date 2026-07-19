@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m_0.0.463.bin",
+                     "url":  "knx-led-controller-16m_0.0.464.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.463",
-                     "bin":  "knx-led-controller-16m_0.0.463.bin",
-                     "file":  "knx-led-controller-16m_0.0.463.bin",
-                     "sha256":  "1dbcd459df445e3161fa52f716f4a8d794d5d105927b2863c6dc82d0b6b76856",
-                     "message":  "Restmaengel der einheitlichen KNX-Szenensteuerung behoben: ausdruecklicher Szenenaufruf und LAST-Wiederherstellung sind getrennt; temporaere Farbe und Helligkeit werden beim ausdruecklichen Aufruf verworfen, ohne dieselbe laufende Animation neu zu starten. KNX-Ausschalt-Rampen wirken gemeinsam mit Szenen-Aus-Effekten und enden ebenso wie natuerlich ablaufende Szenen in einem konsistenten logischen AUS-Zustand. Konkurrierende KNX-Farbakkumulatoren wurden entfernt; Teilkanalwerte verwenden die wirksame Farbe jedes Kettenkopfs. Folgeausgaenge besitzen keine eigene KNX-/LAST-Runtime oder Verhaltenskonfiguration. Szenen- und Schaltstatus bleiben waehrend sichtbarer Aus-Phasen konsistent. Konfigurationsschema bleibt 65.",
+                     "version":  "0.0.464",
+                     "bin":  "knx-led-controller-16m_0.0.464.bin",
+                     "file":  "knx-led-controller-16m_0.0.464.bin",
+                     "sha256":  "0a975f7634a369c9722889aa66a854f1572c7a404fa3baaf3647f359036f1e99",
+                     "message":  "KNX-RGBW-Teilkanaltelegramme werden waehrend aktiver Farbrampen jetzt zuverlaessig kumuliert: Als semantische Basis dient das bereits festgelegte Rampenziel, waehrend der sichtbare Zwischenwert nur den sprungfreien Start der neu berechneten Rampe bildet. Ausgangsbezogene und globale Farbobjekte verwenden dieselbe Zielwertlogik je Kettenkopf; LAST erhaelt dadurch die vollstaendige kumulierte Zielfarbe. Beim Loesen einer Verkettung koennen kollidierende alte KNX-Objektnummern im selben transaktionalen Speichervorgang bewusst auf nicht verwendet gesetzt werden; ohne diese Auswahl liefert die bestehende Eindeutigkeitspruefung eine klare Kollision und uebernimmt nichts teilweise. Konfigurationsschema bleibt 65.",
                      "http_code":  200
                  }
 }

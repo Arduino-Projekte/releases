@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.464",
+                      "bin":  "knx-led-controller-16m_0.0.464.bin",
+                      "date":  "2026-07-19",
+                      "note":  "KNX-RGBW-Teilkanaltelegramme werden waehrend aktiver Farbrampen jetzt zuverlaessig kumuliert: Als semantische Basis dient das bereits festgelegte Rampenziel, waehrend der sichtbare Zwischenwert nur den sprungfreien Start der neu berechneten Rampe bildet. Ausgangsbezogene und globale Farbobjekte verwenden dieselbe Zielwertlogik je Kettenkopf; LAST erhaelt dadurch die vollstaendige kumulierte Zielfarbe. Beim Loesen einer Verkettung koennen kollidierende alte KNX-Objektnummern im selben transaktionalen Speichervorgang bewusst auf nicht verwendet gesetzt werden; ohne diese Auswahl liefert die bestehende Eindeutigkeitspruefung eine klare Kollision und uebernimmt nichts teilweise. Konfigurationsschema bleibt 65."
+                  },
+                  {
                       "version":  "0.0.463",
                       "bin":  "knx-led-controller-16m_0.0.463.bin",
                       "date":  "2026-07-19",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m_0.0.459.bin",
                       "date":  "2026-07-18",
                       "note":  "Ablaufuebergaenge und Animationsvorschau korrigiert: Beim Wechsel von der Hauptphase in den Aus-Effekt wird kein leerer manueller Testpuffer mehr ausgegeben; der erste Aus-Frame wird sofort gerendert. Aus-Lauflicht beginnt am voll sichtbaren Hauptbild statt den Strang auf den Aus-Fuellgrad abzudunkeln. Die Canvas-Vorschau startet automatisch, pausiert nicht mehr bei blosser Mausbewegung und stellt Lauflicht/Welle fuer Start-, Haupt- und Aus-Phase sichtbar und umlaufend dar. Keine Schemaaenderung (Schema 64)."
-                  },
-                  {
-                      "version":  "0.0.458",
-                      "bin":  "knx-led-controller-16m_0.0.458.bin",
-                      "date":  "2026-07-18",
-                      "note":  "Ablauf-Editor korrigiert die phasenbezogenen Fuellgrade: Beim Wechsel eines Start-, Ein- oder Aus-Effekts wird nur noch der Fuellgrad genau dieser Phase einmalig auf den empfohlenen Wert gesetzt. Aenderungen an Laufrichtung, Bereich oder Mitte spiegeln veraendern keine Fuellgrade mehr. Start-, Ein- und Aus-Fuellgrad sind mit sauber ausgerichteten Beschriftungen, Reglern und Zahlenfeldern dargestellt. Keine Schemaaenderung (Schema 64)."
                   }
               ]
 }
