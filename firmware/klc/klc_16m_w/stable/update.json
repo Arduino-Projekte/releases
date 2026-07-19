@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m-w_0.0.465.bin",
+                     "url":  "knx-led-controller-16m-w_0.0.466.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.465",
-                     "bin":  "knx-led-controller-16m-w_0.0.465.bin",
-                     "file":  "knx-led-controller-16m-w_0.0.465.bin",
-                     "sha256":  "97709a9580584fc40abd6d743f61181ad25c68671d3042dc0aba918e9374723f",
-                     "message":  "KNX-RGBW-Teilkanalfolgen behalten jetzt auch ein vollstaendig schwarzes kumuliertes Zwischenziel als reine RAM-Zielbasis. Nachfolgende Farbkanaltelegramme bauen deterministisch auf diesem Schwarz auf, statt alte Szenen-, LAST- oder Rampenfarben wiederzuverwenden; der positive LAST-EIN-Zustand bleibt davon getrennt und weiterhin einschaltbar. Ausgangsbezogene und globale Farbobjekte nutzen dieselbe Zielsemantik je Kettenkopf, auch waehrend und nach der Ausphase. KNX-Konfigurationsspeicherpfade validieren ausserdem bereits gespeicherte ausstehende Entkettungen vor Objekt-, Folgeausgangs- und Basisszenenpruefungen gegen den vollstaendigen kuenftigen Zielzustand, ohne die Struktur vor dem Neustart zu aktivieren. Konfigurationsschema bleibt 65.",
+                     "version":  "0.0.466",
+                     "bin":  "knx-led-controller-16m-w_0.0.466.bin",
+                     "file":  "knx-led-controller-16m-w_0.0.466.bin",
+                     "sha256":  "df56cb123227fbe2d4405e82e31c1207331ea9f8c7d2c0348b7a12f2687b45aa",
+                     "message":  "Konfigurations- und Runtime-Refreshes verwerfen jetzt alte schwarze semantische KNX-RGBW-Ziele auch bei bereits ausgeschalteten Ausgaengen. klcScenesApplyConfigUpdate() und die gezielte Ausgangs-Rekonfiguration ueberspringen betroffene dunkle Kettenkoepfe nicht mehr, bereinigen Farbrampen und temporaere Farbzustaende konsistent und lassen den positiven LAST-EIN-Zustand erhalten. Aenderungen der ausgangsbezogenen KNX-Verhaltenskonfiguration, insbesondere der KNX-Basisszene, invalidieren die alte schwarze Buendelbasis ohne laufende sichtbare Szenen unnoetig neu zu starten. Ungueltig oder inaktiv gewordene LAST-Szenen sowie lokale Zustande deaktivierter Ausgaenge und Folgeausgaenge werden verworfen. Persistierte Konfiguration und Konfigurationsschema bleiben unveraendert bei Schema 65.",
                      "http_code":  200
                  }
 }

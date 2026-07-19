@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.466",
+                      "bin":  "knx-led-controller-16m-w_0.0.466.bin",
+                      "date":  "2026-07-19",
+                      "note":  "Konfigurations- und Runtime-Refreshes verwerfen jetzt alte schwarze semantische KNX-RGBW-Ziele auch bei bereits ausgeschalteten Ausgaengen. klcScenesApplyConfigUpdate() und die gezielte Ausgangs-Rekonfiguration ueberspringen betroffene dunkle Kettenkoepfe nicht mehr, bereinigen Farbrampen und temporaere Farbzustaende konsistent und lassen den positiven LAST-EIN-Zustand erhalten. Aenderungen der ausgangsbezogenen KNX-Verhaltenskonfiguration, insbesondere der KNX-Basisszene, invalidieren die alte schwarze Buendelbasis ohne laufende sichtbare Szenen unnoetig neu zu starten. Ungueltig oder inaktiv gewordene LAST-Szenen sowie lokale Zustande deaktivierter Ausgaenge und Folgeausgaenge werden verworfen. Persistierte Konfiguration und Konfigurationsschema bleiben unveraendert bei Schema 65."
+                  },
+                  {
                       "version":  "0.0.465",
                       "bin":  "knx-led-controller-16m-w_0.0.465.bin",
                       "date":  "2026-07-19",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m-w_0.0.462.bin",
                       "date":  "2026-07-19",
                       "note":  "KNX-Farbe und KNX-Helligkeit arbeiten jetzt einheitlich ueber die Szenen-/Ablauf-Engine: Eine aktive Szene bleibt mit Phase, Bewegung und Effektparametern erhalten; Farbwerte werden nur als RAM-Laufzeituebersteuerung angewendet. Ist kein Szenenzustand bekannt, startet die neue pro Ausgang gespeicherte KNX-Basisszene. Letzte Szene und temporaere Farbe bleiben bis zum Neustart im RAM, Szene 0 bleibt AUS. KNX-Basisszene in /knx, Export, Import, Validierung und Migration ergaenzt. Konfigurationsschema 65."
-                  },
-                  {
-                      "version":  "0.0.461",
-                      "bin":  "knx-led-controller-16m-w_0.0.461.bin",
-                      "date":  "2026-07-19",
-                      "note":  "Wiederholte Szenen-EIN-Befehle entprellt: Ist dieselbe Szene auf einem Ausgang bereits stabil aktiv, bleibt ihre Laufzeit unveraendert und der Start-Effekt wird nicht erneut ausgefuehrt. Dies gilt fuer einzelne Ausgaenge, zentrale Szenenbefehle und Szenenstarts mit KNX-Rampe. Befindet sich die Szene bereits in der Aus-Phase, ist sie beendet, wird ausgeblendet oder zeigt ein manueller LED-Test den Ausgang, darf dasselbe Szenentelegramm weiterhin neu starten beziehungsweise den Test beenden. Keine Schemaaenderung (Schema 64)."
                   }
               ]
 }
