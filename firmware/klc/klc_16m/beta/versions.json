@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.461",
+                      "bin":  "knx-led-controller-16m_0.0.461.bin",
+                      "date":  "2026-07-19",
+                      "note":  "Wiederholte Szenen-EIN-Befehle entprellt: Ist dieselbe Szene auf einem Ausgang bereits stabil aktiv, bleibt ihre Laufzeit unveraendert und der Start-Effekt wird nicht erneut ausgefuehrt. Dies gilt fuer einzelne Ausgaenge, zentrale Szenenbefehle und Szenenstarts mit KNX-Rampe. Befindet sich die Szene bereits in der Aus-Phase, ist sie beendet, wird ausgeblendet oder zeigt ein manueller LED-Test den Ausgang, darf dasselbe Szenentelegramm weiterhin neu starten beziehungsweise den Test beenden. Keine Schemaaenderung (Schema 64)."
+                  },
+                  {
                       "version":  "0.0.459",
                       "bin":  "knx-led-controller-16m_0.0.459.bin",
                       "date":  "2026-07-18",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m_0.0.456.bin",
                       "date":  "2026-07-18",
                       "note":  "Korrektur fuer /api/outputs: JSON-Boolesche Werte werden beim Streaming nicht mehr als variadische %s-Argumente formatiert, sondern als feste true/false-Literale geschrieben. Der API-Kopf, Aktivierungsstatus, Ausgangs-, Verkettungs-, Pending- und Szenenwerte erzeugen dadurch keine leeren JSON-Werte mehr. Der LED-Versatz-Fix aus 0.0.455 bleibt enthalten. Keine Schemaaenderung (Schema 64)."
-                  },
-                  {
-                      "version":  "0.0.455",
-                      "bin":  "knx-led-controller-16m_0.0.455.bin",
-                      "date":  "2026-07-18",
-                      "note":  "LED-Versatz im Ausgangstest vervollstaendigt: Anfang/Ende blinken verwendet jetzt den gespeicherten oder aktuell ungespeicherten Versatz und bildet die logischen Endpunkte wie die Szenenausgabe umlaufend auf die physischen LEDs ab. Der temporaere Testrequest uebertraegt und validiert temp_pixel_offset. /outputs laedt die zentrale Ausgangs-API nun zuerst, wiederholt einen transient fehlgeschlagenen Abruf einmal und startet die Zusatzdiagnosen erst danach; konkrete Ladefehler werden angezeigt. Der /api/outputs-Formatstring-Fix und die Compiler-Formatpruefung aus 0.0.454 bleiben enthalten. Keine Schemaaenderung (Schema 64)."
                   }
               ]
 }
