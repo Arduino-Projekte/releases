@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m_0.0.466.bin",
+                     "url":  "knx-led-controller-16m_0.0.462.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.466",
-                     "bin":  "knx-led-controller-16m_0.0.466.bin",
-                     "file":  "knx-led-controller-16m_0.0.466.bin",
-                     "sha256":  "98dc5b54ee7a9a0a10087ef95b116d22c21351b7053b2b5207822e9b19e89e55",
-                     "message":  "Konfigurations- und Runtime-Refreshes verwerfen jetzt alte schwarze semantische KNX-RGBW-Ziele auch bei bereits ausgeschalteten Ausgaengen. klcScenesApplyConfigUpdate() und die gezielte Ausgangs-Rekonfiguration ueberspringen betroffene dunkle Kettenkoepfe nicht mehr, bereinigen Farbrampen und temporaere Farbzustaende konsistent und lassen den positiven LAST-EIN-Zustand erhalten. Aenderungen der ausgangsbezogenen KNX-Verhaltenskonfiguration, insbesondere der KNX-Basisszene, invalidieren die alte schwarze Buendelbasis ohne laufende sichtbare Szenen unnoetig neu zu starten. Ungueltig oder inaktiv gewordene LAST-Szenen sowie lokale Zustande deaktivierter Ausgaenge und Folgeausgaenge werden verworfen. Persistierte Konfiguration und Konfigurationsschema bleiben unveraendert bei Schema 65.",
+                     "version":  "0.0.462",
+                     "bin":  "knx-led-controller-16m_0.0.462.bin",
+                     "file":  "knx-led-controller-16m_0.0.462.bin",
+                     "sha256":  "6f883418be71ab39ae9b3685c75f84267882c22dd83045c1cebdd81e16e1c900",
+                     "message":  "WLAN-Ersteinrichtung: Der Service-AP wird unmittelbar nach der bestaetigten IP-Anzeige abgeschaltet, damit das Smartphone sofort ins Heimnetz wechselt. Der Sicherheits-Fallback ohne Browserbestaetigung wurde von 120 auf 15 Sekunden verkuerzt; meldet der Browser ein endgueltig gescheitertes ACK bei sichtbarer IP, starten Speichern und AP-Abbau sofort. Keine Schemaaenderung (Schema 64).",
                      "http_code":  200
                  }
 }

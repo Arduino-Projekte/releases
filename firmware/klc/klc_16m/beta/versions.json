@@ -1,6 +1,18 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.467",
+                      "bin":  "knx-led-controller-16m_0.0.467.bin",
+                      "date":  "2026-07-20",
+                      "note":  "WLAN-Ersteinrichtung: Der Service-AP wird unmittelbar nach der bestaetigten IP-Anzeige abgeschaltet, damit das Smartphone sofort ins Heimnetz wechselt. Der Sicherheits-Fallback ohne Browserbestaetigung wurde von 120 auf 15 Sekunden verkuerzt; meldet der Browser ein endgueltig gescheitertes ACK bei sichtbarer IP, starten Speichern und AP-Abbau sofort. Keine Schemaaenderung (Schema 65)."
+                  },
+                  {
+                      "version":  "0.0.462",
+                      "bin":  "knx-led-controller-16m_0.0.462.bin",
+                      "date":  "2026-07-20",
+                      "note":  "WLAN-Ersteinrichtung: Der Service-AP wird unmittelbar nach der bestaetigten IP-Anzeige abgeschaltet, damit das Smartphone sofort ins Heimnetz wechselt. Der Sicherheits-Fallback ohne Browserbestaetigung wurde von 120 auf 15 Sekunden verkuerzt; meldet der Browser ein endgueltig gescheitertes ACK bei sichtbarer IP, starten Speichern und AP-Abbau sofort. Keine Schemaaenderung (Schema 64)."
+                  },
+                  {
                       "version":  "0.0.466",
                       "bin":  "knx-led-controller-16m_0.0.466.bin",
                       "date":  "2026-07-19",
@@ -17,18 +29,6 @@
                       "bin":  "knx-led-controller-16m_0.0.464.bin",
                       "date":  "2026-07-19",
                       "note":  "KNX-RGBW-Teilkanaltelegramme werden waehrend aktiver Farbrampen jetzt zuverlaessig kumuliert: Als semantische Basis dient das bereits festgelegte Rampenziel, waehrend der sichtbare Zwischenwert nur den sprungfreien Start der neu berechneten Rampe bildet. Ausgangsbezogene und globale Farbobjekte verwenden dieselbe Zielwertlogik je Kettenkopf; LAST erhaelt dadurch die vollstaendige kumulierte Zielfarbe. Beim Loesen einer Verkettung koennen kollidierende alte KNX-Objektnummern im selben transaktionalen Speichervorgang bewusst auf nicht verwendet gesetzt werden; ohne diese Auswahl liefert die bestehende Eindeutigkeitspruefung eine klare Kollision und uebernimmt nichts teilweise. Konfigurationsschema bleibt 65."
-                  },
-                  {
-                      "version":  "0.0.463",
-                      "bin":  "knx-led-controller-16m_0.0.463.bin",
-                      "date":  "2026-07-19",
-                      "note":  "Restmaengel der einheitlichen KNX-Szenensteuerung behoben: ausdruecklicher Szenenaufruf und LAST-Wiederherstellung sind getrennt; temporaere Farbe und Helligkeit werden beim ausdruecklichen Aufruf verworfen, ohne dieselbe laufende Animation neu zu starten. KNX-Ausschalt-Rampen wirken gemeinsam mit Szenen-Aus-Effekten und enden ebenso wie natuerlich ablaufende Szenen in einem konsistenten logischen AUS-Zustand. Konkurrierende KNX-Farbakkumulatoren wurden entfernt; Teilkanalwerte verwenden die wirksame Farbe jedes Kettenkopfs. Folgeausgaenge besitzen keine eigene KNX-/LAST-Runtime oder Verhaltenskonfiguration. Szenen- und Schaltstatus bleiben waehrend sichtbarer Aus-Phasen konsistent. Konfigurationsschema bleibt 65."
-                  },
-                  {
-                      "version":  "0.0.462",
-                      "bin":  "knx-led-controller-16m_0.0.462.bin",
-                      "date":  "2026-07-19",
-                      "note":  "KNX-Farbe und KNX-Helligkeit arbeiten jetzt einheitlich ueber die Szenen-/Ablauf-Engine: Eine aktive Szene bleibt mit Phase, Bewegung und Effektparametern erhalten; Farbwerte werden nur als RAM-Laufzeituebersteuerung angewendet. Ist kein Szenenzustand bekannt, startet die neue pro Ausgang gespeicherte KNX-Basisszene. Letzte Szene und temporaere Farbe bleiben bis zum Neustart im RAM, Szene 0 bleibt AUS. KNX-Basisszene in /knx, Export, Import, Validierung und Migration ergaenzt. Konfigurationsschema 65."
                   }
               ]
 }

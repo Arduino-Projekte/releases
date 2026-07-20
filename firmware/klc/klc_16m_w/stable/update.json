@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m-w_0.0.466.bin",
+                     "url":  "knx-led-controller-16m-w_0.0.462.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.466",
-                     "bin":  "knx-led-controller-16m-w_0.0.466.bin",
-                     "file":  "knx-led-controller-16m-w_0.0.466.bin",
-                     "sha256":  "df56cb123227fbe2d4405e82e31c1207331ea9f8c7d2c0348b7a12f2687b45aa",
-                     "message":  "Konfigurations- und Runtime-Refreshes verwerfen jetzt alte schwarze semantische KNX-RGBW-Ziele auch bei bereits ausgeschalteten Ausgaengen. klcScenesApplyConfigUpdate() und die gezielte Ausgangs-Rekonfiguration ueberspringen betroffene dunkle Kettenkoepfe nicht mehr, bereinigen Farbrampen und temporaere Farbzustaende konsistent und lassen den positiven LAST-EIN-Zustand erhalten. Aenderungen der ausgangsbezogenen KNX-Verhaltenskonfiguration, insbesondere der KNX-Basisszene, invalidieren die alte schwarze Buendelbasis ohne laufende sichtbare Szenen unnoetig neu zu starten. Ungueltig oder inaktiv gewordene LAST-Szenen sowie lokale Zustande deaktivierter Ausgaenge und Folgeausgaenge werden verworfen. Persistierte Konfiguration und Konfigurationsschema bleiben unveraendert bei Schema 65.",
+                     "version":  "0.0.462",
+                     "bin":  "knx-led-controller-16m-w_0.0.462.bin",
+                     "file":  "knx-led-controller-16m-w_0.0.462.bin",
+                     "sha256":  "e114fefa1e80b2441a90c0cf4ab9e650cfc05d0e92347b31d0bdce475cec78e4",
+                     "message":  "WLAN-Ersteinrichtung: Der Service-AP wird unmittelbar nach der bestaetigten IP-Anzeige abgeschaltet, damit das Smartphone sofort ins Heimnetz wechselt. Der Sicherheits-Fallback ohne Browserbestaetigung wurde von 120 auf 15 Sekunden verkuerzt; meldet der Browser ein endgueltig gescheitertes ACK bei sichtbarer IP, starten Speichern und AP-Abbau sofort. Keine Schemaaenderung (Schema 64).",
                      "http_code":  200
                  }
 }
