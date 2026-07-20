@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.468",
+                      "bin":  "knx-led-controller-16m-w_0.0.468.bin",
+                      "date":  "2026-07-20",
+                      "note":  "Service-AP-Stabilitaet waehrend der WLAN-Ersteinrichtung: Die STA-Linkvalidierung fragte die BSSID in jedem Hauptschleifendurchlauf per blockierendem CYW43-Ioctl ab, sobald ein Handover-Versuch oder eine Boot-Recoverypruefung lief. Der dauerhaft belegte Funkzugriff warf verbundene Smartphones wiederholt aus dem Service-AP. Die teure Abfrage ist jetzt auf hoechstens vier Aktualisierungen pro Sekunde gedrosselt; alle Stabilitaetsfenster (\u003e= 3 s) bleiben unveraendert gueltig. Keine Schemaaenderung (Schema 65)."
+                  },
+                  {
                       "version":  "0.0.467",
                       "bin":  "knx-led-controller-16m-w_0.0.467.bin",
                       "date":  "2026-07-20",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m-w_0.0.465.bin",
                       "date":  "2026-07-19",
                       "note":  "KNX-RGBW-Teilkanalfolgen behalten jetzt auch ein vollstaendig schwarzes kumuliertes Zwischenziel als reine RAM-Zielbasis. Nachfolgende Farbkanaltelegramme bauen deterministisch auf diesem Schwarz auf, statt alte Szenen-, LAST- oder Rampenfarben wiederzuverwenden; der positive LAST-EIN-Zustand bleibt davon getrennt und weiterhin einschaltbar. Ausgangsbezogene und globale Farbobjekte nutzen dieselbe Zielsemantik je Kettenkopf, auch waehrend und nach der Ausphase. KNX-Konfigurationsspeicherpfade validieren ausserdem bereits gespeicherte ausstehende Entkettungen vor Objekt-, Folgeausgangs- und Basisszenenpruefungen gegen den vollstaendigen kuenftigen Zielzustand, ohne die Struktur vor dem Neustart zu aktivieren. Konfigurationsschema bleibt 65."
-                  },
-                  {
-                      "version":  "0.0.464",
-                      "bin":  "knx-led-controller-16m-w_0.0.464.bin",
-                      "date":  "2026-07-19",
-                      "note":  "KNX-RGBW-Teilkanaltelegramme werden waehrend aktiver Farbrampen jetzt zuverlaessig kumuliert: Als semantische Basis dient das bereits festgelegte Rampenziel, waehrend der sichtbare Zwischenwert nur den sprungfreien Start der neu berechneten Rampe bildet. Ausgangsbezogene und globale Farbobjekte verwenden dieselbe Zielwertlogik je Kettenkopf; LAST erhaelt dadurch die vollstaendige kumulierte Zielfarbe. Beim Loesen einer Verkettung koennen kollidierende alte KNX-Objektnummern im selben transaktionalen Speichervorgang bewusst auf nicht verwendet gesetzt werden; ohne diese Auswahl liefert die bestehende Eindeutigkeitspruefung eine klare Kollision und uebernimmt nichts teilweise. Konfigurationsschema bleibt 65."
                   }
               ]
 }
