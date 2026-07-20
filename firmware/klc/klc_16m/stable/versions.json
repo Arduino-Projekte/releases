@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.462",
+                      "bin":  "knx-led-controller-16m_0.0.462.bin",
+                      "date":  "2026-07-20",
+                      "note":  "WLAN-Ersteinrichtung: Der Service-AP wird unmittelbar nach der bestaetigten IP-Anzeige abgeschaltet, damit das Smartphone sofort ins Heimnetz wechselt. Der Sicherheits-Fallback ohne Browserbestaetigung wurde von 120 auf 15 Sekunden verkuerzt; meldet der Browser ein endgueltig gescheitertes ACK bei sichtbarer IP, starten Speichern und AP-Abbau sofort. Keine Schemaaenderung (Schema 64)."
+                  },
+                  {
                       "version":  "0.0.468",
                       "bin":  "knx-led-controller-16m_0.0.468.bin",
                       "date":  "2026-07-20",
@@ -11,12 +17,6 @@
                       "bin":  "knx-led-controller-16m_0.0.467.bin",
                       "date":  "2026-07-20",
                       "note":  "WLAN-Ersteinrichtung: Der Service-AP wird unmittelbar nach der bestaetigten IP-Anzeige abgeschaltet, damit das Smartphone sofort ins Heimnetz wechselt. Der Sicherheits-Fallback ohne Browserbestaetigung wurde von 120 auf 15 Sekunden verkuerzt; meldet der Browser ein endgueltig gescheitertes ACK bei sichtbarer IP, starten Speichern und AP-Abbau sofort. Keine Schemaaenderung (Schema 65)."
-                  },
-                  {
-                      "version":  "0.0.462",
-                      "bin":  "knx-led-controller-16m_0.0.462.bin",
-                      "date":  "2026-07-20",
-                      "note":  "WLAN-Ersteinrichtung: Der Service-AP wird unmittelbar nach der bestaetigten IP-Anzeige abgeschaltet, damit das Smartphone sofort ins Heimnetz wechselt. Der Sicherheits-Fallback ohne Browserbestaetigung wurde von 120 auf 15 Sekunden verkuerzt; meldet der Browser ein endgueltig gescheitertes ACK bei sichtbarer IP, starten Speichern und AP-Abbau sofort. Keine Schemaaenderung (Schema 64)."
                   },
                   {
                       "version":  "0.0.466",

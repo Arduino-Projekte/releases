@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m_0.0.468.bin",
+                     "url":  "knx-led-controller-16m_0.0.462.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.468",
-                     "bin":  "knx-led-controller-16m_0.0.468.bin",
-                     "file":  "knx-led-controller-16m_0.0.468.bin",
-                     "sha256":  "d408866418cb535e6ea0027eec5a7845b2a968c0683d0b50c83a787c931ee310",
-                     "message":  "Service-AP-Stabilitaet waehrend der WLAN-Ersteinrichtung: Die STA-Linkvalidierung fragte die BSSID in jedem Hauptschleifendurchlauf per blockierendem CYW43-Ioctl ab, sobald ein Handover-Versuch oder eine Boot-Recoverypruefung lief. Der dauerhaft belegte Funkzugriff warf verbundene Smartphones wiederholt aus dem Service-AP. Die teure Abfrage ist jetzt auf hoechstens vier Aktualisierungen pro Sekunde gedrosselt; alle Stabilitaetsfenster (\u003e= 3 s) bleiben unveraendert gueltig. Keine Schemaaenderung (Schema 65).",
+                     "version":  "0.0.462",
+                     "bin":  "knx-led-controller-16m_0.0.462.bin",
+                     "file":  "knx-led-controller-16m_0.0.462.bin",
+                     "sha256":  "e3dc3fe4372cd01c4deb2bc5fbb226f6f5666193e2f91750b42cb56d807fcb2a",
+                     "message":  "WLAN-Ersteinrichtung: Der Service-AP wird unmittelbar nach der bestaetigten IP-Anzeige abgeschaltet, damit das Smartphone sofort ins Heimnetz wechselt. Der Sicherheits-Fallback ohne Browserbestaetigung wurde von 120 auf 15 Sekunden verkuerzt; meldet der Browser ein endgueltig gescheitertes ACK bei sichtbarer IP, starten Speichern und AP-Abbau sofort. Keine Schemaaenderung (Schema 64).",
                      "http_code":  200
                  }
 }
