@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m-w_0.0.470.bin",
+                     "url":  "knx-led-controller-16m-w_0.0.471.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.470",
-                     "bin":  "knx-led-controller-16m-w_0.0.470.bin",
-                     "file":  "knx-led-controller-16m-w_0.0.470.bin",
-                     "sha256":  "451dfc1949b917aabc98fb9275df33359aed6cf0fb2e5ca44604f77146035ab2",
-                     "message":  "WLAN-Netzsuche stoert den Service-AP nicht mehr: Im reinen AP-Betrieb (Ersteinrichtung) laeuft der Kanal-Sweep einmal kurz nach dem Boot, solange noch kein Smartphone verbunden ist; dabei erfolgt auch die einmalige STA-Modus-Initialisierung des Funkchips. Die Netzsuche im Wizard bedient sich anschliessend bis zu drei Minuten aus diesem Ergebnis-Cache, ohne verbundene Clients aus dem AP zu werfen. Erst ein Scan mit veraltetem Cache sweept erneut. Keine Schemaaenderung (Schema 65).",
+                     "version":  "0.0.471",
+                     "bin":  "knx-led-controller-16m-w_0.0.471.bin",
+                     "file":  "knx-led-controller-16m-w_0.0.471.bin",
+                     "sha256":  "00c7a1bb28f9dc7e13327a66ddd9d1a03bd3a3ba16877f0e346f7c8aac975697",
+                     "message":  "Wizard-Darstellung ueberlebt den WLAN-Handover: Die Dunkelmodus-Wahl wird wie die Sprache bereits beim WLAN-Zwischencommit mitgespeichert. Die nach dem Wechsel ins Heimnetz neu geladene Wizard-Seite rendert damit direkt im gewaehlten Modus statt wieder im Hellmodus. Keine Schemaaenderung (Schema 65).",
                      "http_code":  200
                  }
 }

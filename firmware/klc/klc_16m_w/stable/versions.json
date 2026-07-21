@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.471",
+                      "bin":  "knx-led-controller-16m-w_0.0.471.bin",
+                      "date":  "2026-07-21",
+                      "note":  "Wizard-Darstellung ueberlebt den WLAN-Handover: Die Dunkelmodus-Wahl wird wie die Sprache bereits beim WLAN-Zwischencommit mitgespeichert. Die nach dem Wechsel ins Heimnetz neu geladene Wizard-Seite rendert damit direkt im gewaehlten Modus statt wieder im Hellmodus. Keine Schemaaenderung (Schema 65)."
+                  },
+                  {
                       "version":  "0.0.470",
                       "bin":  "knx-led-controller-16m-w_0.0.470.bin",
                       "date":  "2026-07-21",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m-w_0.0.468.bin",
                       "date":  "2026-07-20",
                       "note":  "Service-AP-Stabilitaet waehrend der WLAN-Ersteinrichtung: Die STA-Linkvalidierung fragte die BSSID in jedem Hauptschleifendurchlauf per blockierendem CYW43-Ioctl ab, sobald ein Handover-Versuch oder eine Boot-Recoverypruefung lief. Der dauerhaft belegte Funkzugriff warf verbundene Smartphones wiederholt aus dem Service-AP. Die teure Abfrage ist jetzt auf hoechstens vier Aktualisierungen pro Sekunde gedrosselt; alle Stabilitaetsfenster (\u003e= 3 s) bleiben unveraendert gueltig. Keine Schemaaenderung (Schema 65)."
-                  },
-                  {
-                      "version":  "0.0.467",
-                      "bin":  "knx-led-controller-16m-w_0.0.467.bin",
-                      "date":  "2026-07-20",
-                      "note":  "WLAN-Ersteinrichtung: Der Service-AP wird unmittelbar nach der bestaetigten IP-Anzeige abgeschaltet, damit das Smartphone sofort ins Heimnetz wechselt. Der Sicherheits-Fallback ohne Browserbestaetigung wurde von 120 auf 15 Sekunden verkuerzt; meldet der Browser ein endgueltig gescheitertes ACK bei sichtbarer IP, starten Speichern und AP-Abbau sofort. Keine Schemaaenderung (Schema 65)."
                   }
               ]
 }
