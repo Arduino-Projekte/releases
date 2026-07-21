@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m-w_0.0.462.bin",
+                     "url":  "knx-led-controller-16m-w_0.0.469.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.462",
-                     "bin":  "knx-led-controller-16m-w_0.0.462.bin",
-                     "file":  "knx-led-controller-16m-w_0.0.462.bin",
-                     "sha256":  "eb1d21914ecffae55b1cd22cc28ccf582d9ac3bab1506760b4c7b9aeaa424dae",
-                     "message":  "WLAN-Ersteinrichtung: Der Service-AP wird unmittelbar nach der bestaetigten IP-Anzeige abgeschaltet, damit das Smartphone sofort ins Heimnetz wechselt. Der Sicherheits-Fallback ohne Browserbestaetigung wurde von 120 auf 15 Sekunden verkuerzt; meldet der Browser ein endgueltig gescheitertes ACK bei sichtbarer IP, starten Speichern und AP-Abbau sofort. Keine Schemaaenderung (Schema 64).",
+                     "version":  "0.0.469",
+                     "bin":  "knx-led-controller-16m-w_0.0.469.bin",
+                     "file":  "knx-led-controller-16m-w_0.0.469.bin",
+                     "sha256":  "8fdb07e8a0994f59ccc376d4c07d4d06eb9cfc412b32f7f633a74830da4d2063",
+                     "message":  "WLAN-Ersteinrichtung: Der kurze 15-Sekunden-Fallback fuer den AP-Abbau gilt nur noch, wenn mindestens eine Statusantwort mit der neuen IP nachweislich beim Browser angekommen ist. Wurde die IP noch nie ausgeliefert (Smartphone nach dem Funkkanalwechsel noch nicht zurueck am Service-AP), bleibt der AP bis zu 120 Sekunden erhalten, damit die IP-Anzeige das Handy erreichen kann. Beide Weboberflaechen pollen entsprechend laenger und nennen bei endgueltigem Fehlschlag die Routeroberflaeche als Fundort der neuen IP. Keine Schemaaenderung (Schema 65).",
                      "http_code":  200
                  }
 }

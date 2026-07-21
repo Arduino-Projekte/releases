@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.469",
+                      "bin":  "knx-led-controller-16m-w_0.0.469.bin",
+                      "date":  "2026-07-21",
+                      "note":  "WLAN-Ersteinrichtung: Der kurze 15-Sekunden-Fallback fuer den AP-Abbau gilt nur noch, wenn mindestens eine Statusantwort mit der neuen IP nachweislich beim Browser angekommen ist. Wurde die IP noch nie ausgeliefert (Smartphone nach dem Funkkanalwechsel noch nicht zurueck am Service-AP), bleibt der AP bis zu 120 Sekunden erhalten, damit die IP-Anzeige das Handy erreichen kann. Beide Weboberflaechen pollen entsprechend laenger und nennen bei endgueltigem Fehlschlag die Routeroberflaeche als Fundort der neuen IP. Keine Schemaaenderung (Schema 65)."
+                  },
+                  {
                       "version":  "0.0.462",
                       "bin":  "knx-led-controller-16m-w_0.0.462.bin",
                       "date":  "2026-07-20",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m-w_0.0.466.bin",
                       "date":  "2026-07-19",
                       "note":  "Konfigurations- und Runtime-Refreshes verwerfen jetzt alte schwarze semantische KNX-RGBW-Ziele auch bei bereits ausgeschalteten Ausgaengen. klcScenesApplyConfigUpdate() und die gezielte Ausgangs-Rekonfiguration ueberspringen betroffene dunkle Kettenkoepfe nicht mehr, bereinigen Farbrampen und temporaere Farbzustaende konsistent und lassen den positiven LAST-EIN-Zustand erhalten. Aenderungen der ausgangsbezogenen KNX-Verhaltenskonfiguration, insbesondere der KNX-Basisszene, invalidieren die alte schwarze Buendelbasis ohne laufende sichtbare Szenen unnoetig neu zu starten. Ungueltig oder inaktiv gewordene LAST-Szenen sowie lokale Zustande deaktivierter Ausgaenge und Folgeausgaenge werden verworfen. Persistierte Konfiguration und Konfigurationsschema bleiben unveraendert bei Schema 65."
-                  },
-                  {
-                      "version":  "0.0.465",
-                      "bin":  "knx-led-controller-16m-w_0.0.465.bin",
-                      "date":  "2026-07-19",
-                      "note":  "KNX-RGBW-Teilkanalfolgen behalten jetzt auch ein vollstaendig schwarzes kumuliertes Zwischenziel als reine RAM-Zielbasis. Nachfolgende Farbkanaltelegramme bauen deterministisch auf diesem Schwarz auf, statt alte Szenen-, LAST- oder Rampenfarben wiederzuverwenden; der positive LAST-EIN-Zustand bleibt davon getrennt und weiterhin einschaltbar. Ausgangsbezogene und globale Farbobjekte nutzen dieselbe Zielsemantik je Kettenkopf, auch waehrend und nach der Ausphase. KNX-Konfigurationsspeicherpfade validieren ausserdem bereits gespeicherte ausstehende Entkettungen vor Objekt-, Folgeausgangs- und Basisszenenpruefungen gegen den vollstaendigen kuenftigen Zielzustand, ohne die Struktur vor dem Neustart zu aktivieren. Konfigurationsschema bleibt 65."
                   }
               ]
 }
