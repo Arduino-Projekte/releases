@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m_0.0.471.bin",
+                     "url":  "knx-led-controller-16m_0.0.472.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.471",
-                     "bin":  "knx-led-controller-16m_0.0.471.bin",
-                     "file":  "knx-led-controller-16m_0.0.471.bin",
-                     "sha256":  "46e1c426da3b74e9eaa9ba7a9508db5b7063482792186a7f53cda08d4e766494",
-                     "message":  "Wizard-Darstellung ueberlebt den WLAN-Handover: Die Dunkelmodus-Wahl wird wie die Sprache bereits beim WLAN-Zwischencommit mitgespeichert. Die nach dem Wechsel ins Heimnetz neu geladene Wizard-Seite rendert damit direkt im gewaehlten Modus statt wieder im Hellmodus. Keine Schemaaenderung (Schema 65).",
+                     "version":  "0.0.472",
+                     "bin":  "knx-led-controller-16m_0.0.472.bin",
+                     "file":  "knx-led-controller-16m_0.0.472.bin",
+                     "sha256":  "30cc94703604f1328d9119ad058ad9f10ead7e2ce108c798603c8123538fdf09",
+                     "message":  "Service-AP-Stabilitaet: Der in 0.0.470 eingefuehrte Boot-Vorabscan wird zurueckgenommen. Er versetzte den Funkchip schon kurz nach dem Boot in den STA-Modus; ein so aktiviertes, aber zielloses STA-Interface liess die CYW43-Firmware periodisch im Hintergrund scannen und warf verbundene Smartphones wiederholt aus KLC-xxx. Der Chip betritt den STA-Modus jetzt erst wieder, wenn der Nutzer aktiv nach Netzen sucht oder eine Verbindung testet. Der Ergebnis-Cache der Netzsuche (bis zu drei Minuten, kein Doppel-Sweep) bleibt erhalten. Keine Schemaaenderung (Schema 65).",
                      "http_code":  200
                  }
 }
