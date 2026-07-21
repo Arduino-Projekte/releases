@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.470",
+                      "bin":  "knx-led-controller-16m-w_0.0.470.bin",
+                      "date":  "2026-07-21",
+                      "note":  "WLAN-Netzsuche stoert den Service-AP nicht mehr: Im reinen AP-Betrieb (Ersteinrichtung) laeuft der Kanal-Sweep einmal kurz nach dem Boot, solange noch kein Smartphone verbunden ist; dabei erfolgt auch die einmalige STA-Modus-Initialisierung des Funkchips. Die Netzsuche im Wizard bedient sich anschliessend bis zu drei Minuten aus diesem Ergebnis-Cache, ohne verbundene Clients aus dem AP zu werfen. Erst ein Scan mit veraltetem Cache sweept erneut. Keine Schemaaenderung (Schema 65)."
+                  },
+                  {
                       "version":  "0.0.469",
                       "bin":  "knx-led-controller-16m-w_0.0.469.bin",
                       "date":  "2026-07-21",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m-w_0.0.467.bin",
                       "date":  "2026-07-20",
                       "note":  "WLAN-Ersteinrichtung: Der Service-AP wird unmittelbar nach der bestaetigten IP-Anzeige abgeschaltet, damit das Smartphone sofort ins Heimnetz wechselt. Der Sicherheits-Fallback ohne Browserbestaetigung wurde von 120 auf 15 Sekunden verkuerzt; meldet der Browser ein endgueltig gescheitertes ACK bei sichtbarer IP, starten Speichern und AP-Abbau sofort. Keine Schemaaenderung (Schema 65)."
-                  },
-                  {
-                      "version":  "0.0.466",
-                      "bin":  "knx-led-controller-16m-w_0.0.466.bin",
-                      "date":  "2026-07-19",
-                      "note":  "Konfigurations- und Runtime-Refreshes verwerfen jetzt alte schwarze semantische KNX-RGBW-Ziele auch bei bereits ausgeschalteten Ausgaengen. klcScenesApplyConfigUpdate() und die gezielte Ausgangs-Rekonfiguration ueberspringen betroffene dunkle Kettenkoepfe nicht mehr, bereinigen Farbrampen und temporaere Farbzustaende konsistent und lassen den positiven LAST-EIN-Zustand erhalten. Aenderungen der ausgangsbezogenen KNX-Verhaltenskonfiguration, insbesondere der KNX-Basisszene, invalidieren die alte schwarze Buendelbasis ohne laufende sichtbare Szenen unnoetig neu zu starten. Ungueltig oder inaktiv gewordene LAST-Szenen sowie lokale Zustande deaktivierter Ausgaenge und Folgeausgaenge werden verworfen. Persistierte Konfiguration und Konfigurationsschema bleiben unveraendert bei Schema 65."
                   }
               ]
 }
