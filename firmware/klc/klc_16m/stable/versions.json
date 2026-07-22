@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.473",
+                      "bin":  "knx-led-controller-16m_0.0.473.bin",
+                      "date":  "2026-07-22",
+                      "note":  "Diagnose: Der bisher nicht vermessene Boot-Abschnitt zwischen Konfigurationsladen und Netzwerkstart wird in zwei Phasen zerlegt und einzeln zeitgemessen (Szenenspeicher initialisieren, LED-Aktivierung und LKG-Promotion). Damit benennt ein langsamer Boot kuenftig die verantwortliche Phase im seriellen Protokoll. Hintergrund: Ein Boot dauerte 58,8 s statt \u003c 1,5 s; ein so lange blockierter Hauptloop erklaert einen zeitweise nicht erreichbaren Service-AP. Reine Diagnoseerweiterung, keine Verhaltensaenderung, keine Schemaaenderung (Schema 65)."
+                  },
+                  {
                       "version":  "0.0.472",
                       "bin":  "knx-led-controller-16m_0.0.472.bin",
                       "date":  "2026-07-21",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m_0.0.469.bin",
                       "date":  "2026-07-21",
                       "note":  "WLAN-Ersteinrichtung: Der kurze 15-Sekunden-Fallback fuer den AP-Abbau gilt nur noch, wenn mindestens eine Statusantwort mit der neuen IP nachweislich beim Browser angekommen ist. Wurde die IP noch nie ausgeliefert (Smartphone nach dem Funkkanalwechsel noch nicht zurueck am Service-AP), bleibt der AP bis zu 120 Sekunden erhalten, damit die IP-Anzeige das Handy erreichen kann. Beide Weboberflaechen pollen entsprechend laenger und nennen bei endgueltigem Fehlschlag die Routeroberflaeche als Fundort der neuen IP. Keine Schemaaenderung (Schema 65)."
-                  },
-                  {
-                      "version":  "0.0.462",
-                      "bin":  "knx-led-controller-16m_0.0.462.bin",
-                      "date":  "2026-07-20",
-                      "note":  "WLAN-Ersteinrichtung: Der Service-AP wird unmittelbar nach der bestaetigten IP-Anzeige abgeschaltet, damit das Smartphone sofort ins Heimnetz wechselt. Der Sicherheits-Fallback ohne Browserbestaetigung wurde von 120 auf 15 Sekunden verkuerzt; meldet der Browser ein endgueltig gescheitertes ACK bei sichtbarer IP, starten Speichern und AP-Abbau sofort. Keine Schemaaenderung (Schema 64)."
                   }
               ]
 }

@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m-w_0.0.472.bin",
+                     "url":  "knx-led-controller-16m-w_0.0.473.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.472",
-                     "bin":  "knx-led-controller-16m-w_0.0.472.bin",
-                     "file":  "knx-led-controller-16m-w_0.0.472.bin",
-                     "sha256":  "b10bd9688456bc718f3e50d3317bc6bd4b6a3038bf164143fc3ff132dee2bf55",
-                     "message":  "Service-AP-Stabilitaet: Der in 0.0.470 eingefuehrte Boot-Vorabscan wird zurueckgenommen. Er versetzte den Funkchip schon kurz nach dem Boot in den STA-Modus; ein so aktiviertes, aber zielloses STA-Interface liess die CYW43-Firmware periodisch im Hintergrund scannen und warf verbundene Smartphones wiederholt aus KLC-xxx. Der Chip betritt den STA-Modus jetzt erst wieder, wenn der Nutzer aktiv nach Netzen sucht oder eine Verbindung testet. Der Ergebnis-Cache der Netzsuche (bis zu drei Minuten, kein Doppel-Sweep) bleibt erhalten. Keine Schemaaenderung (Schema 65).",
+                     "version":  "0.0.473",
+                     "bin":  "knx-led-controller-16m-w_0.0.473.bin",
+                     "file":  "knx-led-controller-16m-w_0.0.473.bin",
+                     "sha256":  "a29f04a3fece91c23088df6a1597fee00a2fadac78ce693a9805f7dcf4347430",
+                     "message":  "Diagnose: Der bisher nicht vermessene Boot-Abschnitt zwischen Konfigurationsladen und Netzwerkstart wird in zwei Phasen zerlegt und einzeln zeitgemessen (Szenenspeicher initialisieren, LED-Aktivierung und LKG-Promotion). Damit benennt ein langsamer Boot kuenftig die verantwortliche Phase im seriellen Protokoll. Hintergrund: Ein Boot dauerte 58,8 s statt \u003c 1,5 s; ein so lange blockierter Hauptloop erklaert einen zeitweise nicht erreichbaren Service-AP. Reine Diagnoseerweiterung, keine Verhaltensaenderung, keine Schemaaenderung (Schema 65).",
                      "http_code":  200
                  }
 }
