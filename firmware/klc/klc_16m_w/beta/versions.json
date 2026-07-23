@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.474",
+                      "bin":  "knx-led-controller-16m-w_0.0.474.bin",
+                      "date":  "2026-07-23",
+                      "note":  "KNX-Ausgangsverhalten erweitert: Pro Kettenkopf sind jetzt die Optionen \u0027Ueber Szenenobjekt einschalten\u0027, \u0027Ueber Helligkeitsobjekt einschalten\u0027 und \u0027Ueber Helligkeitsobjekt ausschalten\u0027 getrennt einstellbar. Szenen 1..50 koennen wahlweise sofort ausgefuehrt oder ausschliesslich im RAM fuer das naechste regulaere Einschalten vorgemerkt werden; die Vormerkung wird erst nach erfolgreichem Start verbraucht und niemals gespeichert. Positive Helligkeitswerte koennen bei ausgeschaltetem Ausgang nur als letzter Laufzeit-Dimmwert uebernommen werden, waehrend Helligkeit 0 bei deaktivierter Ausschaltoption vollstaendig ignoriert wird. Bestehende Konfigurationen migrieren mit allen drei Optionen auf true und behalten damit ihr bisheriges Verhalten. Die KNX-Verhaltensfelder sind auf breiten Ansichten in einer gemeinsamen Reihe ausgerichtet, die drei neuen Checkboxen stehen dort ebenfalls in einer Reihe, und der sichtbare Fallback-Hinweis unter KNX-Basisszene wurde entfernt. Konfigurationsschema 66."
+                  },
+                  {
                       "version":  "0.0.473",
                       "bin":  "knx-led-controller-16m-w_0.0.473.bin",
                       "date":  "2026-07-22",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m-w_0.0.470.bin",
                       "date":  "2026-07-21",
                       "note":  "WLAN-Netzsuche stoert den Service-AP nicht mehr: Im reinen AP-Betrieb (Ersteinrichtung) laeuft der Kanal-Sweep einmal kurz nach dem Boot, solange noch kein Smartphone verbunden ist; dabei erfolgt auch die einmalige STA-Modus-Initialisierung des Funkchips. Die Netzsuche im Wizard bedient sich anschliessend bis zu drei Minuten aus diesem Ergebnis-Cache, ohne verbundene Clients aus dem AP zu werfen. Erst ein Scan mit veraltetem Cache sweept erneut. Keine Schemaaenderung (Schema 65)."
-                  },
-                  {
-                      "version":  "0.0.469",
-                      "bin":  "knx-led-controller-16m-w_0.0.469.bin",
-                      "date":  "2026-07-21",
-                      "note":  "WLAN-Ersteinrichtung: Der kurze 15-Sekunden-Fallback fuer den AP-Abbau gilt nur noch, wenn mindestens eine Statusantwort mit der neuen IP nachweislich beim Browser angekommen ist. Wurde die IP noch nie ausgeliefert (Smartphone nach dem Funkkanalwechsel noch nicht zurueck am Service-AP), bleibt der AP bis zu 120 Sekunden erhalten, damit die IP-Anzeige das Handy erreichen kann. Beide Weboberflaechen pollen entsprechend laenger und nennen bei endgueltigem Fehlschlag die Routeroberflaeche als Fundort der neuen IP. Keine Schemaaenderung (Schema 65)."
                   }
               ]
 }
