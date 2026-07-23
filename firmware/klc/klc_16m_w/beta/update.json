@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m-w_0.0.474.bin",
+                     "url":  "knx-led-controller-16m-w_0.0.475.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.474",
-                     "bin":  "knx-led-controller-16m-w_0.0.474.bin",
-                     "file":  "knx-led-controller-16m-w_0.0.474.bin",
-                     "sha256":  "c51c4f4ab8a6e101dc78f02f0ce28938d290290d8f75d016bf3e164e9e7d9f83",
-                     "message":  "KNX-Ausgangsverhalten erweitert: Pro Kettenkopf sind jetzt die Optionen \u0027Ueber Szenenobjekt einschalten\u0027, \u0027Ueber Helligkeitsobjekt einschalten\u0027 und \u0027Ueber Helligkeitsobjekt ausschalten\u0027 getrennt einstellbar. Szenen 1..50 koennen wahlweise sofort ausgefuehrt oder ausschliesslich im RAM fuer das naechste regulaere Einschalten vorgemerkt werden; die Vormerkung wird erst nach erfolgreichem Start verbraucht und niemals gespeichert. Positive Helligkeitswerte koennen bei ausgeschaltetem Ausgang nur als letzter Laufzeit-Dimmwert uebernommen werden, waehrend Helligkeit 0 bei deaktivierter Ausschaltoption vollstaendig ignoriert wird. Bestehende Konfigurationen migrieren mit allen drei Optionen auf true und behalten damit ihr bisheriges Verhalten. Die KNX-Verhaltensfelder sind auf breiten Ansichten in einer gemeinsamen Reihe ausgerichtet, die drei neuen Checkboxen stehen dort ebenfalls in einer Reihe, und der sichtbare Fallback-Hinweis unter KNX-Basisszene wurde entfernt. Konfigurationsschema 66.",
+                     "version":  "0.0.475",
+                     "bin":  "knx-led-controller-16m-w_0.0.475.bin",
+                     "file":  "knx-led-controller-16m-w_0.0.475.bin",
+                     "sha256":  "35e8ba394a1715ba2129e79e90767f9d439d5616a77ab95bf6a5b77635d8878e",
+                     "message":  "KNX-Laufzeithelligkeit korrigiert: Ein positiver KNX-Helligkeitswert bleibt bei ausgeschaltetem Ausgang und deaktivierter Option \u0027Ueber Helligkeitsobjekt einschalten\u0027 jetzt ausschliesslich im RAM bis zum spaeteren regulaeren Einschalten erhalten, ohne dass das urspruengliche Telegramm den Ausgang einschaltet. Nach dem erfolgreichen Start der ausgewaehlten oder vorgemerkten Szene wird der Wert als Laufzeit-Gesamthelligkeit angewendet und nicht mehr durch den Szenenstart dauerhaft auf 255 zurueckgesetzt. Bei einem fehlgeschlagenen Start bleiben Szenenvormerkung und Helligkeitswert erhalten. Es erfolgt keine Flash-Speicherung und keine Wiederherstellung nach einem Neustart. Das Konfigurationsschema bleibt unveraendert bei 66.",
                      "http_code":  200
                  }
 }
