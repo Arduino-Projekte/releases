@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.475",
+                      "bin":  "knx-led-controller-16m-w_0.0.475.bin",
+                      "date":  "2026-07-23",
+                      "note":  "KNX-Laufzeithelligkeit korrigiert: Ein positiver KNX-Helligkeitswert bleibt bei ausgeschaltetem Ausgang und deaktivierter Option \u0027Ueber Helligkeitsobjekt einschalten\u0027 jetzt ausschliesslich im RAM bis zum spaeteren regulaeren Einschalten erhalten, ohne dass das urspruengliche Telegramm den Ausgang einschaltet. Nach dem erfolgreichen Start der ausgewaehlten oder vorgemerkten Szene wird der Wert als Laufzeit-Gesamthelligkeit angewendet und nicht mehr durch den Szenenstart dauerhaft auf 255 zurueckgesetzt. Bei einem fehlgeschlagenen Start bleiben Szenenvormerkung und Helligkeitswert erhalten. Es erfolgt keine Flash-Speicherung und keine Wiederherstellung nach einem Neustart. Das Konfigurationsschema bleibt unveraendert bei 66."
+                  },
+                  {
                       "version":  "0.0.474",
                       "bin":  "knx-led-controller-16m-w_0.0.474.bin",
                       "date":  "2026-07-23",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m-w_0.0.471.bin",
                       "date":  "2026-07-21",
                       "note":  "Wizard-Darstellung ueberlebt den WLAN-Handover: Die Dunkelmodus-Wahl wird wie die Sprache bereits beim WLAN-Zwischencommit mitgespeichert. Die nach dem Wechsel ins Heimnetz neu geladene Wizard-Seite rendert damit direkt im gewaehlten Modus statt wieder im Hellmodus. Keine Schemaaenderung (Schema 65)."
-                  },
-                  {
-                      "version":  "0.0.470",
-                      "bin":  "knx-led-controller-16m-w_0.0.470.bin",
-                      "date":  "2026-07-21",
-                      "note":  "WLAN-Netzsuche stoert den Service-AP nicht mehr: Im reinen AP-Betrieb (Ersteinrichtung) laeuft der Kanal-Sweep einmal kurz nach dem Boot, solange noch kein Smartphone verbunden ist; dabei erfolgt auch die einmalige STA-Modus-Initialisierung des Funkchips. Die Netzsuche im Wizard bedient sich anschliessend bis zu drei Minuten aus diesem Ergebnis-Cache, ohne verbundene Clients aus dem AP zu werfen. Erst ein Scan mit veraltetem Cache sweept erneut. Keine Schemaaenderung (Schema 65)."
                   }
               ]
 }
