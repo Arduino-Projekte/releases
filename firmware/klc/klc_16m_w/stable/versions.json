@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.480",
+                      "bin":  "knx-led-controller-16m-w_0.0.480.bin",
+                      "date":  "2026-07-24",
+                      "note":  "Letzteinstellung atomar korrigiert: Ein zusammengesetzter LAST-Einschaltauftrag erhoeht die Control-Generation unabhaengig von gespeicherter Laufzeitfarbe und Helligkeit genau einmal. Interne Farb- und Helligkeitswiederherstellung erfolgt vor dem ersten sichtbaren Frame ohne zusaetzliche Besitzuebernahme; externe Farb-, Helligkeits-, EIN- und AUS-Befehle behalten ihre bisherige Ownership-Semantik. Konfigurationsschema 67, KNX-Schnittstellenschema 3."
+                  },
+                  {
                       "version":  "0.0.475",
                       "bin":  "knx-led-controller-16m-w_0.0.475.bin",
                       "date":  "2026-07-23",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m-w_0.0.472.bin",
                       "date":  "2026-07-21",
                       "note":  "Service-AP-Stabilitaet: Der in 0.0.470 eingefuehrte Boot-Vorabscan wird zurueckgenommen. Er versetzte den Funkchip schon kurz nach dem Boot in den STA-Modus; ein so aktiviertes, aber zielloses STA-Interface liess die CYW43-Firmware periodisch im Hintergrund scannen und warf verbundene Smartphones wiederholt aus KLC-xxx. Der Chip betritt den STA-Modus jetzt erst wieder, wenn der Nutzer aktiv nach Netzen sucht oder eine Verbindung testet. Der Ergebnis-Cache der Netzsuche (bis zu drei Minuten, kein Doppel-Sweep) bleibt erhalten. Keine Schemaaenderung (Schema 65)."
-                  },
-                  {
-                      "version":  "0.0.471",
-                      "bin":  "knx-led-controller-16m-w_0.0.471.bin",
-                      "date":  "2026-07-21",
-                      "note":  "Wizard-Darstellung ueberlebt den WLAN-Handover: Die Dunkelmodus-Wahl wird wie die Sprache bereits beim WLAN-Zwischencommit mitgespeichert. Die nach dem Wechsel ins Heimnetz neu geladene Wizard-Seite rendert damit direkt im gewaehlten Modus statt wieder im Hellmodus. Keine Schemaaenderung (Schema 65)."
                   }
               ]
 }
