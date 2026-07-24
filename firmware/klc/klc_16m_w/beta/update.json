@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m-w_0.0.475.bin",
+                     "url":  "knx-led-controller-16m-w_0.0.480.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.475",
-                     "bin":  "knx-led-controller-16m-w_0.0.475.bin",
-                     "file":  "knx-led-controller-16m-w_0.0.475.bin",
-                     "sha256":  "35e8ba394a1715ba2129e79e90767f9d439d5616a77ab95bf6a5b77635d8878e",
-                     "message":  "KNX-Laufzeithelligkeit korrigiert: Ein positiver KNX-Helligkeitswert bleibt bei ausgeschaltetem Ausgang und deaktivierter Option \u0027Ueber Helligkeitsobjekt einschalten\u0027 jetzt ausschliesslich im RAM bis zum spaeteren regulaeren Einschalten erhalten, ohne dass das urspruengliche Telegramm den Ausgang einschaltet. Nach dem erfolgreichen Start der ausgewaehlten oder vorgemerkten Szene wird der Wert als Laufzeit-Gesamthelligkeit angewendet und nicht mehr durch den Szenenstart dauerhaft auf 255 zurueckgesetzt. Bei einem fehlgeschlagenen Start bleiben Szenenvormerkung und Helligkeitswert erhalten. Es erfolgt keine Flash-Speicherung und keine Wiederherstellung nach einem Neustart. Das Konfigurationsschema bleibt unveraendert bei 66.",
+                     "version":  "0.0.480",
+                     "bin":  "knx-led-controller-16m-w_0.0.480.bin",
+                     "file":  "knx-led-controller-16m-w_0.0.480.bin",
+                     "sha256":  "c17ff46661c902942b4d160041b437fa9298f459d8d4b6027f29cc278546232d",
+                     "message":  "Letzteinstellung atomar korrigiert: Ein zusammengesetzter LAST-Einschaltauftrag erhoeht die Control-Generation unabhaengig von gespeicherter Laufzeitfarbe und Helligkeit genau einmal. Interne Farb- und Helligkeitswiederherstellung erfolgt vor dem ersten sichtbaren Frame ohne zusaetzliche Besitzuebernahme; externe Farb-, Helligkeits-, EIN- und AUS-Befehle behalten ihre bisherige Ownership-Semantik. Konfigurationsschema 67, KNX-Schnittstellenschema 3.",
                      "http_code":  200
                  }
 }
