@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.490",
+                      "bin":  "knx-led-controller-16m-w_0.0.490.bin",
+                      "date":  "2026-07-25",
+                      "note":  "Tetrix-Stopabbruch phasensicher: Normale Segmentuhren behalten waehrend der getrennten kompakten Stoppachse ihren echten Szenen-, Phasen- und Effektschluessel. Abbrueche in derselben Phase setzen begrenzt fort; ein inzwischen erfolgter Phasen- oder Effektwechsel verwendet den korrekten Fresh-Pfad statt Zeiten zu vermischen. Vollresets loeschen beide Achsen, der statische Uhrspeicher bleibt bei insgesamt 132750 Byte und Konfigurationsschema 67 bleibt kompatibel."
+                  },
+                  {
                       "version":  "0.0.480",
                       "bin":  "knx-led-controller-16m-w_0.0.480.bin",
                       "date":  "2026-07-24",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m-w_0.0.473.bin",
                       "date":  "2026-07-22",
                       "note":  "Diagnose: Der bisher nicht vermessene Boot-Abschnitt zwischen Konfigurationsladen und Netzwerkstart wird in zwei Phasen zerlegt und einzeln zeitgemessen (Szenenspeicher initialisieren, LED-Aktivierung und LKG-Promotion). Damit benennt ein langsamer Boot kuenftig die verantwortliche Phase im seriellen Protokoll. Hintergrund: Ein Boot dauerte 58,8 s statt \u003c 1,5 s; ein so lange blockierter Hauptloop erklaert einen zeitweise nicht erreichbaren Service-AP. Reine Diagnoseerweiterung, keine Verhaltensaenderung, keine Schemaaenderung (Schema 65)."
-                  },
-                  {
-                      "version":  "0.0.472",
-                      "bin":  "knx-led-controller-16m-w_0.0.472.bin",
-                      "date":  "2026-07-21",
-                      "note":  "Service-AP-Stabilitaet: Der in 0.0.470 eingefuehrte Boot-Vorabscan wird zurueckgenommen. Er versetzte den Funkchip schon kurz nach dem Boot in den STA-Modus; ein so aktiviertes, aber zielloses STA-Interface liess die CYW43-Firmware periodisch im Hintergrund scannen und warf verbundene Smartphones wiederholt aus KLC-xxx. Der Chip betritt den STA-Modus jetzt erst wieder, wenn der Nutzer aktiv nach Netzen sucht oder eine Verbindung testet. Der Ergebnis-Cache der Netzsuche (bis zu drei Minuten, kein Doppel-Sweep) bleibt erhalten. Keine Schemaaenderung (Schema 65)."
                   }
               ]
 }

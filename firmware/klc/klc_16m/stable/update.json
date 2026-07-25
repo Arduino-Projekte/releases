@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m_0.0.480.bin",
+                     "url":  "knx-led-controller-16m_0.0.490.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.480",
-                     "bin":  "knx-led-controller-16m_0.0.480.bin",
-                     "file":  "knx-led-controller-16m_0.0.480.bin",
-                     "sha256":  "03bb251b3fa2f1e13688e61a1a047d91cb75af72cc3cef35d044fd27a11f906a",
-                     "message":  "Letzteinstellung atomar korrigiert: Ein zusammengesetzter LAST-Einschaltauftrag erhoeht die Control-Generation unabhaengig von gespeicherter Laufzeitfarbe und Helligkeit genau einmal. Interne Farb- und Helligkeitswiederherstellung erfolgt vor dem ersten sichtbaren Frame ohne zusaetzliche Besitzuebernahme; externe Farb-, Helligkeits-, EIN- und AUS-Befehle behalten ihre bisherige Ownership-Semantik. Konfigurationsschema 67, KNX-Schnittstellenschema 3.",
+                     "version":  "0.0.490",
+                     "bin":  "knx-led-controller-16m_0.0.490.bin",
+                     "file":  "knx-led-controller-16m_0.0.490.bin",
+                     "sha256":  "00129db9ea1a9fe958e90e578c70f9213b5f54f57af015d4d5ab913c81f9ff70",
+                     "message":  "Tetrix-Stopabbruch phasensicher: Normale Segmentuhren behalten waehrend der getrennten kompakten Stoppachse ihren echten Szenen-, Phasen- und Effektschluessel. Abbrueche in derselben Phase setzen begrenzt fort; ein inzwischen erfolgter Phasen- oder Effektwechsel verwendet den korrekten Fresh-Pfad statt Zeiten zu vermischen. Vollresets loeschen beide Achsen, der statische Uhrspeicher bleibt bei insgesamt 132750 Byte und Konfigurationsschema 67 bleibt kompatibel.",
                      "http_code":  200
                  }
 }
