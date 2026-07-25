@@ -1,34 +1,34 @@
 {
     "items":  [
                   {
-                      "version":  "0.0.480",
-                      "bin":  "knx-led-controller-16m-w_0.0.480.bin",
-                      "date":  "2026-07-24",
-                      "note":  "Letzteinstellung atomar korrigiert: Ein zusammengesetzter LAST-Einschaltauftrag erhoeht die Control-Generation unabhaengig von gespeicherter Laufzeitfarbe und Helligkeit genau einmal. Interne Farb- und Helligkeitswiederherstellung erfolgt vor dem ersten sichtbaren Frame ohne zusaetzliche Besitzuebernahme; externe Farb-, Helligkeits-, EIN- und AUS-Befehle behalten ihre bisherige Ownership-Semantik. Konfigurationsschema 67, KNX-Schnittstellenschema 3."
+                      "version":  "0.0.490",
+                      "bin":  "knx-led-controller-16m-w_0.0.490.bin",
+                      "date":  "2026-07-25",
+                      "note":  "Tetrix-Stopabbruch phasensicher: Normale Segmentuhren behalten waehrend der getrennten kompakten Stoppachse ihren echten Szenen-, Phasen- und Effektschluessel. Abbrueche in derselben Phase setzen begrenzt fort; ein inzwischen erfolgter Phasen- oder Effektwechsel verwendet den korrekten Fresh-Pfad statt Zeiten zu vermischen. Vollresets loeschen beide Achsen, der statische Uhrspeicher bleibt bei insgesamt 132750 Byte und Konfigurationsschema 67 bleibt kompatibel."
                   },
                   {
-                      "version":  "0.0.479",
-                      "bin":  "knx-led-controller-16m-w_0.0.479.bin",
-                      "date":  "2026-07-24",
-                      "note":  "Restkorrekturen der Ausgangssequenz: Identisches externes KNX-EIN, AUS waehrend laufender Rampe sowie identische Helligkeits- und Farbwerte uebernehmen den Ausgang genau einmal ohne sichtbaren Neustart; interne Sequenzaufrufe behalten ihren Claim. Sequenzarrays werden Element fuer Element strikt importiert, Richtungsduplikate clientseitig markiert und LAST als letzte Einstellung mit Laufzeitfarbe und Helligkeit beschrieben. Konfigurationsschema 67, KNX-Schnittstellenschema 3."
+                      "version":  "0.0.489",
+                      "bin":  "knx-led-controller-16m-w_0.0.489.bin",
+                      "date":  "2026-07-25",
+                      "note":  "Tetrix-Stopabbruch ohne Zeitverlust: Beim Eintritt in die gestaffelte Endphase wird der normale geglaettete Segmentfortschritt kompakt gesichert. Direkter Abbruch, neuer Ausgangsfolgen-Trigger und positiver KNX-Folgefarbwert setzen die normale Animation begrenzt und ohne Neustart bei null fort; wartende Segmente bleiben unberuehrt. Gemeinsame 12-Byte-Uhrslots, Spezialrenderer und Konfigurationsschema 67 bleiben kompatibel."
                   },
                   {
-                      "version":  "0.0.478",
-                      "bin":  "knx-led-controller-16m-w_0.0.478.bin",
-                      "date":  "2026-07-24",
-                      "note":  "Ausgangssequenz korrigiert: Wiederholte Richtungs-Trigger verschieben keine offenen Startschritte mehr, externe Bedienungen verwerfen Sequenzbesitz sicher und SAME/REVERSE folgen der realen Startreihenfolge. Deaktivierte oder leere Sequenzen bleiben neutral; ApplyConfig, Zeitvalidierung, strikter Import sowie Laufzeitstatus, abhaengige WebUI-Felder und Deutsch/Englisch-I18N wurden abgesichert. Konfigurationsschema 67, KNX-Schnittstellenschema 3."
+                      "version":  "0.0.488",
+                      "bin":  "knx-led-controller-16m-w_0.0.488.bin",
+                      "date":  "2026-07-25",
+                      "note":  "Tetrix-Stoppreset und RAM korrigiert: Beim gestaffelten Ausschalten bleiben normale Segmentuhren bis zum jeweiligen Stoppdelay erhalten, waehrend frische Enduhren lokal bei null und ohne unsigned Unterlauf beginnen. Achsengekennzeichnete gemeinsame Slots reduzieren den statischen Uhrspeicher, und frische Segmente loeschen kein bereits ermitteltes Debt-Maximum. Nur tatsaechlich als Tetrix aufgeloeste Segmente treiben die Uhren; Ausgangsdiagnose, Spezialrenderer und Konfigurationsschema 67 bleiben kompatibel."
                   },
                   {
-                      "version":  "0.0.477",
-                      "bin":  "knx-led-controller-16m-w_0.0.477.bin",
-                      "date":  "2026-07-24",
-                      "note":  "Optionale Ausgangssequenz mit zwei KNX-Richtungs-Triggern, absoluten Startzeiten, LAST- oder Szenenaktion je Ausgang, gemeinsamer Nachlaufzeit und konfigurierbarer Ausschaltfolge. Bereits aktive Ausgaenge werden ohne sichtbaren Neustart uebersprungen. Konfigurationsschema 67, KNX-Schnittstellenschema 3."
+                      "version":  "0.0.487",
+                      "bin":  "knx-led-controller-16m-w_0.0.487.bin",
+                      "date":  "2026-07-25",
+                      "note":  "Tetrix-Segmentuhren abschliessend korrigiert: frische Start-, Haupt- und Stoppuhren beginnen lokal bei null, Normal- und Stoppachsen besitzen getrennte kompakte Laufzeitzustaende ohne unsigned Unterlauf, und Lastspitzen werden je Ausgangsframe statt je Segment diagnostiziert. Nur tatsaechlich als Tetrix aufgeloeste Segmente treiben die Uhren; aktuelle Renderzeit und Zeitschuld werden ohne aktives Tetrix bereinigt. Segmentaufloesung, Spezialrenderer und Konfigurationsschema 67 bleiben kompatibel."
                   },
                   {
-                      "version":  "0.0.475",
-                      "bin":  "knx-led-controller-16m-w_0.0.475.bin",
-                      "date":  "2026-07-23",
-                      "note":  "KNX-Laufzeithelligkeit korrigiert: Ein positiver KNX-Helligkeitswert bleibt bei ausgeschaltetem Ausgang und deaktivierter Option \u0027Ueber Helligkeitsobjekt einschalten\u0027 jetzt ausschliesslich im RAM bis zum spaeteren regulaeren Einschalten erhalten, ohne dass das urspruengliche Telegramm den Ausgang einschaltet. Nach dem erfolgreichen Start der ausgewaehlten oder vorgemerkten Szene wird der Wert als Laufzeit-Gesamthelligkeit angewendet und nicht mehr durch den Szenenstart dauerhaft auf 255 zurueckgesetzt. Bei einem fehlgeschlagenen Start bleiben Szenenvormerkung und Helligkeitswert erhalten. Es erfolgt keine Flash-Speicherung und keine Wiederherstellung nach einem Neustart. Das Konfigurationsschema bleibt unveraendert bei 66."
+                      "version":  "0.0.486",
+                      "bin":  "knx-led-controller-16m-w_0.0.486.bin",
+                      "date":  "2026-07-25",
+                      "note":  "Tetrix-Phasenzeit in segmentierten Ausgaengen korrigiert: Start-, Haupt- und Endphase verwenden wieder ihre lokale Zeitachse, auch nach Segmentverzoegerungen und Lastspitzen ohne langen Nullstillstand und ohne unsigned Unterlauf; nur tatsaechlich als Tetrix aufgeloeste Segmente treiben die Tetrix-Uhren. Segmentaufloesung, Renderer-Aufruf und Gesamtdiagnose bleiben je Ausgangsframe begrenzt. Konfigurationsschema 67 bleibt kompatibel."
                   }
               ]
 }
