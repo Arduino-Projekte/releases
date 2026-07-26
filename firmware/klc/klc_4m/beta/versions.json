@@ -2,31 +2,31 @@
     "items":  [
                   {
                       "version":  "0.0.498",
-                      "bin":  "knx-led-controller-16m-w_0.0.498.bin",
+                      "bin":  "knx-led-controller-4m_0.0.498.bin",
                       "date":  "2026-07-26",
                       "note":  "Die Testnachweise und der Lieferumfang fuer den terminalen Prepare-Abbruch sind vollstaendig reproduzierbar dokumentiert. Die Host-Fault-Injection gegen die echten Scene-Store-, Output-Pending- und Writer-Lease-Quellen weist 231 bestandene Pruefungen je Testgruppe aus. Sechs Abweichungen der allgemeinen Hostsuite wurden durch eine zeitlich korrekte Verify-Fehlerinjektion behoben. Zusaetzlich wurde ein echter Retry-Journalfehler korrigiert: Beim letzten zulaessigen Authority-Retry wird retry_exhausted nun bereits vor dem Write konsistent zu retry_count \u003e= retry_limit persistiert, sodass die Verify-Ruecklese den Datensatz nicht mehr verwirft. Die allgemeine Hostsuite besteht damit 155 von 155 Pruefungen. Die drei Pflichtprofile klc_4m, klc_16m und klc_16m_w wurden fuer 0.0.498 vollstaendig gebaut und nachgewiesen. Hardware-, reale Neustart- und Stromausfalltests stehen weiterhin aus; KLC_RELEASE_PUBLISH bleibt deshalb deaktiviert."
                   },
                   {
                       "version":  "0.0.497",
-                      "bin":  "knx-led-controller-16m-w_0.0.497.bin",
+                      "bin":  "knx-led-controller-4m_0.0.497.bin",
                       "date":  "2026-07-26",
                       "note":  "Der terminale Prepare-Abbruch bleibt unveraendert aktiv; korrigiert wurde die Dokumentation der realen KLT-Slotwahl nach einem fehlgeschlagenen Journalwrite: Weil der fehlgeschlagene Datensatz nicht zum neuesten gueltigen Journal wird, verwendet der Abort erneut denselben Zielslot und liest den terminalen Datensatz danach vollstaendig zurueck. Eine mit GCC 16.1.0 kompilierte Host-Fault-Injection gegen die echten Scene-Store-, Output-Pending- und Writer-Lease-Quellen hat 231 Pruefungen bestanden: Fehler bei Szene 1/25/50, MIGRATING, Gesamtrekonstruktion, AWAIT_ACTIVATION, Metadaten, persistenter Neustart, sofortiger zweiter Restore und Post-Core-Cancel-Schutz. Die drei Pflichtprofilbuilds werden fuer 0.0.497 vollstaendig ausgefuehrt. Die aeltere allgemeine Hostsuite hat sieben bestehende, nicht zu diesem Prepare-Abbruch gehoerende Erwartungsabweichungen und gilt nicht als bestanden. Hardware-, reale Neustart- und Stromausfalltests stehen weiterhin aus; KLC_RELEASE_PUBLISH bleibt deshalb deaktiviert."
                   },
                   {
                       "version":  "0.0.496",
-                      "bin":  "knx-led-controller-16m-w_0.0.496.bin",
+                      "bin":  "knx-led-controller-4m_0.0.496.bin",
                       "date":  "2026-07-26",
                       "note":  "Jeder Fehler nach Erzeugung eines Replacement-Journals und vor dem Kern-Pending-Commit wird jetzt durch einen gemeinsamen writer-locked Abortpfad terminal bereinigt. Slotwrite/-ruecklese-, MIGRATING-Journal-, Gesamtrekonstruktions-, Zielgenerations-, AWAIT_ACTIVATION- und Metadatenfehler behalten Phase und Szenen-ID im terminalen Journal; FAILED ist fuer diese Vorbereitungsfehler eindeutig terminal. Vorbereitete RAM-Daten und Authority-Aktionen werden vollstaendig geloescht, die gesunde bestaetigte Authority erneut aus LittleFS verifiziert und ohne aktive Vorgangs-ID, Retry oder Rollback als CONFIRMED geladen. Die oeffentliche Cancel-Funktion verwendet denselben Cleanup und verlangt die explizite Angabe, dass noch kein Kerncommit erfolgreich war. Nach einem Kern-Pending-Commit bleibt der Vorgang dagegen fortsetzbar und wird nicht abgebrochen. Die Fault-Injection-Regressionen und drei Pflichtprofilbuilds werden fuer 0.0.496 ausgefuehrt; Hardware-, Neustart- und reale Stromausfalltests stehen aus. KLC_RELEASE_PUBLISH bleibt deshalb deaktiviert."
                   },
                   {
                       "version":  "0.0.495",
-                      "bin":  "knx-led-controller-16m-w_0.0.495.bin",
+                      "bin":  "knx-led-controller-4m_0.0.495.bin",
                       "date":  "2026-07-26",
                       "note":  "Vollrestores akzeptieren nur noch Ziel-Szenenslots mit einer einheitlichen, exakt passenden Bankgeneration; inhaltlich unveraenderte Szenen werden bei einer neuen Zielgeneration sicher in den alternativen A/B-Slot neu geschrieben und dauerhaft rueckgelesen. Vor AWAIT_ACTIVATION wird die gesamte Bank erneut aus LittleFS rekonstruiert. Ein Fehler vor dem Kern-Pending-Commit terminalisiert den Vorgang und stellt die bestaetigte Authority ohne aktive Vorgangs-ID, Retry oder Rollback wieder her. Nach einem Kern-Commit werden die tatsaechliche Kern-Datei, ihre abgeleitete Basisgeneration und das Pending-Journal geprueft; ein spaeter Kontrollfehler behaelt den dokumentierten Szenenvorgang fortsetzbar, statt ihn unkoordiniert abzubrechen. Schema-67-, 224211-Byte-, Restore-, Abbruch- und Upload-Grenzregressionen sowie die drei Pflichtprofilbuilds werden fuer 0.0.495 ausgefuehrt; Hardware-, Neustart- und reale Stromausfalltests stehen aus. KLC_RELEASE_PUBLISH bleibt deshalb deaktiviert."
                   },
                   {
                       "version":  "0.0.494",
-                      "bin":  "knx-led-controller-16m-w_0.0.494.bin",
+                      "bin":  "knx-led-controller-4m_0.0.494.bin",
                       "date":  "2026-07-26",
                       "note":  "Config- und Scene-Recovery sind getrennt; eine gesunde bestaetigte Szenen-Authority bleibt im Config-Recovery CONFIRMED, und Vorgang 0 bietet weder Retry noch Rollback an. Vollrestores schreiben und verifizieren die komplette Ziel-Szenenbank dauerhaft vor der szenenfreien Kernkonfiguration und bestaetigen nur die exakt passende Operation, Purpose, Generation und Slotbelegung. Direkte Config- und Validate-API-Uploads nutzen denselben groessenbegrenzten LittleFS-Stagepfad ohne vollstaendigen Request-String. Der Schema-67-Reader verwendet einen festen 64-KiB-Arbeitsblock und meldet Datei-, EOF-, Syntax-, Token- und Blockgrenzen getrennt. Das klc_4m-Profil mit 2-MiB-Sketch und 2-MiB-LittleFS ist wieder im Buildskript enthalten. KLC_RELEASE_PUBLISH bleibt bis zu erfolgreichen Hardware-, Stromausfall- und Pflichtprofiltests deaktiviert."
                   }
