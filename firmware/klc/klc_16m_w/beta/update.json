@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m-w_0.0.498.bin",
+                     "url":  "knx-led-controller-16m-w_0.0.501.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.498",
-                     "bin":  "knx-led-controller-16m-w_0.0.498.bin",
-                     "file":  "knx-led-controller-16m-w_0.0.498.bin",
-                     "sha256":  "6fff513fe92fcbadcc7ce5aa1402402395b25c11ed6aa3b3f651af48eab2f783",
-                     "message":  "Die Testnachweise und der Lieferumfang fuer den terminalen Prepare-Abbruch sind vollstaendig reproduzierbar dokumentiert. Die Host-Fault-Injection gegen die echten Scene-Store-, Output-Pending- und Writer-Lease-Quellen weist 231 bestandene Pruefungen je Testgruppe aus. Sechs Abweichungen der allgemeinen Hostsuite wurden durch eine zeitlich korrekte Verify-Fehlerinjektion behoben. Zusaetzlich wurde ein echter Retry-Journalfehler korrigiert: Beim letzten zulaessigen Authority-Retry wird retry_exhausted nun bereits vor dem Write konsistent zu retry_count \u003e= retry_limit persistiert, sodass die Verify-Ruecklese den Datensatz nicht mehr verwirft. Die allgemeine Hostsuite besteht damit 155 von 155 Pruefungen. Die drei Pflichtprofile klc_4m, klc_16m und klc_16m_w wurden fuer 0.0.498 vollstaendig gebaut und nachgewiesen. Hardware-, reale Neustart- und Stromausfalltests stehen weiterhin aus; KLC_RELEASE_PUBLISH bleibt deshalb deaktiviert.",
+                     "version":  "0.0.501",
+                     "bin":  "knx-led-controller-16m-w_0.0.501.bin",
+                     "file":  "knx-led-controller-16m-w_0.0.501.bin",
+                     "sha256":  "2a42f93bd2d08015d627cc1a23ff994061cd723b9b62489afc535aaa2f98af71",
+                     "message":  "Der Praesenz-/Halteeingang der Ausgangssequenz speichert im Trigger- und Statusbetrieb jetzt auch vor einem A-/B-Start seine Nachlaufzeit, ohne Licht einzuschalten. Eine laufende Ausschalt-Huellkurve wird beim Halten auf der sichtbaren Helligkeit eingefroren, ohne Szene, Animation oder Framebuffer neu zu starten. Gespeicherte Sequenzaenderungen warten bei laufender Praesenz bis zum sicheren Leerlauf. Im Statusbetrieb liest die Firmware KNX-Objekt 7 nach verfuegbarer BAOS-Verbindung aktiv und uebernimmt den Wert ohne Triggerwirkung; die vorsorgliche Boot-Sperre ist zeitlich begrenzt. Diagnose, KNX-Schema-4-Artefakte, deutsche/englische Praesenztexte und Hilfen wurden an dieses Verhalten angepasst. Konfigurationsschema bleibt 68. Hardware-, reale KNX-, Neustart-, Sichtpruefungs- und Stromausfalltests stehen weiterhin aus; KLC_RELEASE_PUBLISH bleibt deshalb deaktiviert.",
                      "http_code":  200
                  }
 }
