@@ -1,12 +1,12 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m_0.0.501.bin",
+                     "url":  "knx-led-controller-4m_0.0.501.bin",
                      "check_ok":  true,
                      "update_available":  false,
                      "version":  "0.0.501",
-                     "bin":  "knx-led-controller-16m_0.0.501.bin",
-                     "file":  "knx-led-controller-16m_0.0.501.bin",
-                     "sha256":  "eb22be5cfb5718414eeb2496c10ea629afb89f58cf8aff47e3cf86bd1f47bef4",
+                     "bin":  "knx-led-controller-4m_0.0.501.bin",
+                     "file":  "knx-led-controller-4m_0.0.501.bin",
+                     "sha256":  "d21ec7c3ec4494db409b078d9124d0d9fc6d1d444c2387bf42808fb5d23d1f88",
                      "message":  "Der Praesenz-/Halteeingang der Ausgangssequenz speichert im Trigger- und Statusbetrieb jetzt auch vor einem A-/B-Start seine Nachlaufzeit, ohne Licht einzuschalten. Eine laufende Ausschalt-Huellkurve wird beim Halten auf der sichtbaren Helligkeit eingefroren, ohne Szene, Animation oder Framebuffer neu zu starten. Gespeicherte Sequenzaenderungen warten bei laufender Praesenz bis zum sicheren Leerlauf. Im Statusbetrieb liest die Firmware KNX-Objekt 7 nach verfuegbarer BAOS-Verbindung aktiv und uebernimmt den Wert ohne Triggerwirkung; die vorsorgliche Boot-Sperre ist zeitlich begrenzt. Diagnose, KNX-Schema-4-Artefakte, deutsche/englische Praesenztexte und Hilfen wurden an dieses Verhalten angepasst. Konfigurationsschema bleibt 68. Hardware-, reale KNX-, Neustart-, Sichtpruefungs- und Stromausfalltests stehen weiterhin aus; KLC_RELEASE_PUBLISH bleibt deshalb deaktiviert.",
                      "http_code":  200
                  }
