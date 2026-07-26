@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.498",
+                      "bin":  "knx-led-controller-16m-w_0.0.498.bin",
+                      "date":  "2026-07-26",
+                      "note":  "Die Testnachweise und der Lieferumfang fuer den terminalen Prepare-Abbruch sind vollstaendig reproduzierbar dokumentiert. Die Host-Fault-Injection gegen die echten Scene-Store-, Output-Pending- und Writer-Lease-Quellen weist 231 bestandene Pruefungen je Testgruppe aus. Sechs Abweichungen der allgemeinen Hostsuite wurden durch eine zeitlich korrekte Verify-Fehlerinjektion behoben. Zusaetzlich wurde ein echter Retry-Journalfehler korrigiert: Beim letzten zulaessigen Authority-Retry wird retry_exhausted nun bereits vor dem Write konsistent zu retry_count \u003e= retry_limit persistiert, sodass die Verify-Ruecklese den Datensatz nicht mehr verwirft. Die allgemeine Hostsuite besteht damit 155 von 155 Pruefungen. Die drei Pflichtprofile klc_4m, klc_16m und klc_16m_w wurden fuer 0.0.498 vollstaendig gebaut und nachgewiesen. Hardware-, reale Neustart- und Stromausfalltests stehen weiterhin aus; KLC_RELEASE_PUBLISH bleibt deshalb deaktiviert."
+                  },
+                  {
                       "version":  "0.0.490",
                       "bin":  "knx-led-controller-16m-w_0.0.490.bin",
                       "date":  "2026-07-25",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m-w_0.0.474.bin",
                       "date":  "2026-07-23",
                       "note":  "KNX-Ausgangsverhalten erweitert: Pro Kettenkopf sind jetzt die Optionen \u0027Ueber Szenenobjekt einschalten\u0027, \u0027Ueber Helligkeitsobjekt einschalten\u0027 und \u0027Ueber Helligkeitsobjekt ausschalten\u0027 getrennt einstellbar. Szenen 1..50 koennen wahlweise sofort ausgefuehrt oder ausschliesslich im RAM fuer das naechste regulaere Einschalten vorgemerkt werden; die Vormerkung wird erst nach erfolgreichem Start verbraucht und niemals gespeichert. Positive Helligkeitswerte koennen bei ausgeschaltetem Ausgang nur als letzter Laufzeit-Dimmwert uebernommen werden, waehrend Helligkeit 0 bei deaktivierter Ausschaltoption vollstaendig ignoriert wird. Bestehende Konfigurationen migrieren mit allen drei Optionen auf true und behalten damit ihr bisheriges Verhalten. Die KNX-Verhaltensfelder sind auf breiten Ansichten in einer gemeinsamen Reihe ausgerichtet, die drei neuen Checkboxen stehen dort ebenfalls in einer Reihe, und der sichtbare Fallback-Hinweis unter KNX-Basisszene wurde entfernt. Konfigurationsschema 66."
-                  },
-                  {
-                      "version":  "0.0.473",
-                      "bin":  "knx-led-controller-16m-w_0.0.473.bin",
-                      "date":  "2026-07-22",
-                      "note":  "Diagnose: Der bisher nicht vermessene Boot-Abschnitt zwischen Konfigurationsladen und Netzwerkstart wird in zwei Phasen zerlegt und einzeln zeitgemessen (Szenenspeicher initialisieren, LED-Aktivierung und LKG-Promotion). Damit benennt ein langsamer Boot kuenftig die verantwortliche Phase im seriellen Protokoll. Hintergrund: Ein Boot dauerte 58,8 s statt \u003c 1,5 s; ein so lange blockierter Hauptloop erklaert einen zeitweise nicht erreichbaren Service-AP. Reine Diagnoseerweiterung, keine Verhaltensaenderung, keine Schemaaenderung (Schema 65)."
                   }
               ]
 }
