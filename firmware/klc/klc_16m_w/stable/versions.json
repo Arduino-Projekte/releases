@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.505",
+                      "bin":  "knx-led-controller-16m-w_0.0.505.bin",
+                      "date":  "2026-07-27",
+                      "note":  "BAOS-Reads laufen jetzt ueber einen festen Arbiter: hoechstens ein unaufgeloester Read, Praesenz und Diagnose teilen ihn, und eine Antwort wird ueber FT1.2-Paritaet, erwartetes Startobjekt und erwartete Anzahl zugeordnet. Ein anwendungsseitig beendeter Read gibt den Platz nicht sofort frei, sondern erst nach eingetroffener Antwort oder FT1.2-Resync; eine verspaetete Antwort wird dadurch konsumiert und verworfen statt einem neuen Read zugeordnet. Optionale Praesenzfelder aus Schema 67 uebernehmen nie mehr den Zwischenwert eines anderen Feldes. Eine gespeicherte, noch nicht aktivierte Ausgangsfolge liegt zentral und wird von Netzwerk-, KNX- und Ausgangssaves nicht mehr ueberschrieben. Der Heap-Tiefstwert umfasst jetzt den vollstaendigen Startpfad; LED-Masterpool und Backend haben getrennte Messpunkte. Daten nach dem JSON-Rootobjekt werden abgelehnt. Der 64-KiB-JSON-Arbeitspuffer besteht unveraendert weiter. Schema 68 unveraendert. Hardwaretests offen, KLC_RELEASE_PUBLISH deaktiviert."
+                  },
+                  {
                       "version":  "0.0.504",
                       "bin":  "knx-led-controller-16m-w_0.0.504.bin",
                       "date":  "2026-07-27",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m-w_0.0.490.bin",
                       "date":  "2026-07-25",
                       "note":  "Tetrix-Stopabbruch phasensicher: Normale Segmentuhren behalten waehrend der getrennten kompakten Stoppachse ihren echten Szenen-, Phasen- und Effektschluessel. Abbrueche in derselben Phase setzen begrenzt fort; ein inzwischen erfolgter Phasen- oder Effektwechsel verwendet den korrekten Fresh-Pfad statt Zeiten zu vermischen. Vollresets loeschen beide Achsen, der statische Uhrspeicher bleibt bei insgesamt 132750 Byte und Konfigurationsschema 67 bleibt kompatibel."
-                  },
-                  {
-                      "version":  "0.0.480",
-                      "bin":  "knx-led-controller-16m-w_0.0.480.bin",
-                      "date":  "2026-07-24",
-                      "note":  "Letzteinstellung atomar korrigiert: Ein zusammengesetzter LAST-Einschaltauftrag erhoeht die Control-Generation unabhaengig von gespeicherter Laufzeitfarbe und Helligkeit genau einmal. Interne Farb- und Helligkeitswiederherstellung erfolgt vor dem ersten sichtbaren Frame ohne zusaetzliche Besitzuebernahme; externe Farb-, Helligkeits-, EIN- und AUS-Befehle behalten ihre bisherige Ownership-Semantik. Konfigurationsschema 67, KNX-Schnittstellenschema 3."
                   }
               ]
 }
