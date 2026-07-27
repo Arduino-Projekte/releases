@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m-w_0.0.513.bin",
+                     "url":  "knx-led-controller-16m-w_0.0.515.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.513",
-                     "bin":  "knx-led-controller-16m-w_0.0.513.bin",
-                     "file":  "knx-led-controller-16m-w_0.0.513.bin",
-                     "sha256":  "f01e59b4111c35585c22674de786d1efd0fe0259fcbc13281d5be2a4cd8bbe2f",
-                     "message":  "Schema 69. Praesenz halten kennt jetzt die Nutzlast des Objekts: 1 Bit streng, 1 Byte oder beides. Bei Byte gilt jeder Wert \u003e 0 als Praesenz, damit ein Melder seinen Helligkeits-/Dimmwert (z. B. 128) senden kann; bisher verwarf der BAOS-Pfad das als ungueltig. Neu ist ein Helligkeitseingang als DPT 9.004 mit eigenem KNX-Objekt, Vergleichsrichtung, Schwelle und Hysterese; dafuer gibt es erstmals einen echten KNX-2-Byte-Gleitkommadekoder. Geprueft wird nur beim Trigger, nie laufend: die eigenen Ausgaenge beleuchten den Messort und wuerden sich sonst selbst abschalten. Ohne empfangenen Wert wird nie gesperrt. Bedienung mit Istwert und Automatik/frei/gesperrt, bewusst nur zur Laufzeit. ApplyConfig fordert den Praesenzwert wieder an.",
+                     "version":  "0.0.515",
+                     "bin":  "knx-led-controller-16m-w_0.0.515.bin",
+                     "file":  "knx-led-controller-16m-w_0.0.515.bin",
+                     "sha256":  "7dd468402b6a833c0ce16b0ec48afa3fd40d8052641cf83084276bc07995d3ae",
+                     "message":  "KNX-Schema 6: Praesenz halten hat jetzt zwei parallele Objekte. Objekt 7 bleibt streng 1 Bit, neu ist Objekt 8 als 1 Byte, wo jeder Wert \u003e 0 haelt - fuer Melder mit Dimmwert. Es haelt nur, einschalten kann es nie. Helligkeit wandert auf Objekt 9.",
                      "http_code":  200
                  }
 }

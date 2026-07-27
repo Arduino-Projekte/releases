@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.515",
+                      "bin":  "knx-led-controller-16m_0.0.515.bin",
+                      "date":  "2026-07-27",
+                      "note":  "KNX-Schema 6: Praesenz halten hat jetzt zwei parallele Objekte. Objekt 7 bleibt streng 1 Bit, neu ist Objekt 8 als 1 Byte, wo jeder Wert \u003e 0 haelt - fuer Melder mit Dimmwert. Es haelt nur, einschalten kann es nie. Helligkeit wandert auf Objekt 9."
+                  },
+                  {
                       "version":  "0.0.513",
                       "bin":  "knx-led-controller-16m_0.0.513.bin",
                       "date":  "2026-07-27",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m_0.0.508.bin",
                       "date":  "2026-07-27",
                       "note":  "Alle ACK-pflichtigen FT1.2-Sendungen laufen jetzt ueber einen festen TX-Platz: ein ACK bestaetigt einen Frame nur bei gestiegenem ACK-Zaehler, nicht per Zeitstempel; bei ACK-Verlust werden identische Bytes mit demselben Control-Byte wiederholt, und der Host-FCB wird erst nach erfolgreichem Schreiben weitergeschaltet. Waehrend eines Resets sendet nichts anderes. Der Reset wird unabhaengig vom Readbesitzer aufgeloest, damit eine alte Antwort keinen Dauerblock erzeugt; Reset.Ind wird erkannt und setzt beide Sequenzen neu. Backup und /api/config exportieren jetzt den persistierten Stand inklusive gespeicherter Ausgangsfolge, sonst 409. Der Kernblock geht auf 48 KiB: 32 KiB waren nicht beweisbar ausreichend. Schema 68. Hardware- und Animationstests offen, KLC_RELEASE_PUBLISH deaktiviert."
-                  },
-                  {
-                      "version":  "0.0.507",
-                      "bin":  "knx-led-controller-16m_0.0.507.bin",
-                      "date":  "2026-07-27",
-                      "note":  "Der Kern-JSON-Arbeitsblock schrumpft von 64 auf 32 KiB: der Kern ohne Szenenliste umfasst nur rund 2,4 KiB Strukturdaten. Buildvergleich 275688 auf 242920 Byte statisches RAM. Ein zu grosser Kern wird weiter kontrolliert abgelehnt; die Diagnose nennt Datei- und Kerngroesse. LED-, DMA-, PIO- und Szenenpuffer sowie alle Pixel- und Szenengrenzen bleiben unveraendert, im Renderpfad gibt es keine neue Allokation. Der FT1.2-Empfang wendet Wiederholungsframes nicht doppelt an; Readantworten werden ueber genau einen offenen Read zugeordnet, nicht ueber Frameparitaet. Nach Quarantaene gibt erst das Reset-ACK den Readplatz frei. Schema 68 unveraendert. Animationsmessungen und Hardwaretests offen, KLC_RELEASE_PUBLISH deaktiviert."
                   }
               ]
 }
