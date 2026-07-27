@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m_0.0.508.bin",
+                     "url":  "knx-led-controller-16m_0.0.510.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.508",
-                     "bin":  "knx-led-controller-16m_0.0.508.bin",
-                     "file":  "knx-led-controller-16m_0.0.508.bin",
-                     "sha256":  "7e24a1440bbdd54792019ff87e92610542517ecd2f340d415d540cff33da1518",
-                     "message":  "Alle ACK-pflichtigen FT1.2-Sendungen laufen jetzt ueber einen festen TX-Platz: ein ACK bestaetigt einen Frame nur bei gestiegenem ACK-Zaehler, nicht per Zeitstempel; bei ACK-Verlust werden identische Bytes mit demselben Control-Byte wiederholt, und der Host-FCB wird erst nach erfolgreichem Schreiben weitergeschaltet. Waehrend eines Resets sendet nichts anderes. Der Reset wird unabhaengig vom Readbesitzer aufgeloest, damit eine alte Antwort keinen Dauerblock erzeugt; Reset.Ind wird erkannt und setzt beide Sequenzen neu. Backup und /api/config exportieren jetzt den persistierten Stand inklusive gespeicherter Ausgangsfolge, sonst 409. Der Kernblock geht auf 48 KiB: 32 KiB waren nicht beweisbar ausreichend. Schema 68. Hardware- und Animationstests offen, KLC_RELEASE_PUBLISH deaktiviert.",
+                     "version":  "0.0.510",
+                     "bin":  "knx-led-controller-16m_0.0.510.bin",
+                     "file":  "knx-led-controller-16m_0.0.510.bin",
+                     "sha256":  "96ce17cf2afb012398332dca4b5eca3995a2ac62712d457560b2de3074a55b5a",
+                     "message":  "Erstmals mit ausgefuehrten Hosttests: das neue Harness tests/host_baos_ft12 uebersetzt die echte Quelle klc_knx_baos.cpp und speist reale FT1.2-Rohtelegramme ein. 39 Pruefungen bestanden, darunter Linkprobe erst nach bestaetigtem Reset-TX, verbunden erst mit echter Antwort, Wiederholungsframe nur quittiert statt doppelt angewendet, Antwort eines beendeten Reads ohne Wirkung, identische Wiederholung bei ACK-Verlust mit Resync, keine Sendung waehrend Reset und Reset.Ind als Verbindungsabbruch. Die Aussagekraft ist per Mutationstest belegt: drei eingebaute Fehler wurden erkannt. Neue Diagnosezaehler fuer Wiederholungs- und Sequenzframes. Auch die 155 Pruefungen des Szenenspeicher-Harness laufen jetzt. Schema 68. Hardwaretests bleiben offen, KLC_RELEASE_PUBLISH deaktiviert.",
                      "http_code":  200
                  }
 }
