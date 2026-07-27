@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m_0.0.511.bin",
+                     "url":  "knx-led-controller-16m_0.0.513.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.511",
-                     "bin":  "knx-led-controller-16m_0.0.511.bin",
-                     "file":  "knx-led-controller-16m_0.0.511.bin",
-                     "sha256":  "5fc24ce665bcdb2eb98cff01f6bfba3e4254fe9c945588d28bd21a47c066ed9b",
-                     "message":  "Ausgangsanzahl ist jetzt unter /outputs aenderbar: neue Karte mit Auswahl 1..Boardanzahl, Formular /outputs/count, atomarer Commit und danach kontrollierter Neustart. Bewusst kein Pending-Wert, weil output_count nicht Teil der Saved-Authority ist und ein fremder Save ihn sonst still zuruecksetzen wuerde. Verkleinern ist erlaubt, verlangt aber eine Bestaetigung und verwirft die wegfallenden Ausgaenge endgueltig; Verkettungen und Sequenzschritte darauf werden aufgeloest. ID-Vergabe nutzt die jetzt exportierten Wizard-Helfer. Loginseite: Rollenwahl als zwei Schaltflaechen statt Radio, das war ausgeblendet UND gesperrt und sperrte den Benutzer aus. Ausschaltzeitpunkte zeigen fuer leere Zeilen keinen Ausgang 0 mehr. Schema 68.",
+                     "version":  "0.0.513",
+                     "bin":  "knx-led-controller-16m_0.0.513.bin",
+                     "file":  "knx-led-controller-16m_0.0.513.bin",
+                     "sha256":  "ac0bb9c4c2f81fa8a6bdb8c88f42418b38bce5352f39b6400ffd934bffdea6b6",
+                     "message":  "Schema 69. Praesenz halten kennt jetzt die Nutzlast des Objekts: 1 Bit streng, 1 Byte oder beides. Bei Byte gilt jeder Wert \u003e 0 als Praesenz, damit ein Melder seinen Helligkeits-/Dimmwert (z. B. 128) senden kann; bisher verwarf der BAOS-Pfad das als ungueltig. Neu ist ein Helligkeitseingang als DPT 9.004 mit eigenem KNX-Objekt, Vergleichsrichtung, Schwelle und Hysterese; dafuer gibt es erstmals einen echten KNX-2-Byte-Gleitkommadekoder. Geprueft wird nur beim Trigger, nie laufend: die eigenen Ausgaenge beleuchten den Messort und wuerden sich sonst selbst abschalten. Ohne empfangenen Wert wird nie gesperrt. Bedienung mit Istwert und Automatik/frei/gesperrt, bewusst nur zur Laufzeit. ApplyConfig fordert den Praesenzwert wieder an.",
                      "http_code":  200
                  }
 }
