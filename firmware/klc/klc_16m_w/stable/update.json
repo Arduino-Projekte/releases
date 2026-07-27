@@ -6,7 +6,7 @@
                      "version":  "0.0.508",
                      "bin":  "knx-led-controller-16m-w_0.0.508.bin",
                      "file":  "knx-led-controller-16m-w_0.0.508.bin",
-                     "sha256":  "ae86276199602e15eb16cf931ceaa1cef2ca683459a8f3e95ace98ac75bc76d7",
+                     "sha256":  "0cdd668d3a49fb06b81f35f3d3f4a75010e1b21e141b98368d7307f16c0a0307",
                      "message":  "Alle ACK-pflichtigen FT1.2-Sendungen laufen jetzt ueber einen festen TX-Platz: ein ACK bestaetigt einen Frame nur bei gestiegenem ACK-Zaehler, nicht per Zeitstempel; bei ACK-Verlust werden identische Bytes mit demselben Control-Byte wiederholt, und der Host-FCB wird erst nach erfolgreichem Schreiben weitergeschaltet. Waehrend eines Resets sendet nichts anderes. Der Reset wird unabhaengig vom Readbesitzer aufgeloest, damit eine alte Antwort keinen Dauerblock erzeugt; Reset.Ind wird erkannt und setzt beide Sequenzen neu. Backup und /api/config exportieren jetzt den persistierten Stand inklusive gespeicherter Ausgangsfolge, sonst 409. Der Kernblock geht auf 48 KiB: 32 KiB waren nicht beweisbar ausreichend. Schema 68. Hardware- und Animationstests offen, KLC_RELEASE_PUBLISH deaktiviert.",
                      "http_code":  200
                  }
