@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m_0.0.504.bin",
+                     "url":  "knx-led-controller-16m_0.0.505.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.504",
-                     "bin":  "knx-led-controller-16m_0.0.504.bin",
-                     "file":  "knx-led-controller-16m_0.0.504.bin",
-                     "sha256":  "0221c9d37bbfde6bc623143f01fbfdbf335e081ee4b7bdad31da5f4b1deef858",
-                     "message":  "Jeder Praesenz-Synchronisationszyklus erhaelt jetzt eine laufzeitweit eindeutige Generation aus einem fortlaufenden Zaehler; Antworten frueherer Zyklen passen nicht mehr. Als stabiler BAOS-Zustand gilt nur noch Uebertragungsstatus 00 mit Valid-Flag; auch echte Praesenz-Indications werden streng als 1-Bit-Telegramm geprueft und sonst verworfen, ohne den offenen Read zu beenden. Eine Ausgangsfolge wird nur noch sofort aktiv, wenn ihre KNX-Objekte auch gegen die aktive Struktur eindeutig sind, sonst meldet die WebUI Neustartbedarf und zeigt die gespeicherten Werte. Ausschaltzeiten werden im Browser geprueft. Sprachpakete 2.5.3 mit echten Uebersetzungen in FR, ES, IT, NL und PL. Schema 68 unveraendert. Hardwaretests offen, KLC_RELEASE_PUBLISH deaktiviert.",
+                     "version":  "0.0.505",
+                     "bin":  "knx-led-controller-16m_0.0.505.bin",
+                     "file":  "knx-led-controller-16m_0.0.505.bin",
+                     "sha256":  "0f6b430c072a56ee4ed64cba1533d7e1a4f110a41970b297ae035183722a3906",
+                     "message":  "BAOS-Reads laufen jetzt ueber einen festen Arbiter: hoechstens ein unaufgeloester Read, Praesenz und Diagnose teilen ihn, und eine Antwort wird ueber FT1.2-Paritaet, erwartetes Startobjekt und erwartete Anzahl zugeordnet. Ein anwendungsseitig beendeter Read gibt den Platz nicht sofort frei, sondern erst nach eingetroffener Antwort oder FT1.2-Resync; eine verspaetete Antwort wird dadurch konsumiert und verworfen statt einem neuen Read zugeordnet. Optionale Praesenzfelder aus Schema 67 uebernehmen nie mehr den Zwischenwert eines anderen Feldes. Eine gespeicherte, noch nicht aktivierte Ausgangsfolge liegt zentral und wird von Netzwerk-, KNX- und Ausgangssaves nicht mehr ueberschrieben. Der Heap-Tiefstwert umfasst jetzt den vollstaendigen Startpfad; LED-Masterpool und Backend haben getrennte Messpunkte. Daten nach dem JSON-Rootobjekt werden abgelehnt. Der 64-KiB-JSON-Arbeitspuffer besteht unveraendert weiter. Schema 68 unveraendert. Hardwaretests offen, KLC_RELEASE_PUBLISH deaktiviert.",
                      "http_code":  200
                  }
 }

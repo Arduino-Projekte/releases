@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.505",
+                      "bin":  "knx-led-controller-16m_0.0.505.bin",
+                      "date":  "2026-07-27",
+                      "note":  "BAOS-Reads laufen jetzt ueber einen festen Arbiter: hoechstens ein unaufgeloester Read, Praesenz und Diagnose teilen ihn, und eine Antwort wird ueber FT1.2-Paritaet, erwartetes Startobjekt und erwartete Anzahl zugeordnet. Ein anwendungsseitig beendeter Read gibt den Platz nicht sofort frei, sondern erst nach eingetroffener Antwort oder FT1.2-Resync; eine verspaetete Antwort wird dadurch konsumiert und verworfen statt einem neuen Read zugeordnet. Optionale Praesenzfelder aus Schema 67 uebernehmen nie mehr den Zwischenwert eines anderen Feldes. Eine gespeicherte, noch nicht aktivierte Ausgangsfolge liegt zentral und wird von Netzwerk-, KNX- und Ausgangssaves nicht mehr ueberschrieben. Der Heap-Tiefstwert umfasst jetzt den vollstaendigen Startpfad; LED-Masterpool und Backend haben getrennte Messpunkte. Daten nach dem JSON-Rootobjekt werden abgelehnt. Der 64-KiB-JSON-Arbeitspuffer besteht unveraendert weiter. Schema 68 unveraendert. Hardwaretests offen, KLC_RELEASE_PUBLISH deaktiviert."
+                  },
+                  {
                       "version":  "0.0.504",
                       "bin":  "knx-led-controller-16m_0.0.504.bin",
                       "date":  "2026-07-27",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m_0.0.499.bin",
                       "date":  "2026-07-26",
                       "note":  "Die allgemeine Ausgangssequenz verwirft angenommene spaete Gegenrichtungsplaene nicht mehr am unveraenderten Nachlaufende. Der Nachlauf wird weiterhin nur bei aktivierter Option durch neue Trigger verschoben; die zwei festen Richtungsruntimes erzeugen keine Warteschlange. Das Speichern der Ausgangssequenz nutzt nun den vorhandenen kooperativen Config-Commit mit dauerhaft reserviertem Arbeitsbereich und Output-Writer. Erst ein bestaetigter Commit aktiviert eine gegen die laufende Ausgangsstruktur gueltige Sequenz; eine nur zur ausstehenden Struktur passende Sequenz bleibt bis zum kontrollierten Neustart inaktiv. Commitfehler veraendern die Runtime nicht. Der Laufzeitstatus unterscheidet Ausschalttermine von noch laufenden sequenzeigenen Ausblendhuellkurven. Die WebUI zeigt Speicherfortschritt, Neustartbedarf und eine eindeutige Erklaerung der beiden 1-Bit-KNX-Trigger A und B. KNX-Interface-Schema 3 und Konfigurationsschema 67 bleiben kompatibel. Hardware-, reale Neustart- und Stromausfalltests stehen weiterhin aus; KLC_RELEASE_PUBLISH bleibt deshalb deaktiviert."
-                  },
-                  {
-                      "version":  "0.0.498",
-                      "bin":  "knx-led-controller-16m_0.0.498.bin",
-                      "date":  "2026-07-26",
-                      "note":  "Die Testnachweise und der Lieferumfang fuer den terminalen Prepare-Abbruch sind vollstaendig reproduzierbar dokumentiert. Die Host-Fault-Injection gegen die echten Scene-Store-, Output-Pending- und Writer-Lease-Quellen weist 231 bestandene Pruefungen je Testgruppe aus. Sechs Abweichungen der allgemeinen Hostsuite wurden durch eine zeitlich korrekte Verify-Fehlerinjektion behoben. Zusaetzlich wurde ein echter Retry-Journalfehler korrigiert: Beim letzten zulaessigen Authority-Retry wird retry_exhausted nun bereits vor dem Write konsistent zu retry_count \u003e= retry_limit persistiert, sodass die Verify-Ruecklese den Datensatz nicht mehr verwirft. Die allgemeine Hostsuite besteht damit 155 von 155 Pruefungen. Die drei Pflichtprofile klc_4m, klc_16m und klc_16m_w wurden fuer 0.0.498 vollstaendig gebaut und nachgewiesen. Hardware-, reale Neustart- und Stromausfalltests stehen weiterhin aus; KLC_RELEASE_PUBLISH bleibt deshalb deaktiviert."
                   }
               ]
 }
