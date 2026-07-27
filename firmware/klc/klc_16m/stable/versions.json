@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.507",
+                      "bin":  "knx-led-controller-16m_0.0.507.bin",
+                      "date":  "2026-07-27",
+                      "note":  "Der Kern-JSON-Arbeitsblock schrumpft von 64 auf 32 KiB: der Kern ohne Szenenliste umfasst nur rund 2,4 KiB Strukturdaten. Buildvergleich 275688 auf 242920 Byte statisches RAM. Ein zu grosser Kern wird weiter kontrolliert abgelehnt; die Diagnose nennt Datei- und Kerngroesse. LED-, DMA-, PIO- und Szenenpuffer sowie alle Pixel- und Szenengrenzen bleiben unveraendert, im Renderpfad gibt es keine neue Allokation. Der FT1.2-Empfang wendet Wiederholungsframes nicht doppelt an; Readantworten werden ueber genau einen offenen Read zugeordnet, nicht ueber Frameparitaet. Nach Quarantaene gibt erst das Reset-ACK den Readplatz frei. Schema 68 unveraendert. Animationsmessungen und Hardwaretests offen, KLC_RELEASE_PUBLISH deaktiviert."
+                  },
+                  {
                       "version":  "0.0.505",
                       "bin":  "knx-led-controller-16m_0.0.505.bin",
                       "date":  "2026-07-27",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m_0.0.498.bin",
                       "date":  "2026-07-26",
                       "note":  "Die Testnachweise und der Lieferumfang fuer den terminalen Prepare-Abbruch sind vollstaendig reproduzierbar dokumentiert. Die Host-Fault-Injection gegen die echten Scene-Store-, Output-Pending- und Writer-Lease-Quellen weist 231 bestandene Pruefungen je Testgruppe aus. Sechs Abweichungen der allgemeinen Hostsuite wurden durch eine zeitlich korrekte Verify-Fehlerinjektion behoben. Zusaetzlich wurde ein echter Retry-Journalfehler korrigiert: Beim letzten zulaessigen Authority-Retry wird retry_exhausted nun bereits vor dem Write konsistent zu retry_count \u003e= retry_limit persistiert, sodass die Verify-Ruecklese den Datensatz nicht mehr verwirft. Die allgemeine Hostsuite besteht damit 155 von 155 Pruefungen. Die drei Pflichtprofile klc_4m, klc_16m und klc_16m_w wurden fuer 0.0.498 vollstaendig gebaut und nachgewiesen. Hardware-, reale Neustart- und Stromausfalltests stehen weiterhin aus; KLC_RELEASE_PUBLISH bleibt deshalb deaktiviert."
-                  },
-                  {
-                      "version":  "0.0.490",
-                      "bin":  "knx-led-controller-16m_0.0.490.bin",
-                      "date":  "2026-07-25",
-                      "note":  "Tetrix-Stopabbruch phasensicher: Normale Segmentuhren behalten waehrend der getrennten kompakten Stoppachse ihren echten Szenen-, Phasen- und Effektschluessel. Abbrueche in derselben Phase setzen begrenzt fort; ein inzwischen erfolgter Phasen- oder Effektwechsel verwendet den korrekten Fresh-Pfad statt Zeiten zu vermischen. Vollresets loeschen beide Achsen, der statische Uhrspeicher bleibt bei insgesamt 132750 Byte und Konfigurationsschema 67 bleibt kompatibel."
                   }
               ]
 }

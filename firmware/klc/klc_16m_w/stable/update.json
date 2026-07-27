@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m-w_0.0.505.bin",
+                     "url":  "knx-led-controller-16m-w_0.0.507.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.505",
-                     "bin":  "knx-led-controller-16m-w_0.0.505.bin",
-                     "file":  "knx-led-controller-16m-w_0.0.505.bin",
-                     "sha256":  "53fd46ada9bdc57324b4c647ad1af84bece09d9f399a2bb4a09464c5f5877cf3",
-                     "message":  "BAOS-Reads laufen jetzt ueber einen festen Arbiter: hoechstens ein unaufgeloester Read, Praesenz und Diagnose teilen ihn, und eine Antwort wird ueber FT1.2-Paritaet, erwartetes Startobjekt und erwartete Anzahl zugeordnet. Ein anwendungsseitig beendeter Read gibt den Platz nicht sofort frei, sondern erst nach eingetroffener Antwort oder FT1.2-Resync; eine verspaetete Antwort wird dadurch konsumiert und verworfen statt einem neuen Read zugeordnet. Optionale Praesenzfelder aus Schema 67 uebernehmen nie mehr den Zwischenwert eines anderen Feldes. Eine gespeicherte, noch nicht aktivierte Ausgangsfolge liegt zentral und wird von Netzwerk-, KNX- und Ausgangssaves nicht mehr ueberschrieben. Der Heap-Tiefstwert umfasst jetzt den vollstaendigen Startpfad; LED-Masterpool und Backend haben getrennte Messpunkte. Daten nach dem JSON-Rootobjekt werden abgelehnt. Der 64-KiB-JSON-Arbeitspuffer besteht unveraendert weiter. Schema 68 unveraendert. Hardwaretests offen, KLC_RELEASE_PUBLISH deaktiviert.",
+                     "version":  "0.0.507",
+                     "bin":  "knx-led-controller-16m-w_0.0.507.bin",
+                     "file":  "knx-led-controller-16m-w_0.0.507.bin",
+                     "sha256":  "886713abdd39eb5b1ef9dfbeaf7e0aa7161aac5dd0939610fa76f3851f50389e",
+                     "message":  "Der Kern-JSON-Arbeitsblock schrumpft von 64 auf 32 KiB: der Kern ohne Szenenliste umfasst nur rund 2,4 KiB Strukturdaten. Buildvergleich 275688 auf 242920 Byte statisches RAM. Ein zu grosser Kern wird weiter kontrolliert abgelehnt; die Diagnose nennt Datei- und Kerngroesse. LED-, DMA-, PIO- und Szenenpuffer sowie alle Pixel- und Szenengrenzen bleiben unveraendert, im Renderpfad gibt es keine neue Allokation. Der FT1.2-Empfang wendet Wiederholungsframes nicht doppelt an; Readantworten werden ueber genau einen offenen Read zugeordnet, nicht ueber Frameparitaet. Nach Quarantaene gibt erst das Reset-ACK den Readplatz frei. Schema 68 unveraendert. Animationsmessungen und Hardwaretests offen, KLC_RELEASE_PUBLISH deaktiviert.",
                      "http_code":  200
                  }
 }
