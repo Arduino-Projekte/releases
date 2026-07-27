@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.504",
+                      "bin":  "knx-led-controller-16m_0.0.504.bin",
+                      "date":  "2026-07-27",
+                      "note":  "Jeder Praesenz-Synchronisationszyklus erhaelt jetzt eine laufzeitweit eindeutige Generation aus einem fortlaufenden Zaehler; Antworten frueherer Zyklen passen nicht mehr. Als stabiler BAOS-Zustand gilt nur noch Uebertragungsstatus 00 mit Valid-Flag; auch echte Praesenz-Indications werden streng als 1-Bit-Telegramm geprueft und sonst verworfen, ohne den offenen Read zu beenden. Eine Ausgangsfolge wird nur noch sofort aktiv, wenn ihre KNX-Objekte auch gegen die aktive Struktur eindeutig sind, sonst meldet die WebUI Neustartbedarf und zeigt die gespeicherten Werte. Ausschaltzeiten werden im Browser geprueft. Sprachpakete 2.5.3 mit echten Uebersetzungen in FR, ES, IT, NL und PL. Schema 68 unveraendert. Hardwaretests offen, KLC_RELEASE_PUBLISH deaktiviert."
+                  },
+                  {
                       "version":  "0.0.501",
                       "bin":  "knx-led-controller-16m_0.0.501.bin",
                       "date":  "2026-07-26",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m_0.0.498.bin",
                       "date":  "2026-07-26",
                       "note":  "Die Testnachweise und der Lieferumfang fuer den terminalen Prepare-Abbruch sind vollstaendig reproduzierbar dokumentiert. Die Host-Fault-Injection gegen die echten Scene-Store-, Output-Pending- und Writer-Lease-Quellen weist 231 bestandene Pruefungen je Testgruppe aus. Sechs Abweichungen der allgemeinen Hostsuite wurden durch eine zeitlich korrekte Verify-Fehlerinjektion behoben. Zusaetzlich wurde ein echter Retry-Journalfehler korrigiert: Beim letzten zulaessigen Authority-Retry wird retry_exhausted nun bereits vor dem Write konsistent zu retry_count \u003e= retry_limit persistiert, sodass die Verify-Ruecklese den Datensatz nicht mehr verwirft. Die allgemeine Hostsuite besteht damit 155 von 155 Pruefungen. Die drei Pflichtprofile klc_4m, klc_16m und klc_16m_w wurden fuer 0.0.498 vollstaendig gebaut und nachgewiesen. Hardware-, reale Neustart- und Stromausfalltests stehen weiterhin aus; KLC_RELEASE_PUBLISH bleibt deshalb deaktiviert."
-                  },
-                  {
-                      "version":  "0.0.497",
-                      "bin":  "knx-led-controller-16m_0.0.497.bin",
-                      "date":  "2026-07-26",
-                      "note":  "Der terminale Prepare-Abbruch bleibt unveraendert aktiv; korrigiert wurde die Dokumentation der realen KLT-Slotwahl nach einem fehlgeschlagenen Journalwrite: Weil der fehlgeschlagene Datensatz nicht zum neuesten gueltigen Journal wird, verwendet der Abort erneut denselben Zielslot und liest den terminalen Datensatz danach vollstaendig zurueck. Eine mit GCC 16.1.0 kompilierte Host-Fault-Injection gegen die echten Scene-Store-, Output-Pending- und Writer-Lease-Quellen hat 231 Pruefungen bestanden: Fehler bei Szene 1/25/50, MIGRATING, Gesamtrekonstruktion, AWAIT_ACTIVATION, Metadaten, persistenter Neustart, sofortiger zweiter Restore und Post-Core-Cancel-Schutz. Die drei Pflichtprofilbuilds werden fuer 0.0.497 vollstaendig ausgefuehrt. Die aeltere allgemeine Hostsuite hat sieben bestehende, nicht zu diesem Prepare-Abbruch gehoerende Erwartungsabweichungen und gilt nicht als bestanden. Hardware-, reale Neustart- und Stromausfalltests stehen weiterhin aus; KLC_RELEASE_PUBLISH bleibt deshalb deaktiviert."
                   }
               ]
 }
