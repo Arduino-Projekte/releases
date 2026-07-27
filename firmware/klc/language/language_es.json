@@ -2084,6 +2084,15 @@
     "Tetrix-Segmentuhr-Pool": "Pool de relojes de segmento Tetrix",
     "Angezeigte Werte sind gespeichert, aber noch nicht aktiv.": "Los valores mostrados están guardados pero aún no activos.",
     "Absolute Ausschaltzeiten müssen aufsteigend sein.": "Los tiempos de apagado absolutos deben ser ascendentes.",
-    "Absolute Startzeiten müssen innerhalb der Richtung aufsteigend sein.": "Los tiempos de inicio absolutos deben ser ascendentes dentro del sentido."
+    "Absolute Startzeiten müssen innerhalb der Richtung aufsteigend sein.": "Los tiempos de inicio absolutos deben ser ascendentes dentro del sentido.",
+    "Select a KLC JSON backup. It is validated and saved safely. After a successful import, the controller restarts with the restored settings.": "Seleccione una copia de seguridad KLC en JSON. Se valida y se guarda de forma segura. Tras una importación correcta, el controlador se reinicia con los ajustes restaurados.",
+    "Appearance": "Apariencia",
+    "Light mode": "Modo claro",
+    "Dark mode": "Modo oscuro",
+    "Backup imported and saved without migration.": "Copia de seguridad importada y guardada sin migración.",
+    "Backup migrated from schema {from} to schema {to}, imported and saved.": "Copia de seguridad migrada del esquema {from} al esquema {to}, importada y guardada.",
+    "LAN backup: Wi-Fi settings of the target device were retained": "Copia LAN: se han conservado los ajustes de Wi-Fi del dispositivo de destino",
+    "Wi-Fi backup: Network settings were adapted to the LAN target profile": "Copia Wi-Fi: los ajustes de red se han adaptado al perfil de destino LAN",
+    "The controller is restarting…": "El controlador se está reiniciando…"
   }
 }

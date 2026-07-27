@@ -2084,6 +2084,15 @@
     "Tetrix-Segmentuhr-Pool": "Tetrix-Segmentuhr-Pool",
     "Angezeigte Werte sind gespeichert, aber noch nicht aktiv.": "Angezeigte Werte sind gespeichert, aber noch nicht aktiv.",
     "Absolute Ausschaltzeiten müssen aufsteigend sein.": "Absolute Ausschaltzeiten müssen aufsteigend sein.",
-    "Absolute Startzeiten müssen innerhalb der Richtung aufsteigend sein.": "Absolute Startzeiten müssen innerhalb der Richtung aufsteigend sein."
+    "Absolute Startzeiten müssen innerhalb der Richtung aufsteigend sein.": "Absolute Startzeiten müssen innerhalb der Richtung aufsteigend sein.",
+    "Select a KLC JSON backup. It is validated and saved safely. After a successful import, the controller restarts with the restored settings.": "Waehlen Sie ein KLC-JSON-Backup. Es wird geprueft und sicher gespeichert. Nach erfolgreichem Import startet der Controller mit den wiederhergestellten Einstellungen neu.",
+    "Appearance": "Darstellung",
+    "Light mode": "Hellmodus",
+    "Dark mode": "Dark Mode",
+    "Backup imported and saved without migration.": "Backup importiert und ohne Migration gespeichert.",
+    "Backup migrated from schema {from} to schema {to}, imported and saved.": "Backup von Schema {from} auf Schema {to} migriert, importiert und gespeichert.",
+    "LAN backup: Wi-Fi settings of the target device were retained": "LAN-Backup: WLAN-Einstellungen des Zielgeraets wurden beibehalten",
+    "Wi-Fi backup: Network settings were adapted to the LAN target profile": "WLAN-Backup: Netzwerkeinstellungen wurden an das LAN-Zielprofil angepasst",
+    "The controller is restarting…": "Der Controller startet neu…"
   }
 }
