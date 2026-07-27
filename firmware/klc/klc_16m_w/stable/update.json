@@ -6,7 +6,7 @@
                      "version":  "0.0.515",
                      "bin":  "knx-led-controller-16m-w_0.0.515.bin",
                      "file":  "knx-led-controller-16m-w_0.0.515.bin",
-                     "sha256":  "7dd468402b6a833c0ce16b0ec48afa3fd40d8052641cf83084276bc07995d3ae",
+                     "sha256":  "ee8364f7eac07a48ddcbeb81f5a064f2b9165861fc099006a2b6fd4ac8a3eb65",
                      "message":  "KNX-Schema 6: Praesenz halten hat jetzt zwei parallele Objekte. Objekt 7 bleibt streng 1 Bit, neu ist Objekt 8 als 1 Byte, wo jeder Wert \u003e 0 haelt - fuer Melder mit Dimmwert. Es haelt nur, einschalten kann es nie. Helligkeit wandert auf Objekt 9.",
                      "http_code":  200
                  }
