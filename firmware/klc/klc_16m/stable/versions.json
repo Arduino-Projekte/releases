@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.508",
+                      "bin":  "knx-led-controller-16m_0.0.508.bin",
+                      "date":  "2026-07-27",
+                      "note":  "Alle ACK-pflichtigen FT1.2-Sendungen laufen jetzt ueber einen festen TX-Platz: ein ACK bestaetigt einen Frame nur bei gestiegenem ACK-Zaehler, nicht per Zeitstempel; bei ACK-Verlust werden identische Bytes mit demselben Control-Byte wiederholt, und der Host-FCB wird erst nach erfolgreichem Schreiben weitergeschaltet. Waehrend eines Resets sendet nichts anderes. Der Reset wird unabhaengig vom Readbesitzer aufgeloest, damit eine alte Antwort keinen Dauerblock erzeugt; Reset.Ind wird erkannt und setzt beide Sequenzen neu. Backup und /api/config exportieren jetzt den persistierten Stand inklusive gespeicherter Ausgangsfolge, sonst 409. Der Kernblock geht auf 48 KiB: 32 KiB waren nicht beweisbar ausreichend. Schema 68. Hardware- und Animationstests offen, KLC_RELEASE_PUBLISH deaktiviert."
+                  },
+                  {
                       "version":  "0.0.507",
                       "bin":  "knx-led-controller-16m_0.0.507.bin",
                       "date":  "2026-07-27",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m_0.0.501.bin",
                       "date":  "2026-07-26",
                       "note":  "Der Praesenz-/Halteeingang der Ausgangssequenz speichert im Trigger- und Statusbetrieb jetzt auch vor einem A-/B-Start seine Nachlaufzeit, ohne Licht einzuschalten. Eine laufende Ausschalt-Huellkurve wird beim Halten auf der sichtbaren Helligkeit eingefroren, ohne Szene, Animation oder Framebuffer neu zu starten. Gespeicherte Sequenzaenderungen warten bei laufender Praesenz bis zum sicheren Leerlauf. Im Statusbetrieb liest die Firmware KNX-Objekt 7 nach verfuegbarer BAOS-Verbindung aktiv und uebernimmt den Wert ohne Triggerwirkung; die vorsorgliche Boot-Sperre ist zeitlich begrenzt. Diagnose, KNX-Schema-4-Artefakte, deutsche/englische Praesenztexte und Hilfen wurden an dieses Verhalten angepasst. Konfigurationsschema bleibt 68. Hardware-, reale KNX-, Neustart-, Sichtpruefungs- und Stromausfalltests stehen weiterhin aus; KLC_RELEASE_PUBLISH bleibt deshalb deaktiviert."
-                  },
-                  {
-                      "version":  "0.0.498",
-                      "bin":  "knx-led-controller-16m_0.0.498.bin",
-                      "date":  "2026-07-26",
-                      "note":  "Die Testnachweise und der Lieferumfang fuer den terminalen Prepare-Abbruch sind vollstaendig reproduzierbar dokumentiert. Die Host-Fault-Injection gegen die echten Scene-Store-, Output-Pending- und Writer-Lease-Quellen weist 231 bestandene Pruefungen je Testgruppe aus. Sechs Abweichungen der allgemeinen Hostsuite wurden durch eine zeitlich korrekte Verify-Fehlerinjektion behoben. Zusaetzlich wurde ein echter Retry-Journalfehler korrigiert: Beim letzten zulaessigen Authority-Retry wird retry_exhausted nun bereits vor dem Write konsistent zu retry_count \u003e= retry_limit persistiert, sodass die Verify-Ruecklese den Datensatz nicht mehr verwirft. Die allgemeine Hostsuite besteht damit 155 von 155 Pruefungen. Die drei Pflichtprofile klc_4m, klc_16m und klc_16m_w wurden fuer 0.0.498 vollstaendig gebaut und nachgewiesen. Hardware-, reale Neustart- und Stromausfalltests stehen weiterhin aus; KLC_RELEASE_PUBLISH bleibt deshalb deaktiviert."
                   }
               ]
 }

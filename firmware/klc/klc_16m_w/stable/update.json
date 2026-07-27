@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m-w_0.0.507.bin",
+                     "url":  "knx-led-controller-16m-w_0.0.508.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.507",
-                     "bin":  "knx-led-controller-16m-w_0.0.507.bin",
-                     "file":  "knx-led-controller-16m-w_0.0.507.bin",
-                     "sha256":  "886713abdd39eb5b1ef9dfbeaf7e0aa7161aac5dd0939610fa76f3851f50389e",
-                     "message":  "Der Kern-JSON-Arbeitsblock schrumpft von 64 auf 32 KiB: der Kern ohne Szenenliste umfasst nur rund 2,4 KiB Strukturdaten. Buildvergleich 275688 auf 242920 Byte statisches RAM. Ein zu grosser Kern wird weiter kontrolliert abgelehnt; die Diagnose nennt Datei- und Kerngroesse. LED-, DMA-, PIO- und Szenenpuffer sowie alle Pixel- und Szenengrenzen bleiben unveraendert, im Renderpfad gibt es keine neue Allokation. Der FT1.2-Empfang wendet Wiederholungsframes nicht doppelt an; Readantworten werden ueber genau einen offenen Read zugeordnet, nicht ueber Frameparitaet. Nach Quarantaene gibt erst das Reset-ACK den Readplatz frei. Schema 68 unveraendert. Animationsmessungen und Hardwaretests offen, KLC_RELEASE_PUBLISH deaktiviert.",
+                     "version":  "0.0.508",
+                     "bin":  "knx-led-controller-16m-w_0.0.508.bin",
+                     "file":  "knx-led-controller-16m-w_0.0.508.bin",
+                     "sha256":  "ae86276199602e15eb16cf931ceaa1cef2ca683459a8f3e95ace98ac75bc76d7",
+                     "message":  "Alle ACK-pflichtigen FT1.2-Sendungen laufen jetzt ueber einen festen TX-Platz: ein ACK bestaetigt einen Frame nur bei gestiegenem ACK-Zaehler, nicht per Zeitstempel; bei ACK-Verlust werden identische Bytes mit demselben Control-Byte wiederholt, und der Host-FCB wird erst nach erfolgreichem Schreiben weitergeschaltet. Waehrend eines Resets sendet nichts anderes. Der Reset wird unabhaengig vom Readbesitzer aufgeloest, damit eine alte Antwort keinen Dauerblock erzeugt; Reset.Ind wird erkannt und setzt beide Sequenzen neu. Backup und /api/config exportieren jetzt den persistierten Stand inklusive gespeicherter Ausgangsfolge, sonst 409. Der Kernblock geht auf 48 KiB: 32 KiB waren nicht beweisbar ausreichend. Schema 68. Hardware- und Animationstests offen, KLC_RELEASE_PUBLISH deaktiviert.",
                      "http_code":  200
                  }
 }
