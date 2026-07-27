@@ -6,7 +6,7 @@
                      "version":  "0.0.510",
                      "bin":  "knx-led-controller-16m-w_0.0.510.bin",
                      "file":  "knx-led-controller-16m-w_0.0.510.bin",
-                     "sha256":  "fd86bc074423ad23741b8133c835b09095560244c520f8b096ca5d88e4e5c5dc",
+                     "sha256":  "17020b8c65227316730acb635167ce28d1c1624c3f9dc1c022a7617f441c8fc7",
                      "message":  "Erstmals mit ausgefuehrten Hosttests: das neue Harness tests/host_baos_ft12 uebersetzt die echte Quelle klc_knx_baos.cpp und speist reale FT1.2-Rohtelegramme ein. 39 Pruefungen bestanden, darunter Linkprobe erst nach bestaetigtem Reset-TX, verbunden erst mit echter Antwort, Wiederholungsframe nur quittiert statt doppelt angewendet, Antwort eines beendeten Reads ohne Wirkung, identische Wiederholung bei ACK-Verlust mit Resync, keine Sendung waehrend Reset und Reset.Ind als Verbindungsabbruch. Die Aussagekraft ist per Mutationstest belegt: drei eingebaute Fehler wurden erkannt. Neue Diagnosezaehler fuer Wiederholungs- und Sequenzframes. Auch die 155 Pruefungen des Szenenspeicher-Harness laufen jetzt. Schema 68. Hardwaretests bleiben offen, KLC_RELEASE_PUBLISH deaktiviert.",
                      "http_code":  200
                  }
