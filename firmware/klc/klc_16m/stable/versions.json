@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.513",
+                      "bin":  "knx-led-controller-16m_0.0.513.bin",
+                      "date":  "2026-07-27",
+                      "note":  "Schema 69. Praesenz halten kennt jetzt die Nutzlast des Objekts: 1 Bit streng, 1 Byte oder beides. Bei Byte gilt jeder Wert \u003e 0 als Praesenz, damit ein Melder seinen Helligkeits-/Dimmwert (z. B. 128) senden kann; bisher verwarf der BAOS-Pfad das als ungueltig. Neu ist ein Helligkeitseingang als DPT 9.004 mit eigenem KNX-Objekt, Vergleichsrichtung, Schwelle und Hysterese; dafuer gibt es erstmals einen echten KNX-2-Byte-Gleitkommadekoder. Geprueft wird nur beim Trigger, nie laufend: die eigenen Ausgaenge beleuchten den Messort und wuerden sich sonst selbst abschalten. Ohne empfangenen Wert wird nie gesperrt. Bedienung mit Istwert und Automatik/frei/gesperrt, bewusst nur zur Laufzeit. ApplyConfig fordert den Praesenzwert wieder an."
+                  },
+                  {
                       "version":  "0.0.511",
                       "bin":  "knx-led-controller-16m_0.0.511.bin",
                       "date":  "2026-07-27",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m_0.0.507.bin",
                       "date":  "2026-07-27",
                       "note":  "Der Kern-JSON-Arbeitsblock schrumpft von 64 auf 32 KiB: der Kern ohne Szenenliste umfasst nur rund 2,4 KiB Strukturdaten. Buildvergleich 275688 auf 242920 Byte statisches RAM. Ein zu grosser Kern wird weiter kontrolliert abgelehnt; die Diagnose nennt Datei- und Kerngroesse. LED-, DMA-, PIO- und Szenenpuffer sowie alle Pixel- und Szenengrenzen bleiben unveraendert, im Renderpfad gibt es keine neue Allokation. Der FT1.2-Empfang wendet Wiederholungsframes nicht doppelt an; Readantworten werden ueber genau einen offenen Read zugeordnet, nicht ueber Frameparitaet. Nach Quarantaene gibt erst das Reset-ACK den Readplatz frei. Schema 68 unveraendert. Animationsmessungen und Hardwaretests offen, KLC_RELEASE_PUBLISH deaktiviert."
-                  },
-                  {
-                      "version":  "0.0.505",
-                      "bin":  "knx-led-controller-16m_0.0.505.bin",
-                      "date":  "2026-07-27",
-                      "note":  "BAOS-Reads laufen jetzt ueber einen festen Arbiter: hoechstens ein unaufgeloester Read, Praesenz und Diagnose teilen ihn, und eine Antwort wird ueber FT1.2-Paritaet, erwartetes Startobjekt und erwartete Anzahl zugeordnet. Ein anwendungsseitig beendeter Read gibt den Platz nicht sofort frei, sondern erst nach eingetroffener Antwort oder FT1.2-Resync; eine verspaetete Antwort wird dadurch konsumiert und verworfen statt einem neuen Read zugeordnet. Optionale Praesenzfelder aus Schema 67 uebernehmen nie mehr den Zwischenwert eines anderen Feldes. Eine gespeicherte, noch nicht aktivierte Ausgangsfolge liegt zentral und wird von Netzwerk-, KNX- und Ausgangssaves nicht mehr ueberschrieben. Der Heap-Tiefstwert umfasst jetzt den vollstaendigen Startpfad; LED-Masterpool und Backend haben getrennte Messpunkte. Daten nach dem JSON-Rootobjekt werden abgelehnt. Der 64-KiB-JSON-Arbeitspuffer besteht unveraendert weiter. Schema 68 unveraendert. Hardwaretests offen, KLC_RELEASE_PUBLISH deaktiviert."
                   }
               ]
 }
