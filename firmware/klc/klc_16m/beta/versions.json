@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.507",
+                      "bin":  "knx-led-controller-16m_0.0.507.bin",
+                      "date":  "2026-07-27",
+                      "note":  "Der Kern-JSON-Arbeitsblock schrumpft von 64 auf 32 KiB: der Kern ohne Szenenliste umfasst nur rund 2,4 KiB Strukturdaten. Buildvergleich 275688 auf 242920 Byte statisches RAM. Ein zu grosser Kern wird weiter kontrolliert abgelehnt; die Diagnose nennt Datei- und Kerngroesse. LED-, DMA-, PIO- und Szenenpuffer sowie alle Pixel- und Szenengrenzen bleiben unveraendert, im Renderpfad gibt es keine neue Allokation. Der FT1.2-Empfang wendet Wiederholungsframes nicht doppelt an; Readantworten werden ueber genau einen offenen Read zugeordnet, nicht ueber Frameparitaet. Nach Quarantaene gibt erst das Reset-ACK den Readplatz frei. Schema 68 unveraendert. Animationsmessungen und Hardwaretests offen, KLC_RELEASE_PUBLISH deaktiviert."
+                  },
+                  {
                       "version":  "0.0.505",
                       "bin":  "knx-led-controller-16m_0.0.505.bin",
                       "date":  "2026-07-27",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m_0.0.500.bin",
                       "date":  "2026-07-26",
                       "note":  "Die optionale allgemeine Ausgangssequenz besitzt nun einen getrennten 1-Bit-Praesenz-/Halteeingang auf KNX-Objekt 7. Im Statusbetrieb sperrt Wert 1 die sequenzeigene Ausschaltung; nach 1 auf 0 laeuft eine eigene konfigurierbare Freigabezeit. Im Triggerbetrieb startet jedes 1-Telegramm diese Zeit neu, Wert 0 bleibt ohne Wirkung. Praesenz veraendert weder Szenen, Farben, Helligkeiten noch Animationszeitbasen. Eine bereits laufende sequenzeigene Ausschaltfolge wird sicher angehalten; bereits ausgeschaltete Ausgaenge bleiben aus. Optional darf Praesenz eine frei gewaehlte Richtung starten, standardmaessig ist dies deaktiviert. Alte Konfigurationen migrieren mit deaktivierter Praesenzfunktion. Konfigurationsschema 68 und KNX-Schnittstellenschema 4 dokumentieren die Erweiterung. Hardware-, reale KNX-, Neustart- und Stromausfalltests stehen weiterhin aus; KLC_RELEASE_PUBLISH bleibt deshalb deaktiviert."
-                  },
-                  {
-                      "version":  "0.0.499",
-                      "bin":  "knx-led-controller-16m_0.0.499.bin",
-                      "date":  "2026-07-26",
-                      "note":  "Die allgemeine Ausgangssequenz verwirft angenommene spaete Gegenrichtungsplaene nicht mehr am unveraenderten Nachlaufende. Der Nachlauf wird weiterhin nur bei aktivierter Option durch neue Trigger verschoben; die zwei festen Richtungsruntimes erzeugen keine Warteschlange. Das Speichern der Ausgangssequenz nutzt nun den vorhandenen kooperativen Config-Commit mit dauerhaft reserviertem Arbeitsbereich und Output-Writer. Erst ein bestaetigter Commit aktiviert eine gegen die laufende Ausgangsstruktur gueltige Sequenz; eine nur zur ausstehenden Struktur passende Sequenz bleibt bis zum kontrollierten Neustart inaktiv. Commitfehler veraendern die Runtime nicht. Der Laufzeitstatus unterscheidet Ausschalttermine von noch laufenden sequenzeigenen Ausblendhuellkurven. Die WebUI zeigt Speicherfortschritt, Neustartbedarf und eine eindeutige Erklaerung der beiden 1-Bit-KNX-Trigger A und B. KNX-Interface-Schema 3 und Konfigurationsschema 67 bleiben kompatibel. Hardware-, reale Neustart- und Stromausfalltests stehen weiterhin aus; KLC_RELEASE_PUBLISH bleibt deshalb deaktiviert."
                   }
               ]
 }
