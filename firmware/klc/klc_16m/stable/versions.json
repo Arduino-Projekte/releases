@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.519",
+                      "bin":  "knx-led-controller-16m_0.0.519.bin",
+                      "date":  "2026-07-28",
+                      "note":  "Neustart und Werksreset ueber KNX, Schema 7. Der Neustart ist ein 1-Bit-Objekt, der Werksreset ein 1-Byte-Objekt und loest NUR beim Codewort 165 aus - jeder andere Wert wird verworfen und protokolliert. Beide sind ab Werk unbelegt und muessen bewusst zugeordnet werden."
+                  },
+                  {
                       "version":  "0.0.515",
                       "bin":  "knx-led-controller-16m_0.0.515.bin",
                       "date":  "2026-07-27",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m_0.0.510.bin",
                       "date":  "2026-07-27",
                       "note":  "Erstmals mit ausgefuehrten Hosttests: das neue Harness tests/host_baos_ft12 uebersetzt die echte Quelle klc_knx_baos.cpp und speist reale FT1.2-Rohtelegramme ein. 39 Pruefungen bestanden, darunter Linkprobe erst nach bestaetigtem Reset-TX, verbunden erst mit echter Antwort, Wiederholungsframe nur quittiert statt doppelt angewendet, Antwort eines beendeten Reads ohne Wirkung, identische Wiederholung bei ACK-Verlust mit Resync, keine Sendung waehrend Reset und Reset.Ind als Verbindungsabbruch. Die Aussagekraft ist per Mutationstest belegt: drei eingebaute Fehler wurden erkannt. Neue Diagnosezaehler fuer Wiederholungs- und Sequenzframes. Auch die 155 Pruefungen des Szenenspeicher-Harness laufen jetzt. Schema 68. Hardwaretests bleiben offen, KLC_RELEASE_PUBLISH deaktiviert."
-                  },
-                  {
-                      "version":  "0.0.508",
-                      "bin":  "knx-led-controller-16m_0.0.508.bin",
-                      "date":  "2026-07-27",
-                      "note":  "Alle ACK-pflichtigen FT1.2-Sendungen laufen jetzt ueber einen festen TX-Platz: ein ACK bestaetigt einen Frame nur bei gestiegenem ACK-Zaehler, nicht per Zeitstempel; bei ACK-Verlust werden identische Bytes mit demselben Control-Byte wiederholt, und der Host-FCB wird erst nach erfolgreichem Schreiben weitergeschaltet. Waehrend eines Resets sendet nichts anderes. Der Reset wird unabhaengig vom Readbesitzer aufgeloest, damit eine alte Antwort keinen Dauerblock erzeugt; Reset.Ind wird erkannt und setzt beide Sequenzen neu. Backup und /api/config exportieren jetzt den persistierten Stand inklusive gespeicherter Ausgangsfolge, sonst 409. Der Kernblock geht auf 48 KiB: 32 KiB waren nicht beweisbar ausreichend. Schema 68. Hardware- und Animationstests offen, KLC_RELEASE_PUBLISH deaktiviert."
                   }
               ]
 }
