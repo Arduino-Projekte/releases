@@ -6,7 +6,7 @@
                      "version":  "0.0.520",
                      "bin":  "knx-led-controller-16m_0.0.520.bin",
                      "file":  "knx-led-controller-16m_0.0.520.bin",
-                     "sha256":  "54f5419eed9927a54b833ff2e81e92fa7a90bd6af4c43444c18fde0259de8d82",
+                     "sha256":  "ceb3e5c58249ad63aff1a9143f0f6eea5bc5464b5d9b63f3d6e59cce695fd43c",
                      "message":  "Abgelehnte Eingaben auf der Ausgangsfolge gehen nicht mehr verloren: die Fehlerseite zeigt jetzt die Werte, die zur Meldung gefuehrt haben. Vorher fiel das Formular auf den gespeicherten Stand zurueck - inklusive Haken, sodass Aktivieren bei einer Objektkollision praktisch unmoeglich war.",
                      "http_code":  200
                  }
