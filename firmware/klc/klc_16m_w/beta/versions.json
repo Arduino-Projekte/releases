@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.521",
+                      "bin":  "knx-led-controller-16m-w_0.0.521.bin",
+                      "date":  "2026-07-28",
+                      "note":  "KNX-/BAOS-Objektnummern sind fest verdrahtet. Ueber 100 Nummernfelder, die Eindeutigkeitspruefung und die Kollisionsmeldung entfallen; eine gueltige Ausgangsfolge wird dadurch nie wieder unaktivierbar. /knx zeigt die Belegung."
+                  },
+                  {
                       "version":  "0.0.520",
                       "bin":  "knx-led-controller-16m-w_0.0.520.bin",
                       "date":  "2026-07-28",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m-w_0.0.513.bin",
                       "date":  "2026-07-27",
                       "note":  "Schema 69. Praesenz halten kennt jetzt die Nutzlast des Objekts: 1 Bit streng, 1 Byte oder beides. Bei Byte gilt jeder Wert \u003e 0 als Praesenz, damit ein Melder seinen Helligkeits-/Dimmwert (z. B. 128) senden kann; bisher verwarf der BAOS-Pfad das als ungueltig. Neu ist ein Helligkeitseingang als DPT 9.004 mit eigenem KNX-Objekt, Vergleichsrichtung, Schwelle und Hysterese; dafuer gibt es erstmals einen echten KNX-2-Byte-Gleitkommadekoder. Geprueft wird nur beim Trigger, nie laufend: die eigenen Ausgaenge beleuchten den Messort und wuerden sich sonst selbst abschalten. Ohne empfangenen Wert wird nie gesperrt. Bedienung mit Istwert und Automatik/frei/gesperrt, bewusst nur zur Laufzeit. ApplyConfig fordert den Praesenzwert wieder an."
-                  },
-                  {
-                      "version":  "0.0.511",
-                      "bin":  "knx-led-controller-16m-w_0.0.511.bin",
-                      "date":  "2026-07-27",
-                      "note":  "Ausgangsanzahl ist jetzt unter /outputs aenderbar: neue Karte mit Auswahl 1..Boardanzahl, Formular /outputs/count, atomarer Commit und danach kontrollierter Neustart. Bewusst kein Pending-Wert, weil output_count nicht Teil der Saved-Authority ist und ein fremder Save ihn sonst still zuruecksetzen wuerde. Verkleinern ist erlaubt, verlangt aber eine Bestaetigung und verwirft die wegfallenden Ausgaenge endgueltig; Verkettungen und Sequenzschritte darauf werden aufgeloest. ID-Vergabe nutzt die jetzt exportierten Wizard-Helfer. Loginseite: Rollenwahl als zwei Schaltflaechen statt Radio, das war ausgeblendet UND gesperrt und sperrte den Benutzer aus. Ausschaltzeitpunkte zeigen fuer leere Zeilen keinen Ausgang 0 mehr. Schema 68."
                   }
               ]
 }

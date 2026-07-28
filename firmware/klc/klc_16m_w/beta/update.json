@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m-w_0.0.520.bin",
+                     "url":  "knx-led-controller-16m-w_0.0.521.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.520",
-                     "bin":  "knx-led-controller-16m-w_0.0.520.bin",
-                     "file":  "knx-led-controller-16m-w_0.0.520.bin",
-                     "sha256":  "9fa9e21b5b51ebb9774b464f9b52e2650e0e3708320521556b4e0f42de05aaa8",
-                     "message":  "Abgelehnte Eingaben auf der Ausgangsfolge gehen nicht mehr verloren: die Fehlerseite zeigt jetzt die Werte, die zur Meldung gefuehrt haben. Vorher fiel das Formular auf den gespeicherten Stand zurueck - inklusive Haken, sodass Aktivieren bei einer Objektkollision praktisch unmoeglich war.",
+                     "version":  "0.0.521",
+                     "bin":  "knx-led-controller-16m-w_0.0.521.bin",
+                     "file":  "knx-led-controller-16m-w_0.0.521.bin",
+                     "sha256":  "616b544a88fbd5e626d276654601eac291951441eb515127f22620d35f5d729d",
+                     "message":  "KNX-/BAOS-Objektnummern sind fest verdrahtet. Ueber 100 Nummernfelder, die Eindeutigkeitspruefung und die Kollisionsmeldung entfallen; eine gueltige Ausgangsfolge wird dadurch nie wieder unaktivierbar. /knx zeigt die Belegung.",
                      "http_code":  200
                  }
 }
