@@ -5,7 +5,7 @@
   "minimum_firmware_version": "0.0.385",
   "maximum_firmware_version": "0.0.999",
   "compatibility_version": 1,
-  "package_version": "2.5.6",
+  "package_version": "2.5.7",
   "translations": {
     "Steuerung": "Control",
     "Abläufe": "Secuencias",
@@ -2101,6 +2101,8 @@
     "Die Helligkeitssperre würde einen Trigger derzeit ablehnen. Zum Testen unten auf Dauerhaft frei schalten.": "El bloqueo por luminosidad rechazaría ahora un disparo. Cambie abajo a Siempre libre para probar.",
     "Neustart": "Reinicio",
     "Werksreset (Codewort 165)": "Restablecimiento de fábrica (palabra clave 165)",
-    "Neustart und Werksreset sind ab Werk nicht belegt und müssen hier bewusst zugeordnet werden. Der Werksreset löscht alles: Konfiguration, Abläufe, KNX-Zuordnungen, Sprachpakete sowie LAN- und WLAN-Zugangsdaten. Danach ist der Controller nur noch über den Service-AP erreichbar. Deshalb reagiert er ausschließlich auf das Codewort 165 und auf keinen anderen Wert.": "El reinicio y el restablecimiento de fábrica no están asignados de fábrica y deben asignarse aquí de forma deliberada. El restablecimiento de fábrica borra todo: configuración, secuencias, asignaciones KNX, paquetes de idioma y las credenciales de LAN y Wi-Fi. Después el controlador solo es accesible a través del punto de acceso de servicio. Por eso responde únicamente a la palabra clave 165 y a ningún otro valor."
+    "Neustart und Werksreset sind ab Werk nicht belegt und müssen hier bewusst zugeordnet werden. Der Werksreset löscht alles: Konfiguration, Abläufe, KNX-Zuordnungen, Sprachpakete sowie LAN- und WLAN-Zugangsdaten. Danach ist der Controller nur noch über den Service-AP erreichbar. Deshalb reagiert er ausschließlich auf das Codewort 165 und auf keinen anderen Wert.": "El reinicio y el restablecimiento de fábrica no están asignados de fábrica y deben asignarse aquí de forma deliberada. El restablecimiento de fábrica borra todo: configuración, secuencias, asignaciones KNX, paquetes de idioma y las credenciales de LAN y Wi-Fi. Después el controlador solo es accesible a través del punto de acceso de servicio. Por eso responde únicamente a la palabra clave 165 y a ningún otro valor.",
+    "Richtung A und B brauchen jeweils eine eigene KNX-Objektnummer, die auch mit keinem zentralen Objekt kollidieren darf. Standard sind 5 und 6; Objekt 1 ist ab Werk Zentral Ein/Aus. Geprüft wird erst beim Aktivieren.": "Las direcciones A y B necesitan cada una su propio número de objeto KNX, que tampoco debe entrar en conflicto con ningún objeto central. Los valores por defecto son 5 y 6; el objeto 1 es de fábrica el encendido/apagado central. La comprobación solo se realiza al activar.",
+    "Zentrale Objektnummern ansehen": "Ver los números de objetos centrales"
   }
 }

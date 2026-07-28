@@ -5,7 +5,7 @@
   "minimum_firmware_version": "0.0.385",
   "maximum_firmware_version": "0.0.999",
   "compatibility_version": 1,
-  "package_version": "2.5.6",
+  "package_version": "2.5.7",
   "translations": {
     "Steuerung": "Bediening",
     "Abläufe": "Verlopen",
@@ -2101,6 +2101,8 @@
     "Die Helligkeitssperre würde einen Trigger derzeit ablehnen. Zum Testen unten auf Dauerhaft frei schalten.": "De helderheidsblokkering zou een trigger nu weigeren. Zet hieronder op Permanent vrij om te testen.",
     "Neustart": "Herstart",
     "Werksreset (Codewort 165)": "Fabrieksreset (codewoord 165)",
-    "Neustart und Werksreset sind ab Werk nicht belegt und müssen hier bewusst zugeordnet werden. Der Werksreset löscht alles: Konfiguration, Abläufe, KNX-Zuordnungen, Sprachpakete sowie LAN- und WLAN-Zugangsdaten. Danach ist der Controller nur noch über den Service-AP erreichbar. Deshalb reagiert er ausschließlich auf das Codewort 165 und auf keinen anderen Wert.": "Herstart en fabrieksreset zijn af fabriek niet toegewezen en moeten hier bewust worden toegewezen. De fabrieksreset wist alles: configuratie, reeksen, KNX-toewijzingen, taalpakketten en de LAN- en wifi-gegevens. Daarna is de controller alleen nog via het service-toegangspunt bereikbaar. Daarom reageert hij uitsluitend op het codewoord 165 en op geen enkele andere waarde."
+    "Neustart und Werksreset sind ab Werk nicht belegt und müssen hier bewusst zugeordnet werden. Der Werksreset löscht alles: Konfiguration, Abläufe, KNX-Zuordnungen, Sprachpakete sowie LAN- und WLAN-Zugangsdaten. Danach ist der Controller nur noch über den Service-AP erreichbar. Deshalb reagiert er ausschließlich auf das Codewort 165 und auf keinen anderen Wert.": "Herstart en fabrieksreset zijn af fabriek niet toegewezen en moeten hier bewust worden toegewezen. De fabrieksreset wist alles: configuratie, reeksen, KNX-toewijzingen, taalpakketten en de LAN- en wifi-gegevens. Daarna is de controller alleen nog via het service-toegangspunt bereikbaar. Daarom reageert hij uitsluitend op het codewoord 165 en op geen enkele andere waarde.",
+    "Richtung A und B brauchen jeweils eine eigene KNX-Objektnummer, die auch mit keinem zentralen Objekt kollidieren darf. Standard sind 5 und 6; Objekt 1 ist ab Werk Zentral Ein/Aus. Geprüft wird erst beim Aktivieren.": "Richting A en B hebben elk een eigen KNX-objectnummer nodig, dat ook met geen enkel centraal object mag botsen. De standaardwaarden zijn 5 en 6; object 1 is af fabriek centraal aan/uit. De controle vindt pas bij het activeren plaats.",
+    "Zentrale Objektnummern ansehen": "Centrale objectnummers bekijken"
   }
 }

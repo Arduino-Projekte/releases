@@ -5,7 +5,7 @@
   "minimum_firmware_version": "0.0.385",
   "maximum_firmware_version": "0.0.999",
   "compatibility_version": 1,
-  "package_version": "2.5.6",
+  "package_version": "2.5.7",
   "translations": {
     "Steuerung": "Commande",
     "Abläufe": "Séquences",
@@ -2101,6 +2101,8 @@
     "Die Helligkeitssperre würde einen Trigger derzeit ablehnen. Zum Testen unten auf Dauerhaft frei schalten.": "Le verrouillage par luminosité refuserait actuellement un déclenchement. Passez sur Toujours libre ci-dessous pour tester.",
     "Neustart": "Redémarrage",
     "Werksreset (Codewort 165)": "Réinitialisation d'usine (mot de code 165)",
-    "Neustart und Werksreset sind ab Werk nicht belegt und müssen hier bewusst zugeordnet werden. Der Werksreset löscht alles: Konfiguration, Abläufe, KNX-Zuordnungen, Sprachpakete sowie LAN- und WLAN-Zugangsdaten. Danach ist der Controller nur noch über den Service-AP erreichbar. Deshalb reagiert er ausschließlich auf das Codewort 165 und auf keinen anderen Wert.": "Le redémarrage et la réinitialisation d'usine ne sont pas affectés par défaut et doivent être attribués ici de façon délibérée. La réinitialisation d'usine efface tout : configuration, séquences, affectations KNX, paquets de langue ainsi que les identifiants LAN et Wi-Fi. Le contrôleur n'est ensuite accessible que via le point d'accès de service. C'est pourquoi il ne réagit qu'au mot de code 165 et à aucune autre valeur."
+    "Neustart und Werksreset sind ab Werk nicht belegt und müssen hier bewusst zugeordnet werden. Der Werksreset löscht alles: Konfiguration, Abläufe, KNX-Zuordnungen, Sprachpakete sowie LAN- und WLAN-Zugangsdaten. Danach ist der Controller nur noch über den Service-AP erreichbar. Deshalb reagiert er ausschließlich auf das Codewort 165 und auf keinen anderen Wert.": "Le redémarrage et la réinitialisation d'usine ne sont pas affectés par défaut et doivent être attribués ici de façon délibérée. La réinitialisation d'usine efface tout : configuration, séquences, affectations KNX, paquets de langue ainsi que les identifiants LAN et Wi-Fi. Le contrôleur n'est ensuite accessible que via le point d'accès de service. C'est pourquoi il ne réagit qu'au mot de code 165 et à aucune autre valeur.",
+    "Richtung A und B brauchen jeweils eine eigene KNX-Objektnummer, die auch mit keinem zentralen Objekt kollidieren darf. Standard sind 5 und 6; Objekt 1 ist ab Werk Zentral Ein/Aus. Geprüft wird erst beim Aktivieren.": "Les directions A et B ont chacune besoin de leur propre numéro d'objet KNX, qui ne doit entrer en conflit avec aucun objet central. Les valeurs par défaut sont 5 et 6 ; l'objet 1 est par défaut la commande centrale marche/arrêt. La vérification n'a lieu qu'à l'activation.",
+    "Zentrale Objektnummern ansehen": "Voir les numéros d'objets centraux"
   }
 }

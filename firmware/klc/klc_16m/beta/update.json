@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m_0.0.519.bin",
+                     "url":  "knx-led-controller-16m_0.0.520.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.519",
-                     "bin":  "knx-led-controller-16m_0.0.519.bin",
-                     "file":  "knx-led-controller-16m_0.0.519.bin",
-                     "sha256":  "16a4e05401a5759737d3e1db488f3d0bba3410ed3df268dcbf4929fdc8d5e093",
-                     "message":  "Neustart und Werksreset ueber KNX, Schema 7. Der Neustart ist ein 1-Bit-Objekt, der Werksreset ein 1-Byte-Objekt und loest NUR beim Codewort 165 aus - jeder andere Wert wird verworfen und protokolliert. Beide sind ab Werk unbelegt und muessen bewusst zugeordnet werden.",
+                     "version":  "0.0.520",
+                     "bin":  "knx-led-controller-16m_0.0.520.bin",
+                     "file":  "knx-led-controller-16m_0.0.520.bin",
+                     "sha256":  "ceb3e5c58249ad63aff1a9143f0f6eea5bc5464b5d9b63f3d6e59cce695fd43c",
+                     "message":  "Abgelehnte Eingaben auf der Ausgangsfolge gehen nicht mehr verloren: die Fehlerseite zeigt jetzt die Werte, die zur Meldung gefuehrt haben. Vorher fiel das Formular auf den gespeicherten Stand zurueck - inklusive Haken, sodass Aktivieren bei einer Objektkollision praktisch unmoeglich war.",
                      "http_code":  200
                  }
 }

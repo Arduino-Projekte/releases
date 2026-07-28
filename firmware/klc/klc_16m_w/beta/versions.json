@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.520",
+                      "bin":  "knx-led-controller-16m-w_0.0.520.bin",
+                      "date":  "2026-07-28",
+                      "note":  "Abgelehnte Eingaben auf der Ausgangsfolge gehen nicht mehr verloren: die Fehlerseite zeigt jetzt die Werte, die zur Meldung gefuehrt haben. Vorher fiel das Formular auf den gespeicherten Stand zurueck - inklusive Haken, sodass Aktivieren bei einer Objektkollision praktisch unmoeglich war."
+                  },
+                  {
                       "version":  "0.0.519",
                       "bin":  "knx-led-controller-16m-w_0.0.519.bin",
                       "date":  "2026-07-28",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m-w_0.0.511.bin",
                       "date":  "2026-07-27",
                       "note":  "Ausgangsanzahl ist jetzt unter /outputs aenderbar: neue Karte mit Auswahl 1..Boardanzahl, Formular /outputs/count, atomarer Commit und danach kontrollierter Neustart. Bewusst kein Pending-Wert, weil output_count nicht Teil der Saved-Authority ist und ein fremder Save ihn sonst still zuruecksetzen wuerde. Verkleinern ist erlaubt, verlangt aber eine Bestaetigung und verwirft die wegfallenden Ausgaenge endgueltig; Verkettungen und Sequenzschritte darauf werden aufgeloest. ID-Vergabe nutzt die jetzt exportierten Wizard-Helfer. Loginseite: Rollenwahl als zwei Schaltflaechen statt Radio, das war ausgeblendet UND gesperrt und sperrte den Benutzer aus. Ausschaltzeitpunkte zeigen fuer leere Zeilen keinen Ausgang 0 mehr. Schema 68."
-                  },
-                  {
-                      "version":  "0.0.510",
-                      "bin":  "knx-led-controller-16m-w_0.0.510.bin",
-                      "date":  "2026-07-27",
-                      "note":  "Erstmals mit ausgefuehrten Hosttests: das neue Harness tests/host_baos_ft12 uebersetzt die echte Quelle klc_knx_baos.cpp und speist reale FT1.2-Rohtelegramme ein. 39 Pruefungen bestanden, darunter Linkprobe erst nach bestaetigtem Reset-TX, verbunden erst mit echter Antwort, Wiederholungsframe nur quittiert statt doppelt angewendet, Antwort eines beendeten Reads ohne Wirkung, identische Wiederholung bei ACK-Verlust mit Resync, keine Sendung waehrend Reset und Reset.Ind als Verbindungsabbruch. Die Aussagekraft ist per Mutationstest belegt: drei eingebaute Fehler wurden erkannt. Neue Diagnosezaehler fuer Wiederholungs- und Sequenzframes. Auch die 155 Pruefungen des Szenenspeicher-Harness laufen jetzt. Schema 68. Hardwaretests bleiben offen, KLC_RELEASE_PUBLISH deaktiviert."
                   }
               ]
 }

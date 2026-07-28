@@ -5,7 +5,7 @@
   "minimum_firmware_version": "0.0.385",
   "maximum_firmware_version": "0.0.999",
   "compatibility_version": 1,
-  "package_version": "2.5.6",
+  "package_version": "2.5.7",
   "translations": {
     "Steuerung": "Control",
     "Abläufe": "Sequences",
@@ -2101,6 +2101,8 @@
     "Die Helligkeitssperre würde einen Trigger derzeit ablehnen. Zum Testen unten auf Dauerhaft frei schalten.": "The brightness lock would currently reject a trigger. Switch to Always released below to test.",
     "Neustart": "Restart",
     "Werksreset (Codewort 165)": "Factory reset (code word 165)",
-    "Neustart und Werksreset sind ab Werk nicht belegt und müssen hier bewusst zugeordnet werden. Der Werksreset löscht alles: Konfiguration, Abläufe, KNX-Zuordnungen, Sprachpakete sowie LAN- und WLAN-Zugangsdaten. Danach ist der Controller nur noch über den Service-AP erreichbar. Deshalb reagiert er ausschließlich auf das Codewort 165 und auf keinen anderen Wert.": "Restart and factory reset are unassigned by default and must be assigned here deliberately. The factory reset erases everything: configuration, sequences, KNX assignments, language packages and the LAN and Wi-Fi credentials. Afterwards the controller is only reachable through the service access point. That is why it responds to the code word 165 and to no other value."
+    "Neustart und Werksreset sind ab Werk nicht belegt und müssen hier bewusst zugeordnet werden. Der Werksreset löscht alles: Konfiguration, Abläufe, KNX-Zuordnungen, Sprachpakete sowie LAN- und WLAN-Zugangsdaten. Danach ist der Controller nur noch über den Service-AP erreichbar. Deshalb reagiert er ausschließlich auf das Codewort 165 und auf keinen anderen Wert.": "Restart and factory reset are unassigned by default and must be assigned here deliberately. The factory reset erases everything: configuration, sequences, KNX assignments, language packages and the LAN and Wi-Fi credentials. Afterwards the controller is only reachable through the service access point. That is why it responds to the code word 165 and to no other value.",
+    "Richtung A und B brauchen jeweils eine eigene KNX-Objektnummer, die auch mit keinem zentralen Objekt kollidieren darf. Standard sind 5 und 6; Objekt 1 ist ab Werk Zentral Ein/Aus. Geprüft wird erst beim Aktivieren.": "Direction A and B each need their own KNX object number, which must not collide with any central object either. The defaults are 5 and 6; object 1 is central on/off by default. The check only runs when you activate the sequence.",
+    "Zentrale Objektnummern ansehen": "View central object numbers"
   }
 }
