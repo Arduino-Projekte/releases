@@ -5,7 +5,7 @@
   "minimum_firmware_version": "0.0.385",
   "maximum_firmware_version": "0.0.999",
   "compatibility_version": 1,
-  "package_version": "2.5.4",
+  "package_version": "2.5.6",
   "translations": {
     "Steuerung": "Controllo",
     "Abläufe": "Sequenze",
@@ -2093,6 +2093,14 @@
     "Backup migrated from schema {from} to schema {to}, imported and saved.": "Backup migrato dallo schema {from} allo schema {to}, importato e salvato.",
     "LAN backup: Wi-Fi settings of the target device were retained": "Backup LAN: le impostazioni Wi-Fi del dispositivo di destinazione sono state mantenute",
     "Wi-Fi backup: Network settings were adapted to the LAN target profile": "Backup Wi-Fi: le impostazioni di rete sono state adattate al profilo di destinazione LAN",
-    "The controller is restarting…": "Il controller si sta riavviando…"
+    "The controller is restarting…": "Il controller si sta riavviando…",
+    "Zum Testen muss die Ausgangsfolge aktiv und gespeichert sein. Ein nur gesetzter Haken genügt nicht, der Test liest den gespeicherten Stand.": "Per provare, la sequenza di uscita deve essere attiva e salvata. Spuntare la casella non basta: la prova legge lo stato salvato.",
+    "Beide Richtungen enthalten keine Schritte und können deshalb nicht getestet werden.": "Nessuna delle due direzioni contiene passi, quindi non possono essere provate.",
+    "Richtung A enthält keine Schritte und kann deshalb nicht getestet werden.": "La direzione A non contiene passi e non può quindi essere provata.",
+    "Richtung B enthält keine Schritte und kann deshalb nicht getestet werden.": "La direzione B non contiene passi e non può quindi essere provata.",
+    "Die Helligkeitssperre würde einen Trigger derzeit ablehnen. Zum Testen unten auf Dauerhaft frei schalten.": "Il blocco di luminosità rifiuterebbe attualmente un trigger. Per provare, impostare sotto su Sempre libero.",
+    "Neustart": "Riavvio",
+    "Werksreset (Codewort 165)": "Ripristino di fabbrica (parola in codice 165)",
+    "Neustart und Werksreset sind ab Werk nicht belegt und müssen hier bewusst zugeordnet werden. Der Werksreset löscht alles: Konfiguration, Abläufe, KNX-Zuordnungen, Sprachpakete sowie LAN- und WLAN-Zugangsdaten. Danach ist der Controller nur noch über den Service-AP erreichbar. Deshalb reagiert er ausschließlich auf das Codewort 165 und auf keinen anderen Wert.": "Riavvio e ripristino di fabbrica non sono assegnati di fabbrica e devono essere assegnati qui in modo consapevole. Il ripristino di fabbrica cancella tutto: configurazione, sequenze, assegnazioni KNX, pacchetti lingua nonché le credenziali LAN e Wi-Fi. Successivamente il controller è raggiungibile solo tramite il punto di accesso di servizio. Per questo reagisce esclusivamente alla parola in codice 165 e a nessun altro valore."
   }
 }

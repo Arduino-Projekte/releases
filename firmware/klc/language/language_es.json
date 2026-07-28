@@ -5,7 +5,7 @@
   "minimum_firmware_version": "0.0.385",
   "maximum_firmware_version": "0.0.999",
   "compatibility_version": 1,
-  "package_version": "2.5.4",
+  "package_version": "2.5.6",
   "translations": {
     "Steuerung": "Control",
     "Abläufe": "Secuencias",
@@ -2093,6 +2093,14 @@
     "Backup migrated from schema {from} to schema {to}, imported and saved.": "Copia de seguridad migrada del esquema {from} al esquema {to}, importada y guardada.",
     "LAN backup: Wi-Fi settings of the target device were retained": "Copia LAN: se han conservado los ajustes de Wi-Fi del dispositivo de destino",
     "Wi-Fi backup: Network settings were adapted to the LAN target profile": "Copia Wi-Fi: los ajustes de red se han adaptado al perfil de destino LAN",
-    "The controller is restarting…": "El controlador se está reiniciando…"
+    "The controller is restarting…": "El controlador se está reiniciando…",
+    "Zum Testen muss die Ausgangsfolge aktiv und gespeichert sein. Ein nur gesetzter Haken genügt nicht, der Test liest den gespeicherten Stand.": "Para probar, la secuencia de salidas debe estar activa y guardada. Marcar la casilla no basta; la prueba lee el estado guardado.",
+    "Beide Richtungen enthalten keine Schritte und können deshalb nicht getestet werden.": "Ninguna de las dos direcciones contiene pasos, por lo que no se pueden probar.",
+    "Richtung A enthält keine Schritte und kann deshalb nicht getestet werden.": "La dirección A no contiene pasos y por eso no se puede probar.",
+    "Richtung B enthält keine Schritte und kann deshalb nicht getestet werden.": "La dirección B no contiene pasos y por eso no se puede probar.",
+    "Die Helligkeitssperre würde einen Trigger derzeit ablehnen. Zum Testen unten auf Dauerhaft frei schalten.": "El bloqueo por luminosidad rechazaría ahora un disparo. Cambie abajo a Siempre libre para probar.",
+    "Neustart": "Reinicio",
+    "Werksreset (Codewort 165)": "Restablecimiento de fábrica (palabra clave 165)",
+    "Neustart und Werksreset sind ab Werk nicht belegt und müssen hier bewusst zugeordnet werden. Der Werksreset löscht alles: Konfiguration, Abläufe, KNX-Zuordnungen, Sprachpakete sowie LAN- und WLAN-Zugangsdaten. Danach ist der Controller nur noch über den Service-AP erreichbar. Deshalb reagiert er ausschließlich auf das Codewort 165 und auf keinen anderen Wert.": "El reinicio y el restablecimiento de fábrica no están asignados de fábrica y deben asignarse aquí de forma deliberada. El restablecimiento de fábrica borra todo: configuración, secuencias, asignaciones KNX, paquetes de idioma y las credenciales de LAN y Wi-Fi. Después el controlador solo es accesible a través del punto de acceso de servicio. Por eso responde únicamente a la palabra clave 165 y a ningún otro valor."
   }
 }

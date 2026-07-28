@@ -5,7 +5,7 @@
   "minimum_firmware_version": "0.0.385",
   "maximum_firmware_version": "0.0.999",
   "compatibility_version": 1,
-  "package_version": "2.5.4",
+  "package_version": "2.5.6",
   "translations": {
     "Steuerung": "Sterowanie",
     "Abläufe": "Sekwencje",
@@ -2093,6 +2093,14 @@
     "Backup migrated from schema {from} to schema {to}, imported and saved.": "Kopia zapasowa zmigrowana ze schematu {from} do schematu {to}, zaimportowana i zapisana.",
     "LAN backup: Wi-Fi settings of the target device were retained": "Kopia LAN: ustawienia Wi-Fi urządzenia docelowego zostały zachowane",
     "Wi-Fi backup: Network settings were adapted to the LAN target profile": "Kopia Wi-Fi: ustawienia sieci zostały dostosowane do docelowego profilu LAN",
-    "The controller is restarting…": "Sterownik uruchamia się ponownie…"
+    "The controller is restarting…": "Sterownik uruchamia się ponownie…",
+    "Zum Testen muss die Ausgangsfolge aktiv und gespeichert sein. Ein nur gesetzter Haken genügt nicht, der Test liest den gespeicherten Stand.": "Aby przetestować, sekwencja wyjść musi być aktywna i zapisana. Samo zaznaczenie pola nie wystarczy; test odczytuje zapisany stan.",
+    "Beide Richtungen enthalten keine Schritte und können deshalb nicht getestet werden.": "Żaden z kierunków nie zawiera kroków, więc nie można ich przetestować.",
+    "Richtung A enthält keine Schritte und kann deshalb nicht getestet werden.": "Kierunek A nie zawiera kroków i dlatego nie można go przetestować.",
+    "Richtung B enthält keine Schritte und kann deshalb nicht getestet werden.": "Kierunek B nie zawiera kroków i dlatego nie można go przetestować.",
+    "Die Helligkeitssperre würde einen Trigger derzeit ablehnen. Zum Testen unten auf Dauerhaft frei schalten.": "Blokada jasności odrzuciłaby teraz wyzwolenie. Aby przetestować, przełącz poniżej na Trwale wolne.",
+    "Neustart": "Restart",
+    "Werksreset (Codewort 165)": "Reset fabryczny (słowo kodowe 165)",
+    "Neustart und Werksreset sind ab Werk nicht belegt und müssen hier bewusst zugeordnet werden. Der Werksreset löscht alles: Konfiguration, Abläufe, KNX-Zuordnungen, Sprachpakete sowie LAN- und WLAN-Zugangsdaten. Danach ist der Controller nur noch über den Service-AP erreichbar. Deshalb reagiert er ausschließlich auf das Codewort 165 und auf keinen anderen Wert.": "Restart i reset fabryczny nie są fabrycznie przypisane i trzeba je tutaj świadomie przypisać. Reset fabryczny kasuje wszystko: konfigurację, sekwencje, przypisania KNX, pakiety językowe oraz dane dostępowe LAN i Wi-Fi. Potem sterownik jest osiągalny wyłącznie przez serwisowy punkt dostępu. Dlatego reaguje wyłącznie na słowo kodowe 165 i na żadną inną wartość."
   }
 }

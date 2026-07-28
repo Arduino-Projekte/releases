@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m_0.0.515.bin",
+                     "url":  "knx-led-controller-16m_0.0.519.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.515",
-                     "bin":  "knx-led-controller-16m_0.0.515.bin",
-                     "file":  "knx-led-controller-16m_0.0.515.bin",
-                     "sha256":  "48b42b33925da9d2ca3e0f6c15d3ee74432889a3169f0c0f2eb2ba5bf828dbc2",
-                     "message":  "KNX-Schema 6: Praesenz halten hat jetzt zwei parallele Objekte. Objekt 7 bleibt streng 1 Bit, neu ist Objekt 8 als 1 Byte, wo jeder Wert \u003e 0 haelt - fuer Melder mit Dimmwert. Es haelt nur, einschalten kann es nie. Helligkeit wandert auf Objekt 9.",
+                     "version":  "0.0.519",
+                     "bin":  "knx-led-controller-16m_0.0.519.bin",
+                     "file":  "knx-led-controller-16m_0.0.519.bin",
+                     "sha256":  "16a4e05401a5759737d3e1db488f3d0bba3410ed3df268dcbf4929fdc8d5e093",
+                     "message":  "Neustart und Werksreset ueber KNX, Schema 7. Der Neustart ist ein 1-Bit-Objekt, der Werksreset ein 1-Byte-Objekt und loest NUR beim Codewort 165 aus - jeder andere Wert wird verworfen und protokolliert. Beide sind ab Werk unbelegt und muessen bewusst zugeordnet werden.",
                      "http_code":  200
                  }
 }

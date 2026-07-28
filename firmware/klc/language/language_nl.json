@@ -5,7 +5,7 @@
   "minimum_firmware_version": "0.0.385",
   "maximum_firmware_version": "0.0.999",
   "compatibility_version": 1,
-  "package_version": "2.5.4",
+  "package_version": "2.5.6",
   "translations": {
     "Steuerung": "Bediening",
     "Abläufe": "Verlopen",
@@ -2093,6 +2093,14 @@
     "Backup migrated from schema {from} to schema {to}, imported and saved.": "Back-up gemigreerd van schema {from} naar schema {to}, geïmporteerd en opgeslagen.",
     "LAN backup: Wi-Fi settings of the target device were retained": "LAN-back-up: wifi-instellingen van het doelapparaat zijn behouden",
     "Wi-Fi backup: Network settings were adapted to the LAN target profile": "Wifi-back-up: netwerkinstellingen zijn aangepast aan het LAN-doelprofiel",
-    "The controller is restarting…": "De controller start opnieuw op…"
+    "The controller is restarting…": "De controller start opnieuw op…",
+    "Zum Testen muss die Ausgangsfolge aktiv und gespeichert sein. Ein nur gesetzter Haken genügt nicht, der Test liest den gespeicherten Stand.": "Om te testen moet de uitgangsreeks actief en opgeslagen zijn. Alleen het vinkje zetten is niet genoeg; de test leest de opgeslagen stand.",
+    "Beide Richtungen enthalten keine Schritte und können deshalb nicht getestet werden.": "Beide richtingen bevatten geen stappen en kunnen daarom niet worden getest.",
+    "Richtung A enthält keine Schritte und kann deshalb nicht getestet werden.": "Richting A bevat geen stappen en kan daarom niet worden getest.",
+    "Richtung B enthält keine Schritte und kann deshalb nicht getestet werden.": "Richting B bevat geen stappen en kan daarom niet worden getest.",
+    "Die Helligkeitssperre würde einen Trigger derzeit ablehnen. Zum Testen unten auf Dauerhaft frei schalten.": "De helderheidsblokkering zou een trigger nu weigeren. Zet hieronder op Permanent vrij om te testen.",
+    "Neustart": "Herstart",
+    "Werksreset (Codewort 165)": "Fabrieksreset (codewoord 165)",
+    "Neustart und Werksreset sind ab Werk nicht belegt und müssen hier bewusst zugeordnet werden. Der Werksreset löscht alles: Konfiguration, Abläufe, KNX-Zuordnungen, Sprachpakete sowie LAN- und WLAN-Zugangsdaten. Danach ist der Controller nur noch über den Service-AP erreichbar. Deshalb reagiert er ausschließlich auf das Codewort 165 und auf keinen anderen Wert.": "Herstart en fabrieksreset zijn af fabriek niet toegewezen en moeten hier bewust worden toegewezen. De fabrieksreset wist alles: configuratie, reeksen, KNX-toewijzingen, taalpakketten en de LAN- en wifi-gegevens. Daarna is de controller alleen nog via het service-toegangspunt bereikbaar. Daarom reageert hij uitsluitend op het codewoord 165 en op geen enkele andere waarde."
   }
 }

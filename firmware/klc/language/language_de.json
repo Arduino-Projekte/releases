@@ -5,7 +5,7 @@
   "minimum_firmware_version": "0.0.385",
   "maximum_firmware_version": "0.0.999",
   "compatibility_version": 1,
-  "package_version": "2.5.4",
+  "package_version": "2.5.6",
   "translations": {
     "Steuerung": "Steuerung",
     "Abläufe": "Abläufe",
@@ -2093,6 +2093,14 @@
     "Backup migrated from schema {from} to schema {to}, imported and saved.": "Backup von Schema {from} auf Schema {to} migriert, importiert und gespeichert.",
     "LAN backup: Wi-Fi settings of the target device were retained": "LAN-Backup: WLAN-Einstellungen des Zielgeraets wurden beibehalten",
     "Wi-Fi backup: Network settings were adapted to the LAN target profile": "WLAN-Backup: Netzwerkeinstellungen wurden an das LAN-Zielprofil angepasst",
-    "The controller is restarting…": "Der Controller startet neu…"
+    "The controller is restarting…": "Der Controller startet neu…",
+    "Zum Testen muss die Ausgangsfolge aktiv und gespeichert sein. Ein nur gesetzter Haken genügt nicht, der Test liest den gespeicherten Stand.": "Zum Testen muss die Ausgangsfolge aktiv und gespeichert sein. Ein nur gesetzter Haken genügt nicht, der Test liest den gespeicherten Stand.",
+    "Beide Richtungen enthalten keine Schritte und können deshalb nicht getestet werden.": "Beide Richtungen enthalten keine Schritte und können deshalb nicht getestet werden.",
+    "Richtung A enthält keine Schritte und kann deshalb nicht getestet werden.": "Richtung A enthält keine Schritte und kann deshalb nicht getestet werden.",
+    "Richtung B enthält keine Schritte und kann deshalb nicht getestet werden.": "Richtung B enthält keine Schritte und kann deshalb nicht getestet werden.",
+    "Die Helligkeitssperre würde einen Trigger derzeit ablehnen. Zum Testen unten auf Dauerhaft frei schalten.": "Die Helligkeitssperre würde einen Trigger derzeit ablehnen. Zum Testen unten auf Dauerhaft frei schalten.",
+    "Neustart": "Neustart",
+    "Werksreset (Codewort 165)": "Werksreset (Codewort 165)",
+    "Neustart und Werksreset sind ab Werk nicht belegt und müssen hier bewusst zugeordnet werden. Der Werksreset löscht alles: Konfiguration, Abläufe, KNX-Zuordnungen, Sprachpakete sowie LAN- und WLAN-Zugangsdaten. Danach ist der Controller nur noch über den Service-AP erreichbar. Deshalb reagiert er ausschließlich auf das Codewort 165 und auf keinen anderen Wert.": "Neustart und Werksreset sind ab Werk nicht belegt und müssen hier bewusst zugeordnet werden. Der Werksreset löscht alles: Konfiguration, Abläufe, KNX-Zuordnungen, Sprachpakete sowie LAN- und WLAN-Zugangsdaten. Danach ist der Controller nur noch über den Service-AP erreichbar. Deshalb reagiert er ausschließlich auf das Codewort 165 und auf keinen anderen Wert."
   }
 }
