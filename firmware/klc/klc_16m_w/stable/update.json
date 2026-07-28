@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m-w_0.0.521.bin",
+                     "url":  "knx-led-controller-16m-w_0.0.522.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.521",
-                     "bin":  "knx-led-controller-16m-w_0.0.521.bin",
-                     "file":  "knx-led-controller-16m-w_0.0.521.bin",
-                     "sha256":  "616b544a88fbd5e626d276654601eac291951441eb515127f22620d35f5d729d",
-                     "message":  "KNX-/BAOS-Objektnummern sind fest verdrahtet. Ueber 100 Nummernfelder, die Eindeutigkeitspruefung und die Kollisionsmeldung entfallen; eine gueltige Ausgangsfolge wird dadurch nie wieder unaktivierbar. /knx zeigt die Belegung.",
+                     "version":  "0.0.522",
+                     "bin":  "knx-led-controller-16m-w_0.0.522.bin",
+                     "file":  "knx-led-controller-16m-w_0.0.522.bin",
+                     "sha256":  "a45baa97e95a3df2a523f7b9a5d2faa03cd8bfdca57f8e988661051e53376f0e",
+                     "message":  "Befund B5: Der abgelehnte Speicherstatus nennt jetzt, WELCHES der fuenf Felder nicht gepasst hat. Eine abweichende Startkennung wird im Klartext als Neustart waehrend des Speicherns gemeldet. Nur Meldungstexte, kein Verhalten.",
                      "http_code":  200
                  }
 }

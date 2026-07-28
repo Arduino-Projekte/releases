@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.522",
+                      "bin":  "knx-led-controller-16m-w_0.0.522.bin",
+                      "date":  "2026-07-28",
+                      "note":  "Befund B5: Der abgelehnte Speicherstatus nennt jetzt, WELCHES der fuenf Felder nicht gepasst hat. Eine abweichende Startkennung wird im Klartext als Neustart waehrend des Speicherns gemeldet. Nur Meldungstexte, kein Verhalten."
+                  },
+                  {
                       "version":  "0.0.521",
                       "bin":  "knx-led-controller-16m-w_0.0.521.bin",
                       "date":  "2026-07-28",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m-w_0.0.515.bin",
                       "date":  "2026-07-27",
                       "note":  "KNX-Schema 6: Praesenz halten hat jetzt zwei parallele Objekte. Objekt 7 bleibt streng 1 Bit, neu ist Objekt 8 als 1 Byte, wo jeder Wert \u003e 0 haelt - fuer Melder mit Dimmwert. Es haelt nur, einschalten kann es nie. Helligkeit wandert auf Objekt 9."
-                  },
-                  {
-                      "version":  "0.0.513",
-                      "bin":  "knx-led-controller-16m-w_0.0.513.bin",
-                      "date":  "2026-07-27",
-                      "note":  "Schema 69. Praesenz halten kennt jetzt die Nutzlast des Objekts: 1 Bit streng, 1 Byte oder beides. Bei Byte gilt jeder Wert \u003e 0 als Praesenz, damit ein Melder seinen Helligkeits-/Dimmwert (z. B. 128) senden kann; bisher verwarf der BAOS-Pfad das als ungueltig. Neu ist ein Helligkeitseingang als DPT 9.004 mit eigenem KNX-Objekt, Vergleichsrichtung, Schwelle und Hysterese; dafuer gibt es erstmals einen echten KNX-2-Byte-Gleitkommadekoder. Geprueft wird nur beim Trigger, nie laufend: die eigenen Ausgaenge beleuchten den Messort und wuerden sich sonst selbst abschalten. Ohne empfangenen Wert wird nie gesperrt. Bedienung mit Istwert und Automatik/frei/gesperrt, bewusst nur zur Laufzeit. ApplyConfig fordert den Praesenzwert wieder an."
                   }
               ]
 }
