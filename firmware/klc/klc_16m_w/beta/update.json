@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m-w_0.0.524.bin",
+                     "url":  "knx-led-controller-16m-w_0.0.525.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.524",
-                     "bin":  "knx-led-controller-16m-w_0.0.524.bin",
-                     "file":  "knx-led-controller-16m-w_0.0.524.bin",
-                     "sha256":  "347de2adce5bd4b83ad524a9c1be1c9fce93b2c38988b3d0c0125c73c7f5975c",
-                     "message":  "Dauerlog: Ereignisse werden zusaetzlich in eine Ringdatei auf LittleFS geschrieben und ueberleben damit jeden Neustart - abrufbar unter /events, vollstaendig herunterladbar als /events/log.txt. Jeder Loopdurchlauf setzt benannte Phasenmarken; eine zu langsame Phase wird mit Namen und Dauer protokolliert statt nur auf die serielle Konsole gemeldet. Alle 15 Minuten ein Lebenszeichen mit freiem und niedrigstem Heap, damit eine Luecke im Log eine Luecke im Betrieb bedeutet und ein langsames Auszehren des Speichers sichtbar wird. Neu ausserdem eine Warnung bei knappem Heap.",
+                     "version":  "0.0.525",
+                     "bin":  "knx-led-controller-16m-w_0.0.525.bin",
+                     "file":  "knx-led-controller-16m-w_0.0.525.bin",
+                     "sha256":  "4ebc4352b0e6862224ee6805986948c044c8b6cb1bddd012e866f727032cdee9",
+                     "message":  "Zwei belegte Stillstandsursachen behoben. Der Hilfe-Download konnte den Hauptloop dauerhaft anhalten, wenn der Server die Verbindung offenhielt aber keine Daten mehr sendete - er hatte keine Fortschrittsgrenze, und die Hilfeseite startet ihn selbsttaetig. Jetzt 6 s Fortschritts- und 20 s Gesamtgrenze, Nullzeigerpruefung, Netzwerkdienst waehrend des Wartens, sauberes Aufraeumen auf jedem Pfad. Der W5500-Treiberneustart lief bisher im RX-Pfad unter der lwIP-Sperre; er wird jetzt nur noch angefordert und ausschliesslich im Hauptloop mit Backoff ausgefuehrt. Dauerlog aus 0.0.524: Ereignisse werden zusaetzlich in eine Ringdatei auf LittleFS geschrieben und ueberleben damit jeden Neustart - abrufbar unter /events, vollstaendig herunterladbar als /events/log.txt. Jeder Loopdurchlauf setzt benannte Phasenmarken; eine zu langsame Phase wird mit Namen und Dauer protokolliert statt nur auf die serielle Konsole gemeldet. Alle 15 Minuten ein Lebenszeichen mit freiem und niedrigstem Heap, damit eine Luecke im Log eine Luecke im Betrieb bedeutet und ein langsames Auszehren des Speichers sichtbar wird. Neu ausserdem eine Warnung bei knappem Heap.",
                      "http_code":  200
                  }
 }
