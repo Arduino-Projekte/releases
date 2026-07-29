@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m-w_0.0.523.bin",
+                     "url":  "knx-led-controller-16m-w_0.0.524.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.523",
-                     "bin":  "knx-led-controller-16m-w_0.0.523.bin",
-                     "file":  "knx-led-controller-16m-w_0.0.523.bin",
-                     "sha256":  "f6a95e56bdac329b176245ab58321803923b7eb0381c872265bb9bd9fc8a5929",
-                     "message":  "Befund B9: /output-sequence?result=saving laedt nicht mehr endlos im Sekundentakt nach. Gespeichert-aber-noch-nicht-aktiv gilt nicht mehr als laufender Speichervorgang, das Formular bleibt bedienbar, das Nachladen ist gedrosselt und begrenzt. Befund B10: Die Diagnosezeile nennt jetzt den Fehler, den sie meldet. Neuer Hosttest host_output_sequence_save_0523 mit 66 Pruefungen und 5 erkannten Mutationen.",
+                     "version":  "0.0.524",
+                     "bin":  "knx-led-controller-16m-w_0.0.524.bin",
+                     "file":  "knx-led-controller-16m-w_0.0.524.bin",
+                     "sha256":  "347de2adce5bd4b83ad524a9c1be1c9fce93b2c38988b3d0c0125c73c7f5975c",
+                     "message":  "Dauerlog: Ereignisse werden zusaetzlich in eine Ringdatei auf LittleFS geschrieben und ueberleben damit jeden Neustart - abrufbar unter /events, vollstaendig herunterladbar als /events/log.txt. Jeder Loopdurchlauf setzt benannte Phasenmarken; eine zu langsame Phase wird mit Namen und Dauer protokolliert statt nur auf die serielle Konsole gemeldet. Alle 15 Minuten ein Lebenszeichen mit freiem und niedrigstem Heap, damit eine Luecke im Log eine Luecke im Betrieb bedeutet und ein langsames Auszehren des Speichers sichtbar wird. Neu ausserdem eine Warnung bei knappem Heap.",
                      "http_code":  200
                  }
 }
