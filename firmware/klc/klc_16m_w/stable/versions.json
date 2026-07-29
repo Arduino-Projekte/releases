@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.526",
+                      "bin":  "knx-led-controller-16m-w_0.0.526.bin",
+                      "date":  "2026-07-29",
+                      "note":  "KNX-Statusstau behoben: Ein Statustelegramm, dessen BAOS-Antwort nicht eintraf, blieb unbegrenzt Warteschlangenkopf. Es ging alle rund 2,2 s erneut auf den Bus - im Busmonitor als scheinbar zyklisches Senden eines einzelnen Objekts sichtbar, obwohl der Modus auf Bei Aenderung stand - und blockierte dabei ALLE dahinter wartenden Statusobjekte, weshalb nach einem Zentralbefehl nur Ausgang 1 antwortete. Jetzt hoechstens drei Versuche je Telegramm, danach wird es verworfen und protokolliert; Warteschlangentiefe und aufgegebene Telegramme stehen auf der Systemseite. Ausserdem zwei belegte Stillstandsursachen behoben. Der Hilfe-Download konnte den Hauptloop dauerhaft anhalten, wenn der Server die Verbindung offenhielt aber keine Daten mehr sendete - er hatte keine Fortschrittsgrenze, und die Hilfeseite startet ihn selbsttaetig. Jetzt 6 s Fortschritts- und 20 s Gesamtgrenze, Nullzeigerpruefung, Netzwerkdienst waehrend des Wartens, sauberes Aufraeumen auf jedem Pfad. Der W5500-Treiberneustart lief bisher im RX-Pfad unter der lwIP-Sperre; er wird jetzt nur noch angefordert und ausschliesslich im Hauptloop mit Backoff ausgefuehrt. Dauerlog aus 0.0.524: Ereignisse werden zusaetzlich in eine Ringdatei auf LittleFS geschrieben und ueberleben damit jeden Neustart - abrufbar unter /events, vollstaendig herunterladbar als /events/log.txt. Jeder Loopdurchlauf setzt benannte Phasenmarken; eine zu langsame Phase wird mit Namen und Dauer protokolliert statt nur auf die serielle Konsole gemeldet. Alle 15 Minuten ein Lebenszeichen mit freiem und niedrigstem Heap, damit eine Luecke im Log eine Luecke im Betrieb bedeutet und ein langsames Auszehren des Speichers sichtbar wird. Neu ausserdem eine Warnung bei knappem Heap."
+                  },
+                  {
                       "version":  "0.0.525",
                       "bin":  "knx-led-controller-16m-w_0.0.525.bin",
                       "date":  "2026-07-29",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m-w_0.0.522.bin",
                       "date":  "2026-07-28",
                       "note":  "Befund B5: Der abgelehnte Speicherstatus nennt jetzt, WELCHES der fuenf Felder nicht gepasst hat. Eine abweichende Startkennung wird im Klartext als Neustart waehrend des Speicherns gemeldet. Nur Meldungstexte, kein Verhalten."
-                  },
-                  {
-                      "version":  "0.0.521",
-                      "bin":  "knx-led-controller-16m-w_0.0.521.bin",
-                      "date":  "2026-07-28",
-                      "note":  "KNX-/BAOS-Objektnummern sind fest verdrahtet. Ueber 100 Nummernfelder, die Eindeutigkeitspruefung und die Kollisionsmeldung entfallen; eine gueltige Ausgangsfolge wird dadurch nie wieder unaktivierbar. /knx zeigt die Belegung."
                   }
               ]
 }
