@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.528",
+                      "bin":  "knx-led-controller-16m-w_0.0.528.bin",
+                      "date":  "2026-07-29",
+                      "note":  "Statusversand deutlich beschleunigt: Ein Statusschreibvorgang gilt jetzt mit dem FT1.2-ACK des BAOS-Moduls als uebertragen. Auf die zusaetzliche Anwendungsantwort wird nur noch 300 ms statt 2000 ms gewartet, und ihr Ausbleiben loest keine Wiederholung mehr aus. Vorher kostete ein einzelnes Statusobjekt bis zu 6,5 s und ging dreifach auf den Bus; ein Vollversand brauchte damit Minuten. Ausbleibende Modulantworten werden gezaehlt und auf der Systemseite angezeigt. GA-Revision 6: Alle vorgeschlagenen Gruppenadressen ab 2/2/20 sind um 10 verschoben, KLC A1 Ein Aus liegt jetzt auf 2/2/31, das Bereichsende bei 2/2/181. Damit sind 2/2/20 bis 2/2/29 als Reserve fuer kuenftige Zentral- und Systemobjekte frei. Objektnummern, DPTs und der BAOS-DCA-Import bleiben unveraendert, das Interface-Schema deshalb bei 7 - ein bestehendes ETS-Projekt muss die Gruppenadressen aber neu importieren. Seit 0.0.523 ausserdem enthalten: Dauerlog auf LittleFS mit Phasenmarken, Heapueberwachung und Lebenszeichen (/events, /events/log.txt); der Hilfe-Download und der W5500-Treiberneustart koennen den Hauptloop nicht mehr anhalten; ein nicht quittiertes KNX-Statustelegramm blockiert nicht mehr alle uebrigen. Einzelheiten in CHANGELOG.md."
+                  },
+                  {
                       "version":  "0.0.526",
                       "bin":  "knx-led-controller-16m-w_0.0.526.bin",
                       "date":  "2026-07-29",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m-w_0.0.523.bin",
                       "date":  "2026-07-29",
                       "note":  "Befund B9: /output-sequence?result=saving laedt nicht mehr endlos im Sekundentakt nach. Gespeichert-aber-noch-nicht-aktiv gilt nicht mehr als laufender Speichervorgang, das Formular bleibt bedienbar, das Nachladen ist gedrosselt und begrenzt. Befund B10: Die Diagnosezeile nennt jetzt den Fehler, den sie meldet. Neuer Hosttest host_output_sequence_save_0523 mit 66 Pruefungen und 5 erkannten Mutationen."
-                  },
-                  {
-                      "version":  "0.0.522",
-                      "bin":  "knx-led-controller-16m-w_0.0.522.bin",
-                      "date":  "2026-07-28",
-                      "note":  "Befund B5: Der abgelehnte Speicherstatus nennt jetzt, WELCHES der fuenf Felder nicht gepasst hat. Eine abweichende Startkennung wird im Klartext als Neustart waehrend des Speicherns gemeldet. Nur Meldungstexte, kein Verhalten."
                   }
               ]
 }

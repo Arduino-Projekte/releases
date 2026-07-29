@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m_0.0.526.bin",
+                     "url":  "knx-led-controller-16m_0.0.528.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.526",
-                     "bin":  "knx-led-controller-16m_0.0.526.bin",
-                     "file":  "knx-led-controller-16m_0.0.526.bin",
-                     "sha256":  "a46d0f589f7d65bb0153a43435e998017516b81ccff6352e6be09e6fc44e18f5",
-                     "message":  "KNX-Statusstau behoben: Ein Statustelegramm, dessen BAOS-Antwort nicht eintraf, blieb unbegrenzt Warteschlangenkopf. Es ging alle rund 2,2 s erneut auf den Bus - im Busmonitor als scheinbar zyklisches Senden eines einzelnen Objekts sichtbar, obwohl der Modus auf Bei Aenderung stand - und blockierte dabei ALLE dahinter wartenden Statusobjekte, weshalb nach einem Zentralbefehl nur Ausgang 1 antwortete. Jetzt hoechstens drei Versuche je Telegramm, danach wird es verworfen und protokolliert; Warteschlangentiefe und aufgegebene Telegramme stehen auf der Systemseite. Ausserdem zwei belegte Stillstandsursachen behoben. Der Hilfe-Download konnte den Hauptloop dauerhaft anhalten, wenn der Server die Verbindung offenhielt aber keine Daten mehr sendete - er hatte keine Fortschrittsgrenze, und die Hilfeseite startet ihn selbsttaetig. Jetzt 6 s Fortschritts- und 20 s Gesamtgrenze, Nullzeigerpruefung, Netzwerkdienst waehrend des Wartens, sauberes Aufraeumen auf jedem Pfad. Der W5500-Treiberneustart lief bisher im RX-Pfad unter der lwIP-Sperre; er wird jetzt nur noch angefordert und ausschliesslich im Hauptloop mit Backoff ausgefuehrt. Dauerlog aus 0.0.524: Ereignisse werden zusaetzlich in eine Ringdatei auf LittleFS geschrieben und ueberleben damit jeden Neustart - abrufbar unter /events, vollstaendig herunterladbar als /events/log.txt. Jeder Loopdurchlauf setzt benannte Phasenmarken; eine zu langsame Phase wird mit Namen und Dauer protokolliert statt nur auf die serielle Konsole gemeldet. Alle 15 Minuten ein Lebenszeichen mit freiem und niedrigstem Heap, damit eine Luecke im Log eine Luecke im Betrieb bedeutet und ein langsames Auszehren des Speichers sichtbar wird. Neu ausserdem eine Warnung bei knappem Heap.",
+                     "version":  "0.0.528",
+                     "bin":  "knx-led-controller-16m_0.0.528.bin",
+                     "file":  "knx-led-controller-16m_0.0.528.bin",
+                     "sha256":  "4e5655fd9585aefdbd680f61f49b9a21e96ebaeb775dc0b5334f42ce7a7e3beb",
+                     "message":  "Statusversand deutlich beschleunigt: Ein Statusschreibvorgang gilt jetzt mit dem FT1.2-ACK des BAOS-Moduls als uebertragen. Auf die zusaetzliche Anwendungsantwort wird nur noch 300 ms statt 2000 ms gewartet, und ihr Ausbleiben loest keine Wiederholung mehr aus. Vorher kostete ein einzelnes Statusobjekt bis zu 6,5 s und ging dreifach auf den Bus; ein Vollversand brauchte damit Minuten. Ausbleibende Modulantworten werden gezaehlt und auf der Systemseite angezeigt. GA-Revision 6: Alle vorgeschlagenen Gruppenadressen ab 2/2/20 sind um 10 verschoben, KLC A1 Ein Aus liegt jetzt auf 2/2/31, das Bereichsende bei 2/2/181. Damit sind 2/2/20 bis 2/2/29 als Reserve fuer kuenftige Zentral- und Systemobjekte frei. Objektnummern, DPTs und der BAOS-DCA-Import bleiben unveraendert, das Interface-Schema deshalb bei 7 - ein bestehendes ETS-Projekt muss die Gruppenadressen aber neu importieren. Seit 0.0.523 ausserdem enthalten: Dauerlog auf LittleFS mit Phasenmarken, Heapueberwachung und Lebenszeichen (/events, /events/log.txt); der Hilfe-Download und der W5500-Treiberneustart koennen den Hauptloop nicht mehr anhalten; ein nicht quittiertes KNX-Statustelegramm blockiert nicht mehr alle uebrigen. Einzelheiten in CHANGELOG.md.",
                      "http_code":  200
                  }
 }
