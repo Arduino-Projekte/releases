@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.525",
+                      "bin":  "knx-led-controller-16m-w_0.0.525.bin",
+                      "date":  "2026-07-29",
+                      "note":  "Zwei belegte Stillstandsursachen behoben. Der Hilfe-Download konnte den Hauptloop dauerhaft anhalten, wenn der Server die Verbindung offenhielt aber keine Daten mehr sendete - er hatte keine Fortschrittsgrenze, und die Hilfeseite startet ihn selbsttaetig. Jetzt 6 s Fortschritts- und 20 s Gesamtgrenze, Nullzeigerpruefung, Netzwerkdienst waehrend des Wartens, sauberes Aufraeumen auf jedem Pfad. Der W5500-Treiberneustart lief bisher im RX-Pfad unter der lwIP-Sperre; er wird jetzt nur noch angefordert und ausschliesslich im Hauptloop mit Backoff ausgefuehrt. Dauerlog aus 0.0.524: Ereignisse werden zusaetzlich in eine Ringdatei auf LittleFS geschrieben und ueberleben damit jeden Neustart - abrufbar unter /events, vollstaendig herunterladbar als /events/log.txt. Jeder Loopdurchlauf setzt benannte Phasenmarken; eine zu langsame Phase wird mit Namen und Dauer protokolliert statt nur auf die serielle Konsole gemeldet. Alle 15 Minuten ein Lebenszeichen mit freiem und niedrigstem Heap, damit eine Luecke im Log eine Luecke im Betrieb bedeutet und ein langsames Auszehren des Speichers sichtbar wird. Neu ausserdem eine Warnung bei knappem Heap."
+                  },
+                  {
                       "version":  "0.0.524",
                       "bin":  "knx-led-controller-16m-w_0.0.524.bin",
                       "date":  "2026-07-29",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m-w_0.0.521.bin",
                       "date":  "2026-07-28",
                       "note":  "KNX-/BAOS-Objektnummern sind fest verdrahtet. Ueber 100 Nummernfelder, die Eindeutigkeitspruefung und die Kollisionsmeldung entfallen; eine gueltige Ausgangsfolge wird dadurch nie wieder unaktivierbar. /knx zeigt die Belegung."
-                  },
-                  {
-                      "version":  "0.0.520",
-                      "bin":  "knx-led-controller-16m-w_0.0.520.bin",
-                      "date":  "2026-07-28",
-                      "note":  "Abgelehnte Eingaben auf der Ausgangsfolge gehen nicht mehr verloren: die Fehlerseite zeigt jetzt die Werte, die zur Meldung gefuehrt haben. Vorher fiel das Formular auf den gespeicherten Stand zurueck - inklusive Haken, sodass Aktivieren bei einer Objektkollision praktisch unmoeglich war."
                   }
               ]
 }
