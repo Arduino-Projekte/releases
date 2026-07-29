@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m-w_0.0.522.bin",
+                     "url":  "knx-led-controller-16m-w_0.0.523.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.522",
-                     "bin":  "knx-led-controller-16m-w_0.0.522.bin",
-                     "file":  "knx-led-controller-16m-w_0.0.522.bin",
-                     "sha256":  "a45baa97e95a3df2a523f7b9a5d2faa03cd8bfdca57f8e988661051e53376f0e",
-                     "message":  "Befund B5: Der abgelehnte Speicherstatus nennt jetzt, WELCHES der fuenf Felder nicht gepasst hat. Eine abweichende Startkennung wird im Klartext als Neustart waehrend des Speicherns gemeldet. Nur Meldungstexte, kein Verhalten.",
+                     "version":  "0.0.523",
+                     "bin":  "knx-led-controller-16m-w_0.0.523.bin",
+                     "file":  "knx-led-controller-16m-w_0.0.523.bin",
+                     "sha256":  "ee02f82e5ae4d7a45f53be9b4d47092d5dd2908db396b04c54980918d38ef97d",
+                     "message":  "Befund B9: /output-sequence?result=saving laedt nicht mehr endlos im Sekundentakt nach. Gespeichert-aber-noch-nicht-aktiv gilt nicht mehr als laufender Speichervorgang, das Formular bleibt bedienbar, das Nachladen ist gedrosselt und begrenzt. Befund B10: Die Diagnosezeile nennt jetzt den Fehler, den sie meldet. Neuer Hosttest host_output_sequence_save_0523 mit 66 Pruefungen und 5 erkannten Mutationen.",
                      "http_code":  200
                  }
 }

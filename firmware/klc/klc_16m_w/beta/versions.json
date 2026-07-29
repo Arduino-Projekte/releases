@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.523",
+                      "bin":  "knx-led-controller-16m-w_0.0.523.bin",
+                      "date":  "2026-07-29",
+                      "note":  "Befund B9: /output-sequence?result=saving laedt nicht mehr endlos im Sekundentakt nach. Gespeichert-aber-noch-nicht-aktiv gilt nicht mehr als laufender Speichervorgang, das Formular bleibt bedienbar, das Nachladen ist gedrosselt und begrenzt. Befund B10: Die Diagnosezeile nennt jetzt den Fehler, den sie meldet. Neuer Hosttest host_output_sequence_save_0523 mit 66 Pruefungen und 5 erkannten Mutationen."
+                  },
+                  {
                       "version":  "0.0.522",
                       "bin":  "knx-led-controller-16m-w_0.0.522.bin",
                       "date":  "2026-07-28",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m-w_0.0.519.bin",
                       "date":  "2026-07-28",
                       "note":  "Neustart und Werksreset ueber KNX, Schema 7. Der Neustart ist ein 1-Bit-Objekt, der Werksreset ein 1-Byte-Objekt und loest NUR beim Codewort 165 aus - jeder andere Wert wird verworfen und protokolliert. Beide sind ab Werk unbelegt und muessen bewusst zugeordnet werden."
-                  },
-                  {
-                      "version":  "0.0.515",
-                      "bin":  "knx-led-controller-16m-w_0.0.515.bin",
-                      "date":  "2026-07-27",
-                      "note":  "KNX-Schema 6: Praesenz halten hat jetzt zwei parallele Objekte. Objekt 7 bleibt streng 1 Bit, neu ist Objekt 8 als 1 Byte, wo jeder Wert \u003e 0 haelt - fuer Melder mit Dimmwert. Es haelt nur, einschalten kann es nie. Helligkeit wandert auf Objekt 9."
                   }
               ]
 }
