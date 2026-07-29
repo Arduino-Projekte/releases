@@ -6,7 +6,7 @@
                      "version":  "0.0.523",
                      "bin":  "knx-led-controller-16m-w_0.0.523.bin",
                      "file":  "knx-led-controller-16m-w_0.0.523.bin",
-                     "sha256":  "ee02f82e5ae4d7a45f53be9b4d47092d5dd2908db396b04c54980918d38ef97d",
+                     "sha256":  "f6a95e56bdac329b176245ab58321803923b7eb0381c872265bb9bd9fc8a5929",
                      "message":  "Befund B9: /output-sequence?result=saving laedt nicht mehr endlos im Sekundentakt nach. Gespeichert-aber-noch-nicht-aktiv gilt nicht mehr als laufender Speichervorgang, das Formular bleibt bedienbar, das Nachladen ist gedrosselt und begrenzt. Befund B10: Die Diagnosezeile nennt jetzt den Fehler, den sie meldet. Neuer Hosttest host_output_sequence_save_0523 mit 66 Pruefungen und 5 erkannten Mutationen.",
                      "http_code":  200
                  }
