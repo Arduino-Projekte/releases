@@ -5,7 +5,7 @@
   "minimum_firmware_version": "0.0.385",
   "maximum_firmware_version": "0.0.999",
   "compatibility_version": 1,
-  "package_version": "2.5.8",
+  "package_version": "2.5.9",
   "translations": {
     "Steuerung": "Controllo",
     "Abläufe": "Sequenze",
@@ -44,6 +44,8 @@
     "bereits vorbereitet": "già preparato",
     "leer": "vuoto",
     "limitiert": "limitato",
+    "Detaillog an": "Log dettagliato attivo",
+    "Detaillog aus": "Log dettagliato disattivato",
     "frei": "libero",
     "Firmware-Update": "Aggiornamento firmware",
     "Firmwarestatus": "Stato firmware",

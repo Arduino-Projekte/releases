@@ -5,7 +5,7 @@
   "minimum_firmware_version": "0.0.385",
   "maximum_firmware_version": "0.0.999",
   "compatibility_version": 1,
-  "package_version": "2.5.8",
+  "package_version": "2.5.9",
   "translations": {
     "Steuerung": "Bediening",
     "Abläufe": "Verlopen",
@@ -44,6 +44,8 @@
     "bereits vorbereitet": "al voorbereid",
     "leer": "leeg",
     "limitiert": "beperkt",
+    "Detaillog an": "Detaillog aan",
+    "Detaillog aus": "Detaillog uit",
     "frei": "vrij",
     "Firmware-Update": "Firmware-update",
     "Firmwarestatus": "Firmwarestatus",

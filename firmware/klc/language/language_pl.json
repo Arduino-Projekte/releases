@@ -5,7 +5,7 @@
   "minimum_firmware_version": "0.0.385",
   "maximum_firmware_version": "0.0.999",
   "compatibility_version": 1,
-  "package_version": "2.5.8",
+  "package_version": "2.5.9",
   "translations": {
     "Steuerung": "Sterowanie",
     "Abläufe": "Sekwencje",
@@ -44,6 +44,8 @@
     "bereits vorbereitet": "już przygotowane",
     "leer": "puste",
     "limitiert": "ograniczone",
+    "Detaillog an": "Dziennik szczegółowy włączony",
+    "Detaillog aus": "Dziennik szczegółowy wyłączony",
     "frei": "wolne",
     "Firmware-Update": "Aktualizacja firmware",
     "Firmwarestatus": "Stan firmware",

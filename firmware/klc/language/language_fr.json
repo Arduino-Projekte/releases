@@ -5,7 +5,7 @@
   "minimum_firmware_version": "0.0.385",
   "maximum_firmware_version": "0.0.999",
   "compatibility_version": 1,
-  "package_version": "2.5.8",
+  "package_version": "2.5.9",
   "translations": {
     "Steuerung": "Commande",
     "Abläufe": "Séquences",
@@ -44,6 +44,8 @@
     "bereits vorbereitet": "déjà préparé",
     "leer": "vide",
     "limitiert": "limite",
+    "Detaillog an": "Journal détaillé activé",
+    "Detaillog aus": "Journal détaillé désactivé",
     "frei": "libre",
     "Firmware-Update": "Mise à jour du firmware",
     "Firmwarestatus": "État du firmware",
