@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m-w_0.0.548.bin",
+                     "url":  "knx-led-controller-16m-w_0.0.549.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.548",
-                     "bin":  "knx-led-controller-16m-w_0.0.548.bin",
-                     "file":  "knx-led-controller-16m-w_0.0.548.bin",
-                     "sha256":  "f6099fa86314bd32279fe16a840183e9c1ac814015af3d3c33c3e74c9c0b58d6",
-                     "message":  "Release-Note auf den aktuellen Stand gekuerzt und per static_assert auf 700 Zeichen begrenzt. Sie war unbemerkt auf 11335 Zeichen gewachsen und sprengte damit den Support-Snapshot, der insgesamt nur 8400 Byte hat: Alles nach der Note fehlte dort - Buildzeit, Updatepfad, Flashgroessen, Konfigurationsschema und zehn Diagnoseblöcke. Aufgefallen war das nie, weil jeder Puffer sauber abschneidet statt ueberzulaufen. Die Historie steht im CHANGELOG und in der Versionsliste. Zuletzt ausserdem: Sprachpakete 2.6.0, verlorene Statuswerte werden nachgeholt (B12), Beta-Kanal frei waehlbar, Tetrix je Bild statt je Pixel.",
+                     "version":  "0.0.549",
+                     "bin":  "knx-led-controller-16m-w_0.0.549.bin",
+                     "file":  "knx-led-controller-16m-w_0.0.549.bin",
+                     "sha256":  "5460d504e7ff6039b9b6b9d9020ad72766c2b6702863deb157964272a3f6d7e8",
+                     "message":  "Strombegrenzung kann die Helligkeit innerhalb jeder Leistungsgruppe ueber einen gemeinsamen Dimmfaktor koppeln. Der Dauerlog wird mit fester Dateilaenge heruntergeladen. KNX-Schema 9 ergaenzt Status Betriebsbereit mit 30-s-Lebenszeichen und Wartungs-0 vor Update oder Neustart. Der Status-Neuabgleich nach einem verlorenen Telegramm laeuft nun auch ohne weitere Zustandsaenderung. Die Anmeldung verwendet Rollen-Radiobuttons, Administrator als Vorgabe und meldet per Enter an.",
                      "http_code":  200
                  }
 }
