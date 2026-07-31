@@ -5,7 +5,7 @@
   "minimum_firmware_version": "0.0.385",
   "maximum_firmware_version": "0.0.999",
   "compatibility_version": 1,
-  "package_version": "2.6.0",
+  "package_version": "2.7.0",
   "translations": {
     "Steuerung": "Sterowanie",
     "Abläufe": "Sekwencje",
@@ -2084,6 +2084,14 @@
     "Werksreset (Codewort 165)": "Reset fabryczny (słowo kodowe 165)",
     "Neustart und Werksreset sind ab Werk nicht belegt und müssen hier bewusst zugeordnet werden. Der Werksreset löscht alles: Konfiguration, Abläufe, KNX-Zuordnungen, Sprachpakete sowie LAN- und WLAN-Zugangsdaten. Danach ist der Controller nur noch über den Service-AP erreichbar. Deshalb reagiert er ausschließlich auf das Codewort 165 und auf keinen anderen Wert.": "Restart i reset fabryczny nie są fabrycznie przypisane i trzeba je tutaj świadomie przypisać. Reset fabryczny kasuje wszystko: konfigurację, sekwencje, przypisania KNX, pakiety językowe oraz dane dostępowe LAN i Wi-Fi. Potem sterownik jest osiągalny wyłącznie przez serwisowy punkt dostępu. Dlatego reaguje wyłącznie na słowo kodowe 165 i na żadną inną wartość.",
     "Richtung A und B brauchen jeweils eine eigene KNX-Objektnummer, die auch mit keinem zentralen Objekt kollidieren darf. Standard sind 5 und 6; Objekt 1 ist ab Werk Zentral Ein/Aus. Geprüft wird erst beim Aktivieren.": "Kierunki A i B potrzebują każdy własnego numeru obiektu KNX, który nie może kolidować także z żadnym obiektem centralnym. Domyślne wartości to 5 i 6; obiekt 1 jest fabrycznie centralnym włącz/wyłącz. Sprawdzenie następuje dopiero przy aktywacji.",
-    "Zentrale Objektnummern ansehen": "Zobacz numery obiektów centralnych"
+    "Zentrale Objektnummern ansehen": "Zobacz numery obiektów centralnych",
+    "Helligkeitsverhalten bei Strombegrenzung": "Zachowanie jasności przy ograniczeniu prądu",
+    "Jeder Strang nutzt sein eigenes Stromlimit voll aus. Unterschiedlich lange Stränge können dadurch unterschiedlich hell wirken.": "Każda taśma w pełni wykorzystuje własny limit prądu. Taśmy o różnej długości mogą przez to świecić z różną jasnością.",
+    "Je Strang maximal": "Maksimum na taśmę",
+    "Alle sichtbaren Stränge derselben Leistungsgruppe erhalten den kleinsten erforderlichen Dimmfaktor.": "Wszystkie widoczne taśmy w tej samej grupie mocy używają najmniejszego wymaganego współczynnika ściemniania.",
+    "Innerhalb der Leistungsgruppe gleich": "Jednakowo w grupie mocy",
+    "Status Betriebsbereit": "Stan gotowości",
+    "1 nur bei vollständig betriebsbereitem Controller; zyklisches Lebenszeichen": "1 tylko wtedy, gdy kontroler jest w pełni gotowy do pracy; cykliczny sygnał życia",
+    "Anmelden als": "Zaloguj jako"
   }
 }

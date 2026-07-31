@@ -5,7 +5,7 @@
   "minimum_firmware_version": "0.0.385",
   "maximum_firmware_version": "0.0.999",
   "compatibility_version": 1,
-  "package_version": "2.6.0",
+  "package_version": "2.7.0",
   "translations": {
     "Steuerung": "Controllo",
     "Abläufe": "Sequenze",
@@ -2084,6 +2084,14 @@
     "Werksreset (Codewort 165)": "Ripristino di fabbrica (parola in codice 165)",
     "Neustart und Werksreset sind ab Werk nicht belegt und müssen hier bewusst zugeordnet werden. Der Werksreset löscht alles: Konfiguration, Abläufe, KNX-Zuordnungen, Sprachpakete sowie LAN- und WLAN-Zugangsdaten. Danach ist der Controller nur noch über den Service-AP erreichbar. Deshalb reagiert er ausschließlich auf das Codewort 165 und auf keinen anderen Wert.": "Riavvio e ripristino di fabbrica non sono assegnati di fabbrica e devono essere assegnati qui in modo consapevole. Il ripristino di fabbrica cancella tutto: configurazione, sequenze, assegnazioni KNX, pacchetti lingua nonché le credenziali LAN e Wi-Fi. Successivamente il controller è raggiungibile solo tramite il punto di accesso di servizio. Per questo reagisce esclusivamente alla parola in codice 165 e a nessun altro valore.",
     "Richtung A und B brauchen jeweils eine eigene KNX-Objektnummer, die auch mit keinem zentralen Objekt kollidieren darf. Standard sind 5 und 6; Objekt 1 ist ab Werk Zentral Ein/Aus. Geprüft wird erst beim Aktivieren.": "Le direzioni A e B necessitano ciascuna di un proprio numero di oggetto KNX, che non deve nemmeno essere in conflitto con alcun oggetto centrale. I valori predefiniti sono 5 e 6; l'oggetto 1 è di fabbrica l'accensione/spegnimento centrale. Il controllo avviene solo all'attivazione.",
-    "Zentrale Objektnummern ansehen": "Vedi i numeri degli oggetti centrali"
+    "Zentrale Objektnummern ansehen": "Vedi i numeri degli oggetti centrali",
+    "Helligkeitsverhalten bei Strombegrenzung": "Comportamento della luminosità con limitazione di corrente",
+    "Jeder Strang nutzt sein eigenes Stromlimit voll aus. Unterschiedlich lange Stränge können dadurch unterschiedlich hell wirken.": "Ogni striscia utilizza completamente il proprio limite di corrente. Strisce di lunghezza diversa possono quindi apparire con luminosità differenti.",
+    "Je Strang maximal": "Massimo per striscia",
+    "Alle sichtbaren Stränge derselben Leistungsgruppe erhalten den kleinsten erforderlichen Dimmfaktor.": "Tutte le strisce visibili dello stesso gruppo di potenza usano il fattore di dimmerazione minimo necessario.",
+    "Innerhalb der Leistungsgruppe gleich": "Uguale nel gruppo di potenza",
+    "Status Betriebsbereit": "Stato pronto",
+    "1 nur bei vollständig betriebsbereitem Controller; zyklisches Lebenszeichen": "1 solo quando il controller è completamente operativo; segnale di vita ciclico",
+    "Anmelden als": "Accedi come"
   }
 }
