@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m-w_0.0.550.bin",
+                     "url":  "knx-led-controller-16m-w_0.0.551.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.550",
-                     "bin":  "knx-led-controller-16m-w_0.0.550.bin",
-                     "file":  "knx-led-controller-16m-w_0.0.550.bin",
-                     "sha256":  "aec9943ecf142ed7faac6f0f8a18fb48683f31288e7d2a8e3823dee8fc6f0094",
-                     "message":  "Die Diagnose trennt den persistenten Dauerlog vom allgemeinen Speicherschritt. Ein langsamer LittleFS-Abschluss bleibt im gemessenen Phasenmaximum erkennbar, erzeugt aber keinen eigenen Warn- und Schreibauftrag mehr. Damit sind die selbstverstaerkende Warnkette mit Diagnosecode 2500 im 60-Sekunden-Takt und ihre unnoetigen Flash-Schreibvorgaenge beseitigt.",
+                     "version":  "0.0.551",
+                     "bin":  "knx-led-controller-16m-w_0.0.551.bin",
+                     "file":  "knx-led-controller-16m-w_0.0.551.bin",
+                     "sha256":  "04507c0bfc13d63988912d09ab34feef15048f80f17917323f69e2766af4a167",
+                     "message":  "Die globalen Leistungs- und KNX-Stromformulare verwenden stabile, responsive Raster ohne ueberlappende Beschriftungen; der gemeinsame Stromhinweis liegt platzsparend im Info-Ballon. Der eingebettete Ablauf-Editor misst nur noch seine echte Inhaltsunterkante. Damit kann seine iframe-Hoehe beim Scrollen nicht mehr selbststaendig und unbegrenzt wachsen, und die Fussleiste bleibt erreichbar.",
                      "http_code":  200
                  }
 }
