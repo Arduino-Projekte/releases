@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m_0.0.551.bin",
+                     "url":  "knx-led-controller-16m_0.0.552.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.551",
-                     "bin":  "knx-led-controller-16m_0.0.551.bin",
-                     "file":  "knx-led-controller-16m_0.0.551.bin",
-                     "sha256":  "f7d81c163ee9a49b348ddac38809ea5c39cbe511e93c7a3e2321bcbc7a92ea8a",
-                     "message":  "Die globalen Leistungs- und KNX-Stromformulare verwenden stabile, responsive Raster ohne ueberlappende Beschriftungen; der gemeinsame Stromhinweis liegt platzsparend im Info-Ballon. Der eingebettete Ablauf-Editor misst nur noch seine echte Inhaltsunterkante. Damit kann seine iframe-Hoehe beim Scrollen nicht mehr selbststaendig und unbegrenzt wachsen, und die Fussleiste bleibt erreichbar.",
+                     "version":  "0.0.552",
+                     "bin":  "knx-led-controller-16m_0.0.552.bin",
+                     "file":  "knx-led-controller-16m_0.0.552.bin",
+                     "sha256":  "8d4532988367c02c115ee895733d3f0be5af92e811cc2809bf211d6084252715",
+                     "message":  "KNX-Stromtelegramme verwenden nicht mehr die Quittung der Einbyte-Statuswarteschlange und koennen dadurch keine nachfolgenden Helligkeits-, Farb- oder Schaltstatuswerte mehr irrtuemlich entfernen. Ein bereits an BAOS uebergebener Queue-Kopf bleibt bis zu seiner eigenen Quittung unveraendert; ein neuerer Wert desselben Objekts wird separat dahinter zusammengefasst.",
                      "http_code":  200
                  }
 }

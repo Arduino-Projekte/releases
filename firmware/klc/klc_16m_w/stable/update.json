@@ -6,7 +6,7 @@
                      "version":  "0.0.551",
                      "bin":  "knx-led-controller-16m-w_0.0.551.bin",
                      "file":  "knx-led-controller-16m-w_0.0.551.bin",
-                     "sha256":  "04507c0bfc13d63988912d09ab34feef15048f80f17917323f69e2766af4a167",
+                     "sha256":  "51065e3cd07f82184d02d500b75ebad7bf83314f6b57535b29fa5a98a46fa866",
                      "message":  "Die globalen Leistungs- und KNX-Stromformulare verwenden stabile, responsive Raster ohne ueberlappende Beschriftungen; der gemeinsame Stromhinweis liegt platzsparend im Info-Ballon. Der eingebettete Ablauf-Editor misst nur noch seine echte Inhaltsunterkante. Damit kann seine iframe-Hoehe beim Scrollen nicht mehr selbststaendig und unbegrenzt wachsen, und die Fussleiste bleibt erreichbar.",
                      "http_code":  200
                  }
