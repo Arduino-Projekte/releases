@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.555",
+                      "bin":  "knx-led-controller-16m-w_0.0.555.bin",
+                      "date":  "2026-07-31",
+                      "note":  "Tetrix verwendet nun auch den WLED-Standard fuer das Falltempo: Geschwindigkeit 0 vergibt jedem neuen Block ein eigenes zufaelliges Tempo; Werte 1 bis 255 bleiben bewusst konstant. Neue und zurueckgesetzte Ablaeufe starten deshalb mit 0 statt 180. Bestehende gespeicherte Werte werden nicht ungefragt ueberschrieben. Der Editor erklaert die Sonderbedeutung von 0 direkt am Regler."
+                  },
+                  {
                       "version":  "0.0.554",
                       "bin":  "knx-led-controller-16m-w_0.0.554.bin",
                       "date":  "2026-07-31",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m-w_0.0.551.bin",
                       "date":  "2026-07-31",
                       "note":  "Die globalen Leistungs- und KNX-Stromformulare verwenden stabile, responsive Raster ohne ueberlappende Beschriftungen; der gemeinsame Stromhinweis liegt platzsparend im Info-Ballon. Der eingebettete Ablauf-Editor misst nur noch seine echte Inhaltsunterkante. Damit kann seine iframe-Hoehe beim Scrollen nicht mehr selbststaendig und unbegrenzt wachsen, und die Fussleiste bleibt erreichbar."
-                  },
-                  {
-                      "version":  "0.0.550",
-                      "bin":  "knx-led-controller-16m-w_0.0.550.bin",
-                      "date":  "2026-07-31",
-                      "note":  "Die Diagnose trennt den persistenten Dauerlog vom allgemeinen Speicherschritt. Ein langsamer LittleFS-Abschluss bleibt im gemessenen Phasenmaximum erkennbar, erzeugt aber keinen eigenen Warn- und Schreibauftrag mehr. Damit sind die selbstverstaerkende Warnkette mit Diagnosecode 2500 im 60-Sekunden-Takt und ihre unnoetigen Flash-Schreibvorgaenge beseitigt."
                   }
               ]
 }

@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m-w_0.0.554.bin",
+                     "url":  "knx-led-controller-16m-w_0.0.555.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.554",
-                     "bin":  "knx-led-controller-16m-w_0.0.554.bin",
-                     "file":  "knx-led-controller-16m-w_0.0.554.bin",
-                     "sha256":  "8936c4d872e00f1bd698e9f7f09e48d544d0a86389740bc47cb42ab22cc40cdb",
-                     "message":  "Tetrix verwendet jetzt tatsaechlich den im Ablauf gewaehlten Haupteffekt, statt durch die alte Effektableitung als statische Vollflaeche zu starten. Die Animation folgt dem WLED-Prinzip: erster Block ausserhalb des Strangs, Fall zur Basis, wachsender Stapel und zweisekuendige Ausblendung nach dem Fuellen. Geschwindigkeit und Blockbreite sind an die WLED-Skalierung angepasst.",
+                     "version":  "0.0.555",
+                     "bin":  "knx-led-controller-16m-w_0.0.555.bin",
+                     "file":  "knx-led-controller-16m-w_0.0.555.bin",
+                     "sha256":  "1c60988e0220bbb070f3732b2f462088d65afdf6adb71b8d54605789ecc22f90",
+                     "message":  "Tetrix verwendet nun auch den WLED-Standard fuer das Falltempo: Geschwindigkeit 0 vergibt jedem neuen Block ein eigenes zufaelliges Tempo; Werte 1 bis 255 bleiben bewusst konstant. Neue und zurueckgesetzte Ablaeufe starten deshalb mit 0 statt 180. Bestehende gespeicherte Werte werden nicht ungefragt ueberschrieben. Der Editor erklaert die Sonderbedeutung von 0 direkt am Regler.",
                      "http_code":  200
                  }
 }
