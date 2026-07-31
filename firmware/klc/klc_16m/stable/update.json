@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m_0.0.553.bin",
+                     "url":  "knx-led-controller-16m_0.0.554.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.553",
-                     "bin":  "knx-led-controller-16m_0.0.553.bin",
-                     "file":  "knx-led-controller-16m_0.0.553.bin",
-                     "sha256":  "ea4cbebff2bf9ce0ee9e02d8db9da9f20f96dae0738ae1ed4b7c7f32e6f714b6",
-                     "message":  "Das schnelle Umbenennen eines Ablaufs bleibt auf der Ablaufseite und bestaetigt den dauerhaften Speicherstand direkt am Formular; waehrenddessen ist der Editor gegen konkurrierendes Speichern gesperrt. Speicherkennungen bleiben als exakter 64-Bit-Dezimaltext erhalten. Die laufzeitgleichen Optionen kein Effekt und sofort an/aus erscheinen nur noch einmal. Start- und Stoppabstaende sind eindeutig nach Ausgang und Segment beschriftet.",
+                     "version":  "0.0.554",
+                     "bin":  "knx-led-controller-16m_0.0.554.bin",
+                     "file":  "knx-led-controller-16m_0.0.554.bin",
+                     "sha256":  "5d5ce4c9ace1081386bd67a3dd02c1c61fa51cd414e0b97c24ca5c8868661dc9",
+                     "message":  "Tetrix verwendet jetzt tatsaechlich den im Ablauf gewaehlten Haupteffekt, statt durch die alte Effektableitung als statische Vollflaeche zu starten. Die Animation folgt dem WLED-Prinzip: erster Block ausserhalb des Strangs, Fall zur Basis, wachsender Stapel und zweisekuendige Ausblendung nach dem Fuellen. Geschwindigkeit und Blockbreite sind an die WLED-Skalierung angepasst.",
                      "http_code":  200
                  }
 }

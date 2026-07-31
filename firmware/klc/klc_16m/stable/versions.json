@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.554",
+                      "bin":  "knx-led-controller-16m_0.0.554.bin",
+                      "date":  "2026-07-31",
+                      "note":  "Tetrix verwendet jetzt tatsaechlich den im Ablauf gewaehlten Haupteffekt, statt durch die alte Effektableitung als statische Vollflaeche zu starten. Die Animation folgt dem WLED-Prinzip: erster Block ausserhalb des Strangs, Fall zur Basis, wachsender Stapel und zweisekuendige Ausblendung nach dem Fuellen. Geschwindigkeit und Blockbreite sind an die WLED-Skalierung angepasst."
+                  },
+                  {
                       "version":  "0.0.553",
                       "bin":  "knx-led-controller-16m_0.0.553.bin",
                       "date":  "2026-07-31",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m_0.0.550.bin",
                       "date":  "2026-07-31",
                       "note":  "Die Diagnose trennt den persistenten Dauerlog vom allgemeinen Speicherschritt. Ein langsamer LittleFS-Abschluss bleibt im gemessenen Phasenmaximum erkennbar, erzeugt aber keinen eigenen Warn- und Schreibauftrag mehr. Damit sind die selbstverstaerkende Warnkette mit Diagnosecode 2500 im 60-Sekunden-Takt und ihre unnoetigen Flash-Schreibvorgaenge beseitigt."
-                  },
-                  {
-                      "version":  "0.0.549",
-                      "bin":  "knx-led-controller-16m_0.0.549.bin",
-                      "date":  "2026-07-31",
-                      "note":  "Strombegrenzung kann die Helligkeit innerhalb jeder Leistungsgruppe ueber einen gemeinsamen Dimmfaktor koppeln. Der Dauerlog wird mit fester Dateilaenge heruntergeladen. KNX-Schema 9 ergaenzt Status Betriebsbereit mit 30-s-Lebenszeichen und Wartungs-0 vor Update oder Neustart. Der Status-Neuabgleich nach einem verlorenen Telegramm laeuft nun auch ohne weitere Zustandsaenderung. Die Anmeldung verwendet Rollen-Radiobuttons, Administrator als Vorgabe und meldet per Enter an."
                   }
               ]
 }
