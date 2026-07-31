@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.553",
+                      "bin":  "knx-led-controller-16m-w_0.0.553.bin",
+                      "date":  "2026-07-31",
+                      "note":  "Das schnelle Umbenennen eines Ablaufs bleibt auf der Ablaufseite und bestaetigt den dauerhaften Speicherstand direkt am Formular; waehrenddessen ist der Editor gegen konkurrierendes Speichern gesperrt. Speicherkennungen bleiben als exakter 64-Bit-Dezimaltext erhalten. Die laufzeitgleichen Optionen kein Effekt und sofort an/aus erscheinen nur noch einmal. Start- und Stoppabstaende sind eindeutig nach Ausgang und Segment beschriftet."
+                  },
+                  {
                       "version":  "0.0.552",
                       "bin":  "knx-led-controller-16m-w_0.0.552.bin",
                       "date":  "2026-07-31",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m-w_0.0.549.bin",
                       "date":  "2026-07-31",
                       "note":  "Strombegrenzung kann die Helligkeit innerhalb jeder Leistungsgruppe ueber einen gemeinsamen Dimmfaktor koppeln. Der Dauerlog wird mit fester Dateilaenge heruntergeladen. KNX-Schema 9 ergaenzt Status Betriebsbereit mit 30-s-Lebenszeichen und Wartungs-0 vor Update oder Neustart. Der Status-Neuabgleich nach einem verlorenen Telegramm laeuft nun auch ohne weitere Zustandsaenderung. Die Anmeldung verwendet Rollen-Radiobuttons, Administrator als Vorgabe und meldet per Enter an."
-                  },
-                  {
-                      "version":  "0.0.548",
-                      "bin":  "knx-led-controller-16m-w_0.0.548.bin",
-                      "date":  "2026-07-31",
-                      "note":  "Release-Note auf den aktuellen Stand gekuerzt und per static_assert auf 700 Zeichen begrenzt. Sie war unbemerkt auf 11335 Zeichen gewachsen und sprengte damit den Support-Snapshot, der insgesamt nur 8400 Byte hat: Alles nach der Note fehlte dort - Buildzeit, Updatepfad, Flashgroessen, Konfigurationsschema und zehn Diagnoseblöcke. Aufgefallen war das nie, weil jeder Puffer sauber abschneidet statt ueberzulaufen. Die Historie steht im CHANGELOG und in der Versionsliste. Zuletzt ausserdem: Sprachpakete 2.6.0, verlorene Statuswerte werden nachgeholt (B12), Beta-Kanal frei waehlbar, Tetrix je Bild statt je Pixel."
                   }
               ]
 }
