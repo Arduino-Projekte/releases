@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m_0.0.559.bin",
+                     "url":  "knx-led-controller-16m_0.0.560.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.559",
-                     "bin":  "knx-led-controller-16m_0.0.559.bin",
-                     "file":  "knx-led-controller-16m_0.0.559.bin",
-                     "sha256":  "ff55dff49b54649d7d604211aea6c97f01914267ddb1dd424b4a5d9f42cf8659",
-                     "message":  "Update-, Hilfe- und Sprachdownloads verwenden einen gemeinsamen kooperativen HTTPS-Automaten. DNS, TCP und jeder TLS-Handshakeschritt geben den Hauptloop wieder frei; Metadaten und Dateien werden danach in begrenzten Portionen verarbeitet. Der Speicherstatus lehnt eine fehlende Vorgangs-ID ab und verwendet bei einer theoretisch mehrfach vorhandenen ID den neuesten Ringtreffer.",
+                     "version":  "0.0.560",
+                     "bin":  "knx-led-controller-16m_0.0.560.bin",
+                     "file":  "knx-led-controller-16m_0.0.560.bin",
+                     "sha256":  "d96f2c3caea094f2e54e5390a1e3496ccd8f163eaa5620e78f7d095fd2fde8de",
+                     "message":  "Szenen blenden pixelweise vom zuletzt physisch ausgegebenen RGB/RGBW-Bild zum laufend gerenderten Ziel. Sanft Ein/Aus sind getrennt mit 0..10000 ms in 100-ms-Schritten konfigurierbar; Wechsel, Unterbrechungen, Delays und millis-Ueberlauf bleiben kontinuierlich. Legacy-Fade-ID 2 migriert idempotent, alte KLS2-Payloads bleiben lesbar. Der LED-Masterpool enthaelt feste Snapshot-Puffer; Effektname-Import ist repariert.",
                      "http_code":  200
                  }
 }
