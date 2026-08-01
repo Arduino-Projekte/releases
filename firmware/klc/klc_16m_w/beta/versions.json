@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.558",
+                      "bin":  "knx-led-controller-16m-w_0.0.558.bin",
+                      "date":  "2026-08-01",
+                      "note":  "Die Echtzeit-Auslastung wird aus der P95-Loopdauer eines rollierenden 10-Sekunden-Fensters gegen ein 25-ms-Reaktionsbudget berechnet und live im Dashboard angezeigt. KNX DP 57 meldet 0 bis 100 Prozent, DP 58 einen stabilisierten Ueberlastzustand. Aenderungsschwelle, Mindestabstand und Auffrischung sind auf der KNX-Webseite einstellbar. Dauerhafte Ueberlast setzt Status Betriebsbereit auf 0 und wird an der physischen Statusanzeige als gemeinsamer gelber Puls dargestellt."
+                  },
+                  {
                       "version":  "0.0.555",
                       "bin":  "knx-led-controller-16m-w_0.0.555.bin",
                       "date":  "2026-07-31",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m-w_0.0.552.bin",
                       "date":  "2026-07-31",
                       "note":  "KNX-Stromtelegramme verwenden nicht mehr die Quittung der Einbyte-Statuswarteschlange und koennen dadurch keine nachfolgenden Helligkeits-, Farb- oder Schaltstatuswerte mehr irrtuemlich entfernen. Ein bereits an BAOS uebergebener Queue-Kopf bleibt bis zu seiner eigenen Quittung unveraendert; ein neuerer Wert desselben Objekts wird separat dahinter zusammengefasst."
-                  },
-                  {
-                      "version":  "0.0.551",
-                      "bin":  "knx-led-controller-16m-w_0.0.551.bin",
-                      "date":  "2026-07-31",
-                      "note":  "Die globalen Leistungs- und KNX-Stromformulare verwenden stabile, responsive Raster ohne ueberlappende Beschriftungen; der gemeinsame Stromhinweis liegt platzsparend im Info-Ballon. Der eingebettete Ablauf-Editor misst nur noch seine echte Inhaltsunterkante. Damit kann seine iframe-Hoehe beim Scrollen nicht mehr selbststaendig und unbegrenzt wachsen, und die Fussleiste bleibt erreichbar."
                   }
               ]
 }
