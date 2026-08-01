@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m-w_0.0.558.bin",
+                     "url":  "knx-led-controller-16m-w_0.0.559.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.558",
-                     "bin":  "knx-led-controller-16m-w_0.0.558.bin",
-                     "file":  "knx-led-controller-16m-w_0.0.558.bin",
-                     "sha256":  "ee954ea42a75e74651851b02e1474a128a5d022541c8f12afffa55651ef02545",
-                     "message":  "Die Echtzeit-Auslastung wird aus der P95-Loopdauer eines rollierenden 10-Sekunden-Fensters gegen ein 25-ms-Reaktionsbudget berechnet und live im Dashboard angezeigt. KNX DP 57 meldet 0 bis 100 Prozent, DP 58 einen stabilisierten Ueberlastzustand. Aenderungsschwelle, Mindestabstand und Auffrischung sind auf der KNX-Webseite einstellbar. Dauerhafte Ueberlast setzt Status Betriebsbereit auf 0 und wird an der physischen Statusanzeige als gemeinsamer gelber Puls dargestellt.",
+                     "version":  "0.0.559",
+                     "bin":  "knx-led-controller-16m-w_0.0.559.bin",
+                     "file":  "knx-led-controller-16m-w_0.0.559.bin",
+                     "sha256":  "b780ccde199953e3e0d789fed75d738aed0c1da9b20e2c696964002befc2615e",
+                     "message":  "Update-, Hilfe- und Sprachdownloads verwenden einen gemeinsamen kooperativen HTTPS-Automaten. DNS, TCP und jeder TLS-Handshakeschritt geben den Hauptloop wieder frei; Metadaten und Dateien werden danach in begrenzten Portionen verarbeitet. Der Speicherstatus lehnt eine fehlende Vorgangs-ID ab und verwendet bei einer theoretisch mehrfach vorhandenen ID den neuesten Ringtreffer.",
                      "http_code":  200
                  }
 }

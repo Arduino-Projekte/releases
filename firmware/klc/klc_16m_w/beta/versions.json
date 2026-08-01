@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.559",
+                      "bin":  "knx-led-controller-16m-w_0.0.559.bin",
+                      "date":  "2026-08-01",
+                      "note":  "Update-, Hilfe- und Sprachdownloads verwenden einen gemeinsamen kooperativen HTTPS-Automaten. DNS, TCP und jeder TLS-Handshakeschritt geben den Hauptloop wieder frei; Metadaten und Dateien werden danach in begrenzten Portionen verarbeitet. Der Speicherstatus lehnt eine fehlende Vorgangs-ID ab und verwendet bei einer theoretisch mehrfach vorhandenen ID den neuesten Ringtreffer."
+                  },
+                  {
                       "version":  "0.0.558",
                       "bin":  "knx-led-controller-16m-w_0.0.558.bin",
                       "date":  "2026-08-01",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m-w_0.0.553.bin",
                       "date":  "2026-07-31",
                       "note":  "Das schnelle Umbenennen eines Ablaufs bleibt auf der Ablaufseite und bestaetigt den dauerhaften Speicherstand direkt am Formular; waehrenddessen ist der Editor gegen konkurrierendes Speichern gesperrt. Speicherkennungen bleiben als exakter 64-Bit-Dezimaltext erhalten. Die laufzeitgleichen Optionen kein Effekt und sofort an/aus erscheinen nur noch einmal. Start- und Stoppabstaende sind eindeutig nach Ausgang und Segment beschriftet."
-                  },
-                  {
-                      "version":  "0.0.552",
-                      "bin":  "knx-led-controller-16m-w_0.0.552.bin",
-                      "date":  "2026-07-31",
-                      "note":  "KNX-Stromtelegramme verwenden nicht mehr die Quittung der Einbyte-Statuswarteschlange und koennen dadurch keine nachfolgenden Helligkeits-, Farb- oder Schaltstatuswerte mehr irrtuemlich entfernen. Ein bereits an BAOS uebergebener Queue-Kopf bleibt bis zu seiner eigenen Quittung unveraendert; ein neuerer Wert desselben Objekts wird separat dahinter zusammengefasst."
                   }
               ]
 }
