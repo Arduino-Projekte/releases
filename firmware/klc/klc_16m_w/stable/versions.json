@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.560",
+                      "bin":  "knx-led-controller-16m-w_0.0.560.bin",
+                      "date":  "2026-08-01",
+                      "note":  "Szenen blenden pixelweise vom zuletzt physisch ausgegebenen RGB/RGBW-Bild zum laufend gerenderten Ziel. Sanft Ein/Aus sind getrennt mit 0..10000 ms in 100-ms-Schritten konfigurierbar; Wechsel, Unterbrechungen, Delays und millis-Ueberlauf bleiben kontinuierlich. Legacy-Fade-ID 2 migriert idempotent, alte KLS2-Payloads bleiben lesbar. Der LED-Masterpool enthaelt feste Snapshot-Puffer; Effektname-Import ist repariert."
+                  },
+                  {
                       "version":  "0.0.559",
                       "bin":  "knx-led-controller-16m-w_0.0.559.bin",
                       "date":  "2026-08-01",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m-w_0.0.554.bin",
                       "date":  "2026-07-31",
                       "note":  "Tetrix verwendet jetzt tatsaechlich den im Ablauf gewaehlten Haupteffekt, statt durch die alte Effektableitung als statische Vollflaeche zu starten. Die Animation folgt dem WLED-Prinzip: erster Block ausserhalb des Strangs, Fall zur Basis, wachsender Stapel und zweisekuendige Ausblendung nach dem Fuellen. Geschwindigkeit und Blockbreite sind an die WLED-Skalierung angepasst."
-                  },
-                  {
-                      "version":  "0.0.553",
-                      "bin":  "knx-led-controller-16m-w_0.0.553.bin",
-                      "date":  "2026-07-31",
-                      "note":  "Das schnelle Umbenennen eines Ablaufs bleibt auf der Ablaufseite und bestaetigt den dauerhaften Speicherstand direkt am Formular; waehrenddessen ist der Editor gegen konkurrierendes Speichern gesperrt. Speicherkennungen bleiben als exakter 64-Bit-Dezimaltext erhalten. Die laufzeitgleichen Optionen kein Effekt und sofort an/aus erscheinen nur noch einmal. Start- und Stoppabstaende sind eindeutig nach Ausgang und Segment beschriftet."
                   }
               ]
 }
