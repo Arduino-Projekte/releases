@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.564",
+                      "bin":  "knx-led-controller-16m-w_0.0.564.bin",
+                      "date":  "2026-08-08",
+                      "note":  "Die Wiederherstellung des KNX-LAST-Journals verliert bei einem Dateisystemfehler keine heile Kopie mehr: Eine gueltige Sicherung oder ein gueltiger Temp-Stand bleibt liegen, wenn seine Aktivierung scheitert, und laesst sich beim naechsten Start erneut aktivieren. Entfernt wird nur noch nachweislich Defektes. Bleibt der Dateizustand ungeklaert, wird auch nicht geschrieben."
+                  },
+                  {
                       "version":  "0.0.560",
                       "bin":  "knx-led-controller-16m-w_0.0.560.bin",
                       "date":  "2026-08-01",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m-w_0.0.555.bin",
                       "date":  "2026-07-31",
                       "note":  "Tetrix verwendet nun auch den WLED-Standard fuer das Falltempo: Geschwindigkeit 0 vergibt jedem neuen Block ein eigenes zufaelliges Tempo; Werte 1 bis 255 bleiben bewusst konstant. Neue und zurueckgesetzte Ablaeufe starten deshalb mit 0 statt 180. Bestehende gespeicherte Werte werden nicht ungefragt ueberschrieben. Der Editor erklaert die Sonderbedeutung von 0 direkt am Regler."
-                  },
-                  {
-                      "version":  "0.0.554",
-                      "bin":  "knx-led-controller-16m-w_0.0.554.bin",
-                      "date":  "2026-07-31",
-                      "note":  "Tetrix verwendet jetzt tatsaechlich den im Ablauf gewaehlten Haupteffekt, statt durch die alte Effektableitung als statische Vollflaeche zu starten. Die Animation folgt dem WLED-Prinzip: erster Block ausserhalb des Strangs, Fall zur Basis, wachsender Stapel und zweisekuendige Ausblendung nach dem Fuellen. Geschwindigkeit und Blockbreite sind an die WLED-Skalierung angepasst."
                   }
               ]
 }

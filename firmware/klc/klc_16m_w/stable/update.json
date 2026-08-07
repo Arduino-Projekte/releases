@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m-w_0.0.560.bin",
+                     "url":  "knx-led-controller-16m-w_0.0.564.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.560",
-                     "bin":  "knx-led-controller-16m-w_0.0.560.bin",
-                     "file":  "knx-led-controller-16m-w_0.0.560.bin",
-                     "sha256":  "0129ba4b84e50e0c01d743b19669feac2922c4065c9c698ed7b398ab0bea109a",
-                     "message":  "Szenen blenden pixelweise vom zuletzt physisch ausgegebenen RGB/RGBW-Bild zum laufend gerenderten Ziel. Sanft Ein/Aus sind getrennt mit 0..10000 ms in 100-ms-Schritten konfigurierbar; Wechsel, Unterbrechungen, Delays und millis-Ueberlauf bleiben kontinuierlich. Legacy-Fade-ID 2 migriert idempotent, alte KLS2-Payloads bleiben lesbar. Der LED-Masterpool enthaelt feste Snapshot-Puffer; Effektname-Import ist repariert.",
+                     "version":  "0.0.564",
+                     "bin":  "knx-led-controller-16m-w_0.0.564.bin",
+                     "file":  "knx-led-controller-16m-w_0.0.564.bin",
+                     "sha256":  "561f4d0a768aa0d386b9a81a56053bae2c96a79f9db4f389754eb0a27cab143d",
+                     "message":  "Die Wiederherstellung des KNX-LAST-Journals verliert bei einem Dateisystemfehler keine heile Kopie mehr: Eine gueltige Sicherung oder ein gueltiger Temp-Stand bleibt liegen, wenn seine Aktivierung scheitert, und laesst sich beim naechsten Start erneut aktivieren. Entfernt wird nur noch nachweislich Defektes. Bleibt der Dateizustand ungeklaert, wird auch nicht geschrieben.",
                      "http_code":  200
                  }
 }
