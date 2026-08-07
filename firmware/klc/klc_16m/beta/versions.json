@@ -1,6 +1,24 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.564",
+                      "bin":  "knx-led-controller-16m_0.0.564.bin",
+                      "date":  "2026-08-08",
+                      "note":  "Die Wiederherstellung des KNX-LAST-Journals verliert bei einem Dateisystemfehler keine heile Kopie mehr: Eine gueltige Sicherung oder ein gueltiger Temp-Stand bleibt liegen, wenn seine Aktivierung scheitert, und laesst sich beim naechsten Start erneut aktivieren. Entfernt wird nur noch nachweislich Defektes. Bleibt der Dateizustand ungeklaert, wird auch nicht geschrieben."
+                  },
+                  {
+                      "version":  "0.0.563",
+                      "bin":  "knx-led-controller-16m_0.0.563.bin",
+                      "date":  "2026-08-07",
+                      "note":  "Der dauerhafte KNX-LAST-Zustand prueft Ausgang und Szene jetzt nach genau einer gemeinsamen Regel - fuer den Laufzeitzustand wie fuer die Wiederherstellung nach dem Start. Ein abgeschnittenes, pruefsummenfalsches oder unlesbares Journal wird nicht mehr stillschweigend als fehlend gebucht, sondern mit Grund gemeldet; eine heile Sicherung springt atomar ein. Der Werksreset meldet ein fehlgeschlagenes Loeschen, statt Erfolg zu behaupten."
+                  },
+                  {
+                      "version":  "0.0.562",
+                      "bin":  "knx-led-controller-16m_0.0.562.bin",
+                      "date":  "2026-08-07",
+                      "note":  "Der zuletzt per KNX gewaehlte Zustand je Ausgang - Szene, Farbe und Helligkeit - ueberlebt jetzt Neustart und Stromausfall. Gesichert wird in einem eigenen kleinen atomaren Journal, sobald ein Ausgang per KNX ausgegangen ist und sich der Stand wirklich geaendert hat, spaetestens nach zehn Minuten Ruhe. Die Hauptkonfiguration wird dafuer nie geschrieben. Der Einschaltzustand nach dem Start bleibt unveraendert Sache von power_on_mode."
+                  },
+                  {
                       "version":  "0.0.560",
                       "bin":  "knx-led-controller-16m_0.0.560.bin",
                       "date":  "2026-08-01",
@@ -11,24 +29,6 @@
                       "bin":  "knx-led-controller-16m_0.0.559.bin",
                       "date":  "2026-08-01",
                       "note":  "Update-, Hilfe- und Sprachdownloads verwenden einen gemeinsamen kooperativen HTTPS-Automaten. DNS, TCP und jeder TLS-Handshakeschritt geben den Hauptloop wieder frei; Metadaten und Dateien werden danach in begrenzten Portionen verarbeitet. Der Speicherstatus lehnt eine fehlende Vorgangs-ID ab und verwendet bei einer theoretisch mehrfach vorhandenen ID den neuesten Ringtreffer."
-                  },
-                  {
-                      "version":  "0.0.558",
-                      "bin":  "knx-led-controller-16m_0.0.558.bin",
-                      "date":  "2026-08-01",
-                      "note":  "Die Echtzeit-Auslastung wird aus der P95-Loopdauer eines rollierenden 10-Sekunden-Fensters gegen ein 25-ms-Reaktionsbudget berechnet und live im Dashboard angezeigt. KNX DP 57 meldet 0 bis 100 Prozent, DP 58 einen stabilisierten Ueberlastzustand. Aenderungsschwelle, Mindestabstand und Auffrischung sind auf der KNX-Webseite einstellbar. Dauerhafte Ueberlast setzt Status Betriebsbereit auf 0 und wird an der physischen Statusanzeige als gemeinsamer gelber Puls dargestellt."
-                  },
-                  {
-                      "version":  "0.0.555",
-                      "bin":  "knx-led-controller-16m_0.0.555.bin",
-                      "date":  "2026-07-31",
-                      "note":  "Tetrix verwendet nun auch den WLED-Standard fuer das Falltempo: Geschwindigkeit 0 vergibt jedem neuen Block ein eigenes zufaelliges Tempo; Werte 1 bis 255 bleiben bewusst konstant. Neue und zurueckgesetzte Ablaeufe starten deshalb mit 0 statt 180. Bestehende gespeicherte Werte werden nicht ungefragt ueberschrieben. Der Editor erklaert die Sonderbedeutung von 0 direkt am Regler."
-                  },
-                  {
-                      "version":  "0.0.554",
-                      "bin":  "knx-led-controller-16m_0.0.554.bin",
-                      "date":  "2026-07-31",
-                      "note":  "Tetrix verwendet jetzt tatsaechlich den im Ablauf gewaehlten Haupteffekt, statt durch die alte Effektableitung als statische Vollflaeche zu starten. Die Animation folgt dem WLED-Prinzip: erster Block ausserhalb des Strangs, Fall zur Basis, wachsender Stapel und zweisekuendige Ausblendung nach dem Fuellen. Geschwindigkeit und Blockbreite sind an die WLED-Skalierung angepasst."
                   }
               ]
 }
