@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "V4.26.8.15.3",
+                      "bin":  "word-clock-IV_V4.26.8.15.3.bin",
+                      "date":  "2026-08-15",
+                      "note":  "Englisch und Tuerkisch stehen jetzt zusaetzlich zu Deutsch und Russisch als vollstaendige Word-Clock-Sprachen bereit. Wortmatrix, Zeitphrasen, Vorschau, Uebergangsanimationen, Statusanzeige sowie CSV-Import und -Export verwenden die gewaehlte Sprache konsistent."
+                  },
+                  {
                       "version":  "V4.26.8.15.2",
                       "bin":  "word-clock-IV_V4.26.8.15.2.bin",
                       "date":  "2026-08-15",
@@ -21,12 +27,6 @@
                   {
                       "version":  "V4.26.5.31.21",
                       "bin":  "word-clock-IV_V4.26.5.31.21.bin",
-                      "date":  "2026-05-31",
-                      "note":  "Automatisch nach erfolgreichem Arduino-CLI-Build"
-                  },
-                  {
-                      "version":  "V4.26.5.31.20",
-                      "bin":  "word-clock-IV_V4.26.5.31.20.bin",
                       "date":  "2026-05-31",
                       "note":  "Automatisch nach erfolgreichem Arduino-CLI-Build"
                   }
