@@ -1,6 +1,18 @@
 {
     "items":  [
                   {
+                      "version":  "V4.26.8.15.2",
+                      "bin":  "word-clock-IV_V4.26.8.15.2.bin",
+                      "date":  "2026-08-15",
+                      "note":  "Der WLAN-Start laeuft nun nicht blockierend im Hauptloop, sodass Anzeige und Anwendung waehrend des Startzeitfensters weiterarbeiten. Ein bewusst erzwungener AP-Modus hat jederzeit Vorrang vor der Automatik. Der Notfall-AP sucht weiterhin regelmaessig nach dem gespeicherten WLAN und kehrt nach erfolgreicher Verbindung automatisch in den normalen STA-Betrieb zurueck."
+                  },
+                  {
+                      "version":  "V4.26.8.15.1",
+                      "bin":  "word-clock-IV_V4.26.8.15.1.bin",
+                      "date":  "2026-08-15",
+                      "note":  "Der Notfall-AP sucht selbststaendig weiter nach dem gespeicherten WLAN und wechselt nach erfolgreicher Verbindung ohne Neustart in den normalen WLAN-Betrieb zurueck. Beim Start wartet die Uhr laenger auf den Router; ein bewusst erzwungener AP-Modus bleibt bestehen. Bleibt der Notfall-AP dauerhaft ohne Verbindung, sorgt ein protokollierter Neustart fuer einen weiteren Wiederherstellungsversuch."
+                  },
+                  {
                       "version":  "V4.26.5.31.22",
                       "bin":  "word-clock-IV_V4.26.5.31.22.bin",
                       "date":  "2026-05-31",
@@ -15,18 +27,6 @@
                   {
                       "version":  "V4.26.5.31.20",
                       "bin":  "word-clock-IV_V4.26.5.31.20.bin",
-                      "date":  "2026-05-31",
-                      "note":  "Automatisch nach erfolgreichem Arduino-CLI-Build"
-                  },
-                  {
-                      "version":  "V4.26.5.31.19",
-                      "bin":  "word-clock-IV_V4.26.5.31.19.bin",
-                      "date":  "2026-05-31",
-                      "note":  "Automatisch nach erfolgreichem Arduino-CLI-Build"
-                  },
-                  {
-                      "version":  "V4.26.5.31.18",
-                      "bin":  "word-clock-IV_V4.26.5.31.18.bin",
                       "date":  "2026-05-31",
                       "note":  "Automatisch nach erfolgreichem Arduino-CLI-Build"
                   }
