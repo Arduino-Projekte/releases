@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "V2.26.8.15.5",
+                      "bin":  "equinox-clock_V2.26.8.15.5.bin",
+                      "date":  "2026-08-15",
+                      "note":  "Automatisch nach erfolgreichem Arduino-CLI-Build"
+                  },
+                  {
                       "version":  "V2.26.4.3.33",
                       "bin":  "equinox-clock_V2.26.4.3.33.bin",
                       "date":  "2026-05-29",
@@ -16,7 +22,7 @@
                       "version":  "V2.26.3.15.2",
                       "bin":  "equinox-lock_V2.26.3.15.2.bin",
                       "date":  "2026-03-14",
-                      "note":  "Rollback mÃ¶glich"
+                      "note":  "Rollback mÃƒÂ¶glich"
                   }
               ]
 }
