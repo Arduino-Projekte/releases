@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.569",
+                      "bin":  "knx-led-controller-16m_0.0.569.bin",
+                      "date":  "2026-08-16",
+                      "note":  "HTTPS startet nur mit plausibler aktueller Uhrzeit aus KNX DP 18/19 oder einer authentifizierten Admin-Browser-Sitzung; die Buildzeit bleibt reine Diagnose. Automatische Online-PrÃ¼fungen warten ohne Zeitanker unbegrenzt, manuelle Abrufe brechen vor DNS/TLS ab. Ein erkannter LittleFS-Layoutwechsel blockiert zentral alle normalen Writer. Erst ADMIN+CSRF-BestÃ¤tigung, erfolgreich verifizierter Defaults-Commit und quittierter Pending-Marker lÃ¶sen den Schreibschutz; Fehler lassen Marker und Sperre aktiv."
+                  },
+                  {
                       "version":  "0.0.568",
                       "bin":  "knx-led-controller-16m_0.0.568.bin",
                       "date":  "2026-08-16",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m_0.0.564.bin",
                       "date":  "2026-08-16",
                       "note":  "Die Wiederherstellung des KNX-LAST-Journals verliert bei einem Dateisystemfehler keine heile Kopie mehr: Eine gueltige Sicherung oder ein gueltiger Temp-Stand bleibt liegen, wenn seine Aktivierung scheitert, und laesst sich beim naechsten Start erneut aktivieren. Entfernt wird nur noch nachweislich Defektes. Bleibt der Dateizustand ungeklaert, wird auch nicht geschrieben."
-                  },
-                  {
-                      "version":  "0.0.560",
-                      "bin":  "knx-led-controller-16m_0.0.560.bin",
-                      "date":  "2026-08-01",
-                      "note":  "Szenen blenden pixelweise vom zuletzt physisch ausgegebenen RGB/RGBW-Bild zum laufend gerenderten Ziel. Sanft Ein/Aus sind getrennt mit 0..10000 ms in 100-ms-Schritten konfigurierbar; Wechsel, Unterbrechungen, Delays und millis-Ueberlauf bleiben kontinuierlich. Legacy-Fade-ID 2 migriert idempotent, alte KLS2-Payloads bleiben lesbar. Der LED-Masterpool enthaelt feste Snapshot-Puffer; Effektname-Import ist repariert."
                   }
               ]
 }
