@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.568",
+                      "bin":  "knx-led-controller-16m_0.0.568.bin",
+                      "date":  "2026-08-16",
+                      "note":  "HTTPS arbeitet ohne Trust-Store strikt fail-closed; OTA, Sprache und Hilfe verwenden gemeinsam die vier Let\u0027s-Encrypt-Roots. Nur KNX oder eine Admin-Sitzung mit CSRF darf den plausibilitÃ¤tsgeprÃ¼ften TLS-Zeitanker setzen. Firmware-Uploads werden bei START und DONE live autorisiert und vollstÃ¤ndig zurÃ¼ckgesetzt. Ein CRC-geschÃ¼tzter Marker im reservierten Core-EEPROM erkennt kÃ¼nftige LittleFS-Layoutwechsel, ohne Ã¤ltere markerlose StÃ¤nde als erkannt auszugeben. Pytest rekonstruiert alle ausgelieferten JavaScript-Ausgaben fÃ¼r beide Boardprofile und prÃ¼ft sie mit Node.js."
+                  },
+                  {
                       "version":  "0.0.566",
                       "bin":  "knx-led-controller-16m_0.0.566.bin",
                       "date":  "2026-08-16",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m_0.0.560.bin",
                       "date":  "2026-08-01",
                       "note":  "Szenen blenden pixelweise vom zuletzt physisch ausgegebenen RGB/RGBW-Bild zum laufend gerenderten Ziel. Sanft Ein/Aus sind getrennt mit 0..10000 ms in 100-ms-Schritten konfigurierbar; Wechsel, Unterbrechungen, Delays und millis-Ueberlauf bleiben kontinuierlich. Legacy-Fade-ID 2 migriert idempotent, alte KLS2-Payloads bleiben lesbar. Der LED-Masterpool enthaelt feste Snapshot-Puffer; Effektname-Import ist repariert."
-                  },
-                  {
-                      "version":  "0.0.559",
-                      "bin":  "knx-led-controller-16m_0.0.559.bin",
-                      "date":  "2026-08-01",
-                      "note":  "Update-, Hilfe- und Sprachdownloads verwenden einen gemeinsamen kooperativen HTTPS-Automaten. DNS, TCP und jeder TLS-Handshakeschritt geben den Hauptloop wieder frei; Metadaten und Dateien werden danach in begrenzten Portionen verarbeitet. Der Speicherstatus lehnt eine fehlende Vorgangs-ID ab und verwendet bei einer theoretisch mehrfach vorhandenen ID den neuesten Ringtreffer."
                   }
               ]
 }
