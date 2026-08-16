@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.572",
+                      "bin":  "knx-led-controller-16m-w_0.0.572.bin",
+                      "date":  "2026-08-16",
+                      "note":  "Versionshistorien-Installationen sind nur noch mit eigener formal gueltiger SHA-256-Pruefsumme moeglich; fehlende/ungueltige Digests bleiben fail-closed. /update koppelt Fehlercode direkt an last_action. Die Download-Diagnose erfasst Start-, TCP-/TLS-/Header-Zeit, Dauer, Durchsatz, maximale Leseluecke und Heap vor/minimal/final. last_action- und LittleFS-Hosttests wurden semantisch erweitert; TLS-, ADMIN/CSRF-, Upload- und Layoutschutz bleiben unveraendert."
+                  },
+                  {
                       "version":  "0.0.571",
                       "bin":  "knx-led-controller-16m-w_0.0.571.bin",
                       "date":  "2026-08-16",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m-w_0.0.568.bin",
                       "date":  "2026-08-16",
                       "note":  "HTTPS arbeitet ohne Trust-Store strikt fail-closed; OTA, Sprache und Hilfe verwenden gemeinsam die vier Let\u0027s-Encrypt-Roots. Nur KNX oder eine Admin-Sitzung mit CSRF darf den plausibilitätsgeprüften TLS-Zeitanker setzen. Firmware-Uploads werden bei START und DONE live autorisiert und vollständig zurückgesetzt. Ein CRC-geschützter Marker im reservierten Core-EEPROM erkennt künftige LittleFS-Layoutwechsel, ohne ältere markerlose Stände als erkannt auszugeben. Pytest rekonstruiert alle ausgelieferten JavaScript-Ausgaben für beide Boardprofile und prüft sie mit Node.js."
-                  },
-                  {
-                      "version":  "0.0.566",
-                      "bin":  "knx-led-controller-16m-w_0.0.566.bin",
-                      "date":  "2026-08-16",
-                      "note":  "Online-Updates vertrauen jetzt den vier offiziellen Let\u0027s-Encrypt-Roots X1, X2, YR und YE und pruefen, dass alle vier geladen wurden. TLS-Fehler bleiben mit BearSSL-Code und Klartext in Manifest, Serial- und Ereignislog erhalten. Der Support-Snapshot zeigt Anker, Ablaufdaten und gemessenen Heapbedarf; /update erklaert Vertrauensfehler und verweist auf den lokalen .bin-Weg. Fail-closed bleibt aktiv."
                   }
               ]
 }

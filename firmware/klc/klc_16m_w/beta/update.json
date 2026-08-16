@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m-w_0.0.571.bin",
+                     "url":  "knx-led-controller-16m-w_0.0.572.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.571",
-                     "bin":  "knx-led-controller-16m-w_0.0.571.bin",
-                     "file":  "knx-led-controller-16m-w_0.0.571.bin",
-                     "sha256":  "6d9efcbcaca4e4a2213519e2943adff1c46f578759f0fa89a9b83580bfdc206d",
-                     "message":  "OTA-last_action besitzt seinen Klartext jetzt in einem eigenen Puffer statt einen Aufruferzeiger zu speichern. Der Firmwaredownload protokolliert Start, Aufbauphasen mit Zeit, HTTP-Kopfgröße, groben Fortschritt und Fehlercode plus Klartext; /update und Support zeigen die Downloaddiagnose. Entwicklungsassets werden nicht immutable gecacht. Die LittleFS-, TLS-, ADMIN/CSRF- und Upload-Schutzregeln bleiben unverändert.",
+                     "version":  "0.0.572",
+                     "bin":  "knx-led-controller-16m-w_0.0.572.bin",
+                     "file":  "knx-led-controller-16m-w_0.0.572.bin",
+                     "sha256":  "f50f5c819b1b2f8f97d87e7523873d97ce76783dc7099a8454dc98ca3db95d3c",
+                     "message":  "Versionshistorien-Installationen sind nur noch mit eigener formal gueltiger SHA-256-Pruefsumme moeglich; fehlende/ungueltige Digests bleiben fail-closed. /update koppelt Fehlercode direkt an last_action. Die Download-Diagnose erfasst Start-, TCP-/TLS-/Header-Zeit, Dauer, Durchsatz, maximale Leseluecke und Heap vor/minimal/final. last_action- und LittleFS-Hosttests wurden semantisch erweitert; TLS-, ADMIN/CSRF-, Upload- und Layoutschutz bleiben unveraendert.",
                      "http_code":  200
                  }
 }
