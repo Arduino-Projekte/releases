@@ -1,4 +1,6 @@
 {
-    "version":  "V2.26.8.16.2",
-    "bin":  "moon-clock_V2.26.8.16.2.bin"
+    "version":  "V2.26.8.16.3",
+    "bin":  "moon-clock_V2.26.8.16.3.bin",
+    "sha256":  "e8f0fa03e4d768896dbcfa708bb5d79d33f3f504edd3d05326af85d2c664e296",
+    "size":  506800
 }
