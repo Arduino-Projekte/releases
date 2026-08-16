@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.566",
+                      "bin":  "knx-led-controller-16m-w_0.0.566.bin",
+                      "date":  "2026-08-16",
+                      "note":  "Online-Updates vertrauen jetzt den vier offiziellen Let\u0027s-Encrypt-Roots X1, X2, YR und YE und pruefen, dass alle vier geladen wurden. TLS-Fehler bleiben mit BearSSL-Code und Klartext in Manifest, Serial- und Ereignislog erhalten. Der Support-Snapshot zeigt Anker, Ablaufdaten und gemessenen Heapbedarf; /update erklaert Vertrauensfehler und verweist auf den lokalen .bin-Weg. Fail-closed bleibt aktiv."
+                  },
+                  {
                       "version":  "0.0.565",
                       "bin":  "knx-led-controller-16m-w_0.0.565.bin",
                       "date":  "2026-08-16",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m-w_0.0.562.bin",
                       "date":  "2026-08-07",
                       "note":  "Der zuletzt per KNX gewaehlte Zustand je Ausgang - Szene, Farbe und Helligkeit - ueberlebt jetzt Neustart und Stromausfall. Gesichert wird in einem eigenen kleinen atomaren Journal, sobald ein Ausgang per KNX ausgegangen ist und sich der Stand wirklich geaendert hat, spaetestens nach zehn Minuten Ruhe. Die Hauptkonfiguration wird dafuer nie geschrieben. Der Einschaltzustand nach dem Start bleibt unveraendert Sache von power_on_mode."
-                  },
-                  {
-                      "version":  "0.0.560",
-                      "bin":  "knx-led-controller-16m-w_0.0.560.bin",
-                      "date":  "2026-08-01",
-                      "note":  "Szenen blenden pixelweise vom zuletzt physisch ausgegebenen RGB/RGBW-Bild zum laufend gerenderten Ziel. Sanft Ein/Aus sind getrennt mit 0..10000 ms in 100-ms-Schritten konfigurierbar; Wechsel, Unterbrechungen, Delays und millis-Ueberlauf bleiben kontinuierlich. Legacy-Fade-ID 2 migriert idempotent, alte KLS2-Payloads bleiben lesbar. Der LED-Masterpool enthaelt feste Snapshot-Puffer; Effektname-Import ist repariert."
                   }
               ]
 }
