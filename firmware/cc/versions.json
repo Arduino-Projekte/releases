@@ -1,10 +1,16 @@
 {
     "items":  [
                   {
+                      "version":  "V2.26.8.16.2",
+                      "bin":  "clock-clock24_V2.26.8.16.2.bin",
+                      "date":  "2026-08-16",
+                      "note":  "Persistenzzugriffe entprellt und dedupliziert; Manifest und Geocoding asynchron; strikte Validierung der Slave-WLAN-Befehle vor RS485-Ausgabe."
+                  },
+                  {
                       "version":  "V2.26.8.16.1",
                       "bin":  "clock-clock24_V2.26.8.16.1.bin",
                       "date":  "2026-08-16",
-                      "note":  "Automatisch nach erfolgreichem Arduino-CLI-Build"
+                      "note":  "Nicht-blockierender WLAN-Auto-Reconnect mit 5/10/30/60-s-Backoff; NTP, Webserver und Wetter werden nach Reconnect aktualisiert; Slave-Auto-Off bleibt erhalten."
                   },
                   {
                       "version":  "V2.26.6.1.1",
