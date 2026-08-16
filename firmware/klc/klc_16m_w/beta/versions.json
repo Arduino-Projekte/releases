@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.571",
+                      "bin":  "knx-led-controller-16m-w_0.0.571.bin",
+                      "date":  "2026-08-16",
+                      "note":  "OTA-last_action besitzt seinen Klartext jetzt in einem eigenen Puffer statt einen Aufruferzeiger zu speichern. Der Firmwaredownload protokolliert Start, Aufbauphasen mit Zeit, HTTP-Kopfgröße, groben Fortschritt und Fehlercode plus Klartext; /update und Support zeigen die Downloaddiagnose. Entwicklungsassets werden nicht immutable gecacht. Die LittleFS-, TLS-, ADMIN/CSRF- und Upload-Schutzregeln bleiben unverändert."
+                  },
+                  {
                       "version":  "0.0.570",
                       "bin":  "knx-led-controller-16m-w_0.0.570.bin",
                       "date":  "2026-08-16",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m-w_0.0.566.bin",
                       "date":  "2026-08-16",
                       "note":  "Online-Updates vertrauen jetzt den vier offiziellen Let\u0027s-Encrypt-Roots X1, X2, YR und YE und pruefen, dass alle vier geladen wurden. TLS-Fehler bleiben mit BearSSL-Code und Klartext in Manifest, Serial- und Ereignislog erhalten. Der Support-Snapshot zeigt Anker, Ablaufdaten und gemessenen Heapbedarf; /update erklaert Vertrauensfehler und verweist auf den lokalen .bin-Weg. Fail-closed bleibt aktiv."
-                  },
-                  {
-                      "version":  "0.0.565",
-                      "bin":  "knx-led-controller-16m-w_0.0.565.bin",
-                      "date":  "2026-08-16",
-                      "note":  "Login-Rueckspruenge landen nur noch auf echten GET-Seiten und weisen auf verworfene Formulareingaben hin. Die Update-Seite liefert geprueftes JavaScript, trennt BIN-Webupload und UF2/BOOTSEL eindeutig und zeigt laufende oder fehlgeschlagene Online-Pruefungen samt DNS-/TCP-/TLS-Grund. Abgebrochene Web-Auslieferungen werden mit Anzahl, Route und Fehler protokolliert."
                   }
               ]
 }

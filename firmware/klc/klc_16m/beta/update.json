@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m_0.0.570.bin",
+                     "url":  "knx-led-controller-16m_0.0.571.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.570",
-                     "bin":  "knx-led-controller-16m_0.0.570.bin",
-                     "file":  "knx-led-controller-16m_0.0.570.bin",
-                     "sha256":  "e8eff9c434b9f799d43c297b345b33072219dc9cfd008b6cac2755634638d849",
-                     "message":  "LittleFS-Layoutwechsel mounten vor Admin-Bestätigung strikt nicht-destruktiv: Arduino-Pico 5.6.0 Auto-Format wird vor begin() deaktiviert, Pending-Marker bleiben auch bei Mountfehlern persistent. Nur ADMIN+CSRF darf explizit formatieren; erst Format, Mount, verifizierter Pending-Marker, atomarer Defaults-Commit mit Rücklesen und Markerquittierung lösen Recovery und Schreibschutz. OTA-Statistik besitzt keinen eigenen Mountpfad mehr; TLS-Schutz aus 0.0.569 bleibt unverändert.",
+                     "version":  "0.0.571",
+                     "bin":  "knx-led-controller-16m_0.0.571.bin",
+                     "file":  "knx-led-controller-16m_0.0.571.bin",
+                     "sha256":  "dc63671fe9f5819630688a069fb96575ba6623b31af22823476fa38b175531be",
+                     "message":  "OTA-last_action besitzt seinen Klartext jetzt in einem eigenen Puffer statt einen Aufruferzeiger zu speichern. Der Firmwaredownload protokolliert Start, Aufbauphasen mit Zeit, HTTP-Kopfgröße, groben Fortschritt und Fehlercode plus Klartext; /update und Support zeigen die Downloaddiagnose. Entwicklungsassets werden nicht immutable gecacht. Die LittleFS-, TLS-, ADMIN/CSRF- und Upload-Schutzregeln bleiben unverändert.",
                      "http_code":  200
                  }
 }
