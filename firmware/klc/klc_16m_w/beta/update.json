@@ -6,7 +6,7 @@
                      "version":  "0.0.564",
                      "bin":  "knx-led-controller-16m-w_0.0.564.bin",
                      "file":  "knx-led-controller-16m-w_0.0.564.bin",
-                     "sha256":  "561f4d0a768aa0d386b9a81a56053bae2c96a79f9db4f389754eb0a27cab143d",
+                     "sha256":  "5214705f5c843f4868f85f390884b2b37cb6c2769fcf10eacd17c4e90aab8000",
                      "message":  "Die Wiederherstellung des KNX-LAST-Journals verliert bei einem Dateisystemfehler keine heile Kopie mehr: Eine gueltige Sicherung oder ein gueltiger Temp-Stand bleibt liegen, wenn seine Aktivierung scheitert, und laesst sich beim naechsten Start erneut aktivieren. Entfernt wird nur noch nachweislich Defektes. Bleibt der Dateizustand ungeklaert, wird auch nicht geschrieben.",
                      "http_code":  200
                  }
