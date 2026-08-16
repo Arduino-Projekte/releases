@@ -1,6 +1,18 @@
 {
     "items":  [
                   {
+                      "version":  "V2.26.8.16.2",
+                      "bin":  "moon-clock_V2.26.8.16.2.bin",
+                      "date":  "2026-08-16",
+                      "note":  "Automatisch nach erfolgreichem Arduino-CLI-Build"
+                  },
+                  {
+                      "version":  "V2.26.8.16.1",
+                      "bin":  "moon-clock_V2.26.8.16.1.bin",
+                      "date":  "2026-08-16",
+                      "note":  "Automatisch nach erfolgreichem Arduino-CLI-Build"
+                  },
+                  {
                       "version":  "V2.26.4.7.1",
                       "bin":  "moon-clock_V2.26.4.7.1.bin",
                       "date":  "2026-06-03",
