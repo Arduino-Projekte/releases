@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m_0.0.565.bin",
+                     "url":  "knx-led-controller-16m_0.0.566.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.565",
-                     "bin":  "knx-led-controller-16m_0.0.565.bin",
-                     "file":  "knx-led-controller-16m_0.0.565.bin",
-                     "sha256":  "35a9d23793c34c79b1281c1417f5ae8910d5ce0a8aeae47d8f65ee4d659d7e32",
-                     "message":  "Login-Rueckspruenge landen nur noch auf echten GET-Seiten und weisen auf verworfene Formulareingaben hin. Die Update-Seite liefert geprueftes JavaScript, trennt BIN-Webupload und UF2/BOOTSEL eindeutig und zeigt laufende oder fehlgeschlagene Online-Pruefungen samt DNS-/TCP-/TLS-Grund. Abgebrochene Web-Auslieferungen werden mit Anzahl, Route und Fehler protokolliert.",
+                     "version":  "0.0.566",
+                     "bin":  "knx-led-controller-16m_0.0.566.bin",
+                     "file":  "knx-led-controller-16m_0.0.566.bin",
+                     "sha256":  "4e5329a36b75cf8cd6783c9c873f69e1fb7dcdfe2afba8db821898671cda8e09",
+                     "message":  "Online-Updates vertrauen jetzt den vier offiziellen Let\u0027s-Encrypt-Roots X1, X2, YR und YE und pruefen, dass alle vier geladen wurden. TLS-Fehler bleiben mit BearSSL-Code und Klartext in Manifest, Serial- und Ereignislog erhalten. Der Support-Snapshot zeigt Anker, Ablaufdaten und gemessenen Heapbedarf; /update erklaert Vertrauensfehler und verweist auf den lokalen .bin-Weg. Fail-closed bleibt aktiv.",
                      "http_code":  200
                  }
 }

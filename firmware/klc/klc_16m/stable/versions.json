@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.566",
+                      "bin":  "knx-led-controller-16m_0.0.566.bin",
+                      "date":  "2026-08-16",
+                      "note":  "Online-Updates vertrauen jetzt den vier offiziellen Let\u0027s-Encrypt-Roots X1, X2, YR und YE und pruefen, dass alle vier geladen wurden. TLS-Fehler bleiben mit BearSSL-Code und Klartext in Manifest, Serial- und Ereignislog erhalten. Der Support-Snapshot zeigt Anker, Ablaufdaten und gemessenen Heapbedarf; /update erklaert Vertrauensfehler und verweist auf den lokalen .bin-Weg. Fail-closed bleibt aktiv."
+                  },
+                  {
                       "version":  "0.0.565",
                       "bin":  "knx-led-controller-16m_0.0.565.bin",
                       "date":  "2026-08-16",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m_0.0.559.bin",
                       "date":  "2026-08-01",
                       "note":  "Update-, Hilfe- und Sprachdownloads verwenden einen gemeinsamen kooperativen HTTPS-Automaten. DNS, TCP und jeder TLS-Handshakeschritt geben den Hauptloop wieder frei; Metadaten und Dateien werden danach in begrenzten Portionen verarbeitet. Der Speicherstatus lehnt eine fehlende Vorgangs-ID ab und verwendet bei einer theoretisch mehrfach vorhandenen ID den neuesten Ringtreffer."
-                  },
-                  {
-                      "version":  "0.0.558",
-                      "bin":  "knx-led-controller-16m_0.0.558.bin",
-                      "date":  "2026-08-01",
-                      "note":  "Die Echtzeit-Auslastung wird aus der P95-Loopdauer eines rollierenden 10-Sekunden-Fensters gegen ein 25-ms-Reaktionsbudget berechnet und live im Dashboard angezeigt. KNX DP 57 meldet 0 bis 100 Prozent, DP 58 einen stabilisierten Ueberlastzustand. Aenderungsschwelle, Mindestabstand und Auffrischung sind auf der KNX-Webseite einstellbar. Dauerhafte Ueberlast setzt Status Betriebsbereit auf 0 und wird an der physischen Statusanzeige als gemeinsamer gelber Puls dargestellt."
                   }
               ]
 }
