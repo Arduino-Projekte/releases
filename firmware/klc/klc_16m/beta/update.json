@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m_0.0.564.bin",
+                     "url":  "knx-led-controller-16m_0.0.565.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.564",
-                     "bin":  "knx-led-controller-16m_0.0.564.bin",
-                     "file":  "knx-led-controller-16m_0.0.564.bin",
-                     "sha256":  "09e8ca43b4aa1a436158267b74fdc41c6d4d506717d14b176127062520f89bb6",
-                     "message":  "Die Wiederherstellung des KNX-LAST-Journals verliert bei einem Dateisystemfehler keine heile Kopie mehr: Eine gueltige Sicherung oder ein gueltiger Temp-Stand bleibt liegen, wenn seine Aktivierung scheitert, und laesst sich beim naechsten Start erneut aktivieren. Entfernt wird nur noch nachweislich Defektes. Bleibt der Dateizustand ungeklaert, wird auch nicht geschrieben.",
+                     "version":  "0.0.565",
+                     "bin":  "knx-led-controller-16m_0.0.565.bin",
+                     "file":  "knx-led-controller-16m_0.0.565.bin",
+                     "sha256":  "35a9d23793c34c79b1281c1417f5ae8910d5ce0a8aeae47d8f65ee4d659d7e32",
+                     "message":  "Login-Rueckspruenge landen nur noch auf echten GET-Seiten und weisen auf verworfene Formulareingaben hin. Die Update-Seite liefert geprueftes JavaScript, trennt BIN-Webupload und UF2/BOOTSEL eindeutig und zeigt laufende oder fehlgeschlagene Online-Pruefungen samt DNS-/TCP-/TLS-Grund. Abgebrochene Web-Auslieferungen werden mit Anzahl, Route und Fehler protokolliert.",
                      "http_code":  200
                  }
 }
