@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.565",
+                      "bin":  "knx-led-controller-16m-w_0.0.565.bin",
+                      "date":  "2026-08-16",
+                      "note":  "Login-Rueckspruenge landen nur noch auf echten GET-Seiten und weisen auf verworfene Formulareingaben hin. Die Update-Seite liefert geprueftes JavaScript, trennt BIN-Webupload und UF2/BOOTSEL eindeutig und zeigt laufende oder fehlgeschlagene Online-Pruefungen samt DNS-/TCP-/TLS-Grund. Abgebrochene Web-Auslieferungen werden mit Anzahl, Route und Fehler protokolliert."
+                  },
+                  {
                       "version":  "0.0.564",
                       "bin":  "knx-led-controller-16m-w_0.0.564.bin",
                       "date":  "2026-08-16",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m-w_0.0.558.bin",
                       "date":  "2026-08-01",
                       "note":  "Die Echtzeit-Auslastung wird aus der P95-Loopdauer eines rollierenden 10-Sekunden-Fensters gegen ein 25-ms-Reaktionsbudget berechnet und live im Dashboard angezeigt. KNX DP 57 meldet 0 bis 100 Prozent, DP 58 einen stabilisierten Ueberlastzustand. Aenderungsschwelle, Mindestabstand und Auffrischung sind auf der KNX-Webseite einstellbar. Dauerhafte Ueberlast setzt Status Betriebsbereit auf 0 und wird an der physischen Statusanzeige als gemeinsamer gelber Puls dargestellt."
-                  },
-                  {
-                      "version":  "0.0.555",
-                      "bin":  "knx-led-controller-16m-w_0.0.555.bin",
-                      "date":  "2026-07-31",
-                      "note":  "Tetrix verwendet nun auch den WLED-Standard fuer das Falltempo: Geschwindigkeit 0 vergibt jedem neuen Block ein eigenes zufaelliges Tempo; Werte 1 bis 255 bleiben bewusst konstant. Neue und zurueckgesetzte Ablaeufe starten deshalb mit 0 statt 180. Bestehende gespeicherte Werte werden nicht ungefragt ueberschrieben. Der Editor erklaert die Sonderbedeutung von 0 direkt am Regler."
                   }
               ]
 }
