@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m-w_0.0.568.bin",
+                     "url":  "knx-led-controller-16m-w_0.0.569.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.568",
-                     "bin":  "knx-led-controller-16m-w_0.0.568.bin",
-                     "file":  "knx-led-controller-16m-w_0.0.568.bin",
-                     "sha256":  "bd5e0b72a4f0b26bcf54ff00776a4b129e8dfe902c76252e2e34d3b01256df62",
-                     "message":  "HTTPS arbeitet ohne Trust-Store strikt fail-closed; OTA, Sprache und Hilfe verwenden gemeinsam die vier Let\u0027s-Encrypt-Roots. Nur KNX oder eine Admin-Sitzung mit CSRF darf den plausibilitätsgeprüften TLS-Zeitanker setzen. Firmware-Uploads werden bei START und DONE live autorisiert und vollständig zurückgesetzt. Ein CRC-geschützter Marker im reservierten Core-EEPROM erkennt künftige LittleFS-Layoutwechsel, ohne ältere markerlose Stände als erkannt auszugeben. Pytest rekonstruiert alle ausgelieferten JavaScript-Ausgaben für beide Boardprofile und prüft sie mit Node.js.",
+                     "version":  "0.0.569",
+                     "bin":  "knx-led-controller-16m-w_0.0.569.bin",
+                     "file":  "knx-led-controller-16m-w_0.0.569.bin",
+                     "sha256":  "b629430d5a9ba3ba2b8786646af401d7500d16df62832a39110c17696a05b4e6",
+                     "message":  "HTTPS startet nur mit plausibler aktueller Uhrzeit aus KNX DP 18/19 oder einer authentifizierten Admin-Browser-Sitzung; die Buildzeit bleibt reine Diagnose. Automatische Online-Prüfungen warten ohne Zeitanker unbegrenzt, manuelle Abrufe brechen vor DNS/TLS ab. Ein erkannter LittleFS-Layoutwechsel blockiert zentral alle normalen Writer. Erst ADMIN+CSRF-Bestätigung, erfolgreich verifizierter Defaults-Commit und quittierter Pending-Marker lösen den Schreibschutz; Fehler lassen Marker und Sperre aktiv.",
                      "http_code":  200
                  }
 }
