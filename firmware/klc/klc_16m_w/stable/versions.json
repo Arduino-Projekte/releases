@@ -3,7 +3,7 @@
                   {
                       "version":  "0.0.564",
                       "bin":  "knx-led-controller-16m-w_0.0.564.bin",
-                      "date":  "2026-08-08",
+                      "date":  "2026-08-16",
                       "note":  "Die Wiederherstellung des KNX-LAST-Journals verliert bei einem Dateisystemfehler keine heile Kopie mehr: Eine gueltige Sicherung oder ein gueltiger Temp-Stand bleibt liegen, wenn seine Aktivierung scheitert, und laesst sich beim naechsten Start erneut aktivieren. Entfernt wird nur noch nachweislich Defektes. Bleibt der Dateizustand ungeklaert, wird auch nicht geschrieben."
                   },
                   {
