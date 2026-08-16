@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.570",
+                      "bin":  "knx-led-controller-16m_0.0.570.bin",
+                      "date":  "2026-08-16",
+                      "note":  "LittleFS-Layoutwechsel mounten vor Admin-Bestätigung strikt nicht-destruktiv: Arduino-Pico 5.6.0 Auto-Format wird vor begin() deaktiviert, Pending-Marker bleiben auch bei Mountfehlern persistent. Nur ADMIN+CSRF darf explizit formatieren; erst Format, Mount, verifizierter Pending-Marker, atomarer Defaults-Commit mit Rücklesen und Markerquittierung lösen Recovery und Schreibschutz. OTA-Statistik besitzt keinen eigenen Mountpfad mehr; TLS-Schutz aus 0.0.569 bleibt unverändert."
+                  },
+                  {
                       "version":  "0.0.569",
                       "bin":  "knx-led-controller-16m_0.0.569.bin",
                       "date":  "2026-08-16",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m_0.0.565.bin",
                       "date":  "2026-08-16",
                       "note":  "Login-Rueckspruenge landen nur noch auf echten GET-Seiten und weisen auf verworfene Formulareingaben hin. Die Update-Seite liefert geprueftes JavaScript, trennt BIN-Webupload und UF2/BOOTSEL eindeutig und zeigt laufende oder fehlgeschlagene Online-Pruefungen samt DNS-/TCP-/TLS-Grund. Abgebrochene Web-Auslieferungen werden mit Anzahl, Route und Fehler protokolliert."
-                  },
-                  {
-                      "version":  "0.0.564",
-                      "bin":  "knx-led-controller-16m_0.0.564.bin",
-                      "date":  "2026-08-16",
-                      "note":  "Die Wiederherstellung des KNX-LAST-Journals verliert bei einem Dateisystemfehler keine heile Kopie mehr: Eine gueltige Sicherung oder ein gueltiger Temp-Stand bleibt liegen, wenn seine Aktivierung scheitert, und laesst sich beim naechsten Start erneut aktivieren. Entfernt wird nur noch nachweislich Defektes. Bleibt der Dateizustand ungeklaert, wird auch nicht geschrieben."
                   }
               ]
 }
