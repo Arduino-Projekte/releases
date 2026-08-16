@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m_0.0.569.bin",
+                     "url":  "knx-led-controller-16m_0.0.571.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.569",
-                     "bin":  "knx-led-controller-16m_0.0.569.bin",
-                     "file":  "knx-led-controller-16m_0.0.569.bin",
-                     "sha256":  "340d67246c643cd0a314785ab4b05905df4229cf9a922133d68f15f41c94416e",
-                     "message":  "HTTPS startet nur mit plausibler aktueller Uhrzeit aus KNX DP 18/19 oder einer authentifizierten Admin-Browser-Sitzung; die Buildzeit bleibt reine Diagnose. Automatische Online-PrÃ¼fungen warten ohne Zeitanker unbegrenzt, manuelle Abrufe brechen vor DNS/TLS ab. Ein erkannter LittleFS-Layoutwechsel blockiert zentral alle normalen Writer. Erst ADMIN+CSRF-BestÃ¤tigung, erfolgreich verifizierter Defaults-Commit und quittierter Pending-Marker lÃ¶sen den Schreibschutz; Fehler lassen Marker und Sperre aktiv.",
+                     "version":  "0.0.571",
+                     "bin":  "knx-led-controller-16m_0.0.571.bin",
+                     "file":  "knx-led-controller-16m_0.0.571.bin",
+                     "sha256":  "dc63671fe9f5819630688a069fb96575ba6623b31af22823476fa38b175531be",
+                     "message":  "OTA-last_action besitzt seinen Klartext jetzt in einem eigenen Puffer statt einen Aufruferzeiger zu speichern. Der Firmwaredownload protokolliert Start, Aufbauphasen mit Zeit, HTTP-KopfgrÃ¶ÃŸe, groben Fortschritt und Fehlercode plus Klartext; /update und Support zeigen die Downloaddiagnose. Entwicklungsassets werden nicht immutable gecacht. Die LittleFS-, TLS-, ADMIN/CSRF- und Upload-Schutzregeln bleiben unverÃ¤ndert.",
                      "http_code":  200
                  }
 }

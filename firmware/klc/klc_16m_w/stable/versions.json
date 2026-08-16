@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.571",
+                      "bin":  "knx-led-controller-16m-w_0.0.571.bin",
+                      "date":  "2026-08-16",
+                      "note":  "OTA-last_action besitzt seinen Klartext jetzt in einem eigenen Puffer statt einen Aufruferzeiger zu speichern. Der Firmwaredownload protokolliert Start, Aufbauphasen mit Zeit, HTTP-KopfgrÃ¶ÃŸe, groben Fortschritt und Fehlercode plus Klartext; /update und Support zeigen die Downloaddiagnose. Entwicklungsassets werden nicht immutable gecacht. Die LittleFS-, TLS-, ADMIN/CSRF- und Upload-Schutzregeln bleiben unverÃ¤ndert."
+                  },
+                  {
                       "version":  "0.0.569",
                       "bin":  "knx-led-controller-16m-w_0.0.569.bin",
                       "date":  "2026-08-16",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m-w_0.0.565.bin",
                       "date":  "2026-08-16",
                       "note":  "Login-Rueckspruenge landen nur noch auf echten GET-Seiten und weisen auf verworfene Formulareingaben hin. Die Update-Seite liefert geprueftes JavaScript, trennt BIN-Webupload und UF2/BOOTSEL eindeutig und zeigt laufende oder fehlgeschlagene Online-Pruefungen samt DNS-/TCP-/TLS-Grund. Abgebrochene Web-Auslieferungen werden mit Anzahl, Route und Fehler protokolliert."
-                  },
-                  {
-                      "version":  "0.0.564",
-                      "bin":  "knx-led-controller-16m-w_0.0.564.bin",
-                      "date":  "2026-08-16",
-                      "note":  "Die Wiederherstellung des KNX-LAST-Journals verliert bei einem Dateisystemfehler keine heile Kopie mehr: Eine gueltige Sicherung oder ein gueltiger Temp-Stand bleibt liegen, wenn seine Aktivierung scheitert, und laesst sich beim naechsten Start erneut aktivieren. Entfernt wird nur noch nachweislich Defektes. Bleibt der Dateizustand ungeklaert, wird auch nicht geschrieben."
                   }
               ]
 }
