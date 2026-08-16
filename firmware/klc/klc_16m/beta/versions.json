@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.568",
+                      "bin":  "knx-led-controller-16m_0.0.568.bin",
+                      "date":  "2026-08-16",
+                      "note":  "HTTPS arbeitet ohne Trust-Store strikt fail-closed; OTA, Sprache und Hilfe verwenden gemeinsam die vier Let\u0027s-Encrypt-Roots. Nur KNX oder eine Admin-Sitzung mit CSRF darf den plausibilitätsgeprüften TLS-Zeitanker setzen. Firmware-Uploads werden bei START und DONE live autorisiert und vollständig zurückgesetzt. Ein CRC-geschützter Marker im reservierten Core-EEPROM erkennt künftige LittleFS-Layoutwechsel, ohne ältere markerlose Stände als erkannt auszugeben. Pytest rekonstruiert alle ausgelieferten JavaScript-Ausgaben für beide Boardprofile und prüft sie mit Node.js."
+                  },
+                  {
                       "version":  "0.0.566",
                       "bin":  "knx-led-controller-16m_0.0.566.bin",
                       "date":  "2026-08-16",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m_0.0.563.bin",
                       "date":  "2026-08-07",
                       "note":  "Der dauerhafte KNX-LAST-Zustand prueft Ausgang und Szene jetzt nach genau einer gemeinsamen Regel - fuer den Laufzeitzustand wie fuer die Wiederherstellung nach dem Start. Ein abgeschnittenes, pruefsummenfalsches oder unlesbares Journal wird nicht mehr stillschweigend als fehlend gebucht, sondern mit Grund gemeldet; eine heile Sicherung springt atomar ein. Der Werksreset meldet ein fehlgeschlagenes Loeschen, statt Erfolg zu behaupten."
-                  },
-                  {
-                      "version":  "0.0.562",
-                      "bin":  "knx-led-controller-16m_0.0.562.bin",
-                      "date":  "2026-08-07",
-                      "note":  "Der zuletzt per KNX gewaehlte Zustand je Ausgang - Szene, Farbe und Helligkeit - ueberlebt jetzt Neustart und Stromausfall. Gesichert wird in einem eigenen kleinen atomaren Journal, sobald ein Ausgang per KNX ausgegangen ist und sich der Stand wirklich geaendert hat, spaetestens nach zehn Minuten Ruhe. Die Hauptkonfiguration wird dafuer nie geschrieben. Der Einschaltzustand nach dem Start bleibt unveraendert Sache von power_on_mode."
                   }
               ]
 }
