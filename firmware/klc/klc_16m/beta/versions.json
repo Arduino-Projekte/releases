@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.575",
+                      "bin":  "knx-led-controller-16m_0.0.575.bin",
+                      "date":  "2026-08-18",
+                      "note":  "Fehlende Regressionstest-Abdeckung jetzt tatsächlich als ausführbare Testdatei ergänzt. C++-Hostharness prüft die 2-s-Aus-Welle über 900–1100 ms, alle Richtungsvarianten, gerade/ungerade Pixel, Tail sowie Start-/Hauptphase und Phase-3-Zeitachse. Scheduler-Entkopplung von g_observed_show_ms wird gegen Rückmutation geschützt. Node-Harness prüft Sekunden↔ms-Roundtrip inklusive 20/120/650-ms-Erhalt und 10-s-Grenzen; Preview-Verkabelung bleibt abgesichert. Keine Produktlogik geändert."
+                  },
+                  {
                       "version":  "0.0.574",
                       "bin":  "knx-led-controller-16m_0.0.574.bin",
                       "date":  "2026-08-18",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m_0.0.571.bin",
                       "date":  "2026-08-16",
                       "note":  "OTA-last_action besitzt seinen Klartext jetzt in einem eigenen Puffer statt einen Aufruferzeiger zu speichern. Der Firmwaredownload protokolliert Start, Aufbauphasen mit Zeit, HTTP-Kopfgröße, groben Fortschritt und Fehlercode plus Klartext; /update und Support zeigen die Downloaddiagnose. Entwicklungsassets werden nicht immutable gecacht. Die LittleFS-, TLS-, ADMIN/CSRF- und Upload-Schutzregeln bleiben unverändert."
-                  },
-                  {
-                      "version":  "0.0.570",
-                      "bin":  "knx-led-controller-16m_0.0.570.bin",
-                      "date":  "2026-08-16",
-                      "note":  "LittleFS-Layoutwechsel mounten vor Admin-Bestätigung strikt nicht-destruktiv: Arduino-Pico 5.6.0 Auto-Format wird vor begin() deaktiviert, Pending-Marker bleiben auch bei Mountfehlern persistent. Nur ADMIN+CSRF darf explizit formatieren; erst Format, Mount, verifizierter Pending-Marker, atomarer Defaults-Commit mit Rücklesen und Markerquittierung lösen Recovery und Schreibschutz. OTA-Statistik besitzt keinen eigenen Mountpfad mehr; TLS-Schutz aus 0.0.569 bleibt unverändert."
                   }
               ]
 }
