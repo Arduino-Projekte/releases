@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m-w_0.0.574.bin",
+                     "url":  "knx-led-controller-16m-w_0.0.575.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.574",
-                     "bin":  "knx-led-controller-16m-w_0.0.574.bin",
-                     "file":  "knx-led-controller-16m-w_0.0.574.bin",
-                     "sha256":  "5348f4b20538a7783d199dc04b2fe962bfae6db4f31ab9dd556b0eb1f42c3d34",
-                     "message":  "Regressionstest-Abdeckung fÃ¼r die in 0.0.573 korrigierten kritischen Pfade verstÃ¤rkt. C++-Hostharnesses fÃ¼hren echte ProduktfunktionsrÃ¼mpfe fÃ¼r Aus-/Start-/Haupt-Welle, Phase-3-Zeitachse und Renderintervall aus; die 2-s-Aus-Welle wird um 900â€“1100 ms, gerade/ungerade Pixel, Tail und alle Richtungsvarianten geprÃ¼ft. Ein Node-Harness prÃ¼ft den Sekundenâ†”ms-Roundtrip inklusive Erhalt feiner 20/120/650-ms-Werte. Preview-Verkabelung und 10-s-Grenzen bleiben abgesichert. Keine Produktlogik geÃ¤ndert.",
+                     "version":  "0.0.575",
+                     "bin":  "knx-led-controller-16m-w_0.0.575.bin",
+                     "file":  "knx-led-controller-16m-w_0.0.575.bin",
+                     "sha256":  "b826d0cc0a9b542b626ade44da8d7fb3e6214f5ec17211e6268790a6125ecb04",
+                     "message":  "Fehlende Regressionstest-Abdeckung jetzt tatsÃ¤chlich als ausfÃ¼hrbare Testdatei ergÃ¤nzt. C++-Hostharness prÃ¼ft die 2-s-Aus-Welle Ã¼ber 900â€“1100 ms, alle Richtungsvarianten, gerade/ungerade Pixel, Tail sowie Start-/Hauptphase und Phase-3-Zeitachse. Scheduler-Entkopplung von g_observed_show_ms wird gegen RÃ¼ckmutation geschÃ¼tzt. Node-Harness prÃ¼ft Sekundenâ†”ms-Roundtrip inklusive 20/120/650-ms-Erhalt und 10-s-Grenzen; Preview-Verkabelung bleibt abgesichert. Keine Produktlogik geÃ¤ndert.",
                      "http_code":  200
                  }
 }

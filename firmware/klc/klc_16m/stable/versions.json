@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.575",
+                      "bin":  "knx-led-controller-16m_0.0.575.bin",
+                      "date":  "2026-08-18",
+                      "note":  "Fehlende Regressionstest-Abdeckung jetzt tatsÃ¤chlich als ausfÃ¼hrbare Testdatei ergÃ¤nzt. C++-Hostharness prÃ¼ft die 2-s-Aus-Welle Ã¼ber 900â€“1100 ms, alle Richtungsvarianten, gerade/ungerade Pixel, Tail sowie Start-/Hauptphase und Phase-3-Zeitachse. Scheduler-Entkopplung von g_observed_show_ms wird gegen RÃ¼ckmutation geschÃ¼tzt. Node-Harness prÃ¼ft Sekundenâ†”ms-Roundtrip inklusive 20/120/650-ms-Erhalt und 10-s-Grenzen; Preview-Verkabelung bleibt abgesichert. Keine Produktlogik geÃ¤ndert."
+                  },
+                  {
                       "version":  "0.0.574",
                       "bin":  "knx-led-controller-16m_0.0.574.bin",
                       "date":  "2026-08-18",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m_0.0.571.bin",
                       "date":  "2026-08-16",
                       "note":  "OTA-last_action besitzt seinen Klartext jetzt in einem eigenen Puffer statt einen Aufruferzeiger zu speichern. Der Firmwaredownload protokolliert Start, Aufbauphasen mit Zeit, HTTP-KopfgrÃ¶ÃŸe, groben Fortschritt und Fehlercode plus Klartext; /update und Support zeigen die Downloaddiagnose. Entwicklungsassets werden nicht immutable gecacht. Die LittleFS-, TLS-, ADMIN/CSRF- und Upload-Schutzregeln bleiben unverÃ¤ndert."
-                  },
-                  {
-                      "version":  "0.0.569",
-                      "bin":  "knx-led-controller-16m_0.0.569.bin",
-                      "date":  "2026-08-16",
-                      "note":  "HTTPS startet nur mit plausibler aktueller Uhrzeit aus KNX DP 18/19 oder einer authentifizierten Admin-Browser-Sitzung; die Buildzeit bleibt reine Diagnose. Automatische Online-PrÃ¼fungen warten ohne Zeitanker unbegrenzt, manuelle Abrufe brechen vor DNS/TLS ab. Ein erkannter LittleFS-Layoutwechsel blockiert zentral alle normalen Writer. Erst ADMIN+CSRF-BestÃ¤tigung, erfolgreich verifizierter Defaults-Commit und quittierter Pending-Marker lÃ¶sen den Schreibschutz; Fehler lassen Marker und Sperre aktiv."
                   }
               ]
 }
