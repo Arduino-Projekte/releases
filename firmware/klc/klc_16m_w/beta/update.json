@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m-w_0.0.575.bin",
+                     "url":  "knx-led-controller-16m-w_0.0.576.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.575",
-                     "bin":  "knx-led-controller-16m-w_0.0.575.bin",
-                     "file":  "knx-led-controller-16m-w_0.0.575.bin",
-                     "sha256":  "b826d0cc0a9b542b626ade44da8d7fb3e6214f5ec17211e6268790a6125ecb04",
-                     "message":  "Fehlende Regressionstest-Abdeckung jetzt tatsächlich als ausführbare Testdatei ergänzt. C++-Hostharness prüft die 2-s-Aus-Welle über 900–1100 ms, alle Richtungsvarianten, gerade/ungerade Pixel, Tail sowie Start-/Hauptphase und Phase-3-Zeitachse. Scheduler-Entkopplung von g_observed_show_ms wird gegen Rückmutation geschützt. Node-Harness prüft Sekunden↔ms-Roundtrip inklusive 20/120/650-ms-Erhalt und 10-s-Grenzen; Preview-Verkabelung bleibt abgesichert. Keine Produktlogik geändert.",
+                     "version":  "0.0.576",
+                     "bin":  "knx-led-controller-16m-w_0.0.576.bin",
+                     "file":  "knx-led-controller-16m-w_0.0.576.bin",
+                     "sha256":  "495f36c75d4e9dd90356ddf4a213b92c079b880d25927b6dfabe593455633271",
+                     "message":  "Zwei neue ausführbare Regressionstest-Dateien ergänzen den Nachweis der 0.0.573-Korrekturen. C++-Hostharness prüft reale Produktfunktionsrümpfe der 2-s-Aus-Welle an 21 Zeitpunkten, gerade/ungerade Pixel, alle reverse/mirror-Kombinationen sowie Start-/Hauptwelle und Phase-3-Zeitachse. Mutationstests beweisen, dass falsche Reverse+Mirror-Zuordnung und alte g_observed_show_ms-Kopplung rot werden. Node-/Preview-Tests schützen 20/120/650-ms-Erhalt, Sekunden-Roundtrip und Navigation; Quantisierungs- und Top-Redirect-Rückmutationen werden erkannt. Keine Produktlogik geändert.",
                      "http_code":  200
                  }
 }

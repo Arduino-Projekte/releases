@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.576",
+                      "bin":  "knx-led-controller-16m-w_0.0.576.bin",
+                      "date":  "2026-08-18",
+                      "note":  "Zwei neue ausführbare Regressionstest-Dateien ergänzen den Nachweis der 0.0.573-Korrekturen. C++-Hostharness prüft reale Produktfunktionsrümpfe der 2-s-Aus-Welle an 21 Zeitpunkten, gerade/ungerade Pixel, alle reverse/mirror-Kombinationen sowie Start-/Hauptwelle und Phase-3-Zeitachse. Mutationstests beweisen, dass falsche Reverse+Mirror-Zuordnung und alte g_observed_show_ms-Kopplung rot werden. Node-/Preview-Tests schützen 20/120/650-ms-Erhalt, Sekunden-Roundtrip und Navigation; Quantisierungs- und Top-Redirect-Rückmutationen werden erkannt. Keine Produktlogik geändert."
+                  },
+                  {
                       "version":  "0.0.575",
                       "bin":  "knx-led-controller-16m-w_0.0.575.bin",
                       "date":  "2026-08-18",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m-w_0.0.572.bin",
                       "date":  "2026-08-16",
                       "note":  "Versionshistorien-Installationen sind nur noch mit eigener formal gueltiger SHA-256-Pruefsumme moeglich; fehlende/ungueltige Digests bleiben fail-closed. /update koppelt Fehlercode direkt an last_action. Die Download-Diagnose erfasst Start-, TCP-/TLS-/Header-Zeit, Dauer, Durchsatz, maximale Leseluecke und Heap vor/minimal/final. last_action- und LittleFS-Hosttests wurden semantisch erweitert; TLS-, ADMIN/CSRF-, Upload- und Layoutschutz bleiben unveraendert."
-                  },
-                  {
-                      "version":  "0.0.571",
-                      "bin":  "knx-led-controller-16m-w_0.0.571.bin",
-                      "date":  "2026-08-16",
-                      "note":  "OTA-last_action besitzt seinen Klartext jetzt in einem eigenen Puffer statt einen Aufruferzeiger zu speichern. Der Firmwaredownload protokolliert Start, Aufbauphasen mit Zeit, HTTP-Kopfgröße, groben Fortschritt und Fehlercode plus Klartext; /update und Support zeigen die Downloaddiagnose. Entwicklungsassets werden nicht immutable gecacht. Die LittleFS-, TLS-, ADMIN/CSRF- und Upload-Schutzregeln bleiben unverändert."
                   }
               ]
 }
