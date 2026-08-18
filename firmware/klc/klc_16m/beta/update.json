@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m_0.0.572.bin",
+                     "url":  "knx-led-controller-16m_0.0.573.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.572",
-                     "bin":  "knx-led-controller-16m_0.0.572.bin",
-                     "file":  "knx-led-controller-16m_0.0.572.bin",
-                     "sha256":  "e19722a9b6f48f7fbdc323d91a41f48a8f021c53c08c5f2e89af4e42d95ddca9",
-                     "message":  "Versionshistorien-Installationen sind nur noch mit eigener formal gueltiger SHA-256-Pruefsumme moeglich; fehlende/ungueltige Digests bleiben fail-closed. /update koppelt Fehlercode direkt an last_action. Die Download-Diagnose erfasst Start-, TCP-/TLS-/Header-Zeit, Dauer, Durchsatz, maximale Leseluecke und Heap vor/minimal/final. last_action- und LittleFS-Hosttests wurden semantisch erweitert; TLS-, ADMIN/CSRF-, Upload- und Layoutschutz bleiben unveraendert.",
+                     "version":  "0.0.573",
+                     "bin":  "knx-led-controller-16m_0.0.573.bin",
+                     "file":  "knx-led-controller-16m_0.0.573.bin",
+                     "sha256":  "364ba6fec56de209046cad6a1db4563f29393f7678664787a00f487690ee874e",
+                     "message":  "Vorschau-Navigation bleibt zuverlässig auf /preview. Zeitwerte im Ablauf-/Effekt-UI und in der Vorschau werden in Sekunden mit einer Nachkommastelle bedient; feine interne ms-Werte bleiben unverändert erhalten, solange das Feld nicht editiert wird. Start-/Aus-Dauer sind für neue Werte auf 10,0 s begrenzt, Rampenwerte sind sichtbar und synchron. Der allgemeine Render-Takt ist von live schwankenden show()-Spitzen entkoppelt; dadurch läuft insbesondere die Aus-Welle ohne den bisherigen Ruckler. Flüssige Animationen bleiben oberste Priorität.",
                      "http_code":  200
                  }
 }

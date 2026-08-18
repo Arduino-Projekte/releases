@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.573",
+                      "bin":  "knx-led-controller-16m-w_0.0.573.bin",
+                      "date":  "2026-08-18",
+                      "note":  "Vorschau-Navigation bleibt zuverlässig auf /preview. Zeitwerte im Ablauf-/Effekt-UI und in der Vorschau werden in Sekunden mit einer Nachkommastelle bedient; feine interne ms-Werte bleiben unverändert erhalten, solange das Feld nicht editiert wird. Start-/Aus-Dauer sind für neue Werte auf 10,0 s begrenzt, Rampenwerte sind sichtbar und synchron. Der allgemeine Render-Takt ist von live schwankenden show()-Spitzen entkoppelt; dadurch läuft insbesondere die Aus-Welle ohne den bisherigen Ruckler. Flüssige Animationen bleiben oberste Priorität."
+                  },
+                  {
                       "version":  "0.0.572",
                       "bin":  "knx-led-controller-16m-w_0.0.572.bin",
                       "date":  "2026-08-16",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m-w_0.0.569.bin",
                       "date":  "2026-08-16",
                       "note":  "HTTPS startet nur mit plausibler aktueller Uhrzeit aus KNX DP 18/19 oder einer authentifizierten Admin-Browser-Sitzung; die Buildzeit bleibt reine Diagnose. Automatische Online-Prüfungen warten ohne Zeitanker unbegrenzt, manuelle Abrufe brechen vor DNS/TLS ab. Ein erkannter LittleFS-Layoutwechsel blockiert zentral alle normalen Writer. Erst ADMIN+CSRF-Bestätigung, erfolgreich verifizierter Defaults-Commit und quittierter Pending-Marker lösen den Schreibschutz; Fehler lassen Marker und Sperre aktiv."
-                  },
-                  {
-                      "version":  "0.0.568",
-                      "bin":  "knx-led-controller-16m-w_0.0.568.bin",
-                      "date":  "2026-08-16",
-                      "note":  "HTTPS arbeitet ohne Trust-Store strikt fail-closed; OTA, Sprache und Hilfe verwenden gemeinsam die vier Let\u0027s-Encrypt-Roots. Nur KNX oder eine Admin-Sitzung mit CSRF darf den plausibilitätsgeprüften TLS-Zeitanker setzen. Firmware-Uploads werden bei START und DONE live autorisiert und vollständig zurückgesetzt. Ein CRC-geschützter Marker im reservierten Core-EEPROM erkennt künftige LittleFS-Layoutwechsel, ohne ältere markerlose Stände als erkannt auszugeben. Pytest rekonstruiert alle ausgelieferten JavaScript-Ausgaben für beide Boardprofile und prüft sie mit Node.js."
                   }
               ]
 }
