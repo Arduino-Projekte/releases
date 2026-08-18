@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.574",
+                      "bin":  "knx-led-controller-16m_0.0.574.bin",
+                      "date":  "2026-08-18",
+                      "note":  "Regressionstest-Abdeckung fÃ¼r die in 0.0.573 korrigierten kritischen Pfade verstÃ¤rkt. C++-Hostharnesses fÃ¼hren echte ProduktfunktionsrÃ¼mpfe fÃ¼r Aus-/Start-/Haupt-Welle, Phase-3-Zeitachse und Renderintervall aus; die 2-s-Aus-Welle wird um 900â€“1100 ms, gerade/ungerade Pixel, Tail und alle Richtungsvarianten geprÃ¼ft. Ein Node-Harness prÃ¼ft den Sekundenâ†”ms-Roundtrip inklusive Erhalt feiner 20/120/650-ms-Werte. Preview-Verkabelung und 10-s-Grenzen bleiben abgesichert. Keine Produktlogik geÃ¤ndert."
+                  },
+                  {
                       "version":  "0.0.573",
                       "bin":  "knx-led-controller-16m_0.0.573.bin",
                       "date":  "2026-08-18",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m_0.0.569.bin",
                       "date":  "2026-08-16",
                       "note":  "HTTPS startet nur mit plausibler aktueller Uhrzeit aus KNX DP 18/19 oder einer authentifizierten Admin-Browser-Sitzung; die Buildzeit bleibt reine Diagnose. Automatische Online-PrÃ¼fungen warten ohne Zeitanker unbegrenzt, manuelle Abrufe brechen vor DNS/TLS ab. Ein erkannter LittleFS-Layoutwechsel blockiert zentral alle normalen Writer. Erst ADMIN+CSRF-BestÃ¤tigung, erfolgreich verifizierter Defaults-Commit und quittierter Pending-Marker lÃ¶sen den Schreibschutz; Fehler lassen Marker und Sperre aktiv."
-                  },
-                  {
-                      "version":  "0.0.568",
-                      "bin":  "knx-led-controller-16m_0.0.568.bin",
-                      "date":  "2026-08-16",
-                      "note":  "HTTPS arbeitet ohne Trust-Store strikt fail-closed; OTA, Sprache und Hilfe verwenden gemeinsam die vier Let\u0027s-Encrypt-Roots. Nur KNX oder eine Admin-Sitzung mit CSRF darf den plausibilitÃ¤tsgeprÃ¼ften TLS-Zeitanker setzen. Firmware-Uploads werden bei START und DONE live autorisiert und vollstÃ¤ndig zurÃ¼ckgesetzt. Ein CRC-geschÃ¼tzter Marker im reservierten Core-EEPROM erkennt kÃ¼nftige LittleFS-Layoutwechsel, ohne Ã¤ltere markerlose StÃ¤nde als erkannt auszugeben. Pytest rekonstruiert alle ausgelieferten JavaScript-Ausgaben fÃ¼r beide Boardprofile und prÃ¼ft sie mit Node.js."
                   }
               ]
 }
