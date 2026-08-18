@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.574",
+                      "bin":  "knx-led-controller-16m-w_0.0.574.bin",
+                      "date":  "2026-08-18",
+                      "note":  "Regressionstest-Abdeckung für die in 0.0.573 korrigierten kritischen Pfade verstärkt. C++-Hostharnesses führen echte Produktfunktionsrümpfe für Aus-/Start-/Haupt-Welle, Phase-3-Zeitachse und Renderintervall aus; die 2-s-Aus-Welle wird um 900–1100 ms, gerade/ungerade Pixel, Tail und alle Richtungsvarianten geprüft. Ein Node-Harness prüft den Sekunden↔ms-Roundtrip inklusive Erhalt feiner 20/120/650-ms-Werte. Preview-Verkabelung und 10-s-Grenzen bleiben abgesichert. Keine Produktlogik geändert."
+                  },
+                  {
                       "version":  "0.0.573",
                       "bin":  "knx-led-controller-16m-w_0.0.573.bin",
                       "date":  "2026-08-18",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m-w_0.0.570.bin",
                       "date":  "2026-08-16",
                       "note":  "LittleFS-Layoutwechsel mounten vor Admin-Bestätigung strikt nicht-destruktiv: Arduino-Pico 5.6.0 Auto-Format wird vor begin() deaktiviert, Pending-Marker bleiben auch bei Mountfehlern persistent. Nur ADMIN+CSRF darf explizit formatieren; erst Format, Mount, verifizierter Pending-Marker, atomarer Defaults-Commit mit Rücklesen und Markerquittierung lösen Recovery und Schreibschutz. OTA-Statistik besitzt keinen eigenen Mountpfad mehr; TLS-Schutz aus 0.0.569 bleibt unverändert."
-                  },
-                  {
-                      "version":  "0.0.569",
-                      "bin":  "knx-led-controller-16m-w_0.0.569.bin",
-                      "date":  "2026-08-16",
-                      "note":  "HTTPS startet nur mit plausibler aktueller Uhrzeit aus KNX DP 18/19 oder einer authentifizierten Admin-Browser-Sitzung; die Buildzeit bleibt reine Diagnose. Automatische Online-Prüfungen warten ohne Zeitanker unbegrenzt, manuelle Abrufe brechen vor DNS/TLS ab. Ein erkannter LittleFS-Layoutwechsel blockiert zentral alle normalen Writer. Erst ADMIN+CSRF-Bestätigung, erfolgreich verifizierter Defaults-Commit und quittierter Pending-Marker lösen den Schreibschutz; Fehler lassen Marker und Sperre aktiv."
                   }
               ]
 }
