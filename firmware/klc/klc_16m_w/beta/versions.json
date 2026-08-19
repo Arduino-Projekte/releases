@@ -1,6 +1,12 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.577",
+                      "bin":  "knx-led-controller-16m-w_0.0.577.bin",
+                      "date":  "2026-08-19",
+                      "note":  "OTA-Fortschritt in WebUI und Serial auf echte Prozentanzeige umgestellt: Browser-Upload nutzt XHR upload.onprogress, Online-Download pollt ressourcenschonend und zeigt bei unbekannter Gesamtgröße keine erfundene Prozentzahl. Hauptdauer zeigt 0 als Dauerhaft, bis 600 s Sekunden, bis 60 min Minuten und darüber hh:mm ohne 24-h-Rollover; Rampen nutzen Slider plus Livewert. Normaler Neustart ist klar vom Firmware-Update getrennt. Die Dateiformat-Kachel auf /update wurde entfernt. Regressionstests ergänzen Prozent-, Dauer-, Slider- und Restart-Verträge."
+                  },
+                  {
                       "version":  "0.0.576",
                       "bin":  "knx-led-controller-16m-w_0.0.576.bin",
                       "date":  "2026-08-18",
@@ -23,12 +29,6 @@
                       "bin":  "knx-led-controller-16m-w_0.0.573.bin",
                       "date":  "2026-08-18",
                       "note":  "Vorschau-Navigation bleibt zuverlässig auf /preview. Zeitwerte im Ablauf-/Effekt-UI und in der Vorschau werden in Sekunden mit einer Nachkommastelle bedient; feine interne ms-Werte bleiben unverändert erhalten, solange das Feld nicht editiert wird. Start-/Aus-Dauer sind für neue Werte auf 10,0 s begrenzt, Rampenwerte sind sichtbar und synchron. Der allgemeine Render-Takt ist von live schwankenden show()-Spitzen entkoppelt; dadurch läuft insbesondere die Aus-Welle ohne den bisherigen Ruckler. Flüssige Animationen bleiben oberste Priorität."
-                  },
-                  {
-                      "version":  "0.0.572",
-                      "bin":  "knx-led-controller-16m-w_0.0.572.bin",
-                      "date":  "2026-08-16",
-                      "note":  "Versionshistorien-Installationen sind nur noch mit eigener formal gueltiger SHA-256-Pruefsumme moeglich; fehlende/ungueltige Digests bleiben fail-closed. /update koppelt Fehlercode direkt an last_action. Die Download-Diagnose erfasst Start-, TCP-/TLS-/Header-Zeit, Dauer, Durchsatz, maximale Leseluecke und Heap vor/minimal/final. last_action- und LittleFS-Hosttests wurden semantisch erweitert; TLS-, ADMIN/CSRF-, Upload- und Layoutschutz bleiben unveraendert."
                   }
               ]
 }
