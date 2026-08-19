@@ -1,4 +1,5 @@
 {
     "version":  "V2.26.8.15.5",
-    "bin":  "equinox-clock_V2.26.8.15.5.bin"
+    "bin":  "equinox-clock_V2.26.8.15.5.bin",
+    "sha256":  "ed721fe7f9f854eb8eb867573ab475fc310a0023b4e93be6cc46745147ce0ca1"
 }

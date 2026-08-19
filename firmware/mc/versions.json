@@ -19,18 +19,21 @@
                   {
                       "version":  "V2.26.8.16.2",
                       "bin":  "moon-clock_V2.26.8.16.2.bin",
+                      "sha256":  "a88f3377e8910c7b3b3ee665782ec84a58e0f63a0a58462694f298522a931983",
                       "date":  "2026-08-16",
                       "note":  "Automatisch nach erfolgreichem Arduino-CLI-Build"
                   },
                   {
                       "version":  "V2.26.8.16.1",
                       "bin":  "moon-clock_V2.26.8.16.1.bin",
+                      "sha256":  "8dbe45a2e90de0f5699a76c3ba45804a782c5a36573991f18ed22b30fca0575b",
                       "date":  "2026-08-16",
                       "note":  "Automatisch nach erfolgreichem Arduino-CLI-Build"
                   },
                   {
                       "version":  "V2.26.4.7.1",
                       "bin":  "moon-clock_V2.26.4.7.1.bin",
+                      "sha256":  "2c0495d2d0622391421600ef04cf114dc81b3d26a642e7af8a341d92ae0af2cd",
                       "date":  "2026-06-03",
                       "note":  "Automatisch nach erfolgreichem Arduino-CLI-Build"
                   }

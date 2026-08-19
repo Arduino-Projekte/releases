@@ -3,24 +3,28 @@
                   {
                       "version":  "V2.26.8.16.2",
                       "bin":  "clock-clock24_V2.26.8.16.2.bin",
+                      "sha256":  "08d7d3cb347485765cdc38c098306f70844c40561f2b3f22c80c91f06034a94b",
                       "date":  "2026-08-16",
                       "note":  "Automatisch nach erfolgreichem Arduino-CLI-Build"
                   },
                   {
                       "version":  "V2.26.8.16.1",
                       "bin":  "clock-clock24_V2.26.8.16.1.bin",
+                      "sha256":  "ef737abe40120e747c6003a6995ee61d20fc67000a850484f7a982238cb981ac",
                       "date":  "2026-08-16",
                       "note":  "Nicht-blockierender WLAN-Auto-Reconnect mit 5/10/30/60-s-Backoff; NTP, Webserver und Wetter werden nach Reconnect aktualisiert; Slave-Auto-Off bleibt erhalten."
                   },
                   {
                       "version":  "V2.26.6.1.1",
                       "bin":  "clock-clock24_V2.26.6.1.1.bin",
+                      "sha256":  "a2d4f88cf5db55a8349321c7c6f41b0e062732b4cb06eb8d16ecc1dcda7da638",
                       "date":  "2026-08-15",
                       "note":  "Automatisch nach erfolgreichem Arduino-CLI-Build"
                   },
                   {
                       "version":  "V2.26.4.13.3",
                       "bin":  "clock-clock24_V2.26.4.13.3.bin",
+                      "sha256":  "218e89a412e1e64d22551e4c41745060387917affc15068fba5b62e228c17d45",
                       "date":  "2026-06-02",
                       "note":  "Automatisch nach erfolgreichem Arduino-CLI-Build"
                   }
