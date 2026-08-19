@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m_0.0.577.bin",
+                     "url":  "knx-led-controller-16m_0.0.579.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.577",
-                     "bin":  "knx-led-controller-16m_0.0.577.bin",
-                     "file":  "knx-led-controller-16m_0.0.577.bin",
-                     "sha256":  "548a61f3e32389265de468dfacd901c97fe479e1ff0c538946dd05d77a1f59ed",
-                     "message":  "OTA-Fortschritt in WebUI und Serial auf echte Prozentanzeige umgestellt: Browser-Upload nutzt XHR upload.onprogress, Online-Download pollt ressourcenschonend und zeigt bei unbekannter Gesamtgröße keine erfundene Prozentzahl. Hauptdauer zeigt 0 als Dauerhaft, bis 600 s Sekunden, bis 60 min Minuten und darüber hh:mm ohne 24-h-Rollover; Rampen nutzen Slider plus Livewert. Normaler Neustart ist klar vom Firmware-Update getrennt. Die Dateiformat-Kachel auf /update wurde entfernt. Regressionstests ergänzen Prozent-, Dauer-, Slider- und Restart-Verträge.",
+                     "version":  "0.0.579",
+                     "bin":  "knx-led-controller-16m_0.0.579.bin",
+                     "file":  "knx-led-controller-16m_0.0.579.bin",
+                     "sha256":  "9613a9173b947c350034f4725a4e15e96089d88311bfc058facda4edf552d6ca",
+                     "message":  "Buildfix fuer den 36-h-Hauptdauerpfad: klc_storage_import.cpp bindet klc_effect_catalog.h nun direkt ein, sodass KLC_SCENE_MAIN_DURATION_MAX_MS im Importer beim echten RP2350-Build sichtbar ist. Ein Regressionstest sichert die Include-Sichtbarkeit und den 27-h-Importvertrag. Keine API-, Storage-Schema- oder Funktionsaenderung.",
                      "http_code":  200
                  }
 }

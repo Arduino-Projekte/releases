@@ -3,30 +3,35 @@
                   {
                       "version":  "0.0.577",
                       "bin":  "knx-led-controller-16m-w_0.0.577.bin",
+                      "sha256":  "862ecb146e512cabb6cb77025ee16dfd160bf46b8b096bbeb9f7cf4fcb5b531f",
                       "date":  "2026-08-19",
                       "note":  "OTA-Fortschritt in WebUI und Serial auf echte Prozentanzeige umgestellt: Browser-Upload nutzt XHR upload.onprogress, Online-Download pollt ressourcenschonend und zeigt bei unbekannter GesamtgrÃ¶ÃŸe keine erfundene Prozentzahl. Hauptdauer zeigt 0 als Dauerhaft, bis 600 s Sekunden, bis 60 min Minuten und darÃ¼ber hh:mm ohne 24-h-Rollover; Rampen nutzen Slider plus Livewert. Normaler Neustart ist klar vom Firmware-Update getrennt. Die Dateiformat-Kachel auf /update wurde entfernt. Regressionstests ergÃ¤nzen Prozent-, Dauer-, Slider- und Restart-VertrÃ¤ge."
                   },
                   {
                       "version":  "0.0.576",
                       "bin":  "knx-led-controller-16m-w_0.0.576.bin",
+                      "sha256":  "495f36c75d4e9dd90356ddf4a213b92c079b880d25927b6dfabe593455633271",
                       "date":  "2026-08-18",
                       "note":  "Zwei neue ausfÃ¼hrbare Regressionstest-Dateien ergÃ¤nzen den Nachweis der 0.0.573-Korrekturen. C++-Hostharness prÃ¼ft reale ProduktfunktionsrÃ¼mpfe der 2-s-Aus-Welle an 21 Zeitpunkten, gerade/ungerade Pixel, alle reverse/mirror-Kombinationen sowie Start-/Hauptwelle und Phase-3-Zeitachse. Mutationstests beweisen, dass falsche Reverse+Mirror-Zuordnung und alte g_observed_show_ms-Kopplung rot werden. Node-/Preview-Tests schÃ¼tzen 20/120/650-ms-Erhalt, Sekunden-Roundtrip und Navigation; Quantisierungs- und Top-Redirect-RÃ¼ckmutationen werden erkannt. Keine Produktlogik geÃ¤ndert."
                   },
                   {
                       "version":  "0.0.575",
                       "bin":  "knx-led-controller-16m-w_0.0.575.bin",
+                      "sha256":  "b826d0cc0a9b542b626ade44da8d7fb3e6214f5ec17211e6268790a6125ecb04",
                       "date":  "2026-08-18",
                       "note":  "Fehlende Regressionstest-Abdeckung jetzt tatsÃ¤chlich als ausfÃ¼hrbare Testdatei ergÃ¤nzt. C++-Hostharness prÃ¼ft die 2-s-Aus-Welle Ã¼ber 900â€“1100 ms, alle Richtungsvarianten, gerade/ungerade Pixel, Tail sowie Start-/Hauptphase und Phase-3-Zeitachse. Scheduler-Entkopplung von g_observed_show_ms wird gegen RÃ¼ckmutation geschÃ¼tzt. Node-Harness prÃ¼ft Sekundenâ†”ms-Roundtrip inklusive 20/120/650-ms-Erhalt und 10-s-Grenzen; Preview-Verkabelung bleibt abgesichert. Keine Produktlogik geÃ¤ndert."
                   },
                   {
                       "version":  "0.0.574",
                       "bin":  "knx-led-controller-16m-w_0.0.574.bin",
+                      "sha256":  "5348f4b20538a7783d199dc04b2fe962bfae6db4f31ab9dd556b0eb1f42c3d34",
                       "date":  "2026-08-18",
                       "note":  "Regressionstest-Abdeckung fÃ¼r die in 0.0.573 korrigierten kritischen Pfade verstÃ¤rkt. C++-Hostharnesses fÃ¼hren echte ProduktfunktionsrÃ¼mpfe fÃ¼r Aus-/Start-/Haupt-Welle, Phase-3-Zeitachse und Renderintervall aus; die 2-s-Aus-Welle wird um 900â€“1100 ms, gerade/ungerade Pixel, Tail und alle Richtungsvarianten geprÃ¼ft. Ein Node-Harness prÃ¼ft den Sekundenâ†”ms-Roundtrip inklusive Erhalt feiner 20/120/650-ms-Werte. Preview-Verkabelung und 10-s-Grenzen bleiben abgesichert. Keine Produktlogik geÃ¤ndert."
                   },
                   {
                       "version":  "0.0.573",
                       "bin":  "knx-led-controller-16m-w_0.0.573.bin",
+                      "sha256":  "8325f188da8c3a51a500db55cd0a29625ca29ace58e6d5377ad6b9e86bbe2f28",
                       "date":  "2026-08-18",
                       "note":  "Vorschau-Navigation bleibt zuverlÃ¤ssig auf /preview. Zeitwerte im Ablauf-/Effekt-UI und in der Vorschau werden in Sekunden mit einer Nachkommastelle bedient; feine interne ms-Werte bleiben unverÃ¤ndert erhalten, solange das Feld nicht editiert wird. Start-/Aus-Dauer sind fÃ¼r neue Werte auf 10,0 s begrenzt, Rampenwerte sind sichtbar und synchron. Der allgemeine Render-Takt ist von live schwankenden show()-Spitzen entkoppelt; dadurch lÃ¤uft insbesondere die Aus-Welle ohne den bisherigen Ruckler. FlÃ¼ssige Animationen bleiben oberste PrioritÃ¤t."
                   }

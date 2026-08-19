@@ -1,34 +1,39 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.579",
+                      "bin":  "knx-led-controller-16m_0.0.579.bin",
+                      "sha256":  "9613a9173b947c350034f4725a4e15e96089d88311bfc058facda4edf552d6ca",
+                      "date":  "2026-08-19",
+                      "note":  "Buildfix fuer den 36-h-Hauptdauerpfad: klc_storage_import.cpp bindet klc_effect_catalog.h nun direkt ein, sodass KLC_SCENE_MAIN_DURATION_MAX_MS im Importer beim echten RP2350-Build sichtbar ist. Ein Regressionstest sichert die Include-Sichtbarkeit und den 27-h-Importvertrag. Keine API-, Storage-Schema- oder Funktionsaenderung."
+                  },
+                  {
                       "version":  "0.0.577",
                       "bin":  "knx-led-controller-16m_0.0.577.bin",
+                      "sha256":  "548a61f3e32389265de468dfacd901c97fe479e1ff0c538946dd05d77a1f59ed",
                       "date":  "2026-08-19",
                       "note":  "OTA-Fortschritt in WebUI und Serial auf echte Prozentanzeige umgestellt: Browser-Upload nutzt XHR upload.onprogress, Online-Download pollt ressourcenschonend und zeigt bei unbekannter Gesamtgröße keine erfundene Prozentzahl. Hauptdauer zeigt 0 als Dauerhaft, bis 600 s Sekunden, bis 60 min Minuten und darüber hh:mm ohne 24-h-Rollover; Rampen nutzen Slider plus Livewert. Normaler Neustart ist klar vom Firmware-Update getrennt. Die Dateiformat-Kachel auf /update wurde entfernt. Regressionstests ergänzen Prozent-, Dauer-, Slider- und Restart-Verträge."
                   },
                   {
                       "version":  "0.0.576",
                       "bin":  "knx-led-controller-16m_0.0.576.bin",
+                      "sha256":  "7e6d1a31615635fd9c0f8641f4cfa1985d356df5b4180db079a197c3a0c9011f",
                       "date":  "2026-08-18",
                       "note":  "Zwei neue ausführbare Regressionstest-Dateien ergänzen den Nachweis der 0.0.573-Korrekturen. C++-Hostharness prüft reale Produktfunktionsrümpfe der 2-s-Aus-Welle an 21 Zeitpunkten, gerade/ungerade Pixel, alle reverse/mirror-Kombinationen sowie Start-/Hauptwelle und Phase-3-Zeitachse. Mutationstests beweisen, dass falsche Reverse+Mirror-Zuordnung und alte g_observed_show_ms-Kopplung rot werden. Node-/Preview-Tests schützen 20/120/650-ms-Erhalt, Sekunden-Roundtrip und Navigation; Quantisierungs- und Top-Redirect-Rückmutationen werden erkannt. Keine Produktlogik geändert."
                   },
                   {
                       "version":  "0.0.575",
                       "bin":  "knx-led-controller-16m_0.0.575.bin",
+                      "sha256":  "2425d3a196647cee7ae9e936bea3b6e6246811eee8662e20552ad6af26b6841b",
                       "date":  "2026-08-18",
                       "note":  "Fehlende Regressionstest-Abdeckung jetzt tatsächlich als ausführbare Testdatei ergänzt. C++-Hostharness prüft die 2-s-Aus-Welle über 900–1100 ms, alle Richtungsvarianten, gerade/ungerade Pixel, Tail sowie Start-/Hauptphase und Phase-3-Zeitachse. Scheduler-Entkopplung von g_observed_show_ms wird gegen Rückmutation geschützt. Node-Harness prüft Sekunden↔ms-Roundtrip inklusive 20/120/650-ms-Erhalt und 10-s-Grenzen; Preview-Verkabelung bleibt abgesichert. Keine Produktlogik geändert."
                   },
                   {
                       "version":  "0.0.574",
                       "bin":  "knx-led-controller-16m_0.0.574.bin",
+                      "sha256":  "75f9fc19884d038cbb5caef1c8fb1332dc7c21578e0a50d2f9cca5679e984542",
                       "date":  "2026-08-18",
                       "note":  "Regressionstest-Abdeckung für die in 0.0.573 korrigierten kritischen Pfade verstärkt. C++-Hostharnesses führen echte Produktfunktionsrümpfe für Aus-/Start-/Haupt-Welle, Phase-3-Zeitachse und Renderintervall aus; die 2-s-Aus-Welle wird um 900–1100 ms, gerade/ungerade Pixel, Tail und alle Richtungsvarianten geprüft. Ein Node-Harness prüft den Sekunden↔ms-Roundtrip inklusive Erhalt feiner 20/120/650-ms-Werte. Preview-Verkabelung und 10-s-Grenzen bleiben abgesichert. Keine Produktlogik geändert."
-                  },
-                  {
-                      "version":  "0.0.573",
-                      "bin":  "knx-led-controller-16m_0.0.573.bin",
-                      "date":  "2026-08-18",
-                      "note":  "Vorschau-Navigation bleibt zuverlässig auf /preview. Zeitwerte im Ablauf-/Effekt-UI und in der Vorschau werden in Sekunden mit einer Nachkommastelle bedient; feine interne ms-Werte bleiben unverändert erhalten, solange das Feld nicht editiert wird. Start-/Aus-Dauer sind für neue Werte auf 10,0 s begrenzt, Rampenwerte sind sichtbar und synchron. Der allgemeine Render-Takt ist von live schwankenden show()-Spitzen entkoppelt; dadurch läuft insbesondere die Aus-Welle ohne den bisherigen Ruckler. Flüssige Animationen bleiben oberste Priorität."
                   }
               ]
 }
