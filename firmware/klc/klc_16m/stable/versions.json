@@ -1,7 +1,7 @@
 {
     "items":  [
                   {
-                      "version":  "0.0.579",
+                      "version":  "0.0.580",
                       "bin":  "knx-led-controller-16m_0.0.579.bin",
                       "sha256":  "9613a9173b947c350034f4725a4e15e96089d88311bfc058facda4edf552d6ca",
                       "date":  "2026-08-19",
