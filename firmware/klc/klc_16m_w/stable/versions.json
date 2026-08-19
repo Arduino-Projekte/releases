@@ -1,6 +1,13 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.579",
+                      "bin":  "knx-led-controller-16m-w_0.0.579.bin",
+                      "sha256":  "8e5e326be4991e26df5a18b69f7b03354b993c48dd32099e305db1a69bf30c54",
+                      "date":  "2026-08-19",
+                      "note":  "Buildfix fuer den 36-h-Hauptdauerpfad: klc_storage_import.cpp bindet klc_effect_catalog.h nun direkt ein, sodass KLC_SCENE_MAIN_DURATION_MAX_MS im Importer beim echten RP2350-Build sichtbar ist. Ein Regressionstest sichert die Include-Sichtbarkeit und den 27-h-Importvertrag. Keine API-, Storage-Schema- oder Funktionsaenderung."
+                  },
+                  {
                       "version":  "0.0.577",
                       "bin":  "knx-led-controller-16m-w_0.0.577.bin",
                       "sha256":  "862ecb146e512cabb6cb77025ee16dfd160bf46b8b096bbeb9f7cf4fcb5b531f",
@@ -27,13 +34,6 @@
                       "sha256":  "5348f4b20538a7783d199dc04b2fe962bfae6db4f31ab9dd556b0eb1f42c3d34",
                       "date":  "2026-08-18",
                       "note":  "Regressionstest-Abdeckung fÃ¼r die in 0.0.573 korrigierten kritischen Pfade verstÃ¤rkt. C++-Hostharnesses fÃ¼hren echte ProduktfunktionsrÃ¼mpfe fÃ¼r Aus-/Start-/Haupt-Welle, Phase-3-Zeitachse und Renderintervall aus; die 2-s-Aus-Welle wird um 900â€“1100 ms, gerade/ungerade Pixel, Tail und alle Richtungsvarianten geprÃ¼ft. Ein Node-Harness prÃ¼ft den Sekundenâ†”ms-Roundtrip inklusive Erhalt feiner 20/120/650-ms-Werte. Preview-Verkabelung und 10-s-Grenzen bleiben abgesichert. Keine Produktlogik geÃ¤ndert."
-                  },
-                  {
-                      "version":  "0.0.573",
-                      "bin":  "knx-led-controller-16m-w_0.0.573.bin",
-                      "sha256":  "8325f188da8c3a51a500db55cd0a29625ca29ace58e6d5377ad6b9e86bbe2f28",
-                      "date":  "2026-08-18",
-                      "note":  "Vorschau-Navigation bleibt zuverlÃ¤ssig auf /preview. Zeitwerte im Ablauf-/Effekt-UI und in der Vorschau werden in Sekunden mit einer Nachkommastelle bedient; feine interne ms-Werte bleiben unverÃ¤ndert erhalten, solange das Feld nicht editiert wird. Start-/Aus-Dauer sind fÃ¼r neue Werte auf 10,0 s begrenzt, Rampenwerte sind sichtbar und synchron. Der allgemeine Render-Takt ist von live schwankenden show()-Spitzen entkoppelt; dadurch lÃ¤uft insbesondere die Aus-Welle ohne den bisherigen Ruckler. FlÃ¼ssige Animationen bleiben oberste PrioritÃ¤t."
                   }
               ]
 }
