@@ -3,10 +3,10 @@
                      "url":  "knx-led-controller-16m_0.0.580.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.579",
-                     "bin":  "knx-led-controller-16m_0.0.579.bin",
-                     "file":  "knx-led-controller-16m_0.0.579.bin",
-                     "sha256":  "9613a9173b947c350034f4725a4e15e96089d88311bfc058facda4edf552d6ca",
+                     "version":  "0.0.580",
+                     "bin":  "knx-led-controller-16m_0.0.580.bin",
+                     "file":  "knx-led-controller-16m_0.0.580.bin",
+                     "sha256":  "c6ca82227255f8f06ea8587c7e921467f35330459b4e13e33df5d59638c4fb0f",
                      "message":  "Buildfix fuer den 36-h-Hauptdauerpfad: klc_storage_import.cpp bindet klc_effect_catalog.h nun direkt ein, sodass KLC_SCENE_MAIN_DURATION_MAX_MS im Importer beim echten RP2350-Build sichtbar ist. Ein Regressionstest sichert die Include-Sichtbarkeit und den 27-h-Importvertrag. Keine API-, Storage-Schema- oder Funktionsaenderung.",
                      "http_code":  200
                  }
