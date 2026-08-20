@@ -1,6 +1,13 @@
 {
     "items":  [
                   {
+                      "version":  "V4.26.8.20.2",
+                      "bin":  "word-clock-IV_V4.26.8.20.2.bin",
+                      "sha256":  "62579bb40554aa9dd76cd9e2ac5c8b3c1db16fccb795cebdfc74b7cac227c17a",
+                      "date":  "2026-08-20",
+                      "note":  "RGBW-Fehler behoben: Der Weiss-Offset wurde bisher auf jede LED geschrieben, also auch auf ausgeschaltete. Dadurch leuchtete bei erhoehtem Weissanteil die gesamte Matrix mit, zum Beispiel als ESKIST statt ES IST. Der Weiss-Offset wirkt jetzt nur noch auf tatsaechlich leuchtende Pixel. Ausserdem: Die IP-Adresse wird sofort nach dem Verbindungsaufbau seriell ausgegeben, der Hostname wird beim ersten Start aus der MAC-Adresse eindeutig gebildet (Word-Clock-IV-XXYYZZ), und WLAN-Ereignisse werden im Log protokolliert."
+                  },
+                  {
                       "version":  "V4.26.8.15.3",
                       "bin":  "word-clock-IV_V4.26.8.15.3.bin",
                       "sha256":  "14db5c11dc783a1c93d86991b77ef63d4dc34c37fba9d346ba6a29debc12ca54",
@@ -23,12 +30,6 @@
                   {
                       "version":  "V4.26.5.31.22",
                       "bin":  "word-clock-IV_V4.26.5.31.22.bin",
-                      "date":  "2026-05-31",
-                      "note":  "Automatisch nach erfolgreichem Arduino-CLI-Build"
-                  },
-                  {
-                      "version":  "V4.26.5.31.21",
-                      "bin":  "word-clock-IV_V4.26.5.31.21.bin",
                       "date":  "2026-05-31",
                       "note":  "Automatisch nach erfolgreichem Arduino-CLI-Build"
                   }
