@@ -1,6 +1,13 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.580",
+                      "bin":  "knx-led-controller-16m-w_0.0.580.bin",
+                      "sha256":  "1e6520ea5402b5907c9b2f66088b626709d82c600c083fe9a9710863368319c4",
+                      "date":  "2026-08-20",
+                      "note":  "Buildfix fuer den 36-h-Hauptdauerpfad: klc_storage_import.cpp bindet klc_effect_catalog.h nun direkt ein, sodass KLC_SCENE_MAIN_DURATION_MAX_MS im Importer beim echten RP2350-Build sichtbar ist. Ein Regressionstest sichert die Include-Sichtbarkeit und den 27-h-Importvertrag. Keine API-, Storage-Schema- oder Funktionsaenderung."
+                  },
+                  {
                       "version":  "0.0.579",
                       "bin":  "knx-led-controller-16m-w_0.0.579.bin",
                       "sha256":  "8e5e326be4991e26df5a18b69f7b03354b993c48dd32099e305db1a69bf30c54",
@@ -27,13 +34,6 @@
                       "sha256":  "b826d0cc0a9b542b626ade44da8d7fb3e6214f5ec17211e6268790a6125ecb04",
                       "date":  "2026-08-18",
                       "note":  "Fehlende Regressionstest-Abdeckung jetzt tatsächlich als ausführbare Testdatei ergänzt. C++-Hostharness prüft die 2-s-Aus-Welle über 900–1100 ms, alle Richtungsvarianten, gerade/ungerade Pixel, Tail sowie Start-/Hauptphase und Phase-3-Zeitachse. Scheduler-Entkopplung von g_observed_show_ms wird gegen Rückmutation geschützt. Node-Harness prüft Sekunden↔ms-Roundtrip inklusive 20/120/650-ms-Erhalt und 10-s-Grenzen; Preview-Verkabelung bleibt abgesichert. Keine Produktlogik geändert."
-                  },
-                  {
-                      "version":  "0.0.574",
-                      "bin":  "knx-led-controller-16m-w_0.0.574.bin",
-                      "sha256":  "5348f4b20538a7783d199dc04b2fe962bfae6db4f31ab9dd556b0eb1f42c3d34",
-                      "date":  "2026-08-18",
-                      "note":  "Regressionstest-Abdeckung für die in 0.0.573 korrigierten kritischen Pfade verstärkt. C++-Hostharnesses führen echte Produktfunktionsrümpfe für Aus-/Start-/Haupt-Welle, Phase-3-Zeitachse und Renderintervall aus; die 2-s-Aus-Welle wird um 900–1100 ms, gerade/ungerade Pixel, Tail und alle Richtungsvarianten geprüft. Ein Node-Harness prüft den Sekunden↔ms-Roundtrip inklusive Erhalt feiner 20/120/650-ms-Werte. Preview-Verkabelung und 10-s-Grenzen bleiben abgesichert. Keine Produktlogik geändert."
                   }
               ]
 }
