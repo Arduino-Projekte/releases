@@ -1,6 +1,27 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.584",
+                      "bin":  "knx-led-controller-16m-w_0.0.584.bin",
+                      "sha256":  "70edace1a90c4a9686d6f72a4d3e7767a8949e5e29d790c5b5a86424848d55a8",
+                      "date":  "2026-08-22",
+                      "note":  "Colorpicker-Korrektur: RGB- und RGBW-Ausgaenge erhalten in Ausgangs- und KNX-Einstellungen ein Farbrad; nur RGBW zeigt den Weissregler. Knopf- und Pointer-Geometrie folgen jetzt dem oben bei Rot beginnenden Farbkreis. Hex-, HSV- und Master-Helligkeit sind eindeutig erklaert, Rundungsanzeige und eingebettete Sprachpakete korrigiert. Keine Storage-Schema- oder Konfigurationsaenderung."
+                  },
+                  {
+                      "version":  "0.0.583",
+                      "bin":  "knx-led-controller-16m-w_0.0.583.bin",
+                      "sha256":  "8ccd409a2af8677622593e50bfb19313be126f51a9b23f690f705cc999394526",
+                      "date":  "2026-08-21",
+                      "note":  "Die RGBW-Felder in Ablaufeditor, Ausgangs-Startwerten und KNX-Festwerten besitzen jetzt einen lokalen, touch- und tastaturbedienbaren Farbwähler mit Hex-Eingabe, Weißkanal und Browser-Farbverlauf. Die vorhandenen Zahlenfelder bleiben alleinige Speicherquelle. Szenenhelligkeit ist als separater Masterwert eindeutig bezeichnet. Keine Storage-Schema- oder Konfigurationsaenderung."
+                  },
+                  {
+                      "version":  "0.0.582",
+                      "bin":  "knx-led-controller-16m-w_0.0.582.bin",
+                      "sha256":  "1993a052722078eabd1f3b0ea15755aef386927214c15929100f453e3c8efb01",
+                      "date":  "2026-08-21",
+                      "note":  "Setup-Wizard prueft Stable-Updates jetzt kooperativ: POST merkt nur vor, ein geschuetzter Statusendpunkt liefert Laufzustand und konkrete Netzwerkfehler, die Oberflaeche pollt mit Zeitlimit. Installation wird ebenfalls nur vorgemerkt. Tote synchrone Altpfade entfernt und String::reserve fuer RP2040-Core 6.0.0 korrigiert. Keine Storage-Schema- oder Konfigurationsaenderung."
+                  },
+                  {
                       "version":  "0.0.580",
                       "bin":  "knx-led-controller-16m-w_0.0.580.bin",
                       "sha256":  "1e6520ea5402b5907c9b2f66088b626709d82c600c083fe9a9710863368319c4",
@@ -13,27 +34,6 @@
                       "sha256":  "8e5e326be4991e26df5a18b69f7b03354b993c48dd32099e305db1a69bf30c54",
                       "date":  "2026-08-19",
                       "note":  "Buildfix fuer den 36-h-Hauptdauerpfad: klc_storage_import.cpp bindet klc_effect_catalog.h nun direkt ein, sodass KLC_SCENE_MAIN_DURATION_MAX_MS im Importer beim echten RP2350-Build sichtbar ist. Ein Regressionstest sichert die Include-Sichtbarkeit und den 27-h-Importvertrag. Keine API-, Storage-Schema- oder Funktionsaenderung."
-                  },
-                  {
-                      "version":  "0.0.577",
-                      "bin":  "knx-led-controller-16m-w_0.0.577.bin",
-                      "sha256":  "862ecb146e512cabb6cb77025ee16dfd160bf46b8b096bbeb9f7cf4fcb5b531f",
-                      "date":  "2026-08-19",
-                      "note":  "OTA-Fortschritt in WebUI und Serial auf echte Prozentanzeige umgestellt: Browser-Upload nutzt XHR upload.onprogress, Online-Download pollt ressourcenschonend und zeigt bei unbekannter Gesamtgröße keine erfundene Prozentzahl. Hauptdauer zeigt 0 als Dauerhaft, bis 600 s Sekunden, bis 60 min Minuten und darüber hh:mm ohne 24-h-Rollover; Rampen nutzen Slider plus Livewert. Normaler Neustart ist klar vom Firmware-Update getrennt. Die Dateiformat-Kachel auf /update wurde entfernt. Regressionstests ergänzen Prozent-, Dauer-, Slider- und Restart-Verträge."
-                  },
-                  {
-                      "version":  "0.0.576",
-                      "bin":  "knx-led-controller-16m-w_0.0.576.bin",
-                      "sha256":  "495f36c75d4e9dd90356ddf4a213b92c079b880d25927b6dfabe593455633271",
-                      "date":  "2026-08-18",
-                      "note":  "Zwei neue ausführbare Regressionstest-Dateien ergänzen den Nachweis der 0.0.573-Korrekturen. C++-Hostharness prüft reale Produktfunktionsrümpfe der 2-s-Aus-Welle an 21 Zeitpunkten, gerade/ungerade Pixel, alle reverse/mirror-Kombinationen sowie Start-/Hauptwelle und Phase-3-Zeitachse. Mutationstests beweisen, dass falsche Reverse+Mirror-Zuordnung und alte g_observed_show_ms-Kopplung rot werden. Node-/Preview-Tests schützen 20/120/650-ms-Erhalt, Sekunden-Roundtrip und Navigation; Quantisierungs- und Top-Redirect-Rückmutationen werden erkannt. Keine Produktlogik geändert."
-                  },
-                  {
-                      "version":  "0.0.575",
-                      "bin":  "knx-led-controller-16m-w_0.0.575.bin",
-                      "sha256":  "b826d0cc0a9b542b626ade44da8d7fb3e6214f5ec17211e6268790a6125ecb04",
-                      "date":  "2026-08-18",
-                      "note":  "Fehlende Regressionstest-Abdeckung jetzt tatsächlich als ausführbare Testdatei ergänzt. C++-Hostharness prüft die 2-s-Aus-Welle über 900–1100 ms, alle Richtungsvarianten, gerade/ungerade Pixel, Tail sowie Start-/Hauptphase und Phase-3-Zeitachse. Scheduler-Entkopplung von g_observed_show_ms wird gegen Rückmutation geschützt. Node-Harness prüft Sekunden↔ms-Roundtrip inklusive 20/120/650-ms-Erhalt und 10-s-Grenzen; Preview-Verkabelung bleibt abgesichert. Keine Produktlogik geändert."
                   }
               ]
 }
