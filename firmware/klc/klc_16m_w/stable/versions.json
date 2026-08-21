@@ -1,6 +1,13 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.586",
+                      "bin":  "knx-led-controller-16m-w_0.0.586.bin",
+                      "sha256":  "1e17136d6e0a75c9ce86e0f4daf9affb39805e83d7725497f1ab2b4ee008673a",
+                      "date":  "2026-08-22",
+                      "note":  "Flow-Slider-Korrektur: Ganzzahlige Felder behalten ihre deklarierte Schrittweite; lit_pixels bleibt dadurch von 0 bis 5000 pixelgenau bedienbar und schreibt keine Dezimalwerte. Nach Pixelmodus- und Effektwechseln werden neu sichtbare Felder idempotent sliderisiert. Erzeugte Sekundenfelder behalten ihre logische Kennung und verwenden weiterhin genau eine formatierte Zeitanzeige. Historische Feinwerte bleiben beim Oeffnen unveraendert. Keine Storage-Schema- oder Konfigurationsaenderung."
+                  },
+                  {
                       "version":  "0.0.585",
                       "bin":  "knx-led-controller-16m-w_0.0.585.bin",
                       "sha256":  "082777273eea104c47ac1b1c6ccf0d034ab2ef2c9cce775bdf946f2c35c48581",
@@ -27,13 +34,6 @@
                       "sha256":  "8e5e326be4991e26df5a18b69f7b03354b993c48dd32099e305db1a69bf30c54",
                       "date":  "2026-08-19",
                       "note":  "Buildfix fuer den 36-h-Hauptdauerpfad: klc_storage_import.cpp bindet klc_effect_catalog.h nun direkt ein, sodass KLC_SCENE_MAIN_DURATION_MAX_MS im Importer beim echten RP2350-Build sichtbar ist. Ein Regressionstest sichert die Include-Sichtbarkeit und den 27-h-Importvertrag. Keine API-, Storage-Schema- oder Funktionsaenderung."
-                  },
-                  {
-                      "version":  "0.0.577",
-                      "bin":  "knx-led-controller-16m-w_0.0.577.bin",
-                      "sha256":  "862ecb146e512cabb6cb77025ee16dfd160bf46b8b096bbeb9f7cf4fcb5b531f",
-                      "date":  "2026-08-19",
-                      "note":  "OTA-Fortschritt in WebUI und Serial auf echte Prozentanzeige umgestellt: Browser-Upload nutzt XHR upload.onprogress, Online-Download pollt ressourcenschonend und zeigt bei unbekannter GesamtgrÃ¶ÃŸe keine erfundene Prozentzahl. Hauptdauer zeigt 0 als Dauerhaft, bis 600 s Sekunden, bis 60 min Minuten und darÃ¼ber hh:mm ohne 24-h-Rollover; Rampen nutzen Slider plus Livewert. Normaler Neustart ist klar vom Firmware-Update getrennt. Die Dateiformat-Kachel auf /update wurde entfernt. Regressionstests ergÃ¤nzen Prozent-, Dauer-, Slider- und Restart-VertrÃ¤ge."
                   }
               ]
 }

@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m-w_0.0.585.bin",
+                     "url":  "knx-led-controller-16m-w_0.0.586.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.585",
-                     "bin":  "knx-led-controller-16m-w_0.0.585.bin",
-                     "file":  "knx-led-controller-16m-w_0.0.585.bin",
-                     "sha256":  "082777273eea104c47ac1b1c6ccf0d034ab2ef2c9cce775bdf946f2c35c48581",
-                     "message":  "WebUI-Korrekturen: Die Szenenauswahl der Ausgangssteuerung bleibt beim Polling erhalten. Slider und verschachtelte Raster passen sich schmalen Ansichten an; Flow-Slider verwenden kopierbare Wertanzeigen und weiterhin die vorhandenen POST-Felder. Der Ausgangs-Colorpicker richtet den Weisskanal nach dem gespeicherten Zieltyp aus und aktualisiert ihn beim Umschalten zwischen RGB und RGBW ohne Wertverlust. Keine Storage-Schema- oder Konfigurationsaenderung.",
+                     "version":  "0.0.586",
+                     "bin":  "knx-led-controller-16m-w_0.0.586.bin",
+                     "file":  "knx-led-controller-16m-w_0.0.586.bin",
+                     "sha256":  "1e17136d6e0a75c9ce86e0f4daf9affb39805e83d7725497f1ab2b4ee008673a",
+                     "message":  "Flow-Slider-Korrektur: Ganzzahlige Felder behalten ihre deklarierte Schrittweite; lit_pixels bleibt dadurch von 0 bis 5000 pixelgenau bedienbar und schreibt keine Dezimalwerte. Nach Pixelmodus- und Effektwechseln werden neu sichtbare Felder idempotent sliderisiert. Erzeugte Sekundenfelder behalten ihre logische Kennung und verwenden weiterhin genau eine formatierte Zeitanzeige. Historische Feinwerte bleiben beim Oeffnen unveraendert. Keine Storage-Schema- oder Konfigurationsaenderung.",
                      "http_code":  200
                  }
 }
