@@ -1,6 +1,13 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.585",
+                      "bin":  "knx-led-controller-16m-w_0.0.585.bin",
+                      "sha256":  "082777273eea104c47ac1b1c6ccf0d034ab2ef2c9cce775bdf946f2c35c48581",
+                      "date":  "2026-08-22",
+                      "note":  "WebUI-Korrekturen: Die Szenenauswahl der Ausgangssteuerung bleibt beim Polling erhalten. Slider und verschachtelte Raster passen sich schmalen Ansichten an; Flow-Slider verwenden kopierbare Wertanzeigen und weiterhin die vorhandenen POST-Felder. Der Ausgangs-Colorpicker richtet den Weisskanal nach dem gespeicherten Zieltyp aus und aktualisiert ihn beim Umschalten zwischen RGB und RGBW ohne Wertverlust. Keine Storage-Schema- oder Konfigurationsaenderung."
+                  },
+                  {
                       "version":  "0.0.584",
                       "bin":  "knx-led-controller-16m-w_0.0.584.bin",
                       "sha256":  "70edace1a90c4a9686d6f72a4d3e7767a8949e5e29d790c5b5a86424848d55a8",
@@ -26,13 +33,6 @@
                       "bin":  "knx-led-controller-16m-w_0.0.580.bin",
                       "sha256":  "1e6520ea5402b5907c9b2f66088b626709d82c600c083fe9a9710863368319c4",
                       "date":  "2026-08-20",
-                      "note":  "Buildfix fuer den 36-h-Hauptdauerpfad: klc_storage_import.cpp bindet klc_effect_catalog.h nun direkt ein, sodass KLC_SCENE_MAIN_DURATION_MAX_MS im Importer beim echten RP2350-Build sichtbar ist. Ein Regressionstest sichert die Include-Sichtbarkeit und den 27-h-Importvertrag. Keine API-, Storage-Schema- oder Funktionsaenderung."
-                  },
-                  {
-                      "version":  "0.0.579",
-                      "bin":  "knx-led-controller-16m-w_0.0.579.bin",
-                      "sha256":  "8e5e326be4991e26df5a18b69f7b03354b993c48dd32099e305db1a69bf30c54",
-                      "date":  "2026-08-19",
                       "note":  "Buildfix fuer den 36-h-Hauptdauerpfad: klc_storage_import.cpp bindet klc_effect_catalog.h nun direkt ein, sodass KLC_SCENE_MAIN_DURATION_MAX_MS im Importer beim echten RP2350-Build sichtbar ist. Ein Regressionstest sichert die Include-Sichtbarkeit und den 27-h-Importvertrag. Keine API-, Storage-Schema- oder Funktionsaenderung."
                   }
               ]
