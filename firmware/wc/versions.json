@@ -1,6 +1,13 @@
 {
     "items":  [
                   {
+                      "version":  "V4.26.8.20.3",
+                      "bin":  "word-clock-IV_V4.26.8.20.3.bin",
+                      "sha256":  "8e37ba3bb58c1a0e2ac3ef9f58ef910538b0541e99a96786d184b7fe03eed4cd",
+                      "date":  "2026-08-21",
+                      "note":  "RGBW-Weissanteil neu aufgebaut. Bisher wurde der Weisswert erst ganz am Ende pauschal auf jede LED addiert, also auch auf ausgeschaltete. Bei erhoehtem Weissanteil leuchtete deshalb die gesamte Matrix mit, zum Beispiel als ESKIST statt ES IST. Der Weissanteil ist jetzt Teil der Wortfarbe: Er wird gleichmaessig auf Rot, Gruen und Blau gelegt, und die LED-Engine faltet unbunte Farben vollstaendig in den dedizierten Weiss-Chip. Damit leuchten die Woerter bei RGB gleich Null allein ueber den Weiss-Chip, waehrend dunkle Pixel aus bleiben; zusammen mit einer Buntfarbe entsteht weiterhin ein Pastellton. Wortmatrix, Minutenpunkte, Ambilight-Anzeigefarbe, Animationen und Overlays verwenden denselben Farbwert. Der Farbregler der Weboberflaeche zeigt unveraendert die eingestellte Grundfarbe. Ausserdem: Die IP-Adresse wird sofort nach dem Verbindungsaufbau seriell ausgegeben, der Hostname wird beim ersten Start aus der MAC-Adresse eindeutig gebildet (Word-Clock-IV-XXYYZZ), und WLAN-Ereignisse werden im Log protokolliert."
+                  },
+                  {
                       "version":  "V4.26.8.20.2",
                       "bin":  "word-clock-IV_V4.26.8.20.2.bin",
                       "sha256":  "62579bb40554aa9dd76cd9e2ac5c8b3c1db16fccb795cebdfc74b7cac227c17a",
@@ -26,12 +33,6 @@
                       "bin":  "word-clock-IV_V4.26.8.15.1.bin",
                       "date":  "2026-08-15",
                       "note":  "Der Notfall-AP sucht selbststaendig weiter nach dem gespeicherten WLAN und wechselt nach erfolgreicher Verbindung ohne Neustart in den normalen WLAN-Betrieb zurueck. Beim Start wartet die Uhr laenger auf den Router; ein bewusst erzwungener AP-Modus bleibt bestehen. Bleibt der Notfall-AP dauerhaft ohne Verbindung, sorgt ein protokollierter Neustart fuer einen weiteren Wiederherstellungsversuch."
-                  },
-                  {
-                      "version":  "V4.26.5.31.22",
-                      "bin":  "word-clock-IV_V4.26.5.31.22.bin",
-                      "date":  "2026-05-31",
-                      "note":  "Automatisch nach erfolgreichem Arduino-CLI-Build"
                   }
               ]
 }
