@@ -1,6 +1,13 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.584",
+                      "bin":  "knx-led-controller-16m_0.0.584.bin",
+                      "sha256":  "fc719d1b82cb96c3bab9fb92152e118cbd3fdcd4cda3667ba500ff75d54506d1",
+                      "date":  "2026-08-22",
+                      "note":  "Colorpicker-Korrektur: RGB- und RGBW-Ausgaenge erhalten in Ausgangs- und KNX-Einstellungen ein Farbrad; nur RGBW zeigt den Weissregler. Knopf- und Pointer-Geometrie folgen jetzt dem oben bei Rot beginnenden Farbkreis. Hex-, HSV- und Master-Helligkeit sind eindeutig erklaert, Rundungsanzeige und eingebettete Sprachpakete korrigiert. Keine Storage-Schema- oder Konfigurationsaenderung."
+                  },
+                  {
                       "version":  "0.0.580",
                       "bin":  "knx-led-controller-16m_0.0.580.bin",
                       "sha256":  "c6ca82227255f8f06ea8587c7e921467f35330459b4e13e33df5d59638c4fb0f",
@@ -27,13 +34,6 @@
                       "sha256":  "7e6d1a31615635fd9c0f8641f4cfa1985d356df5b4180db079a197c3a0c9011f",
                       "date":  "2026-08-18",
                       "note":  "Zwei neue ausfÃ¼hrbare Regressionstest-Dateien ergÃ¤nzen den Nachweis der 0.0.573-Korrekturen. C++-Hostharness prÃ¼ft reale ProduktfunktionsrÃ¼mpfe der 2-s-Aus-Welle an 21 Zeitpunkten, gerade/ungerade Pixel, alle reverse/mirror-Kombinationen sowie Start-/Hauptwelle und Phase-3-Zeitachse. Mutationstests beweisen, dass falsche Reverse+Mirror-Zuordnung und alte g_observed_show_ms-Kopplung rot werden. Node-/Preview-Tests schÃ¼tzen 20/120/650-ms-Erhalt, Sekunden-Roundtrip und Navigation; Quantisierungs- und Top-Redirect-RÃ¼ckmutationen werden erkannt. Keine Produktlogik geÃ¤ndert."
-                  },
-                  {
-                      "version":  "0.0.575",
-                      "bin":  "knx-led-controller-16m_0.0.575.bin",
-                      "sha256":  "2425d3a196647cee7ae9e936bea3b6e6246811eee8662e20552ad6af26b6841b",
-                      "date":  "2026-08-18",
-                      "note":  "Fehlende Regressionstest-Abdeckung jetzt tatsÃ¤chlich als ausfÃ¼hrbare Testdatei ergÃ¤nzt. C++-Hostharness prÃ¼ft die 2-s-Aus-Welle Ã¼ber 900â€“1100 ms, alle Richtungsvarianten, gerade/ungerade Pixel, Tail sowie Start-/Hauptphase und Phase-3-Zeitachse. Scheduler-Entkopplung von g_observed_show_ms wird gegen RÃ¼ckmutation geschÃ¼tzt. Node-Harness prÃ¼ft Sekundenâ†”ms-Roundtrip inklusive 20/120/650-ms-Erhalt und 10-s-Grenzen; Preview-Verkabelung bleibt abgesichert. Keine Produktlogik geÃ¤ndert."
                   }
               ]
 }

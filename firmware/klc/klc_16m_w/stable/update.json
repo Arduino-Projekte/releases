@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m-w_0.0.580.bin",
+                     "url":  "knx-led-controller-16m-w_0.0.584.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.580",
-                     "bin":  "knx-led-controller-16m-w_0.0.580.bin",
-                     "file":  "knx-led-controller-16m-w_0.0.580.bin",
-                     "sha256":  "1e6520ea5402b5907c9b2f66088b626709d82c600c083fe9a9710863368319c4",
-                     "message":  "Buildfix fuer den 36-h-Hauptdauerpfad: klc_storage_import.cpp bindet klc_effect_catalog.h nun direkt ein, sodass KLC_SCENE_MAIN_DURATION_MAX_MS im Importer beim echten RP2350-Build sichtbar ist. Ein Regressionstest sichert die Include-Sichtbarkeit und den 27-h-Importvertrag. Keine API-, Storage-Schema- oder Funktionsaenderung.",
+                     "version":  "0.0.584",
+                     "bin":  "knx-led-controller-16m-w_0.0.584.bin",
+                     "file":  "knx-led-controller-16m-w_0.0.584.bin",
+                     "sha256":  "70edace1a90c4a9686d6f72a4d3e7767a8949e5e29d790c5b5a86424848d55a8",
+                     "message":  "Colorpicker-Korrektur: RGB- und RGBW-Ausgaenge erhalten in Ausgangs- und KNX-Einstellungen ein Farbrad; nur RGBW zeigt den Weissregler. Knopf- und Pointer-Geometrie folgen jetzt dem oben bei Rot beginnenden Farbkreis. Hex-, HSV- und Master-Helligkeit sind eindeutig erklaert, Rundungsanzeige und eingebettete Sprachpakete korrigiert. Keine Storage-Schema- oder Konfigurationsaenderung.",
                      "http_code":  200
                  }
 }
