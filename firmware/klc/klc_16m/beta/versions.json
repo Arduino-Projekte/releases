@@ -1,6 +1,13 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.586",
+                      "bin":  "knx-led-controller-16m_0.0.586.bin",
+                      "sha256":  "2e46f4d8a705b62964628842a76dab1cdab8023f0650abaf1c4ecccab3cffd96",
+                      "date":  "2026-08-22",
+                      "note":  "Flow-Slider-Korrektur: Ganzzahlige Felder behalten ihre deklarierte Schrittweite; lit_pixels bleibt dadurch von 0 bis 5000 pixelgenau bedienbar und schreibt keine Dezimalwerte. Nach Pixelmodus- und Effektwechseln werden neu sichtbare Felder idempotent sliderisiert. Erzeugte Sekundenfelder behalten ihre logische Kennung und verwenden weiterhin genau eine formatierte Zeitanzeige. Historische Feinwerte bleiben beim Oeffnen unveraendert. Keine Storage-Schema- oder Konfigurationsaenderung."
+                  },
+                  {
                       "version":  "0.0.585",
                       "bin":  "knx-led-controller-16m_0.0.585.bin",
                       "sha256":  "63823fa29a452e5bf462549b016f0fde05333d8dc55b4dd860068322120799c2",
@@ -27,13 +34,6 @@
                       "sha256":  "71d15ae945699eff8dd1fe627900eb6ada8228ef16e693303bb333e9bba78af0",
                       "date":  "2026-08-21",
                       "note":  "Setup-Wizard prueft Stable-Updates jetzt kooperativ: POST merkt nur vor, ein geschuetzter Statusendpunkt liefert Laufzustand und konkrete Netzwerkfehler, die Oberflaeche pollt mit Zeitlimit. Installation wird ebenfalls nur vorgemerkt. Tote synchrone Altpfade entfernt und String::reserve fuer RP2040-Core 6.0.0 korrigiert. Keine Storage-Schema- oder Konfigurationsaenderung."
-                  },
-                  {
-                      "version":  "0.0.580",
-                      "bin":  "knx-led-controller-16m_0.0.580.bin",
-                      "sha256":  "c6ca82227255f8f06ea8587c7e921467f35330459b4e13e33df5d59638c4fb0f",
-                      "date":  "2026-08-20",
-                      "note":  "Buildfix fuer den 36-h-Hauptdauerpfad: klc_storage_import.cpp bindet klc_effect_catalog.h nun direkt ein, sodass KLC_SCENE_MAIN_DURATION_MAX_MS im Importer beim echten RP2350-Build sichtbar ist. Ein Regressionstest sichert die Include-Sichtbarkeit und den 27-h-Importvertrag. Keine API-, Storage-Schema- oder Funktionsaenderung."
                   }
               ]
 }
