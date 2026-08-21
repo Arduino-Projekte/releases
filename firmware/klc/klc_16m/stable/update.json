@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m_0.0.584.bin",
+                     "url":  "knx-led-controller-16m_0.0.585.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.584",
-                     "bin":  "knx-led-controller-16m_0.0.584.bin",
-                     "file":  "knx-led-controller-16m_0.0.584.bin",
-                     "sha256":  "fc719d1b82cb96c3bab9fb92152e118cbd3fdcd4cda3667ba500ff75d54506d1",
-                     "message":  "Colorpicker-Korrektur: RGB- und RGBW-Ausgaenge erhalten in Ausgangs- und KNX-Einstellungen ein Farbrad; nur RGBW zeigt den Weissregler. Knopf- und Pointer-Geometrie folgen jetzt dem oben bei Rot beginnenden Farbkreis. Hex-, HSV- und Master-Helligkeit sind eindeutig erklaert, Rundungsanzeige und eingebettete Sprachpakete korrigiert. Keine Storage-Schema- oder Konfigurationsaenderung.",
+                     "version":  "0.0.585",
+                     "bin":  "knx-led-controller-16m_0.0.585.bin",
+                     "file":  "knx-led-controller-16m_0.0.585.bin",
+                     "sha256":  "63823fa29a452e5bf462549b016f0fde05333d8dc55b4dd860068322120799c2",
+                     "message":  "WebUI-Korrekturen: Die Szenenauswahl der Ausgangssteuerung bleibt beim Polling erhalten. Slider und verschachtelte Raster passen sich schmalen Ansichten an; Flow-Slider verwenden kopierbare Wertanzeigen und weiterhin die vorhandenen POST-Felder. Der Ausgangs-Colorpicker richtet den Weisskanal nach dem gespeicherten Zieltyp aus und aktualisiert ihn beim Umschalten zwischen RGB und RGBW ohne Wertverlust. Keine Storage-Schema- oder Konfigurationsaenderung.",
                      "http_code":  200
                  }
 }
