@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m-w_0.0.592.bin",
+                     "url":  "knx-led-controller-16m-w_0.0.593.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.592",
-                     "bin":  "knx-led-controller-16m-w_0.0.592.bin",
-                     "file":  "knx-led-controller-16m-w_0.0.592.bin",
-                     "sha256":  "d15982b7ac49013b4a4e080c025a7c6f359eca9811fbb1f86a411606ed0f429d",
-                     "message":  "Manuelle Updatepruefungen laufen ohne Seitenreload ueber /api/update/check und pollen nur /api/update. Ausgehendes DNS/TCP/TLS wartet kooperativ auf Webserver-Idle. HTTPS-Diagnosen trennen DNS, TCP/lwIP, PCB, X.509-/TLS-Allokationen, BearSSL und Heap; retryfaehige asynchrone TCP-Fehler erhalten genau einen begrenzten Retry. Erfolgreiche HTTPS-Sitzungen schliessen regulaer; Ressourcen-, Zertifikats-, Manifest-, Profil- und SHA-Fehler bleiben fail-closed. Config-Schema 77 und KNX-Schema 11 bleiben unveraendert.",
+                     "version":  "0.0.593",
+                     "bin":  "knx-led-controller-16m-w_0.0.593.bin",
+                     "file":  "knx-led-controller-16m-w_0.0.593.bin",
+                     "sha256":  "9632e1b0f25a64d1e6e1c417c8ba99f7f4633e947eb95113aaf96a42d752b515",
+                     "message":  "Fuehrt die OTA/TLS-Haertung aus 0.0.592 mit dem Sprachpaketvertrag 2.7.4 zusammen. Manuelle Updatepruefungen bleiben reloadfrei und HTTPS wartet kooperativ auf Webserver-Idle; DNS-, TCP/lwIP-, X.509-, TLS-, BearSSL- und Heapfehler bleiben getrennt diagnostizierbar. Sieben kanonische Sprachpakete mit 2108 Schluesseln werden atomar generiert und vor jedem Build geprueft; Wechsel und Wiederherstellung laufen kooperativ und transaktional. Config-Schema 77 und KNX-Schema 11 bleiben unveraendert.",
                      "http_code":  200
                  }
 }
