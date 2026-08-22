@@ -1,6 +1,13 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.589",
+                      "bin":  "knx-led-controller-16m-w_0.0.589.bin",
+                      "sha256":  "4c040d62651f51706aa56f0a692fdfacd0b13bb6d7da600931eafe1484c8d0fb",
+                      "date":  "2026-08-22",
+                      "note":  "KNX DPT 19.001 liefert auf DP 22 einen vollstaendigen Datum-/Zeitwert. Der synchrone 8-Byte-BAOS-Pfad prueft Zustand, Laenge, reservierte Bits, Fault-, Gueltigkeits-, Kalender-, Wochentag- und 24-Uhr-Regeln. SUTI bleibt informativ; CLQ/SRC bestimmen die Qualitaet. Ohne ausdrueckliche Offsetregel bleibt der Wert Ortszeit und fuer TLS gesperrt. DPT 19 hat Vorrang vor dem DPT-10/11-Paar, ohne Quellenflattern. KNX-Interface-Schema 11 fuegt nur DP 22 und GA 2/2/24 hinzu; Config-Schema 77 bleibt unveraendert."
+                  },
+                  {
                       "version":  "0.0.586",
                       "bin":  "knx-led-controller-16m-w_0.0.586.bin",
                       "sha256":  "1e17136d6e0a75c9ce86e0f4daf9affb39805e83d7725497f1ab2b4ee008673a",
@@ -27,13 +34,6 @@
                       "sha256":  "8ccd409a2af8677622593e50bfb19313be126f51a9b23f690f705cc999394526",
                       "date":  "2026-08-21",
                       "note":  "Die RGBW-Felder in Ablaufeditor, Ausgangs-Startwerten und KNX-Festwerten besitzen jetzt einen lokalen, touch- und tastaturbedienbaren Farbwähler mit Hex-Eingabe, Weißkanal und Browser-Farbverlauf. Die vorhandenen Zahlenfelder bleiben alleinige Speicherquelle. Szenenhelligkeit ist als separater Masterwert eindeutig bezeichnet. Keine Storage-Schema- oder Konfigurationsaenderung."
-                  },
-                  {
-                      "version":  "0.0.582",
-                      "bin":  "knx-led-controller-16m-w_0.0.582.bin",
-                      "sha256":  "1993a052722078eabd1f3b0ea15755aef386927214c15929100f453e3c8efb01",
-                      "date":  "2026-08-21",
-                      "note":  "Setup-Wizard prueft Stable-Updates jetzt kooperativ: POST merkt nur vor, ein geschuetzter Statusendpunkt liefert Laufzustand und konkrete Netzwerkfehler, die Oberflaeche pollt mit Zeitlimit. Installation wird ebenfalls nur vorgemerkt. Tote synchrone Altpfade entfernt und String::reserve fuer RP2040-Core 6.0.0 korrigiert. Keine Storage-Schema- oder Konfigurationsaenderung."
                   }
               ]
 }
