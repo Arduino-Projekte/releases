@@ -1,6 +1,13 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.590",
+                      "bin":  "knx-led-controller-16m_0.0.590.bin",
+                      "sha256":  "99398badb2b95cc6774474fcc5928afa4eefb7e0b0c5b3e420dc933631346d06",
+                      "date":  "2026-08-22",
+                      "note":  "KNX DPT 19.001 liefert auf DP 22 einen vollstaendigen Datum-/Zeitwert. Der synchrone 8-Byte-BAOS-Pfad prueft Zustand, Laenge, reservierte Bits, Fault-, Gueltigkeits-, Kalender-, Wochentag- und 24-Uhr-Regeln. SUTI bleibt informativ; CLQ/SRC bestimmen die Qualitaet. Ohne ausdrueckliche Offsetregel bleibt der Wert Ortszeit und fuer TLS gesperrt. DPT 19 hat Vorrang vor dem DPT-10/11-Paar, ohne Quellenflattern. KNX-Interface-Schema 11 fuegt nur DP 22 und GA 2/2/24 hinzu; Config-Schema 77 bleibt unveraendert."
+                  },
+                  {
                       "version":  "0.0.589",
                       "bin":  "knx-led-controller-16m_0.0.589.bin",
                       "sha256":  "62776aae738ff3f7a7bc86fa76074bad09a099655a0d4a749f620ffbffe48732",
@@ -27,13 +34,6 @@
                       "sha256":  "fc719d1b82cb96c3bab9fb92152e118cbd3fdcd4cda3667ba500ff75d54506d1",
                       "date":  "2026-08-22",
                       "note":  "Colorpicker-Korrektur: RGB- und RGBW-Ausgaenge erhalten in Ausgangs- und KNX-Einstellungen ein Farbrad; nur RGBW zeigt den Weissregler. Knopf- und Pointer-Geometrie folgen jetzt dem oben bei Rot beginnenden Farbkreis. Hex-, HSV- und Master-Helligkeit sind eindeutig erklaert, Rundungsanzeige und eingebettete Sprachpakete korrigiert. Keine Storage-Schema- oder Konfigurationsaenderung."
-                  },
-                  {
-                      "version":  "0.0.580",
-                      "bin":  "knx-led-controller-16m_0.0.580.bin",
-                      "sha256":  "c6ca82227255f8f06ea8587c7e921467f35330459b4e13e33df5d59638c4fb0f",
-                      "date":  "2026-08-20",
-                      "note":  "Buildfix fuer den 36-h-Hauptdauerpfad: klc_storage_import.cpp bindet klc_effect_catalog.h nun direkt ein, sodass KLC_SCENE_MAIN_DURATION_MAX_MS im Importer beim echten RP2350-Build sichtbar ist. Ein Regressionstest sichert die Include-Sichtbarkeit und den 27-h-Importvertrag. Keine API-, Storage-Schema- oder Funktionsaenderung."
                   }
               ]
 }
