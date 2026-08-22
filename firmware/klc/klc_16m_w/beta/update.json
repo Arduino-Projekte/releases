@@ -1,12 +1,12 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m-w_0.0.589.bin",
+                     "url":  "knx-led-controller-16m-w_0.0.590.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.589",
-                     "bin":  "knx-led-controller-16m-w_0.0.589.bin",
-                     "file":  "knx-led-controller-16m-w_0.0.589.bin",
-                     "sha256":  "4c040d62651f51706aa56f0a692fdfacd0b13bb6d7da600931eafe1484c8d0fb",
+                     "version":  "0.0.590",
+                     "bin":  "knx-led-controller-16m-w_0.0.590.bin",
+                     "file":  "knx-led-controller-16m-w_0.0.590.bin",
+                     "sha256":  "c5afe5ee1c73e73bfce310b00fffea80baed0f698e2d4b45641add56e6f1b3ba",
                      "message":  "KNX DPT 19.001 liefert auf DP 22 einen vollstaendigen Datum-/Zeitwert. Der synchrone 8-Byte-BAOS-Pfad prueft Zustand, Laenge, reservierte Bits, Fault-, Gueltigkeits-, Kalender-, Wochentag- und 24-Uhr-Regeln. SUTI bleibt informativ; CLQ/SRC bestimmen die Qualitaet. Ohne ausdrueckliche Offsetregel bleibt der Wert Ortszeit und fuer TLS gesperrt. DPT 19 hat Vorrang vor dem DPT-10/11-Paar, ohne Quellenflattern. KNX-Interface-Schema 11 fuegt nur DP 22 und GA 2/2/24 hinzu; Config-Schema 77 bleibt unveraendert.",
                      "http_code":  200
                  }
