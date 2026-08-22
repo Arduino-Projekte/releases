@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m_0.0.593.bin",
+                     "url":  "knx-led-controller-16m_0.0.594.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.593",
-                     "bin":  "knx-led-controller-16m_0.0.593.bin",
-                     "file":  "knx-led-controller-16m_0.0.593.bin",
-                     "sha256":  "554a747cd18978cf292fb17c7aed49e8cb3a0883626d47ae28c1ab14cb245130",
-                     "message":  "Fuehrt die OTA/TLS-Haertung aus 0.0.592 mit dem Sprachpaketvertrag 2.7.4 zusammen. Manuelle Updatepruefungen bleiben reloadfrei und HTTPS wartet kooperativ auf Webserver-Idle; DNS-, TCP/lwIP-, X.509-, TLS-, BearSSL- und Heapfehler bleiben getrennt diagnostizierbar. Sieben kanonische Sprachpakete mit 2108 Schluesseln werden atomar generiert und vor jedem Build geprueft; Wechsel und Wiederherstellung laufen kooperativ und transaktional. Config-Schema 77 und KNX-Schema 11 bleiben unveraendert.",
+                     "version":  "0.0.594",
+                     "bin":  "knx-led-controller-16m_0.0.594.bin",
+                     "file":  "knx-led-controller-16m_0.0.594.bin",
+                     "sha256":  "6c13f86a908d5c826e6f00f01726754e009ec24e4a19edea94309c9c1d07427b",
+                     "message":  "Behebt drei Feldregressionen: Der Sprachwechsel schuetzt die absichtliche Rollbackkopie bis zum Commit und verhindert commit_identity_mismatch. /outputs laedt seine grossen Skripte defer und liefert statische Assets ueber gepruefte kleine Chunks, sodass ein Transportfehler keine leere Seite hinterlaesst. Eine manuelle Updatepruefung verkettet Manifest und Versionsliste kooperativ; danach wird die Tabelle ohne Seitenreload neu geladen. Config-Schema 77 und KNX-Schema 11 bleiben unveraendert.",
                      "http_code":  200
                  }
 }
