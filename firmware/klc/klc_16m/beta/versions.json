@@ -1,6 +1,13 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.593",
+                      "bin":  "knx-led-controller-16m_0.0.593.bin",
+                      "sha256":  "554a747cd18978cf292fb17c7aed49e8cb3a0883626d47ae28c1ab14cb245130",
+                      "date":  "2026-08-22",
+                      "note":  "Fuehrt die OTA/TLS-Haertung aus 0.0.592 mit dem Sprachpaketvertrag 2.7.4 zusammen. Manuelle Updatepruefungen bleiben reloadfrei und HTTPS wartet kooperativ auf Webserver-Idle; DNS-, TCP/lwIP-, X.509-, TLS-, BearSSL- und Heapfehler bleiben getrennt diagnostizierbar. Sieben kanonische Sprachpakete mit 2108 Schluesseln werden atomar generiert und vor jedem Build geprueft; Wechsel und Wiederherstellung laufen kooperativ und transaktional. Config-Schema 77 und KNX-Schema 11 bleiben unveraendert."
+                  },
+                  {
                       "version":  "0.0.592",
                       "bin":  "knx-led-controller-16m_0.0.592.bin",
                       "sha256":  "254f3fa1e21310d6ee5013ec6363ddcafa3bcdc1746e8943cbb4e22645de687e",
@@ -27,13 +34,6 @@
                       "sha256":  "62776aae738ff3f7a7bc86fa76074bad09a099655a0d4a749f620ffbffe48732",
                       "date":  "2026-08-22",
                       "note":  "KNX DPT 19.001 liefert auf DP 22 einen vollstaendigen Datum-/Zeitwert. Der synchrone 8-Byte-BAOS-Pfad prueft Zustand, Laenge, reservierte Bits, Fault-, Gueltigkeits-, Kalender-, Wochentag- und 24-Uhr-Regeln. SUTI bleibt informativ; CLQ/SRC bestimmen die Qualitaet. Ohne ausdrueckliche Offsetregel bleibt der Wert Ortszeit und fuer TLS gesperrt. DPT 19 hat Vorrang vor dem DPT-10/11-Paar, ohne Quellenflattern. KNX-Interface-Schema 11 fuegt nur DP 22 und GA 2/2/24 hinzu; Config-Schema 77 bleibt unveraendert."
-                  },
-                  {
-                      "version":  "0.0.586",
-                      "bin":  "knx-led-controller-16m_0.0.586.bin",
-                      "sha256":  "2e46f4d8a705b62964628842a76dab1cdab8023f0650abaf1c4ecccab3cffd96",
-                      "date":  "2026-08-22",
-                      "note":  "Flow-Slider-Korrektur: Ganzzahlige Felder behalten ihre deklarierte Schrittweite; lit_pixels bleibt dadurch von 0 bis 5000 pixelgenau bedienbar und schreibt keine Dezimalwerte. Nach Pixelmodus- und Effektwechseln werden neu sichtbare Felder idempotent sliderisiert. Erzeugte Sekundenfelder behalten ihre logische Kennung und verwenden weiterhin genau eine formatierte Zeitanzeige. Historische Feinwerte bleiben beim Oeffnen unveraendert. Keine Storage-Schema- oder Konfigurationsaenderung."
                   }
               ]
 }
