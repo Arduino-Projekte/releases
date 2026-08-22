@@ -1,6 +1,13 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.592",
+                      "bin":  "knx-led-controller-16m_0.0.592.bin",
+                      "sha256":  "254f3fa1e21310d6ee5013ec6363ddcafa3bcdc1746e8943cbb4e22645de687e",
+                      "date":  "2026-08-22",
+                      "note":  "Manuelle Updatepruefungen laufen ohne Seitenreload ueber /api/update/check und pollen nur /api/update. Ausgehendes DNS/TCP/TLS wartet kooperativ auf Webserver-Idle. HTTPS-Diagnosen trennen DNS, TCP/lwIP, PCB, X.509-/TLS-Allokationen, BearSSL und Heap; retryfaehige asynchrone TCP-Fehler erhalten genau einen begrenzten Retry. Erfolgreiche HTTPS-Sitzungen schliessen regulaer; Ressourcen-, Zertifikats-, Manifest-, Profil- und SHA-Fehler bleiben fail-closed. Config-Schema 77 und KNX-Schema 11 bleiben unveraendert."
+                  },
+                  {
                       "version":  "0.0.591",
                       "bin":  "knx-led-controller-16m_0.0.591.bin",
                       "sha256":  "98f5d6deebbc4d9f77df5c0e6a62c6ecfd2c91473a36e96396e0a3f37fae1c2d",
@@ -27,13 +34,6 @@
                       "sha256":  "2e46f4d8a705b62964628842a76dab1cdab8023f0650abaf1c4ecccab3cffd96",
                       "date":  "2026-08-22",
                       "note":  "Flow-Slider-Korrektur: Ganzzahlige Felder behalten ihre deklarierte Schrittweite; lit_pixels bleibt dadurch von 0 bis 5000 pixelgenau bedienbar und schreibt keine Dezimalwerte. Nach Pixelmodus- und Effektwechseln werden neu sichtbare Felder idempotent sliderisiert. Erzeugte Sekundenfelder behalten ihre logische Kennung und verwenden weiterhin genau eine formatierte Zeitanzeige. Historische Feinwerte bleiben beim Oeffnen unveraendert. Keine Storage-Schema- oder Konfigurationsaenderung."
-                  },
-                  {
-                      "version":  "0.0.585",
-                      "bin":  "knx-led-controller-16m_0.0.585.bin",
-                      "sha256":  "63823fa29a452e5bf462549b016f0fde05333d8dc55b4dd860068322120799c2",
-                      "date":  "2026-08-22",
-                      "note":  "WebUI-Korrekturen: Die Szenenauswahl der Ausgangssteuerung bleibt beim Polling erhalten. Slider und verschachtelte Raster passen sich schmalen Ansichten an; Flow-Slider verwenden kopierbare Wertanzeigen und weiterhin die vorhandenen POST-Felder. Der Ausgangs-Colorpicker richtet den Weisskanal nach dem gespeicherten Zieltyp aus und aktualisiert ihn beim Umschalten zwischen RGB und RGBW ohne Wertverlust. Keine Storage-Schema- oder Konfigurationsaenderung."
                   }
               ]
 }
