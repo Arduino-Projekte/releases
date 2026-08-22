@@ -1,6 +1,13 @@
 {
     "items":  [
                   {
+                      "version":  "0.0.591",
+                      "bin":  "knx-led-controller-16m_0.0.591.bin",
+                      "sha256":  "98f5d6deebbc4d9f77df5c0e6a62c6ecfd2c91473a36e96396e0a3f37fae1c2d",
+                      "date":  "2026-08-22",
+                      "note":  "Die WDT-Klassifizierung ist korrigiert: Die Diagnose nutzt nur Scratch 0 bis 3 und laesst die vom RP2040-Core reservierten Register 4 bis 7 unangetastet. Beabsichtigte Neustarts tragen eine gepruefte Herkunft; ein unmarkierter Software-Reset gilt als unerwartet. Ein CRC-geschuetzter Breadcrumb bewahrt HTTP-, Loop-, OTA- und HTTPS-Phase samt Heapwerten ueber den Reset. Manuelle und faellige automatische Updatepruefungen werden serialisiert und zusammengefuehrt. Der Zustand Firmware aktuell endet definiert ohne Neustart, Download oder Installation. Config-Schema 77 und KNX-Schema 11 bleiben unveraendert."
+                  },
+                  {
                       "version":  "0.0.590",
                       "bin":  "knx-led-controller-16m_0.0.590.bin",
                       "sha256":  "99398badb2b95cc6774474fcc5928afa4eefb7e0b0c5b3e420dc933631346d06",
@@ -27,13 +34,6 @@
                       "sha256":  "63823fa29a452e5bf462549b016f0fde05333d8dc55b4dd860068322120799c2",
                       "date":  "2026-08-22",
                       "note":  "WebUI-Korrekturen: Die Szenenauswahl der Ausgangssteuerung bleibt beim Polling erhalten. Slider und verschachtelte Raster passen sich schmalen Ansichten an; Flow-Slider verwenden kopierbare Wertanzeigen und weiterhin die vorhandenen POST-Felder. Der Ausgangs-Colorpicker richtet den Weisskanal nach dem gespeicherten Zieltyp aus und aktualisiert ihn beim Umschalten zwischen RGB und RGBW ohne Wertverlust. Keine Storage-Schema- oder Konfigurationsaenderung."
-                  },
-                  {
-                      "version":  "0.0.584",
-                      "bin":  "knx-led-controller-16m_0.0.584.bin",
-                      "sha256":  "fc719d1b82cb96c3bab9fb92152e118cbd3fdcd4cda3667ba500ff75d54506d1",
-                      "date":  "2026-08-22",
-                      "note":  "Colorpicker-Korrektur: RGB- und RGBW-Ausgaenge erhalten in Ausgangs- und KNX-Einstellungen ein Farbrad; nur RGBW zeigt den Weissregler. Knopf- und Pointer-Geometrie folgen jetzt dem oben bei Rot beginnenden Farbkreis. Hex-, HSV- und Master-Helligkeit sind eindeutig erklaert, Rundungsanzeige und eingebettete Sprachpakete korrigiert. Keine Storage-Schema- oder Konfigurationsaenderung."
                   }
               ]
 }

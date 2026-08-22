@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m_0.0.590.bin",
+                     "url":  "knx-led-controller-16m_0.0.591.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.590",
-                     "bin":  "knx-led-controller-16m_0.0.590.bin",
-                     "file":  "knx-led-controller-16m_0.0.590.bin",
-                     "sha256":  "99398badb2b95cc6774474fcc5928afa4eefb7e0b0c5b3e420dc933631346d06",
-                     "message":  "KNX DPT 19.001 liefert auf DP 22 einen vollstaendigen Datum-/Zeitwert. Der synchrone 8-Byte-BAOS-Pfad prueft Zustand, Laenge, reservierte Bits, Fault-, Gueltigkeits-, Kalender-, Wochentag- und 24-Uhr-Regeln. SUTI bleibt informativ; CLQ/SRC bestimmen die Qualitaet. Ohne ausdrueckliche Offsetregel bleibt der Wert Ortszeit und fuer TLS gesperrt. DPT 19 hat Vorrang vor dem DPT-10/11-Paar, ohne Quellenflattern. KNX-Interface-Schema 11 fuegt nur DP 22 und GA 2/2/24 hinzu; Config-Schema 77 bleibt unveraendert.",
+                     "version":  "0.0.591",
+                     "bin":  "knx-led-controller-16m_0.0.591.bin",
+                     "file":  "knx-led-controller-16m_0.0.591.bin",
+                     "sha256":  "98f5d6deebbc4d9f77df5c0e6a62c6ecfd2c91473a36e96396e0a3f37fae1c2d",
+                     "message":  "Die WDT-Klassifizierung ist korrigiert: Die Diagnose nutzt nur Scratch 0 bis 3 und laesst die vom RP2040-Core reservierten Register 4 bis 7 unangetastet. Beabsichtigte Neustarts tragen eine gepruefte Herkunft; ein unmarkierter Software-Reset gilt als unerwartet. Ein CRC-geschuetzter Breadcrumb bewahrt HTTP-, Loop-, OTA- und HTTPS-Phase samt Heapwerten ueber den Reset. Manuelle und faellige automatische Updatepruefungen werden serialisiert und zusammengefuehrt. Der Zustand Firmware aktuell endet definiert ohne Neustart, Download oder Installation. Config-Schema 77 und KNX-Schema 11 bleiben unveraendert.",
                      "http_code":  200
                  }
 }
