@@ -1,6 +1,13 @@
 {
     "items":  [
                   {
+                      "version":  "0.1.13",
+                      "bin":  "knx-led-controller-16m-w_0.1.13.bin",
+                      "sha256":  "e30e9dd9980b05f2c77e5c76219d16660b843f2aea07ca83d416c4e19da0998b",
+                      "date":  "2026-08-23",
+                      "note":  "Buildkorrektur zu 0.1.4: In der Fussnote der Szenenliste stand ein typografisches Anfuehrungszeichen als oeffnendes und ein normales als schliessendes Zeichen - letzteres hat das C-Stringliteral beendet und den Uebersetzer mit missing terminating character abgebrochen. Der Text nutzt jetzt die HTML-Entitaeten bdquo und ldquo, wie an den anderen Stellen der Datei. Zusaetzlich pruefe ich neue Dateien jetzt auf ungerade Anzahl unmaskierter Anfuehrungszeichen je Zeile. Keine Funktionsaenderung. Config-Schema 77 und KNX-Schema 11 bleiben unveraendert."
+                  },
+                  {
                       "version":  "0.1.3",
                       "bin":  "knx-led-controller-16m-w_0.1.3.bin",
                       "sha256":  "9f44bfc64b12fbc303a3e67b8093fa0bd22b4d10bfdd9435736d1a04ce44186c",
@@ -27,13 +34,6 @@
                       "sha256":  "d15982b7ac49013b4a4e080c025a7c6f359eca9811fbb1f86a411606ed0f429d",
                       "date":  "2026-08-22",
                       "note":  "Manuelle Updatepruefungen laufen ohne Seitenreload ueber /api/update/check und pollen nur /api/update. Ausgehendes DNS/TCP/TLS wartet kooperativ auf Webserver-Idle. HTTPS-Diagnosen trennen DNS, TCP/lwIP, PCB, X.509-/TLS-Allokationen, BearSSL und Heap; retryfaehige asynchrone TCP-Fehler erhalten genau einen begrenzten Retry. Erfolgreiche HTTPS-Sitzungen schliessen regulaer; Ressourcen-, Zertifikats-, Manifest-, Profil- und SHA-Fehler bleiben fail-closed. Config-Schema 77 und KNX-Schema 11 bleiben unveraendert."
-                  },
-                  {
-                      "version":  "0.0.591",
-                      "bin":  "knx-led-controller-16m-w_0.0.591.bin",
-                      "sha256":  "7cc20ff4f86ce914ac1eda205c40cb9defc591b96db9574a43cd93b02ef4162a",
-                      "date":  "2026-08-22",
-                      "note":  "Die WDT-Klassifizierung ist korrigiert: Die Diagnose nutzt nur Scratch 0 bis 3 und laesst die vom RP2040-Core reservierten Register 4 bis 7 unangetastet. Beabsichtigte Neustarts tragen eine gepruefte Herkunft; ein unmarkierter Software-Reset gilt als unerwartet. Ein CRC-geschuetzter Breadcrumb bewahrt HTTP-, Loop-, OTA- und HTTPS-Phase samt Heapwerten ueber den Reset. Manuelle und faellige automatische Updatepruefungen werden serialisiert und zusammengefuehrt. Der Zustand Firmware aktuell endet definiert ohne Neustart, Download oder Installation. Config-Schema 77 und KNX-Schema 11 bleiben unveraendert."
                   }
               ]
 }

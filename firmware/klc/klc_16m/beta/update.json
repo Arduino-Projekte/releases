@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m_0.1.3.bin",
+                     "url":  "knx-led-controller-16m_0.1.13.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.1.3",
-                     "bin":  "knx-led-controller-16m_0.1.3.bin",
-                     "file":  "knx-led-controller-16m_0.1.3.bin",
-                     "sha256":  "01bb1846175b0b111dc8b698355492981b9efadbaa1517b0c6055e74f8f9ec3d",
-                     "message":  "Stufe 3 von 6 der WebUI-Neustrukturierung: die Ausgangsansicht. Ein Ausgang ist jetzt EIN Objekt mit fuenf Aspekten in EINER Ansicht - Objektliste links, Detail rechts, Kettendiagramm ganz oben, darunter Installation, Leistung, Startverhalten, KNX und Test. Im DOM liegt immer genau ein Ausgang. Beim Oeffnen laeuft nur noch EIN Request statt vier: /api/power, /api/ledbackend und /api/leddiag haengen hinter dem Aspekt, der sie braucht. Speicherpfad, Testpfad, Endpunkte und Rechteklassen sind unveraendert. Config-Schema 77 und KNX-Schema 11 bleiben unveraendert.",
+                     "version":  "0.1.13",
+                     "bin":  "knx-led-controller-16m_0.1.13.bin",
+                     "file":  "knx-led-controller-16m_0.1.13.bin",
+                     "sha256":  "bf96cb945610fd6613e2aa6960f03eacd90816a6e07f23d491541cec31e27eaa",
+                     "message":  "Buildkorrektur zu 0.1.4: In der Fussnote der Szenenliste stand ein typografisches Anfuehrungszeichen als oeffnendes und ein normales als schliessendes Zeichen - letzteres hat das C-Stringliteral beendet und den Uebersetzer mit missing terminating character abgebrochen. Der Text nutzt jetzt die HTML-Entitaeten bdquo und ldquo, wie an den anderen Stellen der Datei. Zusaetzlich pruefe ich neue Dateien jetzt auf ungerade Anzahl unmaskierter Anfuehrungszeichen je Zeile. Keine Funktionsaenderung. Config-Schema 77 und KNX-Schema 11 bleiben unveraendert.",
                      "http_code":  200
                  }
 }
