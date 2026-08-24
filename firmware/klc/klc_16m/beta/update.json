@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m_0.1.13.bin",
+                     "url":  "knx-led-controller-16m_0.1.20.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.1.13",
-                     "bin":  "knx-led-controller-16m_0.1.13.bin",
-                     "file":  "knx-led-controller-16m_0.1.13.bin",
-                     "sha256":  "bf96cb945610fd6613e2aa6960f03eacd90816a6e07f23d491541cec31e27eaa",
-                     "message":  "Buildkorrektur zu 0.1.4: In der Fussnote der Szenenliste stand ein typografisches Anfuehrungszeichen als oeffnendes und ein normales als schliessendes Zeichen - letzteres hat das C-Stringliteral beendet und den Uebersetzer mit missing terminating character abgebrochen. Der Text nutzt jetzt die HTML-Entitaeten bdquo und ldquo, wie an den anderen Stellen der Datei. Zusaetzlich pruefe ich neue Dateien jetzt auf ungerade Anzahl unmaskierter Anfuehrungszeichen je Zeile. Keine Funktionsaenderung. Config-Schema 77 und KNX-Schema 11 bleiben unveraendert.",
+                     "version":  "0.1.20",
+                     "bin":  "knx-led-controller-16m_0.1.20.bin",
+                     "file":  "knx-led-controller-16m_0.1.20.bin",
+                     "sha256":  "1eb6daffcc49bfe0bdfb9f2803df51f4942f0127107c1f497c448ebb71c7da93",
+                     "message":  "Sprachpakete waren seit 0.1.0 unbrauchbar. Jedes Paket nennt eine hoechste Firmwareversion, und alle sieben standen auf 0.0.999. Seit dem Wechsel auf die Linie 0.1.x liegt die Firmware darueber, und die Pruefung lehnte JEDES Paket ab - auch die sieben eingebauten, weil sie denselben Weg gehen. Sprachumschaltung war damit tot, die Oberflaeche fiel auf den englischen Notvorrat zurueck. Die kanonischen Quellen stehen jetzt auf 0.1.999, die drei erzeugten Header sind neu gebaut, Schluesselzahl 2108 und Keyset-Hash unveraendert. Die Release-Dateien muessen mit tools/klc_language_contract.py nachgezogen werden. Schema 77 und KNX-Schema 11 unveraendert.",
                      "http_code":  200
                  }
 }

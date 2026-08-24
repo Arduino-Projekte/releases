@@ -1,6 +1,13 @@
 {
     "items":  [
                   {
+                      "version":  "0.1.20",
+                      "bin":  "knx-led-controller-16m-w_0.1.20.bin",
+                      "sha256":  "3ee8d659d028559f8c937087c826671eb2ae65beea4735d53de6844b20b0d464",
+                      "date":  "2026-08-24",
+                      "note":  "Sprachpakete waren seit 0.1.0 unbrauchbar. Jedes Paket nennt eine hoechste Firmwareversion, und alle sieben standen auf 0.0.999. Seit dem Wechsel auf die Linie 0.1.x liegt die Firmware darueber, und die Pruefung lehnte JEDES Paket ab - auch die sieben eingebauten, weil sie denselben Weg gehen. Sprachumschaltung war damit tot, die Oberflaeche fiel auf den englischen Notvorrat zurueck. Die kanonischen Quellen stehen jetzt auf 0.1.999, die drei erzeugten Header sind neu gebaut, Schluesselzahl 2108 und Keyset-Hash unveraendert. Die Release-Dateien muessen mit tools/klc_language_contract.py nachgezogen werden. Schema 77 und KNX-Schema 11 unveraendert."
+                  },
+                  {
                       "version":  "0.1.13",
                       "bin":  "knx-led-controller-16m-w_0.1.13.bin",
                       "sha256":  "e30e9dd9980b05f2c77e5c76219d16660b843f2aea07ca83d416c4e19da0998b",
@@ -27,13 +34,6 @@
                       "sha256":  "9632e1b0f25a64d1e6e1c417c8ba99f7f4633e947eb95113aaf96a42d752b515",
                       "date":  "2026-08-22",
                       "note":  "Fuehrt die OTA/TLS-Haertung aus 0.0.592 mit dem Sprachpaketvertrag 2.7.4 zusammen. Manuelle Updatepruefungen bleiben reloadfrei und HTTPS wartet kooperativ auf Webserver-Idle; DNS-, TCP/lwIP-, X.509-, TLS-, BearSSL- und Heapfehler bleiben getrennt diagnostizierbar. Sieben kanonische Sprachpakete mit 2108 Schluesseln werden atomar generiert und vor jedem Build geprueft; Wechsel und Wiederherstellung laufen kooperativ und transaktional. Config-Schema 77 und KNX-Schema 11 bleiben unveraendert."
-                  },
-                  {
-                      "version":  "0.0.592",
-                      "bin":  "knx-led-controller-16m-w_0.0.592.bin",
-                      "sha256":  "d15982b7ac49013b4a4e080c025a7c6f359eca9811fbb1f86a411606ed0f429d",
-                      "date":  "2026-08-22",
-                      "note":  "Manuelle Updatepruefungen laufen ohne Seitenreload ueber /api/update/check und pollen nur /api/update. Ausgehendes DNS/TCP/TLS wartet kooperativ auf Webserver-Idle. HTTPS-Diagnosen trennen DNS, TCP/lwIP, PCB, X.509-/TLS-Allokationen, BearSSL und Heap; retryfaehige asynchrone TCP-Fehler erhalten genau einen begrenzten Retry. Erfolgreiche HTTPS-Sitzungen schliessen regulaer; Ressourcen-, Zertifikats-, Manifest-, Profil- und SHA-Fehler bleiben fail-closed. Config-Schema 77 und KNX-Schema 11 bleiben unveraendert."
                   }
               ]
 }
