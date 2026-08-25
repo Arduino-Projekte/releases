@@ -1,6 +1,13 @@
 {
     "items":  [
                   {
+                      "version":  "0.1.21",
+                      "bin":  "knx-led-controller-16m_0.1.21.bin",
+                      "sha256":  "4c2e73b277873e46a7393d98cc1596ab563b41922e01ab02a59e584bc1680924",
+                      "date":  "2026-08-25",
+                      "note":  "Ein Aussehen fuer alle Seiten. Die Altschicht des Stylesheets lag zweimal vor, einmal hell und einmal dunkel, mit festen Farben, runden Ecken und weichen Schatten - deshalb sahen die noch nicht umgebauten Seiten anders aus als die umgebauten. Sie steht jetzt einmal und spricht dieselben Token wie die Shell: Farben, eckige Kanten, Rahmen statt Schatten, Anzeigeschrift fuer Ueberschriften und Schaltflaechen. Kein Selektor entfaellt, kein Markup ist angefasst. Ausserdem: das Zeichen in der Kopfzeile steht inline statt als eigener Request, es fehlte sonst gelegentlich; der Satz ueber Board-Pins ist raus. Schema 77 und KNX-Schema 11 unveraendert."
+                  },
+                  {
                       "version":  "0.1.20",
                       "bin":  "knx-led-controller-16m_0.1.20.bin",
                       "sha256":  "1eb6daffcc49bfe0bdfb9f2803df51f4942f0127107c1f497c448ebb71c7da93",
@@ -27,13 +34,6 @@
                       "sha256":  "6c13f86a908d5c826e6f00f01726754e009ec24e4a19edea94309c9c1d07427b",
                       "date":  "2026-08-22",
                       "note":  "Behebt drei Feldregressionen: Der Sprachwechsel schuetzt die absichtliche Rollbackkopie bis zum Commit und verhindert commit_identity_mismatch. /outputs laedt seine grossen Skripte defer und liefert statische Assets ueber gepruefte kleine Chunks, sodass ein Transportfehler keine leere Seite hinterlaesst. Eine manuelle Updatepruefung verkettet Manifest und Versionsliste kooperativ; danach wird die Tabelle ohne Seitenreload neu geladen. Config-Schema 77 und KNX-Schema 11 bleiben unveraendert."
-                  },
-                  {
-                      "version":  "0.0.593",
-                      "bin":  "knx-led-controller-16m_0.0.593.bin",
-                      "sha256":  "554a747cd18978cf292fb17c7aed49e8cb3a0883626d47ae28c1ab14cb245130",
-                      "date":  "2026-08-22",
-                      "note":  "Fuehrt die OTA/TLS-Haertung aus 0.0.592 mit dem Sprachpaketvertrag 2.7.4 zusammen. Manuelle Updatepruefungen bleiben reloadfrei und HTTPS wartet kooperativ auf Webserver-Idle; DNS-, TCP/lwIP-, X.509-, TLS-, BearSSL- und Heapfehler bleiben getrennt diagnostizierbar. Sieben kanonische Sprachpakete mit 2108 Schluesseln werden atomar generiert und vor jedem Build geprueft; Wechsel und Wiederherstellung laufen kooperativ und transaktional. Config-Schema 77 und KNX-Schema 11 bleiben unveraendert."
                   }
               ]
 }
