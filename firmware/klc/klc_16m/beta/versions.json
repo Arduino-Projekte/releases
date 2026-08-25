@@ -1,6 +1,13 @@
 {
     "items":  [
                   {
+                      "version":  "0.1.22",
+                      "bin":  "knx-led-controller-16m_0.1.22.bin",
+                      "sha256":  "322bc4c6ceec346eb74f2a4117fbb18c4c1394d4d2225da11ddf5b2e7a18cb9a",
+                      "date":  "2026-08-25",
+                      "note":  "Anmeldeseite in der neuen Sprache: Karten statt Kasten, Rollenwahl als zwei Schaltfelder, Passwort-vergessen und Sprachwahl als eigene Abschnitte. Formularziel, Feldnamen und Rollenwerte sind unveraendert - der Server sieht dasselbe Formular wie vorher. Dazu ein Fund zur weissen Seite: Wer eine Seite anfordert, waehrend das Geraet schon eine andere ausliefert, bekam eine Zeile Klartext oder eine abgebrochene Antwort. Der belegte Fall antwortet jetzt mit einer winzigen eigenstaendigen Seite, die sich nach einer Sekunde selbst neu laedt. Abgebrochene Auslieferungen stehen weiterhin unter Ereignisse. Schema 77 und KNX-Schema 11 unveraendert."
+                  },
+                  {
                       "version":  "0.1.21",
                       "bin":  "knx-led-controller-16m_0.1.21.bin",
                       "sha256":  "4c2e73b277873e46a7393d98cc1596ab563b41922e01ab02a59e584bc1680924",
@@ -27,13 +34,6 @@
                       "sha256":  "01bb1846175b0b111dc8b698355492981b9efadbaa1517b0c6055e74f8f9ec3d",
                       "date":  "2026-08-23",
                       "note":  "Stufe 3 von 6 der WebUI-Neustrukturierung: die Ausgangsansicht. Ein Ausgang ist jetzt EIN Objekt mit fuenf Aspekten in EINER Ansicht - Objektliste links, Detail rechts, Kettendiagramm ganz oben, darunter Installation, Leistung, Startverhalten, KNX und Test. Im DOM liegt immer genau ein Ausgang. Beim Oeffnen laeuft nur noch EIN Request statt vier: /api/power, /api/ledbackend und /api/leddiag haengen hinter dem Aspekt, der sie braucht. Speicherpfad, Testpfad, Endpunkte und Rechteklassen sind unveraendert. Config-Schema 77 und KNX-Schema 11 bleiben unveraendert."
-                  },
-                  {
-                      "version":  "0.0.594",
-                      "bin":  "knx-led-controller-16m_0.0.594.bin",
-                      "sha256":  "6c13f86a908d5c826e6f00f01726754e009ec24e4a19edea94309c9c1d07427b",
-                      "date":  "2026-08-22",
-                      "note":  "Behebt drei Feldregressionen: Der Sprachwechsel schuetzt die absichtliche Rollbackkopie bis zum Commit und verhindert commit_identity_mismatch. /outputs laedt seine grossen Skripte defer und liefert statische Assets ueber gepruefte kleine Chunks, sodass ein Transportfehler keine leere Seite hinterlaesst. Eine manuelle Updatepruefung verkettet Manifest und Versionsliste kooperativ; danach wird die Tabelle ohne Seitenreload neu geladen. Config-Schema 77 und KNX-Schema 11 bleiben unveraendert."
                   }
               ]
 }
