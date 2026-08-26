@@ -1,6 +1,13 @@
 {
     "items":  [
                   {
+                      "version":  "0.1.25",
+                      "bin":  "knx-led-controller-16m-w_0.1.25.bin",
+                      "sha256":  "e15e79148d77025a82f70c5c098bb20cb64b3b1ed8ded768459a3d1d8cbd6c26",
+                      "date":  "2026-08-26",
+                      "note":  "Seitenaufbau: das Sprachpaket wird nur noch einmal geholt. Es ist mit bis zu 200 KB der groesste Brocken jeder Seite und wurde bisher bei jedem Aufruf mindestens neu bestaetigt, im Notvorrat-Fall sogar komplett neu uebertragen. Der Skriptverweis traegt jetzt eine Kennung aus Firmware, Sprache, Pakethash und Groesse; stimmt sie, darf der Browser das Paket dauerhaft behalten und fragt bei weiteren Seiten gar nicht mehr danach. Aendert sich Sprache, Paket oder Firmware, aendert sich die Adresse. Der eingebaute Notvorrat bekommt zusaetzlich ein ETag - aus 190 KB werden wenige Byte. Schema 77 und KNX-Schema 11 unveraendert."
+                  },
+                  {
                       "version":  "0.1.24",
                       "bin":  "knx-led-controller-16m-w_0.1.24.bin",
                       "sha256":  "2936a0f72c076292a5d27ecb47eb6756c3484c447c39eecf970a945bef816dfa",
@@ -27,13 +34,6 @@
                       "sha256":  "3ee8d659d028559f8c937087c826671eb2ae65beea4735d53de6844b20b0d464",
                       "date":  "2026-08-24",
                       "note":  "Sprachpakete waren seit 0.1.0 unbrauchbar. Jedes Paket nennt eine hoechste Firmwareversion, und alle sieben standen auf 0.0.999. Seit dem Wechsel auf die Linie 0.1.x liegt die Firmware darueber, und die Pruefung lehnte JEDES Paket ab - auch die sieben eingebauten, weil sie denselben Weg gehen. Sprachumschaltung war damit tot, die Oberflaeche fiel auf den englischen Notvorrat zurueck. Die kanonischen Quellen stehen jetzt auf 0.1.999, die drei erzeugten Header sind neu gebaut, Schluesselzahl 2108 und Keyset-Hash unveraendert. Die Release-Dateien muessen mit tools/klc_language_contract.py nachgezogen werden. Schema 77 und KNX-Schema 11 unveraendert."
-                  },
-                  {
-                      "version":  "0.1.13",
-                      "bin":  "knx-led-controller-16m-w_0.1.13.bin",
-                      "sha256":  "e30e9dd9980b05f2c77e5c76219d16660b843f2aea07ca83d416c4e19da0998b",
-                      "date":  "2026-08-23",
-                      "note":  "Buildkorrektur zu 0.1.4: In der Fussnote der Szenenliste stand ein typografisches Anfuehrungszeichen als oeffnendes und ein normales als schliessendes Zeichen - letzteres hat das C-Stringliteral beendet und den Uebersetzer mit missing terminating character abgebrochen. Der Text nutzt jetzt die HTML-Entitaeten bdquo und ldquo, wie an den anderen Stellen der Datei. Zusaetzlich pruefe ich neue Dateien jetzt auf ungerade Anzahl unmaskierter Anfuehrungszeichen je Zeile. Keine Funktionsaenderung. Config-Schema 77 und KNX-Schema 11 bleiben unveraendert."
                   }
               ]
 }

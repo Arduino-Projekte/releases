@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m_0.1.24.bin",
+                     "url":  "knx-led-controller-16m_0.1.25.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.1.24",
-                     "bin":  "knx-led-controller-16m_0.1.24.bin",
-                     "file":  "knx-led-controller-16m_0.1.24.bin",
-                     "sha256":  "432ef1c1a3775308af30e12a8c735492d712d8efa602be05b63da6ac5b1598a0",
-                     "message":  "Abmeldungen sagen jetzt, warum. Sitzungen liegen nur im RAM und verschwinden aus vier Gruenden: Leerlauf, Hoechstdauer, Verdraengung eines der acht Plaetze, oder Abmeldung. Wer danach mit seinem Cookie ankommt, wurde stillschweigend zum Gast - fuer den Benutzer ein Rauswurf ohne Meldung. Jetzt haelt das Geraet den letzten Grund fest und schreibt beim naechsten Seitenaufruf einen Ereigniseintrag mit Grund, Alter und Route. Steht dort kein Grund, war es ein Neustart - Sitzungen ueberleben ihn nicht. Kein Verhalten geaendert, nur Auskunft. Schema 77 und KNX-Schema 11 unveraendert.",
+                     "version":  "0.1.25",
+                     "bin":  "knx-led-controller-16m_0.1.25.bin",
+                     "file":  "knx-led-controller-16m_0.1.25.bin",
+                     "sha256":  "f386c8893bf0705ed675c34a6ea8749c6f46f8976e97791250d028e929b7d3de",
+                     "message":  "Seitenaufbau: das Sprachpaket wird nur noch einmal geholt. Es ist mit bis zu 200 KB der groesste Brocken jeder Seite und wurde bisher bei jedem Aufruf mindestens neu bestaetigt, im Notvorrat-Fall sogar komplett neu uebertragen. Der Skriptverweis traegt jetzt eine Kennung aus Firmware, Sprache, Pakethash und Groesse; stimmt sie, darf der Browser das Paket dauerhaft behalten und fragt bei weiteren Seiten gar nicht mehr danach. Aendert sich Sprache, Paket oder Firmware, aendert sich die Adresse. Der eingebaute Notvorrat bekommt zusaetzlich ein ETag - aus 190 KB werden wenige Byte. Schema 77 und KNX-Schema 11 unveraendert.",
                      "http_code":  200
                  }
 }
