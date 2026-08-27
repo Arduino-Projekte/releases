@@ -1,6 +1,13 @@
 {
     "items":  [
                   {
+                      "version":  "V4.26.8.27.7",
+                      "bin":  "word-clock-IV_V4.26.8.27.7.bin",
+                      "sha256":  "7fbafc1c3b2d84399a7842dc0c34c29bfe10570c46ca43defa995ea067e45b9d",
+                      "date":  "2026-08-27",
+                      "note":  "Minutenpunkte im Dunkelmodus kontrastreicher und besser sichtbar"
+                  },
+                  {
                       "version":  "V4.26.8.27.6",
                       "bin":  "word-clock-IV_V4.26.8.27.6.bin",
                       "sha256":  "37ca6ffd68d466340e24546591b7b3e96739786e22dbab4652c7c079dc90f45a",
@@ -25,13 +32,6 @@
                       "version":  "V4.26.8.27.3",
                       "bin":  "word-clock-IV_V4.26.8.27.3.bin",
                       "sha256":  "bf46d7624f3978d7dc1214c034a49a560607abfffa25ca97d7aff76f53c02d48",
-                      "date":  "2026-08-27",
-                      "note":  "Symbolfarben waehlbar, Timer-Ambilight erweitert, Colorpicker ergaenzt und ungespeicherte Aenderungen sichtbar"
-                  },
-                  {
-                      "version":  "V4.26.8.27.2",
-                      "bin":  "word-clock-IV_V4.26.8.27.2.bin",
-                      "sha256":  "0d2abd8b579b4acc503f6cefa5a8d5231d8ba308e79e0fea8eab23abd6318f8f",
                       "date":  "2026-08-27",
                       "note":  "Symbolfarben waehlbar, Timer-Ambilight erweitert, Colorpicker ergaenzt und ungespeicherte Aenderungen sichtbar"
                   }
