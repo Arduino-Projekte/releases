@@ -1,38 +1,39 @@
 {
     "items":  [
                   {
-                      "version":  "V4.26.8.20.3",
-                      "bin":  "word-clock-IV_V4.26.8.20.3.bin",
-                      "sha256":  "8e37ba3bb58c1a0e2ac3ef9f58ef910538b0541e99a96786d184b7fe03eed4cd",
-                      "date":  "2026-08-21",
-                      "note":  "RGBW-Weissanteil neu aufgebaut. Bisher wurde der Weisswert erst ganz am Ende pauschal auf jede LED addiert, also auch auf ausgeschaltete. Bei erhoehtem Weissanteil leuchtete deshalb die gesamte Matrix mit, zum Beispiel als ESKIST statt ES IST. Der Weissanteil ist jetzt Teil der Wortfarbe: Er wird gleichmaessig auf Rot, Gruen und Blau gelegt, und die LED-Engine faltet unbunte Farben vollstaendig in den dedizierten Weiss-Chip. Damit leuchten die Woerter bei RGB gleich Null allein ueber den Weiss-Chip, waehrend dunkle Pixel aus bleiben; zusammen mit einer Buntfarbe entsteht weiterhin ein Pastellton. Wortmatrix, Minutenpunkte, Ambilight-Anzeigefarbe, Animationen und Overlays verwenden denselben Farbwert. Der Farbregler der Weboberflaeche zeigt unveraendert die eingestellte Grundfarbe. Ausserdem: Die IP-Adresse wird sofort nach dem Verbindungsaufbau seriell ausgegeben, der Hostname wird beim ersten Start aus der MAC-Adresse eindeutig gebildet (Word-Clock-IV-XXYYZZ), und WLAN-Ereignisse werden im Log protokolliert."
+                      "version":  "V4.26.8.27.5",
+                      "bin":  "word-clock-IV_V4.26.8.27.5.bin",
+                      "sha256":  "8ef3374c81d9309affc464ffb78306f7f7689c0802185f8a6527a47b3caf21a7",
+                      "date":  "2026-08-27",
+                      "note":  "Automatische Renderprofile, Minutenpunkt-Vorschau und RGBW-Ambilight bei Overlays"
                   },
                   {
-                      "version":  "V4.26.8.20.2",
-                      "bin":  "word-clock-IV_V4.26.8.20.2.bin",
-                      "sha256":  "62579bb40554aa9dd76cd9e2ac5c8b3c1db16fccb795cebdfc74b7cac227c17a",
-                      "date":  "2026-08-20",
-                      "note":  "RGBW-Fehler behoben: Der Weiss-Offset wurde bisher auf jede LED geschrieben, also auch auf ausgeschaltete. Dadurch leuchtete bei erhoehtem Weissanteil die gesamte Matrix mit, zum Beispiel als ESKIST statt ES IST. Der Weiss-Offset wirkt jetzt nur noch auf tatsaechlich leuchtende Pixel. Ausserdem: Die IP-Adresse wird sofort nach dem Verbindungsaufbau seriell ausgegeben, der Hostname wird beim ersten Start aus der MAC-Adresse eindeutig gebildet (Word-Clock-IV-XXYYZZ), und WLAN-Ereignisse werden im Log protokolliert."
+                      "version":  "V4.26.8.27.4",
+                      "bin":  "word-clock-IV_V4.26.8.27.4.bin",
+                      "sha256":  "1aca82bf3940f797b51d3c537adea4bbac7635b5cd2b5842cb90d4610b080d0f",
+                      "date":  "2026-08-27",
+                      "note":  "Automatische Renderprofile, Minutenpunkt-Vorschau und RGBW-Ambilight bei Overlays"
                   },
                   {
-                      "version":  "V4.26.8.15.3",
-                      "bin":  "word-clock-IV_V4.26.8.15.3.bin",
-                      "sha256":  "14db5c11dc783a1c93d86991b77ef63d4dc34c37fba9d346ba6a29debc12ca54",
-                      "date":  "2026-08-15",
-                      "note":  "Englisch und Tuerkisch stehen jetzt zusaetzlich zu Deutsch und Russisch als vollstaendige Word-Clock-Sprachen bereit. Wortmatrix, Zeitphrasen, Vorschau, Uebergangsanimationen, Statusanzeige sowie CSV-Import und -Export verwenden die gewaehlte Sprache konsistent."
+                      "version":  "V4.26.8.27.3",
+                      "bin":  "word-clock-IV_V4.26.8.27.3.bin",
+                      "sha256":  "bf46d7624f3978d7dc1214c034a49a560607abfffa25ca97d7aff76f53c02d48",
+                      "date":  "2026-08-27",
+                      "note":  "Symbolfarben waehlbar, Timer-Ambilight erweitert, Colorpicker ergaenzt und ungespeicherte Aenderungen sichtbar"
                   },
                   {
-                      "version":  "V4.26.8.15.2",
-                      "bin":  "word-clock-IV_V4.26.8.15.2.bin",
-                      "sha256":  "489ee248275294e03c137b5717338eabbcf0b2901a1a9b19e0d60778157b9042",
-                      "date":  "2026-08-15",
-                      "note":  "Der WLAN-Start laeuft nun nicht blockierend im Hauptloop, sodass Anzeige und Anwendung waehrend des Startzeitfensters weiterarbeiten. Ein bewusst erzwungener AP-Modus hat jederzeit Vorrang vor der Automatik. Der Notfall-AP sucht weiterhin regelmaessig nach dem gespeicherten WLAN und kehrt nach erfolgreicher Verbindung automatisch in den normalen STA-Betrieb zurueck."
+                      "version":  "V4.26.8.27.2",
+                      "bin":  "word-clock-IV_V4.26.8.27.2.bin",
+                      "sha256":  "0d2abd8b579b4acc503f6cefa5a8d5231d8ba308e79e0fea8eab23abd6318f8f",
+                      "date":  "2026-08-27",
+                      "note":  "Symbolfarben waehlbar, Timer-Ambilight erweitert, Colorpicker ergaenzt und ungespeicherte Aenderungen sichtbar"
                   },
                   {
-                      "version":  "V4.26.8.15.1",
-                      "bin":  "word-clock-IV_V4.26.8.15.1.bin",
-                      "date":  "2026-08-15",
-                      "note":  "Der Notfall-AP sucht selbststaendig weiter nach dem gespeicherten WLAN und wechselt nach erfolgreicher Verbindung ohne Neustart in den normalen WLAN-Betrieb zurueck. Beim Start wartet die Uhr laenger auf den Router; ein bewusst erzwungener AP-Modus bleibt bestehen. Bleibt der Notfall-AP dauerhaft ohne Verbindung, sorgt ein protokollierter Neustart fuer einen weiteren Wiederherstellungsversuch."
+                      "version":  "V4.26.8.27.1",
+                      "bin":  "word-clock-IV_V4.26.8.27.1.bin",
+                      "sha256":  "877179ebb6392342f626c98487270b61f75114177843917ad1c45872d6de2d5d",
+                      "date":  "2026-08-27",
+                      "note":  "Symbolfarben waehlbar, Timer-Ambilight erweitert, Colorpicker ergaenzt und ungespeicherte Aenderungen sichtbar"
                   }
               ]
 }
