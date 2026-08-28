@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m_0.1.38.bin",
+                     "url":  "knx-led-controller-16m_0.1.39.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.1.38",
-                     "bin":  "knx-led-controller-16m_0.1.38.bin",
-                     "file":  "knx-led-controller-16m_0.1.38.bin",
-                     "sha256":  "ae33651c945b34ed5a1a0d505a9dda2c3778555e71b97c0b62e1dfd6574fe911",
-                     "message":  "Service-Taster im Betrieb um BOOTSEL/UF2 erweitert: 10 bis unter 15 s waehlen UF2, ab 15 s wird verworfen; Boot-Geste 3 s bleibt. Zusaetzliche Diagnosemarker grenzen den sporadischen ersten Aufruf von /update samt moeglichem Reset/Sessionverlust ein. Schema 77 und KNX-Schema 11 unveraendert.",
+                     "version":  "0.1.39",
+                     "bin":  "knx-led-controller-16m_0.1.39.bin",
+                     "file":  "knx-led-controller-16m_0.1.39.bin",
+                     "sha256":  "ae8de1e658366afaf484254e74d0bb32f2b78168833da3b298b81850229aa5f0",
+                     "message":  "Service-Taster-Auswahl durch eindeutige LED-Muster abgesichert: unter 2 s gruen schnell, Netzwerkreset gruen mit rotem Takt, Werksreset rot schnell, BOOTSEL/UF2 gruen/rot wechselnd, ab 15 s beide aus. Aktion weiterhin erst beim Loslassen. Schema 77 und KNX-Schema 11 unveraendert.",
                      "http_code":  200
                  }
 }

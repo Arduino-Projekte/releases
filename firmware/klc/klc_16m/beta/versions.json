@@ -1,6 +1,13 @@
 {
     "items":  [
                   {
+                      "version":  "0.1.39",
+                      "bin":  "knx-led-controller-16m_0.1.39.bin",
+                      "sha256":  "ae8de1e658366afaf484254e74d0bb32f2b78168833da3b298b81850229aa5f0",
+                      "date":  "2026-08-28",
+                      "note":  "Service-Taster-Auswahl durch eindeutige LED-Muster abgesichert: unter 2 s gruen schnell, Netzwerkreset gruen mit rotem Takt, Werksreset rot schnell, BOOTSEL/UF2 gruen/rot wechselnd, ab 15 s beide aus. Aktion weiterhin erst beim Loslassen. Schema 77 und KNX-Schema 11 unveraendert."
+                  },
+                  {
                       "version":  "0.1.38",
                       "bin":  "knx-led-controller-16m_0.1.38.bin",
                       "sha256":  "ae33651c945b34ed5a1a0d505a9dda2c3778555e71b97c0b62e1dfd6574fe911",
@@ -27,13 +34,6 @@
                       "sha256":  "7e145da01951d0ddc832998a5d9364dc3e0a11ab468400e349d13444e62861a2",
                       "date":  "2026-08-28",
                       "note":  "Szeneneditor: Speicherung von Laufrichtung und Mitte-Spiegelung robust gemacht. Beim Speichern wird zuerst der aktuell sichtbare Bewegungszustand kanonisch in die Effekt-ID uebernommen; Reverse-/Mirror-Flags werden daraus synchron abgeleitet. Verdeckte oder noch nicht aufgebaute Richtungsfelder verwenden die gespeicherten Hidden-Werte als Fallback. Schema 77 und KNX-Schema 11 unveraendert."
-                  },
-                  {
-                      "version":  "0.1.33",
-                      "bin":  "knx-led-controller-16m_0.1.33.bin",
-                      "sha256":  "351236faac416e80c7ed41e53fe03b14dfc658b01de0df83d5e5007ffe3cc458",
-                      "date":  "2026-08-28",
-                      "note":  "Szeneneditor: Wellen behalten Spiegelung und Nachleuchten auch bei ausgeblendeten Phasen. Beim echten Wechsel auf Lauflicht oder Welle wird einmalig der 20-ms-Bewegungsstandard gesetzt, bestehende Werte bleiben sonst unangetastet. Die automatisch laufende Browser-Vorschau ist durch einen manuellen 0-100-Prozent-Schieber ersetzt. Schema 77 und KNX-Schema 11 unveraendert."
                   }
               ]
 }
