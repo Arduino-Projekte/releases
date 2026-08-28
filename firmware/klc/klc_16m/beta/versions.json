@@ -1,6 +1,13 @@
 {
     "items":  [
                   {
+                      "version":  "0.1.38",
+                      "bin":  "knx-led-controller-16m_0.1.38.bin",
+                      "sha256":  "ae33651c945b34ed5a1a0d505a9dda2c3778555e71b97c0b62e1dfd6574fe911",
+                      "date":  "2026-08-28",
+                      "note":  "Service-Taster im Betrieb um BOOTSEL/UF2 erweitert: 10 bis unter 15 s waehlen UF2, ab 15 s wird verworfen; Boot-Geste 3 s bleibt. Zusaetzliche Diagnosemarker grenzen den sporadischen ersten Aufruf von /update samt moeglichem Reset/Sessionverlust ein. Schema 77 und KNX-Schema 11 unveraendert."
+                  },
+                  {
                       "version":  "0.1.37",
                       "bin":  "knx-led-controller-16m_0.1.37.bin",
                       "sha256":  "f96a920b89d43102d9c7df5adf0510e7e45517ed8baeb511ec92611ca3f8f376",
@@ -27,13 +34,6 @@
                       "sha256":  "351236faac416e80c7ed41e53fe03b14dfc658b01de0df83d5e5007ffe3cc458",
                       "date":  "2026-08-28",
                       "note":  "Szeneneditor: Wellen behalten Spiegelung und Nachleuchten auch bei ausgeblendeten Phasen. Beim echten Wechsel auf Lauflicht oder Welle wird einmalig der 20-ms-Bewegungsstandard gesetzt, bestehende Werte bleiben sonst unangetastet. Die automatisch laufende Browser-Vorschau ist durch einen manuellen 0-100-Prozent-Schieber ersetzt. Schema 77 und KNX-Schema 11 unveraendert."
-                  },
-                  {
-                      "version":  "0.1.31",
-                      "bin":  "knx-led-controller-16m_0.1.31.bin",
-                      "sha256":  "7095e60ea583e0c272d61a060171b849e0d9c276b1ba0a1b1319b1c836af758c",
-                      "date":  "2026-08-28",
-                      "note":  "Szeneneditor: Die Browser-Vorschau steht direkt unter der manuell ein- und ausklappbaren Kachel Farbe und Helligkeit. Gesamt, Aufbau, Hauptphase und Abschalten sind getrennt waehlenbar; Einzelphasen werden sichtbar wiederholt, ohne Hardwarezugriff oder weitere Netzwerkanfragen. Der Browser merkt sich den Zustand der Farbkachel. Schema 77 und KNX-Schema 11 unveraendert."
                   }
               ]
 }
