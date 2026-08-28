@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m-w_0.1.34.bin",
+                     "url":  "knx-led-controller-16m-w_0.1.36.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.1.34",
-                     "bin":  "knx-led-controller-16m-w_0.1.34.bin",
-                     "file":  "knx-led-controller-16m-w_0.1.34.bin",
-                     "sha256":  "2a07daf1941d3be9e72302d4ba0823f4cbc3db9ae50eb6e889c2b779f8461a86",
-                     "message":  "Szeneneditor: Speicherung von Laufrichtung und Mitte-Spiegelung robust gemacht. Beim Speichern wird zuerst der aktuell sichtbare Bewegungszustand kanonisch in die Effekt-ID uebernommen; Reverse-/Mirror-Flags werden daraus synchron abgeleitet. Verdeckte oder noch nicht aufgebaute Richtungsfelder verwenden die gespeicherten Hidden-Werte als Fallback. Schema 77 und KNX-Schema 11 unveraendert.",
+                     "version":  "0.1.36",
+                     "bin":  "knx-led-controller-16m-w_0.1.36.bin",
+                     "file":  "knx-led-controller-16m-w_0.1.36.bin",
+                     "sha256":  "5fbd7604cf27e04be3f95f9e523d75a12637f9556358c8b15390625fa45196d1",
+                     "message":  "OTA: erweiterte Diagnose fuer den zweiten HTTPS-Abruf mit Owner, Route, Default-Netif, IP/Gateway, DNS-Servern sowie DNS-, TCP- und Callback-Ergebnissen; keine Retry- oder Watchdog-Aenderung. KNX: Simulation, echter Sendetest und feste Objektnummern aus der Seite entfernt; BAOS-Diagnose nach unten direkt vor die einklappbare Objekttabelle verschoben. Schema 77 und KNX-Schema 11 unveraendert.",
                      "http_code":  200
                  }
 }

@@ -1,6 +1,13 @@
 {
     "items":  [
                   {
+                      "version":  "0.1.36",
+                      "bin":  "knx-led-controller-16m-w_0.1.36.bin",
+                      "sha256":  "5fbd7604cf27e04be3f95f9e523d75a12637f9556358c8b15390625fa45196d1",
+                      "date":  "2026-08-28",
+                      "note":  "OTA: erweiterte Diagnose fuer den zweiten HTTPS-Abruf mit Owner, Route, Default-Netif, IP/Gateway, DNS-Servern sowie DNS-, TCP- und Callback-Ergebnissen; keine Retry- oder Watchdog-Aenderung. KNX: Simulation, echter Sendetest und feste Objektnummern aus der Seite entfernt; BAOS-Diagnose nach unten direkt vor die einklappbare Objekttabelle verschoben. Schema 77 und KNX-Schema 11 unveraendert."
+                  },
+                  {
                       "version":  "0.1.34",
                       "bin":  "knx-led-controller-16m-w_0.1.34.bin",
                       "sha256":  "2a07daf1941d3be9e72302d4ba0823f4cbc3db9ae50eb6e889c2b779f8461a86",
@@ -27,13 +34,6 @@
                       "sha256":  "867c44f821c0927019cd43934f8ba86abda1a2453a7dc9916d44781f1629d8e1",
                       "date":  "2026-08-28",
                       "note":  "Ausgangszuordnung: Die physischen LED-Anschluesse sind in beiden RP2350-Profilen vollstaendig vertauscht: bisheriger Ausgang 5 ist jetzt 1, 4 ist 2, 3 bleibt 3, 2 ist 4 und 1 ist 5. Ausgang 1 bis 5 liegen damit auf GPIO 2/3/6/7/8. Die Zuordnung wird beim Laden, Import, Setup und Speichern aus dem Boardprofil erzwungen; bestehende Einstellungen einer Ausgangsnummer wechseln auf den entsprechend vertauschten Anschluss. Schema 77 und KNX-Schema 11 unveraendert."
-                  },
-                  {
-                      "version":  "0.1.28",
-                      "bin":  "knx-led-controller-16m-w_0.1.28.bin",
-                      "sha256":  "8ae302ba9ccf86cca8fa9506db4fe2304c837aaee79cfeaf8787bcc36d979538",
-                      "date":  "2026-08-28",
-                      "note":  "WebUI-Polling: Start und Ereignisse verwenden selbstplanende Einzelzyklen statt starrer Intervalle. Der naechste Request beginnt erst nach Abschluss des vorherigen; langsame Antworten ueberlappen nicht. Sichtbare Tabs bleiben bei etwa 2 bzw. 5 Sekunden, verborgene senden nichts. Sichtbarwerden, Logwechsel und Bedienaktionen werden zu genau einer Aktualisierung gebuendelt. Fehler staffeln auf 4/8/16/30 bzw. 10/20/30 Sekunden zurueck, Erfolg setzt den Takt zurueck. Schema 77 und KNX-Schema 11 unveraendert."
                   }
               ]
 }
