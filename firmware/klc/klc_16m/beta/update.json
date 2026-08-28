@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m_0.1.31.bin",
+                     "url":  "knx-led-controller-16m_0.1.33.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.1.31",
-                     "bin":  "knx-led-controller-16m_0.1.31.bin",
-                     "file":  "knx-led-controller-16m_0.1.31.bin",
-                     "sha256":  "7095e60ea583e0c272d61a060171b849e0d9c276b1ba0a1b1319b1c836af758c",
-                     "message":  "Szeneneditor: Die Browser-Vorschau steht direkt unter der manuell ein- und ausklappbaren Kachel Farbe und Helligkeit. Gesamt, Aufbau, Hauptphase und Abschalten sind getrennt waehlenbar; Einzelphasen werden sichtbar wiederholt, ohne Hardwarezugriff oder weitere Netzwerkanfragen. Der Browser merkt sich den Zustand der Farbkachel. Schema 77 und KNX-Schema 11 unveraendert.",
+                     "version":  "0.1.33",
+                     "bin":  "knx-led-controller-16m_0.1.33.bin",
+                     "file":  "knx-led-controller-16m_0.1.33.bin",
+                     "sha256":  "351236faac416e80c7ed41e53fe03b14dfc658b01de0df83d5e5007ffe3cc458",
+                     "message":  "Szeneneditor: Wellen behalten Spiegelung und Nachleuchten auch bei ausgeblendeten Phasen. Beim echten Wechsel auf Lauflicht oder Welle wird einmalig der 20-ms-Bewegungsstandard gesetzt, bestehende Werte bleiben sonst unangetastet. Die automatisch laufende Browser-Vorschau ist durch einen manuellen 0-100-Prozent-Schieber ersetzt. Schema 77 und KNX-Schema 11 unveraendert.",
                      "http_code":  200
                  }
 }
