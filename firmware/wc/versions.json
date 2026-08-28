@@ -1,6 +1,20 @@
 {
     "items":  [
                   {
+                      "version":  "V4.26.8.28.2",
+                      "bin":  "word-clock-IV_V4.26.8.28.2.bin",
+                      "sha256":  "acba09a3c72a4bed670374d67716e8e9c9ae9cec5199b4f79681e5cad6913a0b",
+                      "date":  "2026-08-28",
+                      "note":  "Temperatur-Timer mit 10 Sekunden Automatikdauer"
+                  },
+                  {
+                      "version":  "V4.26.8.28.1",
+                      "bin":  "word-clock-IV_V4.26.8.28.1.bin",
+                      "sha256":  "7304f929fe2e3c6ab43b57c44ac9135d0108f3cbe4c0d99d554468d95e968bf3",
+                      "date":  "2026-08-28",
+                      "note":  "Timer-Speichern ohne falsche Webseite-verlassen-Warnung"
+                  },
+                  {
                       "version":  "V4.26.8.27.7",
                       "bin":  "word-clock-IV_V4.26.8.27.7.bin",
                       "sha256":  "7fbafc1c3b2d84399a7842dc0c34c29bfe10570c46ca43defa995ea067e45b9d",
@@ -20,20 +34,6 @@
                       "sha256":  "8ef3374c81d9309affc464ffb78306f7f7689c0802185f8a6527a47b3caf21a7",
                       "date":  "2026-08-27",
                       "note":  "Automatische Renderprofile, Minutenpunkt-Vorschau und RGBW-Ambilight bei Overlays"
-                  },
-                  {
-                      "version":  "V4.26.8.27.4",
-                      "bin":  "word-clock-IV_V4.26.8.27.4.bin",
-                      "sha256":  "1aca82bf3940f797b51d3c537adea4bbac7635b5cd2b5842cb90d4610b080d0f",
-                      "date":  "2026-08-27",
-                      "note":  "Automatische Renderprofile, Minutenpunkt-Vorschau und RGBW-Ambilight bei Overlays"
-                  },
-                  {
-                      "version":  "V4.26.8.27.3",
-                      "bin":  "word-clock-IV_V4.26.8.27.3.bin",
-                      "sha256":  "bf46d7624f3978d7dc1214c034a49a560607abfffa25ca97d7aff76f53c02d48",
-                      "date":  "2026-08-27",
-                      "note":  "Symbolfarben waehlbar, Timer-Ambilight erweitert, Colorpicker ergaenzt und ungespeicherte Aenderungen sichtbar"
                   }
               ]
 }
