@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m_0.1.33.bin",
+                     "url":  "knx-led-controller-16m_0.1.34.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.1.33",
-                     "bin":  "knx-led-controller-16m_0.1.33.bin",
-                     "file":  "knx-led-controller-16m_0.1.33.bin",
-                     "sha256":  "351236faac416e80c7ed41e53fe03b14dfc658b01de0df83d5e5007ffe3cc458",
-                     "message":  "Szeneneditor: Wellen behalten Spiegelung und Nachleuchten auch bei ausgeblendeten Phasen. Beim echten Wechsel auf Lauflicht oder Welle wird einmalig der 20-ms-Bewegungsstandard gesetzt, bestehende Werte bleiben sonst unangetastet. Die automatisch laufende Browser-Vorschau ist durch einen manuellen 0-100-Prozent-Schieber ersetzt. Schema 77 und KNX-Schema 11 unveraendert.",
+                     "version":  "0.1.34",
+                     "bin":  "knx-led-controller-16m_0.1.34.bin",
+                     "file":  "knx-led-controller-16m_0.1.34.bin",
+                     "sha256":  "7e145da01951d0ddc832998a5d9364dc3e0a11ab468400e349d13444e62861a2",
+                     "message":  "Szeneneditor: Speicherung von Laufrichtung und Mitte-Spiegelung robust gemacht. Beim Speichern wird zuerst der aktuell sichtbare Bewegungszustand kanonisch in die Effekt-ID uebernommen; Reverse-/Mirror-Flags werden daraus synchron abgeleitet. Verdeckte oder noch nicht aufgebaute Richtungsfelder verwenden die gespeicherten Hidden-Werte als Fallback. Schema 77 und KNX-Schema 11 unveraendert.",
                      "http_code":  200
                  }
 }
