@@ -1,6 +1,13 @@
 {
     "items":  [
                   {
+                      "version":  "0.1.28",
+                      "bin":  "knx-led-controller-16m_0.1.28.bin",
+                      "sha256":  "dc91d445a9eca170f95675223a6af15b7552ae0ead3251e7a87b43c2edb7a1d5",
+                      "date":  "2026-08-28",
+                      "note":  "WebUI-Polling: Start und Ereignisse verwenden selbstplanende Einzelzyklen statt starrer Intervalle. Der naechste Request beginnt erst nach Abschluss des vorherigen; langsame Antworten ueberlappen nicht. Sichtbare Tabs bleiben bei etwa 2 bzw. 5 Sekunden, verborgene senden nichts. Sichtbarwerden, Logwechsel und Bedienaktionen werden zu genau einer Aktualisierung gebuendelt. Fehler staffeln auf 4/8/16/30 bzw. 10/20/30 Sekunden zurueck, Erfolg setzt den Takt zurueck. Schema 77 und KNX-Schema 11 unveraendert."
+                  },
+                  {
                       "version":  "0.1.25",
                       "bin":  "knx-led-controller-16m_0.1.25.bin",
                       "sha256":  "f386c8893bf0705ed675c34a6ea8749c6f46f8976e97791250d028e929b7d3de",
@@ -27,13 +34,6 @@
                       "sha256":  "4c2e73b277873e46a7393d98cc1596ab563b41922e01ab02a59e584bc1680924",
                       "date":  "2026-08-25",
                       "note":  "Ein Aussehen fuer alle Seiten. Die Altschicht des Stylesheets lag zweimal vor, einmal hell und einmal dunkel, mit festen Farben, runden Ecken und weichen Schatten - deshalb sahen die noch nicht umgebauten Seiten anders aus als die umgebauten. Sie steht jetzt einmal und spricht dieselben Token wie die Shell: Farben, eckige Kanten, Rahmen statt Schatten, Anzeigeschrift fuer Ueberschriften und Schaltflaechen. Kein Selektor entfaellt, kein Markup ist angefasst. Ausserdem: das Zeichen in der Kopfzeile steht inline statt als eigener Request, es fehlte sonst gelegentlich; der Satz ueber Board-Pins ist raus. Schema 77 und KNX-Schema 11 unveraendert."
-                  },
-                  {
-                      "version":  "0.1.20",
-                      "bin":  "knx-led-controller-16m_0.1.20.bin",
-                      "sha256":  "1eb6daffcc49bfe0bdfb9f2803df51f4942f0127107c1f497c448ebb71c7da93",
-                      "date":  "2026-08-24",
-                      "note":  "Sprachpakete waren seit 0.1.0 unbrauchbar. Jedes Paket nennt eine hoechste Firmwareversion, und alle sieben standen auf 0.0.999. Seit dem Wechsel auf die Linie 0.1.x liegt die Firmware darueber, und die Pruefung lehnte JEDES Paket ab - auch die sieben eingebauten, weil sie denselben Weg gehen. Sprachumschaltung war damit tot, die Oberflaeche fiel auf den englischen Notvorrat zurueck. Die kanonischen Quellen stehen jetzt auf 0.1.999, die drei erzeugten Header sind neu gebaut, Schluesselzahl 2108 und Keyset-Hash unveraendert. Die Release-Dateien muessen mit tools/klc_language_contract.py nachgezogen werden. Schema 77 und KNX-Schema 11 unveraendert."
                   }
               ]
 }

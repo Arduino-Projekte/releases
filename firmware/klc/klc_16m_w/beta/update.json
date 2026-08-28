@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m-w_0.1.25.bin",
+                     "url":  "knx-led-controller-16m-w_0.1.28.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.1.25",
-                     "bin":  "knx-led-controller-16m-w_0.1.25.bin",
-                     "file":  "knx-led-controller-16m-w_0.1.25.bin",
-                     "sha256":  "e15e79148d77025a82f70c5c098bb20cb64b3b1ed8ded768459a3d1d8cbd6c26",
-                     "message":  "Seitenaufbau: das Sprachpaket wird nur noch einmal geholt. Es ist mit bis zu 200 KB der groesste Brocken jeder Seite und wurde bisher bei jedem Aufruf mindestens neu bestaetigt, im Notvorrat-Fall sogar komplett neu uebertragen. Der Skriptverweis traegt jetzt eine Kennung aus Firmware, Sprache, Pakethash und Groesse; stimmt sie, darf der Browser das Paket dauerhaft behalten und fragt bei weiteren Seiten gar nicht mehr danach. Aendert sich Sprache, Paket oder Firmware, aendert sich die Adresse. Der eingebaute Notvorrat bekommt zusaetzlich ein ETag - aus 190 KB werden wenige Byte. Schema 77 und KNX-Schema 11 unveraendert.",
+                     "version":  "0.1.28",
+                     "bin":  "knx-led-controller-16m-w_0.1.28.bin",
+                     "file":  "knx-led-controller-16m-w_0.1.28.bin",
+                     "sha256":  "8ae302ba9ccf86cca8fa9506db4fe2304c837aaee79cfeaf8787bcc36d979538",
+                     "message":  "WebUI-Polling: Start und Ereignisse verwenden selbstplanende Einzelzyklen statt starrer Intervalle. Der naechste Request beginnt erst nach Abschluss des vorherigen; langsame Antworten ueberlappen nicht. Sichtbare Tabs bleiben bei etwa 2 bzw. 5 Sekunden, verborgene senden nichts. Sichtbarwerden, Logwechsel und Bedienaktionen werden zu genau einer Aktualisierung gebuendelt. Fehler staffeln auf 4/8/16/30 bzw. 10/20/30 Sekunden zurueck, Erfolg setzt den Takt zurueck. Schema 77 und KNX-Schema 11 unveraendert.",
                      "http_code":  200
                  }
 }
