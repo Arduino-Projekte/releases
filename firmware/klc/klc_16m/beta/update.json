@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m_0.1.28.bin",
+                     "url":  "knx-led-controller-16m_0.1.29.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.1.28",
-                     "bin":  "knx-led-controller-16m_0.1.28.bin",
-                     "file":  "knx-led-controller-16m_0.1.28.bin",
-                     "sha256":  "dc91d445a9eca170f95675223a6af15b7552ae0ead3251e7a87b43c2edb7a1d5",
-                     "message":  "WebUI-Polling: Start und Ereignisse verwenden selbstplanende Einzelzyklen statt starrer Intervalle. Der naechste Request beginnt erst nach Abschluss des vorherigen; langsame Antworten ueberlappen nicht. Sichtbare Tabs bleiben bei etwa 2 bzw. 5 Sekunden, verborgene senden nichts. Sichtbarwerden, Logwechsel und Bedienaktionen werden zu genau einer Aktualisierung gebuendelt. Fehler staffeln auf 4/8/16/30 bzw. 10/20/30 Sekunden zurueck, Erfolg setzt den Takt zurueck. Schema 77 und KNX-Schema 11 unveraendert.",
+                     "version":  "0.1.29",
+                     "bin":  "knx-led-controller-16m_0.1.29.bin",
+                     "file":  "knx-led-controller-16m_0.1.29.bin",
+                     "sha256":  "e052363cf57ef9662f9e9ac77f26869e5d4a9c7094c258ac08d1c0a724c76d1b",
+                     "message":  "Ausgangszuordnung: Die physischen LED-Anschluesse sind in beiden RP2350-Profilen vollstaendig vertauscht: bisheriger Ausgang 5 ist jetzt 1, 4 ist 2, 3 bleibt 3, 2 ist 4 und 1 ist 5. Ausgang 1 bis 5 liegen damit auf GPIO 2/3/6/7/8. Die Zuordnung wird beim Laden, Import, Setup und Speichern aus dem Boardprofil erzwungen; bestehende Einstellungen einer Ausgangsnummer wechseln auf den entsprechend vertauschten Anschluss. Schema 77 und KNX-Schema 11 unveraendert.",
                      "http_code":  200
                  }
 }

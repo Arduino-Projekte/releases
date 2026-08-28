@@ -1,6 +1,13 @@
 {
     "items":  [
                   {
+                      "version":  "0.1.29",
+                      "bin":  "knx-led-controller-16m-w_0.1.29.bin",
+                      "sha256":  "867c44f821c0927019cd43934f8ba86abda1a2453a7dc9916d44781f1629d8e1",
+                      "date":  "2026-08-28",
+                      "note":  "Ausgangszuordnung: Die physischen LED-Anschluesse sind in beiden RP2350-Profilen vollstaendig vertauscht: bisheriger Ausgang 5 ist jetzt 1, 4 ist 2, 3 bleibt 3, 2 ist 4 und 1 ist 5. Ausgang 1 bis 5 liegen damit auf GPIO 2/3/6/7/8. Die Zuordnung wird beim Laden, Import, Setup und Speichern aus dem Boardprofil erzwungen; bestehende Einstellungen einer Ausgangsnummer wechseln auf den entsprechend vertauschten Anschluss. Schema 77 und KNX-Schema 11 unveraendert."
+                  },
+                  {
                       "version":  "0.1.28",
                       "bin":  "knx-led-controller-16m-w_0.1.28.bin",
                       "sha256":  "8ae302ba9ccf86cca8fa9506db4fe2304c837aaee79cfeaf8787bcc36d979538",
@@ -27,13 +34,6 @@
                       "sha256":  "3a215ae3f1ab3f1f37c8b09be0903b985a9a66d2b7c624793e169eae8adc887b",
                       "date":  "2026-08-25",
                       "note":  "Anmeldeseite in der neuen Sprache: Karten statt Kasten, Rollenwahl als zwei Schaltfelder, Passwort-vergessen und Sprachwahl als eigene Abschnitte. Formularziel, Feldnamen und Rollenwerte sind unveraendert - der Server sieht dasselbe Formular wie vorher. Dazu ein Fund zur weissen Seite: Wer eine Seite anfordert, waehrend das Geraet schon eine andere ausliefert, bekam eine Zeile Klartext oder eine abgebrochene Antwort. Der belegte Fall antwortet jetzt mit einer winzigen eigenstaendigen Seite, die sich nach einer Sekunde selbst neu laedt. Abgebrochene Auslieferungen stehen weiterhin unter Ereignisse. Schema 77 und KNX-Schema 11 unveraendert."
-                  },
-                  {
-                      "version":  "0.1.21",
-                      "bin":  "knx-led-controller-16m-w_0.1.21.bin",
-                      "sha256":  "f44613853db6bb88b04a6f7f36fa7bac2d822fb6b8e6310e9e3ff2456ecdac3b",
-                      "date":  "2026-08-25",
-                      "note":  "Ein Aussehen fuer alle Seiten. Die Altschicht des Stylesheets lag zweimal vor, einmal hell und einmal dunkel, mit festen Farben, runden Ecken und weichen Schatten - deshalb sahen die noch nicht umgebauten Seiten anders aus als die umgebauten. Sie steht jetzt einmal und spricht dieselben Token wie die Shell: Farben, eckige Kanten, Rahmen statt Schatten, Anzeigeschrift fuer Ueberschriften und Schaltflaechen. Kein Selektor entfaellt, kein Markup ist angefasst. Ausserdem: das Zeichen in der Kopfzeile steht inline statt als eigener Request, es fehlte sonst gelegentlich; der Satz ueber Board-Pins ist raus. Schema 77 und KNX-Schema 11 unveraendert."
                   }
               ]
 }
