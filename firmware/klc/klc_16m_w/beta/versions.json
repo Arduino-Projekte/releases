@@ -1,6 +1,13 @@
 {
     "items":  [
                   {
+                      "version":  "0.1.37",
+                      "bin":  "knx-led-controller-16m-w_0.1.37.bin",
+                      "sha256":  "36e54b208772fdcfd676f2da8fb74aeecd530c7dbcc1f450ef87e2705bdac560",
+                      "date":  "2026-08-28",
+                      "note":  "KNX-WebUI aufgeraeumt: BAOS-Diagnose-Kachel entfernt und KNX-Uebersicht nach unten direkt vor die einklappbare Objekttabelle verschoben. OTA-Netzdiagnostik aus 0.1.36 unveraendert beibehalten. Schema 77 und KNX-Schema 11 unveraendert."
+                  },
+                  {
                       "version":  "0.1.36",
                       "bin":  "knx-led-controller-16m-w_0.1.36.bin",
                       "sha256":  "5fbd7604cf27e04be3f95f9e523d75a12637f9556358c8b15390625fa45196d1",
@@ -27,13 +34,6 @@
                       "sha256":  "797961f8ae1b460df913603c1127de7a0becf62c61d555b9ca9c717c61a9416c",
                       "date":  "2026-08-28",
                       "note":  "Szeneneditor: Die Browser-Vorschau steht direkt unter der manuell ein- und ausklappbaren Kachel Farbe und Helligkeit. Gesamt, Aufbau, Hauptphase und Abschalten sind getrennt waehlenbar; Einzelphasen werden sichtbar wiederholt, ohne Hardwarezugriff oder weitere Netzwerkanfragen. Der Browser merkt sich den Zustand der Farbkachel. Schema 77 und KNX-Schema 11 unveraendert."
-                  },
-                  {
-                      "version":  "0.1.29",
-                      "bin":  "knx-led-controller-16m-w_0.1.29.bin",
-                      "sha256":  "867c44f821c0927019cd43934f8ba86abda1a2453a7dc9916d44781f1629d8e1",
-                      "date":  "2026-08-28",
-                      "note":  "Ausgangszuordnung: Die physischen LED-Anschluesse sind in beiden RP2350-Profilen vollstaendig vertauscht: bisheriger Ausgang 5 ist jetzt 1, 4 ist 2, 3 bleibt 3, 2 ist 4 und 1 ist 5. Ausgang 1 bis 5 liegen damit auf GPIO 2/3/6/7/8. Die Zuordnung wird beim Laden, Import, Setup und Speichern aus dem Boardprofil erzwungen; bestehende Einstellungen einer Ausgangsnummer wechseln auf den entsprechend vertauschten Anschluss. Schema 77 und KNX-Schema 11 unveraendert."
                   }
               ]
 }

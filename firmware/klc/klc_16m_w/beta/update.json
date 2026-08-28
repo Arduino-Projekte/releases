@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m-w_0.1.36.bin",
+                     "url":  "knx-led-controller-16m-w_0.1.37.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.1.36",
-                     "bin":  "knx-led-controller-16m-w_0.1.36.bin",
-                     "file":  "knx-led-controller-16m-w_0.1.36.bin",
-                     "sha256":  "5fbd7604cf27e04be3f95f9e523d75a12637f9556358c8b15390625fa45196d1",
-                     "message":  "OTA: erweiterte Diagnose fuer den zweiten HTTPS-Abruf mit Owner, Route, Default-Netif, IP/Gateway, DNS-Servern sowie DNS-, TCP- und Callback-Ergebnissen; keine Retry- oder Watchdog-Aenderung. KNX: Simulation, echter Sendetest und feste Objektnummern aus der Seite entfernt; BAOS-Diagnose nach unten direkt vor die einklappbare Objekttabelle verschoben. Schema 77 und KNX-Schema 11 unveraendert.",
+                     "version":  "0.1.37",
+                     "bin":  "knx-led-controller-16m-w_0.1.37.bin",
+                     "file":  "knx-led-controller-16m-w_0.1.37.bin",
+                     "sha256":  "36e54b208772fdcfd676f2da8fb74aeecd530c7dbcc1f450ef87e2705bdac560",
+                     "message":  "KNX-WebUI aufgeraeumt: BAOS-Diagnose-Kachel entfernt und KNX-Uebersicht nach unten direkt vor die einklappbare Objekttabelle verschoben. OTA-Netzdiagnostik aus 0.1.36 unveraendert beibehalten. Schema 77 und KNX-Schema 11 unveraendert.",
                      "http_code":  200
                  }
 }
