@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m-w_0.1.29.bin",
+                     "url":  "knx-led-controller-16m-w_0.1.31.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.1.29",
-                     "bin":  "knx-led-controller-16m-w_0.1.29.bin",
-                     "file":  "knx-led-controller-16m-w_0.1.29.bin",
-                     "sha256":  "867c44f821c0927019cd43934f8ba86abda1a2453a7dc9916d44781f1629d8e1",
-                     "message":  "Ausgangszuordnung: Die physischen LED-Anschluesse sind in beiden RP2350-Profilen vollstaendig vertauscht: bisheriger Ausgang 5 ist jetzt 1, 4 ist 2, 3 bleibt 3, 2 ist 4 und 1 ist 5. Ausgang 1 bis 5 liegen damit auf GPIO 2/3/6/7/8. Die Zuordnung wird beim Laden, Import, Setup und Speichern aus dem Boardprofil erzwungen; bestehende Einstellungen einer Ausgangsnummer wechseln auf den entsprechend vertauschten Anschluss. Schema 77 und KNX-Schema 11 unveraendert.",
+                     "version":  "0.1.31",
+                     "bin":  "knx-led-controller-16m-w_0.1.31.bin",
+                     "file":  "knx-led-controller-16m-w_0.1.31.bin",
+                     "sha256":  "797961f8ae1b460df913603c1127de7a0becf62c61d555b9ca9c717c61a9416c",
+                     "message":  "Szeneneditor: Die Browser-Vorschau steht direkt unter der manuell ein- und ausklappbaren Kachel Farbe und Helligkeit. Gesamt, Aufbau, Hauptphase und Abschalten sind getrennt waehlenbar; Einzelphasen werden sichtbar wiederholt, ohne Hardwarezugriff oder weitere Netzwerkanfragen. Der Browser merkt sich den Zustand der Farbkachel. Schema 77 und KNX-Schema 11 unveraendert.",
                      "http_code":  200
                  }
 }

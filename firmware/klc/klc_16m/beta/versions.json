@@ -1,6 +1,13 @@
 {
     "items":  [
                   {
+                      "version":  "0.1.31",
+                      "bin":  "knx-led-controller-16m_0.1.31.bin",
+                      "sha256":  "7095e60ea583e0c272d61a060171b849e0d9c276b1ba0a1b1319b1c836af758c",
+                      "date":  "2026-08-28",
+                      "note":  "Szeneneditor: Die Browser-Vorschau steht direkt unter der manuell ein- und ausklappbaren Kachel Farbe und Helligkeit. Gesamt, Aufbau, Hauptphase und Abschalten sind getrennt waehlenbar; Einzelphasen werden sichtbar wiederholt, ohne Hardwarezugriff oder weitere Netzwerkanfragen. Der Browser merkt sich den Zustand der Farbkachel. Schema 77 und KNX-Schema 11 unveraendert."
+                  },
+                  {
                       "version":  "0.1.29",
                       "bin":  "knx-led-controller-16m_0.1.29.bin",
                       "sha256":  "e052363cf57ef9662f9e9ac77f26869e5d4a9c7094c258ac08d1c0a724c76d1b",
@@ -27,13 +34,6 @@
                       "sha256":  "432ef1c1a3775308af30e12a8c735492d712d8efa602be05b63da6ac5b1598a0",
                       "date":  "2026-08-25",
                       "note":  "Abmeldungen sagen jetzt, warum. Sitzungen liegen nur im RAM und verschwinden aus vier Gruenden: Leerlauf, Hoechstdauer, Verdraengung eines der acht Plaetze, oder Abmeldung. Wer danach mit seinem Cookie ankommt, wurde stillschweigend zum Gast - fuer den Benutzer ein Rauswurf ohne Meldung. Jetzt haelt das Geraet den letzten Grund fest und schreibt beim naechsten Seitenaufruf einen Ereigniseintrag mit Grund, Alter und Route. Steht dort kein Grund, war es ein Neustart - Sitzungen ueberleben ihn nicht. Kein Verhalten geaendert, nur Auskunft. Schema 77 und KNX-Schema 11 unveraendert."
-                  },
-                  {
-                      "version":  "0.1.22",
-                      "bin":  "knx-led-controller-16m_0.1.22.bin",
-                      "sha256":  "322bc4c6ceec346eb74f2a4117fbb18c4c1394d4d2225da11ddf5b2e7a18cb9a",
-                      "date":  "2026-08-25",
-                      "note":  "Anmeldeseite in der neuen Sprache: Karten statt Kasten, Rollenwahl als zwei Schaltfelder, Passwort-vergessen und Sprachwahl als eigene Abschnitte. Formularziel, Feldnamen und Rollenwerte sind unveraendert - der Server sieht dasselbe Formular wie vorher. Dazu ein Fund zur weissen Seite: Wer eine Seite anfordert, waehrend das Geraet schon eine andere ausliefert, bekam eine Zeile Klartext oder eine abgebrochene Antwort. Der belegte Fall antwortet jetzt mit einer winzigen eigenstaendigen Seite, die sich nach einer Sekunde selbst neu laedt. Abgebrochene Auslieferungen stehen weiterhin unter Ereignisse. Schema 77 und KNX-Schema 11 unveraendert."
                   }
               ]
 }
