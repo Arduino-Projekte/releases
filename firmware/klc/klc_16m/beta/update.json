@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m_0.1.43.bin",
+                     "url":  "knx-led-controller-16m_0.1.44.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.1.43",
-                     "bin":  "knx-led-controller-16m_0.1.43.bin",
-                     "file":  "knx-led-controller-16m_0.1.43.bin",
-                     "sha256":  "b523e112e283f030c990be7e417fb0a26cd26aabacd01c988b9ef705a087cc32",
-                     "message":  "Szeneneditor: historische bzw. versteckte String-Segment-Start-/Stopversatzwerte oberhalb 60,0 s blockieren das Speichern nicht mehr. Die WebUI normalisiert solche Altwerte auf 0,0 s; der Server akzeptiert fuer den Flow-Editor gezielt alte 16-Bit-Werte 60001..65535 ms und setzt sie auf den sicheren Standard 0 ms. Neue ungueltige API-Werte bleiben strikt abgelehnt. Schema 77 und KNX-Schema 11 unveraendert.",
+                     "version":  "0.1.44",
+                     "bin":  "knx-led-controller-16m_0.1.44.bin",
+                     "file":  "knx-led-controller-16m_0.1.44.bin",
+                     "sha256":  "67b14d8b6371f3b470e517e8d3569ad58696ccc14dfc1c99e087ede6f65bb66c",
+                     "message":  "WebUI-Stabilitaet: drei unmaskierte Prozentzeichen in printf-artigen Renderstrings korrigiert. Der Stream-Formatter akzeptiert nur noch gueltige printf-Tokens; ein nacktes Prozentzeichen wird literal ausgegeben und kann keine va_list-Argumente mehr verschieben. Formatattribut und strikte Parserlogik sichern den Pfad gegen erneute Varargs-Fehlzuordnungen. Schema 77 und KNX-Schema 11 unveraendert.",
                      "http_code":  200
                  }
 }

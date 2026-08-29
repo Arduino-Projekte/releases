@@ -1,6 +1,13 @@
 {
     "items":  [
                   {
+                      "version":  "0.1.44",
+                      "bin":  "knx-led-controller-16m-w_0.1.44.bin",
+                      "sha256":  "d03b98bbd04986960d0d46802051fc76f8847b3dee3c4f5ac7b9c291f52cd093",
+                      "date":  "2026-08-29",
+                      "note":  "WebUI-Stabilitaet: drei unmaskierte Prozentzeichen in printf-artigen Renderstrings korrigiert. Der Stream-Formatter akzeptiert nur noch gueltige printf-Tokens; ein nacktes Prozentzeichen wird literal ausgegeben und kann keine va_list-Argumente mehr verschieben. Formatattribut und strikte Parserlogik sichern den Pfad gegen erneute Varargs-Fehlzuordnungen. Schema 77 und KNX-Schema 11 unveraendert."
+                  },
+                  {
                       "version":  "0.1.43",
                       "bin":  "knx-led-controller-16m-w_0.1.43.bin",
                       "sha256":  "3b9aa8a6279a431d1ebd6033e29428b24e27b2c8e14962ec0e97a6d1bfc1f54e",
@@ -27,13 +34,6 @@
                       "sha256":  "a2cdad28c4b5588fd968a8db2f450ca6525690d8734a488b3c0011e541804701",
                       "date":  "2026-08-28",
                       "note":  "Service-Taster-Auswahl durch eindeutige LED-Muster abgesichert: unter 2 s gruen schnell, Netzwerkreset gruen mit rotem Takt, Werksreset rot schnell, BOOTSEL/UF2 gruen/rot wechselnd, ab 15 s beide aus. Aktion weiterhin erst beim Loslassen. Schema 77 und KNX-Schema 11 unveraendert."
-                  },
-                  {
-                      "version":  "0.1.38",
-                      "bin":  "knx-led-controller-16m-w_0.1.38.bin",
-                      "sha256":  "896aa4516215c8fa963d16983c5a1794a158616590fd4b84a2553ae7e7690122",
-                      "date":  "2026-08-28",
-                      "note":  "Service-Taster im Betrieb um BOOTSEL/UF2 erweitert: 10 bis unter 15 s waehlen UF2, ab 15 s wird verworfen; Boot-Geste 3 s bleibt. Zusaetzliche Diagnosemarker grenzen den sporadischen ersten Aufruf von /update samt moeglichem Reset/Sessionverlust ein. Schema 77 und KNX-Schema 11 unveraendert."
                   }
               ]
 }
