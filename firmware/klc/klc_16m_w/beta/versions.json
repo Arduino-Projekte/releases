@@ -1,6 +1,13 @@
 {
     "items":  [
                   {
+                      "version":  "0.1.43",
+                      "bin":  "knx-led-controller-16m-w_0.1.43.bin",
+                      "sha256":  "3b9aa8a6279a431d1ebd6033e29428b24e27b2c8e14962ec0e97a6d1bfc1f54e",
+                      "date":  "2026-08-29",
+                      "note":  "Szeneneditor: historische bzw. versteckte String-Segment-Start-/Stopversatzwerte oberhalb 60,0 s blockieren das Speichern nicht mehr. Die WebUI normalisiert solche Altwerte auf 0,0 s; der Server akzeptiert fuer den Flow-Editor gezielt alte 16-Bit-Werte 60001..65535 ms und setzt sie auf den sicheren Standard 0 ms. Neue ungueltige API-Werte bleiben strikt abgelehnt. Schema 77 und KNX-Schema 11 unveraendert."
+                  },
+                  {
                       "version":  "0.1.41",
                       "bin":  "knx-led-controller-16m-w_0.1.41.bin",
                       "sha256":  "4f43586c2caff93a8da452da5ebaf273ed060e40250a422b91db8be4aa07d0b8",
@@ -27,13 +34,6 @@
                       "sha256":  "896aa4516215c8fa963d16983c5a1794a158616590fd4b84a2553ae7e7690122",
                       "date":  "2026-08-28",
                       "note":  "Service-Taster im Betrieb um BOOTSEL/UF2 erweitert: 10 bis unter 15 s waehlen UF2, ab 15 s wird verworfen; Boot-Geste 3 s bleibt. Zusaetzliche Diagnosemarker grenzen den sporadischen ersten Aufruf von /update samt moeglichem Reset/Sessionverlust ein. Schema 77 und KNX-Schema 11 unveraendert."
-                  },
-                  {
-                      "version":  "0.1.37",
-                      "bin":  "knx-led-controller-16m-w_0.1.37.bin",
-                      "sha256":  "36e54b208772fdcfd676f2da8fb74aeecd530c7dbcc1f450ef87e2705bdac560",
-                      "date":  "2026-08-28",
-                      "note":  "KNX-WebUI aufgeraeumt: BAOS-Diagnose-Kachel entfernt und KNX-Uebersicht nach unten direkt vor die einklappbare Objekttabelle verschoben. OTA-Netzdiagnostik aus 0.1.36 unveraendert beibehalten. Schema 77 und KNX-Schema 11 unveraendert."
                   }
               ]
 }
