@@ -1,6 +1,13 @@
 {
     "items":  [
                   {
+                      "version":  "0.1.46",
+                      "bin":  "knx-led-controller-16m_0.1.46.bin",
+                      "sha256":  "565d0537a1e9a133cf45043e197776d260f95cfb172622de5741d128168c17cb",
+                      "date":  "2026-08-29",
+                      "note":  "Updateabschluss wartet jetzt auf eine nachweislich neue Boot-ID und wechselt danach zur Startseite; BOOTSEL bleibt getrennt und der Wartungszustand zeigt nur die kompakte Statuskarte. Konfigurationspruefung fuer Benutzer reduziert, Admin-Diagnose erhalten. Ablaufdetails und 84-Zellen-Vorschau nutzen ein gemeinsames Zeitmodell mit Auto-Dauern, phasenrichtigen Effekten sowie Sanft Ein/Aus. Sprachpakete auf 2.7.5 und WebUI-gzip-Assets aktualisiert; Regressionstests ergaenzt. Formatter-/Varargs-Fixes aus 0.1.45 bleiben erhalten. Schema 77 und KNX-Schema 11 unveraendert."
+                  },
+                  {
                       "version":  "0.1.44",
                       "bin":  "knx-led-controller-16m_0.1.44.bin",
                       "sha256":  "67b14d8b6371f3b470e517e8d3569ad58696ccc14dfc1c99e087ede6f65bb66c",
@@ -27,13 +34,6 @@
                       "sha256":  "6e6ece7cee5a7db54a7875b0fe7b4bd6a872e0a454ac7f302840007abbf6c6a7",
                       "date":  "2026-08-29",
                       "note":  "Sporadischen Reset beim Seitenwechsel System -\u003e Firmwareprofil/Update abgesichert: automatische OTA-Pruefung startet erst nach 2 s Webserver-Ruhe; /update schuetzt seine Navigations-/Assetphase ebenfalls 2 s vor ausgehendem HTTPS. 4-KB-Manifest- und 16-KB-Versionsreserve entstehen erst nach bestaetigtem Webserver-Idle und werden bei TCP-Retry freigegeben. Zusaetzliche Render-Marker fuer Restdiagnose. Schema 77 und KNX-Schema 11 unveraendert."
-                  },
-                  {
-                      "version":  "0.1.39",
-                      "bin":  "knx-led-controller-16m_0.1.39.bin",
-                      "sha256":  "ae8de1e658366afaf484254e74d0bb32f2b78168833da3b298b81850229aa5f0",
-                      "date":  "2026-08-28",
-                      "note":  "Service-Taster-Auswahl durch eindeutige LED-Muster abgesichert: unter 2 s gruen schnell, Netzwerkreset gruen mit rotem Takt, Werksreset rot schnell, BOOTSEL/UF2 gruen/rot wechselnd, ab 15 s beide aus. Aktion weiterhin erst beim Loslassen. Schema 77 und KNX-Schema 11 unveraendert."
                   }
               ]
 }
