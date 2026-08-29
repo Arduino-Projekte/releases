@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m-w_0.1.39.bin",
+                     "url":  "knx-led-controller-16m-w_0.1.40.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.1.39",
-                     "bin":  "knx-led-controller-16m-w_0.1.39.bin",
-                     "file":  "knx-led-controller-16m-w_0.1.39.bin",
-                     "sha256":  "a2cdad28c4b5588fd968a8db2f450ca6525690d8734a488b3c0011e541804701",
-                     "message":  "Service-Taster-Auswahl durch eindeutige LED-Muster abgesichert: unter 2 s gruen schnell, Netzwerkreset gruen mit rotem Takt, Werksreset rot schnell, BOOTSEL/UF2 gruen/rot wechselnd, ab 15 s beide aus. Aktion weiterhin erst beim Loslassen. Schema 77 und KNX-Schema 11 unveraendert.",
+                     "version":  "0.1.40",
+                     "bin":  "knx-led-controller-16m-w_0.1.40.bin",
+                     "file":  "knx-led-controller-16m-w_0.1.40.bin",
+                     "sha256":  "d91acfc44689a7067df8f87522e83c81fbc69a6c859fd758e72c85727ea74648",
+                     "message":  "Sporadischen Reset beim Seitenwechsel System -\u003e Firmwareprofil/Update abgesichert: automatische OTA-Pruefung startet erst nach 2 s Webserver-Ruhe; /update schuetzt seine Navigations-/Assetphase ebenfalls 2 s vor ausgehendem HTTPS. 4-KB-Manifest- und 16-KB-Versionsreserve entstehen erst nach bestaetigtem Webserver-Idle und werden bei TCP-Retry freigegeben. Zusaetzliche Render-Marker fuer Restdiagnose. Schema 77 und KNX-Schema 11 unveraendert.",
                      "http_code":  200
                  }
 }

@@ -1,6 +1,13 @@
 {
     "items":  [
                   {
+                      "version":  "0.1.40",
+                      "bin":  "knx-led-controller-16m_0.1.40.bin",
+                      "sha256":  "6e6ece7cee5a7db54a7875b0fe7b4bd6a872e0a454ac7f302840007abbf6c6a7",
+                      "date":  "2026-08-29",
+                      "note":  "Sporadischen Reset beim Seitenwechsel System -\u003e Firmwareprofil/Update abgesichert: automatische OTA-Pruefung startet erst nach 2 s Webserver-Ruhe; /update schuetzt seine Navigations-/Assetphase ebenfalls 2 s vor ausgehendem HTTPS. 4-KB-Manifest- und 16-KB-Versionsreserve entstehen erst nach bestaetigtem Webserver-Idle und werden bei TCP-Retry freigegeben. Zusaetzliche Render-Marker fuer Restdiagnose. Schema 77 und KNX-Schema 11 unveraendert."
+                  },
+                  {
                       "version":  "0.1.39",
                       "bin":  "knx-led-controller-16m_0.1.39.bin",
                       "sha256":  "ae8de1e658366afaf484254e74d0bb32f2b78168833da3b298b81850229aa5f0",
@@ -27,13 +34,6 @@
                       "sha256":  "b4d3d9578332bd2c01b70ad8dd9462bb78cbc66cc3712fb94e6a3ae6e98033c6",
                       "date":  "2026-08-28",
                       "note":  "OTA: erweiterte Diagnose fuer den zweiten HTTPS-Abruf mit Owner, Route, Default-Netif, IP/Gateway, DNS-Servern sowie DNS-, TCP- und Callback-Ergebnissen; keine Retry- oder Watchdog-Aenderung. KNX: Simulation, echter Sendetest und feste Objektnummern aus der Seite entfernt; BAOS-Diagnose nach unten direkt vor die einklappbare Objekttabelle verschoben. Schema 77 und KNX-Schema 11 unveraendert."
-                  },
-                  {
-                      "version":  "0.1.34",
-                      "bin":  "knx-led-controller-16m_0.1.34.bin",
-                      "sha256":  "7e145da01951d0ddc832998a5d9364dc3e0a11ab468400e349d13444e62861a2",
-                      "date":  "2026-08-28",
-                      "note":  "Szeneneditor: Speicherung von Laufrichtung und Mitte-Spiegelung robust gemacht. Beim Speichern wird zuerst der aktuell sichtbare Bewegungszustand kanonisch in die Effekt-ID uebernommen; Reverse-/Mirror-Flags werden daraus synchron abgeleitet. Verdeckte oder noch nicht aufgebaute Richtungsfelder verwenden die gespeicherten Hidden-Werte als Fallback. Schema 77 und KNX-Schema 11 unveraendert."
                   }
               ]
 }
