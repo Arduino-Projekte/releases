@@ -1,6 +1,13 @@
 {
     "items":  [
                   {
+                      "version":  "0.1.41",
+                      "bin":  "knx-led-controller-16m_0.1.41.bin",
+                      "sha256":  "1b27f2fb30688b5f2855f78719484b266d4c215fb27bde081bd368e8f443f4d5",
+                      "date":  "2026-08-29",
+                      "note":  "WebUI-Rueckmeldungen bereinigt: API-JSON wird nicht mehr als Rohtext eingeblendet; Aktionen melden nur eine kurze, layoutneutrale Rueckmeldung. Die Kachel Letzte KNX-Aktion zeigt empfangene und gesendete Objekte mit Funktionsnamen und sinnvollen Werten wie Ein/Aus, Szene, Prozent oder Betriebsbereit statt technischer Objekt-/Rohwerte; interne BAOS-Statusaktionen werden in Klartext gefasst. Schema 77 und KNX-Schema 11 unveraendert."
+                  },
+                  {
                       "version":  "0.1.40",
                       "bin":  "knx-led-controller-16m_0.1.40.bin",
                       "sha256":  "6e6ece7cee5a7db54a7875b0fe7b4bd6a872e0a454ac7f302840007abbf6c6a7",
@@ -27,13 +34,6 @@
                       "sha256":  "f96a920b89d43102d9c7df5adf0510e7e45517ed8baeb511ec92611ca3f8f376",
                       "date":  "2026-08-28",
                       "note":  "KNX-WebUI aufgeraeumt: BAOS-Diagnose-Kachel entfernt und KNX-Uebersicht nach unten direkt vor die einklappbare Objekttabelle verschoben. OTA-Netzdiagnostik aus 0.1.36 unveraendert beibehalten. Schema 77 und KNX-Schema 11 unveraendert."
-                  },
-                  {
-                      "version":  "0.1.36",
-                      "bin":  "knx-led-controller-16m_0.1.36.bin",
-                      "sha256":  "b4d3d9578332bd2c01b70ad8dd9462bb78cbc66cc3712fb94e6a3ae6e98033c6",
-                      "date":  "2026-08-28",
-                      "note":  "OTA: erweiterte Diagnose fuer den zweiten HTTPS-Abruf mit Owner, Route, Default-Netif, IP/Gateway, DNS-Servern sowie DNS-, TCP- und Callback-Ergebnissen; keine Retry- oder Watchdog-Aenderung. KNX: Simulation, echter Sendetest und feste Objektnummern aus der Seite entfernt; BAOS-Diagnose nach unten direkt vor die einklappbare Objekttabelle verschoben. Schema 77 und KNX-Schema 11 unveraendert."
                   }
               ]
 }

@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m_0.1.40.bin",
+                     "url":  "knx-led-controller-16m_0.1.41.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.1.40",
-                     "bin":  "knx-led-controller-16m_0.1.40.bin",
-                     "file":  "knx-led-controller-16m_0.1.40.bin",
-                     "sha256":  "6e6ece7cee5a7db54a7875b0fe7b4bd6a872e0a454ac7f302840007abbf6c6a7",
-                     "message":  "Sporadischen Reset beim Seitenwechsel System -\u003e Firmwareprofil/Update abgesichert: automatische OTA-Pruefung startet erst nach 2 s Webserver-Ruhe; /update schuetzt seine Navigations-/Assetphase ebenfalls 2 s vor ausgehendem HTTPS. 4-KB-Manifest- und 16-KB-Versionsreserve entstehen erst nach bestaetigtem Webserver-Idle und werden bei TCP-Retry freigegeben. Zusaetzliche Render-Marker fuer Restdiagnose. Schema 77 und KNX-Schema 11 unveraendert.",
+                     "version":  "0.1.41",
+                     "bin":  "knx-led-controller-16m_0.1.41.bin",
+                     "file":  "knx-led-controller-16m_0.1.41.bin",
+                     "sha256":  "1b27f2fb30688b5f2855f78719484b266d4c215fb27bde081bd368e8f443f4d5",
+                     "message":  "WebUI-Rueckmeldungen bereinigt: API-JSON wird nicht mehr als Rohtext eingeblendet; Aktionen melden nur eine kurze, layoutneutrale Rueckmeldung. Die Kachel Letzte KNX-Aktion zeigt empfangene und gesendete Objekte mit Funktionsnamen und sinnvollen Werten wie Ein/Aus, Szene, Prozent oder Betriebsbereit statt technischer Objekt-/Rohwerte; interne BAOS-Statusaktionen werden in Klartext gefasst. Schema 77 und KNX-Schema 11 unveraendert.",
                      "http_code":  200
                  }
 }
