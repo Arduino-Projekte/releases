@@ -6,8 +6,8 @@
                      "version":  "0.1.49",
                      "bin":  "knx-led-controller-16m_0.1.49.bin",
                      "file":  "knx-led-controller-16m_0.1.49.bin",
-                     "sha256":  "6e93c2fb3bc12eee533452a08e2e5ae122c77123170bff5e2c3f17329ab02485",
-                     "message":  "Die Release-Nachbearbeitung ersetzt ein vorhandenes Beta-BIN derselben Firmwareversion jetzt atomar, wenn der neue Build einen anderen SHA-256 besitzt. versions.json und update.json werden anschliessend mit dem neuen Hash geschrieben; Stable-UF2-Dateien und andere Versionen bleiben unberuehrt. Damit koennen auch zeitstempelbedingt unterschiedliche Wiederholungsbuilds derselben Beta-Version erfolgreich abgeschlossen werden. Schema 78 und KNX-Schema 11 unveraendert.",
+                     "sha256":  "f4924306ab350bb6a1933a25588bd2e732d86a922a4d27beac8f30c9e694a2f7",
+                     "message":  "LED-Rendering und Animationspfad wurden fuer grosse RP2350-Installationen optimiert: vorbereitete Frame-Writer vermeiden wiederholte Ausgangssuchen und Dirty-Updates, statische Szenen rendern nur bei Faelligkeit und das Backend cached Leistungs-Summen und kombiniert Vergleich, Kopie und Summierung. Feuerwerk rendert funkenzentriert, Funkeln bereitet Framekonstanten vor und Tetrix reserviert Segmentuhren nur fuer konfigurierte String-Segmente. Rampen, Phasen, Kettenzuordnung, prospektives Power-Limit und DMA-Sicherheit bleiben erhalten. Schema 78, KNX-Schema 11 unveraendert.",
                      "http_code":  200
                  }
 }
