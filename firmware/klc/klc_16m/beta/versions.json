@@ -1,6 +1,27 @@
 {
     "items":  [
                   {
+                      "version":  "0.1.49",
+                      "bin":  "knx-led-controller-16m_0.1.49.bin",
+                      "sha256":  "6e93c2fb3bc12eee533452a08e2e5ae122c77123170bff5e2c3f17329ab02485",
+                      "date":  "2026-08-30",
+                      "note":  "Die Release-Nachbearbeitung ersetzt ein vorhandenes Beta-BIN derselben Firmwareversion jetzt atomar, wenn der neue Build einen anderen SHA-256 besitzt. versions.json und update.json werden anschliessend mit dem neuen Hash geschrieben; Stable-UF2-Dateien und andere Versionen bleiben unberuehrt. Damit koennen auch zeitstempelbedingt unterschiedliche Wiederholungsbuilds derselben Beta-Version erfolgreich abgeschlossen werden. Schema 78 und KNX-Schema 11 unveraendert."
+                  },
+                  {
+                      "version":  "0.1.48",
+                      "bin":  "knx-led-controller-16m_0.1.48.bin",
+                      "sha256":  "019b82e8d74d0b1e5d03251e6db4eb20cc18e3ffcf2ab8fd507bdd0a66336f13",
+                      "date":  "2026-08-30",
+                      "note":  "Segmentleuchten besitzen jetzt zwei gemeinsame Schieber fuer alle Phasen: Segmentanzahl 2..100 und Leuchtanteil 10..90 Prozent. Blockbreite und Abstaende werden pro Ausgang nur bei geaenderter Konfiguration oder LED-Laenge neu berechnet; der Pixelrenderer prueft die vorbereitete Geometrie danach in konstanter Zeit. Browservorschau sowie Backup-Import und -Export verwenden dasselbe Modell. Bestehende Szenen werden kompatibel auf einen Leuchtanteil von 50 Prozent migriert. Schema 78, KNX-Schema 11 unveraendert."
+                  },
+                  {
+                      "version":  "0.1.47",
+                      "bin":  "knx-led-controller-16m_0.1.47.bin",
+                      "sha256":  "591d91469b42512216dca17cbd563e3f1dffe859a75de3e15da602c28aebb2d1",
+                      "date":  "2026-08-29",
+                      "note":  "Unterbrochene Einschaltanimationen und Sanft-Ein-Rampen wechseln ohne Aufblitzen vom aktuellen LED-Zustand in die Ausschaltphase. Segmentleuchten wird in Aufbau, Hauptphase und Abschalten mit einer gemeinsamen Segmentgroesse korrekt dargestellt. Fuellgrad, Schrittzeit, Pulsperiode, Nachleuchtlaenge sowie Funkel-Geschwindigkeit, -Dichte und -Lebenszeit gelten jetzt aus der Hauptphase fuer alle Phasen; Effekt, Richtung und Dauer bleiben phasenweise waehlbar. Sprachpaketvertrag 2.7.5 und eingebettete WebUI-Artefakte synchronisiert. Schema 77 und KNX-Schema 11 unveraendert."
+                  },
+                  {
                       "version":  "0.1.46",
                       "bin":  "knx-led-controller-16m_0.1.46.bin",
                       "sha256":  "565d0537a1e9a133cf45043e197776d260f95cfb172622de5741d128168c17cb",
@@ -13,27 +34,6 @@
                       "sha256":  "67b14d8b6371f3b470e517e8d3569ad58696ccc14dfc1c99e087ede6f65bb66c",
                       "date":  "2026-08-29",
                       "note":  "WebUI-Stabilitaet: drei unmaskierte Prozentzeichen in printf-artigen Renderstrings korrigiert. Der Stream-Formatter akzeptiert nur noch gueltige printf-Tokens; ein nacktes Prozentzeichen wird literal ausgegeben und kann keine va_list-Argumente mehr verschieben. Formatattribut und strikte Parserlogik sichern den Pfad gegen erneute Varargs-Fehlzuordnungen. Schema 77 und KNX-Schema 11 unveraendert."
-                  },
-                  {
-                      "version":  "0.1.43",
-                      "bin":  "knx-led-controller-16m_0.1.43.bin",
-                      "sha256":  "b523e112e283f030c990be7e417fb0a26cd26aabacd01c988b9ef705a087cc32",
-                      "date":  "2026-08-29",
-                      "note":  "Szeneneditor: historische bzw. versteckte String-Segment-Start-/Stopversatzwerte oberhalb 60,0 s blockieren das Speichern nicht mehr. Die WebUI normalisiert solche Altwerte auf 0,0 s; der Server akzeptiert fuer den Flow-Editor gezielt alte 16-Bit-Werte 60001..65535 ms und setzt sie auf den sicheren Standard 0 ms. Neue ungueltige API-Werte bleiben strikt abgelehnt. Schema 77 und KNX-Schema 11 unveraendert."
-                  },
-                  {
-                      "version":  "0.1.41",
-                      "bin":  "knx-led-controller-16m_0.1.41.bin",
-                      "sha256":  "1b27f2fb30688b5f2855f78719484b266d4c215fb27bde081bd368e8f443f4d5",
-                      "date":  "2026-08-29",
-                      "note":  "WebUI-Rueckmeldungen bereinigt: API-JSON wird nicht mehr als Rohtext eingeblendet; Aktionen melden nur eine kurze, layoutneutrale Rueckmeldung. Die Kachel Letzte KNX-Aktion zeigt empfangene und gesendete Objekte mit Funktionsnamen und sinnvollen Werten wie Ein/Aus, Szene, Prozent oder Betriebsbereit statt technischer Objekt-/Rohwerte; interne BAOS-Statusaktionen werden in Klartext gefasst. Schema 77 und KNX-Schema 11 unveraendert."
-                  },
-                  {
-                      "version":  "0.1.40",
-                      "bin":  "knx-led-controller-16m_0.1.40.bin",
-                      "sha256":  "6e6ece7cee5a7db54a7875b0fe7b4bd6a872e0a454ac7f302840007abbf6c6a7",
-                      "date":  "2026-08-29",
-                      "note":  "Sporadischen Reset beim Seitenwechsel System -\u003e Firmwareprofil/Update abgesichert: automatische OTA-Pruefung startet erst nach 2 s Webserver-Ruhe; /update schuetzt seine Navigations-/Assetphase ebenfalls 2 s vor ausgehendem HTTPS. 4-KB-Manifest- und 16-KB-Versionsreserve entstehen erst nach bestaetigtem Webserver-Idle und werden bei TCP-Retry freigegeben. Zusaetzliche Render-Marker fuer Restdiagnose. Schema 77 und KNX-Schema 11 unveraendert."
                   }
               ]
 }

@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m_0.1.46.bin",
+                     "url":  "knx-led-controller-16m_0.1.49.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.1.46",
-                     "bin":  "knx-led-controller-16m_0.1.46.bin",
-                     "file":  "knx-led-controller-16m_0.1.46.bin",
-                     "sha256":  "565d0537a1e9a133cf45043e197776d260f95cfb172622de5741d128168c17cb",
-                     "message":  "Updateabschluss wartet jetzt auf eine nachweislich neue Boot-ID und wechselt danach zur Startseite; BOOTSEL bleibt getrennt und der Wartungszustand zeigt nur die kompakte Statuskarte. Konfigurationspruefung fuer Benutzer reduziert, Admin-Diagnose erhalten. Ablaufdetails und 84-Zellen-Vorschau nutzen ein gemeinsames Zeitmodell mit Auto-Dauern, phasenrichtigen Effekten sowie Sanft Ein/Aus. Sprachpakete auf 2.7.5 und WebUI-gzip-Assets aktualisiert; Regressionstests ergaenzt. Formatter-/Varargs-Fixes aus 0.1.45 bleiben erhalten. Schema 77 und KNX-Schema 11 unveraendert.",
+                     "version":  "0.1.49",
+                     "bin":  "knx-led-controller-16m_0.1.49.bin",
+                     "file":  "knx-led-controller-16m_0.1.49.bin",
+                     "sha256":  "6e93c2fb3bc12eee533452a08e2e5ae122c77123170bff5e2c3f17329ab02485",
+                     "message":  "Die Release-Nachbearbeitung ersetzt ein vorhandenes Beta-BIN derselben Firmwareversion jetzt atomar, wenn der neue Build einen anderen SHA-256 besitzt. versions.json und update.json werden anschliessend mit dem neuen Hash geschrieben; Stable-UF2-Dateien und andere Versionen bleiben unberuehrt. Damit koennen auch zeitstempelbedingt unterschiedliche Wiederholungsbuilds derselben Beta-Version erfolgreich abgeschlossen werden. Schema 78 und KNX-Schema 11 unveraendert.",
                      "http_code":  200
                  }
 }

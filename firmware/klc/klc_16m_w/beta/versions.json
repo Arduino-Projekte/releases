@@ -1,6 +1,13 @@
 {
     "items":  [
                   {
+                      "version":  "0.1.49",
+                      "bin":  "knx-led-controller-16m-w_0.1.49.bin",
+                      "sha256":  "809b4a51a454e876cf33d7d3701c4a5a01a14b572d2ec50cb820b6642f06e149",
+                      "date":  "2026-08-30",
+                      "note":  "Die Release-Nachbearbeitung ersetzt ein vorhandenes Beta-BIN derselben Firmwareversion jetzt atomar, wenn der neue Build einen anderen SHA-256 besitzt. versions.json und update.json werden anschliessend mit dem neuen Hash geschrieben; Stable-UF2-Dateien und andere Versionen bleiben unberuehrt. Damit koennen auch zeitstempelbedingt unterschiedliche Wiederholungsbuilds derselben Beta-Version erfolgreich abgeschlossen werden. Schema 78 und KNX-Schema 11 unveraendert."
+                  },
+                  {
                       "version":  "0.1.46",
                       "bin":  "knx-led-controller-16m-w_0.1.46.bin",
                       "sha256":  "cb29b0a797c511301526bb293948b70e75d28d2f25f4e0d61395a56512e228b7",
@@ -27,13 +34,6 @@
                       "sha256":  "4f43586c2caff93a8da452da5ebaf273ed060e40250a422b91db8be4aa07d0b8",
                       "date":  "2026-08-29",
                       "note":  "WebUI-Rueckmeldungen bereinigt: API-JSON wird nicht mehr als Rohtext eingeblendet; Aktionen melden nur eine kurze, layoutneutrale Rueckmeldung. Die Kachel Letzte KNX-Aktion zeigt empfangene und gesendete Objekte mit Funktionsnamen und sinnvollen Werten wie Ein/Aus, Szene, Prozent oder Betriebsbereit statt technischer Objekt-/Rohwerte; interne BAOS-Statusaktionen werden in Klartext gefasst. Schema 77 und KNX-Schema 11 unveraendert."
-                  },
-                  {
-                      "version":  "0.1.40",
-                      "bin":  "knx-led-controller-16m-w_0.1.40.bin",
-                      "sha256":  "d91acfc44689a7067df8f87522e83c81fbc69a6c859fd758e72c85727ea74648",
-                      "date":  "2026-08-29",
-                      "note":  "Sporadischen Reset beim Seitenwechsel System -\u003e Firmwareprofil/Update abgesichert: automatische OTA-Pruefung startet erst nach 2 s Webserver-Ruhe; /update schuetzt seine Navigations-/Assetphase ebenfalls 2 s vor ausgehendem HTTPS. 4-KB-Manifest- und 16-KB-Versionsreserve entstehen erst nach bestaetigtem Webserver-Idle und werden bei TCP-Retry freigegeben. Zusaetzliche Render-Marker fuer Restdiagnose. Schema 77 und KNX-Schema 11 unveraendert."
                   }
               ]
 }
