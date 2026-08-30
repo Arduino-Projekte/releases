@@ -1,6 +1,13 @@
 {
     "items":  [
                   {
+                      "version":  "0.1.50",
+                      "bin":  "knx-led-controller-16m-w_0.1.50.bin",
+                      "sha256":  "3829bdaa9136f3092a0f636bf43a382b8449d7b26f0b5428ef2a46c235aa1bde",
+                      "date":  "2026-08-30",
+                      "note":  "Browservorschau fuer Fuellgrad und Segmentleuchten rechnet jetzt mit derselben ganzzahligen Geometrie wie die Firmware, einschliesslich Rundung, kurzer Bereiche und Randsegment-Sonderfall. Der Source-only-Sprachvertrag sucht die eingebetteten Header robust im eigenen Quellordner. LED-Laufzeit, Schema 78 und KNX-Schema 11 bleiben unveraendert."
+                  },
+                  {
                       "version":  "0.1.49",
                       "bin":  "knx-led-controller-16m-w_0.1.49.bin",
                       "sha256":  "29391dd2a95444517e81de652b6677baafec76c91936aaffdf195020cadb83f6",
@@ -27,13 +34,6 @@
                       "sha256":  "3b9aa8a6279a431d1ebd6033e29428b24e27b2c8e14962ec0e97a6d1bfc1f54e",
                       "date":  "2026-08-29",
                       "note":  "Szeneneditor: historische bzw. versteckte String-Segment-Start-/Stopversatzwerte oberhalb 60,0 s blockieren das Speichern nicht mehr. Die WebUI normalisiert solche Altwerte auf 0,0 s; der Server akzeptiert fuer den Flow-Editor gezielt alte 16-Bit-Werte 60001..65535 ms und setzt sie auf den sicheren Standard 0 ms. Neue ungueltige API-Werte bleiben strikt abgelehnt. Schema 77 und KNX-Schema 11 unveraendert."
-                  },
-                  {
-                      "version":  "0.1.41",
-                      "bin":  "knx-led-controller-16m-w_0.1.41.bin",
-                      "sha256":  "4f43586c2caff93a8da452da5ebaf273ed060e40250a422b91db8be4aa07d0b8",
-                      "date":  "2026-08-29",
-                      "note":  "WebUI-Rueckmeldungen bereinigt: API-JSON wird nicht mehr als Rohtext eingeblendet; Aktionen melden nur eine kurze, layoutneutrale Rueckmeldung. Die Kachel Letzte KNX-Aktion zeigt empfangene und gesendete Objekte mit Funktionsnamen und sinnvollen Werten wie Ein/Aus, Szene, Prozent oder Betriebsbereit statt technischer Objekt-/Rohwerte; interne BAOS-Statusaktionen werden in Klartext gefasst. Schema 77 und KNX-Schema 11 unveraendert."
                   }
               ]
 }

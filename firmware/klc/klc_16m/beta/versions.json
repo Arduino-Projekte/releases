@@ -1,6 +1,13 @@
 {
     "items":  [
                   {
+                      "version":  "0.1.50",
+                      "bin":  "knx-led-controller-16m_0.1.50.bin",
+                      "sha256":  "16d8a8c324dc931035723c527cecb4e574efafe40e81f764ef9b6447876a1bae",
+                      "date":  "2026-08-30",
+                      "note":  "Browservorschau fuer Fuellgrad und Segmentleuchten rechnet jetzt mit derselben ganzzahligen Geometrie wie die Firmware, einschliesslich Rundung, kurzer Bereiche und Randsegment-Sonderfall. Der Source-only-Sprachvertrag sucht die eingebetteten Header robust im eigenen Quellordner. LED-Laufzeit, Schema 78 und KNX-Schema 11 bleiben unveraendert."
+                  },
+                  {
                       "version":  "0.1.49",
                       "bin":  "knx-led-controller-16m_0.1.49.bin",
                       "sha256":  "f4924306ab350bb6a1933a25588bd2e732d86a922a4d27beac8f30c9e694a2f7",
@@ -27,13 +34,6 @@
                       "sha256":  "565d0537a1e9a133cf45043e197776d260f95cfb172622de5741d128168c17cb",
                       "date":  "2026-08-29",
                       "note":  "Updateabschluss wartet jetzt auf eine nachweislich neue Boot-ID und wechselt danach zur Startseite; BOOTSEL bleibt getrennt und der Wartungszustand zeigt nur die kompakte Statuskarte. Konfigurationspruefung fuer Benutzer reduziert, Admin-Diagnose erhalten. Ablaufdetails und 84-Zellen-Vorschau nutzen ein gemeinsames Zeitmodell mit Auto-Dauern, phasenrichtigen Effekten sowie Sanft Ein/Aus. Sprachpakete auf 2.7.5 und WebUI-gzip-Assets aktualisiert; Regressionstests ergaenzt. Formatter-/Varargs-Fixes aus 0.1.45 bleiben erhalten. Schema 77 und KNX-Schema 11 unveraendert."
-                  },
-                  {
-                      "version":  "0.1.44",
-                      "bin":  "knx-led-controller-16m_0.1.44.bin",
-                      "sha256":  "67b14d8b6371f3b470e517e8d3569ad58696ccc14dfc1c99e087ede6f65bb66c",
-                      "date":  "2026-08-29",
-                      "note":  "WebUI-Stabilitaet: drei unmaskierte Prozentzeichen in printf-artigen Renderstrings korrigiert. Der Stream-Formatter akzeptiert nur noch gueltige printf-Tokens; ein nacktes Prozentzeichen wird literal ausgegeben und kann keine va_list-Argumente mehr verschieben. Formatattribut und strikte Parserlogik sichern den Pfad gegen erneute Varargs-Fehlzuordnungen. Schema 77 und KNX-Schema 11 unveraendert."
                   }
               ]
 }
