@@ -1,6 +1,13 @@
 {
     "items":  [
                   {
+                      "version":  "0.1.53",
+                      "bin":  "knx-led-controller-16m_0.1.53.bin",
+                      "sha256":  "0f84bcc993deb2adc9910ab8d22c78a02aee61928a096f74d24399162c14b3ef",
+                      "date":  "2026-08-31",
+                      "note":  "Bereinigt verbliebene Simple-/Advanced-Altlasten und wirkungslose LAST-State-Wrapper, entfernt nachweislich unbenutzten Dead Code und beschleunigt den LED-Effizienz-Regressions-Test durch exhaustive Kleinketten sowie deterministische Grenz- und Stichprobenpruefungen fuer 100, 800 und 1200 LEDs. Der aktive KNX-LAST-Journalpfad, LED-Verhalten, Rollen, OTA und Konfigurationsschema 78 bleiben unveraendert."
+                  },
+                  {
                       "version":  "0.1.50",
                       "bin":  "knx-led-controller-16m_0.1.50.bin",
                       "sha256":  "16d8a8c324dc931035723c527cecb4e574efafe40e81f764ef9b6447876a1bae",
@@ -27,13 +34,6 @@
                       "sha256":  "591d91469b42512216dca17cbd563e3f1dffe859a75de3e15da602c28aebb2d1",
                       "date":  "2026-08-29",
                       "note":  "Unterbrochene Einschaltanimationen und Sanft-Ein-Rampen wechseln ohne Aufblitzen vom aktuellen LED-Zustand in die Ausschaltphase. Segmentleuchten wird in Aufbau, Hauptphase und Abschalten mit einer gemeinsamen Segmentgroesse korrekt dargestellt. Fuellgrad, Schrittzeit, Pulsperiode, Nachleuchtlaenge sowie Funkel-Geschwindigkeit, -Dichte und -Lebenszeit gelten jetzt aus der Hauptphase fuer alle Phasen; Effekt, Richtung und Dauer bleiben phasenweise waehlbar. Sprachpaketvertrag 2.7.5 und eingebettete WebUI-Artefakte synchronisiert. Schema 77 und KNX-Schema 11 unveraendert."
-                  },
-                  {
-                      "version":  "0.1.46",
-                      "bin":  "knx-led-controller-16m_0.1.46.bin",
-                      "sha256":  "565d0537a1e9a133cf45043e197776d260f95cfb172622de5741d128168c17cb",
-                      "date":  "2026-08-29",
-                      "note":  "Updateabschluss wartet jetzt auf eine nachweislich neue Boot-ID und wechselt danach zur Startseite; BOOTSEL bleibt getrennt und der Wartungszustand zeigt nur die kompakte Statuskarte. Konfigurationspruefung fuer Benutzer reduziert, Admin-Diagnose erhalten. Ablaufdetails und 84-Zellen-Vorschau nutzen ein gemeinsames Zeitmodell mit Auto-Dauern, phasenrichtigen Effekten sowie Sanft Ein/Aus. Sprachpakete auf 2.7.5 und WebUI-gzip-Assets aktualisiert; Regressionstests ergaenzt. Formatter-/Varargs-Fixes aus 0.1.45 bleiben erhalten. Schema 77 und KNX-Schema 11 unveraendert."
                   }
               ]
 }
