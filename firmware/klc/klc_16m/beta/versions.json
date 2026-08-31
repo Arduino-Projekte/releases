@@ -1,6 +1,13 @@
 {
     "items":  [
                   {
+                      "version":  "0.1.54",
+                      "bin":  "knx-led-controller-16m_0.1.54.bin",
+                      "sha256":  "fd0b81db0df1d7a2768b02dd0241653d70e231231744d1a1037d4de42398d7d4",
+                      "date":  "2026-08-31",
+                      "note":  "Sanfte Farb-, Helligkeits- und Szenenuebergaenge. Helligkeit, RGB/RGBW und beides gleichzeitig laufen zeitbasiert ueber die vorhandene Pixel-Transition statt sprunghaft; jeder neue Befehl setzt am aktuell sichtbaren Zwischenzustand an. Ein Wechsel zwischen zwei bereits aktiven Szenen ueberspringt Ausphase der alten und Einphase der neuen Szene und blendet direkt mit transition_duration_ms (Default 300 ms) um; die LEDs gehen dabei nicht mehr kurz aus. AUS auf Szene und Szene auf AUS behalten Ein- und Ausphase unveraendert. Leistungsbegrenzung, DMA-Pfad, LED-Zuordnung, KNX-Mapping, LAST-State, OTA und Konfigurationsschema 78 bleiben unveraendert; zusaetzlicher Speicher entsteht nicht."
+                  },
+                  {
                       "version":  "0.1.53",
                       "bin":  "knx-led-controller-16m_0.1.53.bin",
                       "sha256":  "0f84bcc993deb2adc9910ab8d22c78a02aee61928a096f74d24399162c14b3ef",
@@ -27,13 +34,6 @@
                       "sha256":  "019b82e8d74d0b1e5d03251e6db4eb20cc18e3ffcf2ab8fd507bdd0a66336f13",
                       "date":  "2026-08-30",
                       "note":  "Segmentleuchten besitzen jetzt zwei gemeinsame Schieber fuer alle Phasen: Segmentanzahl 2..100 und Leuchtanteil 10..90 Prozent. Blockbreite und Abstaende werden pro Ausgang nur bei geaenderter Konfiguration oder LED-Laenge neu berechnet; der Pixelrenderer prueft die vorbereitete Geometrie danach in konstanter Zeit. Browservorschau sowie Backup-Import und -Export verwenden dasselbe Modell. Bestehende Szenen werden kompatibel auf einen Leuchtanteil von 50 Prozent migriert. Schema 78, KNX-Schema 11 unveraendert."
-                  },
-                  {
-                      "version":  "0.1.47",
-                      "bin":  "knx-led-controller-16m_0.1.47.bin",
-                      "sha256":  "591d91469b42512216dca17cbd563e3f1dffe859a75de3e15da602c28aebb2d1",
-                      "date":  "2026-08-29",
-                      "note":  "Unterbrochene Einschaltanimationen und Sanft-Ein-Rampen wechseln ohne Aufblitzen vom aktuellen LED-Zustand in die Ausschaltphase. Segmentleuchten wird in Aufbau, Hauptphase und Abschalten mit einer gemeinsamen Segmentgroesse korrekt dargestellt. Fuellgrad, Schrittzeit, Pulsperiode, Nachleuchtlaenge sowie Funkel-Geschwindigkeit, -Dichte und -Lebenszeit gelten jetzt aus der Hauptphase fuer alle Phasen; Effekt, Richtung und Dauer bleiben phasenweise waehlbar. Sprachpaketvertrag 2.7.5 und eingebettete WebUI-Artefakte synchronisiert. Schema 77 und KNX-Schema 11 unveraendert."
                   }
               ]
 }
