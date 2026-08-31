@@ -1,6 +1,13 @@
 {
     "items":  [
                   {
+                      "version":  "V4.26.8.31.1",
+                      "bin":  "word-clock-IV_V4.26.8.31.1.bin",
+                      "sha256":  "162bdeee38e01ec81f259824a1fb427ba2890050df3c56cf955c8c48bd229d42",
+                      "date":  "2026-08-31",
+                      "note":  "Timer-Speichern ohne unnoetige Verlassen-Warnung"
+                  },
+                  {
                       "version":  "V4.26.8.28.2",
                       "bin":  "word-clock-IV_V4.26.8.28.2.bin",
                       "sha256":  "acba09a3c72a4bed670374d67716e8e9c9ae9cec5199b4f79681e5cad6913a0b",
@@ -27,13 +34,6 @@
                       "sha256":  "37ca6ffd68d466340e24546591b7b3e96739786e22dbab4652c7c079dc90f45a",
                       "date":  "2026-08-27",
                       "note":  "Minutenpunkt-Vorschau vergroessert und fuer Hell- und Dunkelmodus abgestimmt"
-                  },
-                  {
-                      "version":  "V4.26.8.27.5",
-                      "bin":  "word-clock-IV_V4.26.8.27.5.bin",
-                      "sha256":  "8ef3374c81d9309affc464ffb78306f7f7689c0802185f8a6527a47b3caf21a7",
-                      "date":  "2026-08-27",
-                      "note":  "Automatische Renderprofile, Minutenpunkt-Vorschau und RGBW-Ambilight bei Overlays"
                   }
               ]
 }
