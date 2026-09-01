@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m-w_0.0.594.bin",
+                     "url":  "knx-led-controller-16m-w_0.1.60.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.0.594",
-                     "bin":  "knx-led-controller-16m-w_0.0.594.bin",
-                     "file":  "knx-led-controller-16m-w_0.0.594.bin",
-                     "sha256":  "bf583e40cb30830fd3dc9dba9ee10d2a9cd1a939d8732dc2801775e22270e3eb",
-                     "message":  "Behebt drei Feldregressionen: Der Sprachwechsel schuetzt die absichtliche Rollbackkopie bis zum Commit und verhindert commit_identity_mismatch. /outputs laedt seine grossen Skripte defer und liefert statische Assets ueber gepruefte kleine Chunks, sodass ein Transportfehler keine leere Seite hinterlaesst. Eine manuelle Updatepruefung verkettet Manifest und Versionsliste kooperativ; danach wird die Tabelle ohne Seitenreload neu geladen. Config-Schema 77 und KNX-Schema 11 bleiben unveraendert.",
+                     "version":  "0.1.60",
+                     "bin":  "knx-led-controller-16m-w_0.1.60.bin",
+                     "file":  "knx-led-controller-16m-w_0.1.60.bin",
+                     "sha256":  "60f66d995000f32e0fc4a0c55d3104222026216c3abfa3c0e6779c82d7c343d4",
+                     "message":  "Korrektur der Rollen- und Setup-Pfade: eingeschraenkter Benutzer-Backupimport funktioniert ueber den RAW-Upload und behaelt geschuetzte Einstellungen. USER darf nur freigegebene Updatequellen und neuere Firmware nutzen; eigene Quellen und Rollbacks bleiben ADMIN. Reboot, BOOTSEL, Ereignisdiagnose und Setup-Wiederholung sind fuer USER verborgen. Werksreset entfernt persistente Sprachpaketdateien. WLAN-Handover nutzt serverseitige ACK-/Retry-Entscheidungen und endliche Fetch-, Body- und JSON-Timeouts; Resume-Kontext und WLAN-Suche sind korrigiert. Schema 78 unveraendert.",
                      "http_code":  200
                  }
 }
