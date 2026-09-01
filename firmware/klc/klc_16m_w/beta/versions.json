@@ -1,6 +1,13 @@
 {
     "items":  [
                   {
+                      "version":  "0.1.59",
+                      "bin":  "knx-led-controller-16m-w_0.1.59.bin",
+                      "sha256":  "8b19be83a1e27a8b55769b76e2b94072bf1387a201edc21d35d227c520a9a4c4",
+                      "date":  "2026-09-01",
+                      "note":  "Rollenoberflaeche vereinheitlicht: Benutzer sehen keine Admin-Sperrhinweise, Netzwerk-/KNX-Adminformulare oder Konfigurationskachel mehr. Backup-Export ist konsistent als passwortfreier Benutzerweg freigegeben; eingeschraenkter Benutzerimport ist erreichbar, Admin-Roh-APIs bleiben geschuetzt. Benutzer-Updateaktionen verwenden ihre User-Routen statt Admin-Checks. WLAN-Frage ueberspringen waehlt explizit ohne WLAN und entfernt den Zugangsdaten-Schritt. Regressionstests fuer Rollenmatrix, Backup und WLAN-Skip ergaenzt. Schema 78 bleibt unveraendert."
+                  },
+                  {
                       "version":  "0.1.58",
                       "bin":  "knx-led-controller-16m-w_0.1.58.bin",
                       "sha256":  "1c2220a22880f1ae9435d75f338e9c921bb8338b424d91434e1de4efa0bf72b8",
@@ -27,13 +34,6 @@
                       "sha256":  "e7b71b45a13caa36df6c69638b076c0e0d834dc7ac71746f1d209f0cdf441585",
                       "date":  "2026-09-01",
                       "note":  "WebUI: Hinweis auf ungespeicherte Aenderungen und Schaltflaeche Kopieren nach neben Szene speichern. Der Hinweis vergleicht den Formularzustand gegen eine Grundlinie und verschwindet wieder, sobald ein Wert auf seinen Ausgangswert zurueckgestellt wird; die neue Grundlinie entsteht erst nach bestaetigtem Speichern, ein Fehlschlag laesst ihn stehen. Kopiert wird der sichtbare Formularzustand ueber /api/scene/copy in den gewaehlten Zielslot, mit derselben Validierung und Persistenz wie normales Speichern, ohne die Quelle zu speichern und ohne den Zielslot zu starten. LED-Ausgabe, KNX, LAST, OTA und Konfigurationsschema 78 unveraendert."
-                  },
-                  {
-                      "version":  "0.1.54",
-                      "bin":  "knx-led-controller-16m-w_0.1.54.bin",
-                      "sha256":  "cc46501186753a36a44376a3f6b7f92092ab3515b9428e5e9764d5070abcca04",
-                      "date":  "2026-08-31",
-                      "note":  "Sanfte Farb-, Helligkeits- und Szenenuebergaenge. Helligkeit, RGB/RGBW und beides gleichzeitig laufen zeitbasiert ueber die vorhandene Pixel-Transition statt sprunghaft; jeder neue Befehl setzt am aktuell sichtbaren Zwischenzustand an. Ein Wechsel zwischen zwei bereits aktiven Szenen ueberspringt Ausphase der alten und Einphase der neuen Szene und blendet direkt mit transition_duration_ms (Default 300 ms) um; die LEDs gehen dabei nicht mehr kurz aus. AUS auf Szene und Szene auf AUS behalten Ein- und Ausphase unveraendert. Leistungsbegrenzung, DMA-Pfad, LED-Zuordnung, KNX-Mapping, LAST-State, OTA und Konfigurationsschema 78 bleiben unveraendert; zusaetzlicher Speicher entsteht nicht."
                   }
               ]
 }
