@@ -1,6 +1,13 @@
 {
     "items":  [
                   {
+                      "version":  "0.1.58",
+                      "bin":  "knx-led-controller-16m_0.1.58.bin",
+                      "sha256":  "96f74729e397a4730db587d11998f7068f81bdeb6e621907dfe9fd5bf2daca9e",
+                      "date":  "2026-09-01",
+                      "note":  "Realer WLAN-Handover auf PC und Smartphone abgesichert: Beide Einrichtungsoberflaechen beenden eine haengende Statusanfrage nach 2,5 Sekunden einschliesslich JSON-Body, starten frisch und pollen in IP_READY weiter. Der Service-AP bleibt bis zur echten Browser-Bestaetigung oder dessen tokengepruefter Meldung ausgeschoepfter ACK-Wiederholungen aktiv; ein fertig geschriebener Serverstream gilt nicht als sichtbare IP. Der zweite Reset-Ausloeser wurde aus der Konfigurationsseite entfernt. Konfigurationsschema 78, KNX-Interface-Schema 11 und KLC_RELEASE_PUBLISH=false bleiben unveraendert."
+                  },
+                  {
                       "version":  "0.1.57",
                       "bin":  "knx-led-controller-16m_0.1.57.bin",
                       "sha256":  "06dc0554ed3e734e849a22d0366ab16bad635d2be3f45bfd7f778eed94de790a",
@@ -27,13 +34,6 @@
                       "sha256":  "fd0b81db0df1d7a2768b02dd0241653d70e231231744d1a1037d4de42398d7d4",
                       "date":  "2026-08-31",
                       "note":  "Sanfte Farb-, Helligkeits- und Szenenuebergaenge. Helligkeit, RGB/RGBW und beides gleichzeitig laufen zeitbasiert ueber die vorhandene Pixel-Transition statt sprunghaft; jeder neue Befehl setzt am aktuell sichtbaren Zwischenzustand an. Ein Wechsel zwischen zwei bereits aktiven Szenen ueberspringt Ausphase der alten und Einphase der neuen Szene und blendet direkt mit transition_duration_ms (Default 300 ms) um; die LEDs gehen dabei nicht mehr kurz aus. AUS auf Szene und Szene auf AUS behalten Ein- und Ausphase unveraendert. Leistungsbegrenzung, DMA-Pfad, LED-Zuordnung, KNX-Mapping, LAST-State, OTA und Konfigurationsschema 78 bleiben unveraendert; zusaetzlicher Speicher entsteht nicht."
-                  },
-                  {
-                      "version":  "0.1.53",
-                      "bin":  "knx-led-controller-16m_0.1.53.bin",
-                      "sha256":  "0f84bcc993deb2adc9910ab8d22c78a02aee61928a096f74d24399162c14b3ef",
-                      "date":  "2026-08-31",
-                      "note":  "Bereinigt verbliebene Simple-/Advanced-Altlasten und wirkungslose LAST-State-Wrapper, entfernt nachweislich unbenutzten Dead Code und beschleunigt den LED-Effizienz-Regressions-Test durch exhaustive Kleinketten sowie deterministische Grenz- und Stichprobenpruefungen fuer 100, 800 und 1200 LEDs. Der aktive KNX-LAST-Journalpfad, LED-Verhalten, Rollen, OTA und Konfigurationsschema 78 bleiben unveraendert."
                   }
               ]
 }

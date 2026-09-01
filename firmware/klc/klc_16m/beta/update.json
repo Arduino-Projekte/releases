@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m_0.1.57.bin",
+                     "url":  "knx-led-controller-16m_0.1.58.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.1.57",
-                     "bin":  "knx-led-controller-16m_0.1.57.bin",
-                     "file":  "knx-led-controller-16m_0.1.57.bin",
-                     "sha256":  "06dc0554ed3e734e849a22d0366ab16bad635d2be3f45bfd7f778eed94de790a",
-                     "message":  "Geraetebefund aus dem realen Smartphone-Handover behoben: Ohne nachweislich an den Browser ausgelieferte neue WLAN-IP bleiben Service-AP und IP_READY erhalten; der bisherige blinde 120-Sekunden-Fallback speichert nicht mehr und schaltet den einzigen Rueckweg nicht mehr ab. Der synchrone Szenenbank-Replacementpfad meldet nach jedem dauerhaft abgeschlossenen Szenenschritt Watchdog-Fortschritt, damit ein Werksreset nicht vor Config-Commit und kontrolliertem Neustart abbricht. Konfigurationsschema 78, KNX-Interface-Schema 11 und KLC_RELEASE_PUBLISH=false bleiben unveraendert.",
+                     "version":  "0.1.58",
+                     "bin":  "knx-led-controller-16m_0.1.58.bin",
+                     "file":  "knx-led-controller-16m_0.1.58.bin",
+                     "sha256":  "96f74729e397a4730db587d11998f7068f81bdeb6e621907dfe9fd5bf2daca9e",
+                     "message":  "Realer WLAN-Handover auf PC und Smartphone abgesichert: Beide Einrichtungsoberflaechen beenden eine haengende Statusanfrage nach 2,5 Sekunden einschliesslich JSON-Body, starten frisch und pollen in IP_READY weiter. Der Service-AP bleibt bis zur echten Browser-Bestaetigung oder dessen tokengepruefter Meldung ausgeschoepfter ACK-Wiederholungen aktiv; ein fertig geschriebener Serverstream gilt nicht als sichtbare IP. Der zweite Reset-Ausloeser wurde aus der Konfigurationsseite entfernt. Konfigurationsschema 78, KNX-Interface-Schema 11 und KLC_RELEASE_PUBLISH=false bleiben unveraendert.",
                      "http_code":  200
                  }
 }
