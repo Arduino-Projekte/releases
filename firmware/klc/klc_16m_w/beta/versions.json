@@ -1,6 +1,13 @@
 {
     "items":  [
                   {
+                      "version":  "0.1.57",
+                      "bin":  "knx-led-controller-16m-w_0.1.57.bin",
+                      "sha256":  "362001670f604229a2b813cb6f916c3cd98bf104e8a6570d1ef561779fe9ee52",
+                      "date":  "2026-09-01",
+                      "note":  "Geraetebefund aus dem realen Smartphone-Handover behoben: Ohne nachweislich an den Browser ausgelieferte neue WLAN-IP bleiben Service-AP und IP_READY erhalten; der bisherige blinde 120-Sekunden-Fallback speichert nicht mehr und schaltet den einzigen Rueckweg nicht mehr ab. Der synchrone Szenenbank-Replacementpfad meldet nach jedem dauerhaft abgeschlossenen Szenenschritt Watchdog-Fortschritt, damit ein Werksreset nicht vor Config-Commit und kontrolliertem Neustart abbricht. Konfigurationsschema 78, KNX-Interface-Schema 11 und KLC_RELEASE_PUBLISH=false bleiben unveraendert."
+                  },
+                  {
                       "version":  "0.1.56",
                       "bin":  "knx-led-controller-16m-w_0.1.56.bin",
                       "sha256":  "045f150e26cb7f130a3d58ecaecfe393ab6a73b59b92d490501dfd077017b0e5",
@@ -27,13 +34,6 @@
                       "sha256":  "4f3b6db02eef4ca7bfd873574581e476fc1c200b94bc67efc6c6e955e52b433e",
                       "date":  "2026-08-31",
                       "note":  "Bereinigt verbliebene Simple-/Advanced-Altlasten und wirkungslose LAST-State-Wrapper, entfernt nachweislich unbenutzten Dead Code und beschleunigt den LED-Effizienz-Regressions-Test durch exhaustive Kleinketten sowie deterministische Grenz- und Stichprobenpruefungen fuer 100, 800 und 1200 LEDs. Der aktive KNX-LAST-Journalpfad, LED-Verhalten, Rollen, OTA und Konfigurationsschema 78 bleiben unveraendert."
-                  },
-                  {
-                      "version":  "0.1.50",
-                      "bin":  "knx-led-controller-16m-w_0.1.50.bin",
-                      "sha256":  "3829bdaa9136f3092a0f636bf43a382b8449d7b26f0b5428ef2a46c235aa1bde",
-                      "date":  "2026-08-30",
-                      "note":  "Browservorschau fuer Fuellgrad und Segmentleuchten rechnet jetzt mit derselben ganzzahligen Geometrie wie die Firmware, einschliesslich Rundung, kurzer Bereiche und Randsegment-Sonderfall. Der Source-only-Sprachvertrag sucht die eingebetteten Header robust im eigenen Quellordner. LED-Laufzeit, Schema 78 und KNX-Schema 11 bleiben unveraendert."
                   }
               ]
 }

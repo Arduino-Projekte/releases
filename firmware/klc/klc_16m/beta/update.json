@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m_0.1.56.bin",
+                     "url":  "knx-led-controller-16m_0.1.57.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.1.56",
-                     "bin":  "knx-led-controller-16m_0.1.56.bin",
-                     "file":  "knx-led-controller-16m_0.1.56.bin",
-                     "sha256":  "54b42f1e52dd67efe451bc94b1e4a7efd957d11df00bcb4d074584c969481938",
-                     "message":  "Werksreset und Einrichtungsassistent konsistent: Die Systemseite zeigt nur noch den tatsaechlichen Werksreset, seine Statusseite oeffnet danach automatisch den Assistenten und bietet einen manuellen Link als Rueckfall. Ein angemeldeter Administrator kann eine erneute Einrichtung jetzt auch durch den WLAN-Schritt fuehren; die falsche Ablehnung als bereits abgeschlossene WLAN-Ersteinrichtung ist entfernt. Konfigurationsschema 78, KNX-Interface-Schema 11 und KLC_RELEASE_PUBLISH=false bleiben unveraendert.",
+                     "version":  "0.1.57",
+                     "bin":  "knx-led-controller-16m_0.1.57.bin",
+                     "file":  "knx-led-controller-16m_0.1.57.bin",
+                     "sha256":  "06dc0554ed3e734e849a22d0366ab16bad635d2be3f45bfd7f778eed94de790a",
+                     "message":  "Geraetebefund aus dem realen Smartphone-Handover behoben: Ohne nachweislich an den Browser ausgelieferte neue WLAN-IP bleiben Service-AP und IP_READY erhalten; der bisherige blinde 120-Sekunden-Fallback speichert nicht mehr und schaltet den einzigen Rueckweg nicht mehr ab. Der synchrone Szenenbank-Replacementpfad meldet nach jedem dauerhaft abgeschlossenen Szenenschritt Watchdog-Fortschritt, damit ein Werksreset nicht vor Config-Commit und kontrolliertem Neustart abbricht. Konfigurationsschema 78, KNX-Interface-Schema 11 und KLC_RELEASE_PUBLISH=false bleiben unveraendert.",
                      "http_code":  200
                  }
 }
