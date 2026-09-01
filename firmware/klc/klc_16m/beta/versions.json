@@ -1,6 +1,13 @@
 {
     "items":  [
                   {
+                      "version":  "0.1.60",
+                      "bin":  "knx-led-controller-16m_0.1.60.bin",
+                      "sha256":  "d0d88bdb105df2a15b435b265a3ac40aa0dfb1c6d9ce856adcf64f175322121d",
+                      "date":  "2026-09-01",
+                      "note":  "Korrektur der Rollen- und Setup-Pfade: eingeschraenkter Benutzer-Backupimport funktioniert ueber den RAW-Upload und behaelt geschuetzte Einstellungen. USER darf nur freigegebene Updatequellen und neuere Firmware nutzen; eigene Quellen und Rollbacks bleiben ADMIN. Reboot, BOOTSEL, Ereignisdiagnose und Setup-Wiederholung sind fuer USER verborgen. Werksreset entfernt persistente Sprachpaketdateien. WLAN-Handover nutzt serverseitige ACK-/Retry-Entscheidungen und endliche Fetch-, Body- und JSON-Timeouts; Resume-Kontext und WLAN-Suche sind korrigiert. Schema 78 unveraendert."
+                  },
+                  {
                       "version":  "0.1.59",
                       "bin":  "knx-led-controller-16m_0.1.59.bin",
                       "sha256":  "44e5013ce2fd1eb57701dc3c937d2248a24366d3f648d37ca086755197cb59df",
@@ -27,13 +34,6 @@
                       "sha256":  "54b42f1e52dd67efe451bc94b1e4a7efd957d11df00bcb4d074584c969481938",
                       "date":  "2026-09-01",
                       "note":  "Werksreset und Einrichtungsassistent konsistent: Die Systemseite zeigt nur noch den tatsaechlichen Werksreset, seine Statusseite oeffnet danach automatisch den Assistenten und bietet einen manuellen Link als Rueckfall. Ein angemeldeter Administrator kann eine erneute Einrichtung jetzt auch durch den WLAN-Schritt fuehren; die falsche Ablehnung als bereits abgeschlossene WLAN-Ersteinrichtung ist entfernt. Konfigurationsschema 78, KNX-Interface-Schema 11 und KLC_RELEASE_PUBLISH=false bleiben unveraendert."
-                  },
-                  {
-                      "version":  "0.1.55",
-                      "bin":  "knx-led-controller-16m_0.1.55.bin",
-                      "sha256":  "3ea1fcbde1c7506b6275480d6179228aed0e455f24f3f3d8ea0c5e39d7727b18",
-                      "date":  "2026-09-01",
-                      "note":  "WebUI: Hinweis auf ungespeicherte Aenderungen und Schaltflaeche Kopieren nach neben Szene speichern. Der Hinweis vergleicht den Formularzustand gegen eine Grundlinie und verschwindet wieder, sobald ein Wert auf seinen Ausgangswert zurueckgestellt wird; die neue Grundlinie entsteht erst nach bestaetigtem Speichern, ein Fehlschlag laesst ihn stehen. Kopiert wird der sichtbare Formularzustand ueber /api/scene/copy in den gewaehlten Zielslot, mit derselben Validierung und Persistenz wie normales Speichern, ohne die Quelle zu speichern und ohne den Zielslot zu starten. LED-Ausgabe, KNX, LAST, OTA und Konfigurationsschema 78 unveraendert."
                   }
               ]
 }

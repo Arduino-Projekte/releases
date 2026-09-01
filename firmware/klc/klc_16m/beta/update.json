@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m_0.1.59.bin",
+                     "url":  "knx-led-controller-16m_0.1.60.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.1.59",
-                     "bin":  "knx-led-controller-16m_0.1.59.bin",
-                     "file":  "knx-led-controller-16m_0.1.59.bin",
-                     "sha256":  "44e5013ce2fd1eb57701dc3c937d2248a24366d3f648d37ca086755197cb59df",
-                     "message":  "Rollenoberflaeche vereinheitlicht: Benutzer sehen keine Admin-Sperrhinweise, Netzwerk-/KNX-Adminformulare oder Konfigurationskachel mehr. Backup-Export ist konsistent als passwortfreier Benutzerweg freigegeben; eingeschraenkter Benutzerimport ist erreichbar, Admin-Roh-APIs bleiben geschuetzt. Benutzer-Updateaktionen verwenden ihre User-Routen statt Admin-Checks. WLAN-Frage ueberspringen waehlt explizit ohne WLAN und entfernt den Zugangsdaten-Schritt. Regressionstests fuer Rollenmatrix, Backup und WLAN-Skip ergaenzt. Schema 78 bleibt unveraendert.",
+                     "version":  "0.1.60",
+                     "bin":  "knx-led-controller-16m_0.1.60.bin",
+                     "file":  "knx-led-controller-16m_0.1.60.bin",
+                     "sha256":  "d0d88bdb105df2a15b435b265a3ac40aa0dfb1c6d9ce856adcf64f175322121d",
+                     "message":  "Korrektur der Rollen- und Setup-Pfade: eingeschraenkter Benutzer-Backupimport funktioniert ueber den RAW-Upload und behaelt geschuetzte Einstellungen. USER darf nur freigegebene Updatequellen und neuere Firmware nutzen; eigene Quellen und Rollbacks bleiben ADMIN. Reboot, BOOTSEL, Ereignisdiagnose und Setup-Wiederholung sind fuer USER verborgen. Werksreset entfernt persistente Sprachpaketdateien. WLAN-Handover nutzt serverseitige ACK-/Retry-Entscheidungen und endliche Fetch-, Body- und JSON-Timeouts; Resume-Kontext und WLAN-Suche sind korrigiert. Schema 78 unveraendert.",
                      "http_code":  200
                  }
 }
