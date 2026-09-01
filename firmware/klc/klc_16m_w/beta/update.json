@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m-w_0.1.55.bin",
+                     "url":  "knx-led-controller-16m-w_0.1.56.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.1.55",
-                     "bin":  "knx-led-controller-16m-w_0.1.55.bin",
-                     "file":  "knx-led-controller-16m-w_0.1.55.bin",
-                     "sha256":  "e7b71b45a13caa36df6c69638b076c0e0d834dc7ac71746f1d209f0cdf441585",
-                     "message":  "WebUI: Hinweis auf ungespeicherte Aenderungen und Schaltflaeche Kopieren nach neben Szene speichern. Der Hinweis vergleicht den Formularzustand gegen eine Grundlinie und verschwindet wieder, sobald ein Wert auf seinen Ausgangswert zurueckgestellt wird; die neue Grundlinie entsteht erst nach bestaetigtem Speichern, ein Fehlschlag laesst ihn stehen. Kopiert wird der sichtbare Formularzustand ueber /api/scene/copy in den gewaehlten Zielslot, mit derselben Validierung und Persistenz wie normales Speichern, ohne die Quelle zu speichern und ohne den Zielslot zu starten. LED-Ausgabe, KNX, LAST, OTA und Konfigurationsschema 78 unveraendert.",
+                     "version":  "0.1.56",
+                     "bin":  "knx-led-controller-16m-w_0.1.56.bin",
+                     "file":  "knx-led-controller-16m-w_0.1.56.bin",
+                     "sha256":  "045f150e26cb7f130a3d58ecaecfe393ab6a73b59b92d490501dfd077017b0e5",
+                     "message":  "Werksreset und Einrichtungsassistent konsistent: Die Systemseite zeigt nur noch den tatsaechlichen Werksreset, seine Statusseite oeffnet danach automatisch den Assistenten und bietet einen manuellen Link als Rueckfall. Ein angemeldeter Administrator kann eine erneute Einrichtung jetzt auch durch den WLAN-Schritt fuehren; die falsche Ablehnung als bereits abgeschlossene WLAN-Ersteinrichtung ist entfernt. Konfigurationsschema 78, KNX-Interface-Schema 11 und KLC_RELEASE_PUBLISH=false bleiben unveraendert.",
                      "http_code":  200
                  }
 }
