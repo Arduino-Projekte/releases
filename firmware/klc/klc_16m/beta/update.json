@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m_0.1.54.bin",
+                     "url":  "knx-led-controller-16m_0.1.55.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.1.54",
-                     "bin":  "knx-led-controller-16m_0.1.54.bin",
-                     "file":  "knx-led-controller-16m_0.1.54.bin",
-                     "sha256":  "fd0b81db0df1d7a2768b02dd0241653d70e231231744d1a1037d4de42398d7d4",
-                     "message":  "Sanfte Farb-, Helligkeits- und Szenenuebergaenge. Helligkeit, RGB/RGBW und beides gleichzeitig laufen zeitbasiert ueber die vorhandene Pixel-Transition statt sprunghaft; jeder neue Befehl setzt am aktuell sichtbaren Zwischenzustand an. Ein Wechsel zwischen zwei bereits aktiven Szenen ueberspringt Ausphase der alten und Einphase der neuen Szene und blendet direkt mit transition_duration_ms (Default 300 ms) um; die LEDs gehen dabei nicht mehr kurz aus. AUS auf Szene und Szene auf AUS behalten Ein- und Ausphase unveraendert. Leistungsbegrenzung, DMA-Pfad, LED-Zuordnung, KNX-Mapping, LAST-State, OTA und Konfigurationsschema 78 bleiben unveraendert; zusaetzlicher Speicher entsteht nicht.",
+                     "version":  "0.1.55",
+                     "bin":  "knx-led-controller-16m_0.1.55.bin",
+                     "file":  "knx-led-controller-16m_0.1.55.bin",
+                     "sha256":  "3ea1fcbde1c7506b6275480d6179228aed0e455f24f3f3d8ea0c5e39d7727b18",
+                     "message":  "WebUI: Hinweis auf ungespeicherte Aenderungen und Schaltflaeche Kopieren nach neben Szene speichern. Der Hinweis vergleicht den Formularzustand gegen eine Grundlinie und verschwindet wieder, sobald ein Wert auf seinen Ausgangswert zurueckgestellt wird; die neue Grundlinie entsteht erst nach bestaetigtem Speichern, ein Fehlschlag laesst ihn stehen. Kopiert wird der sichtbare Formularzustand ueber /api/scene/copy in den gewaehlten Zielslot, mit derselben Validierung und Persistenz wie normales Speichern, ohne die Quelle zu speichern und ohne den Zielslot zu starten. LED-Ausgabe, KNX, LAST, OTA und Konfigurationsschema 78 unveraendert.",
                      "http_code":  200
                  }
 }

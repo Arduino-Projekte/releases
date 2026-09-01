@@ -1,6 +1,13 @@
 {
     "items":  [
                   {
+                      "version":  "0.1.55",
+                      "bin":  "knx-led-controller-16m-w_0.1.55.bin",
+                      "sha256":  "e7b71b45a13caa36df6c69638b076c0e0d834dc7ac71746f1d209f0cdf441585",
+                      "date":  "2026-09-01",
+                      "note":  "WebUI: Hinweis auf ungespeicherte Aenderungen und Schaltflaeche Kopieren nach neben Szene speichern. Der Hinweis vergleicht den Formularzustand gegen eine Grundlinie und verschwindet wieder, sobald ein Wert auf seinen Ausgangswert zurueckgestellt wird; die neue Grundlinie entsteht erst nach bestaetigtem Speichern, ein Fehlschlag laesst ihn stehen. Kopiert wird der sichtbare Formularzustand ueber /api/scene/copy in den gewaehlten Zielslot, mit derselben Validierung und Persistenz wie normales Speichern, ohne die Quelle zu speichern und ohne den Zielslot zu starten. LED-Ausgabe, KNX, LAST, OTA und Konfigurationsschema 78 unveraendert."
+                  },
+                  {
                       "version":  "0.1.54",
                       "bin":  "knx-led-controller-16m-w_0.1.54.bin",
                       "sha256":  "cc46501186753a36a44376a3f6b7f92092ab3515b9428e5e9764d5070abcca04",
@@ -27,13 +34,6 @@
                       "sha256":  "29391dd2a95444517e81de652b6677baafec76c91936aaffdf195020cadb83f6",
                       "date":  "2026-08-30",
                       "note":  "LED-Rendering und Animationspfad wurden fuer grosse RP2350-Installationen optimiert: vorbereitete Frame-Writer vermeiden wiederholte Ausgangssuchen und Dirty-Updates, statische Szenen rendern nur bei Faelligkeit und das Backend cached Leistungs-Summen und kombiniert Vergleich, Kopie und Summierung. Feuerwerk rendert funkenzentriert, Funkeln bereitet Framekonstanten vor und Tetrix reserviert Segmentuhren nur fuer konfigurierte String-Segmente. Rampen, Phasen, Kettenzuordnung, prospektives Power-Limit und DMA-Sicherheit bleiben erhalten. Schema 78, KNX-Schema 11 unveraendert."
-                  },
-                  {
-                      "version":  "0.1.46",
-                      "bin":  "knx-led-controller-16m-w_0.1.46.bin",
-                      "sha256":  "cb29b0a797c511301526bb293948b70e75d28d2f25f4e0d61395a56512e228b7",
-                      "date":  "2026-08-29",
-                      "note":  "Updateabschluss wartet jetzt auf eine nachweislich neue Boot-ID und wechselt danach zur Startseite; BOOTSEL bleibt getrennt und der Wartungszustand zeigt nur die kompakte Statuskarte. Konfigurationspruefung fuer Benutzer reduziert, Admin-Diagnose erhalten. Ablaufdetails und 84-Zellen-Vorschau nutzen ein gemeinsames Zeitmodell mit Auto-Dauern, phasenrichtigen Effekten sowie Sanft Ein/Aus. Sprachpakete auf 2.7.5 und WebUI-gzip-Assets aktualisiert; Regressionstests ergaenzt. Formatter-/Varargs-Fixes aus 0.1.45 bleiben erhalten. Schema 77 und KNX-Schema 11 unveraendert."
                   }
               ]
 }
