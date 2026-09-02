@@ -1,6 +1,13 @@
 {
     "items":  [
                   {
+                      "version":  "V4.26.8.31.3",
+                      "bin":  "word-clock-IV_V4.26.8.31.3.bin",
+                      "sha256":  "30f396ce89684d320c12930c4ba6fe00e62e9316db720be2ba5b66fd35ceb858",
+                      "date":  "2026-09-02",
+                      "note":  "Ambilight-RGBW-Auswahl an konfigurierten LED-Typ gekoppelt"
+                  },
+                  {
                       "version":  "V4.26.8.31.2",
                       "bin":  "word-clock-IV_V4.26.8.31.2.bin",
                       "sha256":  "a266f68ed8d6bbba9dcb5cb717e42c4839791e70e28c16ed18bdd2b39f1c875b",
@@ -27,13 +34,6 @@
                       "sha256":  "7304f929fe2e3c6ab43b57c44ac9135d0108f3cbe4c0d99d554468d95e968bf3",
                       "date":  "2026-08-28",
                       "note":  "Timer-Speichern ohne falsche Webseite-verlassen-Warnung"
-                  },
-                  {
-                      "version":  "V4.26.8.27.7",
-                      "bin":  "word-clock-IV_V4.26.8.27.7.bin",
-                      "sha256":  "7fbafc1c3b2d84399a7842dc0c34c29bfe10570c46ca43defa995ea067e45b9d",
-                      "date":  "2026-08-27",
-                      "note":  "Minutenpunkte im Dunkelmodus kontrastreicher und besser sichtbar"
                   }
               ]
 }
