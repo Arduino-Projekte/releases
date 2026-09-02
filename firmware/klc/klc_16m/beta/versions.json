@@ -1,6 +1,13 @@
 {
     "items":  [
                   {
+                      "version":  "0.1.66",
+                      "bin":  "knx-led-controller-16m_0.1.66.bin",
+                      "sha256":  "f25c238790b5d4f2c8151d95f5c97cfd470e9b6a7217cdb93124fbb3229886d1",
+                      "date":  "2026-09-02",
+                      "note":  "Der Szeneneditor blendet den Weisskanal-Regler und das W-Feld aus, wenn kein aktiver RGBW-Ausgang vorhanden ist. Der seitenweite Hinweis auf ungespeicherte Aenderungen bietet jetzt direkt Aenderungen verwerfen und laedt damit den zuletzt gespeicherten Stand neu. Schema 78 und KNX-Schnittstellenschema 11 unveraendert."
+                  },
+                  {
                       "version":  "0.1.65",
                       "bin":  "knx-led-controller-16m_0.1.65.bin",
                       "sha256":  "3bb5651774e792c38182c28e6fe9a445580a9d2085ddfca6ca9c48238051e4c9",
@@ -27,13 +34,6 @@
                       "sha256":  "022d582bd20241f180046c799a7a8edf8fd8b478fd461d2501bcee5f0beba8f4",
                       "date":  "2026-09-01",
                       "note":  "Rollback-Darstellung vollstaendig rollenfest: dynamische Versionshistorie und Manifest zeigen USER keine Aktionen fuer aeltere Firmware; serverseitige Sperren bleiben aktiv. Werksreset nach Kern-Pending als fortsetzbare, im bestehenden Szenen-Replacement-Journal markierte Transaktion abgesichert; persistente Sprach-/Handover-Zusatzphase wird vor Szenenfinalisierung nachgeholt. Kanonische 7-Sprachen-Quellen auf Paket 2.7.6/2175 Schluessel synchronisiert. Schema 78 unveraendert."
-                  },
-                  {
-                      "version":  "0.1.60",
-                      "bin":  "knx-led-controller-16m_0.1.60.bin",
-                      "sha256":  "d0d88bdb105df2a15b435b265a3ac40aa0dfb1c6d9ce856adcf64f175322121d",
-                      "date":  "2026-09-01",
-                      "note":  "Korrektur der Rollen- und Setup-Pfade: eingeschraenkter Benutzer-Backupimport funktioniert ueber den RAW-Upload und behaelt geschuetzte Einstellungen. USER darf nur freigegebene Updatequellen und neuere Firmware nutzen; eigene Quellen und Rollbacks bleiben ADMIN. Reboot, BOOTSEL, Ereignisdiagnose und Setup-Wiederholung sind fuer USER verborgen. Werksreset entfernt persistente Sprachpaketdateien. WLAN-Handover nutzt serverseitige ACK-/Retry-Entscheidungen und endliche Fetch-, Body- und JSON-Timeouts; Resume-Kontext und WLAN-Suche sind korrigiert. Schema 78 unveraendert."
                   }
               ]
 }

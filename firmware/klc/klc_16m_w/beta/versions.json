@@ -1,6 +1,13 @@
 {
     "items":  [
                   {
+                      "version":  "0.1.66",
+                      "bin":  "knx-led-controller-16m-w_0.1.66.bin",
+                      "sha256":  "d7baa0d31f86cd3805abd2ff43b56cf5472ee5f0fdf195b1536f31c20fb0ca8f",
+                      "date":  "2026-09-02",
+                      "note":  "Der Szeneneditor blendet den Weisskanal-Regler und das W-Feld aus, wenn kein aktiver RGBW-Ausgang vorhanden ist. Der seitenweite Hinweis auf ungespeicherte Aenderungen bietet jetzt direkt Aenderungen verwerfen und laedt damit den zuletzt gespeicherten Stand neu. Schema 78 und KNX-Schnittstellenschema 11 unveraendert."
+                  },
+                  {
                       "version":  "0.1.65",
                       "bin":  "knx-led-controller-16m-w_0.1.65.bin",
                       "sha256":  "701dbddd2c73da506bb312611f059968e3172003f2d5733c56cba6030f962df2",
@@ -27,13 +34,6 @@
                       "sha256":  "60f66d995000f32e0fc4a0c55d3104222026216c3abfa3c0e6779c82d7c343d4",
                       "date":  "2026-09-01",
                       "note":  "Korrektur der Rollen- und Setup-Pfade: eingeschraenkter Benutzer-Backupimport funktioniert ueber den RAW-Upload und behaelt geschuetzte Einstellungen. USER darf nur freigegebene Updatequellen und neuere Firmware nutzen; eigene Quellen und Rollbacks bleiben ADMIN. Reboot, BOOTSEL, Ereignisdiagnose und Setup-Wiederholung sind fuer USER verborgen. Werksreset entfernt persistente Sprachpaketdateien. WLAN-Handover nutzt serverseitige ACK-/Retry-Entscheidungen und endliche Fetch-, Body- und JSON-Timeouts; Resume-Kontext und WLAN-Suche sind korrigiert. Schema 78 unveraendert."
-                  },
-                  {
-                      "version":  "0.1.59",
-                      "bin":  "knx-led-controller-16m-w_0.1.59.bin",
-                      "sha256":  "8b19be83a1e27a8b55769b76e2b94072bf1387a201edc21d35d227c520a9a4c4",
-                      "date":  "2026-09-01",
-                      "note":  "Rollenoberflaeche vereinheitlicht: Benutzer sehen keine Admin-Sperrhinweise, Netzwerk-/KNX-Adminformulare oder Konfigurationskachel mehr. Backup-Export ist konsistent als passwortfreier Benutzerweg freigegeben; eingeschraenkter Benutzerimport ist erreichbar, Admin-Roh-APIs bleiben geschuetzt. Benutzer-Updateaktionen verwenden ihre User-Routen statt Admin-Checks. WLAN-Frage ueberspringen waehlt explizit ohne WLAN und entfernt den Zugangsdaten-Schritt. Regressionstests fuer Rollenmatrix, Backup und WLAN-Skip ergaenzt. Schema 78 bleibt unveraendert."
                   }
               ]
 }
