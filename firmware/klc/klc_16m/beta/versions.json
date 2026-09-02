@@ -1,6 +1,13 @@
 {
     "items":  [
                   {
+                      "version":  "0.1.67",
+                      "bin":  "knx-led-controller-16m_0.1.67.bin",
+                      "sha256":  "84938a9b796726b94662c6b4ebcd8b475cc8e81ffd3dbf6a764f94c47bdadade",
+                      "date":  "2026-09-02",
+                      "note":  "WLAN startet nach mindestens 120 s und drei vollstaendig fehlgeschlagenen STA-Versuchen den vorhandenen Recovery-/Service-AP, ohne gespeicherte Zugangsdaten zu loeschen. Setup-Backupimporte werden nach dem Upload phasenweise im Hauptloop verarbeitet und persistent bestaetigt. Die Stable-Pruefung und -Installation im Wizard nutzt einen unveraenderlichen Manifest-Snapshot und bleibt damit vom nachfolgenden Versionslistenjob sowie vom Beta-Kanalzustand unabhaengig. Schema 78 und KNX-Schnittstellenschema 11 unveraendert."
+                  },
+                  {
                       "version":  "0.1.66",
                       "bin":  "knx-led-controller-16m_0.1.66.bin",
                       "sha256":  "f25c238790b5d4f2c8151d95f5c97cfd470e9b6a7217cdb93124fbb3229886d1",
@@ -27,13 +34,6 @@
                       "sha256":  "011d4f10dccb7736df842440b7737d6598eb3dcf1dfe8fcc793bae517a9864fa",
                       "date":  "2026-09-02",
                       "note":  "KNX Betriebsbereit trennt blockierende Funktionsfehler von Diagnosewarnungen und akzeptiert laufende Telegramme als Kommunikationsnachweis. Absolute KNX-Helligkeit und einzelne RGBW-Kanaele ersetzen die Werte der aktiven Szene ohne zusaetzlichen Laufzeitfaktor. Aenderungen werden nach einer Stunde oder vor einem KNX-Szenenwechsel ueber den bestehenden verifizierten A/B-Szenenspeicher dauerhaft geschrieben. Schema 78 und KNX-Schnittstellenschema 11 unveraendert."
-                  },
-                  {
-                      "version":  "0.1.62",
-                      "bin":  "knx-led-controller-16m_0.1.62.bin",
-                      "sha256":  "022d582bd20241f180046c799a7a8edf8fd8b478fd461d2501bcee5f0beba8f4",
-                      "date":  "2026-09-01",
-                      "note":  "Rollback-Darstellung vollstaendig rollenfest: dynamische Versionshistorie und Manifest zeigen USER keine Aktionen fuer aeltere Firmware; serverseitige Sperren bleiben aktiv. Werksreset nach Kern-Pending als fortsetzbare, im bestehenden Szenen-Replacement-Journal markierte Transaktion abgesichert; persistente Sprach-/Handover-Zusatzphase wird vor Szenenfinalisierung nachgeholt. Kanonische 7-Sprachen-Quellen auf Paket 2.7.6/2175 Schluessel synchronisiert. Schema 78 unveraendert."
                   }
               ]
 }
