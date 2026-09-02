@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m-w_0.1.67.bin",
+                     "url":  "knx-led-controller-16m-w_0.1.69.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.1.67",
-                     "bin":  "knx-led-controller-16m-w_0.1.67.bin",
-                     "file":  "knx-led-controller-16m-w_0.1.67.bin",
-                     "sha256":  "bb267f2c488c0d6b779f7835d5957672af30e9af8f6ce249f0f1f93958c0625d",
-                     "message":  "WLAN startet nach mindestens 120 s und drei vollstaendig fehlgeschlagenen STA-Versuchen den vorhandenen Recovery-/Service-AP, ohne gespeicherte Zugangsdaten zu loeschen. Setup-Backupimporte werden nach dem Upload phasenweise im Hauptloop verarbeitet und persistent bestaetigt. Die Stable-Pruefung und -Installation im Wizard nutzt einen unveraenderlichen Manifest-Snapshot und bleibt damit vom nachfolgenden Versionslistenjob sowie vom Beta-Kanalzustand unabhaengig. Schema 78 und KNX-Schnittstellenschema 11 unveraendert.",
+                     "version":  "0.1.69",
+                     "bin":  "knx-led-controller-16m-w_0.1.69.bin",
+                     "file":  "knx-led-controller-16m-w_0.1.69.bin",
+                     "sha256":  "3a420fe2d2e1c5596e5d0e29675f2a9da67ceb8dbd10b360f1bfdfbc0d324042",
+                     "message":  "Setup-Backup-Replacement-Commit korrigiert: Core und Szenenbank werden ueber Operation-ID und Zielgenerationen atomar gebunden, ohne den normalen Autoritaetsschutz abzuschwaechen. Szenenbank-Schreiben und -Verifikation laufen kooperativ pro Szene; der bounded Import parst Szenen direkt statt den gesamten Core je Szene erneut. Persistente Importbestaetigung bleibt vor dem kontrollierten Neustart abgesichert. Schema 78 und KNX-Schnittstellenschema 11 unveraendert.",
                      "http_code":  200
                  }
 }

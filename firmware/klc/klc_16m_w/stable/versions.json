@@ -1,6 +1,13 @@
 {
     "items":  [
                   {
+                      "version":  "0.1.69",
+                      "bin":  "knx-led-controller-16m-w_0.1.69.bin",
+                      "sha256":  "3a420fe2d2e1c5596e5d0e29675f2a9da67ceb8dbd10b360f1bfdfbc0d324042",
+                      "date":  "2026-09-02",
+                      "note":  "Setup-Backup-Replacement-Commit korrigiert: Core und Szenenbank werden ueber Operation-ID und Zielgenerationen atomar gebunden, ohne den normalen Autoritaetsschutz abzuschwaechen. Szenenbank-Schreiben und -Verifikation laufen kooperativ pro Szene; der bounded Import parst Szenen direkt statt den gesamten Core je Szene erneut. Persistente Importbestaetigung bleibt vor dem kontrollierten Neustart abgesichert. Schema 78 und KNX-Schnittstellenschema 11 unveraendert."
+                  },
+                  {
                       "version":  "0.1.67",
                       "bin":  "knx-led-controller-16m-w_0.1.67.bin",
                       "sha256":  "bb267f2c488c0d6b779f7835d5957672af30e9af8f6ce249f0f1f93958c0625d",
@@ -27,13 +34,6 @@
                       "sha256":  "3c2d7a3a18c69793ec17ec51b2770bf267ba120c38afee68b0198311d149ac92",
                       "date":  "2026-09-02",
                       "note":  "Die erste Einrichtungsseite auf Boards ohne WLAN zeigt nur noch einen eindeutigen Einstieg in den Setup-Assistenten. Der redundante Next-Link mit demselben Ziel wurde entfernt; Skip wizard bleibt unveraendert verfuegbar. Schema 78 und KNX-Schnittstellenschema 11 unveraendert."
-                  },
-                  {
-                      "version":  "0.1.63",
-                      "bin":  "knx-led-controller-16m-w_0.1.63.bin",
-                      "sha256":  "c9297f88f0a16fb78757f31a460abcad24d5dd0f28373ee508c2b63f9cb7d82b",
-                      "date":  "2026-09-02",
-                      "note":  "KNX Betriebsbereit trennt blockierende Funktionsfehler von Diagnosewarnungen und akzeptiert laufende Telegramme als Kommunikationsnachweis. Absolute KNX-Helligkeit und einzelne RGBW-Kanaele ersetzen die Werte der aktiven Szene ohne zusaetzlichen Laufzeitfaktor. Aenderungen werden nach einer Stunde oder vor einem KNX-Szenenwechsel ueber den bestehenden verifizierten A/B-Szenenspeicher dauerhaft geschrieben. Schema 78 und KNX-Schnittstellenschema 11 unveraendert."
                   }
               ]
 }
