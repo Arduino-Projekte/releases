@@ -1,6 +1,13 @@
 {
     "items":  [
                   {
+                      "version":  "0.1.63",
+                      "bin":  "knx-led-controller-16m-w_0.1.63.bin",
+                      "sha256":  "c9297f88f0a16fb78757f31a460abcad24d5dd0f28373ee508c2b63f9cb7d82b",
+                      "date":  "2026-09-02",
+                      "note":  "KNX Betriebsbereit trennt blockierende Funktionsfehler von Diagnosewarnungen und akzeptiert laufende Telegramme als Kommunikationsnachweis. Absolute KNX-Helligkeit und einzelne RGBW-Kanaele ersetzen die Werte der aktiven Szene ohne zusaetzlichen Laufzeitfaktor. Aenderungen werden nach einer Stunde oder vor einem KNX-Szenenwechsel ueber den bestehenden verifizierten A/B-Szenenspeicher dauerhaft geschrieben. Schema 78 und KNX-Schnittstellenschema 11 unveraendert."
+                  },
+                  {
                       "version":  "0.1.60",
                       "bin":  "knx-led-controller-16m-w_0.1.60.bin",
                       "sha256":  "60f66d995000f32e0fc4a0c55d3104222026216c3abfa3c0e6779c82d7c343d4",
@@ -27,13 +34,6 @@
                       "sha256":  "362001670f604229a2b813cb6f916c3cd98bf104e8a6570d1ef561779fe9ee52",
                       "date":  "2026-09-01",
                       "note":  "Geraetebefund aus dem realen Smartphone-Handover behoben: Ohne nachweislich an den Browser ausgelieferte neue WLAN-IP bleiben Service-AP und IP_READY erhalten; der bisherige blinde 120-Sekunden-Fallback speichert nicht mehr und schaltet den einzigen Rueckweg nicht mehr ab. Der synchrone Szenenbank-Replacementpfad meldet nach jedem dauerhaft abgeschlossenen Szenenschritt Watchdog-Fortschritt, damit ein Werksreset nicht vor Config-Commit und kontrolliertem Neustart abbricht. Konfigurationsschema 78, KNX-Interface-Schema 11 und KLC_RELEASE_PUBLISH=false bleiben unveraendert."
-                  },
-                  {
-                      "version":  "0.1.56",
-                      "bin":  "knx-led-controller-16m-w_0.1.56.bin",
-                      "sha256":  "045f150e26cb7f130a3d58ecaecfe393ab6a73b59b92d490501dfd077017b0e5",
-                      "date":  "2026-09-01",
-                      "note":  "Werksreset und Einrichtungsassistent konsistent: Die Systemseite zeigt nur noch den tatsaechlichen Werksreset, seine Statusseite oeffnet danach automatisch den Assistenten und bietet einen manuellen Link als Rueckfall. Ein angemeldeter Administrator kann eine erneute Einrichtung jetzt auch durch den WLAN-Schritt fuehren; die falsche Ablehnung als bereits abgeschlossene WLAN-Ersteinrichtung ist entfernt. Konfigurationsschema 78, KNX-Interface-Schema 11 und KLC_RELEASE_PUBLISH=false bleiben unveraendert."
                   }
               ]
 }
