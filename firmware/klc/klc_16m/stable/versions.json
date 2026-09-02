@@ -1,6 +1,13 @@
 {
     "items":  [
                   {
+                      "version":  "0.1.66",
+                      "bin":  "knx-led-controller-16m_0.1.66.bin",
+                      "sha256":  "f25c238790b5d4f2c8151d95f5c97cfd470e9b6a7217cdb93124fbb3229886d1",
+                      "date":  "2026-09-02",
+                      "note":  "Der Szeneneditor blendet den Weisskanal-Regler und das W-Feld aus, wenn kein aktiver RGBW-Ausgang vorhanden ist. Der seitenweite Hinweis auf ungespeicherte Aenderungen bietet jetzt direkt Aenderungen verwerfen und laedt damit den zuletzt gespeicherten Stand neu. Schema 78 und KNX-Schnittstellenschema 11 unveraendert."
+                  },
+                  {
                       "version":  "0.1.65",
                       "bin":  "knx-led-controller-16m_0.1.65.bin",
                       "sha256":  "3bb5651774e792c38182c28e6fe9a445580a9d2085ddfca6ca9c48238051e4c9",
@@ -27,13 +34,6 @@
                       "sha256":  "d0d88bdb105df2a15b435b265a3ac40aa0dfb1c6d9ce856adcf64f175322121d",
                       "date":  "2026-09-01",
                       "note":  "Korrektur der Rollen- und Setup-Pfade: eingeschraenkter Benutzer-Backupimport funktioniert ueber den RAW-Upload und behaelt geschuetzte Einstellungen. USER darf nur freigegebene Updatequellen und neuere Firmware nutzen; eigene Quellen und Rollbacks bleiben ADMIN. Reboot, BOOTSEL, Ereignisdiagnose und Setup-Wiederholung sind fuer USER verborgen. Werksreset entfernt persistente Sprachpaketdateien. WLAN-Handover nutzt serverseitige ACK-/Retry-Entscheidungen und endliche Fetch-, Body- und JSON-Timeouts; Resume-Kontext und WLAN-Suche sind korrigiert. Schema 78 unveraendert."
-                  },
-                  {
-                      "version":  "0.0.594",
-                      "bin":  "knx-led-controller-16m_0.0.594.bin",
-                      "sha256":  "6c13f86a908d5c826e6f00f01726754e009ec24e4a19edea94309c9c1d07427b",
-                      "date":  "2026-08-22",
-                      "note":  "Behebt drei Feldregressionen: Der Sprachwechsel schuetzt die absichtliche Rollbackkopie bis zum Commit und verhindert commit_identity_mismatch. /outputs laedt seine grossen Skripte defer und liefert statische Assets ueber gepruefte kleine Chunks, sodass ein Transportfehler keine leere Seite hinterlaesst. Eine manuelle Updatepruefung verkettet Manifest und Versionsliste kooperativ; danach wird die Tabelle ohne Seitenreload neu geladen. Config-Schema 77 und KNX-Schema 11 bleiben unveraendert."
                   }
               ]
 }
