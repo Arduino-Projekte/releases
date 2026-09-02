@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m-w_0.1.66.bin",
+                     "url":  "knx-led-controller-16m-w_0.1.67.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.1.66",
-                     "bin":  "knx-led-controller-16m-w_0.1.66.bin",
-                     "file":  "knx-led-controller-16m-w_0.1.66.bin",
-                     "sha256":  "d7baa0d31f86cd3805abd2ff43b56cf5472ee5f0fdf195b1536f31c20fb0ca8f",
-                     "message":  "Der Szeneneditor blendet den Weisskanal-Regler und das W-Feld aus, wenn kein aktiver RGBW-Ausgang vorhanden ist. Der seitenweite Hinweis auf ungespeicherte Aenderungen bietet jetzt direkt Aenderungen verwerfen und laedt damit den zuletzt gespeicherten Stand neu. Schema 78 und KNX-Schnittstellenschema 11 unveraendert.",
+                     "version":  "0.1.67",
+                     "bin":  "knx-led-controller-16m-w_0.1.67.bin",
+                     "file":  "knx-led-controller-16m-w_0.1.67.bin",
+                     "sha256":  "bb267f2c488c0d6b779f7835d5957672af30e9af8f6ce249f0f1f93958c0625d",
+                     "message":  "WLAN startet nach mindestens 120 s und drei vollstaendig fehlgeschlagenen STA-Versuchen den vorhandenen Recovery-/Service-AP, ohne gespeicherte Zugangsdaten zu loeschen. Setup-Backupimporte werden nach dem Upload phasenweise im Hauptloop verarbeitet und persistent bestaetigt. Die Stable-Pruefung und -Installation im Wizard nutzt einen unveraenderlichen Manifest-Snapshot und bleibt damit vom nachfolgenden Versionslistenjob sowie vom Beta-Kanalzustand unabhaengig. Schema 78 und KNX-Schnittstellenschema 11 unveraendert.",
                      "http_code":  200
                  }
 }
