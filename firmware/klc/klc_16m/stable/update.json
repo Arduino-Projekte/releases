@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m_0.1.63.bin",
+                     "url":  "knx-led-controller-16m_0.1.64.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.1.63",
-                     "bin":  "knx-led-controller-16m_0.1.63.bin",
-                     "file":  "knx-led-controller-16m_0.1.63.bin",
-                     "sha256":  "011d4f10dccb7736df842440b7737d6598eb3dcf1dfe8fcc793bae517a9864fa",
-                     "message":  "KNX Betriebsbereit trennt blockierende Funktionsfehler von Diagnosewarnungen und akzeptiert laufende Telegramme als Kommunikationsnachweis. Absolute KNX-Helligkeit und einzelne RGBW-Kanaele ersetzen die Werte der aktiven Szene ohne zusaetzlichen Laufzeitfaktor. Aenderungen werden nach einer Stunde oder vor einem KNX-Szenenwechsel ueber den bestehenden verifizierten A/B-Szenenspeicher dauerhaft geschrieben. Schema 78 und KNX-Schnittstellenschema 11 unveraendert.",
+                     "version":  "0.1.64",
+                     "bin":  "knx-led-controller-16m_0.1.64.bin",
+                     "file":  "knx-led-controller-16m_0.1.64.bin",
+                     "sha256":  "1ed2093999388006d851bf96418bb27b339415366b7237a10ddc593ef84f1bdb",
+                     "message":  "Die erste Einrichtungsseite auf Boards ohne WLAN zeigt nur noch einen eindeutigen Einstieg in den Setup-Assistenten. Der redundante Next-Link mit demselben Ziel wurde entfernt; Skip wizard bleibt unveraendert verfuegbar. Schema 78 und KNX-Schnittstellenschema 11 unveraendert.",
                      "http_code":  200
                  }
 }
