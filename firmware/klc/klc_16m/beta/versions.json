@@ -1,6 +1,13 @@
 {
     "items":  [
                   {
+                      "version":  "0.1.64",
+                      "bin":  "knx-led-controller-16m_0.1.64.bin",
+                      "sha256":  "1ed2093999388006d851bf96418bb27b339415366b7237a10ddc593ef84f1bdb",
+                      "date":  "2026-09-02",
+                      "note":  "Die erste Einrichtungsseite auf Boards ohne WLAN zeigt nur noch einen eindeutigen Einstieg in den Setup-Assistenten. Der redundante Next-Link mit demselben Ziel wurde entfernt; Skip wizard bleibt unveraendert verfuegbar. Schema 78 und KNX-Schnittstellenschema 11 unveraendert."
+                  },
+                  {
                       "version":  "0.1.63",
                       "bin":  "knx-led-controller-16m_0.1.63.bin",
                       "sha256":  "011d4f10dccb7736df842440b7737d6598eb3dcf1dfe8fcc793bae517a9864fa",
@@ -27,13 +34,6 @@
                       "sha256":  "44e5013ce2fd1eb57701dc3c937d2248a24366d3f648d37ca086755197cb59df",
                       "date":  "2026-09-01",
                       "note":  "Rollenoberflaeche vereinheitlicht: Benutzer sehen keine Admin-Sperrhinweise, Netzwerk-/KNX-Adminformulare oder Konfigurationskachel mehr. Backup-Export ist konsistent als passwortfreier Benutzerweg freigegeben; eingeschraenkter Benutzerimport ist erreichbar, Admin-Roh-APIs bleiben geschuetzt. Benutzer-Updateaktionen verwenden ihre User-Routen statt Admin-Checks. WLAN-Frage ueberspringen waehlt explizit ohne WLAN und entfernt den Zugangsdaten-Schritt. Regressionstests fuer Rollenmatrix, Backup und WLAN-Skip ergaenzt. Schema 78 bleibt unveraendert."
-                  },
-                  {
-                      "version":  "0.1.58",
-                      "bin":  "knx-led-controller-16m_0.1.58.bin",
-                      "sha256":  "96f74729e397a4730db587d11998f7068f81bdeb6e621907dfe9fd5bf2daca9e",
-                      "date":  "2026-09-01",
-                      "note":  "Realer WLAN-Handover auf PC und Smartphone abgesichert: Beide Einrichtungsoberflaechen beenden eine haengende Statusanfrage nach 2,5 Sekunden einschliesslich JSON-Body, starten frisch und pollen in IP_READY weiter. Der Service-AP bleibt bis zur echten Browser-Bestaetigung oder dessen tokengepruefter Meldung ausgeschoepfter ACK-Wiederholungen aktiv; ein fertig geschriebener Serverstream gilt nicht als sichtbare IP. Der zweite Reset-Ausloeser wurde aus der Konfigurationsseite entfernt. Konfigurationsschema 78, KNX-Interface-Schema 11 und KLC_RELEASE_PUBLISH=false bleiben unveraendert."
                   }
               ]
 }
