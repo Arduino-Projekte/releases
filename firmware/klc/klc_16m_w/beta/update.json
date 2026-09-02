@@ -1,13 +1,11 @@
 {
-    "manifest":  {
-                     "url":  "knx-led-controller-16m-w_0.1.64.bin",
-                     "check_ok":  true,
-                     "update_available":  false,
-                     "version":  "0.1.64",
-                     "bin":  "knx-led-controller-16m-w_0.1.64.bin",
-                     "file":  "knx-led-controller-16m-w_0.1.64.bin",
-                     "sha256":  "3c2d7a3a18c69793ec17ec51b2770bf267ba120c38afee68b0198311d149ac92",
-                     "message":  "Die erste Einrichtungsseite auf Boards ohne WLAN zeigt nur noch einen eindeutigen Einstieg in den Setup-Assistenten. Der redundante Next-Link mit demselben Ziel wurde entfernt; Skip wizard bleibt unveraendert verfuegbar. Schema 78 und KNX-Schnittstellenschema 11 unveraendert.",
-                     "http_code":  200
-                 }
+    "url":  "knx-led-controller-16m-w_0.1.65.bin",
+    "check_ok":  true,
+    "update_available":  false,
+    "version":  "0.1.65",
+    "bin":  "knx-led-controller-16m-w_0.1.65.bin",
+    "file":  "knx-led-controller-16m-w_0.1.65.bin",
+    "sha256":  "701dbddd2c73da506bb312611f059968e3172003f2d5733c56cba6030f962df2",
+    "message":  "Der Release-Publisher erzeugt update.json jetzt im flachen OTA-Vertragsformat mit version, bin, file und sha256 auf oberster Ebene. Dadurch erkennt der Einrichtungsassistent normale Stable-Releases wieder eindeutig; alte Wrapper-Manifeste bleiben firmwareseitig lesbar. Schema 78 und KNX-Schnittstellenschema 11 unveraendert.",
+    "http_code":  200
 }

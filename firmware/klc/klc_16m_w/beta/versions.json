@@ -1,6 +1,13 @@
 {
     "items":  [
                   {
+                      "version":  "0.1.65",
+                      "bin":  "knx-led-controller-16m-w_0.1.65.bin",
+                      "sha256":  "701dbddd2c73da506bb312611f059968e3172003f2d5733c56cba6030f962df2",
+                      "date":  "2026-09-02",
+                      "note":  "Der Release-Publisher erzeugt update.json jetzt im flachen OTA-Vertragsformat mit version, bin, file und sha256 auf oberster Ebene. Dadurch erkennt der Einrichtungsassistent normale Stable-Releases wieder eindeutig; alte Wrapper-Manifeste bleiben firmwareseitig lesbar. Schema 78 und KNX-Schnittstellenschema 11 unveraendert."
+                  },
+                  {
                       "version":  "0.1.64",
                       "bin":  "knx-led-controller-16m-w_0.1.64.bin",
                       "sha256":  "3c2d7a3a18c69793ec17ec51b2770bf267ba120c38afee68b0198311d149ac92",
@@ -27,13 +34,6 @@
                       "sha256":  "8b19be83a1e27a8b55769b76e2b94072bf1387a201edc21d35d227c520a9a4c4",
                       "date":  "2026-09-01",
                       "note":  "Rollenoberflaeche vereinheitlicht: Benutzer sehen keine Admin-Sperrhinweise, Netzwerk-/KNX-Adminformulare oder Konfigurationskachel mehr. Backup-Export ist konsistent als passwortfreier Benutzerweg freigegeben; eingeschraenkter Benutzerimport ist erreichbar, Admin-Roh-APIs bleiben geschuetzt. Benutzer-Updateaktionen verwenden ihre User-Routen statt Admin-Checks. WLAN-Frage ueberspringen waehlt explizit ohne WLAN und entfernt den Zugangsdaten-Schritt. Regressionstests fuer Rollenmatrix, Backup und WLAN-Skip ergaenzt. Schema 78 bleibt unveraendert."
-                  },
-                  {
-                      "version":  "0.1.58",
-                      "bin":  "knx-led-controller-16m-w_0.1.58.bin",
-                      "sha256":  "1c2220a22880f1ae9435d75f338e9c921bb8338b424d91434e1de4efa0bf72b8",
-                      "date":  "2026-09-01",
-                      "note":  "Realer WLAN-Handover auf PC und Smartphone abgesichert: Beide Einrichtungsoberflaechen beenden eine haengende Statusanfrage nach 2,5 Sekunden einschliesslich JSON-Body, starten frisch und pollen in IP_READY weiter. Der Service-AP bleibt bis zur echten Browser-Bestaetigung oder dessen tokengepruefter Meldung ausgeschoepfter ACK-Wiederholungen aktiv; ein fertig geschriebener Serverstream gilt nicht als sichtbare IP. Der zweite Reset-Ausloeser wurde aus der Konfigurationsseite entfernt. Konfigurationsschema 78, KNX-Interface-Schema 11 und KLC_RELEASE_PUBLISH=false bleiben unveraendert."
                   }
               ]
 }
