@@ -1,6 +1,13 @@
 {
     "items":  [
                   {
+                      "version":  "0.1.65",
+                      "bin":  "knx-led-controller-16m-w_0.1.65.bin",
+                      "sha256":  "701dbddd2c73da506bb312611f059968e3172003f2d5733c56cba6030f962df2",
+                      "date":  "2026-09-02",
+                      "note":  "Der Release-Publisher erzeugt update.json jetzt im flachen OTA-Vertragsformat mit version, bin, file und sha256 auf oberster Ebene. Dadurch erkennt der Einrichtungsassistent normale Stable-Releases wieder eindeutig; alte Wrapper-Manifeste bleiben firmwareseitig lesbar. Schema 78 und KNX-Schnittstellenschema 11 unveraendert."
+                  },
+                  {
                       "version":  "0.1.64",
                       "bin":  "knx-led-controller-16m-w_0.1.64.bin",
                       "sha256":  "3c2d7a3a18c69793ec17ec51b2770bf267ba120c38afee68b0198311d149ac92",
@@ -27,13 +34,6 @@
                       "sha256":  "bf583e40cb30830fd3dc9dba9ee10d2a9cd1a939d8732dc2801775e22270e3eb",
                       "date":  "2026-08-22",
                       "note":  "Behebt drei Feldregressionen: Der Sprachwechsel schuetzt die absichtliche Rollbackkopie bis zum Commit und verhindert commit_identity_mismatch. /outputs laedt seine grossen Skripte defer und liefert statische Assets ueber gepruefte kleine Chunks, sodass ein Transportfehler keine leere Seite hinterlaesst. Eine manuelle Updatepruefung verkettet Manifest und Versionsliste kooperativ; danach wird die Tabelle ohne Seitenreload neu geladen. Config-Schema 77 und KNX-Schema 11 bleiben unveraendert."
-                  },
-                  {
-                      "version":  "0.0.593",
-                      "bin":  "knx-led-controller-16m-w_0.0.593.bin",
-                      "sha256":  "9632e1b0f25a64d1e6e1c417c8ba99f7f4633e947eb95113aaf96a42d752b515",
-                      "date":  "2026-08-22",
-                      "note":  "Fuehrt die OTA/TLS-Haertung aus 0.0.592 mit dem Sprachpaketvertrag 2.7.4 zusammen. Manuelle Updatepruefungen bleiben reloadfrei und HTTPS wartet kooperativ auf Webserver-Idle; DNS-, TCP/lwIP-, X.509-, TLS-, BearSSL- und Heapfehler bleiben getrennt diagnostizierbar. Sieben kanonische Sprachpakete mit 2108 Schluesseln werden atomar generiert und vor jedem Build geprueft; Wechsel und Wiederherstellung laufen kooperativ und transaktional. Config-Schema 77 und KNX-Schema 11 bleiben unveraendert."
                   }
               ]
 }
