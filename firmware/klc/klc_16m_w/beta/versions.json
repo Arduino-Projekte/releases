@@ -1,6 +1,13 @@
 {
     "items":  [
                   {
+                      "version":  "0.1.71",
+                      "bin":  "knx-led-controller-16m-w_0.1.71.bin",
+                      "sha256":  "1f9aeebc6da68d39228976e785bb6e2f7e667c919792feea476c43d5eb4157ab",
+                      "date":  "2026-09-05",
+                      "note":  "Ausgangseditor korrigiert: Nach Speichern oder Testende bindet der gezielte Neuaufbau einer Ausgangskachel die Reiter Installation, Leistung, Startverhalten, KNX und Test erneut. Sie bleiben damit auch nach Aenderungen am LED-Versatz bedienbar. Die Dirty-Grundlinie des Flow-Editors wird weiterhin erst nach vollstaendiger Initialisierung gesetzt. Schema 78 und KNX-Schnittstellenschema 11 unveraendert."
+                  },
+                  {
                       "version":  "0.1.69",
                       "bin":  "knx-led-controller-16m-w_0.1.69.bin",
                       "sha256":  "3a420fe2d2e1c5596e5d0e29675f2a9da67ceb8dbd10b360f1bfdfbc0d324042",
@@ -27,13 +34,6 @@
                       "sha256":  "701dbddd2c73da506bb312611f059968e3172003f2d5733c56cba6030f962df2",
                       "date":  "2026-09-02",
                       "note":  "Der Release-Publisher erzeugt update.json jetzt im flachen OTA-Vertragsformat mit version, bin, file und sha256 auf oberster Ebene. Dadurch erkennt der Einrichtungsassistent normale Stable-Releases wieder eindeutig; alte Wrapper-Manifeste bleiben firmwareseitig lesbar. Schema 78 und KNX-Schnittstellenschema 11 unveraendert."
-                  },
-                  {
-                      "version":  "0.1.64",
-                      "bin":  "knx-led-controller-16m-w_0.1.64.bin",
-                      "sha256":  "3c2d7a3a18c69793ec17ec51b2770bf267ba120c38afee68b0198311d149ac92",
-                      "date":  "2026-09-02",
-                      "note":  "Die erste Einrichtungsseite auf Boards ohne WLAN zeigt nur noch einen eindeutigen Einstieg in den Setup-Assistenten. Der redundante Next-Link mit demselben Ziel wurde entfernt; Skip wizard bleibt unveraendert verfuegbar. Schema 78 und KNX-Schnittstellenschema 11 unveraendert."
                   }
               ]
 }
