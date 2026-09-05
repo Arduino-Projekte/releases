@@ -1,6 +1,13 @@
 {
     "items":  [
                   {
+                      "version":  "V4.26.9.5.1",
+                      "bin":  "word-clock-IV_V4.26.9.5.1.bin",
+                      "sha256":  "a5f183dd3a39c75256b6e992026716183a9c1ecb2a3acc728dffe852bc9a3ad9",
+                      "date":  "2026-09-05",
+                      "note":  "Bitcoin und Gold jetzt vollstaendig ohne Schluessel: die 11-Monats-Historie kommt per streamendem Abruf ebenfalls von Kraken, der Anbieter CryptoCompare entfaellt"
+                  },
+                  {
                       "version":  "V4.26.9.4.2",
                       "bin":  "word-clock-IV_V4.26.9.4.2.bin",
                       "sha256":  "0801e8b19d621d0b98cc33387241285845c7fa06faf93bd6d70f297b13ef3fdc",
@@ -27,13 +34,6 @@
                       "sha256":  "f980552c68ec306870113578944800d4d9458493e0f1e6c94d0d1027ce1c3ea4",
                       "date":  "2026-09-03",
                       "note":  "Eigenstaendige Finanzanzeige: Bitcoin und Dow Jones als Laufschrift, Kompaktanzeige und 11-Tage-/11-Monats-Diagramm, asynchroner Abruf mit Cache"
-                  },
-                  {
-                      "version":  "V4.26.9.2.1",
-                      "bin":  "word-clock-IV_V4.26.9.2.1.bin",
-                      "sha256":  "65738273d2792b99bf21b3747e97bcb671d33f24f5391a9beb272e9e581e5ca6",
-                      "date":  "2026-09-02",
-                      "note":  "Ambilight-RGBW-Auswahl an konfigurierten LED-Typ gekoppelt"
                   }
               ]
 }
