@@ -5,7 +5,7 @@
   "minimum_firmware_version": "0.0.593",
   "maximum_firmware_version": "0.1.999",
   "compatibility_version": 1,
-  "package_version": "2.7.5",
+  "package_version": "2.7.6",
   "translations": {
     "Steuerung": "Steuerung",
     "Abläufe": "Abläufe",
@@ -2154,6 +2154,23 @@
     "Die Firmware wurde geprüft/installiert. Bitte Stromversorgung nicht trennen.": "Die Firmware wurde geprüft/installiert. Bitte Stromversorgung nicht trennen.",
     "Warte auf Verbindung … Versuch 0": "Warte auf Verbindung … Versuch 0",
     "Versionshistorie wird synchronisiert …": "Versionshistorie wird synchronisiert …",
-    "Bitte warten. Die Update-Bedienung wird nach Abschluss automatisch wieder freigegeben.": "Bitte warten. Die Update-Bedienung wird nach Abschluss automatisch wieder freigegeben."
+    "Bitte warten. Die Update-Bedienung wird nach Abschluss automatisch wieder freigegeben.": "Bitte warten. Die Update-Bedienung wird nach Abschluss automatisch wieder freigegeben.",
+    "Szenen exportieren und importieren": "Szenen exportieren und importieren",
+    "Alle Szenen exportieren": "Alle Szenen exportieren",
+    "Szenendatei auswählen": "Szenendatei auswählen",
+    "Szenendatei prüfen": "Szenendatei prüfen",
+    "Szenen importieren": "Szenen importieren",
+    "Noch keine Szenendatei geprüft.": "Noch keine Szenendatei geprüft.",
+    "Erkannt:": "Erkannt:",
+    "Änderungen": "Änderungen",
+    "unverändert": "unverändert",
+    "Übergang": "Übergang",
+    "Startphase": "Startphase",
+    "Abschalten": "Abschalten",
+    "Datei ausgewählt. Bitte vor dem Import prüfen.": "Datei ausgewählt. Bitte vor dem Import prüfen.",
+    "Szenendatei wird geprüft …": "Szenendatei wird geprüft …",
+    "Bitte zuerst eine Szenendatei auswählen.": "Bitte zuerst eine Szenendatei auswählen.",
+    "Die Datei wurde seit der Prüfung geändert. Bitte erneut prüfen.": "Die Datei wurde seit der Prüfung geändert. Bitte erneut prüfen.",
+    "Szenenimport abgeschlossen.": "Szenenimport abgeschlossen."
   }
 }

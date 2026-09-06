@@ -5,7 +5,7 @@
   "minimum_firmware_version": "0.0.593",
   "maximum_firmware_version": "0.1.999",
   "compatibility_version": 1,
-  "package_version": "2.7.5",
+  "package_version": "2.7.6",
   "translations": {
     "Steuerung": "Sterowanie",
     "Abläufe": "Sekwencje",
@@ -2154,6 +2154,23 @@
     "Die Firmware wurde geprüft/installiert. Bitte Stromversorgung nicht trennen.": "Firmware zostało zweryfikowane/zainstalowane. Nie odłączaj zasilania.",
     "Warte auf Verbindung … Versuch 0": "Oczekiwanie na połączenie … Próba 0",
     "Versionshistorie wird synchronisiert …": "Synchronizowanie historii wersji…",
-    "Bitte warten. Die Update-Bedienung wird nach Abschluss automatisch wieder freigegeben.": "Proszę czekać. Po zakończeniu synchronizacji obsługa aktualizacji zostanie automatycznie ponownie włączona."
+    "Bitte warten. Die Update-Bedienung wird nach Abschluss automatisch wieder freigegeben.": "Proszę czekać. Po zakończeniu synchronizacji obsługa aktualizacji zostanie automatycznie ponownie włączona.",
+    "Szenen exportieren und importieren": "Eksport i import scen",
+    "Alle Szenen exportieren": "Eksportuj wszystkie sceny",
+    "Szenendatei auswählen": "Wybierz plik scen",
+    "Szenendatei prüfen": "Sprawdź plik scen",
+    "Szenen importieren": "Importuj sceny",
+    "Noch keine Szenendatei geprüft.": "Nie sprawdzono jeszcze żadnego pliku scen.",
+    "Erkannt:": "Wykryto:",
+    "Änderungen": "Zmiany",
+    "unverändert": "bez zmian",
+    "Übergang": "Przejście",
+    "Startphase": "Faza startowa",
+    "Abschalten": "Wyłączanie",
+    "Datei ausgewählt. Bitte vor dem Import prüfen.": "Wybrano plik. Sprawdź go przed importem.",
+    "Szenendatei wird geprüft …": "Sprawdzanie pliku scen …",
+    "Bitte zuerst eine Szenendatei auswählen.": "Najpierw wybierz plik scen.",
+    "Die Datei wurde seit der Prüfung geändert. Bitte erneut prüfen.": "Plik zmienił się od czasu sprawdzenia. Sprawdź go ponownie.",
+    "Szenenimport abgeschlossen.": "Import scen zakończony."
   }
 }

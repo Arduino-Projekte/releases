@@ -5,7 +5,7 @@
   "minimum_firmware_version": "0.0.593",
   "maximum_firmware_version": "0.1.999",
   "compatibility_version": 1,
-  "package_version": "2.7.5",
+  "package_version": "2.7.6",
   "translations": {
     "Steuerung": "Bediening",
     "Abläufe": "Verlopen",
@@ -2154,6 +2154,23 @@
     "Die Firmware wurde geprüft/installiert. Bitte Stromversorgung nicht trennen.": "De firmware is gecontroleerd/geïnstalleerd. Schakel de voeding niet uit.",
     "Warte auf Verbindung … Versuch 0": "Wachten op verbinding … Poging 0",
     "Versionshistorie wird synchronisiert …": "Versiegeschiedenis wordt gesynchroniseerd…",
-    "Bitte warten. Die Update-Bedienung wird nach Abschluss automatisch wieder freigegeben.": "Even geduld. De updatebediening wordt na de synchronisatie automatisch weer beschikbaar."
+    "Bitte warten. Die Update-Bedienung wird nach Abschluss automatisch wieder freigegeben.": "Even geduld. De updatebediening wordt na de synchronisatie automatisch weer beschikbaar.",
+    "Szenen exportieren und importieren": "Scènes exporteren en importeren",
+    "Alle Szenen exportieren": "Alle scènes exporteren",
+    "Szenendatei auswählen": "Scènebestand selecteren",
+    "Szenendatei prüfen": "Scènebestand controleren",
+    "Szenen importieren": "Scènes importeren",
+    "Noch keine Szenendatei geprüft.": "Er is nog geen scènebestand gecontroleerd.",
+    "Erkannt:": "Herkend:",
+    "Änderungen": "Wijzigingen",
+    "unverändert": "ongewijzigd",
+    "Übergang": "Overgang",
+    "Startphase": "Startfase",
+    "Abschalten": "Uitschakelen",
+    "Datei ausgewählt. Bitte vor dem Import prüfen.": "Bestand geselecteerd. Controleer het vóór het importeren.",
+    "Szenendatei wird geprüft …": "Scènebestand wordt gecontroleerd …",
+    "Bitte zuerst eine Szenendatei auswählen.": "Selecteer eerst een scènebestand.",
+    "Die Datei wurde seit der Prüfung geändert. Bitte erneut prüfen.": "Het bestand is gewijzigd sinds de controle. Controleer het opnieuw.",
+    "Szenenimport abgeschlossen.": "Importeren van scènes voltooid."
   }
 }

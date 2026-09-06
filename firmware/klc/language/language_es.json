@@ -5,7 +5,7 @@
   "minimum_firmware_version": "0.0.593",
   "maximum_firmware_version": "0.1.999",
   "compatibility_version": 1,
-  "package_version": "2.7.5",
+  "package_version": "2.7.6",
   "translations": {
     "Steuerung": "Control",
     "Abläufe": "Secuencias",
@@ -2154,6 +2154,23 @@
     "Die Firmware wurde geprüft/installiert. Bitte Stromversorgung nicht trennen.": "El firmware se ha verificado/instalado. No desconecte la alimentación.",
     "Warte auf Verbindung … Versuch 0": "Esperando conexión … Intento 0",
     "Versionshistorie wird synchronisiert …": "Sincronizando el historial de versiones…",
-    "Bitte warten. Die Update-Bedienung wird nach Abschluss automatisch wieder freigegeben.": "Espere. Los controles de actualización volverán a estar disponibles automáticamente al finalizar la sincronización."
+    "Bitte warten. Die Update-Bedienung wird nach Abschluss automatisch wieder freigegeben.": "Espere. Los controles de actualización volverán a estar disponibles automáticamente al finalizar la sincronización.",
+    "Szenen exportieren und importieren": "Exportar e importar escenas",
+    "Alle Szenen exportieren": "Exportar todas las escenas",
+    "Szenendatei auswählen": "Seleccionar archivo de escenas",
+    "Szenendatei prüfen": "Comprobar archivo de escenas",
+    "Szenen importieren": "Importar escenas",
+    "Noch keine Szenendatei geprüft.": "Aún no se ha comprobado ningún archivo de escenas.",
+    "Erkannt:": "Detectado:",
+    "Änderungen": "Cambios",
+    "unverändert": "sin cambios",
+    "Übergang": "Transición",
+    "Startphase": "Fase de inicio",
+    "Abschalten": "Apagado",
+    "Datei ausgewählt. Bitte vor dem Import prüfen.": "Archivo seleccionado. Compruébalo antes de importar.",
+    "Szenendatei wird geprüft …": "Comprobando archivo de escenas …",
+    "Bitte zuerst eine Szenendatei auswählen.": "Selecciona primero un archivo de escenas.",
+    "Die Datei wurde seit der Prüfung geändert. Bitte erneut prüfen.": "El archivo ha cambiado desde la comprobación. Vuelve a comprobarlo.",
+    "Szenenimport abgeschlossen.": "Importación de escenas completada."
   }
 }

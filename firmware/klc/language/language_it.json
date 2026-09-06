@@ -5,7 +5,7 @@
   "minimum_firmware_version": "0.0.593",
   "maximum_firmware_version": "0.1.999",
   "compatibility_version": 1,
-  "package_version": "2.7.5",
+  "package_version": "2.7.6",
   "translations": {
     "Steuerung": "Controllo",
     "Abläufe": "Sequenze",
@@ -2154,6 +2154,23 @@
     "Die Firmware wurde geprüft/installiert. Bitte Stromversorgung nicht trennen.": "Il firmware è stato verificato/installato. Non scollegare l’alimentazione.",
     "Warte auf Verbindung … Versuch 0": "In attesa della connessione … Tentativo 0",
     "Versionshistorie wird synchronisiert …": "Sincronizzazione della cronologia versioni…",
-    "Bitte warten. Die Update-Bedienung wird nach Abschluss automatisch wieder freigegeben.": "Attendere. I controlli di aggiornamento saranno nuovamente disponibili automaticamente al termine della sincronizzazione."
+    "Bitte warten. Die Update-Bedienung wird nach Abschluss automatisch wieder freigegeben.": "Attendere. I controlli di aggiornamento saranno nuovamente disponibili automaticamente al termine della sincronizzazione.",
+    "Szenen exportieren und importieren": "Esporta e importa scene",
+    "Alle Szenen exportieren": "Esporta tutte le scene",
+    "Szenendatei auswählen": "Seleziona file scene",
+    "Szenendatei prüfen": "Verifica file scene",
+    "Szenen importieren": "Importa scene",
+    "Noch keine Szenendatei geprüft.": "Nessun file scene è stato ancora verificato.",
+    "Erkannt:": "Rilevato:",
+    "Änderungen": "Modifiche",
+    "unverändert": "invariato",
+    "Übergang": "Transizione",
+    "Startphase": "Fase di avvio",
+    "Abschalten": "Spegnimento",
+    "Datei ausgewählt. Bitte vor dem Import prüfen.": "File selezionato. Verificalo prima dell’importazione.",
+    "Szenendatei wird geprüft …": "Verifica del file scene …",
+    "Bitte zuerst eine Szenendatei auswählen.": "Seleziona prima un file scene.",
+    "Die Datei wurde seit der Prüfung geändert. Bitte erneut prüfen.": "Il file è cambiato dopo la verifica. Verificalo di nuovo.",
+    "Szenenimport abgeschlossen.": "Importazione scene completata."
   }
 }

@@ -5,7 +5,7 @@
   "minimum_firmware_version": "0.0.593",
   "maximum_firmware_version": "0.1.999",
   "compatibility_version": 1,
-  "package_version": "2.7.5",
+  "package_version": "2.7.6",
   "translations": {
     "Steuerung": "Commande",
     "Abläufe": "Séquences",
@@ -2154,6 +2154,23 @@
     "Die Firmware wurde geprüft/installiert. Bitte Stromversorgung nicht trennen.": "Le firmware a été vérifié/installé. Ne coupez pas l’alimentation.",
     "Warte auf Verbindung … Versuch 0": "En attente de connexion … Tentative 0",
     "Versionshistorie wird synchronisiert …": "Synchronisation de l’historique des versions…",
-    "Bitte warten. Die Update-Bedienung wird nach Abschluss automatisch wieder freigegeben.": "Veuillez patienter. Les commandes de mise à jour seront de nouveau disponibles automatiquement après la synchronisation."
+    "Bitte warten. Die Update-Bedienung wird nach Abschluss automatisch wieder freigegeben.": "Veuillez patienter. Les commandes de mise à jour seront de nouveau disponibles automatiquement après la synchronisation.",
+    "Szenen exportieren und importieren": "Exporter et importer des scènes",
+    "Alle Szenen exportieren": "Exporter toutes les scènes",
+    "Szenendatei auswählen": "Sélectionner le fichier de scènes",
+    "Szenendatei prüfen": "Vérifier le fichier de scènes",
+    "Szenen importieren": "Importer les scènes",
+    "Noch keine Szenendatei geprüft.": "Aucun fichier de scènes n’a encore été vérifié.",
+    "Erkannt:": "Détecté :",
+    "Änderungen": "Modifications",
+    "unverändert": "inchangé",
+    "Übergang": "Transition",
+    "Startphase": "Phase de démarrage",
+    "Abschalten": "Arrêt",
+    "Datei ausgewählt. Bitte vor dem Import prüfen.": "Fichier sélectionné. Veuillez le vérifier avant l’import.",
+    "Szenendatei wird geprüft …": "Vérification du fichier de scènes …",
+    "Bitte zuerst eine Szenendatei auswählen.": "Veuillez d’abord sélectionner un fichier de scènes.",
+    "Die Datei wurde seit der Prüfung geändert. Bitte erneut prüfen.": "Le fichier a été modifié depuis sa vérification. Veuillez le vérifier à nouveau.",
+    "Szenenimport abgeschlossen.": "Import des scènes terminé."
   }
 }

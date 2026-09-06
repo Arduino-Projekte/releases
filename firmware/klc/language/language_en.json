@@ -5,7 +5,7 @@
   "minimum_firmware_version": "0.0.593",
   "maximum_firmware_version": "0.1.999",
   "compatibility_version": 1,
-  "package_version": "2.7.5",
+  "package_version": "2.7.6",
   "translations": {
     "Steuerung": "Control",
     "Abläufe": "Sequences",
@@ -2154,6 +2154,23 @@
     "Die Firmware wurde geprüft/installiert. Bitte Stromversorgung nicht trennen.": "The firmware was verified/installed. Do not disconnect power.",
     "Warte auf Verbindung … Versuch 0": "Waiting for connection … Attempt 0",
     "Versionshistorie wird synchronisiert …": "Version history is being synchronized …",
-    "Bitte warten. Die Update-Bedienung wird nach Abschluss automatisch wieder freigegeben.": "Please wait. Update controls will be available again automatically when synchronization is complete."
+    "Bitte warten. Die Update-Bedienung wird nach Abschluss automatisch wieder freigegeben.": "Please wait. Update controls will be available again automatically when synchronization is complete.",
+    "Szenen exportieren und importieren": "Export and import scenes",
+    "Alle Szenen exportieren": "Export all scenes",
+    "Szenendatei auswählen": "Select scene file",
+    "Szenendatei prüfen": "Check scene file",
+    "Szenen importieren": "Import scenes",
+    "Noch keine Szenendatei geprüft.": "No scene file checked yet.",
+    "Erkannt:": "Detected:",
+    "Änderungen": "Changes",
+    "unverändert": "unchanged",
+    "Übergang": "Transition",
+    "Startphase": "Start phase",
+    "Abschalten": "Off phase",
+    "Datei ausgewählt. Bitte vor dem Import prüfen.": "File selected. Please check it before importing.",
+    "Szenendatei wird geprüft …": "Checking scene file …",
+    "Bitte zuerst eine Szenendatei auswählen.": "Please select a scene file first.",
+    "Die Datei wurde seit der Prüfung geändert. Bitte erneut prüfen.": "The file has changed since it was checked. Please check it again.",
+    "Szenenimport abgeschlossen.": "Scene import completed."
   }
 }
