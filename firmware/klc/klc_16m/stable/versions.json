@@ -1,6 +1,13 @@
 {
     "items":  [
                   {
+                      "version":  "0.1.73",
+                      "bin":  "knx-led-controller-16m_0.1.73.bin",
+                      "sha256":  "0a17b19adb503c08c7290adb104428a82835ee37781da08a56787ee7e5328faa",
+                      "date":  "2026-09-06",
+                      "note":  "KNX-Szenenpersistenz und Bedienreihenfolge gehaertet: Aufgeschobene Befehle werden an ihre konkrete Speicheroperation gebunden, terminale Fehler begrenzt behandelt und neuere Bedienauftraege koennen alte Vormerkungen nicht mehr ueberholen. Ausgangsreiter werden nach Refresh idempotent gebunden. Aktive Leistungsgrenzen bleiben auch bei auf 0 mA gerundetem Sicherheitsbudget wirksam; 0 mA als individuelles Ausgangslimit bleibt deaktiviert. OTA-Vertraege und Regressionstests aktualisiert. Schema 78 und KNX-Schnittstellenschema 11 unveraendert."
+                  },
+                  {
                       "version":  "0.1.72",
                       "bin":  "knx-led-controller-16m_0.1.72.bin",
                       "sha256":  "7a79079fd40abaa4dbc596f3c327a13750d241d57917665785c987d1090858c3",
@@ -27,13 +34,6 @@
                       "sha256":  "f25c238790b5d4f2c8151d95f5c97cfd470e9b6a7217cdb93124fbb3229886d1",
                       "date":  "2026-09-02",
                       "note":  "Der Szeneneditor blendet den Weisskanal-Regler und das W-Feld aus, wenn kein aktiver RGBW-Ausgang vorhanden ist. Der seitenweite Hinweis auf ungespeicherte Aenderungen bietet jetzt direkt Aenderungen verwerfen und laedt damit den zuletzt gespeicherten Stand neu. Schema 78 und KNX-Schnittstellenschema 11 unveraendert."
-                  },
-                  {
-                      "version":  "0.1.65",
-                      "bin":  "knx-led-controller-16m_0.1.65.bin",
-                      "sha256":  "3bb5651774e792c38182c28e6fe9a445580a9d2085ddfca6ca9c48238051e4c9",
-                      "date":  "2026-09-02",
-                      "note":  "Der Release-Publisher erzeugt update.json jetzt im flachen OTA-Vertragsformat mit version, bin, file und sha256 auf oberster Ebene. Dadurch erkennt der Einrichtungsassistent normale Stable-Releases wieder eindeutig; alte Wrapper-Manifeste bleiben firmwareseitig lesbar. Schema 78 und KNX-Schnittstellenschema 11 unveraendert."
                   }
               ]
 }
