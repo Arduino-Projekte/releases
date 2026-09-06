@@ -1,11 +1,11 @@
 {
-    "url":  "knx-led-controller-16m_0.1.71.bin",
+    "url":  "knx-led-controller-16m_0.1.72.bin",
     "check_ok":  true,
     "update_available":  false,
-    "version":  "0.1.71",
-    "bin":  "knx-led-controller-16m_0.1.71.bin",
-    "file":  "knx-led-controller-16m_0.1.71.bin",
-    "sha256":  "7b950486bc571b5fa11df682f8cf0165bdea163e79b290f6d00e01e72194967c",
-    "message":  "Ausgangseditor korrigiert: Nach Speichern oder Testende bindet der gezielte Neuaufbau einer Ausgangskachel die Reiter Installation, Leistung, Startverhalten, KNX und Test erneut. Sie bleiben damit auch nach Aenderungen am LED-Versatz bedienbar. Die Dirty-Grundlinie des Flow-Editors wird weiterhin erst nach vollstaendiger Initialisierung gesetzt. Schema 78 und KNX-Schnittstellenschema 11 unveraendert.",
+    "version":  "0.1.72",
+    "bin":  "knx-led-controller-16m_0.1.72.bin",
+    "file":  "knx-led-controller-16m_0.1.72.bin",
+    "sha256":  "7a79079fd40abaa4dbc596f3c327a13750d241d57917665785c987d1090858c3",
+    "message":  "Segmentleuchten phasenweit korrigiert: Die Hauptphase liefert nun das gemeinsame Zielmuster; Aufbau und Abschalten animieren nur dessen leuchtende Bereiche. Lauflicht, Welle und Spezialrenderer lassen dunkle Segmentluecken unveraendert, auch bei Strangsegmenten und unterbrochenem Ausschalten. Auf /flows liegt der Szenenexport/-import jetzt vollstaendig unter Werkzeuge. Browservorschau und Regressionstests nachgezogen. Schema 78 und KNX-Schnittstellenschema 11 unveraendert.",
     "http_code":  200
 }
