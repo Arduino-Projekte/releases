@@ -1,6 +1,13 @@
 {
     "items":  [
                   {
+                      "version":  "0.1.78",
+                      "bin":  "knx-led-controller-16m-w_0.1.78.bin",
+                      "sha256":  "4ec7b06ddf3621e516ea35e870dfb28bcd72e097ea7af594d5c9cf57dd4ddbd3",
+                      "date":  "2026-09-06",
+                      "note":  "Behoben: Die Auswahlfelder der Startseite zeigten nicht den laufenden Zustand. Szene 0 (Aus) fehlte als Option, deshalb blieb die Kopfzeilenauswahl bei ausgeschalteter Anlage leer und ausgeschaltete Ausgaenge zeigten stumm die erste Szene der Liste. Zusaetzlich wurde der Wert der Kopfzeilenauswahl nur bei geaendertem Szenenkatalog nachgezogen. Beide Felder folgen jetzt bei jedem Takt dem zuletzt wirksam gewordenen Befehl - gleich ob er aus der WebUI, von KNX oder von einem Taster kam. Gerade bediente Felder bleiben unangetastet."
+                  },
+                  {
                       "version":  "0.1.77",
                       "bin":  "knx-led-controller-16m-w_0.1.77.bin",
                       "sha256":  "7fd24b0aac082fe793e29d50321adb59127aafe981fa43aeed0d2059f974ca34",
@@ -27,13 +34,6 @@
                       "sha256":  "392c094de3d36ef20a1639d2a7e671829c628b89092f9688edca211e7a7c02e8",
                       "date":  "2026-09-06",
                       "note":  "Segmentleuchten phasenweit korrigiert: Die Hauptphase liefert nun das gemeinsame Zielmuster; Aufbau und Abschalten animieren nur dessen leuchtende Bereiche. Lauflicht, Welle und Spezialrenderer lassen dunkle Segmentluecken unveraendert, auch bei Strangsegmenten und unterbrochenem Ausschalten. Auf /flows liegt der Szenenexport/-import jetzt vollstaendig unter Werkzeuge. Browservorschau und Regressionstests nachgezogen. Schema 78 und KNX-Schnittstellenschema 11 unveraendert."
-                  },
-                  {
-                      "version":  "0.1.69",
-                      "bin":  "knx-led-controller-16m-w_0.1.69.bin",
-                      "sha256":  "3a420fe2d2e1c5596e5d0e29675f2a9da67ceb8dbd10b360f1bfdfbc0d324042",
-                      "date":  "2026-09-02",
-                      "note":  "Setup-Backup-Replacement-Commit korrigiert: Core und Szenenbank werden ueber Operation-ID und Zielgenerationen atomar gebunden, ohne den normalen Autoritaetsschutz abzuschwaechen. Szenenbank-Schreiben und -Verifikation laufen kooperativ pro Szene; der bounded Import parst Szenen direkt statt den gesamten Core je Szene erneut. Persistente Importbestaetigung bleibt vor dem kontrollierten Neustart abgesichert. Schema 78 und KNX-Schnittstellenschema 11 unveraendert."
                   }
               ]
 }
