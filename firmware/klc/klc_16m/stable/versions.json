@@ -1,6 +1,13 @@
 {
     "items":  [
                   {
+                      "version":  "0.1.75",
+                      "bin":  "knx-led-controller-16m_0.1.75.bin",
+                      "sha256":  "153b3cbf7a2d0746a50d0febb729afcc2e0a5ce83ce8485eea0377edcaae89df",
+                      "date":  "2026-09-06",
+                      "note":  "Raeumliche Szenen-Endeffekte mit Soft-Off korrigiert: Ein vom Endrenderer bereits auf RGBW=0 geloeschter Pixel bleibt trotz eingefrorenem Pixel-Snapshot sofort aus; die Soft-Off-Rampe dimmt nur noch die weiterhin aktiven Pixel. Start-/Soft-On-, normale Soft-Off- und Crossfade-Interpolation bleiben unveraendert. Regression fuer unterschiedliche End-/Soft-Off-Dauern ergaenzt. Schema 78 und KNX-Schnittstellenschema 11 unveraendert."
+                  },
+                  {
                       "version":  "0.1.73",
                       "bin":  "knx-led-controller-16m_0.1.73.bin",
                       "sha256":  "0a17b19adb503c08c7290adb104428a82835ee37781da08a56787ee7e5328faa",
@@ -27,13 +34,6 @@
                       "sha256":  "84938a9b796726b94662c6b4ebcd8b475cc8e81ffd3dbf6a764f94c47bdadade",
                       "date":  "2026-09-02",
                       "note":  "WLAN startet nach mindestens 120 s und drei vollstaendig fehlgeschlagenen STA-Versuchen den vorhandenen Recovery-/Service-AP, ohne gespeicherte Zugangsdaten zu loeschen. Setup-Backupimporte werden nach dem Upload phasenweise im Hauptloop verarbeitet und persistent bestaetigt. Die Stable-Pruefung und -Installation im Wizard nutzt einen unveraenderlichen Manifest-Snapshot und bleibt damit vom nachfolgenden Versionslistenjob sowie vom Beta-Kanalzustand unabhaengig. Schema 78 und KNX-Schnittstellenschema 11 unveraendert."
-                  },
-                  {
-                      "version":  "0.1.66",
-                      "bin":  "knx-led-controller-16m_0.1.66.bin",
-                      "sha256":  "f25c238790b5d4f2c8151d95f5c97cfd470e9b6a7217cdb93124fbb3229886d1",
-                      "date":  "2026-09-02",
-                      "note":  "Der Szeneneditor blendet den Weisskanal-Regler und das W-Feld aus, wenn kein aktiver RGBW-Ausgang vorhanden ist. Der seitenweite Hinweis auf ungespeicherte Aenderungen bietet jetzt direkt Aenderungen verwerfen und laedt damit den zuletzt gespeicherten Stand neu. Schema 78 und KNX-Schnittstellenschema 11 unveraendert."
                   }
               ]
 }

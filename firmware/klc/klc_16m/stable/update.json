@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m_0.1.73.bin",
+                     "url":  "knx-led-controller-16m_0.1.75.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.1.73",
-                     "bin":  "knx-led-controller-16m_0.1.73.bin",
-                     "file":  "knx-led-controller-16m_0.1.73.bin",
-                     "sha256":  "0a17b19adb503c08c7290adb104428a82835ee37781da08a56787ee7e5328faa",
-                     "message":  "KNX-Szenenpersistenz und Bedienreihenfolge gehaertet: Aufgeschobene Befehle werden an ihre konkrete Speicheroperation gebunden, terminale Fehler begrenzt behandelt und neuere Bedienauftraege koennen alte Vormerkungen nicht mehr ueberholen. Ausgangsreiter werden nach Refresh idempotent gebunden. Aktive Leistungsgrenzen bleiben auch bei auf 0 mA gerundetem Sicherheitsbudget wirksam; 0 mA als individuelles Ausgangslimit bleibt deaktiviert. OTA-Vertraege und Regressionstests aktualisiert. Schema 78 und KNX-Schnittstellenschema 11 unveraendert.",
+                     "version":  "0.1.75",
+                     "bin":  "knx-led-controller-16m_0.1.75.bin",
+                     "file":  "knx-led-controller-16m_0.1.75.bin",
+                     "sha256":  "153b3cbf7a2d0746a50d0febb729afcc2e0a5ce83ce8485eea0377edcaae89df",
+                     "message":  "Raeumliche Szenen-Endeffekte mit Soft-Off korrigiert: Ein vom Endrenderer bereits auf RGBW=0 geloeschter Pixel bleibt trotz eingefrorenem Pixel-Snapshot sofort aus; die Soft-Off-Rampe dimmt nur noch die weiterhin aktiven Pixel. Start-/Soft-On-, normale Soft-Off- und Crossfade-Interpolation bleiben unveraendert. Regression fuer unterschiedliche End-/Soft-Off-Dauern ergaenzt. Schema 78 und KNX-Schnittstellenschema 11 unveraendert.",
                      "http_code":  200
                  }
 }
