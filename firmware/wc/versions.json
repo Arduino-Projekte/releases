@@ -3,7 +3,7 @@
                   {
                       "version":  "V4.26.9.6.2",
                       "bin":  "word-clock-IV_V4.26.9.6.2.bin",
-                      "sha256":  "05ec37516db9439a54d62d686222223e27e7da53c56a1cc2ce675e60218165fa",
+                      "sha256":  "694fc6255974ab86703e8ee01b96296f7edf9f97ff35c6f3c1aec46399c391ac",
                       "date":  "2026-09-06",
                       "note":  "Feinschliff nach dem Redesign: Dateiverwaltung wieder erreichbar und als Unterreiter im Bilder-Bereich gefuehrt, Schein-Schalter der Frontblende entfernt, Ballonhilfe lesbar gemacht, altes Stylesheet entflochten, drittes Theme ueber den Kopfknopf erreichbar, letzter nativer Bestaetigungsdialog ersetzt, toter UI-Code entfernt und Host-Linkausgabe maskiert"
                   },
