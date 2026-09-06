@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m_0.1.75.bin",
+                     "url":  "knx-led-controller-16m_0.1.77.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.1.75",
-                     "bin":  "knx-led-controller-16m_0.1.75.bin",
-                     "file":  "knx-led-controller-16m_0.1.75.bin",
-                     "sha256":  "153b3cbf7a2d0746a50d0febb729afcc2e0a5ce83ce8485eea0377edcaae89df",
-                     "message":  "Raeumliche Szenen-Endeffekte mit Soft-Off korrigiert: Ein vom Endrenderer bereits auf RGBW=0 geloeschter Pixel bleibt trotz eingefrorenem Pixel-Snapshot sofort aus; die Soft-Off-Rampe dimmt nur noch die weiterhin aktiven Pixel. Start-/Soft-On-, normale Soft-Off- und Crossfade-Interpolation bleiben unveraendert. Regression fuer unterschiedliche End-/Soft-Off-Dauern ergaenzt. Schema 78 und KNX-Schnittstellenschema 11 unveraendert.",
+                     "version":  "0.1.77",
+                     "bin":  "knx-led-controller-16m_0.1.77.bin",
+                     "file":  "knx-led-controller-16m_0.1.77.bin",
+                     "sha256":  "4bc0179cc37632b278b38afcb22c019c08e366f5c51960f3cafabde60dec5b28",
+                     "message":  "Behoben: Eine pixel-lokale Einblendung (soft_on) raeumlicher Startanimationen fror bei statischer Hauptphase am Ende des Start-Effekts ein. Der Renderer bleibt jetzt wach, bis die spaeteste lokale Rampe - auch bei String-Segmenten und verketteten Ausgaengen - ihren Zielwert erreicht hat, und schlaeft danach wieder ein. Wellen ohne Nachleuchten starten ihre lokale Rampe nicht mehr vor dem ersten sichtbaren Frame: massgeblich ist die Einlaufbreite der Welle, in Firmware und Browservorschau identisch. Start-Effekt-Dauer, soft_on und transition_duration_ms bleiben getrennt.",
                      "http_code":  200
                  }
 }

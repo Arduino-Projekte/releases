@@ -1,6 +1,13 @@
 {
     "items":  [
                   {
+                      "version":  "0.1.77",
+                      "bin":  "knx-led-controller-16m-w_0.1.77.bin",
+                      "sha256":  "7fd24b0aac082fe793e29d50321adb59127aafe981fa43aeed0d2059f974ca34",
+                      "date":  "2026-09-06",
+                      "note":  "Behoben: Eine pixel-lokale Einblendung (soft_on) raeumlicher Startanimationen fror bei statischer Hauptphase am Ende des Start-Effekts ein. Der Renderer bleibt jetzt wach, bis die spaeteste lokale Rampe - auch bei String-Segmenten und verketteten Ausgaengen - ihren Zielwert erreicht hat, und schlaeft danach wieder ein. Wellen ohne Nachleuchten starten ihre lokale Rampe nicht mehr vor dem ersten sichtbaren Frame: massgeblich ist die Einlaufbreite der Welle, in Firmware und Browservorschau identisch. Start-Effekt-Dauer, soft_on und transition_duration_ms bleiben getrennt."
+                  },
+                  {
                       "version":  "0.1.75",
                       "bin":  "knx-led-controller-16m-w_0.1.75.bin",
                       "sha256":  "b8a4bfb9be9810338c33ffc4639ca3321e44650da7ee7b879c9c92b44b1e9ccf",
@@ -27,13 +34,6 @@
                       "sha256":  "3a420fe2d2e1c5596e5d0e29675f2a9da67ceb8dbd10b360f1bfdfbc0d324042",
                       "date":  "2026-09-02",
                       "note":  "Setup-Backup-Replacement-Commit korrigiert: Core und Szenenbank werden ueber Operation-ID und Zielgenerationen atomar gebunden, ohne den normalen Autoritaetsschutz abzuschwaechen. Szenenbank-Schreiben und -Verifikation laufen kooperativ pro Szene; der bounded Import parst Szenen direkt statt den gesamten Core je Szene erneut. Persistente Importbestaetigung bleibt vor dem kontrollierten Neustart abgesichert. Schema 78 und KNX-Schnittstellenschema 11 unveraendert."
-                  },
-                  {
-                      "version":  "0.1.67",
-                      "bin":  "knx-led-controller-16m-w_0.1.67.bin",
-                      "sha256":  "bb267f2c488c0d6b779f7835d5957672af30e9af8f6ce249f0f1f93958c0625d",
-                      "date":  "2026-09-02",
-                      "note":  "WLAN startet nach mindestens 120 s und drei vollstaendig fehlgeschlagenen STA-Versuchen den vorhandenen Recovery-/Service-AP, ohne gespeicherte Zugangsdaten zu loeschen. Setup-Backupimporte werden nach dem Upload phasenweise im Hauptloop verarbeitet und persistent bestaetigt. Die Stable-Pruefung und -Installation im Wizard nutzt einen unveraenderlichen Manifest-Snapshot und bleibt damit vom nachfolgenden Versionslistenjob sowie vom Beta-Kanalzustand unabhaengig. Schema 78 und KNX-Schnittstellenschema 11 unveraendert."
                   }
               ]
 }
