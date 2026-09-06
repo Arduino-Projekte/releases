@@ -1,11 +1,11 @@
 {
-    "url":  "knx-led-controller-16m-w_0.1.77.bin",
+    "url":  "knx-led-controller-16m-w_0.1.78.bin",
     "check_ok":  true,
     "update_available":  false,
-    "version":  "0.1.77",
-    "bin":  "knx-led-controller-16m-w_0.1.77.bin",
-    "file":  "knx-led-controller-16m-w_0.1.77.bin",
-    "sha256":  "7fd24b0aac082fe793e29d50321adb59127aafe981fa43aeed0d2059f974ca34",
-    "message":  "Behoben: Eine pixel-lokale Einblendung (soft_on) raeumlicher Startanimationen fror bei statischer Hauptphase am Ende des Start-Effekts ein. Der Renderer bleibt jetzt wach, bis die spaeteste lokale Rampe - auch bei String-Segmenten und verketteten Ausgaengen - ihren Zielwert erreicht hat, und schlaeft danach wieder ein. Wellen ohne Nachleuchten starten ihre lokale Rampe nicht mehr vor dem ersten sichtbaren Frame: massgeblich ist die Einlaufbreite der Welle, in Firmware und Browservorschau identisch. Start-Effekt-Dauer, soft_on und transition_duration_ms bleiben getrennt.",
+    "version":  "0.1.78",
+    "bin":  "knx-led-controller-16m-w_0.1.78.bin",
+    "file":  "knx-led-controller-16m-w_0.1.78.bin",
+    "sha256":  "4ec7b06ddf3621e516ea35e870dfb28bcd72e097ea7af594d5c9cf57dd4ddbd3",
+    "message":  "Behoben: Die Auswahlfelder der Startseite zeigten nicht den laufenden Zustand. Szene 0 (Aus) fehlte als Option, deshalb blieb die Kopfzeilenauswahl bei ausgeschalteter Anlage leer und ausgeschaltete Ausgaenge zeigten stumm die erste Szene der Liste. Zusaetzlich wurde der Wert der Kopfzeilenauswahl nur bei geaendertem Szenenkatalog nachgezogen. Beide Felder folgen jetzt bei jedem Takt dem zuletzt wirksam gewordenen Befehl - gleich ob er aus der WebUI, von KNX oder von einem Taster kam. Gerade bediente Felder bleiben unangetastet.",
     "http_code":  200
 }
