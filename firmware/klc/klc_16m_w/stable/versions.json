@@ -1,6 +1,13 @@
 {
     "items":  [
                   {
+                      "version":  "0.1.72",
+                      "bin":  "knx-led-controller-16m-w_0.1.72.bin",
+                      "sha256":  "392c094de3d36ef20a1639d2a7e671829c628b89092f9688edca211e7a7c02e8",
+                      "date":  "2026-09-06",
+                      "note":  "Segmentleuchten phasenweit korrigiert: Die Hauptphase liefert nun das gemeinsame Zielmuster; Aufbau und Abschalten animieren nur dessen leuchtende Bereiche. Lauflicht, Welle und Spezialrenderer lassen dunkle Segmentluecken unveraendert, auch bei Strangsegmenten und unterbrochenem Ausschalten. Auf /flows liegt der Szenenexport/-import jetzt vollstaendig unter Werkzeuge. Browservorschau und Regressionstests nachgezogen. Schema 78 und KNX-Schnittstellenschema 11 unveraendert."
+                  },
+                  {
                       "version":  "0.1.69",
                       "bin":  "knx-led-controller-16m-w_0.1.69.bin",
                       "sha256":  "3a420fe2d2e1c5596e5d0e29675f2a9da67ceb8dbd10b360f1bfdfbc0d324042",
@@ -27,13 +34,6 @@
                       "sha256":  "701dbddd2c73da506bb312611f059968e3172003f2d5733c56cba6030f962df2",
                       "date":  "2026-09-02",
                       "note":  "Der Release-Publisher erzeugt update.json jetzt im flachen OTA-Vertragsformat mit version, bin, file und sha256 auf oberster Ebene. Dadurch erkennt der Einrichtungsassistent normale Stable-Releases wieder eindeutig; alte Wrapper-Manifeste bleiben firmwareseitig lesbar. Schema 78 und KNX-Schnittstellenschema 11 unveraendert."
-                  },
-                  {
-                      "version":  "0.1.64",
-                      "bin":  "knx-led-controller-16m-w_0.1.64.bin",
-                      "sha256":  "3c2d7a3a18c69793ec17ec51b2770bf267ba120c38afee68b0198311d149ac92",
-                      "date":  "2026-09-02",
-                      "note":  "Die erste Einrichtungsseite auf Boards ohne WLAN zeigt nur noch einen eindeutigen Einstieg in den Setup-Assistenten. Der redundante Next-Link mit demselben Ziel wurde entfernt; Skip wizard bleibt unveraendert verfuegbar. Schema 78 und KNX-Schnittstellenschema 11 unveraendert."
                   }
               ]
 }
