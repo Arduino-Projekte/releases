@@ -1,6 +1,13 @@
 {
     "items":  [
                   {
+                      "version":  "0.1.80",
+                      "bin":  "knx-led-controller-16m_0.1.80.bin",
+                      "sha256":  "8f2148efab41a0d20a319836c0b3069f987312e06f84dfc1464152398aeb45bf",
+                      "date":  "2026-09-07",
+                      "note":  "Geaendert: Die Leistungskachel der Startseite steht jetzt in jedem Betriebszustand. Bisher erschien sie nur bei aktiver Begrenzung, sodass die obere Reihe je nach Last mal drei und mal zwei Kacheln zeigte. Ohne Begrenzung nennt sie Strom, Grenze und Auslastung und darunter Keine Begrenzung aktiv. Die drei Statuskacheln Jetzt aktiv, Leistung und Gesundheit stehen ausserdem auf gemeinsamer Hoehe."
+                  },
+                  {
                       "version":  "0.1.79",
                       "bin":  "knx-led-controller-16m_0.1.79.bin",
                       "sha256":  "c070929d0887c97877199ac43ff2beb0ee304fbc66077e91348d4ab48b7c4ad0",
@@ -27,13 +34,6 @@
                       "sha256":  "153b3cbf7a2d0746a50d0febb729afcc2e0a5ce83ce8485eea0377edcaae89df",
                       "date":  "2026-09-06",
                       "note":  "Raeumliche Szenen-Endeffekte mit Soft-Off korrigiert: Ein vom Endrenderer bereits auf RGBW=0 geloeschter Pixel bleibt trotz eingefrorenem Pixel-Snapshot sofort aus; die Soft-Off-Rampe dimmt nur noch die weiterhin aktiven Pixel. Start-/Soft-On-, normale Soft-Off- und Crossfade-Interpolation bleiben unveraendert. Regression fuer unterschiedliche End-/Soft-Off-Dauern ergaenzt. Schema 78 und KNX-Schnittstellenschema 11 unveraendert."
-                  },
-                  {
-                      "version":  "0.1.73",
-                      "bin":  "knx-led-controller-16m_0.1.73.bin",
-                      "sha256":  "0a17b19adb503c08c7290adb104428a82835ee37781da08a56787ee7e5328faa",
-                      "date":  "2026-09-06",
-                      "note":  "KNX-Szenenpersistenz und Bedienreihenfolge gehaertet: Aufgeschobene Befehle werden an ihre konkrete Speicheroperation gebunden, terminale Fehler begrenzt behandelt und neuere Bedienauftraege koennen alte Vormerkungen nicht mehr ueberholen. Ausgangsreiter werden nach Refresh idempotent gebunden. Aktive Leistungsgrenzen bleiben auch bei auf 0 mA gerundetem Sicherheitsbudget wirksam; 0 mA als individuelles Ausgangslimit bleibt deaktiviert. OTA-Vertraege und Regressionstests aktualisiert. Schema 78 und KNX-Schnittstellenschema 11 unveraendert."
                   }
               ]
 }
