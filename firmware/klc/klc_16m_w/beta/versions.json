@@ -1,6 +1,13 @@
 {
     "items":  [
                   {
+                      "version":  "0.1.81",
+                      "bin":  "knx-led-controller-16m-w_0.1.81.bin",
+                      "sha256":  "f58989c97cf4a2476c53510f89b7cdbbd13c0c357e2888a7e3a4ad4e81fd924d",
+                      "date":  "2026-09-07",
+                      "note":  "Geaendert: Leistung und Gesundheit auf der Startseite aktualisieren sich jetzt laufend. Beide Kacheln wurden bisher nur beim Seitenaufbau gerendert, sodass Stromwert, Begrenzung, KNX-Bereitschaft, Netzwerkadresse und Laufzeit bis zum naechsten Neuladen stillstanden. Sie fahren nun in derselben Antwort mit, die die Seite ohnehin holt - kein zweiter Abruf, und die Texte kommen fertig formatiert vom Geraet, damit Seitenaufbau und Takt nicht auseinanderdriften. Geschrieben wird nur, was sich wirklich geaendert hat."
+                  },
+                  {
                       "version":  "0.1.80",
                       "bin":  "knx-led-controller-16m-w_0.1.80.bin",
                       "sha256":  "0b87d8c6fbd5736916f3e1be63150733597d59ab17e9f7f31dbb216524a95ef1",
@@ -27,13 +34,6 @@
                       "sha256":  "7fd24b0aac082fe793e29d50321adb59127aafe981fa43aeed0d2059f974ca34",
                       "date":  "2026-09-06",
                       "note":  "Behoben: Eine pixel-lokale Einblendung (soft_on) raeumlicher Startanimationen fror bei statischer Hauptphase am Ende des Start-Effekts ein. Der Renderer bleibt jetzt wach, bis die spaeteste lokale Rampe - auch bei String-Segmenten und verketteten Ausgaengen - ihren Zielwert erreicht hat, und schlaeft danach wieder ein. Wellen ohne Nachleuchten starten ihre lokale Rampe nicht mehr vor dem ersten sichtbaren Frame: massgeblich ist die Einlaufbreite der Welle, in Firmware und Browservorschau identisch. Start-Effekt-Dauer, soft_on und transition_duration_ms bleiben getrennt."
-                  },
-                  {
-                      "version":  "0.1.75",
-                      "bin":  "knx-led-controller-16m-w_0.1.75.bin",
-                      "sha256":  "b8a4bfb9be9810338c33ffc4639ca3321e44650da7ee7b879c9c92b44b1e9ccf",
-                      "date":  "2026-09-06",
-                      "note":  "Raeumliche Szenen-Endeffekte mit Soft-Off korrigiert: Ein vom Endrenderer bereits auf RGBW=0 geloeschter Pixel bleibt trotz eingefrorenem Pixel-Snapshot sofort aus; die Soft-Off-Rampe dimmt nur noch die weiterhin aktiven Pixel. Start-/Soft-On-, normale Soft-Off- und Crossfade-Interpolation bleiben unveraendert. Regression fuer unterschiedliche End-/Soft-Off-Dauern ergaenzt. Schema 78 und KNX-Schnittstellenschema 11 unveraendert."
                   }
               ]
 }
