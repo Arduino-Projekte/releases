@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m-w_0.1.79.bin",
+                     "url":  "knx-led-controller-16m-w_0.1.80.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.1.79",
-                     "bin":  "knx-led-controller-16m-w_0.1.79.bin",
-                     "file":  "knx-led-controller-16m-w_0.1.79.bin",
-                     "sha256":  "34e510647d3306155ad3d47045438f8f5e1736d610ce17f81618e735d31a051f",
-                     "message":  "Geaendert: Die Startseite ordnet Jetzt aktiv, Leistung und Gesundheit als drei flache Kacheln nebeneinander an; die Ausgangsliste steht darunter ueber die volle Breite. In der frueheren Seitenspalte blieben ihr rund 250 Pixel fuer drei Textspalten, sodass Ausgangsname, Szene und Phase umbrachen. Szene und Phase teilen sich jetzt eine Zelle und schneiden ab statt umzubrechen; der vollstaendige Text steht im Tooltip. Der Knopf Alles aus entfaellt - Szene 0 Aus im Auswahlfeld nimmt denselben Weg. Behoben: Der Bereitschaftstext neben der Szene wurde nach 63 Byte mitten im Wort abgeschnitten.",
+                     "version":  "0.1.80",
+                     "bin":  "knx-led-controller-16m-w_0.1.80.bin",
+                     "file":  "knx-led-controller-16m-w_0.1.80.bin",
+                     "sha256":  "0b87d8c6fbd5736916f3e1be63150733597d59ab17e9f7f31dbb216524a95ef1",
+                     "message":  "Geaendert: Die Leistungskachel der Startseite steht jetzt in jedem Betriebszustand. Bisher erschien sie nur bei aktiver Begrenzung, sodass die obere Reihe je nach Last mal drei und mal zwei Kacheln zeigte. Ohne Begrenzung nennt sie Strom, Grenze und Auslastung und darunter Keine Begrenzung aktiv. Die drei Statuskacheln Jetzt aktiv, Leistung und Gesundheit stehen ausserdem auf gemeinsamer Hoehe.",
                      "http_code":  200
                  }
 }
