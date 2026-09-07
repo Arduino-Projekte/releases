@@ -1,6 +1,13 @@
 {
     "items":  [
                   {
+                      "version":  "0.1.79",
+                      "bin":  "knx-led-controller-16m_0.1.79.bin",
+                      "sha256":  "c070929d0887c97877199ac43ff2beb0ee304fbc66077e91348d4ab48b7c4ad0",
+                      "date":  "2026-09-07",
+                      "note":  "Geaendert: Die Startseite ordnet Jetzt aktiv, Leistung und Gesundheit als drei flache Kacheln nebeneinander an; die Ausgangsliste steht darunter ueber die volle Breite. In der frueheren Seitenspalte blieben ihr rund 250 Pixel fuer drei Textspalten, sodass Ausgangsname, Szene und Phase umbrachen. Szene und Phase teilen sich jetzt eine Zelle und schneiden ab statt umzubrechen; der vollstaendige Text steht im Tooltip. Der Knopf Alles aus entfaellt - Szene 0 Aus im Auswahlfeld nimmt denselben Weg. Behoben: Der Bereitschaftstext neben der Szene wurde nach 63 Byte mitten im Wort abgeschnitten."
+                  },
+                  {
                       "version":  "0.1.78",
                       "bin":  "knx-led-controller-16m_0.1.78.bin",
                       "sha256":  "60b8f2186c6c9fd257b225ac5f356ea92c49137755bdd254b79fb851a506189e",
@@ -27,13 +34,6 @@
                       "sha256":  "0a17b19adb503c08c7290adb104428a82835ee37781da08a56787ee7e5328faa",
                       "date":  "2026-09-06",
                       "note":  "KNX-Szenenpersistenz und Bedienreihenfolge gehaertet: Aufgeschobene Befehle werden an ihre konkrete Speicheroperation gebunden, terminale Fehler begrenzt behandelt und neuere Bedienauftraege koennen alte Vormerkungen nicht mehr ueberholen. Ausgangsreiter werden nach Refresh idempotent gebunden. Aktive Leistungsgrenzen bleiben auch bei auf 0 mA gerundetem Sicherheitsbudget wirksam; 0 mA als individuelles Ausgangslimit bleibt deaktiviert. OTA-Vertraege und Regressionstests aktualisiert. Schema 78 und KNX-Schnittstellenschema 11 unveraendert."
-                  },
-                  {
-                      "version":  "0.1.72",
-                      "bin":  "knx-led-controller-16m_0.1.72.bin",
-                      "sha256":  "7a79079fd40abaa4dbc596f3c327a13750d241d57917665785c987d1090858c3",
-                      "date":  "2026-09-06",
-                      "note":  "Segmentleuchten phasenweit korrigiert: Die Hauptphase liefert nun das gemeinsame Zielmuster; Aufbau und Abschalten animieren nur dessen leuchtende Bereiche. Lauflicht, Welle und Spezialrenderer lassen dunkle Segmentluecken unveraendert, auch bei Strangsegmenten und unterbrochenem Ausschalten. Auf /flows liegt der Szenenexport/-import jetzt vollstaendig unter Werkzeuge. Browservorschau und Regressionstests nachgezogen. Schema 78 und KNX-Schnittstellenschema 11 unveraendert."
                   }
               ]
 }
