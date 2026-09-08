@@ -1,11 +1,11 @@
 {
-    "url":  "knx-led-controller-16m_0.1.82.bin",
+    "url":  "knx-led-controller-16m_0.1.83.bin",
     "check_ok":  true,
     "update_available":  false,
-    "version":  "0.1.82",
-    "bin":  "knx-led-controller-16m_0.1.82.bin",
-    "file":  "knx-led-controller-16m_0.1.82.bin",
-    "sha256":  "96818ed8c95d6bef58e1b43e2afd9d174856673e946327b10de83e56e39804ed",
-    "message":  "Setup-Wizard: kompakte WLAN-Statusantwort und Wiederaufnahme des laufenden Verbindungsvorgangs ueber Hostname oder Router-IP bei Verbindungsabbruch. Einrichtungsseiten verwenden die aktuellen gemeinsamen Hell-/Dunkel-Designtokens. IP-Vergabe allein gilt weiterhin nicht als bestaetigte Speicherung.",
+    "version":  "0.1.83",
+    "bin":  "knx-led-controller-16m_0.1.83.bin",
+    "file":  "knx-led-controller-16m_0.1.83.bin",
+    "sha256":  "22589bc8129ad6fba1d0049a39808a6e7ab235e2ba69c5aee17a1f37b71925c9",
+    "message":  "HTTPS-Heappruefung korrigiert: newlib keepcost wird nicht mehr als groesster verfuegbarer Speicherblock interpretiert. Gesamtbudget und fehlertolerante reale Reservierungen bleiben geprueft. OTA-Fehlermeldungen nutzen den verfuegbaren Textpuffer statt einer festen 72-Zeichen-Grenze.",
     "http_code":  200
 }
