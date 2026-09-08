@@ -5,7 +5,7 @@
     "version":  "0.1.84",
     "bin":  "knx-led-controller-16m_0.1.84.bin",
     "file":  "knx-led-controller-16m_0.1.84.bin",
-    "sha256":  "8d9ca8247d85dea4539825e9353431e960301fb037f98eb4f91e9c895c9ed21b",
+    "sha256":  "b301e4bd8371ca4c459b6fd24b75ef4cd11128585abe675dcf5934550730d394",
     "message":  "Setup-WLAN: Netzwerkwechsel vor dem Start bestaetigen. Nach stabiler STA-Verbindung speichert der Controller selbststaendig ohne Browser-ACK oder Statuspolls. AP-Abschaltung weiterhin erst nach verifiziertem Commit; bestehende Fehler- und Recoverypfade bleiben aktiv. Bei Browser-Verbindungsverlust Fortsetzung im Heimnetz statt falscher Speicherfehlermeldung.",
     "http_code":  200
 }
