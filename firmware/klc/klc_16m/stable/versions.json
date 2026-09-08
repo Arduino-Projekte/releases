@@ -1,6 +1,13 @@
 {
     "items":  [
                   {
+                      "version":  "0.1.84",
+                      "bin":  "knx-led-controller-16m_0.1.84.bin",
+                      "sha256":  "8d9ca8247d85dea4539825e9353431e960301fb037f98eb4f91e9c895c9ed21b",
+                      "date":  "2026-09-08",
+                      "note":  "Setup-WLAN: Netzwerkwechsel vor dem Start bestaetigen. Nach stabiler STA-Verbindung speichert der Controller selbststaendig ohne Browser-ACK oder Statuspolls. AP-Abschaltung weiterhin erst nach verifiziertem Commit; bestehende Fehler- und Recoverypfade bleiben aktiv. Bei Browser-Verbindungsverlust Fortsetzung im Heimnetz statt falscher Speicherfehlermeldung."
+                  },
+                  {
                       "version":  "0.1.83",
                       "bin":  "knx-led-controller-16m_0.1.83.bin",
                       "sha256":  "22589bc8129ad6fba1d0049a39808a6e7ab235e2ba69c5aee17a1f37b71925c9",
@@ -27,13 +34,6 @@
                       "sha256":  "8f2148efab41a0d20a319836c0b3069f987312e06f84dfc1464152398aeb45bf",
                       "date":  "2026-09-07",
                       "note":  "Geaendert: Die Leistungskachel der Startseite steht jetzt in jedem Betriebszustand. Bisher erschien sie nur bei aktiver Begrenzung, sodass die obere Reihe je nach Last mal drei und mal zwei Kacheln zeigte. Ohne Begrenzung nennt sie Strom, Grenze und Auslastung und darunter Keine Begrenzung aktiv. Die drei Statuskacheln Jetzt aktiv, Leistung und Gesundheit stehen ausserdem auf gemeinsamer Hoehe."
-                  },
-                  {
-                      "version":  "0.1.79",
-                      "bin":  "knx-led-controller-16m_0.1.79.bin",
-                      "sha256":  "c070929d0887c97877199ac43ff2beb0ee304fbc66077e91348d4ab48b7c4ad0",
-                      "date":  "2026-09-07",
-                      "note":  "Geaendert: Die Startseite ordnet Jetzt aktiv, Leistung und Gesundheit als drei flache Kacheln nebeneinander an; die Ausgangsliste steht darunter ueber die volle Breite. In der frueheren Seitenspalte blieben ihr rund 250 Pixel fuer drei Textspalten, sodass Ausgangsname, Szene und Phase umbrachen. Szene und Phase teilen sich jetzt eine Zelle und schneiden ab statt umzubrechen; der vollstaendige Text steht im Tooltip. Der Knopf Alles aus entfaellt - Szene 0 Aus im Auswahlfeld nimmt denselben Weg. Behoben: Der Bereitschaftstext neben der Szene wurde nach 63 Byte mitten im Wort abgeschnitten."
                   }
               ]
 }

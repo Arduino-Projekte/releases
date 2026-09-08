@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m_0.1.83.bin",
+                     "url":  "knx-led-controller-16m_0.1.84.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.1.83",
-                     "bin":  "knx-led-controller-16m_0.1.83.bin",
-                     "file":  "knx-led-controller-16m_0.1.83.bin",
-                     "sha256":  "22589bc8129ad6fba1d0049a39808a6e7ab235e2ba69c5aee17a1f37b71925c9",
-                     "message":  "HTTPS-Heappruefung korrigiert: newlib keepcost wird nicht mehr als groesster verfuegbarer Speicherblock interpretiert. Gesamtbudget und fehlertolerante reale Reservierungen bleiben geprueft. OTA-Fehlermeldungen nutzen den verfuegbaren Textpuffer statt einer festen 72-Zeichen-Grenze.",
+                     "version":  "0.1.84",
+                     "bin":  "knx-led-controller-16m_0.1.84.bin",
+                     "file":  "knx-led-controller-16m_0.1.84.bin",
+                     "sha256":  "8d9ca8247d85dea4539825e9353431e960301fb037f98eb4f91e9c895c9ed21b",
+                     "message":  "Setup-WLAN: Netzwerkwechsel vor dem Start bestaetigen. Nach stabiler STA-Verbindung speichert der Controller selbststaendig ohne Browser-ACK oder Statuspolls. AP-Abschaltung weiterhin erst nach verifiziertem Commit; bestehende Fehler- und Recoverypfade bleiben aktiv. Bei Browser-Verbindungsverlust Fortsetzung im Heimnetz statt falscher Speicherfehlermeldung.",
                      "http_code":  200
                  }
 }
