@@ -5,7 +5,7 @@
     "version":  "0.1.83",
     "bin":  "knx-led-controller-16m-w_0.1.83.bin",
     "file":  "knx-led-controller-16m-w_0.1.83.bin",
-    "sha256":  "7f63f6763a424abde5321612684bd773fa19f304ea9edd19831d6b23ad6ade2d",
+    "sha256":  "e9c0788e398c4dc714ff97218b44424f284ecb060e9805ca469ad6c6b3692d49",
     "message":  "HTTPS-Heappruefung korrigiert: newlib keepcost wird nicht mehr als groesster verfuegbarer Speicherblock interpretiert. Gesamtbudget und fehlertolerante reale Reservierungen bleiben geprueft. OTA-Fehlermeldungen nutzen den verfuegbaren Textpuffer statt einer festen 72-Zeichen-Grenze.",
     "http_code":  200
 }
