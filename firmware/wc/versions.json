@@ -1,16 +1,25 @@
 {
     "items":  [
                   {
+                      "version":  "V4.26.9.8.3",
+                      "bin":  "word-clock-IV_V4.26.9.8.3.bin",
+                      "sha256":  "89d4528c09e8af29ac31f4de8260dc51d8442e078e7a981b47b165c46ac2d68c",
+                      "date":  "2026-09-08",
+                      "note":  "Buildziel XIAO ESP32S3 Plus mit 16 MB Flash und OPI-PSRAM wiederhergestellt; bisher unveroeffentlichten Arbeitsstand mit Korrekturen an Speichern/Verwerfen, Firmwareupload, OTA-Pruefung, Schluesselbehandlung, Importgrenzen und farbigen Finanzanzeigen zur Buildpruefung vorbereitet"
+                  },
+                  {
                       "version":  "V4.26.9.8.2",
                       "bin":  "word-clock-IV_V4.26.9.8.2.bin",
                       "date":  "2026-09-08",
-                      "note":  "Buildziel XIAO ESP32S3 Plus mit 16 MB Flash und OPI-PSRAM wiederhergestellt; bisher unveroeffentlichten Arbeitsstand mit Korrekturen an Speichern/Verwerfen, Firmwareupload, OTA-Pruefung, Schluesselbehandlung, Importgrenzen und farbigen Finanzanzeigen zur Buildpruefung vorbereitet"
+                      "note":  "Buildziel XIAO ESP32S3 Plus mit 16 MB Flash und OPI-PSRAM wiederhergestellt; bisher unveroeffentlichten Arbeitsstand mit Korrekturen an Speichern/Verwerfen, Firmwareupload, OTA-Pruefung, Schluesselbehandlung, Importgrenzen und farbigen Finanzanzeigen zur Buildpruefung vorbereitet",
+                      "sha256":  "f0f055de3cf73f309e1c48ea5b7b874960ef89e6777b79a554d9ba2c0708f1bc"
                   },
                   {
                       "version":  "V4.26.9.8.1",
                       "bin":  "word-clock-IV_V4.26.9.8.1.bin",
                       "date":  "2026-09-08",
-                      "note":  "Buildziel XIAO ESP32S3 Plus mit 16 MB Flash und OPI-PSRAM wiederhergestellt; bisher unveroeffentlichten Arbeitsstand mit Korrekturen an Speichern/Verwerfen, Firmwareupload, OTA-Pruefung, Schluesselbehandlung, Importgrenzen und farbigen Finanzanzeigen zur Buildpruefung vorbereitet"
+                      "note":  "Buildziel XIAO ESP32S3 Plus mit 16 MB Flash und OPI-PSRAM wiederhergestellt; bisher unveroeffentlichten Arbeitsstand mit Korrekturen an Speichern/Verwerfen, Firmwareupload, OTA-Pruefung, Schluesselbehandlung, Importgrenzen und farbigen Finanzanzeigen zur Buildpruefung vorbereitet",
+                      "sha256":  "1ad74925b6a189357f2f4e5708ffbf3137e10c4e849464c30c219bc34ebea01f"
                   },
                   {
                       "version":  "V4.26.9.6.2",
