@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m_0.1.81.bin",
+                     "url":  "knx-led-controller-16m_0.1.82.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.1.81",
-                     "bin":  "knx-led-controller-16m_0.1.81.bin",
-                     "file":  "knx-led-controller-16m_0.1.81.bin",
-                     "sha256":  "f1dcd45339352e1330d06fc1bc7e995b52444a54dc4cfc403a393b6ab95cce2f",
-                     "message":  "Geaendert: Leistung und Gesundheit auf der Startseite aktualisieren sich jetzt laufend. Beide Kacheln wurden bisher nur beim Seitenaufbau gerendert, sodass Stromwert, Begrenzung, KNX-Bereitschaft, Netzwerkadresse und Laufzeit bis zum naechsten Neuladen stillstanden. Sie fahren nun in derselben Antwort mit, die die Seite ohnehin holt - kein zweiter Abruf, und die Texte kommen fertig formatiert vom Geraet, damit Seitenaufbau und Takt nicht auseinanderdriften. Geschrieben wird nur, was sich wirklich geaendert hat.",
+                     "version":  "0.1.82",
+                     "bin":  "knx-led-controller-16m_0.1.82.bin",
+                     "file":  "knx-led-controller-16m_0.1.82.bin",
+                     "sha256":  "96818ed8c95d6bef58e1b43e2afd9d174856673e946327b10de83e56e39804ed",
+                     "message":  "Setup-Wizard: kompakte WLAN-Statusantwort und Wiederaufnahme des laufenden Verbindungsvorgangs ueber Hostname oder Router-IP bei Verbindungsabbruch. Einrichtungsseiten verwenden die aktuellen gemeinsamen Hell-/Dunkel-Designtokens. IP-Vergabe allein gilt weiterhin nicht als bestaetigte Speicherung.",
                      "http_code":  200
                  }
 }
