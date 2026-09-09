@@ -1,11 +1,11 @@
 {
-    "url":  "knx-led-controller-16m-w_0.1.85.bin",
+    "url":  "knx-led-controller-16m-w_0.1.86.bin",
     "check_ok":  true,
     "update_available":  false,
-    "version":  "0.1.85",
-    "bin":  "knx-led-controller-16m-w_0.1.85.bin",
-    "file":  "knx-led-controller-16m-w_0.1.85.bin",
-    "sha256":  "f3c168a25bd5e18ccb59cd35816b1b373505ddbbfa509634ed0a05a0f973bcde",
-    "message":  "Szenenwechsel: Aufbau und Abschalten koennen pro Szene mit Immer ausfuehren erzwungen werden. Eine erzwungene Abschaltphase laeuft nichtblockierend vollstaendig zu Ende; danach startet nur das zuletzt gewaehlte Ziel. AUS verwirft ein vorgemerktes Ziel. Alte Szenendaten bleiben kompatibel, globale und ausgangsbezogene Steuerwege verwenden dieselbe Phasenlogik.",
+    "version":  "0.1.86",
+    "bin":  "knx-led-controller-16m-w_0.1.86.bin",
+    "file":  "knx-led-controller-16m-w_0.1.86.bin",
+    "sha256":  "43f243042a1d1594a2606a845ed98de58efe26499b48dee2ce323cad7a27f630",
+    "message":  "Szenenwechsel: Immer-ausfuehren-Logik korrigiert. Bereits laufende Endphasen bleiben auch ohne Pending-Ziel erhalten; 0-ms-Direktwechsel ueberspringen den Aufbau weiterhin. Szenen mit Hauptphase Aus fuehren ihren Aufbau vollstaendig aus. Globale Wechsel warten auf eine gemeinsame Endbarriere und erhalten danach global_delay_ms. Fehlgeschlagene Backend-Transitionen hinterlassen keinen halben Zielwechsel.",
     "http_code":  200
 }
