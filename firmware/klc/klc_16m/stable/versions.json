@@ -1,6 +1,13 @@
 {
     "items":  [
                   {
+                      "version":  "0.1.89",
+                      "bin":  "knx-led-controller-16m_0.1.89.bin",
+                      "sha256":  "27a0080ee0453d3ca0396eb2c672e7a8768ae6fc881cc6b206a448a9a399dd53",
+                      "date":  "2026-09-09",
+                      "note":  "KNX-Hilfe: Objektbezogene Tooltips und Beispiele fuer Szenen-, Helligkeits- und Sperrverhalten. Helligkeit EIN respektiert jetzt knx_brightness_switch_on: ausgeschaltete Ausgaenge bleiben bei deaktivierter Option aus und merken positive Werte bis zum naechsten regulaeren Einschalten vor. KNX-Regressionscheck ergaenzt; generierte Sprachpakete bleiben unveraendert."
+                  },
+                  {
                       "version":  "0.1.88",
                       "bin":  "knx-led-controller-16m_0.1.88.bin",
                       "sha256":  "68394058203ec75d2119baf24c0693b139317f3d9fe51ccfe6d548e119eb0c96",
@@ -27,13 +34,6 @@
                       "sha256":  "d32a1eb43b71a800d4bcadebcff747eebbcab45babc6f5a4792e51f51e8d1f2a",
                       "date":  "2026-09-09",
                       "note":  "Szenenwechsel: Aufbau und Abschalten koennen pro Szene mit Immer ausfuehren erzwungen werden. Eine erzwungene Abschaltphase laeuft nichtblockierend vollstaendig zu Ende; danach startet nur das zuletzt gewaehlte Ziel. AUS verwirft ein vorgemerktes Ziel. Alte Szenendaten bleiben kompatibel, globale und ausgangsbezogene Steuerwege verwenden dieselbe Phasenlogik."
-                  },
-                  {
-                      "version":  "0.1.84",
-                      "bin":  "knx-led-controller-16m_0.1.84.bin",
-                      "sha256":  "8d9ca8247d85dea4539825e9353431e960301fb037f98eb4f91e9c895c9ed21b",
-                      "date":  "2026-09-08",
-                      "note":  "Setup-WLAN: Netzwerkwechsel vor dem Start bestaetigen. Nach stabiler STA-Verbindung speichert der Controller selbststaendig ohne Browser-ACK oder Statuspolls. AP-Abschaltung weiterhin erst nach verifiziertem Commit; bestehende Fehler- und Recoverypfade bleiben aktiv. Bei Browser-Verbindungsverlust Fortsetzung im Heimnetz statt falscher Speicherfehlermeldung."
                   }
               ]
 }

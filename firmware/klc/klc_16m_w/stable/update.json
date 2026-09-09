@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m-w_0.1.88.bin",
+                     "url":  "knx-led-controller-16m-w_0.1.89.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.1.88",
-                     "bin":  "knx-led-controller-16m-w_0.1.88.bin",
-                     "file":  "knx-led-controller-16m-w_0.1.88.bin",
-                     "sha256":  "5f4598274d8b453b9966811f4f562a96187814483b31bfde4f08ad2e4e44a092",
-                     "message":  "Bootfix: Szenenwechsel-Hosttest aus dem Arduino-Sketch nach tests verschoben. Seine main-Funktion hatte den Arduino-Einstieg ersetzt und setup/loop aus beiden Firmwareprofilen entfernt. Arduino-Sperre im Hosttest verhindert erneutes versehentliches Einbinden.",
+                     "version":  "0.1.89",
+                     "bin":  "knx-led-controller-16m-w_0.1.89.bin",
+                     "file":  "knx-led-controller-16m-w_0.1.89.bin",
+                     "sha256":  "2dbe69d68cd934dbc4fc13ce14728d65c767d299cb9d52def4a28e31a301d82c",
+                     "message":  "KNX-Hilfe: Objektbezogene Tooltips und Beispiele fuer Szenen-, Helligkeits- und Sperrverhalten. Helligkeit EIN respektiert jetzt knx_brightness_switch_on: ausgeschaltete Ausgaenge bleiben bei deaktivierter Option aus und merken positive Werte bis zum naechsten regulaeren Einschalten vor. KNX-Regressionscheck ergaenzt; generierte Sprachpakete bleiben unveraendert.",
                      "http_code":  200
                  }
 }
