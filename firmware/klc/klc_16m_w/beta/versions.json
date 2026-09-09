@@ -1,6 +1,13 @@
 {
     "items":  [
                   {
+                      "version":  "0.1.87",
+                      "bin":  "knx-led-controller-16m-w_0.1.87.bin",
+                      "sha256":  "886c1093455facc39734b9761fd08c32978415847f557a61d8dde28b09f051bf",
+                      "date":  "2026-09-09",
+                      "note":  "Szenenwechsel: Global verzoegerte Ziele bleiben bis zum tatsaechlichen Start als Scheduled-Ziel vorgemerkt. Die sichtbare Quellszene bleibt fuer schnelle Retargets erhalten; nie gestartete Ziele loesen kein Abschalten aus. Lokale/globale Zielwechsel und AUS ersetzen oder verwerfen Scheduled-Ziele sauber; global_delay_ms beginnt bei jedem globalen Befehl auf dessen eigener Zeitbasis."
+                  },
+                  {
                       "version":  "0.1.86",
                       "bin":  "knx-led-controller-16m-w_0.1.86.bin",
                       "sha256":  "43f243042a1d1594a2606a845ed98de58efe26499b48dee2ce323cad7a27f630",
@@ -27,13 +34,6 @@
                       "sha256":  "e9c0788e398c4dc714ff97218b44424f284ecb060e9805ca469ad6c6b3692d49",
                       "date":  "2026-09-08",
                       "note":  "HTTPS-Heappruefung korrigiert: newlib keepcost wird nicht mehr als groesster verfuegbarer Speicherblock interpretiert. Gesamtbudget und fehlertolerante reale Reservierungen bleiben geprueft. OTA-Fehlermeldungen nutzen den verfuegbaren Textpuffer statt einer festen 72-Zeichen-Grenze."
-                  },
-                  {
-                      "version":  "0.1.82",
-                      "bin":  "knx-led-controller-16m-w_0.1.82.bin",
-                      "sha256":  "9238486559931ff72b6330079b60531439653e0adb10be9078f3c7f611a684ee",
-                      "date":  "2026-09-08",
-                      "note":  "Setup-Wizard: kompakte WLAN-Statusantwort und Wiederaufnahme des laufenden Verbindungsvorgangs ueber Hostname oder Router-IP bei Verbindungsabbruch. Einrichtungsseiten verwenden die aktuellen gemeinsamen Hell-/Dunkel-Designtokens. IP-Vergabe allein gilt weiterhin nicht als bestaetigte Speicherung."
                   }
               ]
 }
