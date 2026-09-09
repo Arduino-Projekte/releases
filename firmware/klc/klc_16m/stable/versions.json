@@ -1,6 +1,13 @@
 {
     "items":  [
                   {
+                      "version":  "0.1.93",
+                      "bin":  "knx-led-controller-16m_0.1.93.bin",
+                      "sha256":  "f8d18c0172a9ad51da8e3c05418ed8f177b4d4f4bf66e701bf94d64c6c719d6e",
+                      "date":  "2026-09-09",
+                      "note":  "Szeneneditor: Bewegungsschrittzeit auf 0,001 s genau anzeigen und einstellen; schnelle Wellen ohne Rundung auf 0,0 s. Nullwert als Standardtempo erklaert; andere Zeitfelder unveraendert."
+                  },
+                  {
                       "version":  "0.1.92",
                       "bin":  "knx-led-controller-16m_0.1.92.bin",
                       "sha256":  "10494a393254c5ed4dcf771a83d77ed4a2ac4bf4f538d927a614250ed3dde1d8",
@@ -27,13 +34,6 @@
                       "sha256":  "68394058203ec75d2119baf24c0693b139317f3d9fe51ccfe6d548e119eb0c96",
                       "date":  "2026-09-09",
                       "note":  "Bootfix: Szenenwechsel-Hosttest aus dem Arduino-Sketch nach tests verschoben. Seine main-Funktion hatte den Arduino-Einstieg ersetzt und setup/loop aus beiden Firmwareprofilen entfernt. Arduino-Sperre im Hosttest verhindert erneutes versehentliches Einbinden."
-                  },
-                  {
-                      "version":  "0.1.87",
-                      "bin":  "knx-led-controller-16m_0.1.87.bin",
-                      "sha256":  "90c470514097d6e6146dd0bf538c5edcd85313d243f8112ca8067b06a7c9ddcd",
-                      "date":  "2026-09-09",
-                      "note":  "Szenenwechsel: Global verzoegerte Ziele bleiben bis zum tatsaechlichen Start als Scheduled-Ziel vorgemerkt. Die sichtbare Quellszene bleibt fuer schnelle Retargets erhalten; nie gestartete Ziele loesen kein Abschalten aus. Lokale/globale Zielwechsel und AUS ersetzen oder verwerfen Scheduled-Ziele sauber; global_delay_ms beginnt bei jedem globalen Befehl auf dessen eigener Zeitbasis."
                   }
               ]
 }
