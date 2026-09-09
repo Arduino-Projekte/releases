@@ -1,6 +1,13 @@
 {
     "items":  [
                   {
+                      "version":  "0.1.85",
+                      "bin":  "knx-led-controller-16m_0.1.85.bin",
+                      "sha256":  "d32a1eb43b71a800d4bcadebcff747eebbcab45babc6f5a4792e51f51e8d1f2a",
+                      "date":  "2026-09-09",
+                      "note":  "Szenenwechsel: Aufbau und Abschalten koennen pro Szene mit Immer ausfuehren erzwungen werden. Eine erzwungene Abschaltphase laeuft nichtblockierend vollstaendig zu Ende; danach startet nur das zuletzt gewaehlte Ziel. AUS verwirft ein vorgemerktes Ziel. Alte Szenendaten bleiben kompatibel, globale und ausgangsbezogene Steuerwege verwenden dieselbe Phasenlogik."
+                  },
+                  {
                       "version":  "0.1.84",
                       "bin":  "knx-led-controller-16m_0.1.84.bin",
                       "sha256":  "b301e4bd8371ca4c459b6fd24b75ef4cd11128585abe675dcf5934550730d394",
@@ -27,13 +34,6 @@
                       "sha256":  "f1dcd45339352e1330d06fc1bc7e995b52444a54dc4cfc403a393b6ab95cce2f",
                       "date":  "2026-09-07",
                       "note":  "Geaendert: Leistung und Gesundheit auf der Startseite aktualisieren sich jetzt laufend. Beide Kacheln wurden bisher nur beim Seitenaufbau gerendert, sodass Stromwert, Begrenzung, KNX-Bereitschaft, Netzwerkadresse und Laufzeit bis zum naechsten Neuladen stillstanden. Sie fahren nun in derselben Antwort mit, die die Seite ohnehin holt - kein zweiter Abruf, und die Texte kommen fertig formatiert vom Geraet, damit Seitenaufbau und Takt nicht auseinanderdriften. Geschrieben wird nur, was sich wirklich geaendert hat."
-                  },
-                  {
-                      "version":  "0.1.80",
-                      "bin":  "knx-led-controller-16m_0.1.80.bin",
-                      "sha256":  "8f2148efab41a0d20a319836c0b3069f987312e06f84dfc1464152398aeb45bf",
-                      "date":  "2026-09-07",
-                      "note":  "Geaendert: Die Leistungskachel der Startseite steht jetzt in jedem Betriebszustand. Bisher erschien sie nur bei aktiver Begrenzung, sodass die obere Reihe je nach Last mal drei und mal zwei Kacheln zeigte. Ohne Begrenzung nennt sie Strom, Grenze und Auslastung und darunter Keine Begrenzung aktiv. Die drei Statuskacheln Jetzt aktiv, Leistung und Gesundheit stehen ausserdem auf gemeinsamer Hoehe."
                   }
               ]
 }
