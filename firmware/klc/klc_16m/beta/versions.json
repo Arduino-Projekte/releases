@@ -1,6 +1,13 @@
 {
     "items":  [
                   {
+                      "version":  "0.1.88",
+                      "bin":  "knx-led-controller-16m_0.1.88.bin",
+                      "sha256":  "68394058203ec75d2119baf24c0693b139317f3d9fe51ccfe6d548e119eb0c96",
+                      "date":  "2026-09-09",
+                      "note":  "Bootfix: Szenenwechsel-Hosttest aus dem Arduino-Sketch nach tests verschoben. Seine main-Funktion hatte den Arduino-Einstieg ersetzt und setup/loop aus beiden Firmwareprofilen entfernt. Arduino-Sperre im Hosttest verhindert erneutes versehentliches Einbinden."
+                  },
+                  {
                       "version":  "0.1.87",
                       "bin":  "knx-led-controller-16m_0.1.87.bin",
                       "sha256":  "90c470514097d6e6146dd0bf538c5edcd85313d243f8112ca8067b06a7c9ddcd",
@@ -27,13 +34,6 @@
                       "sha256":  "b301e4bd8371ca4c459b6fd24b75ef4cd11128585abe675dcf5934550730d394",
                       "date":  "2026-09-08",
                       "note":  "Setup-WLAN: Netzwerkwechsel vor dem Start bestaetigen. Nach stabiler STA-Verbindung speichert der Controller selbststaendig ohne Browser-ACK oder Statuspolls. AP-Abschaltung weiterhin erst nach verifiziertem Commit; bestehende Fehler- und Recoverypfade bleiben aktiv. Bei Browser-Verbindungsverlust Fortsetzung im Heimnetz statt falscher Speicherfehlermeldung."
-                  },
-                  {
-                      "version":  "0.1.83",
-                      "bin":  "knx-led-controller-16m_0.1.83.bin",
-                      "sha256":  "e0b08dd26d852056afbee5419f0c25c6ba6df8abdb1b7e9b492c7302670ef003",
-                      "date":  "2026-09-08",
-                      "note":  "HTTPS-Heappruefung korrigiert: newlib keepcost wird nicht mehr als groesster verfuegbarer Speicherblock interpretiert. Gesamtbudget und fehlertolerante reale Reservierungen bleiben geprueft. OTA-Fehlermeldungen nutzen den verfuegbaren Textpuffer statt einer festen 72-Zeichen-Grenze."
                   }
               ]
 }

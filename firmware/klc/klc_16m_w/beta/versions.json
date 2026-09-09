@@ -1,6 +1,13 @@
 {
     "items":  [
                   {
+                      "version":  "0.1.88",
+                      "bin":  "knx-led-controller-16m-w_0.1.88.bin",
+                      "sha256":  "5f4598274d8b453b9966811f4f562a96187814483b31bfde4f08ad2e4e44a092",
+                      "date":  "2026-09-09",
+                      "note":  "Bootfix: Szenenwechsel-Hosttest aus dem Arduino-Sketch nach tests verschoben. Seine main-Funktion hatte den Arduino-Einstieg ersetzt und setup/loop aus beiden Firmwareprofilen entfernt. Arduino-Sperre im Hosttest verhindert erneutes versehentliches Einbinden."
+                  },
+                  {
                       "version":  "0.1.87",
                       "bin":  "knx-led-controller-16m-w_0.1.87.bin",
                       "sha256":  "886c1093455facc39734b9761fd08c32978415847f557a61d8dde28b09f051bf",
@@ -27,13 +34,6 @@
                       "sha256":  "f8719cc483e55670cfcbefc6948de3e626c41d036070943899a1c723d0acbfd4",
                       "date":  "2026-09-08",
                       "note":  "Setup-WLAN: Netzwerkwechsel vor dem Start bestaetigen. Nach stabiler STA-Verbindung speichert der Controller selbststaendig ohne Browser-ACK oder Statuspolls. AP-Abschaltung weiterhin erst nach verifiziertem Commit; bestehende Fehler- und Recoverypfade bleiben aktiv. Bei Browser-Verbindungsverlust Fortsetzung im Heimnetz statt falscher Speicherfehlermeldung."
-                  },
-                  {
-                      "version":  "0.1.83",
-                      "bin":  "knx-led-controller-16m-w_0.1.83.bin",
-                      "sha256":  "e9c0788e398c4dc714ff97218b44424f284ecb060e9805ca469ad6c6b3692d49",
-                      "date":  "2026-09-08",
-                      "note":  "HTTPS-Heappruefung korrigiert: newlib keepcost wird nicht mehr als groesster verfuegbarer Speicherblock interpretiert. Gesamtbudget und fehlertolerante reale Reservierungen bleiben geprueft. OTA-Fehlermeldungen nutzen den verfuegbaren Textpuffer statt einer festen 72-Zeichen-Grenze."
                   }
               ]
 }
