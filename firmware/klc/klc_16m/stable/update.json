@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m_0.1.87.bin",
+                     "url":  "knx-led-controller-16m_0.1.88.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.1.87",
-                     "bin":  "knx-led-controller-16m_0.1.87.bin",
-                     "file":  "knx-led-controller-16m_0.1.87.bin",
-                     "sha256":  "90c470514097d6e6146dd0bf538c5edcd85313d243f8112ca8067b06a7c9ddcd",
-                     "message":  "Szenenwechsel: Global verzoegerte Ziele bleiben bis zum tatsaechlichen Start als Scheduled-Ziel vorgemerkt. Die sichtbare Quellszene bleibt fuer schnelle Retargets erhalten; nie gestartete Ziele loesen kein Abschalten aus. Lokale/globale Zielwechsel und AUS ersetzen oder verwerfen Scheduled-Ziele sauber; global_delay_ms beginnt bei jedem globalen Befehl auf dessen eigener Zeitbasis.",
+                     "version":  "0.1.88",
+                     "bin":  "knx-led-controller-16m_0.1.88.bin",
+                     "file":  "knx-led-controller-16m_0.1.88.bin",
+                     "sha256":  "68394058203ec75d2119baf24c0693b139317f3d9fe51ccfe6d548e119eb0c96",
+                     "message":  "Bootfix: Szenenwechsel-Hosttest aus dem Arduino-Sketch nach tests verschoben. Seine main-Funktion hatte den Arduino-Einstieg ersetzt und setup/loop aus beiden Firmwareprofilen entfernt. Arduino-Sperre im Hosttest verhindert erneutes versehentliches Einbinden.",
                      "http_code":  200
                  }
 }
