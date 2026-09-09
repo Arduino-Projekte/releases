@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m_0.1.84.bin",
+                     "url":  "knx-led-controller-16m_0.1.85.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.1.84",
-                     "bin":  "knx-led-controller-16m_0.1.84.bin",
-                     "file":  "knx-led-controller-16m_0.1.84.bin",
-                     "sha256":  "8d9ca8247d85dea4539825e9353431e960301fb037f98eb4f91e9c895c9ed21b",
-                     "message":  "Setup-WLAN: Netzwerkwechsel vor dem Start bestaetigen. Nach stabiler STA-Verbindung speichert der Controller selbststaendig ohne Browser-ACK oder Statuspolls. AP-Abschaltung weiterhin erst nach verifiziertem Commit; bestehende Fehler- und Recoverypfade bleiben aktiv. Bei Browser-Verbindungsverlust Fortsetzung im Heimnetz statt falscher Speicherfehlermeldung.",
+                     "version":  "0.1.85",
+                     "bin":  "knx-led-controller-16m_0.1.85.bin",
+                     "file":  "knx-led-controller-16m_0.1.85.bin",
+                     "sha256":  "d32a1eb43b71a800d4bcadebcff747eebbcab45babc6f5a4792e51f51e8d1f2a",
+                     "message":  "Szenenwechsel: Aufbau und Abschalten koennen pro Szene mit Immer ausfuehren erzwungen werden. Eine erzwungene Abschaltphase laeuft nichtblockierend vollstaendig zu Ende; danach startet nur das zuletzt gewaehlte Ziel. AUS verwirft ein vorgemerktes Ziel. Alte Szenendaten bleiben kompatibel, globale und ausgangsbezogene Steuerwege verwenden dieselbe Phasenlogik.",
                      "http_code":  200
                  }
 }
