@@ -1,11 +1,11 @@
 {
-    "url":  "knx-led-controller-16m_0.1.89.bin",
+    "url":  "knx-led-controller-16m_0.1.90.bin",
     "check_ok":  true,
     "update_available":  false,
-    "version":  "0.1.89",
-    "bin":  "knx-led-controller-16m_0.1.89.bin",
-    "file":  "knx-led-controller-16m_0.1.89.bin",
-    "sha256":  "27a0080ee0453d3ca0396eb2c672e7a8768ae6fc881cc6b206a448a9a399dd53",
-    "message":  "KNX-Hilfe: Objektbezogene Tooltips und Beispiele fuer Szenen-, Helligkeits- und Sperrverhalten. Helligkeit EIN respektiert jetzt knx_brightness_switch_on: ausgeschaltete Ausgaenge bleiben bei deaktivierter Option aus und merken positive Werte bis zum naechsten regulaeren Einschalten vor. KNX-Regressionscheck ergaenzt; generierte Sprachpakete bleiben unveraendert.",
+    "version":  "0.1.90",
+    "bin":  "knx-led-controller-16m_0.1.90.bin",
+    "file":  "knx-led-controller-16m_0.1.90.bin",
+    "sha256":  "85123ec2cf4e1e073342aa3852613da75f5ff4f85f87cd204200dc7dd7b23993",
+    "message":  "Ausgangsfolge: Richtung A/B per Hintergrundanfrage ohne blockierenden Seiten-Neuaufbau ausloesen; direkte Statusmeldung und Schutz vor parallelen Klicks. Host- und Browserregressionen ergaenzt.",
     "http_code":  200
 }
