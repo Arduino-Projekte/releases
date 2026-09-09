@@ -1,11 +1,11 @@
 {
-    "url":  "knx-led-controller-16m-w_0.1.92.bin",
+    "url":  "knx-led-controller-16m-w_0.1.93.bin",
     "check_ok":  true,
     "update_available":  false,
-    "version":  "0.1.92",
-    "bin":  "knx-led-controller-16m-w_0.1.92.bin",
-    "file":  "knx-led-controller-16m-w_0.1.92.bin",
-    "sha256":  "761ea00a737e8f2fe40d4067766e645f26015d51f53aa52cc8242accc86651d5",
-    "message":  "Automation: Speichern ohne wiederholte Seiten-Neuladungen; kleine begrenzte Statusabfragen nur waehrend des Schreibens. Aktive Praesenz als Ausschalthindernis erklaert; wartende Aktivierung bleibt ohne Reloadschleife sichtbar.",
+    "version":  "0.1.93",
+    "bin":  "knx-led-controller-16m-w_0.1.93.bin",
+    "file":  "knx-led-controller-16m-w_0.1.93.bin",
+    "sha256":  "e5c9da4e2cd4ba3944bab72684e84254f5b8586c1e50a8165554c19b0772751c",
+    "message":  "Szeneneditor: Bewegungsschrittzeit auf 0,001 s genau anzeigen und einstellen; schnelle Wellen ohne Rundung auf 0,0 s. Nullwert als Standardtempo erklaert; andere Zeitfelder unveraendert.",
     "http_code":  200
 }
