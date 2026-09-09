@@ -1,6 +1,13 @@
 {
     "items":  [
                   {
+                      "version":  "0.1.94",
+                      "bin":  "knx-led-controller-16m_0.1.94.bin",
+                      "sha256":  "79d824e9040062a58f4d66827c6826d28b500adce3f877c5c1a51c12fcb60747",
+                      "date":  "2026-09-10",
+                      "note":  "Automation: gespeicherte Praesenz- und Nachlaufwerte ohne Zyklusende uebernehmen; alte Praesenzhalte- und Sync-Zustaende beim Deaktivieren freigeben. Laufende Ausgangszuordnung und Animationen bleiben erhalten."
+                  },
+                  {
                       "version":  "0.1.93",
                       "bin":  "knx-led-controller-16m_0.1.93.bin",
                       "sha256":  "f8d18c0172a9ad51da8e3c05418ed8f177b4d4f4bf66e701bf94d64c6c719d6e",
@@ -27,13 +34,6 @@
                       "sha256":  "27a0080ee0453d3ca0396eb2c672e7a8768ae6fc881cc6b206a448a9a399dd53",
                       "date":  "2026-09-09",
                       "note":  "KNX-Hilfe: Objektbezogene Tooltips und Beispiele fuer Szenen-, Helligkeits- und Sperrverhalten. Helligkeit EIN respektiert jetzt knx_brightness_switch_on: ausgeschaltete Ausgaenge bleiben bei deaktivierter Option aus und merken positive Werte bis zum naechsten regulaeren Einschalten vor. KNX-Regressionscheck ergaenzt; generierte Sprachpakete bleiben unveraendert."
-                  },
-                  {
-                      "version":  "0.1.88",
-                      "bin":  "knx-led-controller-16m_0.1.88.bin",
-                      "sha256":  "68394058203ec75d2119baf24c0693b139317f3d9fe51ccfe6d548e119eb0c96",
-                      "date":  "2026-09-09",
-                      "note":  "Bootfix: Szenenwechsel-Hosttest aus dem Arduino-Sketch nach tests verschoben. Seine main-Funktion hatte den Arduino-Einstieg ersetzt und setup/loop aus beiden Firmwareprofilen entfernt. Arduino-Sperre im Hosttest verhindert erneutes versehentliches Einbinden."
                   }
               ]
 }
