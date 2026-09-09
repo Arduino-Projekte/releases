@@ -1,6 +1,13 @@
 {
     "items":  [
                   {
+                      "version":  "0.1.92",
+                      "bin":  "knx-led-controller-16m-w_0.1.92.bin",
+                      "sha256":  "761ea00a737e8f2fe40d4067766e645f26015d51f53aa52cc8242accc86651d5",
+                      "date":  "2026-09-09",
+                      "note":  "Automation: Speichern ohne wiederholte Seiten-Neuladungen; kleine begrenzte Statusabfragen nur waehrend des Schreibens. Aktive Praesenz als Ausschalthindernis erklaert; wartende Aktivierung bleibt ohne Reloadschleife sichtbar."
+                  },
+                  {
                       "version":  "0.1.90",
                       "bin":  "knx-led-controller-16m-w_0.1.90.bin",
                       "sha256":  "9f1aaa9858de2304900eb665306ed065cf6e5d77147f2e1c3237e4388063c6be",
@@ -27,13 +34,6 @@
                       "sha256":  "886c1093455facc39734b9761fd08c32978415847f557a61d8dde28b09f051bf",
                       "date":  "2026-09-09",
                       "note":  "Szenenwechsel: Global verzoegerte Ziele bleiben bis zum tatsaechlichen Start als Scheduled-Ziel vorgemerkt. Die sichtbare Quellszene bleibt fuer schnelle Retargets erhalten; nie gestartete Ziele loesen kein Abschalten aus. Lokale/globale Zielwechsel und AUS ersetzen oder verwerfen Scheduled-Ziele sauber; global_delay_ms beginnt bei jedem globalen Befehl auf dessen eigener Zeitbasis."
-                  },
-                  {
-                      "version":  "0.1.86",
-                      "bin":  "knx-led-controller-16m-w_0.1.86.bin",
-                      "sha256":  "43f243042a1d1594a2606a845ed98de58efe26499b48dee2ce323cad7a27f630",
-                      "date":  "2026-09-09",
-                      "note":  "Szenenwechsel: Immer-ausfuehren-Logik korrigiert. Bereits laufende Endphasen bleiben auch ohne Pending-Ziel erhalten; 0-ms-Direktwechsel ueberspringen den Aufbau weiterhin. Szenen mit Hauptphase Aus fuehren ihren Aufbau vollstaendig aus. Globale Wechsel warten auf eine gemeinsame Endbarriere und erhalten danach global_delay_ms. Fehlgeschlagene Backend-Transitionen hinterlassen keinen halben Zielwechsel."
                   }
               ]
 }
