@@ -1,6 +1,13 @@
 {
     "items":  [
                   {
+                      "version":  "0.1.96",
+                      "bin":  "knx-led-controller-16m_0.1.96.bin",
+                      "sha256":  "57be5ad5e1bd2c74ee7fd63aa9b078f550c5a03886ef8123a50ca736f357a13e",
+                      "date":  "2026-09-10",
+                      "note":  "Drei Laufzeitkorrekturen: Ein absolutes KNX-Farbtelegramm auf Schwarz laeuft jetzt ueber den vorhandenen Abschalt-/Zielpfad; Szene, sichtbares Bild und Speichervormerkung bleiben konsistent, ein abgelehnter Auftrag hinterlaesst keine halbe Aenderung. Startzeitsperren gelten nur noch fuer wirklich ausstehende Termine - Dauer-Animationen frieren nach 2^31 ms (rund 24,9 Tage) nicht mehr ein. Eine absolute KNX-Helligkeit oder Farbe zieht alle aktiven Ausgaenge derselben Szene nach, ohne Szene, Zeitbasis oder lokale Uebersteuerungen zu veraendern."
+                  },
+                  {
                       "version":  "0.1.94",
                       "bin":  "knx-led-controller-16m_0.1.94.bin",
                       "sha256":  "79d824e9040062a58f4d66827c6826d28b500adce3f877c5c1a51c12fcb60747",
@@ -27,13 +34,6 @@
                       "sha256":  "85123ec2cf4e1e073342aa3852613da75f5ff4f85f87cd204200dc7dd7b23993",
                       "date":  "2026-09-09",
                       "note":  "Ausgangsfolge: Richtung A/B per Hintergrundanfrage ohne blockierenden Seiten-Neuaufbau ausloesen; direkte Statusmeldung und Schutz vor parallelen Klicks. Host- und Browserregressionen ergaenzt."
-                  },
-                  {
-                      "version":  "0.1.89",
-                      "bin":  "knx-led-controller-16m_0.1.89.bin",
-                      "sha256":  "27a0080ee0453d3ca0396eb2c672e7a8768ae6fc881cc6b206a448a9a399dd53",
-                      "date":  "2026-09-09",
-                      "note":  "KNX-Hilfe: Objektbezogene Tooltips und Beispiele fuer Szenen-, Helligkeits- und Sperrverhalten. Helligkeit EIN respektiert jetzt knx_brightness_switch_on: ausgeschaltete Ausgaenge bleiben bei deaktivierter Option aus und merken positive Werte bis zum naechsten regulaeren Einschalten vor. KNX-Regressionscheck ergaenzt; generierte Sprachpakete bleiben unveraendert."
                   }
               ]
 }
