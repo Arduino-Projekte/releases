@@ -1,6 +1,13 @@
 {
     "items":  [
                   {
+                      "version":  "0.1.98",
+                      "bin":  "knx-led-controller-16m_0.1.98.bin",
+                      "sha256":  "032e2fb640b98072df201c8af49c5f612c3186d4bcd326c40e0a911c933c2116",
+                      "date":  "2026-09-10",
+                      "note":  "Leistungskachel der Startseite: Sie zeigte nur den dimmbaren Farbstrom der LEDs, verglich ihn aber mit der sicheren Grenze fuer den GESAMTstrom. Bei ausgeschalteten LEDs stand dort 0,00 A, obwohl Basisstrom und LED-Standby mehrere Ampere ausmachen. Zaehler und Prozentbalken rechnen jetzt mit controller_total_ma - derselben Groesse, gegen die die Firmware auch wirklich begrenzt. Seitenaufbau und Live-Aktualisierung sind gleich verdrahtet."
+                  },
+                  {
                       "version":  "0.1.97",
                       "bin":  "knx-led-controller-16m_0.1.97.bin",
                       "sha256":  "289ff4576fc1d94b62134ef4c28343f4f1f372ce04e936cd8254ef6223e00ab0",
@@ -27,13 +34,6 @@
                       "sha256":  "f8d18c0172a9ad51da8e3c05418ed8f177b4d4f4bf66e701bf94d64c6c719d6e",
                       "date":  "2026-09-09",
                       "note":  "Szeneneditor: Bewegungsschrittzeit auf 0,001 s genau anzeigen und einstellen; schnelle Wellen ohne Rundung auf 0,0 s. Nullwert als Standardtempo erklaert; andere Zeitfelder unveraendert."
-                  },
-                  {
-                      "version":  "0.1.92",
-                      "bin":  "knx-led-controller-16m_0.1.92.bin",
-                      "sha256":  "10494a393254c5ed4dcf771a83d77ed4a2ac4bf4f538d927a614250ed3dde1d8",
-                      "date":  "2026-09-09",
-                      "note":  "Automation: Speichern ohne wiederholte Seiten-Neuladungen; kleine begrenzte Statusabfragen nur waehrend des Schreibens. Aktive Praesenz als Ausschalthindernis erklaert; wartende Aktivierung bleibt ohne Reloadschleife sichtbar."
                   }
               ]
 }

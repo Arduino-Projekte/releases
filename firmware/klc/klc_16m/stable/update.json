@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m_0.1.97.bin",
+                     "url":  "knx-led-controller-16m_0.1.98.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.1.97",
-                     "bin":  "knx-led-controller-16m_0.1.97.bin",
-                     "file":  "knx-led-controller-16m_0.1.97.bin",
-                     "sha256":  "289ff4576fc1d94b62134ef4c28343f4f1f372ce04e936cd8254ef6223e00ab0",
-                     "message":  "Szenen: Der Uebergang von einer bewegten Hauptphase in die Abschaltphase blitzt nicht mehr auf. Bisher nahm jeder raeumliche Aus-Effekt ein volles Band an; bei Hauptphase Welle oder Lauflicht sprang deshalb erst der ganze Strang an und wurde dann weggewischt. Die Hauptanimation laeuft jetzt auf ihrer fortlaufenden Zeitachse weiter, der Aus-Effekt wirkt nur noch als Maske darueber. Danach folgt unveraendert die Sanft-Aus-Rampe. Statische Hauptphasen verhalten sich exakt wie bisher.",
+                     "version":  "0.1.98",
+                     "bin":  "knx-led-controller-16m_0.1.98.bin",
+                     "file":  "knx-led-controller-16m_0.1.98.bin",
+                     "sha256":  "032e2fb640b98072df201c8af49c5f612c3186d4bcd326c40e0a911c933c2116",
+                     "message":  "Leistungskachel der Startseite: Sie zeigte nur den dimmbaren Farbstrom der LEDs, verglich ihn aber mit der sicheren Grenze fuer den GESAMTstrom. Bei ausgeschalteten LEDs stand dort 0,00 A, obwohl Basisstrom und LED-Standby mehrere Ampere ausmachen. Zaehler und Prozentbalken rechnen jetzt mit controller_total_ma - derselben Groesse, gegen die die Firmware auch wirklich begrenzt. Seitenaufbau und Live-Aktualisierung sind gleich verdrahtet.",
                      "http_code":  200
                  }
 }

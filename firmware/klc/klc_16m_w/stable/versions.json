@@ -1,6 +1,13 @@
 {
     "items":  [
                   {
+                      "version":  "0.1.98",
+                      "bin":  "knx-led-controller-16m-w_0.1.98.bin",
+                      "sha256":  "54af72fcd86824576102ea8f76ee8c41e01ca344a0b6e2417f77b30ba5e82b20",
+                      "date":  "2026-09-10",
+                      "note":  "Leistungskachel der Startseite: Sie zeigte nur den dimmbaren Farbstrom der LEDs, verglich ihn aber mit der sicheren Grenze fuer den GESAMTstrom. Bei ausgeschalteten LEDs stand dort 0,00 A, obwohl Basisstrom und LED-Standby mehrere Ampere ausmachen. Zaehler und Prozentbalken rechnen jetzt mit controller_total_ma - derselben Groesse, gegen die die Firmware auch wirklich begrenzt. Seitenaufbau und Live-Aktualisierung sind gleich verdrahtet."
+                  },
+                  {
                       "version":  "0.1.97",
                       "bin":  "knx-led-controller-16m-w_0.1.97.bin",
                       "sha256":  "1611f67e8d8cdd7cc3231435579b282988870593953fb9c1f277c907e43a5003",
@@ -27,13 +34,6 @@
                       "sha256":  "e5c9da4e2cd4ba3944bab72684e84254f5b8586c1e50a8165554c19b0772751c",
                       "date":  "2026-09-09",
                       "note":  "Szeneneditor: Bewegungsschrittzeit auf 0,001 s genau anzeigen und einstellen; schnelle Wellen ohne Rundung auf 0,0 s. Nullwert als Standardtempo erklaert; andere Zeitfelder unveraendert."
-                  },
-                  {
-                      "version":  "0.1.92",
-                      "bin":  "knx-led-controller-16m-w_0.1.92.bin",
-                      "sha256":  "761ea00a737e8f2fe40d4067766e645f26015d51f53aa52cc8242accc86651d5",
-                      "date":  "2026-09-09",
-                      "note":  "Automation: Speichern ohne wiederholte Seiten-Neuladungen; kleine begrenzte Statusabfragen nur waehrend des Schreibens. Aktive Praesenz als Ausschalthindernis erklaert; wartende Aktivierung bleibt ohne Reloadschleife sichtbar."
                   }
               ]
 }
