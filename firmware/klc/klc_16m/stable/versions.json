@@ -1,6 +1,13 @@
 {
     "items":  [
                   {
+                      "version":  "0.1.97",
+                      "bin":  "knx-led-controller-16m_0.1.97.bin",
+                      "sha256":  "289ff4576fc1d94b62134ef4c28343f4f1f372ce04e936cd8254ef6223e00ab0",
+                      "date":  "2026-09-10",
+                      "note":  "Szenen: Der Uebergang von einer bewegten Hauptphase in die Abschaltphase blitzt nicht mehr auf. Bisher nahm jeder raeumliche Aus-Effekt ein volles Band an; bei Hauptphase Welle oder Lauflicht sprang deshalb erst der ganze Strang an und wurde dann weggewischt. Die Hauptanimation laeuft jetzt auf ihrer fortlaufenden Zeitachse weiter, der Aus-Effekt wirkt nur noch als Maske darueber. Danach folgt unveraendert die Sanft-Aus-Rampe. Statische Hauptphasen verhalten sich exakt wie bisher."
+                  },
+                  {
                       "version":  "0.1.96",
                       "bin":  "knx-led-controller-16m_0.1.96.bin",
                       "sha256":  "57be5ad5e1bd2c74ee7fd63aa9b078f550c5a03886ef8123a50ca736f357a13e",
@@ -27,13 +34,6 @@
                       "sha256":  "10494a393254c5ed4dcf771a83d77ed4a2ac4bf4f538d927a614250ed3dde1d8",
                       "date":  "2026-09-09",
                       "note":  "Automation: Speichern ohne wiederholte Seiten-Neuladungen; kleine begrenzte Statusabfragen nur waehrend des Schreibens. Aktive Praesenz als Ausschalthindernis erklaert; wartende Aktivierung bleibt ohne Reloadschleife sichtbar."
-                  },
-                  {
-                      "version":  "0.1.90",
-                      "bin":  "knx-led-controller-16m_0.1.90.bin",
-                      "sha256":  "85123ec2cf4e1e073342aa3852613da75f5ff4f85f87cd204200dc7dd7b23993",
-                      "date":  "2026-09-09",
-                      "note":  "Ausgangsfolge: Richtung A/B per Hintergrundanfrage ohne blockierenden Seiten-Neuaufbau ausloesen; direkte Statusmeldung und Schutz vor parallelen Klicks. Host- und Browserregressionen ergaenzt."
                   }
               ]
 }

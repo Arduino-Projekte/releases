@@ -1,6 +1,13 @@
 {
     "items":  [
                   {
+                      "version":  "0.1.97",
+                      "bin":  "knx-led-controller-16m-w_0.1.97.bin",
+                      "sha256":  "1611f67e8d8cdd7cc3231435579b282988870593953fb9c1f277c907e43a5003",
+                      "date":  "2026-09-10",
+                      "note":  "Szenen: Der Uebergang von einer bewegten Hauptphase in die Abschaltphase blitzt nicht mehr auf. Bisher nahm jeder raeumliche Aus-Effekt ein volles Band an; bei Hauptphase Welle oder Lauflicht sprang deshalb erst der ganze Strang an und wurde dann weggewischt. Die Hauptanimation laeuft jetzt auf ihrer fortlaufenden Zeitachse weiter, der Aus-Effekt wirkt nur noch als Maske darueber. Danach folgt unveraendert die Sanft-Aus-Rampe. Statische Hauptphasen verhalten sich exakt wie bisher."
+                  },
+                  {
                       "version":  "0.1.96",
                       "bin":  "knx-led-controller-16m-w_0.1.96.bin",
                       "sha256":  "4de1421890bd426acb3f1fec50ba0e254bf462546fe1c0b4347d54ea46cabf24",
@@ -27,13 +34,6 @@
                       "sha256":  "761ea00a737e8f2fe40d4067766e645f26015d51f53aa52cc8242accc86651d5",
                       "date":  "2026-09-09",
                       "note":  "Automation: Speichern ohne wiederholte Seiten-Neuladungen; kleine begrenzte Statusabfragen nur waehrend des Schreibens. Aktive Praesenz als Ausschalthindernis erklaert; wartende Aktivierung bleibt ohne Reloadschleife sichtbar."
-                  },
-                  {
-                      "version":  "0.1.90",
-                      "bin":  "knx-led-controller-16m-w_0.1.90.bin",
-                      "sha256":  "9f1aaa9858de2304900eb665306ed065cf6e5d77147f2e1c3237e4388063c6be",
-                      "date":  "2026-09-09",
-                      "note":  "Ausgangsfolge: Richtung A/B per Hintergrundanfrage ohne blockierenden Seiten-Neuaufbau ausloesen; direkte Statusmeldung und Schutz vor parallelen Klicks. Host- und Browserregressionen ergaenzt."
                   }
               ]
 }
