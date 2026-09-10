@@ -1,11 +1,11 @@
 {
-    "url":  "knx-led-controller-16m_0.1.96.bin",
+    "url":  "knx-led-controller-16m_0.1.97.bin",
     "check_ok":  true,
     "update_available":  false,
-    "version":  "0.1.96",
-    "bin":  "knx-led-controller-16m_0.1.96.bin",
-    "file":  "knx-led-controller-16m_0.1.96.bin",
-    "sha256":  "57be5ad5e1bd2c74ee7fd63aa9b078f550c5a03886ef8123a50ca736f357a13e",
-    "message":  "Drei Laufzeitkorrekturen: Ein absolutes KNX-Farbtelegramm auf Schwarz laeuft jetzt ueber den vorhandenen Abschalt-/Zielpfad; Szene, sichtbares Bild und Speichervormerkung bleiben konsistent, ein abgelehnter Auftrag hinterlaesst keine halbe Aenderung. Startzeitsperren gelten nur noch fuer wirklich ausstehende Termine - Dauer-Animationen frieren nach 2^31 ms (rund 24,9 Tage) nicht mehr ein. Eine absolute KNX-Helligkeit oder Farbe zieht alle aktiven Ausgaenge derselben Szene nach, ohne Szene, Zeitbasis oder lokale Uebersteuerungen zu veraendern.",
+    "version":  "0.1.97",
+    "bin":  "knx-led-controller-16m_0.1.97.bin",
+    "file":  "knx-led-controller-16m_0.1.97.bin",
+    "sha256":  "289ff4576fc1d94b62134ef4c28343f4f1f372ce04e936cd8254ef6223e00ab0",
+    "message":  "Szenen: Der Uebergang von einer bewegten Hauptphase in die Abschaltphase blitzt nicht mehr auf. Bisher nahm jeder raeumliche Aus-Effekt ein volles Band an; bei Hauptphase Welle oder Lauflicht sprang deshalb erst der ganze Strang an und wurde dann weggewischt. Die Hauptanimation laeuft jetzt auf ihrer fortlaufenden Zeitachse weiter, der Aus-Effekt wirkt nur noch als Maske darueber. Danach folgt unveraendert die Sanft-Aus-Rampe. Statische Hauptphasen verhalten sich exakt wie bisher.",
     "http_code":  200
 }
