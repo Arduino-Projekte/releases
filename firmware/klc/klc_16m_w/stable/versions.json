@@ -1,6 +1,13 @@
 {
     "items":  [
                   {
+                      "version":  "0.1.99",
+                      "bin":  "knx-led-controller-16m-w_0.1.99.bin",
+                      "sha256":  "e58ffdab94680310643413bdcfb7e43dde26ae1680b5a3c50e37c051338405c7",
+                      "date":  "2026-09-10",
+                      "note":  "Leistungsanzeige rechnete nach einer Aenderung von Basisstrom oder LED-Standby nicht neu. Der zwischengespeicherte Laufzeitstand wird nur beim Senden eines LED-Frames erneuert; bei stillstehenden LEDs blieben Kacheln und KNX-Status auf dem alten Stand und widersprachen sich gegenseitig. Basisstrom, LED-Standby und alle Summen werden jetzt bei jeder Abfrage aus der aktuellen Konfiguration nachgerechnet, der gemessene Farbstrom bleibt unangetastet. Ausserdem hat die Hilfe endlich einen eigenen Reiter in der Kopfnavigation."
+                  },
+                  {
                       "version":  "0.1.98",
                       "bin":  "knx-led-controller-16m-w_0.1.98.bin",
                       "sha256":  "54af72fcd86824576102ea8f76ee8c41e01ca344a0b6e2417f77b30ba5e82b20",
@@ -27,13 +34,6 @@
                       "sha256":  "3ce5164244065bd9887e7415776539b04881df1159a0beba298a886c2a9b453d",
                       "date":  "2026-09-10",
                       "note":  "Automation: gespeicherte Praesenz- und Nachlaufwerte ohne Zyklusende uebernehmen; alte Praesenzhalte- und Sync-Zustaende beim Deaktivieren freigeben. Laufende Ausgangszuordnung und Animationen bleiben erhalten."
-                  },
-                  {
-                      "version":  "0.1.93",
-                      "bin":  "knx-led-controller-16m-w_0.1.93.bin",
-                      "sha256":  "e5c9da4e2cd4ba3944bab72684e84254f5b8586c1e50a8165554c19b0772751c",
-                      "date":  "2026-09-09",
-                      "note":  "Szeneneditor: Bewegungsschrittzeit auf 0,001 s genau anzeigen und einstellen; schnelle Wellen ohne Rundung auf 0,0 s. Nullwert als Standardtempo erklaert; andere Zeitfelder unveraendert."
                   }
               ]
 }
