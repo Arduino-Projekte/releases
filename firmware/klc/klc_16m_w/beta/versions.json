@@ -1,6 +1,13 @@
 {
     "items":  [
                   {
+                      "version":  "0.1.100",
+                      "bin":  "knx-led-controller-16m-w_0.1.100.bin",
+                      "sha256":  "f4d23a6faac4dea61b6f48e6af27547d8f0dd3d6c3dba6b2e141e844a1ad74ef",
+                      "date":  "2026-09-10",
+                      "note":  "Weicher Farbuebergang beim Phasenwechsel. Mit einer eigenen Aufbau- oder Abschaltfarbe sprang das Licht bisher schlagartig um. Der Uebergang liegt jetzt am Anfang der Zielphase: Aufbau blendet in die Hauptphase, die Hauptphase in das Abschalten. Geblendet wird die Grundfarbe der Phase, ein Helligkeitsunterschied wandert damit mit. Die Dauer ist eine globale Vorgabe auf der Szenenseite, Standard 500 ms, 0 schaltet hart um wie bisher. Effekt, Bewegung und die Sanft-Ein/Aus-Rampen bleiben unveraendert. Konfigurationsschema 79."
+                  },
+                  {
                       "version":  "0.1.99",
                       "bin":  "knx-led-controller-16m-w_0.1.99.bin",
                       "sha256":  "e58ffdab94680310643413bdcfb7e43dde26ae1680b5a3c50e37c051338405c7",
@@ -27,13 +34,6 @@
                       "sha256":  "4de1421890bd426acb3f1fec50ba0e254bf462546fe1c0b4347d54ea46cabf24",
                       "date":  "2026-09-10",
                       "note":  "Drei Laufzeitkorrekturen: Ein absolutes KNX-Farbtelegramm auf Schwarz laeuft jetzt ueber den vorhandenen Abschalt-/Zielpfad; Szene, sichtbares Bild und Speichervormerkung bleiben konsistent, ein abgelehnter Auftrag hinterlaesst keine halbe Aenderung. Startzeitsperren gelten nur noch fuer wirklich ausstehende Termine - Dauer-Animationen frieren nach 2^31 ms (rund 24,9 Tage) nicht mehr ein. Eine absolute KNX-Helligkeit oder Farbe zieht alle aktiven Ausgaenge derselben Szene nach, ohne Szene, Zeitbasis oder lokale Uebersteuerungen zu veraendern."
-                  },
-                  {
-                      "version":  "0.1.94",
-                      "bin":  "knx-led-controller-16m-w_0.1.94.bin",
-                      "sha256":  "3ce5164244065bd9887e7415776539b04881df1159a0beba298a886c2a9b453d",
-                      "date":  "2026-09-10",
-                      "note":  "Automation: gespeicherte Praesenz- und Nachlaufwerte ohne Zyklusende uebernehmen; alte Praesenzhalte- und Sync-Zustaende beim Deaktivieren freigeben. Laufende Ausgangszuordnung und Animationen bleiben erhalten."
                   }
               ]
 }

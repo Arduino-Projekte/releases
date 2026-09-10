@@ -1,11 +1,11 @@
 {
-    "url":  "knx-led-controller-16m_0.1.99.bin",
+    "url":  "knx-led-controller-16m_0.1.100.bin",
     "check_ok":  true,
     "update_available":  false,
-    "version":  "0.1.99",
-    "bin":  "knx-led-controller-16m_0.1.99.bin",
-    "file":  "knx-led-controller-16m_0.1.99.bin",
-    "sha256":  "2edbdd4e9c296a3f66aff72d7726b37f116dcc2d32b81eda5fbfe62301506bb3",
-    "message":  "Leistungsanzeige rechnete nach einer Aenderung von Basisstrom oder LED-Standby nicht neu. Der zwischengespeicherte Laufzeitstand wird nur beim Senden eines LED-Frames erneuert; bei stillstehenden LEDs blieben Kacheln und KNX-Status auf dem alten Stand und widersprachen sich gegenseitig. Basisstrom, LED-Standby und alle Summen werden jetzt bei jeder Abfrage aus der aktuellen Konfiguration nachgerechnet, der gemessene Farbstrom bleibt unangetastet. Ausserdem hat die Hilfe endlich einen eigenen Reiter in der Kopfnavigation.",
+    "version":  "0.1.100",
+    "bin":  "knx-led-controller-16m_0.1.100.bin",
+    "file":  "knx-led-controller-16m_0.1.100.bin",
+    "sha256":  "600ed0fd2fce6310cf405bd4c73bf849d29435b90d44a930e9022c5cbf90dc7d",
+    "message":  "Weicher Farbuebergang beim Phasenwechsel. Mit einer eigenen Aufbau- oder Abschaltfarbe sprang das Licht bisher schlagartig um. Der Uebergang liegt jetzt am Anfang der Zielphase: Aufbau blendet in die Hauptphase, die Hauptphase in das Abschalten. Geblendet wird die Grundfarbe der Phase, ein Helligkeitsunterschied wandert damit mit. Die Dauer ist eine globale Vorgabe auf der Szenenseite, Standard 500 ms, 0 schaltet hart um wie bisher. Effekt, Bewegung und die Sanft-Ein/Aus-Rampen bleiben unveraendert. Konfigurationsschema 79.",
     "http_code":  200
 }
