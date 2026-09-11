@@ -1,11 +1,11 @@
 {
-    "url":  "knx-led-controller-16m_0.1.102.bin",
+    "url":  "knx-led-controller-16m_0.1.103.bin",
     "check_ok":  true,
     "update_available":  false,
-    "version":  "0.1.102",
-    "bin":  "knx-led-controller-16m_0.1.102.bin",
-    "file":  "knx-led-controller-16m_0.1.102.bin",
-    "sha256":  "c58cda0015c62a11cc71b8c4a480bc140606b06a5815a3cbe874ab61c2632489",
-    "message":  "Die Uebergangszeit einer Szene ist jetzt einstellbar. Sie lag als verstecktes Feld im Szenenformular: gespeichert und geprueft, aber ueber die Oberflaeche nicht erreichbar. Sie steht nun sichtbar am Ende der Abschaltphase - beschriftet, mit Hilfeverweis und mit demselben Zeitfeld-Komfort wie die uebrigen Dauern. Wertebereich und Serverpruefung bleiben unveraendert bei 0,0 bis 60,0 s; 0 schaltet hart um.",
+    "version":  "0.1.103",
+    "bin":  "knx-led-controller-16m_0.1.103.bin",
+    "file":  "knx-led-controller-16m_0.1.103.bin",
+    "sha256":  "c52ab222ccb3bcd986a4e60a37de190246903d796b771f1dbbfbe3d2ac35ce34",
+    "message":  "Helligkeitssperre: Sie ist ein gehaltener Zustand und wurde nur beim Eintreffen eines Melder-Telegramms bewertet. Wer Schwelle oder Vergleichsrichtung aenderte, sah beliebig lange den alten Zustand - die Seite meldete frei, obwohl der Messwert klar ueber der neuen Schwelle lag. Der zuletzt empfangene Wert wird jetzt nach jeder Aktivierung neu bewertet. Ausserdem: Der Begruendungssatz nennt Messwert und Schwelle, und der Kachelpuffer war zu klein - der Hinweis darunter brach mitten im Wort ab.",
     "http_code":  200
 }

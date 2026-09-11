@@ -1,6 +1,13 @@
 {
     "items":  [
                   {
+                      "version":  "0.1.103",
+                      "bin":  "knx-led-controller-16m-w_0.1.103.bin",
+                      "sha256":  "9054a557aa5c5d269cac2090a7bb39a5e61ce2d7c6ce653e2aba272ed586388b",
+                      "date":  "2026-09-11",
+                      "note":  "Helligkeitssperre: Sie ist ein gehaltener Zustand und wurde nur beim Eintreffen eines Melder-Telegramms bewertet. Wer Schwelle oder Vergleichsrichtung aenderte, sah beliebig lange den alten Zustand - die Seite meldete frei, obwohl der Messwert klar ueber der neuen Schwelle lag. Der zuletzt empfangene Wert wird jetzt nach jeder Aktivierung neu bewertet. Ausserdem: Der Begruendungssatz nennt Messwert und Schwelle, und der Kachelpuffer war zu klein - der Hinweis darunter brach mitten im Wort ab."
+                  },
+                  {
                       "version":  "0.1.102",
                       "bin":  "knx-led-controller-16m-w_0.1.102.bin",
                       "sha256":  "20531f0141a59f48f49a1303e8893835e67ba603d8b4438c01bdcc6fdedb3a0b",
@@ -27,13 +34,6 @@
                       "sha256":  "54af72fcd86824576102ea8f76ee8c41e01ca344a0b6e2417f77b30ba5e82b20",
                       "date":  "2026-09-10",
                       "note":  "Leistungskachel der Startseite: Sie zeigte nur den dimmbaren Farbstrom der LEDs, verglich ihn aber mit der sicheren Grenze fuer den GESAMTstrom. Bei ausgeschalteten LEDs stand dort 0,00 A, obwohl Basisstrom und LED-Standby mehrere Ampere ausmachen. Zaehler und Prozentbalken rechnen jetzt mit controller_total_ma - derselben Groesse, gegen die die Firmware auch wirklich begrenzt. Seitenaufbau und Live-Aktualisierung sind gleich verdrahtet."
-                  },
-                  {
-                      "version":  "0.1.97",
-                      "bin":  "knx-led-controller-16m-w_0.1.97.bin",
-                      "sha256":  "1611f67e8d8cdd7cc3231435579b282988870593953fb9c1f277c907e43a5003",
-                      "date":  "2026-09-10",
-                      "note":  "Szenen: Der Uebergang von einer bewegten Hauptphase in die Abschaltphase blitzt nicht mehr auf. Bisher nahm jeder raeumliche Aus-Effekt ein volles Band an; bei Hauptphase Welle oder Lauflicht sprang deshalb erst der ganze Strang an und wurde dann weggewischt. Die Hauptanimation laeuft jetzt auf ihrer fortlaufenden Zeitachse weiter, der Aus-Effekt wirkt nur noch als Maske darueber. Danach folgt unveraendert die Sanft-Aus-Rampe. Statische Hauptphasen verhalten sich exakt wie bisher."
                   }
               ]
 }
