@@ -1,6 +1,13 @@
 {
     "items":  [
                   {
+                      "version":  "0.1.102",
+                      "bin":  "knx-led-controller-16m_0.1.102.bin",
+                      "sha256":  "c58cda0015c62a11cc71b8c4a480bc140606b06a5815a3cbe874ab61c2632489",
+                      "date":  "2026-09-11",
+                      "note":  "Die Uebergangszeit einer Szene ist jetzt einstellbar. Sie lag als verstecktes Feld im Szenenformular: gespeichert und geprueft, aber ueber die Oberflaeche nicht erreichbar. Sie steht nun sichtbar am Ende der Abschaltphase - beschriftet, mit Hilfeverweis und mit demselben Zeitfeld-Komfort wie die uebrigen Dauern. Wertebereich und Serverpruefung bleiben unveraendert bei 0,0 bis 60,0 s; 0 schaltet hart um."
+                  },
+                  {
                       "version":  "0.1.100",
                       "bin":  "knx-led-controller-16m_0.1.100.bin",
                       "sha256":  "600ed0fd2fce6310cf405bd4c73bf849d29435b90d44a930e9022c5cbf90dc7d",
@@ -27,13 +34,6 @@
                       "sha256":  "289ff4576fc1d94b62134ef4c28343f4f1f372ce04e936cd8254ef6223e00ab0",
                       "date":  "2026-09-10",
                       "note":  "Szenen: Der Uebergang von einer bewegten Hauptphase in die Abschaltphase blitzt nicht mehr auf. Bisher nahm jeder raeumliche Aus-Effekt ein volles Band an; bei Hauptphase Welle oder Lauflicht sprang deshalb erst der ganze Strang an und wurde dann weggewischt. Die Hauptanimation laeuft jetzt auf ihrer fortlaufenden Zeitachse weiter, der Aus-Effekt wirkt nur noch als Maske darueber. Danach folgt unveraendert die Sanft-Aus-Rampe. Statische Hauptphasen verhalten sich exakt wie bisher."
-                  },
-                  {
-                      "version":  "0.1.96",
-                      "bin":  "knx-led-controller-16m_0.1.96.bin",
-                      "sha256":  "57be5ad5e1bd2c74ee7fd63aa9b078f550c5a03886ef8123a50ca736f357a13e",
-                      "date":  "2026-09-10",
-                      "note":  "Drei Laufzeitkorrekturen: Ein absolutes KNX-Farbtelegramm auf Schwarz laeuft jetzt ueber den vorhandenen Abschalt-/Zielpfad; Szene, sichtbares Bild und Speichervormerkung bleiben konsistent, ein abgelehnter Auftrag hinterlaesst keine halbe Aenderung. Startzeitsperren gelten nur noch fuer wirklich ausstehende Termine - Dauer-Animationen frieren nach 2^31 ms (rund 24,9 Tage) nicht mehr ein. Eine absolute KNX-Helligkeit oder Farbe zieht alle aktiven Ausgaenge derselben Szene nach, ohne Szene, Zeitbasis oder lokale Uebersteuerungen zu veraendern."
                   }
               ]
 }

@@ -1,11 +1,11 @@
 {
-    "url":  "knx-led-controller-16m-w_0.1.100.bin",
+    "url":  "knx-led-controller-16m-w_0.1.102.bin",
     "check_ok":  true,
     "update_available":  false,
-    "version":  "0.1.100",
-    "bin":  "knx-led-controller-16m-w_0.1.100.bin",
-    "file":  "knx-led-controller-16m-w_0.1.100.bin",
-    "sha256":  "f4d23a6faac4dea61b6f48e6af27547d8f0dd3d6c3dba6b2e141e844a1ad74ef",
-    "message":  "Weicher Farbuebergang beim Phasenwechsel. Mit einer eigenen Aufbau- oder Abschaltfarbe sprang das Licht bisher schlagartig um. Der Uebergang liegt jetzt am Anfang der Zielphase: Aufbau blendet in die Hauptphase, die Hauptphase in das Abschalten. Geblendet wird die Grundfarbe der Phase, ein Helligkeitsunterschied wandert damit mit. Die Dauer ist eine globale Vorgabe auf der Szenenseite, Standard 500 ms, 0 schaltet hart um wie bisher. Effekt, Bewegung und die Sanft-Ein/Aus-Rampen bleiben unveraendert. Konfigurationsschema 79.",
+    "version":  "0.1.102",
+    "bin":  "knx-led-controller-16m-w_0.1.102.bin",
+    "file":  "knx-led-controller-16m-w_0.1.102.bin",
+    "sha256":  "20531f0141a59f48f49a1303e8893835e67ba603d8b4438c01bdcc6fdedb3a0b",
+    "message":  "Die Uebergangszeit einer Szene ist jetzt einstellbar. Sie lag als verstecktes Feld im Szenenformular: gespeichert und geprueft, aber ueber die Oberflaeche nicht erreichbar. Sie steht nun sichtbar am Ende der Abschaltphase - beschriftet, mit Hilfeverweis und mit demselben Zeitfeld-Komfort wie die uebrigen Dauern. Wertebereich und Serverpruefung bleiben unveraendert bei 0,0 bis 60,0 s; 0 schaltet hart um.",
     "http_code":  200
 }
