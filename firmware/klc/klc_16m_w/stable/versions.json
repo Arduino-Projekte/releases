@@ -1,6 +1,13 @@
 {
     "items":  [
                   {
+                      "version":  "0.1.106",
+                      "bin":  "knx-led-controller-16m-w_0.1.106.bin",
+                      "sha256":  "c1941c989dbeb34d64ed39016367c2699bc8c349a7c3360abe71a2b5bd1e6007",
+                      "date":  "2026-09-12",
+                      "note":  "Strommodell fuer WS2815: Der 12-V-Chip fuehrt seine Farbkanaele ueber EINEN geregelten Strompfad - Vollweiss zieht denselben Strom wie eine einzelne Vollfarbe, nicht das Dreifache. Gemessen an 689 Pixeln: Weiss 5,37 A, Gruen 5,45 A, waehrend die additive Rechnung 18,6 A behauptete und deshalb grundlos auf einen Bruchteil drosselte. Die Leistungsrechnung folgt bei solchen Chips jetzt dem groessten Kanal je Pixel. Das Modell haengt am LED-Profil, nicht an der Konfiguration - kein neues Feld, kein Schemawechsel. Nur WS2815 ist umgestellt."
+                  },
+                  {
                       "version":  "0.1.105",
                       "bin":  "knx-led-controller-16m-w_0.1.105.bin",
                       "sha256":  "548b4be17176cf831f3f95a96158be3eded62cd8d027fed68d4eb9254d9adebe",
@@ -27,13 +34,6 @@
                       "sha256":  "20531f0141a59f48f49a1303e8893835e67ba603d8b4438c01bdcc6fdedb3a0b",
                       "date":  "2026-09-11",
                       "note":  "Die Uebergangszeit einer Szene ist jetzt einstellbar. Sie lag als verstecktes Feld im Szenenformular: gespeichert und geprueft, aber ueber die Oberflaeche nicht erreichbar. Sie steht nun sichtbar am Ende der Abschaltphase - beschriftet, mit Hilfeverweis und mit demselben Zeitfeld-Komfort wie die uebrigen Dauern. Wertebereich und Serverpruefung bleiben unveraendert bei 0,0 bis 60,0 s; 0 schaltet hart um."
-                  },
-                  {
-                      "version":  "0.1.100",
-                      "bin":  "knx-led-controller-16m-w_0.1.100.bin",
-                      "sha256":  "f4d23a6faac4dea61b6f48e6af27547d8f0dd3d6c3dba6b2e141e844a1ad74ef",
-                      "date":  "2026-09-10",
-                      "note":  "Weicher Farbuebergang beim Phasenwechsel. Mit einer eigenen Aufbau- oder Abschaltfarbe sprang das Licht bisher schlagartig um. Der Uebergang liegt jetzt am Anfang der Zielphase: Aufbau blendet in die Hauptphase, die Hauptphase in das Abschalten. Geblendet wird die Grundfarbe der Phase, ein Helligkeitsunterschied wandert damit mit. Die Dauer ist eine globale Vorgabe auf der Szenenseite, Standard 500 ms, 0 schaltet hart um wie bisher. Effekt, Bewegung und die Sanft-Ein/Aus-Rampen bleiben unveraendert. Konfigurationsschema 79."
                   }
               ]
 }
