@@ -1,6 +1,13 @@
 {
     "items":  [
                   {
+                      "version":  "V4.26.9.8.6",
+                      "bin":  "word-clock-IV_V4.26.9.8.6.bin",
+                      "sha256":  "c56df33e0c69106a1d6a14029e4b8802b063ebe13be1bc3f2928e3632b6d06ee",
+                      "date":  "2026-09-12",
+                      "note":  "Logringpuffer ins PSRAM verlagert (45 KB internes RAM frei, behebt TLS-Fehler SSL - Memory allocation failed bei OTA); Wetterabruf gehaertet: Fehlversuch verwirft vorhandene Daten nicht mehr, Retry-Backoff statt voller Intervallpause, verlorene Anfragen nach WLAN-Aussetzern behoben, HTTP-Timeout 3s auf 9s erhoeht"
+                  },
+                  {
                       "version":  "V4.26.9.8.5",
                       "bin":  "word-clock-IV_V4.26.9.8.5.bin",
                       "sha256":  "ef6769a57420c03dfac073d1d8a5dbb504ebe976795f5cf803ddfb0c67ca1611",
