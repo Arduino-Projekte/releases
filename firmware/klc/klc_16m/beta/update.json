@@ -5,7 +5,7 @@
     "version":  "0.1.103",
     "bin":  "knx-led-controller-16m_0.1.103.bin",
     "file":  "knx-led-controller-16m_0.1.103.bin",
-    "sha256":  "c52ab222ccb3bcd986a4e60a37de190246903d796b771f1dbbfbe3d2ac35ce34",
+    "sha256":  "f4849df7dd5e435c71a9f2f62296df76a7c6a781dd46066dfe2e0cb0ef072e75",
     "message":  "Helligkeitssperre: Sie ist ein gehaltener Zustand und wurde nur beim Eintreffen eines Melder-Telegramms bewertet. Wer Schwelle oder Vergleichsrichtung aenderte, sah beliebig lange den alten Zustand - die Seite meldete frei, obwohl der Messwert klar ueber der neuen Schwelle lag. Der zuletzt empfangene Wert wird jetzt nach jeder Aktivierung neu bewertet. Ausserdem: Der Begruendungssatz nennt Messwert und Schwelle, und der Kachelpuffer war zu klein - der Hinweis darunter brach mitten im Wort ab.",
     "http_code":  200
 }
