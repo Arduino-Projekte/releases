@@ -1,11 +1,11 @@
 {
-    "url":  "knx-led-controller-16m-w_0.1.105.bin",
+    "url":  "knx-led-controller-16m-w_0.1.106.bin",
     "check_ok":  true,
     "update_available":  false,
-    "version":  "0.1.105",
-    "bin":  "knx-led-controller-16m-w_0.1.105.bin",
-    "file":  "knx-led-controller-16m-w_0.1.105.bin",
-    "sha256":  "548b4be17176cf831f3f95a96158be3eded62cd8d027fed68d4eb9254d9adebe",
-    "message":  "Begrenzungsanzeige: Wer nur das Controllerlimit anhebt, sah die Drosselung unveraendert weiter, weil eine Power-Gruppe ihr Limit beim Anlegen vom damaligen Controllerlimit erbt und einer spaeteren Aenderung bewusst nicht folgt. Die Leistungsseite nennt diesen Fall jetzt ausdruecklich: welche Gruppe begrenzt, mit welchem Wert, was das Controllerlimit erlauben wuerde. Stromgrenzen werden dabei nie selbsttaetig angehoben. Offen bleibt der englische Werksname einer Gruppe im deutschen Satz - dafuer fehlen Schluessel im Sprachvertrag.",
+    "version":  "0.1.106",
+    "bin":  "knx-led-controller-16m-w_0.1.106.bin",
+    "file":  "knx-led-controller-16m-w_0.1.106.bin",
+    "sha256":  "c1941c989dbeb34d64ed39016367c2699bc8c349a7c3360abe71a2b5bd1e6007",
+    "message":  "Strommodell fuer WS2815: Der 12-V-Chip fuehrt seine Farbkanaele ueber EINEN geregelten Strompfad - Vollweiss zieht denselben Strom wie eine einzelne Vollfarbe, nicht das Dreifache. Gemessen an 689 Pixeln: Weiss 5,37 A, Gruen 5,45 A, waehrend die additive Rechnung 18,6 A behauptete und deshalb grundlos auf einen Bruchteil drosselte. Die Leistungsrechnung folgt bei solchen Chips jetzt dem groessten Kanal je Pixel. Das Modell haengt am LED-Profil, nicht an der Konfiguration - kein neues Feld, kein Schemawechsel. Nur WS2815 ist umgestellt.",
     "http_code":  200
 }
