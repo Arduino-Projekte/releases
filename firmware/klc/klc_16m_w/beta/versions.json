@@ -1,6 +1,13 @@
 {
     "items":  [
                   {
+                      "version":  "0.1.104",
+                      "bin":  "knx-led-controller-16m-w_0.1.104.bin",
+                      "sha256":  "6672dcd8f662a21fc2b8aeabee164c31c790ebbd49ce4330f78c2009f6c99711",
+                      "date":  "2026-09-12",
+                      "note":  "Weisskanal-Schieber blieb bei reinen RGB-Ausgaengen sichtbar: Das hidden-Attribut war gesetzt, aber .klc-color-white traegt display:grid - eine Autorenregel schlaegt das [hidden] des Browsers. Zweitens froren Dimmfaktor und Begrenzungsquelle bei stehendem Bild ein; ein geaendertes Limit wirkte erst beim naechsten Szenenwechsel, auch im DMA-Puffer. Drittens zeigte die Leistungskachel die UNbegrenzte Schaetzung neben der eigenen Grenze - auffaellig nur bei Weiss, weil der Limiter bei Einzelfarben nie eingreift. Default-Stromprofil 20 -\u003e 10 mA/Pixel."
+                  },
+                  {
                       "version":  "0.1.103",
                       "bin":  "knx-led-controller-16m-w_0.1.103.bin",
                       "sha256":  "857db76f00506546d5bbe8afcaa17b8f9d3df7a4b07c3ff032a94638107a3bc9",
@@ -27,13 +34,6 @@
                       "sha256":  "e58ffdab94680310643413bdcfb7e43dde26ae1680b5a3c50e37c051338405c7",
                       "date":  "2026-09-10",
                       "note":  "Leistungsanzeige rechnete nach einer Aenderung von Basisstrom oder LED-Standby nicht neu. Der zwischengespeicherte Laufzeitstand wird nur beim Senden eines LED-Frames erneuert; bei stillstehenden LEDs blieben Kacheln und KNX-Status auf dem alten Stand und widersprachen sich gegenseitig. Basisstrom, LED-Standby und alle Summen werden jetzt bei jeder Abfrage aus der aktuellen Konfiguration nachgerechnet, der gemessene Farbstrom bleibt unangetastet. Ausserdem hat die Hilfe endlich einen eigenen Reiter in der Kopfnavigation."
-                  },
-                  {
-                      "version":  "0.1.98",
-                      "bin":  "knx-led-controller-16m-w_0.1.98.bin",
-                      "sha256":  "54af72fcd86824576102ea8f76ee8c41e01ca344a0b6e2417f77b30ba5e82b20",
-                      "date":  "2026-09-10",
-                      "note":  "Leistungskachel der Startseite: Sie zeigte nur den dimmbaren Farbstrom der LEDs, verglich ihn aber mit der sicheren Grenze fuer den GESAMTstrom. Bei ausgeschalteten LEDs stand dort 0,00 A, obwohl Basisstrom und LED-Standby mehrere Ampere ausmachen. Zaehler und Prozentbalken rechnen jetzt mit controller_total_ma - derselben Groesse, gegen die die Firmware auch wirklich begrenzt. Seitenaufbau und Live-Aktualisierung sind gleich verdrahtet."
                   }
               ]
 }
