@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m_0.1.103.bin",
+                     "url":  "knx-led-controller-16m_0.1.104.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.1.103",
-                     "bin":  "knx-led-controller-16m_0.1.103.bin",
-                     "file":  "knx-led-controller-16m_0.1.103.bin",
-                     "sha256":  "c52ab222ccb3bcd986a4e60a37de190246903d796b771f1dbbfbe3d2ac35ce34",
-                     "message":  "Helligkeitssperre: Sie ist ein gehaltener Zustand und wurde nur beim Eintreffen eines Melder-Telegramms bewertet. Wer Schwelle oder Vergleichsrichtung aenderte, sah beliebig lange den alten Zustand - die Seite meldete frei, obwohl der Messwert klar ueber der neuen Schwelle lag. Der zuletzt empfangene Wert wird jetzt nach jeder Aktivierung neu bewertet. Ausserdem: Der Begruendungssatz nennt Messwert und Schwelle, und der Kachelpuffer war zu klein - der Hinweis darunter brach mitten im Wort ab.",
+                     "version":  "0.1.104",
+                     "bin":  "knx-led-controller-16m_0.1.104.bin",
+                     "file":  "knx-led-controller-16m_0.1.104.bin",
+                     "sha256":  "5f31c3a20f901d6c1ee194dffd444a55fabb662631ac53be32f8c330da8f3f0a",
+                     "message":  "Weisskanal-Schieber blieb bei reinen RGB-Ausgaengen sichtbar: Das hidden-Attribut war gesetzt, aber .klc-color-white traegt display:grid - eine Autorenregel schlaegt das [hidden] des Browsers. Zweitens froren Dimmfaktor und Begrenzungsquelle bei stehendem Bild ein; ein geaendertes Limit wirkte erst beim naechsten Szenenwechsel, auch im DMA-Puffer. Drittens zeigte die Leistungskachel die UNbegrenzte Schaetzung neben der eigenen Grenze - auffaellig nur bei Weiss, weil der Limiter bei Einzelfarben nie eingreift. Default-Stromprofil 20 -\u003e 10 mA/Pixel.",
                      "http_code":  200
                  }
 }
