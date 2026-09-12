@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m_0.1.104.bin",
+                     "url":  "knx-led-controller-16m_0.1.105.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.1.104",
-                     "bin":  "knx-led-controller-16m_0.1.104.bin",
-                     "file":  "knx-led-controller-16m_0.1.104.bin",
-                     "sha256":  "5f31c3a20f901d6c1ee194dffd444a55fabb662631ac53be32f8c330da8f3f0a",
-                     "message":  "Weisskanal-Schieber blieb bei reinen RGB-Ausgaengen sichtbar: Das hidden-Attribut war gesetzt, aber .klc-color-white traegt display:grid - eine Autorenregel schlaegt das [hidden] des Browsers. Zweitens froren Dimmfaktor und Begrenzungsquelle bei stehendem Bild ein; ein geaendertes Limit wirkte erst beim naechsten Szenenwechsel, auch im DMA-Puffer. Drittens zeigte die Leistungskachel die UNbegrenzte Schaetzung neben der eigenen Grenze - auffaellig nur bei Weiss, weil der Limiter bei Einzelfarben nie eingreift. Default-Stromprofil 20 -\u003e 10 mA/Pixel.",
+                     "version":  "0.1.105",
+                     "bin":  "knx-led-controller-16m_0.1.105.bin",
+                     "file":  "knx-led-controller-16m_0.1.105.bin",
+                     "sha256":  "9c66d571b4bc35f97517c0feefb566815c469db143d72e6c7b158fd8e3edb9af",
+                     "message":  "Begrenzungsanzeige: Wer nur das Controllerlimit anhebt, sah die Drosselung unveraendert weiter, weil eine Power-Gruppe ihr Limit beim Anlegen vom damaligen Controllerlimit erbt und einer spaeteren Aenderung bewusst nicht folgt. Die Leistungsseite nennt diesen Fall jetzt ausdruecklich: welche Gruppe begrenzt, mit welchem Wert, was das Controllerlimit erlauben wuerde. Stromgrenzen werden dabei nie selbsttaetig angehoben. Offen bleibt der englische Werksname einer Gruppe im deutschen Satz - dafuer fehlen Schluessel im Sprachvertrag.",
                      "http_code":  200
                  }
 }
