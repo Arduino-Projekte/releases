@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m_0.1.110.bin",
+                     "url":  "knx-led-controller-16m_0.1.112.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.1.110",
-                     "bin":  "knx-led-controller-16m_0.1.110.bin",
-                     "file":  "knx-led-controller-16m_0.1.110.bin",
-                     "sha256":  "bf8a1a98d3d64d36d3afed034a3c9abfbfcc15c92236063a6cdd56521927f65f",
-                     "message":  "Doppelte Betriebsbereit-Lebenszeichen waehrend laufender Sendebestaetigung verhindert. Die Kachel Zustand unter /system zeigt Betriebsbereit Ja/Nein und alle aktuell fehlenden Voraussetzungen aus derselben Pruefung wie der KNX-Status.",
+                     "version":  "0.1.112",
+                     "bin":  "knx-led-controller-16m_0.1.112.bin",
+                     "file":  "knx-led-controller-16m_0.1.112.bin",
+                     "sha256":  "8e39c917aeb840c005bcaae4aba92a885dc478c221cdd688287a5ed4ca964429",
+                     "message":  "Szenenkapazitaet auf 30 reduziert. Unter Szenen begrenzt eine dauerhaft gespeicherte Auswahl die sichtbaren Plaetze auf 1 bis N; ausgeblendete Szenen bleiben erhalten. Bisherige bestaetigte 50er-Szenenbanken bleiben fuer Plaetze 1 bis 30 lesbar.",
                      "http_code":  200
                  }
 }
