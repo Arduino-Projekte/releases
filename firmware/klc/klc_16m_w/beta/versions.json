@@ -1,6 +1,13 @@
 {
     "items":  [
                   {
+                      "version":  "0.1.118",
+                      "bin":  "knx-led-controller-16m-w_0.1.118.bin",
+                      "sha256":  "794af95ea1a47946a27c755ad8ee7b1900c1f480a2d5ab0856fd5f638c4426e2",
+                      "date":  "2026-09-13",
+                      "note":  "Phase-1-Core-JSON-High-Water-Messung mit reduzierter Diagnosebelastung bei weiterhin vollstaendiger Erfassung von Erfolgs- und Fehlerpfaden"
+                  },
+                  {
                       "version":  "0.1.117",
                       "bin":  "knx-led-controller-16m-w_0.1.117.bin",
                       "sha256":  "d8fc992ae22723632d9c36fc1f4f29bceae5d40c5ac2835645a1d47fea1eb2c1",
@@ -27,13 +34,6 @@
                       "sha256":  "07bfd473e0757d3ff4cdc62c25ca8fd39d12bae6b3b4b76eee23e55917ce33b0",
                       "date":  "2026-09-13",
                       "note":  "BAOS-Verbindungsaufbau repariert: Der Resync-Reset wiederholte sich unbegrenzt, belegte den Sendeplatz und sperrte damit den einzigen Ausweg aus. Er ist jetzt begrenzt; danach belegt eine direkte ObjectServer-Abfrage die Verbindung. Beide Verfahren wechseln sich ab, in den ersten 30 Sekunden alle 0,5 statt 5 Sekunden. Damit meldet der Controller nach dem Flashen von selbst Betriebsbereit, ohne erst ein Telegramm vom Bus zu brauchen. Neu unter KNX: Auffrischung von Betriebsbereit einstellbar, 0 sendet nur bei Aenderung (Schema 81). Die Auslastungsfelder stehen dort jetzt in einer eigenen Zeile."
-                  },
-                  {
-                      "version":  "0.1.112",
-                      "bin":  "knx-led-controller-16m-w_0.1.112.bin",
-                      "sha256":  "f599e7aa6e01e73966952277fa8ae5062fb6213363e026aae89f4c463f14c61a",
-                      "date":  "2026-09-13",
-                      "note":  "Szenenkapazitaet auf 30 reduziert. Unter Szenen begrenzt eine dauerhaft gespeicherte Auswahl die sichtbaren Plaetze auf 1 bis N; ausgeblendete Szenen bleiben erhalten. Bisherige bestaetigte 50er-Szenenbanken bleiben fuer Plaetze 1 bis 30 lesbar."
                   }
               ]
 }
