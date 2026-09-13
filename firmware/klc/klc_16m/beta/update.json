@@ -1,11 +1,11 @@
 {
-    "url":  "knx-led-controller-16m_0.1.121.bin",
+    "url":  "knx-led-controller-16m_0.1.122.bin",
     "check_ok":  true,
     "update_available":  false,
-    "version":  "0.1.121",
-    "bin":  "knx-led-controller-16m_0.1.121.bin",
-    "file":  "knx-led-controller-16m_0.1.121.bin",
-    "sha256":  "2215c4528f1c06937dec3be019dc56b612d47c8a468224a50702be03ad61d704",
-    "message":  "Ausgelieferte gzip-CSS-Assets wieder auf die aktuelle Version gezogen; Phase-2a-Dokumentation in docs/LOOP_BUDGET.md zusammengefuehrt",
+    "version":  "0.1.122",
+    "bin":  "knx-led-controller-16m_0.1.122.bin",
+    "file":  "knx-led-controller-16m_0.1.122.bin",
+    "sha256":  "0859d3f35804c7880904f569cc357765a82eec2892e9aed6d78e41bea50f583b",
+    "message":  "/i18n.js ist wieder cachefaehig: der Streamstart ueberschrieb Cache-Control und ETag mit no-store, wodurch die 209-KB-Sprachantwort bei jeder Navigation komplett neu geladen wurde",
     "http_code":  200
 }
