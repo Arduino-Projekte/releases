@@ -1,11 +1,11 @@
 {
-    "url":  "knx-led-controller-16m_0.1.108.bin",
+    "url":  "knx-led-controller-16m_0.1.109.bin",
     "check_ok":  true,
     "update_available":  false,
-    "version":  "0.1.108",
-    "bin":  "knx-led-controller-16m_0.1.108.bin",
-    "file":  "knx-led-controller-16m_0.1.108.bin",
-    "sha256":  "a2feae7854acfe47f0b8504d3dceebd9ebb3a68bb094f96d8f767488e077e416",
-    "message":  "Programmiermodus wird jetzt auch ANGEZEIGT, nicht nur geschaltet: Der Controller liest ServerItem 15 und wertet die ServerItem.Ind des Moduls aus - damit sieht er auch die Programmiertaste am Modul und das Loeschen durch die ETS. Auf der KNX-Seite steht der Zustand als eigene Zeile fuer alle sichtbar, aus zwei Schaltflaechen wurde ein Umschalter. Auf dem Dashboard erscheint unter Gesundheit eine Zeile, solange der Modus aktiv ist - ein vergessener Programmiermodus faellt sonst erst bei der naechsten Inbetriebnahme auf.",
+    "version":  "0.1.109",
+    "bin":  "knx-led-controller-16m_0.1.109.bin",
+    "file":  "knx-led-controller-16m_0.1.109.bin",
+    "sha256":  "4db9b7eb77230a3d907b334735135ceedf4889ce5bd0b26868954e15bea27a48",
+    "message":  "Nach dem Umschalten des Programmiermodus brach die BAOS-Verbindung ab und kam erst nach rund 9 Sekunden zurueck. Grund war eine pauschale 5-Sekunden-Sperre, die nach JEDEM Fehler greift - auch wenn der Controller den Abbruch selbst ausgeloest hat und weiss, dass das Modul lebt. Fuer diesen Fall gilt jetzt dasselbe kurze Fenster wie beim Modulneustart, die Obergrenze faellt von 9,0 auf 4,5 Sekunden. Ausserdem zeigen Startseite und KNX-Seite waehrenddessen \u0027verbindet neu\u0027 statt eines stummen \u0027nicht verbunden\u0027.",
     "http_code":  200
 }
