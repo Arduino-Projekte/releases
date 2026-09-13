@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m_0.1.118.bin",
+                     "url":  "knx-led-controller-16m_0.1.119.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.1.118",
-                     "bin":  "knx-led-controller-16m_0.1.118.bin",
-                     "file":  "knx-led-controller-16m_0.1.118.bin",
-                     "sha256":  "1227d442ec5afcabb8ca4c1d8c43ce35fc56144a1ac69e6c95fc8845ae914f55",
-                     "message":  "Phase-1-Core-JSON-High-Water-Messung mit reduzierter Diagnosebelastung bei weiterhin vollstaendiger Erfassung von Erfolgs- und Fehlerpfaden",
+                     "version":  "0.1.119",
+                     "bin":  "knx-led-controller-16m_0.1.119.bin",
+                     "file":  "knx-led-controller-16m_0.1.119.bin",
+                     "sha256":  "42b25c5424120aab7c692054223d886b853abf6055b9f61c7079c2dd326e2cf3",
+                     "message":  "Phase 2a misst pro gestreamter HTTP-Antwort Bytezahl, Transport-Callback-Zeit, Spitzenblock und Restzeit; Ringpuffer und Route-Maxima bleiben bis zum Performance-Reset erhalten",
                      "http_code":  200
                  }
 }
