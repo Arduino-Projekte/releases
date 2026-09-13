@@ -1,6 +1,13 @@
 {
     "items":  [
                   {
+                      "version":  "0.1.120",
+                      "bin":  "knx-led-controller-16m-w_0.1.120.bin",
+                      "sha256":  "da662ba3b048bd00853bc2ce77ec5fccd79a1876fe927f178f33819d0a7f44ad",
+                      "date":  "2026-09-13",
+                      "note":  "Phase 2a trennt Antwort-Gesamtdauer, Callbackzeit, unmittelbare Socket-Schreibzeit und ehrlichen Non-Socket-Rest; Entscheidungsregel und Diagnoseanzeige wurden entsprechend korrigiert"
+                  },
+                  {
                       "version":  "0.1.119",
                       "bin":  "knx-led-controller-16m-w_0.1.119.bin",
                       "sha256":  "1631ec5898cea97dddf201f7cbd9bbd7fac0f0c7282b3c184175ef6f02de37d2",
@@ -27,13 +34,6 @@
                       "sha256":  "81092c4e6709ef0c6787fde2ce7e1de5dfa7e3ce6d3067cc49bcf2e9a6ad7146",
                       "date":  "2026-09-13",
                       "note":  "Buildfix RAM-Diagnose: RP2040-Linkersymbole typkorrekt als Adressmarken verwenden"
-                  },
-                  {
-                      "version":  "0.1.114",
-                      "bin":  "knx-led-controller-16m-w_0.1.114.bin",
-                      "sha256":  "6ac7dcbe7182209f42ffb614fb9ced0c4d5b1aa587c92a034b90bdb3c396ac71",
-                      "date":  "2026-09-13",
-                      "note":  "BAOS-Verbindungsaufbau repariert: Der Resync-Reset wiederholte sich unbegrenzt, belegte den Sendeplatz und sperrte damit den einzigen Ausweg aus. Er ist jetzt begrenzt; danach belegt eine direkte ObjectServer-Abfrage die Verbindung, und beide Verfahren wechseln sich ab. In den ersten 30 Sekunden wird alle 0,5 statt 5 Sekunden geprueft. Damit meldet der Controller nach dem Flashen von selbst Betriebsbereit, ohne erst ein Telegramm vom Bus zu brauchen. Neu: Auffrischung von Betriebsbereit einstellbar, 0 sendet nur bei Aenderung. Der Schalter KNX aktiv ist ersatzlos entfallen - KNX ist der Zweck des Geraets und laesst sich nicht mehr abschalten (Schema 82)."
                   }
               ]
 }
