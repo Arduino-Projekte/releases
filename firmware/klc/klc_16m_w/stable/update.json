@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m-w_0.1.119.bin",
+                     "url":  "knx-led-controller-16m-w_0.1.120.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.1.119",
-                     "bin":  "knx-led-controller-16m-w_0.1.119.bin",
-                     "file":  "knx-led-controller-16m-w_0.1.119.bin",
-                     "sha256":  "1631ec5898cea97dddf201f7cbd9bbd7fac0f0c7282b3c184175ef6f02de37d2",
-                     "message":  "Phase 2a misst pro gestreamter HTTP-Antwort Bytezahl, Transport-Callback-Zeit, Spitzenblock und Restzeit; Ringpuffer und Route-Maxima bleiben bis zum Performance-Reset erhalten",
+                     "version":  "0.1.120",
+                     "bin":  "knx-led-controller-16m-w_0.1.120.bin",
+                     "file":  "knx-led-controller-16m-w_0.1.120.bin",
+                     "sha256":  "da662ba3b048bd00853bc2ce77ec5fccd79a1876fe927f178f33819d0a7f44ad",
+                     "message":  "Phase 2a trennt Antwort-Gesamtdauer, Callbackzeit, unmittelbare Socket-Schreibzeit und ehrlichen Non-Socket-Rest; Entscheidungsregel und Diagnoseanzeige wurden entsprechend korrigiert",
                      "http_code":  200
                  }
 }
