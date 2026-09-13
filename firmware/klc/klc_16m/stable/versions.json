@@ -1,6 +1,13 @@
 {
     "items":  [
                   {
+                      "version":  "0.1.113",
+                      "bin":  "knx-led-controller-16m_0.1.113.bin",
+                      "sha256":  "d7e8de56d7c436b564455350852722fb518be2ba712afd4739701b741f4b18b0",
+                      "date":  "2026-09-13",
+                      "note":  "BAOS-Verbindungsaufbau repariert: Der Resync-Reset wiederholte sich unbegrenzt, belegte den Sendeplatz und sperrte damit den einzigen Ausweg aus. Er ist jetzt begrenzt; danach belegt eine direkte ObjectServer-Abfrage die Verbindung. Beide Verfahren wechseln sich ab, in den ersten 30 Sekunden alle 0,5 statt 5 Sekunden. Damit meldet der Controller nach dem Flashen von selbst Betriebsbereit, ohne erst ein Telegramm vom Bus zu brauchen. Neu unter KNX: Auffrischung von Betriebsbereit einstellbar, 0 sendet nur bei Aenderung (Schema 81). Die Auslastungsfelder stehen dort jetzt in einer eigenen Zeile."
+                  },
+                  {
                       "version":  "0.1.112",
                       "bin":  "knx-led-controller-16m_0.1.112.bin",
                       "sha256":  "8e39c917aeb840c005bcaae4aba92a885dc478c221cdd688287a5ed4ca964429",
@@ -27,13 +34,6 @@
                       "sha256":  "a2feae7854acfe47f0b8504d3dceebd9ebb3a68bb094f96d8f767488e077e416",
                       "date":  "2026-09-13",
                       "note":  "Programmiermodus wird jetzt auch ANGEZEIGT, nicht nur geschaltet: Der Controller liest ServerItem 15 und wertet die ServerItem.Ind des Moduls aus - damit sieht er auch die Programmiertaste am Modul und das Loeschen durch die ETS. Auf der KNX-Seite steht der Zustand als eigene Zeile fuer alle sichtbar, aus zwei Schaltflaechen wurde ein Umschalter. Auf dem Dashboard erscheint unter Gesundheit eine Zeile, solange der Modus aktiv ist - ein vergessener Programmiermodus faellt sonst erst bei der naechsten Inbetriebnahme auf."
-                  },
-                  {
-                      "version":  "0.1.107",
-                      "bin":  "knx-led-controller-16m_0.1.107.bin",
-                      "sha256":  "409d2ac503b334fab25a1be5b34917a69f9ea0fa7e5370d61637a96f91551d8e",
-                      "date":  "2026-09-13",
-                      "note":  "KNX-Seite bekommt vier Schaltflaechen fuer Endpunkte, die es laengst gab, die aber von keiner Seite aus erreichbar waren: BAOS-Verbindung neu aufbauen (FT1.2-Reset plus Firmware-Abfrage), Datenpunkte abfragen und Programmiermodus ein/aus. Letzterer ist neu implementiert als SetServerItem.Req auf ServerItem 15 und ersetzt die Programmiertaste am Modul. Die Datenpunktabfrage reicht jetzt bis DP 9 statt bis DP 7 - Praesenz-Byte und Helligkeitseingang lagen ausserhalb, ausgerechnet die beiden, bei denen sich die Frage nach der ETS-Bindung stellt."
                   }
               ]
 }
