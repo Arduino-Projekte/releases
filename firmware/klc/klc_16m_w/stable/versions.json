@@ -1,6 +1,13 @@
 {
     "items":  [
                   {
+                      "version":  "0.1.117",
+                      "bin":  "knx-led-controller-16m-w_0.1.117.bin",
+                      "sha256":  "d8fc992ae22723632d9c36fc1f4f29bceae5d40c5ac2835645a1d47fea1eb2c1",
+                      "date":  "2026-09-13",
+                      "note":  "Phase-1-Messgrundlage korrigiert: messneutraler Reset, vollstaendige RAM-High-Water-Pfade, robuste Langzeitzaehler und klare Stackdiagnose"
+                  },
+                  {
                       "version":  "0.1.116",
                       "bin":  "knx-led-controller-16m-w_0.1.116.bin",
                       "sha256":  "81092c4e6709ef0c6787fde2ce7e1de5dfa7e3ce6d3067cc49bcf2e9a6ad7146",
@@ -27,13 +34,6 @@
                       "sha256":  "e1c1e566f005fcac594a860c0b0566a4a27fab534ce9d01bb716808701ea6d89",
                       "date":  "2026-09-13",
                       "note":  "Szenenkapazitaet auf 30 reduziert. Unter Szenen begrenzt eine dauerhaft gespeicherte Auswahl die sichtbaren Plaetze auf 1 bis N; ausgeblendete Szenen bleiben erhalten. Bisherige bestaetigte 50er-Szenenbanken bleiben fuer Plaetze 1 bis 30 lesbar."
-                  },
-                  {
-                      "version":  "0.1.110",
-                      "bin":  "knx-led-controller-16m-w_0.1.110.bin",
-                      "sha256":  "2b2427b6d46caced60db1c26531660bd9fe1971b0b99c1e3f6d017fe7845dcc8",
-                      "date":  "2026-09-13",
-                      "note":  "Doppelte Betriebsbereit-Lebenszeichen waehrend laufender Sendebestaetigung verhindert. Die Kachel Zustand unter /system zeigt Betriebsbereit Ja/Nein und alle aktuell fehlenden Voraussetzungen aus derselben Pruefung wie der KNX-Status."
                   }
               ]
 }
