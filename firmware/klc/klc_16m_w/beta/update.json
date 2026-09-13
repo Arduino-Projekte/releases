@@ -1,11 +1,11 @@
 {
-    "url":  "knx-led-controller-16m-w_0.1.106.bin",
+    "url":  "knx-led-controller-16m-w_0.1.107.bin",
     "check_ok":  true,
     "update_available":  false,
-    "version":  "0.1.106",
-    "bin":  "knx-led-controller-16m-w_0.1.106.bin",
-    "file":  "knx-led-controller-16m-w_0.1.106.bin",
-    "sha256":  "c1941c989dbeb34d64ed39016367c2699bc8c349a7c3360abe71a2b5bd1e6007",
-    "message":  "Strommodell fuer WS2815: Der 12-V-Chip fuehrt seine Farbkanaele ueber EINEN geregelten Strompfad - Vollweiss zieht denselben Strom wie eine einzelne Vollfarbe, nicht das Dreifache. Gemessen an 689 Pixeln: Weiss 5,37 A, Gruen 5,45 A, waehrend die additive Rechnung 18,6 A behauptete und deshalb grundlos auf einen Bruchteil drosselte. Die Leistungsrechnung folgt bei solchen Chips jetzt dem groessten Kanal je Pixel. Das Modell haengt am LED-Profil, nicht an der Konfiguration - kein neues Feld, kein Schemawechsel. Nur WS2815 ist umgestellt.",
+    "version":  "0.1.107",
+    "bin":  "knx-led-controller-16m-w_0.1.107.bin",
+    "file":  "knx-led-controller-16m-w_0.1.107.bin",
+    "sha256":  "013eab7e281bee59df0c877086ac2d8a0b1600c2f96dfdece3b9dfbf04f26da8",
+    "message":  "KNX-Seite bekommt vier Schaltflaechen fuer Endpunkte, die es laengst gab, die aber von keiner Seite aus erreichbar waren: BAOS-Verbindung neu aufbauen (FT1.2-Reset plus Firmware-Abfrage), Datenpunkte abfragen und Programmiermodus ein/aus. Letzterer ist neu implementiert als SetServerItem.Req auf ServerItem 15 und ersetzt die Programmiertaste am Modul. Die Datenpunktabfrage reicht jetzt bis DP 9 statt bis DP 7 - Praesenz-Byte und Helligkeitseingang lagen ausserhalb, ausgerechnet die beiden, bei denen sich die Frage nach der ETS-Bindung stellt.",
     "http_code":  200
 }
