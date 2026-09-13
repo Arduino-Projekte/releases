@@ -1,6 +1,13 @@
 {
     "items":  [
                   {
+                      "version":  "0.1.122",
+                      "bin":  "knx-led-controller-16m_0.1.122.bin",
+                      "sha256":  "0859d3f35804c7880904f569cc357765a82eec2892e9aed6d78e41bea50f583b",
+                      "date":  "2026-09-13",
+                      "note":  "/i18n.js ist wieder cachefaehig: der Streamstart ueberschrieb Cache-Control und ETag mit no-store, wodurch die 209-KB-Sprachantwort bei jeder Navigation komplett neu geladen wurde"
+                  },
+                  {
                       "version":  "0.1.121",
                       "bin":  "knx-led-controller-16m_0.1.121.bin",
                       "sha256":  "2215c4528f1c06937dec3be019dc56b612d47c8a468224a50702be03ad61d704",
@@ -27,13 +34,6 @@
                       "sha256":  "1227d442ec5afcabb8ca4c1d8c43ce35fc56144a1ac69e6c95fc8845ae914f55",
                       "date":  "2026-09-13",
                       "note":  "Phase-1-Core-JSON-High-Water-Messung mit reduzierter Diagnosebelastung bei weiterhin vollstaendiger Erfassung von Erfolgs- und Fehlerpfaden"
-                  },
-                  {
-                      "version":  "0.1.117",
-                      "bin":  "knx-led-controller-16m_0.1.117.bin",
-                      "sha256":  "8efae1603e67c9122022d383fd3fec2d01c2d85dd8d8e1e2a458515225717174",
-                      "date":  "2026-09-13",
-                      "note":  "Phase-1-Messgrundlage korrigiert: messneutraler Reset, vollstaendige RAM-High-Water-Pfade, robuste Langzeitzaehler und klare Stackdiagnose"
                   }
               ]
 }
