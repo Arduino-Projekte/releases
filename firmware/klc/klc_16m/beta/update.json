@@ -1,11 +1,11 @@
 {
-    "url":  "knx-led-controller-16m_0.1.109.bin",
+    "url":  "knx-led-controller-16m_0.1.110.bin",
     "check_ok":  true,
     "update_available":  false,
-    "version":  "0.1.109",
-    "bin":  "knx-led-controller-16m_0.1.109.bin",
-    "file":  "knx-led-controller-16m_0.1.109.bin",
-    "sha256":  "4db9b7eb77230a3d907b334735135ceedf4889ce5bd0b26868954e15bea27a48",
-    "message":  "Nach dem Umschalten des Programmiermodus brach die BAOS-Verbindung ab und kam erst nach rund 9 Sekunden zurueck. Grund war eine pauschale 5-Sekunden-Sperre, die nach JEDEM Fehler greift - auch wenn der Controller den Abbruch selbst ausgeloest hat und weiss, dass das Modul lebt. Fuer diesen Fall gilt jetzt dasselbe kurze Fenster wie beim Modulneustart, die Obergrenze faellt von 9,0 auf 4,5 Sekunden. Ausserdem zeigen Startseite und KNX-Seite waehrenddessen \u0027verbindet neu\u0027 statt eines stummen \u0027nicht verbunden\u0027.",
+    "version":  "0.1.110",
+    "bin":  "knx-led-controller-16m_0.1.110.bin",
+    "file":  "knx-led-controller-16m_0.1.110.bin",
+    "sha256":  "bf8a1a98d3d64d36d3afed034a3c9abfbfcc15c92236063a6cdd56521927f65f",
+    "message":  "Doppelte Betriebsbereit-Lebenszeichen waehrend laufender Sendebestaetigung verhindert. Die Kachel Zustand unter /system zeigt Betriebsbereit Ja/Nein und alle aktuell fehlenden Voraussetzungen aus derselben Pruefung wie der KNX-Status.",
     "http_code":  200
 }
