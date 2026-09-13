@@ -1,6 +1,13 @@
 {
     "items":  [
                   {
+                      "version":  "0.1.121",
+                      "bin":  "knx-led-controller-16m-w_0.1.121.bin",
+                      "sha256":  "9da73507746d3575d7792ec9b91bf4d338ce2d397334581e8f56862cf3963467",
+                      "date":  "2026-09-13",
+                      "note":  "Ausgelieferte gzip-CSS-Assets wieder auf die aktuelle Version gezogen; Phase-2a-Dokumentation in docs/LOOP_BUDGET.md zusammengefuehrt"
+                  },
+                  {
                       "version":  "0.1.120",
                       "bin":  "knx-led-controller-16m-w_0.1.120.bin",
                       "sha256":  "da662ba3b048bd00853bc2ce77ec5fccd79a1876fe927f178f33819d0a7f44ad",
@@ -27,13 +34,6 @@
                       "sha256":  "d8fc992ae22723632d9c36fc1f4f29bceae5d40c5ac2835645a1d47fea1eb2c1",
                       "date":  "2026-09-13",
                       "note":  "Phase-1-Messgrundlage korrigiert: messneutraler Reset, vollstaendige RAM-High-Water-Pfade, robuste Langzeitzaehler und klare Stackdiagnose"
-                  },
-                  {
-                      "version":  "0.1.116",
-                      "bin":  "knx-led-controller-16m-w_0.1.116.bin",
-                      "sha256":  "81092c4e6709ef0c6787fde2ce7e1de5dfa7e3ce6d3067cc49bcf2e9a6ad7146",
-                      "date":  "2026-09-13",
-                      "note":  "Buildfix RAM-Diagnose: RP2040-Linkersymbole typkorrekt als Adressmarken verwenden"
                   }
               ]
 }
