@@ -1,6 +1,13 @@
 {
     "items":  [
                   {
+                      "version":  "0.1.112",
+                      "bin":  "knx-led-controller-16m_0.1.112.bin",
+                      "sha256":  "8e39c917aeb840c005bcaae4aba92a885dc478c221cdd688287a5ed4ca964429",
+                      "date":  "2026-09-13",
+                      "note":  "Szenenkapazitaet auf 30 reduziert. Unter Szenen begrenzt eine dauerhaft gespeicherte Auswahl die sichtbaren Plaetze auf 1 bis N; ausgeblendete Szenen bleiben erhalten. Bisherige bestaetigte 50er-Szenenbanken bleiben fuer Plaetze 1 bis 30 lesbar."
+                  },
+                  {
                       "version":  "0.1.110",
                       "bin":  "knx-led-controller-16m_0.1.110.bin",
                       "sha256":  "bf8a1a98d3d64d36d3afed034a3c9abfbfcc15c92236063a6cdd56521927f65f",
@@ -27,13 +34,6 @@
                       "sha256":  "409d2ac503b334fab25a1be5b34917a69f9ea0fa7e5370d61637a96f91551d8e",
                       "date":  "2026-09-13",
                       "note":  "KNX-Seite bekommt vier Schaltflaechen fuer Endpunkte, die es laengst gab, die aber von keiner Seite aus erreichbar waren: BAOS-Verbindung neu aufbauen (FT1.2-Reset plus Firmware-Abfrage), Datenpunkte abfragen und Programmiermodus ein/aus. Letzterer ist neu implementiert als SetServerItem.Req auf ServerItem 15 und ersetzt die Programmiertaste am Modul. Die Datenpunktabfrage reicht jetzt bis DP 9 statt bis DP 7 - Praesenz-Byte und Helligkeitseingang lagen ausserhalb, ausgerechnet die beiden, bei denen sich die Frage nach der ETS-Bindung stellt."
-                  },
-                  {
-                      "version":  "0.1.106",
-                      "bin":  "knx-led-controller-16m_0.1.106.bin",
-                      "sha256":  "8071b78363dcc6652ebe2780e2a6de3cc1d6f6bcf72d1beb545b2a11c0625183",
-                      "date":  "2026-09-12",
-                      "note":  "Strommodell fuer WS2815: Der 12-V-Chip fuehrt seine Farbkanaele ueber EINEN geregelten Strompfad - Vollweiss zieht denselben Strom wie eine einzelne Vollfarbe, nicht das Dreifache. Gemessen an 689 Pixeln: Weiss 5,37 A, Gruen 5,45 A, waehrend die additive Rechnung 18,6 A behauptete und deshalb grundlos auf einen Bruchteil drosselte. Die Leistungsrechnung folgt bei solchen Chips jetzt dem groessten Kanal je Pixel. Das Modell haengt am LED-Profil, nicht an der Konfiguration - kein neues Feld, kein Schemawechsel. Nur WS2815 ist umgestellt."
                   }
               ]
 }
