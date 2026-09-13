@@ -1,6 +1,13 @@
 {
     "items":  [
                   {
+                      "version":  "0.1.114",
+                      "bin":  "knx-led-controller-16m-w_0.1.114.bin",
+                      "sha256":  "99fc4e27dc78f4e2fa75e419e7c31bcb547aefaa1c6fd10232eb927b429afcd5",
+                      "date":  "2026-09-13",
+                      "note":  "BAOS-Verbindungsaufbau repariert: Der Resync-Reset wiederholte sich unbegrenzt, belegte den Sendeplatz und sperrte damit den einzigen Ausweg aus. Er ist jetzt begrenzt; danach belegt eine direkte ObjectServer-Abfrage die Verbindung. Beide Verfahren wechseln sich ab, in den ersten 30 Sekunden alle 0,5 statt 5 Sekunden. Damit meldet der Controller nach dem Flashen von selbst Betriebsbereit, ohne erst ein Telegramm vom Bus zu brauchen. Neu unter KNX: Auffrischung von Betriebsbereit einstellbar, 0 sendet nur bei Aenderung (Schema 81). Die Auslastungsfelder stehen dort jetzt in einer eigenen Zeile."
+                  },
+                  {
                       "version":  "0.1.113",
                       "bin":  "knx-led-controller-16m-w_0.1.113.bin",
                       "sha256":  "84825da573cbe6724891b105271d93dd509755e4863bc722aab497f55feae17a",
@@ -27,13 +34,6 @@
                       "sha256":  "e8442453cf6790068a638880a6a153befb5c0ada7eefa9126ffa677119483919",
                       "date":  "2026-09-13",
                       "note":  "Nach dem Umschalten des Programmiermodus brach die BAOS-Verbindung ab und kam erst nach rund 9 Sekunden zurueck. Grund war eine pauschale 5-Sekunden-Sperre, die nach JEDEM Fehler greift - auch wenn der Controller den Abbruch selbst ausgeloest hat und weiss, dass das Modul lebt. Fuer diesen Fall gilt jetzt dasselbe kurze Fenster wie beim Modulneustart, die Obergrenze faellt von 9,0 auf 4,5 Sekunden. Ausserdem zeigen Startseite und KNX-Seite waehrenddessen \u0027verbindet neu\u0027 statt eines stummen \u0027nicht verbunden\u0027."
-                  },
-                  {
-                      "version":  "0.1.108",
-                      "bin":  "knx-led-controller-16m-w_0.1.108.bin",
-                      "sha256":  "49c35b4ae92cef03ab72ccd881897801bbf085dc2ff74182e0850b7ba822c86b",
-                      "date":  "2026-09-13",
-                      "note":  "Programmiermodus wird jetzt auch ANGEZEIGT, nicht nur geschaltet: Der Controller liest ServerItem 15 und wertet die ServerItem.Ind des Moduls aus - damit sieht er auch die Programmiertaste am Modul und das Loeschen durch die ETS. Auf der KNX-Seite steht der Zustand als eigene Zeile fuer alle sichtbar, aus zwei Schaltflaechen wurde ein Umschalter. Auf dem Dashboard erscheint unter Gesundheit eine Zeile, solange der Modus aktiv ist - ein vergessener Programmiermodus faellt sonst erst bei der naechsten Inbetriebnahme auf."
                   }
               ]
 }
