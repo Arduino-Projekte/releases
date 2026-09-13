@@ -1,11 +1,11 @@
 {
-    "url":  "knx-led-controller-16m_0.1.112.bin",
+    "url":  "knx-led-controller-16m_0.1.113.bin",
     "check_ok":  true,
     "update_available":  false,
-    "version":  "0.1.112",
-    "bin":  "knx-led-controller-16m_0.1.112.bin",
-    "file":  "knx-led-controller-16m_0.1.112.bin",
-    "sha256":  "415daba57f47bcc8d461f4f23c761fb99e3299ecdb7f7c5bbeb44563887153df",
-    "message":  "Szenenkapazitaet auf 30 reduziert. Unter Szenen begrenzt eine dauerhaft gespeicherte Auswahl die sichtbaren Plaetze auf 1 bis N; ausgeblendete Szenen bleiben erhalten. Bisherige bestaetigte 50er-Szenenbanken bleiben fuer Plaetze 1 bis 30 lesbar.",
+    "version":  "0.1.113",
+    "bin":  "knx-led-controller-16m_0.1.113.bin",
+    "file":  "knx-led-controller-16m_0.1.113.bin",
+    "sha256":  "d7e8de56d7c436b564455350852722fb518be2ba712afd4739701b741f4b18b0",
+    "message":  "BAOS-Verbindungsaufbau repariert: Der Resync-Reset wiederholte sich unbegrenzt, belegte den Sendeplatz und sperrte damit den einzigen Ausweg aus. Er ist jetzt begrenzt; danach belegt eine direkte ObjectServer-Abfrage die Verbindung. Beide Verfahren wechseln sich ab, in den ersten 30 Sekunden alle 0,5 statt 5 Sekunden. Damit meldet der Controller nach dem Flashen von selbst Betriebsbereit, ohne erst ein Telegramm vom Bus zu brauchen. Neu unter KNX: Auffrischung von Betriebsbereit einstellbar, 0 sendet nur bei Aenderung (Schema 81). Die Auslastungsfelder stehen dort jetzt in einer eigenen Zeile.",
     "http_code":  200
 }
