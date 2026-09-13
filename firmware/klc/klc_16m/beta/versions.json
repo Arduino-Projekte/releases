@@ -1,6 +1,13 @@
 {
     "items":  [
                   {
+                      "version":  "0.1.119",
+                      "bin":  "knx-led-controller-16m_0.1.119.bin",
+                      "sha256":  "42b25c5424120aab7c692054223d886b853abf6055b9f61c7079c2dd326e2cf3",
+                      "date":  "2026-09-13",
+                      "note":  "Phase 2a misst pro gestreamter HTTP-Antwort Bytezahl, Transport-Callback-Zeit, Spitzenblock und Restzeit; Ringpuffer und Route-Maxima bleiben bis zum Performance-Reset erhalten"
+                  },
+                  {
                       "version":  "0.1.118",
                       "bin":  "knx-led-controller-16m_0.1.118.bin",
                       "sha256":  "1227d442ec5afcabb8ca4c1d8c43ce35fc56144a1ac69e6c95fc8845ae914f55",
@@ -27,13 +34,6 @@
                       "sha256":  "3312284a942ce92ee0cd6108c2ba5177833790ccbdb0187ae22b66ec71bc9fac",
                       "date":  "2026-09-13",
                       "note":  "BAOS-Verbindungsaufbau repariert: Der Resync-Reset wiederholte sich unbegrenzt, belegte den Sendeplatz und sperrte damit den einzigen Ausweg aus. Er ist jetzt begrenzt; danach belegt eine direkte ObjectServer-Abfrage die Verbindung, und beide Verfahren wechseln sich ab. In den ersten 30 Sekunden wird alle 0,5 statt 5 Sekunden geprueft. Damit meldet der Controller nach dem Flashen von selbst Betriebsbereit, ohne erst ein Telegramm vom Bus zu brauchen. Neu: Auffrischung von Betriebsbereit einstellbar, 0 sendet nur bei Aenderung. Der Schalter KNX aktiv ist ersatzlos entfallen - KNX ist der Zweck des Geraets und laesst sich nicht mehr abschalten (Schema 82)."
-                  },
-                  {
-                      "version":  "0.1.113",
-                      "bin":  "knx-led-controller-16m_0.1.113.bin",
-                      "sha256":  "e82aae208a533c20cc4aeeca23220ae52978d576911720a4cc582df830817563",
-                      "date":  "2026-09-13",
-                      "note":  "BAOS-Verbindungsaufbau repariert: Der Resync-Reset wiederholte sich unbegrenzt, belegte den Sendeplatz und sperrte damit den einzigen Ausweg aus. Er ist jetzt begrenzt; danach belegt eine direkte ObjectServer-Abfrage die Verbindung. Beide Verfahren wechseln sich ab, in den ersten 30 Sekunden alle 0,5 statt 5 Sekunden. Damit meldet der Controller nach dem Flashen von selbst Betriebsbereit, ohne erst ein Telegramm vom Bus zu brauchen. Neu unter KNX: Auffrischung von Betriebsbereit einstellbar, 0 sendet nur bei Aenderung (Schema 81). Die Auslastungsfelder stehen dort jetzt in einer eigenen Zeile."
                   }
               ]
 }
