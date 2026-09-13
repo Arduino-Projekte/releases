@@ -1,6 +1,13 @@
 {
     "items":  [
                   {
+                      "version":  "0.1.107",
+                      "bin":  "knx-led-controller-16m_0.1.107.bin",
+                      "sha256":  "409d2ac503b334fab25a1be5b34917a69f9ea0fa7e5370d61637a96f91551d8e",
+                      "date":  "2026-09-13",
+                      "note":  "KNX-Seite bekommt vier Schaltflaechen fuer Endpunkte, die es laengst gab, die aber von keiner Seite aus erreichbar waren: BAOS-Verbindung neu aufbauen (FT1.2-Reset plus Firmware-Abfrage), Datenpunkte abfragen und Programmiermodus ein/aus. Letzterer ist neu implementiert als SetServerItem.Req auf ServerItem 15 und ersetzt die Programmiertaste am Modul. Die Datenpunktabfrage reicht jetzt bis DP 9 statt bis DP 7 - Praesenz-Byte und Helligkeitseingang lagen ausserhalb, ausgerechnet die beiden, bei denen sich die Frage nach der ETS-Bindung stellt."
+                  },
+                  {
                       "version":  "0.1.106",
                       "bin":  "knx-led-controller-16m_0.1.106.bin",
                       "sha256":  "8071b78363dcc6652ebe2780e2a6de3cc1d6f6bcf72d1beb545b2a11c0625183",
@@ -27,13 +34,6 @@
                       "sha256":  "c52ab222ccb3bcd986a4e60a37de190246903d796b771f1dbbfbe3d2ac35ce34",
                       "date":  "2026-09-11",
                       "note":  "Helligkeitssperre: Sie ist ein gehaltener Zustand und wurde nur beim Eintreffen eines Melder-Telegramms bewertet. Wer Schwelle oder Vergleichsrichtung aenderte, sah beliebig lange den alten Zustand - die Seite meldete frei, obwohl der Messwert klar ueber der neuen Schwelle lag. Der zuletzt empfangene Wert wird jetzt nach jeder Aktivierung neu bewertet. Ausserdem: Der Begruendungssatz nennt Messwert und Schwelle, und der Kachelpuffer war zu klein - der Hinweis darunter brach mitten im Wort ab."
-                  },
-                  {
-                      "version":  "0.1.102",
-                      "bin":  "knx-led-controller-16m_0.1.102.bin",
-                      "sha256":  "c58cda0015c62a11cc71b8c4a480bc140606b06a5815a3cbe874ab61c2632489",
-                      "date":  "2026-09-11",
-                      "note":  "Die Uebergangszeit einer Szene ist jetzt einstellbar. Sie lag als verstecktes Feld im Szenenformular: gespeichert und geprueft, aber ueber die Oberflaeche nicht erreichbar. Sie steht nun sichtbar am Ende der Abschaltphase - beschriftet, mit Hilfeverweis und mit demselben Zeitfeld-Komfort wie die uebrigen Dauern. Wertebereich und Serverpruefung bleiben unveraendert bei 0,0 bis 60,0 s; 0 schaltet hart um."
                   }
               ]
 }

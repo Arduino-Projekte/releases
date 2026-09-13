@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m_0.1.106.bin",
+                     "url":  "knx-led-controller-16m_0.1.107.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.1.106",
-                     "bin":  "knx-led-controller-16m_0.1.106.bin",
-                     "file":  "knx-led-controller-16m_0.1.106.bin",
-                     "sha256":  "8071b78363dcc6652ebe2780e2a6de3cc1d6f6bcf72d1beb545b2a11c0625183",
-                     "message":  "Strommodell fuer WS2815: Der 12-V-Chip fuehrt seine Farbkanaele ueber EINEN geregelten Strompfad - Vollweiss zieht denselben Strom wie eine einzelne Vollfarbe, nicht das Dreifache. Gemessen an 689 Pixeln: Weiss 5,37 A, Gruen 5,45 A, waehrend die additive Rechnung 18,6 A behauptete und deshalb grundlos auf einen Bruchteil drosselte. Die Leistungsrechnung folgt bei solchen Chips jetzt dem groessten Kanal je Pixel. Das Modell haengt am LED-Profil, nicht an der Konfiguration - kein neues Feld, kein Schemawechsel. Nur WS2815 ist umgestellt.",
+                     "version":  "0.1.107",
+                     "bin":  "knx-led-controller-16m_0.1.107.bin",
+                     "file":  "knx-led-controller-16m_0.1.107.bin",
+                     "sha256":  "409d2ac503b334fab25a1be5b34917a69f9ea0fa7e5370d61637a96f91551d8e",
+                     "message":  "KNX-Seite bekommt vier Schaltflaechen fuer Endpunkte, die es laengst gab, die aber von keiner Seite aus erreichbar waren: BAOS-Verbindung neu aufbauen (FT1.2-Reset plus Firmware-Abfrage), Datenpunkte abfragen und Programmiermodus ein/aus. Letzterer ist neu implementiert als SetServerItem.Req auf ServerItem 15 und ersetzt die Programmiertaste am Modul. Die Datenpunktabfrage reicht jetzt bis DP 9 statt bis DP 7 - Praesenz-Byte und Helligkeitseingang lagen ausserhalb, ausgerechnet die beiden, bei denen sich die Frage nach der ETS-Bindung stellt.",
                      "http_code":  200
                  }
 }
