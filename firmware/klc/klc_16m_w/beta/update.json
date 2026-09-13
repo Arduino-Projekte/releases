@@ -1,11 +1,11 @@
 {
-    "url":  "knx-led-controller-16m-w_0.1.116.bin",
+    "url":  "knx-led-controller-16m-w_0.1.117.bin",
     "check_ok":  true,
     "update_available":  false,
-    "version":  "0.1.116",
-    "bin":  "knx-led-controller-16m-w_0.1.116.bin",
-    "file":  "knx-led-controller-16m-w_0.1.116.bin",
-    "sha256":  "81092c4e6709ef0c6787fde2ce7e1de5dfa7e3ce6d3067cc49bcf2e9a6ad7146",
-    "message":  "Buildfix RAM-Diagnose: RP2040-Linkersymbole typkorrekt als Adressmarken verwenden",
+    "version":  "0.1.117",
+    "bin":  "knx-led-controller-16m-w_0.1.117.bin",
+    "file":  "knx-led-controller-16m-w_0.1.117.bin",
+    "sha256":  "d8fc992ae22723632d9c36fc1f4f29bceae5d40c5ac2835645a1d47fea1eb2c1",
+    "message":  "Phase-1-Messgrundlage korrigiert: messneutraler Reset, vollstaendige RAM-High-Water-Pfade, robuste Langzeitzaehler und klare Stackdiagnose",
     "http_code":  200
 }
