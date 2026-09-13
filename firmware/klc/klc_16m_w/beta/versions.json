@@ -3,7 +3,7 @@
                   {
                       "version":  "0.1.112",
                       "bin":  "knx-led-controller-16m-w_0.1.112.bin",
-                      "sha256":  "4e9edd819759a495221a82cb9b479c3b127d28d1cce102919978b7623c4a9031",
+                      "sha256":  "f599e7aa6e01e73966952277fa8ae5062fb6213363e026aae89f4c463f14c61a",
                       "date":  "2026-09-13",
                       "note":  "Szenenkapazitaet auf 30 reduziert. Unter Szenen begrenzt eine dauerhaft gespeicherte Auswahl die sichtbaren Plaetze auf 1 bis N; ausgeblendete Szenen bleiben erhalten. Bisherige bestaetigte 50er-Szenenbanken bleiben fuer Plaetze 1 bis 30 lesbar."
                   },
