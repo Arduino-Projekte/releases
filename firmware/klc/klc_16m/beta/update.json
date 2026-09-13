@@ -5,7 +5,7 @@
     "version":  "0.1.113",
     "bin":  "knx-led-controller-16m_0.1.113.bin",
     "file":  "knx-led-controller-16m_0.1.113.bin",
-    "sha256":  "d7e8de56d7c436b564455350852722fb518be2ba712afd4739701b741f4b18b0",
+    "sha256":  "e82aae208a533c20cc4aeeca23220ae52978d576911720a4cc582df830817563",
     "message":  "BAOS-Verbindungsaufbau repariert: Der Resync-Reset wiederholte sich unbegrenzt, belegte den Sendeplatz und sperrte damit den einzigen Ausweg aus. Er ist jetzt begrenzt; danach belegt eine direkte ObjectServer-Abfrage die Verbindung. Beide Verfahren wechseln sich ab, in den ersten 30 Sekunden alle 0,5 statt 5 Sekunden. Damit meldet der Controller nach dem Flashen von selbst Betriebsbereit, ohne erst ein Telegramm vom Bus zu brauchen. Neu unter KNX: Auffrischung von Betriebsbereit einstellbar, 0 sendet nur bei Aenderung (Schema 81). Die Auslastungsfelder stehen dort jetzt in einer eigenen Zeile.",
     "http_code":  200
 }
