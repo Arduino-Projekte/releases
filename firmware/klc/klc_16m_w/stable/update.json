@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m-w_0.1.107.bin",
+                     "url":  "knx-led-controller-16m-w_0.1.108.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.1.107",
-                     "bin":  "knx-led-controller-16m-w_0.1.107.bin",
-                     "file":  "knx-led-controller-16m-w_0.1.107.bin",
-                     "sha256":  "013eab7e281bee59df0c877086ac2d8a0b1600c2f96dfdece3b9dfbf04f26da8",
-                     "message":  "KNX-Seite bekommt vier Schaltflaechen fuer Endpunkte, die es laengst gab, die aber von keiner Seite aus erreichbar waren: BAOS-Verbindung neu aufbauen (FT1.2-Reset plus Firmware-Abfrage), Datenpunkte abfragen und Programmiermodus ein/aus. Letzterer ist neu implementiert als SetServerItem.Req auf ServerItem 15 und ersetzt die Programmiertaste am Modul. Die Datenpunktabfrage reicht jetzt bis DP 9 statt bis DP 7 - Praesenz-Byte und Helligkeitseingang lagen ausserhalb, ausgerechnet die beiden, bei denen sich die Frage nach der ETS-Bindung stellt.",
+                     "version":  "0.1.108",
+                     "bin":  "knx-led-controller-16m-w_0.1.108.bin",
+                     "file":  "knx-led-controller-16m-w_0.1.108.bin",
+                     "sha256":  "49c35b4ae92cef03ab72ccd881897801bbf085dc2ff74182e0850b7ba822c86b",
+                     "message":  "Programmiermodus wird jetzt auch ANGEZEIGT, nicht nur geschaltet: Der Controller liest ServerItem 15 und wertet die ServerItem.Ind des Moduls aus - damit sieht er auch die Programmiertaste am Modul und das Loeschen durch die ETS. Auf der KNX-Seite steht der Zustand als eigene Zeile fuer alle sichtbar, aus zwei Schaltflaechen wurde ein Umschalter. Auf dem Dashboard erscheint unter Gesundheit eine Zeile, solange der Modus aktiv ist - ein vergessener Programmiermodus faellt sonst erst bei der naechsten Inbetriebnahme auf.",
                      "http_code":  200
                  }
 }

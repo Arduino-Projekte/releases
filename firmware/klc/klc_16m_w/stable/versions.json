@@ -1,6 +1,13 @@
 {
     "items":  [
                   {
+                      "version":  "0.1.108",
+                      "bin":  "knx-led-controller-16m-w_0.1.108.bin",
+                      "sha256":  "49c35b4ae92cef03ab72ccd881897801bbf085dc2ff74182e0850b7ba822c86b",
+                      "date":  "2026-09-13",
+                      "note":  "Programmiermodus wird jetzt auch ANGEZEIGT, nicht nur geschaltet: Der Controller liest ServerItem 15 und wertet die ServerItem.Ind des Moduls aus - damit sieht er auch die Programmiertaste am Modul und das Loeschen durch die ETS. Auf der KNX-Seite steht der Zustand als eigene Zeile fuer alle sichtbar, aus zwei Schaltflaechen wurde ein Umschalter. Auf dem Dashboard erscheint unter Gesundheit eine Zeile, solange der Modus aktiv ist - ein vergessener Programmiermodus faellt sonst erst bei der naechsten Inbetriebnahme auf."
+                  },
+                  {
                       "version":  "0.1.107",
                       "bin":  "knx-led-controller-16m-w_0.1.107.bin",
                       "sha256":  "013eab7e281bee59df0c877086ac2d8a0b1600c2f96dfdece3b9dfbf04f26da8",
@@ -27,13 +34,6 @@
                       "sha256":  "6672dcd8f662a21fc2b8aeabee164c31c790ebbd49ce4330f78c2009f6c99711",
                       "date":  "2026-09-12",
                       "note":  "Weisskanal-Schieber blieb bei reinen RGB-Ausgaengen sichtbar: Das hidden-Attribut war gesetzt, aber .klc-color-white traegt display:grid - eine Autorenregel schlaegt das [hidden] des Browsers. Zweitens froren Dimmfaktor und Begrenzungsquelle bei stehendem Bild ein; ein geaendertes Limit wirkte erst beim naechsten Szenenwechsel, auch im DMA-Puffer. Drittens zeigte die Leistungskachel die UNbegrenzte Schaetzung neben der eigenen Grenze - auffaellig nur bei Weiss, weil der Limiter bei Einzelfarben nie eingreift. Default-Stromprofil 20 -\u003e 10 mA/Pixel."
-                  },
-                  {
-                      "version":  "0.1.103",
-                      "bin":  "knx-led-controller-16m-w_0.1.103.bin",
-                      "sha256":  "9054a557aa5c5d269cac2090a7bb39a5e61ce2d7c6ce653e2aba272ed586388b",
-                      "date":  "2026-09-11",
-                      "note":  "Helligkeitssperre: Sie ist ein gehaltener Zustand und wurde nur beim Eintreffen eines Melder-Telegramms bewertet. Wer Schwelle oder Vergleichsrichtung aenderte, sah beliebig lange den alten Zustand - die Seite meldete frei, obwohl der Messwert klar ueber der neuen Schwelle lag. Der zuletzt empfangene Wert wird jetzt nach jeder Aktivierung neu bewertet. Ausserdem: Der Begruendungssatz nennt Messwert und Schwelle, und der Kachelpuffer war zu klein - der Hinweis darunter brach mitten im Wort ab."
                   }
               ]
 }
