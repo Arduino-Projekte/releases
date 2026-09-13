@@ -1,6 +1,13 @@
 {
     "items":  [
                   {
+                      "version":  "0.1.109",
+                      "bin":  "knx-led-controller-16m-w_0.1.109.bin",
+                      "sha256":  "e8442453cf6790068a638880a6a153befb5c0ada7eefa9126ffa677119483919",
+                      "date":  "2026-09-13",
+                      "note":  "Nach dem Umschalten des Programmiermodus brach die BAOS-Verbindung ab und kam erst nach rund 9 Sekunden zurueck. Grund war eine pauschale 5-Sekunden-Sperre, die nach JEDEM Fehler greift - auch wenn der Controller den Abbruch selbst ausgeloest hat und weiss, dass das Modul lebt. Fuer diesen Fall gilt jetzt dasselbe kurze Fenster wie beim Modulneustart, die Obergrenze faellt von 9,0 auf 4,5 Sekunden. Ausserdem zeigen Startseite und KNX-Seite waehrenddessen \u0027verbindet neu\u0027 statt eines stummen \u0027nicht verbunden\u0027."
+                  },
+                  {
                       "version":  "0.1.108",
                       "bin":  "knx-led-controller-16m-w_0.1.108.bin",
                       "sha256":  "49c35b4ae92cef03ab72ccd881897801bbf085dc2ff74182e0850b7ba822c86b",
@@ -27,13 +34,6 @@
                       "sha256":  "548b4be17176cf831f3f95a96158be3eded62cd8d027fed68d4eb9254d9adebe",
                       "date":  "2026-09-12",
                       "note":  "Begrenzungsanzeige: Wer nur das Controllerlimit anhebt, sah die Drosselung unveraendert weiter, weil eine Power-Gruppe ihr Limit beim Anlegen vom damaligen Controllerlimit erbt und einer spaeteren Aenderung bewusst nicht folgt. Die Leistungsseite nennt diesen Fall jetzt ausdruecklich: welche Gruppe begrenzt, mit welchem Wert, was das Controllerlimit erlauben wuerde. Stromgrenzen werden dabei nie selbsttaetig angehoben. Offen bleibt der englische Werksname einer Gruppe im deutschen Satz - dafuer fehlen Schluessel im Sprachvertrag."
-                  },
-                  {
-                      "version":  "0.1.104",
-                      "bin":  "knx-led-controller-16m-w_0.1.104.bin",
-                      "sha256":  "6672dcd8f662a21fc2b8aeabee164c31c790ebbd49ce4330f78c2009f6c99711",
-                      "date":  "2026-09-12",
-                      "note":  "Weisskanal-Schieber blieb bei reinen RGB-Ausgaengen sichtbar: Das hidden-Attribut war gesetzt, aber .klc-color-white traegt display:grid - eine Autorenregel schlaegt das [hidden] des Browsers. Zweitens froren Dimmfaktor und Begrenzungsquelle bei stehendem Bild ein; ein geaendertes Limit wirkte erst beim naechsten Szenenwechsel, auch im DMA-Puffer. Drittens zeigte die Leistungskachel die UNbegrenzte Schaetzung neben der eigenen Grenze - auffaellig nur bei Weiss, weil der Limiter bei Einzelfarben nie eingreift. Default-Stromprofil 20 -\u003e 10 mA/Pixel."
                   }
               ]
 }
