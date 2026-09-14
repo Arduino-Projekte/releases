@@ -1,11 +1,11 @@
 {
-    "url":  "knx-led-controller-16m_0.1.124.bin",
+    "url":  "knx-led-controller-16m_0.1.126.bin",
     "check_ok":  true,
     "update_available":  false,
-    "version":  "0.1.124",
-    "bin":  "knx-led-controller-16m_0.1.124.bin",
-    "file":  "knx-led-controller-16m_0.1.124.bin",
-    "sha256":  "c6aad9a3f91a56e3095439b9f382ede008ba78c8713394b5b0b91ad6b93c3b1e",
-    "message":  "Phase 2c korrigiert: Dauerlogdiagnose trennt echte Idle-/No-I/O-Ticks, erfolgreiche Writes und fehlgeschlagene Datei-I/O-Versuche; Teilbytes und Klassifikationsinvariante sind sichtbar",
+    "version":  "0.1.126",
+    "bin":  "knx-led-controller-16m_0.1.126.bin",
+    "file":  "knx-led-controller-16m_0.1.126.bin",
+    "sha256":  "60bd51114d518590807772937d29e598982629741ef621ab6bc6929782459889",
+    "message":  "Phase 2d: temporaerer Diagnose-Override Auto/38/20/10 ms ermoeglicht reproduzierbare Render-Messreihen bei identischer LED-Last; Zielwechsel startet die Performance-Messung neu",
     "http_code":  200
 }
