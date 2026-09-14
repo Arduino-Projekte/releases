@@ -1,6 +1,13 @@
 {
     "items":  [
                   {
+                      "version":  "0.1.127",
+                      "bin":  "knx-led-controller-16m_0.1.127.bin",
+                      "sha256":  "0f87d3c7fc0e51fc0a82fd9e1adb98fe91d04f04ede1030f3aca8eaad5317037",
+                      "date":  "2026-09-14",
+                      "note":  "Phase 2e: Effekt-/Frame-Restzeit wird in Frame-Setup, Renderpfad und gesampelte Pixelstufen Mapping/Alpha/Endbild/Segmentmaske/Soft-On/Farbskalierung/SetPixel zerlegt; keine Rendereroptimierung"
+                  },
+                  {
                       "version":  "0.1.126",
                       "bin":  "knx-led-controller-16m_0.1.126.bin",
                       "sha256":  "60bd51114d518590807772937d29e598982629741ef621ab6bc6929782459889",
@@ -27,13 +34,6 @@
                       "sha256":  "2215c4528f1c06937dec3be019dc56b612d47c8a468224a50702be03ad61d704",
                       "date":  "2026-09-13",
                       "note":  "Ausgelieferte gzip-CSS-Assets wieder auf die aktuelle Version gezogen; Phase-2a-Dokumentation in docs/LOOP_BUDGET.md zusammengefuehrt"
-                  },
-                  {
-                      "version":  "0.1.120",
-                      "bin":  "knx-led-controller-16m_0.1.120.bin",
-                      "sha256":  "9459b48d28704dc6a5fc7863a648b89e7baae1ea1e258081d5fa6c473fdad1c0",
-                      "date":  "2026-09-13",
-                      "note":  "Phase 2a trennt Antwort-Gesamtdauer, Callbackzeit, unmittelbare Socket-Schreibzeit und ehrlichen Non-Socket-Rest; Entscheidungsregel und Diagnoseanzeige wurden entsprechend korrigiert"
                   }
               ]
 }
