@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m-w_0.1.126.bin",
+                     "url":  "knx-led-controller-16m-w_0.1.127.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.1.126",
-                     "bin":  "knx-led-controller-16m-w_0.1.126.bin",
-                     "file":  "knx-led-controller-16m-w_0.1.126.bin",
-                     "sha256":  "deccfe2010785102cbb174b8c2c621a93afe3e22f63ea7250380d5c2fcf3a4f4",
-                     "message":  "Phase 2d: temporaerer Diagnose-Override Auto/38/20/10 ms ermoeglicht reproduzierbare Render-Messreihen bei identischer LED-Last; Zielwechsel startet die Performance-Messung neu",
+                     "version":  "0.1.127",
+                     "bin":  "knx-led-controller-16m-w_0.1.127.bin",
+                     "file":  "knx-led-controller-16m-w_0.1.127.bin",
+                     "sha256":  "d3a040a3e3f4ddc5fb366eab23a56b1fb8931c8d09914aa6552c9e98fbb6dd68",
+                     "message":  "Phase 2e: Effekt-/Frame-Restzeit wird in Frame-Setup, Renderpfad und gesampelte Pixelstufen Mapping/Alpha/Endbild/Segmentmaske/Soft-On/Farbskalierung/SetPixel zerlegt; keine Rendereroptimierung",
                      "http_code":  200
                  }
 }
