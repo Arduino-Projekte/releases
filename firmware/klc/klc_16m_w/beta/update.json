@@ -5,7 +5,7 @@
     "version":  "0.1.128",
     "bin":  "knx-led-controller-16m-w_0.1.128.bin",
     "file":  "knx-led-controller-16m-w_0.1.128.bin",
-    "sha256":  "78c2a893b699fd359bf4e15623e7c52bba9a2881acf2a790a104311892e4c45e",
+    "sha256":  "62715654279241077c20ff2fee6074fac7fa9a47ea975aac2ceab17de0c914bd",
     "message":  "Phase 2d formal korrigiert: Diagnose-Override als RAM-only Ausnahme dokumentiert, RAM-Bilanz und Residualgrenze berichtigt, Regressionen gehaertet; keine Rendereroptimierung",
     "http_code":  200
 }
