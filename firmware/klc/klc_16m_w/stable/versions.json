@@ -1,6 +1,13 @@
 {
     "items":  [
                   {
+                      "version":  "0.1.124",
+                      "bin":  "knx-led-controller-16m-w_0.1.124.bin",
+                      "sha256":  "e859382bae780abc7b8acd69ec057481fcefcbf9980b0c6b966bd3556c2c426a",
+                      "date":  "2026-09-14",
+                      "note":  "Phase 2c korrigiert: Dauerlogdiagnose trennt echte Idle-/No-I/O-Ticks, erfolgreiche Writes und fehlgeschlagene Datei-I/O-Versuche; Teilbytes und Klassifikationsinvariante sind sichtbar"
+                  },
+                  {
                       "version":  "0.1.122",
                       "bin":  "knx-led-controller-16m-w_0.1.122.bin",
                       "sha256":  "0fdd2a7f9d9323fe3230d67e933909a9c301705d7185b11468a2753d3a603c90",
@@ -27,13 +34,6 @@
                       "sha256":  "1631ec5898cea97dddf201f7cbd9bbd7fac0f0c7282b3c184175ef6f02de37d2",
                       "date":  "2026-09-13",
                       "note":  "Phase 2a misst pro gestreamter HTTP-Antwort Bytezahl, Transport-Callback-Zeit, Spitzenblock und Restzeit; Ringpuffer und Route-Maxima bleiben bis zum Performance-Reset erhalten"
-                  },
-                  {
-                      "version":  "0.1.118",
-                      "bin":  "knx-led-controller-16m-w_0.1.118.bin",
-                      "sha256":  "794af95ea1a47946a27c755ad8ee7b1900c1f480a2d5ab0856fd5f638c4426e2",
-                      "date":  "2026-09-13",
-                      "note":  "Phase-1-Core-JSON-High-Water-Messung mit reduzierter Diagnosebelastung bei weiterhin vollstaendiger Erfassung von Erfolgs- und Fehlerpfaden"
                   }
               ]
 }

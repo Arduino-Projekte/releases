@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m_0.1.122.bin",
+                     "url":  "knx-led-controller-16m_0.1.124.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.1.122",
-                     "bin":  "knx-led-controller-16m_0.1.122.bin",
-                     "file":  "knx-led-controller-16m_0.1.122.bin",
-                     "sha256":  "0859d3f35804c7880904f569cc357765a82eec2892e9aed6d78e41bea50f583b",
-                     "message":  "/i18n.js ist wieder cachefaehig: der Streamstart ueberschrieb Cache-Control und ETag mit no-store, wodurch die 209-KB-Sprachantwort bei jeder Navigation komplett neu geladen wurde",
+                     "version":  "0.1.124",
+                     "bin":  "knx-led-controller-16m_0.1.124.bin",
+                     "file":  "knx-led-controller-16m_0.1.124.bin",
+                     "sha256":  "c6aad9a3f91a56e3095439b9f382ede008ba78c8713394b5b0b91ad6b93c3b1e",
+                     "message":  "Phase 2c korrigiert: Dauerlogdiagnose trennt echte Idle-/No-I/O-Ticks, erfolgreiche Writes und fehlgeschlagene Datei-I/O-Versuche; Teilbytes und Klassifikationsinvariante sind sichtbar",
                      "http_code":  200
                  }
 }
