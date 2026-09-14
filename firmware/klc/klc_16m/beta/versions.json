@@ -1,6 +1,13 @@
 {
     "items":  [
                   {
+                      "version":  "0.1.129",
+                      "bin":  "knx-led-controller-16m_0.1.129.bin",
+                      "sha256":  "f5335320780189eae4f5d0aa5e2c135c5d97fb0e60ffb5844eceb8cb464c7888",
+                      "date":  "2026-09-14",
+                      "note":  "Phase 2e Messkorrektur: rotierendes 1:64-Pixelsampling und saubere Messgrenzen schliessen Diagnose-Bookkeeping aus Folgestufen aus; Konsistenzpruefung ergaenzt, keine Rendereroptimierung"
+                  },
+                  {
                       "version":  "0.1.128",
                       "bin":  "knx-led-controller-16m_0.1.128.bin",
                       "sha256":  "4d628ac7a57238bf3ba0ba38dc43b671ad2cb1c9e6cd0bf01b536bd9bfe9b073",
@@ -27,13 +34,6 @@
                       "sha256":  "c6aad9a3f91a56e3095439b9f382ede008ba78c8713394b5b0b91ad6b93c3b1e",
                       "date":  "2026-09-14",
                       "note":  "Phase 2c korrigiert: Dauerlogdiagnose trennt echte Idle-/No-I/O-Ticks, erfolgreiche Writes und fehlgeschlagene Datei-I/O-Versuche; Teilbytes und Klassifikationsinvariante sind sichtbar"
-                  },
-                  {
-                      "version":  "0.1.122",
-                      "bin":  "knx-led-controller-16m_0.1.122.bin",
-                      "sha256":  "0859d3f35804c7880904f569cc357765a82eec2892e9aed6d78e41bea50f583b",
-                      "date":  "2026-09-13",
-                      "note":  "/i18n.js ist wieder cachefaehig: der Streamstart ueberschrieb Cache-Control und ETag mit no-store, wodurch die 209-KB-Sprachantwort bei jeder Navigation komplett neu geladen wurde"
                   }
               ]
 }

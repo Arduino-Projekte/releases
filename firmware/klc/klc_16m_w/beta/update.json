@@ -1,11 +1,11 @@
 {
-    "url":  "knx-led-controller-16m-w_0.1.128.bin",
+    "url":  "knx-led-controller-16m-w_0.1.129.bin",
     "check_ok":  true,
     "update_available":  false,
-    "version":  "0.1.128",
-    "bin":  "knx-led-controller-16m-w_0.1.128.bin",
-    "file":  "knx-led-controller-16m-w_0.1.128.bin",
-    "sha256":  "62715654279241077c20ff2fee6074fac7fa9a47ea975aac2ceab17de0c914bd",
-    "message":  "Phase 2d formal korrigiert: Diagnose-Override als RAM-only Ausnahme dokumentiert, RAM-Bilanz und Residualgrenze berichtigt, Regressionen gehaertet; keine Rendereroptimierung",
+    "version":  "0.1.129",
+    "bin":  "knx-led-controller-16m-w_0.1.129.bin",
+    "file":  "knx-led-controller-16m-w_0.1.129.bin",
+    "sha256":  "0c5b51f74faf646e00d5b8b22e3e56805951d69f1708ba6351ae027caefb5c98",
+    "message":  "Phase 2e Messkorrektur: rotierendes 1:64-Pixelsampling und saubere Messgrenzen schliessen Diagnose-Bookkeeping aus Folgestufen aus; Konsistenzpruefung ergaenzt, keine Rendereroptimierung",
     "http_code":  200
 }
