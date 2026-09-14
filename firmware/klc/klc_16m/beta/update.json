@@ -1,11 +1,11 @@
 {
-    "url":  "knx-led-controller-16m_0.1.127.bin",
+    "url":  "knx-led-controller-16m_0.1.128.bin",
     "check_ok":  true,
     "update_available":  false,
-    "version":  "0.1.127",
-    "bin":  "knx-led-controller-16m_0.1.127.bin",
-    "file":  "knx-led-controller-16m_0.1.127.bin",
-    "sha256":  "0f87d3c7fc0e51fc0a82fd9e1adb98fe91d04f04ede1030f3aca8eaad5317037",
-    "message":  "Phase 2e: Effekt-/Frame-Restzeit wird in Frame-Setup, Renderpfad und gesampelte Pixelstufen Mapping/Alpha/Endbild/Segmentmaske/Soft-On/Farbskalierung/SetPixel zerlegt; keine Rendereroptimierung",
+    "version":  "0.1.128",
+    "bin":  "knx-led-controller-16m_0.1.128.bin",
+    "file":  "knx-led-controller-16m_0.1.128.bin",
+    "sha256":  "4032eea6c0cb9f65f6e71b6bf150445b36d8599e5d56936b80a69d16deab6b78",
+    "message":  "Phase 2d formal korrigiert: Diagnose-Override als RAM-only Ausnahme dokumentiert, RAM-Bilanz und Residualgrenze berichtigt, Regressionen gehaertet; keine Rendereroptimierung",
     "http_code":  200
 }

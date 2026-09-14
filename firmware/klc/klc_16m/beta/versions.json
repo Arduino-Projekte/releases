@@ -1,6 +1,13 @@
 {
     "items":  [
                   {
+                      "version":  "0.1.128",
+                      "bin":  "knx-led-controller-16m_0.1.128.bin",
+                      "sha256":  "4032eea6c0cb9f65f6e71b6bf150445b36d8599e5d56936b80a69d16deab6b78",
+                      "date":  "2026-09-14",
+                      "note":  "Phase 2d formal korrigiert: Diagnose-Override als RAM-only Ausnahme dokumentiert, RAM-Bilanz und Residualgrenze berichtigt, Regressionen gehaertet; keine Rendereroptimierung"
+                  },
+                  {
                       "version":  "0.1.127",
                       "bin":  "knx-led-controller-16m_0.1.127.bin",
                       "sha256":  "0f87d3c7fc0e51fc0a82fd9e1adb98fe91d04f04ede1030f3aca8eaad5317037",
@@ -27,13 +34,6 @@
                       "sha256":  "0859d3f35804c7880904f569cc357765a82eec2892e9aed6d78e41bea50f583b",
                       "date":  "2026-09-13",
                       "note":  "/i18n.js ist wieder cachefaehig: der Streamstart ueberschrieb Cache-Control und ETag mit no-store, wodurch die 209-KB-Sprachantwort bei jeder Navigation komplett neu geladen wurde"
-                  },
-                  {
-                      "version":  "0.1.121",
-                      "bin":  "knx-led-controller-16m_0.1.121.bin",
-                      "sha256":  "2215c4528f1c06937dec3be019dc56b612d47c8a468224a50702be03ad61d704",
-                      "date":  "2026-09-13",
-                      "note":  "Ausgelieferte gzip-CSS-Assets wieder auf die aktuelle Version gezogen; Phase-2a-Dokumentation in docs/LOOP_BUDGET.md zusammengefuehrt"
                   }
               ]
 }
