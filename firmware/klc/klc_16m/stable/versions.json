@@ -1,6 +1,13 @@
 {
     "items":  [
                   {
+                      "version":  "0.1.141",
+                      "bin":  "knx-led-controller-16m_0.1.141.bin",
+                      "sha256":  "cec5253f361f7812b4040854936b9bf5b5e90b45cbee4ceb16b0bd1e8161c883",
+                      "date":  "2026-09-15",
+                      "note":  "Szenenwechsel 0.1.141: die Ueberblendzeit ist jetzt die groessere der beiden beteiligten Szenenzeiten; Feldbeschreibung entspricht wieder dem Verhalten"
+                  },
+                  {
                       "version":  "0.1.140",
                       "bin":  "knx-led-controller-16m_0.1.140.bin",
                       "sha256":  "925171113a6208dbf2c0285f575b8776baaa99989029fa01b8eb0d19a05c9ed8",
@@ -27,13 +34,6 @@
                       "sha256":  "0d738da2dc1f195ae43323a09d482e675b96963aae02a07bb7cf8d0739a5d9e8",
                       "date":  "2026-09-15",
                       "note":  "Dauerlog-Behebung nach Hardwaremessung: Record bleibt synchron, Header wird nur beim Boot checkpointet und aus CRC-geprueften Records rekonstruiert; 157-ms Header-Seek plus 48-ms Header-Write entfallen je Satz"
-                  },
-                  {
-                      "version":  "0.1.134",
-                      "bin":  "knx-led-controller-16m_0.1.134.bin",
-                      "sha256":  "23fe64575b4ca50ce2c8b75525708ebaac0a7a64ad6a707a9d6f30a52d1fb25c",
-                      "date":  "2026-09-15",
-                      "note":  "Dauerlog-Ursachenmessung: Writer-Lease, open, Record-/Header-seek/-write und close getrennt in RAM vermessen; Admin-Messtaste erzeugt genau einen Satz; Schreibverfahren bis zum Hardware-Nachweis unveraendert"
                   }
               ]
 }

@@ -1,6 +1,13 @@
 {
     "items":  [
                   {
+                      "version":  "0.1.141",
+                      "bin":  "knx-led-controller-16m-w_0.1.141.bin",
+                      "sha256":  "7e615647ac2fceeae35492be40e27e17bc44f2394aba55e42aed5cbc334a7424",
+                      "date":  "2026-09-15",
+                      "note":  "Szenenwechsel 0.1.141: die Ueberblendzeit ist jetzt die groessere der beiden beteiligten Szenenzeiten; Feldbeschreibung entspricht wieder dem Verhalten"
+                  },
+                  {
                       "version":  "0.1.140",
                       "bin":  "knx-led-controller-16m-w_0.1.140.bin",
                       "sha256":  "cd5360094e1c64abe48c71d6cade2cbe2b25ad0c39cfcd0f6703d8224caef803",
@@ -27,13 +34,6 @@
                       "sha256":  "d3a040a3e3f4ddc5fb366eab23a56b1fb8931c8d09914aa6552c9e98fbb6dd68",
                       "date":  "2026-09-14",
                       "note":  "Phase 2e: Effekt-/Frame-Restzeit wird in Frame-Setup, Renderpfad und gesampelte Pixelstufen Mapping/Alpha/Endbild/Segmentmaske/Soft-On/Farbskalierung/SetPixel zerlegt; keine Rendereroptimierung"
-                  },
-                  {
-                      "version":  "0.1.126",
-                      "bin":  "knx-led-controller-16m-w_0.1.126.bin",
-                      "sha256":  "deccfe2010785102cbb174b8c2c621a93afe3e22f63ea7250380d5c2fcf3a4f4",
-                      "date":  "2026-09-14",
-                      "note":  "Phase 2d: temporaerer Diagnose-Override Auto/38/20/10 ms ermoeglicht reproduzierbare Render-Messreihen bei identischer LED-Last; Zielwechsel startet die Performance-Messung neu"
                   }
               ]
 }
