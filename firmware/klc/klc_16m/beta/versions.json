@@ -1,6 +1,13 @@
 {
     "items":  [
                   {
+                      "version":  "0.1.141",
+                      "bin":  "knx-led-controller-16m_0.1.141.bin",
+                      "sha256":  "cec5253f361f7812b4040854936b9bf5b5e90b45cbee4ceb16b0bd1e8161c883",
+                      "date":  "2026-09-15",
+                      "note":  "Szenenwechsel 0.1.141: die Ueberblendzeit ist jetzt die groessere der beiden beteiligten Szenenzeiten; Feldbeschreibung entspricht wieder dem Verhalten"
+                  },
+                  {
                       "version":  "0.1.140",
                       "bin":  "knx-led-controller-16m_0.1.140.bin",
                       "sha256":  "925171113a6208dbf2c0285f575b8776baaa99989029fa01b8eb0d19a05c9ed8",
@@ -27,13 +34,6 @@
                       "sha256":  "420bf9dc3fc0976026c730de609a46077e00863267572026a9c6c120b331b3b6",
                       "date":  "2026-09-15",
                       "note":  "Dauerlog 0.1.137: Persistenzmodus Alle/Warn+Fehler/Nur Fehler/Aus, Web-Abbruchfamilie auf einen persistenten Fehler je Abbruch entprellt und LOOP_PHASE_SLOW gegen wartende Dubletten geschuetzt"
-                  },
-                  {
-                      "version":  "0.1.136",
-                      "bin":  "knx-led-controller-16m_0.1.136.bin",
-                      "sha256":  "51b48c8ce2abe94b57ca47531778a177e856bd11fa3757a2aedcaf560301ec69",
-                      "date":  "2026-09-15",
-                      "note":  "Dauerlog 0.1.136: Record-Persistenz kooperativ ueber Loopdurchlaeufe verteilt; 100-Byte-Satz wird in 16-Byte-Schritten geschrieben, close separat, maximale Einzelblockade separat messbar"
                   }
               ]
 }
