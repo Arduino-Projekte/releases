@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m_0.1.134.bin",
+                     "url":  "knx-led-controller-16m_0.1.135.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.1.134",
-                     "bin":  "knx-led-controller-16m_0.1.134.bin",
-                     "file":  "knx-led-controller-16m_0.1.134.bin",
-                     "sha256":  "23fe64575b4ca50ce2c8b75525708ebaac0a7a64ad6a707a9d6f30a52d1fb25c",
-                     "message":  "Dauerlog-Ursachenmessung: Writer-Lease, open, Record-/Header-seek/-write und close getrennt in RAM vermessen; Admin-Messtaste erzeugt genau einen Satz; Schreibverfahren bis zum Hardware-Nachweis unveraendert",
+                     "version":  "0.1.135",
+                     "bin":  "knx-led-controller-16m_0.1.135.bin",
+                     "file":  "knx-led-controller-16m_0.1.135.bin",
+                     "sha256":  "481673d0c15dd38d905ba46c5476b5cd0ed599688040a98e8f26028cbd753958",
+                     "message":  "Dauerlog-Behebung nach Hardwaremessung: Record bleibt synchron, Header wird nur beim Boot checkpointet und aus CRC-geprueften Records rekonstruiert; 157-ms Header-Seek plus 48-ms Header-Write entfallen je Satz",
                      "http_code":  200
                  }
 }

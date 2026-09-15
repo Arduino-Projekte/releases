@@ -1,6 +1,13 @@
 {
     "items":  [
                   {
+                      "version":  "0.1.135",
+                      "bin":  "knx-led-controller-16m_0.1.135.bin",
+                      "sha256":  "481673d0c15dd38d905ba46c5476b5cd0ed599688040a98e8f26028cbd753958",
+                      "date":  "2026-09-15",
+                      "note":  "Dauerlog-Behebung nach Hardwaremessung: Record bleibt synchron, Header wird nur beim Boot checkpointet und aus CRC-geprueften Records rekonstruiert; 157-ms Header-Seek plus 48-ms Header-Write entfallen je Satz"
+                  },
+                  {
                       "version":  "0.1.134",
                       "bin":  "knx-led-controller-16m_0.1.134.bin",
                       "sha256":  "23fe64575b4ca50ce2c8b75525708ebaac0a7a64ad6a707a9d6f30a52d1fb25c",
@@ -27,13 +34,6 @@
                       "sha256":  "c6aad9a3f91a56e3095439b9f382ede008ba78c8713394b5b0b91ad6b93c3b1e",
                       "date":  "2026-09-14",
                       "note":  "Phase 2c korrigiert: Dauerlogdiagnose trennt echte Idle-/No-I/O-Ticks, erfolgreiche Writes und fehlgeschlagene Datei-I/O-Versuche; Teilbytes und Klassifikationsinvariante sind sichtbar"
-                  },
-                  {
-                      "version":  "0.1.122",
-                      "bin":  "knx-led-controller-16m_0.1.122.bin",
-                      "sha256":  "0859d3f35804c7880904f569cc357765a82eec2892e9aed6d78e41bea50f583b",
-                      "date":  "2026-09-13",
-                      "note":  "/i18n.js ist wieder cachefaehig: der Streamstart ueberschrieb Cache-Control und ETag mit no-store, wodurch die 209-KB-Sprachantwort bei jeder Navigation komplett neu geladen wurde"
                   }
               ]
 }
