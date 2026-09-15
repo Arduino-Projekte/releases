@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m_0.1.136.bin",
+                     "url":  "knx-led-controller-16m_0.1.139.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.1.136",
-                     "bin":  "knx-led-controller-16m_0.1.136.bin",
-                     "file":  "knx-led-controller-16m_0.1.136.bin",
-                     "sha256":  "51b48c8ce2abe94b57ca47531778a177e856bd11fa3757a2aedcaf560301ec69",
-                     "message":  "Dauerlog 0.1.136: Record-Persistenz kooperativ ueber Loopdurchlaeufe verteilt; 100-Byte-Satz wird in 16-Byte-Schritten geschrieben, close separat, maximale Einzelblockade separat messbar",
+                     "version":  "0.1.139",
+                     "bin":  "knx-led-controller-16m_0.1.139.bin",
+                     "file":  "knx-led-controller-16m_0.1.139.bin",
+                     "sha256":  "d8114024383a093a296201f7bf481b0efb45326d3632e7e594aafd4398d1f5b9",
+                     "message":  "Phasennaht 0.1.139: manuelle Startdauer wird wieder respektiert; stetiger Uebergang zur Hauptwelle und Auto-Seam bleiben erhalten",
                      "http_code":  200
                  }
 }

@@ -1,6 +1,13 @@
 {
     "items":  [
                   {
+                      "version":  "0.1.139",
+                      "bin":  "knx-led-controller-16m_0.1.139.bin",
+                      "sha256":  "d8114024383a093a296201f7bf481b0efb45326d3632e7e594aafd4398d1f5b9",
+                      "date":  "2026-09-15",
+                      "note":  "Phasennaht 0.1.139: manuelle Startdauer wird wieder respektiert; stetiger Uebergang zur Hauptwelle und Auto-Seam bleiben erhalten"
+                  },
+                  {
                       "version":  "0.1.136",
                       "bin":  "knx-led-controller-16m_0.1.136.bin",
                       "sha256":  "51b48c8ce2abe94b57ca47531778a177e856bd11fa3757a2aedcaf560301ec69",
@@ -27,13 +34,6 @@
                       "sha256":  "0f87d3c7fc0e51fc0a82fd9e1adb98fe91d04f04ede1030f3aca8eaad5317037",
                       "date":  "2026-09-14",
                       "note":  "Phase 2e: Effekt-/Frame-Restzeit wird in Frame-Setup, Renderpfad und gesampelte Pixelstufen Mapping/Alpha/Endbild/Segmentmaske/Soft-On/Farbskalierung/SetPixel zerlegt; keine Rendereroptimierung"
-                  },
-                  {
-                      "version":  "0.1.126",
-                      "bin":  "knx-led-controller-16m_0.1.126.bin",
-                      "sha256":  "60bd51114d518590807772937d29e598982629741ef621ab6bc6929782459889",
-                      "date":  "2026-09-14",
-                      "note":  "Phase 2d: temporaerer Diagnose-Override Auto/38/20/10 ms ermoeglicht reproduzierbare Render-Messreihen bei identischer LED-Last; Zielwechsel startet die Performance-Messung neu"
                   }
               ]
 }
