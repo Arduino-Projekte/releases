@@ -1,11 +1,11 @@
 {
-    "url":  "knx-led-controller-16m-w_0.1.137.bin",
+    "url":  "knx-led-controller-16m-w_0.1.138.bin",
     "check_ok":  true,
     "update_available":  false,
-    "version":  "0.1.137",
-    "bin":  "knx-led-controller-16m-w_0.1.137.bin",
-    "file":  "knx-led-controller-16m-w_0.1.137.bin",
-    "sha256":  "454150d7f6d235c0bcd19d8ac91d315be5b0e37f79a7cd154ac541e0721839fd",
-    "message":  "Dauerlog 0.1.137: Persistenzmodus Alle/Warn+Fehler/Nur Fehler/Aus, Web-Abbruchfamilie auf einen persistenten Fehler je Abbruch entprellt und LOOP_PHASE_SLOW gegen wartende Dubletten geschuetzt",
+    "version":  "0.1.138",
+    "bin":  "knx-led-controller-16m-w_0.1.138.bin",
+    "file":  "knx-led-controller-16m-w_0.1.138.bin",
+    "sha256":  "f0af8573463680d3e8292f55940057b3b9d153d23109e97e1b8cedc291c0ed23",
+    "message":  "Phasennaht 0.1.138: kompatible Start-/Hauptwellen mit gleicher Winkelgeschwindigkeit, fortgefuehrtem Phasenwinkel und konsistentem Phase-2f-/Probe-Pfad",
     "http_code":  200
 }

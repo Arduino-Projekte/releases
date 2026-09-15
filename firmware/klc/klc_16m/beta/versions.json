@@ -1,6 +1,13 @@
 {
     "items":  [
                   {
+                      "version":  "0.1.138",
+                      "bin":  "knx-led-controller-16m_0.1.138.bin",
+                      "sha256":  "67e2004429790326e61dcc27db22d0700413eb0fa1789c32db8137faabd34a21",
+                      "date":  "2026-09-15",
+                      "note":  "Phasennaht 0.1.138: kompatible Start-/Hauptwellen mit gleicher Winkelgeschwindigkeit, fortgefuehrtem Phasenwinkel und konsistentem Phase-2f-/Probe-Pfad"
+                  },
+                  {
                       "version":  "0.1.137",
                       "bin":  "knx-led-controller-16m_0.1.137.bin",
                       "sha256":  "420bf9dc3fc0976026c730de609a46077e00863267572026a9c6c120b331b3b6",
@@ -27,13 +34,6 @@
                       "sha256":  "23fe64575b4ca50ce2c8b75525708ebaac0a7a64ad6a707a9d6f30a52d1fb25c",
                       "date":  "2026-09-15",
                       "note":  "Dauerlog-Ursachenmessung: Writer-Lease, open, Record-/Header-seek/-write und close getrennt in RAM vermessen; Admin-Messtaste erzeugt genau einen Satz; Schreibverfahren bis zum Hardware-Nachweis unveraendert"
-                  },
-                  {
-                      "version":  "0.1.132",
-                      "bin":  "knx-led-controller-16m_0.1.132.bin",
-                      "sha256":  "f8dc5fb5087464715f7c42be383eaae5575780497a43017d883596ca6aa85326",
-                      "date":  "2026-09-15",
-                      "note":  "Phase 2e Alpha-Feinmessung: separater rotierender Ein-Pixel-Probe zerlegt Wellen-Alpha in Dispatch, Setup, Distanz, Fortschritt/Bounce und Tail-Unterstufen; Ergebnisabgleich gegen Produktivpfad, keine Rendereroptimierung"
                   }
               ]
 }
