@@ -5,7 +5,7 @@
     "version":  "0.1.134",
     "bin":  "knx-led-controller-16m_0.1.134.bin",
     "file":  "knx-led-controller-16m_0.1.134.bin",
-    "sha256":  "6d64174e9e5319c1e669e2930bd1ac9c75101bab1fe9565204506f1db1307b67",
+    "sha256":  "23fe64575b4ca50ce2c8b75525708ebaac0a7a64ad6a707a9d6f30a52d1fb25c",
     "message":  "Dauerlog-Ursachenmessung: Writer-Lease, open, Record-/Header-seek/-write und close getrennt in RAM vermessen; Admin-Messtaste erzeugt genau einen Satz; Schreibverfahren bis zum Hardware-Nachweis unveraendert",
     "http_code":  200
 }
