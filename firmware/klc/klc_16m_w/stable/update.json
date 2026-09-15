@@ -1,12 +1,12 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m-w_0.1.139.bin",
+                     "url":  "knx-led-controller-16m-w_0.1.140.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.1.139",
-                     "bin":  "knx-led-controller-16m-w_0.1.139.bin",
-                     "file":  "knx-led-controller-16m-w_0.1.139.bin",
-                     "sha256":  "f1dc890b96491a4c18abbbe86d072c4026de952cca773354bdb78ae4b13f331d",
+                     "version":  "0.1.140",
+                     "bin":  "knx-led-controller-16m-w_0.1.140.bin",
+                     "file":  "knx-led-controller-16m-w_0.1.140.bin",
+                     "sha256":  "cd5360094e1c64abe48c71d6cade2cbe2b25ad0c39cfcd0f6703d8224caef803",
                      "message":  "Phasennaht 0.1.139: manuelle Startdauer wird wieder respektiert; stetiger Uebergang zur Hauptwelle und Auto-Seam bleiben erhalten",
                      "http_code":  200
                  }

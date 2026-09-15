@@ -1,6 +1,13 @@
 {
     "items":  [
                   {
+                      "version":  "0.1.140",
+                      "bin":  "knx-led-controller-16m-w_0.1.140.bin",
+                      "sha256":  "cd5360094e1c64abe48c71d6cade2cbe2b25ad0c39cfcd0f6703d8224caef803",
+                      "date":  "2026-09-15",
+                      "note":  "Phasennaht 0.1.139: manuelle Startdauer wird wieder respektiert; stetiger Uebergang zur Hauptwelle und Auto-Seam bleiben erhalten"
+                  },
+                  {
                       "version":  "0.1.139",
                       "bin":  "knx-led-controller-16m-w_0.1.139.bin",
                       "sha256":  "f1dc890b96491a4c18abbbe86d072c4026de952cca773354bdb78ae4b13f331d",
@@ -27,13 +34,6 @@
                       "sha256":  "deccfe2010785102cbb174b8c2c621a93afe3e22f63ea7250380d5c2fcf3a4f4",
                       "date":  "2026-09-14",
                       "note":  "Phase 2d: temporaerer Diagnose-Override Auto/38/20/10 ms ermoeglicht reproduzierbare Render-Messreihen bei identischer LED-Last; Zielwechsel startet die Performance-Messung neu"
-                  },
-                  {
-                      "version":  "0.1.124",
-                      "bin":  "knx-led-controller-16m-w_0.1.124.bin",
-                      "sha256":  "e859382bae780abc7b8acd69ec057481fcefcbf9980b0c6b966bd3556c2c426a",
-                      "date":  "2026-09-14",
-                      "note":  "Phase 2c korrigiert: Dauerlogdiagnose trennt echte Idle-/No-I/O-Ticks, erfolgreiche Writes und fehlgeschlagene Datei-I/O-Versuche; Teilbytes und Klassifikationsinvariante sind sichtbar"
                   }
               ]
 }
