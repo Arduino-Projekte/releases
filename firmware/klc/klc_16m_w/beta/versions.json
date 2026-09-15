@@ -3,7 +3,7 @@
                   {
                       "version":  "0.1.136",
                       "bin":  "knx-led-controller-16m-w_0.1.136.bin",
-                      "sha256":  "da08f518c364618de0c657fc3a0119b106214fb2945610f4faca72e776e06a09",
+                      "sha256":  "5615da2f4eb4ed522e368d7749f19d0fa6d45e82cf7ee5efe98701dc5a2dce5a",
                       "date":  "2026-09-15",
                       "note":  "Dauerlog 0.1.136: Record-Persistenz kooperativ ueber Loopdurchlaeufe verteilt; 100-Byte-Satz wird in 16-Byte-Schritten geschrieben, close separat, maximale Einzelblockade separat messbar"
                   },

@@ -5,7 +5,7 @@
     "version":  "0.1.136",
     "bin":  "knx-led-controller-16m_0.1.136.bin",
     "file":  "knx-led-controller-16m_0.1.136.bin",
-    "sha256":  "6695e761104d8f457673057ca69c6e06e0d6341cbe57cfba277b5dc56de34bb2",
+    "sha256":  "51b48c8ce2abe94b57ca47531778a177e856bd11fa3757a2aedcaf560301ec69",
     "message":  "Dauerlog 0.1.136: Record-Persistenz kooperativ ueber Loopdurchlaeufe verteilt; 100-Byte-Satz wird in 16-Byte-Schritten geschrieben, close separat, maximale Einzelblockade separat messbar",
     "http_code":  200
 }
