@@ -1,11 +1,11 @@
 {
-    "url":  "knx-led-controller-16m_0.1.130.bin",
+    "url":  "knx-led-controller-16m_0.1.131.bin",
     "check_ok":  true,
     "update_available":  false,
-    "version":  "0.1.130",
-    "bin":  "knx-led-controller-16m_0.1.130.bin",
-    "file":  "knx-led-controller-16m_0.1.130.bin",
-    "sha256":  "6e498653d4b9d4929d2a1b451ea1c52aad3345e1d6f053fc1ea7b09129aefece",
+    "version":  "0.1.131",
+    "bin":  "knx-led-controller-16m_0.1.131.bin",
+    "file":  "knx-led-controller-16m_0.1.131.bin",
+    "sha256":  "74bb6bb2719bba822146d934235c98fe9d79036435beb0c9a10bd9cf783eeb0a",
     "message":  "Phase 2e Alpha-Feinmessung: separater rotierender Ein-Pixel-Probe zerlegt Wellen-Alpha in Dispatch, Setup, Distanz, Fortschritt/Bounce und Tail-Unterstufen; Ergebnisabgleich gegen Produktivpfad, keine Rendereroptimierung",
     "http_code":  200
 }
