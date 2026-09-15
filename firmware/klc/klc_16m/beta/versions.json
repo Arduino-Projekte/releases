@@ -1,6 +1,13 @@
 {
     "items":  [
                   {
+                      "version":  "0.1.135",
+                      "bin":  "knx-led-controller-16m_0.1.135.bin",
+                      "sha256":  "481673d0c15dd38d905ba46c5476b5cd0ed599688040a98e8f26028cbd753958",
+                      "date":  "2026-09-15",
+                      "note":  "Dauerlog-Behebung nach Hardwaremessung: Record bleibt synchron, Header wird nur beim Boot checkpointet und aus CRC-geprueften Records rekonstruiert; 157-ms Header-Seek plus 48-ms Header-Write entfallen je Satz"
+                  },
+                  {
                       "version":  "0.1.134",
                       "bin":  "knx-led-controller-16m_0.1.134.bin",
                       "sha256":  "23fe64575b4ca50ce2c8b75525708ebaac0a7a64ad6a707a9d6f30a52d1fb25c",
@@ -27,13 +34,6 @@
                       "sha256":  "6e498653d4b9d4929d2a1b451ea1c52aad3345e1d6f053fc1ea7b09129aefece",
                       "date":  "2026-09-15",
                       "note":  "Phase 2e Alpha-Feinmessung: separater rotierender Ein-Pixel-Probe zerlegt Wellen-Alpha in Dispatch, Setup, Distanz, Fortschritt/Bounce und Tail-Unterstufen; Ergebnisabgleich gegen Produktivpfad, keine Rendereroptimierung"
-                  },
-                  {
-                      "version":  "0.1.129",
-                      "bin":  "knx-led-controller-16m_0.1.129.bin",
-                      "sha256":  "f5335320780189eae4f5d0aa5e2c135c5d97fb0e60ffb5844eceb8cb464c7888",
-                      "date":  "2026-09-14",
-                      "note":  "Phase 2e Messkorrektur: rotierendes 1:64-Pixelsampling und saubere Messgrenzen schliessen Diagnose-Bookkeeping aus Folgestufen aus; Konsistenzpruefung ergaenzt, keine Rendereroptimierung"
                   }
               ]
 }

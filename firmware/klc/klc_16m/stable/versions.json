@@ -1,6 +1,13 @@
 {
     "items":  [
                   {
+                      "version":  "0.1.134",
+                      "bin":  "knx-led-controller-16m_0.1.134.bin",
+                      "sha256":  "23fe64575b4ca50ce2c8b75525708ebaac0a7a64ad6a707a9d6f30a52d1fb25c",
+                      "date":  "2026-09-15",
+                      "note":  "Dauerlog-Ursachenmessung: Writer-Lease, open, Record-/Header-seek/-write und close getrennt in RAM vermessen; Admin-Messtaste erzeugt genau einen Satz; Schreibverfahren bis zum Hardware-Nachweis unveraendert"
+                  },
+                  {
                       "version":  "0.1.127",
                       "bin":  "knx-led-controller-16m_0.1.127.bin",
                       "sha256":  "0f87d3c7fc0e51fc0a82fd9e1adb98fe91d04f04ede1030f3aca8eaad5317037",
@@ -27,13 +34,6 @@
                       "sha256":  "0859d3f35804c7880904f569cc357765a82eec2892e9aed6d78e41bea50f583b",
                       "date":  "2026-09-13",
                       "note":  "/i18n.js ist wieder cachefaehig: der Streamstart ueberschrieb Cache-Control und ETag mit no-store, wodurch die 209-KB-Sprachantwort bei jeder Navigation komplett neu geladen wurde"
-                  },
-                  {
-                      "version":  "0.1.121",
-                      "bin":  "knx-led-controller-16m_0.1.121.bin",
-                      "sha256":  "2215c4528f1c06937dec3be019dc56b612d47c8a468224a50702be03ad61d704",
-                      "date":  "2026-09-13",
-                      "note":  "Ausgelieferte gzip-CSS-Assets wieder auf die aktuelle Version gezogen; Phase-2a-Dokumentation in docs/LOOP_BUDGET.md zusammengefuehrt"
                   }
               ]
 }
