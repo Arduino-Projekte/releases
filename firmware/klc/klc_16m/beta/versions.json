@@ -1,6 +1,13 @@
 {
     "items":  [
                   {
+                      "version":  "0.1.139",
+                      "bin":  "knx-led-controller-16m_0.1.139.bin",
+                      "sha256":  "d8114024383a093a296201f7bf481b0efb45326d3632e7e594aafd4398d1f5b9",
+                      "date":  "2026-09-15",
+                      "note":  "Phasennaht 0.1.139: manuelle Startdauer wird wieder respektiert; stetiger Uebergang zur Hauptwelle und Auto-Seam bleiben erhalten"
+                  },
+                  {
                       "version":  "0.1.138",
                       "bin":  "knx-led-controller-16m_0.1.138.bin",
                       "sha256":  "67e2004429790326e61dcc27db22d0700413eb0fa1789c32db8137faabd34a21",
@@ -27,13 +34,6 @@
                       "sha256":  "0d738da2dc1f195ae43323a09d482e675b96963aae02a07bb7cf8d0739a5d9e8",
                       "date":  "2026-09-15",
                       "note":  "Dauerlog-Behebung nach Hardwaremessung: Record bleibt synchron, Header wird nur beim Boot checkpointet und aus CRC-geprueften Records rekonstruiert; 157-ms Header-Seek plus 48-ms Header-Write entfallen je Satz"
-                  },
-                  {
-                      "version":  "0.1.134",
-                      "bin":  "knx-led-controller-16m_0.1.134.bin",
-                      "sha256":  "23fe64575b4ca50ce2c8b75525708ebaac0a7a64ad6a707a9d6f30a52d1fb25c",
-                      "date":  "2026-09-15",
-                      "note":  "Dauerlog-Ursachenmessung: Writer-Lease, open, Record-/Header-seek/-write und close getrennt in RAM vermessen; Admin-Messtaste erzeugt genau einen Satz; Schreibverfahren bis zum Hardware-Nachweis unveraendert"
                   }
               ]
 }
