@@ -1,6 +1,13 @@
 {
     "items":  [
                   {
+                      "version":  "0.1.134",
+                      "bin":  "knx-led-controller-16m-w_0.1.134.bin",
+                      "sha256":  "b25845380b9242bd62e58ddff137ba1ecb27302d084acb901d46fe77719a5b86",
+                      "date":  "2026-09-15",
+                      "note":  "Dauerlog-Ursachenmessung: Writer-Lease, open, Record-/Header-seek/-write und close getrennt in RAM vermessen; Admin-Messtaste erzeugt genau einen Satz; Schreibverfahren bis zum Hardware-Nachweis unveraendert"
+                  },
+                  {
                       "version":  "0.1.132",
                       "bin":  "knx-led-controller-16m-w_0.1.132.bin",
                       "sha256":  "eb881673c8a5633b2d64d07c350bf636a465d58d722875bdd69f5bac43c74b12",
@@ -27,13 +34,6 @@
                       "sha256":  "0c5b51f74faf646e00d5b8b22e3e56805951d69f1708ba6351ae027caefb5c98",
                       "date":  "2026-09-14",
                       "note":  "Phase 2e Messkorrektur: rotierendes 1:64-Pixelsampling und saubere Messgrenzen schliessen Diagnose-Bookkeeping aus Folgestufen aus; Konsistenzpruefung ergaenzt, keine Rendereroptimierung"
-                  },
-                  {
-                      "version":  "0.1.128",
-                      "bin":  "knx-led-controller-16m-w_0.1.128.bin",
-                      "sha256":  "62715654279241077c20ff2fee6074fac7fa9a47ea975aac2ceab17de0c914bd",
-                      "date":  "2026-09-14",
-                      "note":  "Phase 2d formal korrigiert: Diagnose-Override als RAM-only Ausnahme dokumentiert, RAM-Bilanz und Residualgrenze berichtigt, Regressionen gehaertet; keine Rendereroptimierung"
                   }
               ]
 }

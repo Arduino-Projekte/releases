@@ -1,11 +1,11 @@
 {
-    "url":  "knx-led-controller-16m_0.1.132.bin",
+    "url":  "knx-led-controller-16m_0.1.134.bin",
     "check_ok":  true,
     "update_available":  false,
-    "version":  "0.1.132",
-    "bin":  "knx-led-controller-16m_0.1.132.bin",
-    "file":  "knx-led-controller-16m_0.1.132.bin",
-    "sha256":  "f8dc5fb5087464715f7c42be383eaae5575780497a43017d883596ca6aa85326",
-    "message":  "Phase 2e Alpha-Feinmessung: separater rotierender Ein-Pixel-Probe zerlegt Wellen-Alpha in Dispatch, Setup, Distanz, Fortschritt/Bounce und Tail-Unterstufen; Ergebnisabgleich gegen Produktivpfad, keine Rendereroptimierung",
+    "version":  "0.1.134",
+    "bin":  "knx-led-controller-16m_0.1.134.bin",
+    "file":  "knx-led-controller-16m_0.1.134.bin",
+    "sha256":  "6d64174e9e5319c1e669e2930bd1ac9c75101bab1fe9565204506f1db1307b67",
+    "message":  "Dauerlog-Ursachenmessung: Writer-Lease, open, Record-/Header-seek/-write und close getrennt in RAM vermessen; Admin-Messtaste erzeugt genau einen Satz; Schreibverfahren bis zum Hardware-Nachweis unveraendert",
     "http_code":  200
 }
