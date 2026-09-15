@@ -1,6 +1,13 @@
 {
     "items":  [
                   {
+                      "version":  "0.1.132",
+                      "bin":  "knx-led-controller-16m_0.1.132.bin",
+                      "sha256":  "f8dc5fb5087464715f7c42be383eaae5575780497a43017d883596ca6aa85326",
+                      "date":  "2026-09-15",
+                      "note":  "Phase 2e Alpha-Feinmessung: separater rotierender Ein-Pixel-Probe zerlegt Wellen-Alpha in Dispatch, Setup, Distanz, Fortschritt/Bounce und Tail-Unterstufen; Ergebnisabgleich gegen Produktivpfad, keine Rendereroptimierung"
+                  },
+                  {
                       "version":  "0.1.131",
                       "bin":  "knx-led-controller-16m_0.1.131.bin",
                       "sha256":  "74bb6bb2719bba822146d934235c98fe9d79036435beb0c9a10bd9cf783eeb0a",
@@ -27,13 +34,6 @@
                       "sha256":  "4d628ac7a57238bf3ba0ba38dc43b671ad2cb1c9e6cd0bf01b536bd9bfe9b073",
                       "date":  "2026-09-14",
                       "note":  "Phase 2d formal korrigiert: Diagnose-Override als RAM-only Ausnahme dokumentiert, RAM-Bilanz und Residualgrenze berichtigt, Regressionen gehaertet; keine Rendereroptimierung"
-                  },
-                  {
-                      "version":  "0.1.127",
-                      "bin":  "knx-led-controller-16m_0.1.127.bin",
-                      "sha256":  "0f87d3c7fc0e51fc0a82fd9e1adb98fe91d04f04ede1030f3aca8eaad5317037",
-                      "date":  "2026-09-14",
-                      "note":  "Phase 2e: Effekt-/Frame-Restzeit wird in Frame-Setup, Renderpfad und gesampelte Pixelstufen Mapping/Alpha/Endbild/Segmentmaske/Soft-On/Farbskalierung/SetPixel zerlegt; keine Rendereroptimierung"
                   }
               ]
 }
