@@ -5,7 +5,7 @@
   "minimum_firmware_version": "0.0.593",
   "maximum_firmware_version": "0.1.999",
   "compatibility_version": 1,
-  "package_version": "2.7.6",
+  "package_version": "2.7.8",
   "translations": {
     "Steuerung": "Control",
     "Abläufe": "Secuencias",
@@ -2171,6 +2171,21 @@
     "Szenendatei wird geprüft …": "Comprobando archivo de escenas …",
     "Bitte zuerst eine Szenendatei auswählen.": "Selecciona primero un archivo de escenas.",
     "Die Datei wurde seit der Prüfung geändert. Bitte erneut prüfen.": "El archivo ha cambiado desde la comprobación. Vuelve a comprobarlo.",
-    "Szenenimport abgeschlossen.": "Importación de escenas completada."
+    "Szenenimport abgeschlossen.": "Importación de escenas completada.",
+    "Dauerlog": "Registro persistente",
+    "Dauerlog-Modus": "Modo del registro persistente",
+    "Alle Ereignisse": "Todos los eventos",
+    "Warnungen + Fehler": "Advertencias + errores",
+    "Nur Fehler": "Solo errores",
+    "Dauerhafte Logeinträge schreiben in den internen Flash und können die Leistung des Controllers beeinflussen.": "Las entradas del registro persistente escriben en la memoria flash interna y pueden afectar al rendimiento del controlador.",
+    "Der RAM-Ereignisring bleibt in allen Stufen aktiv. Bei eingeschränkten Stufen werden weniger Ereignisse dauerhaft gespeichert.": "El anillo de eventos en RAM permanece activo en todos los modos. Los modos restringidos guardan de forma persistente menos eventos.",
+    "Übernehmen": "Aplicar",
+    "Dauerlog-Modus fehlt": "Falta el modo del registro persistente",
+    "Dauerlog-Modus ungueltig": "El modo del registro persistente no es válido",
+    "Dauerlog-Modus ist ungueltig": "El modo del registro persistente no es válido",
+    "Dauerlog-Modus nicht gespeichert, Konfiguration unveraendert": "No se guardó el modo del registro persistente; configuración sin cambios",
+    "Dauerlog-Modus unveraendert": "Modo del registro persistente sin cambios",
+    "Dauerlog-Modus gespeichert": "Modo del registro persistente guardado",
+    "Konfigurations-Arbeitsbereich ist belegt; keine Aenderung": "El área de trabajo de configuración está ocupada; no se realizaron cambios"
   }
 }

@@ -5,7 +5,7 @@
   "minimum_firmware_version": "0.0.593",
   "maximum_firmware_version": "0.1.999",
   "compatibility_version": 1,
-  "package_version": "2.7.6",
+  "package_version": "2.7.8",
   "translations": {
     "Steuerung": "Controllo",
     "Abläufe": "Sequenze",
@@ -2171,6 +2171,21 @@
     "Szenendatei wird geprüft …": "Verifica del file scene …",
     "Bitte zuerst eine Szenendatei auswählen.": "Seleziona prima un file scene.",
     "Die Datei wurde seit der Prüfung geändert. Bitte erneut prüfen.": "Il file è cambiato dopo la verifica. Verificalo di nuovo.",
-    "Szenenimport abgeschlossen.": "Importazione scene completata."
+    "Szenenimport abgeschlossen.": "Importazione scene completata.",
+    "Dauerlog": "Registro persistente",
+    "Dauerlog-Modus": "Modalità registro persistente",
+    "Alle Ereignisse": "Tutti gli eventi",
+    "Warnungen + Fehler": "Avvisi + errori",
+    "Nur Fehler": "Solo errori",
+    "Dauerhafte Logeinträge schreiben in den internen Flash und können die Leistung des Controllers beeinflussen.": "Le voci del registro persistente scrivono nella flash interna e possono influire sulle prestazioni del controller.",
+    "Der RAM-Ereignisring bleibt in allen Stufen aktiv. Bei eingeschränkten Stufen werden weniger Ereignisse dauerhaft gespeichert.": "L’anello eventi in RAM resta attivo in tutte le modalità. Le modalità limitate salvano in modo persistente meno eventi.",
+    "Übernehmen": "Applica",
+    "Dauerlog-Modus fehlt": "Manca la modalità del registro persistente",
+    "Dauerlog-Modus ungueltig": "La modalità del registro persistente non è valida",
+    "Dauerlog-Modus ist ungueltig": "La modalità del registro persistente non è valida",
+    "Dauerlog-Modus nicht gespeichert, Konfiguration unveraendert": "Modalità del registro persistente non salvata; configurazione invariata",
+    "Dauerlog-Modus unveraendert": "Modalità del registro persistente invariata",
+    "Dauerlog-Modus gespeichert": "Modalità del registro persistente salvata",
+    "Konfigurations-Arbeitsbereich ist belegt; keine Aenderung": "L’area di lavoro della configurazione è occupata; nessuna modifica"
   }
 }

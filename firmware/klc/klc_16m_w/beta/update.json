@@ -1,11 +1,11 @@
 {
-    "url":  "knx-led-controller-16m-w_0.1.136.bin",
+    "url":  "knx-led-controller-16m-w_0.1.137.bin",
     "check_ok":  true,
     "update_available":  false,
-    "version":  "0.1.136",
-    "bin":  "knx-led-controller-16m-w_0.1.136.bin",
-    "file":  "knx-led-controller-16m-w_0.1.136.bin",
-    "sha256":  "5615da2f4eb4ed522e368d7749f19d0fa6d45e82cf7ee5efe98701dc5a2dce5a",
-    "message":  "Dauerlog 0.1.136: Record-Persistenz kooperativ ueber Loopdurchlaeufe verteilt; 100-Byte-Satz wird in 16-Byte-Schritten geschrieben, close separat, maximale Einzelblockade separat messbar",
+    "version":  "0.1.137",
+    "bin":  "knx-led-controller-16m-w_0.1.137.bin",
+    "file":  "knx-led-controller-16m-w_0.1.137.bin",
+    "sha256":  "454150d7f6d235c0bcd19d8ac91d315be5b0e37f79a7cd154ac541e0721839fd",
+    "message":  "Dauerlog 0.1.137: Persistenzmodus Alle/Warn+Fehler/Nur Fehler/Aus, Web-Abbruchfamilie auf einen persistenten Fehler je Abbruch entprellt und LOOP_PHASE_SLOW gegen wartende Dubletten geschuetzt",
     "http_code":  200
 }

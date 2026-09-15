@@ -5,7 +5,7 @@
   "minimum_firmware_version": "0.0.593",
   "maximum_firmware_version": "0.1.999",
   "compatibility_version": 1,
-  "package_version": "2.7.6",
+  "package_version": "2.7.8",
   "translations": {
     "Steuerung": "Commande",
     "Abläufe": "Séquences",
@@ -2171,6 +2171,21 @@
     "Szenendatei wird geprüft …": "Vérification du fichier de scènes …",
     "Bitte zuerst eine Szenendatei auswählen.": "Veuillez d’abord sélectionner un fichier de scènes.",
     "Die Datei wurde seit der Prüfung geändert. Bitte erneut prüfen.": "Le fichier a été modifié depuis sa vérification. Veuillez le vérifier à nouveau.",
-    "Szenenimport abgeschlossen.": "Import des scènes terminé."
+    "Szenenimport abgeschlossen.": "Import des scènes terminé.",
+    "Dauerlog": "Journal persistant",
+    "Dauerlog-Modus": "Mode du journal persistant",
+    "Alle Ereignisse": "Tous les événements",
+    "Warnungen + Fehler": "Avertissements + erreurs",
+    "Nur Fehler": "Erreurs uniquement",
+    "Dauerhafte Logeinträge schreiben in den internen Flash und können die Leistung des Controllers beeinflussen.": "Les entrées du journal persistant écrivent dans la mémoire flash interne et peuvent affecter les performances du contrôleur.",
+    "Der RAM-Ereignisring bleibt in allen Stufen aktiv. Bei eingeschränkten Stufen werden weniger Ereignisse dauerhaft gespeichert.": "Le tampon circulaire des événements en RAM reste actif dans tous les modes. Les modes restreints enregistrent durablement moins d’événements.",
+    "Übernehmen": "Appliquer",
+    "Dauerlog-Modus fehlt": "Le mode du journal persistant est manquant",
+    "Dauerlog-Modus ungueltig": "Le mode du journal persistant est invalide",
+    "Dauerlog-Modus ist ungueltig": "Le mode du journal persistant est invalide",
+    "Dauerlog-Modus nicht gespeichert, Konfiguration unveraendert": "Le mode du journal persistant n’a pas été enregistré ; configuration inchangée",
+    "Dauerlog-Modus unveraendert": "Mode du journal persistant inchangé",
+    "Dauerlog-Modus gespeichert": "Mode du journal persistant enregistré",
+    "Konfigurations-Arbeitsbereich ist belegt; keine Aenderung": "L’espace de travail de configuration est occupé ; aucune modification"
   }
 }

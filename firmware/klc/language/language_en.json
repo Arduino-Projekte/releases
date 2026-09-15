@@ -5,7 +5,7 @@
   "minimum_firmware_version": "0.0.593",
   "maximum_firmware_version": "0.1.999",
   "compatibility_version": 1,
-  "package_version": "2.7.6",
+  "package_version": "2.7.8",
   "translations": {
     "Steuerung": "Control",
     "Abläufe": "Sequences",
@@ -2171,6 +2171,21 @@
     "Szenendatei wird geprüft …": "Checking scene file …",
     "Bitte zuerst eine Szenendatei auswählen.": "Please select a scene file first.",
     "Die Datei wurde seit der Prüfung geändert. Bitte erneut prüfen.": "The file has changed since it was checked. Please check it again.",
-    "Szenenimport abgeschlossen.": "Scene import completed."
+    "Szenenimport abgeschlossen.": "Scene import completed.",
+    "Dauerlog": "Persistent log",
+    "Dauerlog-Modus": "Persistent log mode",
+    "Alle Ereignisse": "All events",
+    "Warnungen + Fehler": "Warnings + errors",
+    "Nur Fehler": "Errors only",
+    "Dauerhafte Logeinträge schreiben in den internen Flash und können die Leistung des Controllers beeinflussen.": "Persistent log entries write to internal flash and can affect controller performance.",
+    "Der RAM-Ereignisring bleibt in allen Stufen aktiv. Bei eingeschränkten Stufen werden weniger Ereignisse dauerhaft gespeichert.": "The RAM event ring remains active in all modes. Restricted modes store fewer events persistently.",
+    "Übernehmen": "Apply",
+    "Dauerlog-Modus fehlt": "Persistent log mode is missing",
+    "Dauerlog-Modus ungueltig": "Persistent log mode is invalid",
+    "Dauerlog-Modus ist ungueltig": "Persistent log mode is invalid",
+    "Dauerlog-Modus nicht gespeichert, Konfiguration unveraendert": "Persistent log mode was not saved; configuration unchanged",
+    "Dauerlog-Modus unveraendert": "Persistent log mode unchanged",
+    "Dauerlog-Modus gespeichert": "Persistent log mode saved",
+    "Konfigurations-Arbeitsbereich ist belegt; keine Aenderung": "Configuration workspace is busy; no changes made"
   }
 }

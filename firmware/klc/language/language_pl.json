@@ -5,7 +5,7 @@
   "minimum_firmware_version": "0.0.593",
   "maximum_firmware_version": "0.1.999",
   "compatibility_version": 1,
-  "package_version": "2.7.6",
+  "package_version": "2.7.8",
   "translations": {
     "Steuerung": "Sterowanie",
     "Abläufe": "Sekwencje",
@@ -2171,6 +2171,21 @@
     "Szenendatei wird geprüft …": "Sprawdzanie pliku scen …",
     "Bitte zuerst eine Szenendatei auswählen.": "Najpierw wybierz plik scen.",
     "Die Datei wurde seit der Prüfung geändert. Bitte erneut prüfen.": "Plik zmienił się od czasu sprawdzenia. Sprawdź go ponownie.",
-    "Szenenimport abgeschlossen.": "Import scen zakończony."
+    "Szenenimport abgeschlossen.": "Import scen zakończony.",
+    "Dauerlog": "Dziennik trwały",
+    "Dauerlog-Modus": "Tryb dziennika trwałego",
+    "Alle Ereignisse": "Wszystkie zdarzenia",
+    "Warnungen + Fehler": "Ostrzeżenia + błędy",
+    "Nur Fehler": "Tylko błędy",
+    "Dauerhafte Logeinträge schreiben in den internen Flash und können die Leistung des Controllers beeinflussen.": "Wpisy dziennika trwałego zapisują dane w wewnętrznej pamięci flash i mogą wpływać na wydajność kontrolera.",
+    "Der RAM-Ereignisring bleibt in allen Stufen aktiv. Bei eingeschränkten Stufen werden weniger Ereignisse dauerhaft gespeichert.": "Pierścieniowy bufor zdarzeń w RAM pozostaje aktywny we wszystkich trybach. Tryby ograniczone zapisują trwale mniej zdarzeń.",
+    "Übernehmen": "Zastosuj",
+    "Dauerlog-Modus fehlt": "Brak trybu dziennika trwałego",
+    "Dauerlog-Modus ungueltig": "Tryb dziennika trwałego jest nieprawidłowy",
+    "Dauerlog-Modus ist ungueltig": "Tryb dziennika trwałego jest nieprawidłowy",
+    "Dauerlog-Modus nicht gespeichert, Konfiguration unveraendert": "Tryb dziennika trwałego nie został zapisany; konfiguracja bez zmian",
+    "Dauerlog-Modus unveraendert": "Tryb dziennika trwałego bez zmian",
+    "Dauerlog-Modus gespeichert": "Tryb dziennika trwałego zapisany",
+    "Konfigurations-Arbeitsbereich ist belegt; keine Aenderung": "Obszar roboczy konfiguracji jest zajęty; nie wprowadzono zmian"
   }
 }

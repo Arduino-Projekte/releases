@@ -5,7 +5,7 @@
   "minimum_firmware_version": "0.0.593",
   "maximum_firmware_version": "0.1.999",
   "compatibility_version": 1,
-  "package_version": "2.7.6",
+  "package_version": "2.7.8",
   "translations": {
     "Steuerung": "Bediening",
     "Abläufe": "Verlopen",
@@ -2171,6 +2171,21 @@
     "Szenendatei wird geprüft …": "Scènebestand wordt gecontroleerd …",
     "Bitte zuerst eine Szenendatei auswählen.": "Selecteer eerst een scènebestand.",
     "Die Datei wurde seit der Prüfung geändert. Bitte erneut prüfen.": "Het bestand is gewijzigd sinds de controle. Controleer het opnieuw.",
-    "Szenenimport abgeschlossen.": "Importeren van scènes voltooid."
+    "Szenenimport abgeschlossen.": "Importeren van scènes voltooid.",
+    "Dauerlog": "Permanent logboek",
+    "Dauerlog-Modus": "Modus permanent logboek",
+    "Alle Ereignisse": "Alle gebeurtenissen",
+    "Warnungen + Fehler": "Waarschuwingen + fouten",
+    "Nur Fehler": "Alleen fouten",
+    "Dauerhafte Logeinträge schreiben in den internen Flash und können die Leistung des Controllers beeinflussen.": "Permanente logboekvermeldingen schrijven naar de interne flash en kunnen de prestaties van de controller beïnvloeden.",
+    "Der RAM-Ereignisring bleibt in allen Stufen aktiv. Bei eingeschränkten Stufen werden weniger Ereignisse dauerhaft gespeichert.": "De RAM-gebeurtenisring blijft in alle modi actief. Beperkte modi slaan minder gebeurtenissen permanent op.",
+    "Übernehmen": "Toepassen",
+    "Dauerlog-Modus fehlt": "Modus voor permanent logboek ontbreekt",
+    "Dauerlog-Modus ungueltig": "Modus voor permanent logboek is ongeldig",
+    "Dauerlog-Modus ist ungueltig": "Modus voor permanent logboek is ongeldig",
+    "Dauerlog-Modus nicht gespeichert, Konfiguration unveraendert": "Modus voor permanent logboek niet opgeslagen; configuratie ongewijzigd",
+    "Dauerlog-Modus unveraendert": "Modus voor permanent logboek ongewijzigd",
+    "Dauerlog-Modus gespeichert": "Modus voor permanent logboek opgeslagen",
+    "Konfigurations-Arbeitsbereich ist belegt; keine Aenderung": "Configuratiewerkruimte is bezet; geen wijzigingen aangebracht"
   }
 }

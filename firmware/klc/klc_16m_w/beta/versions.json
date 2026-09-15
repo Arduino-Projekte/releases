@@ -1,6 +1,13 @@
 {
     "items":  [
                   {
+                      "version":  "0.1.137",
+                      "bin":  "knx-led-controller-16m-w_0.1.137.bin",
+                      "sha256":  "454150d7f6d235c0bcd19d8ac91d315be5b0e37f79a7cd154ac541e0721839fd",
+                      "date":  "2026-09-15",
+                      "note":  "Dauerlog 0.1.137: Persistenzmodus Alle/Warn+Fehler/Nur Fehler/Aus, Web-Abbruchfamilie auf einen persistenten Fehler je Abbruch entprellt und LOOP_PHASE_SLOW gegen wartende Dubletten geschuetzt"
+                  },
+                  {
                       "version":  "0.1.136",
                       "bin":  "knx-led-controller-16m-w_0.1.136.bin",
                       "sha256":  "5615da2f4eb4ed522e368d7749f19d0fa6d45e82cf7ee5efe98701dc5a2dce5a",
@@ -25,13 +32,6 @@
                       "version":  "0.1.132",
                       "bin":  "knx-led-controller-16m-w_0.1.132.bin",
                       "sha256":  "eb881673c8a5633b2d64d07c350bf636a465d58d722875bdd69f5bac43c74b12",
-                      "date":  "2026-09-15",
-                      "note":  "Phase 2e Alpha-Feinmessung: separater rotierender Ein-Pixel-Probe zerlegt Wellen-Alpha in Dispatch, Setup, Distanz, Fortschritt/Bounce und Tail-Unterstufen; Ergebnisabgleich gegen Produktivpfad, keine Rendereroptimierung"
-                  },
-                  {
-                      "version":  "0.1.131",
-                      "bin":  "knx-led-controller-16m-w_0.1.131.bin",
-                      "sha256":  "11d33dc1f7e5c83e4cfd27d68b40543cd546b71a08451235b7e844c009586363",
                       "date":  "2026-09-15",
                       "note":  "Phase 2e Alpha-Feinmessung: separater rotierender Ein-Pixel-Probe zerlegt Wellen-Alpha in Dispatch, Setup, Distanz, Fortschritt/Bounce und Tail-Unterstufen; Ergebnisabgleich gegen Produktivpfad, keine Rendereroptimierung"
                   }

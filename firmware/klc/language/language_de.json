@@ -5,7 +5,7 @@
   "minimum_firmware_version": "0.0.593",
   "maximum_firmware_version": "0.1.999",
   "compatibility_version": 1,
-  "package_version": "2.7.6",
+  "package_version": "2.7.8",
   "translations": {
     "Steuerung": "Steuerung",
     "Abläufe": "Abläufe",
@@ -2171,6 +2171,21 @@
     "Szenendatei wird geprüft …": "Szenendatei wird geprüft …",
     "Bitte zuerst eine Szenendatei auswählen.": "Bitte zuerst eine Szenendatei auswählen.",
     "Die Datei wurde seit der Prüfung geändert. Bitte erneut prüfen.": "Die Datei wurde seit der Prüfung geändert. Bitte erneut prüfen.",
-    "Szenenimport abgeschlossen.": "Szenenimport abgeschlossen."
+    "Szenenimport abgeschlossen.": "Szenenimport abgeschlossen.",
+    "Dauerlog": "Dauerlog",
+    "Dauerlog-Modus": "Dauerlog-Modus",
+    "Alle Ereignisse": "Alle Ereignisse",
+    "Warnungen + Fehler": "Warnungen + Fehler",
+    "Nur Fehler": "Nur Fehler",
+    "Dauerhafte Logeinträge schreiben in den internen Flash und können die Leistung des Controllers beeinflussen.": "Dauerhafte Logeinträge schreiben in den internen Flash und können die Leistung des Controllers beeinflussen.",
+    "Der RAM-Ereignisring bleibt in allen Stufen aktiv. Bei eingeschränkten Stufen werden weniger Ereignisse dauerhaft gespeichert.": "Der RAM-Ereignisring bleibt in allen Stufen aktiv. Bei eingeschränkten Stufen werden weniger Ereignisse dauerhaft gespeichert.",
+    "Übernehmen": "Übernehmen",
+    "Dauerlog-Modus fehlt": "Dauerlog-Modus fehlt",
+    "Dauerlog-Modus ungueltig": "Dauerlog-Modus ungültig",
+    "Dauerlog-Modus ist ungueltig": "Dauerlog-Modus ist ungültig",
+    "Dauerlog-Modus nicht gespeichert, Konfiguration unveraendert": "Dauerlog-Modus nicht gespeichert, Konfiguration unverändert",
+    "Dauerlog-Modus unveraendert": "Dauerlog-Modus unverändert",
+    "Dauerlog-Modus gespeichert": "Dauerlog-Modus gespeichert",
+    "Konfigurations-Arbeitsbereich ist belegt; keine Aenderung": "Konfigurations-Arbeitsbereich ist belegt; keine Änderung"
   }
 }
