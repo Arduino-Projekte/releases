@@ -6,7 +6,7 @@
                      "version":  "0.1.135",
                      "bin":  "knx-led-controller-16m-w_0.1.135.bin",
                      "file":  "knx-led-controller-16m-w_0.1.135.bin",
-                     "sha256":  "cc6a89367ef7db427cebe3d098684f33bdbce30e783844c708a1e736db7c7df4",
+                     "sha256":  "dbc6912ef418e01e6ee024d23d2777c8a790c3583ccb222c2ff2b329f311763a",
                      "message":  "Dauerlog-Behebung nach Hardwaremessung: Record bleibt synchron, Header wird nur beim Boot checkpointet und aus CRC-geprueften Records rekonstruiert; 157-ms Header-Seek plus 48-ms Header-Write entfallen je Satz",
                      "http_code":  200
                  }
