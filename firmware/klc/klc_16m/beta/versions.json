@@ -1,6 +1,13 @@
 {
     "items":  [
                   {
+                      "version":  "0.1.140",
+                      "bin":  "knx-led-controller-16m_0.1.140.bin",
+                      "sha256":  "925171113a6208dbf2c0285f575b8776baaa99989029fa01b8eb0d19a05c9ed8",
+                      "date":  "2026-09-15",
+                      "note":  "Phasennaht 0.1.139: manuelle Startdauer wird wieder respektiert; stetiger Uebergang zur Hauptwelle und Auto-Seam bleiben erhalten"
+                  },
+                  {
                       "version":  "0.1.139",
                       "bin":  "knx-led-controller-16m_0.1.139.bin",
                       "sha256":  "d8114024383a093a296201f7bf481b0efb45326d3632e7e594aafd4398d1f5b9",
@@ -27,13 +34,6 @@
                       "sha256":  "51b48c8ce2abe94b57ca47531778a177e856bd11fa3757a2aedcaf560301ec69",
                       "date":  "2026-09-15",
                       "note":  "Dauerlog 0.1.136: Record-Persistenz kooperativ ueber Loopdurchlaeufe verteilt; 100-Byte-Satz wird in 16-Byte-Schritten geschrieben, close separat, maximale Einzelblockade separat messbar"
-                  },
-                  {
-                      "version":  "0.1.135",
-                      "bin":  "knx-led-controller-16m_0.1.135.bin",
-                      "sha256":  "0d738da2dc1f195ae43323a09d482e675b96963aae02a07bb7cf8d0739a5d9e8",
-                      "date":  "2026-09-15",
-                      "note":  "Dauerlog-Behebung nach Hardwaremessung: Record bleibt synchron, Header wird nur beim Boot checkpointet und aus CRC-geprueften Records rekonstruiert; 157-ms Header-Seek plus 48-ms Header-Write entfallen je Satz"
                   }
               ]
 }
