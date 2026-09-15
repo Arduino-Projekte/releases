@@ -1,6 +1,13 @@
 {
     "items":  [
                   {
+                      "version":  "0.1.130",
+                      "bin":  "knx-led-controller-16m_0.1.130.bin",
+                      "sha256":  "5424ff3d93c35997300586930084a1161c176b00c0229fa77415fa89ac50ed44",
+                      "date":  "2026-09-15",
+                      "note":  "Phase 2e Alpha-Feinmessung: separater rotierender Ein-Pixel-Probe zerlegt Wellen-Alpha in Dispatch, Setup, Distanz, Fortschritt/Bounce und Tail-Unterstufen; Ergebnisabgleich gegen Produktivpfad, keine Rendereroptimierung"
+                  },
+                  {
                       "version":  "0.1.129",
                       "bin":  "knx-led-controller-16m_0.1.129.bin",
                       "sha256":  "f5335320780189eae4f5d0aa5e2c135c5d97fb0e60ffb5844eceb8cb464c7888",
@@ -27,13 +34,6 @@
                       "sha256":  "60bd51114d518590807772937d29e598982629741ef621ab6bc6929782459889",
                       "date":  "2026-09-14",
                       "note":  "Phase 2d: temporaerer Diagnose-Override Auto/38/20/10 ms ermoeglicht reproduzierbare Render-Messreihen bei identischer LED-Last; Zielwechsel startet die Performance-Messung neu"
-                  },
-                  {
-                      "version":  "0.1.124",
-                      "bin":  "knx-led-controller-16m_0.1.124.bin",
-                      "sha256":  "c6aad9a3f91a56e3095439b9f382ede008ba78c8713394b5b0b91ad6b93c3b1e",
-                      "date":  "2026-09-14",
-                      "note":  "Phase 2c korrigiert: Dauerlogdiagnose trennt echte Idle-/No-I/O-Ticks, erfolgreiche Writes und fehlgeschlagene Datei-I/O-Versuche; Teilbytes und Klassifikationsinvariante sind sichtbar"
                   }
               ]
 }
