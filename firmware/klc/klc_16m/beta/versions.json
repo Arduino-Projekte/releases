@@ -1,6 +1,13 @@
 {
     "items":  [
                   {
+                      "version":  "0.1.136",
+                      "bin":  "knx-led-controller-16m_0.1.136.bin",
+                      "sha256":  "6695e761104d8f457673057ca69c6e06e0d6341cbe57cfba277b5dc56de34bb2",
+                      "date":  "2026-09-15",
+                      "note":  "Dauerlog 0.1.136: Record-Persistenz kooperativ ueber Loopdurchlaeufe verteilt; 100-Byte-Satz wird in 16-Byte-Schritten geschrieben, close separat, maximale Einzelblockade separat messbar"
+                  },
+                  {
                       "version":  "0.1.135",
                       "bin":  "knx-led-controller-16m_0.1.135.bin",
                       "sha256":  "0d738da2dc1f195ae43323a09d482e675b96963aae02a07bb7cf8d0739a5d9e8",
@@ -25,13 +32,6 @@
                       "version":  "0.1.131",
                       "bin":  "knx-led-controller-16m_0.1.131.bin",
                       "sha256":  "74bb6bb2719bba822146d934235c98fe9d79036435beb0c9a10bd9cf783eeb0a",
-                      "date":  "2026-09-15",
-                      "note":  "Phase 2e Alpha-Feinmessung: separater rotierender Ein-Pixel-Probe zerlegt Wellen-Alpha in Dispatch, Setup, Distanz, Fortschritt/Bounce und Tail-Unterstufen; Ergebnisabgleich gegen Produktivpfad, keine Rendereroptimierung"
-                  },
-                  {
-                      "version":  "0.1.130",
-                      "bin":  "knx-led-controller-16m_0.1.130.bin",
-                      "sha256":  "6e498653d4b9d4929d2a1b451ea1c52aad3345e1d6f053fc1ea7b09129aefece",
                       "date":  "2026-09-15",
                       "note":  "Phase 2e Alpha-Feinmessung: separater rotierender Ein-Pixel-Probe zerlegt Wellen-Alpha in Dispatch, Setup, Distanz, Fortschritt/Bounce und Tail-Unterstufen; Ergebnisabgleich gegen Produktivpfad, keine Rendereroptimierung"
                   }
