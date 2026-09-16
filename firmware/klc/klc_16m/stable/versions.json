@@ -1,6 +1,13 @@
 {
     "items":  [
                   {
+                      "version":  "0.1.144",
+                      "bin":  "knx-led-controller-16m_0.1.144.bin",
+                      "sha256":  "97fdfcb2e36dd06a17330f84de00b3ccf801b717c314ce7bce503a504f107b5b",
+                      "date":  "2026-09-16",
+                      "note":  "Naechste Szene frueher starten: Zielszene startet vor dem Ende der Aus-Phase, beide Szenen werden gemischt (Einzelausgang)"
+                  },
+                  {
                       "version":  "0.1.141",
                       "bin":  "knx-led-controller-16m_0.1.141.bin",
                       "sha256":  "cec5253f361f7812b4040854936b9bf5b5e90b45cbee4ceb16b0bd1e8161c883",
@@ -27,13 +34,6 @@
                       "sha256":  "51b48c8ce2abe94b57ca47531778a177e856bd11fa3757a2aedcaf560301ec69",
                       "date":  "2026-09-15",
                       "note":  "Dauerlog 0.1.136: Record-Persistenz kooperativ ueber Loopdurchlaeufe verteilt; 100-Byte-Satz wird in 16-Byte-Schritten geschrieben, close separat, maximale Einzelblockade separat messbar"
-                  },
-                  {
-                      "version":  "0.1.135",
-                      "bin":  "knx-led-controller-16m_0.1.135.bin",
-                      "sha256":  "0d738da2dc1f195ae43323a09d482e675b96963aae02a07bb7cf8d0739a5d9e8",
-                      "date":  "2026-09-15",
-                      "note":  "Dauerlog-Behebung nach Hardwaremessung: Record bleibt synchron, Header wird nur beim Boot checkpointet und aus CRC-geprueften Records rekonstruiert; 157-ms Header-Seek plus 48-ms Header-Write entfallen je Satz"
                   }
               ]
 }

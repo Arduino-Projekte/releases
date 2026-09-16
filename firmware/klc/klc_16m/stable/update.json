@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m_0.1.141.bin",
+                     "url":  "knx-led-controller-16m_0.1.144.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.1.141",
-                     "bin":  "knx-led-controller-16m_0.1.141.bin",
-                     "file":  "knx-led-controller-16m_0.1.141.bin",
-                     "sha256":  "cec5253f361f7812b4040854936b9bf5b5e90b45cbee4ceb16b0bd1e8161c883",
-                     "message":  "Szenenwechsel 0.1.141: die Ueberblendzeit ist jetzt die groessere der beiden beteiligten Szenenzeiten; Feldbeschreibung entspricht wieder dem Verhalten",
+                     "version":  "0.1.144",
+                     "bin":  "knx-led-controller-16m_0.1.144.bin",
+                     "file":  "knx-led-controller-16m_0.1.144.bin",
+                     "sha256":  "97fdfcb2e36dd06a17330f84de00b3ccf801b717c314ce7bce503a504f107b5b",
+                     "message":  "Naechste Szene frueher starten: Zielszene startet vor dem Ende der Aus-Phase, beide Szenen werden gemischt (Einzelausgang)",
                      "http_code":  200
                  }
 }
