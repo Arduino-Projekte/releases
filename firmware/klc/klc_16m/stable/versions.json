@@ -1,6 +1,13 @@
 {
     "items":  [
                   {
+                      "version":  "0.1.149",
+                      "bin":  "knx-led-controller-16m_0.1.149.bin",
+                      "sha256":  "3d64c8c538b99f09d9d3e45b370c3c871980914e08a4b2a0f2e5746a5b0aa607",
+                      "date":  "2026-09-16",
+                      "note":  "Sanft Aus mit Aus-Effekt: kein Stottern, eigene Abschaltfarbe stimmt"
+                  },
+                  {
                       "version":  "0.1.147",
                       "bin":  "knx-led-controller-16m_0.1.147.bin",
                       "sha256":  "32ae07753d128eed9f370a0eea7f31222ede3bd98c37b7826be802d55f15c107",
@@ -27,13 +34,6 @@
                       "sha256":  "97fdfcb2e36dd06a17330f84de00b3ccf801b717c314ce7bce503a504f107b5b",
                       "date":  "2026-09-16",
                       "note":  "Naechste Szene frueher starten: Zielszene startet vor dem Ende der Aus-Phase, beide Szenen werden gemischt (Einzelausgang)"
-                  },
-                  {
-                      "version":  "0.1.141",
-                      "bin":  "knx-led-controller-16m_0.1.141.bin",
-                      "sha256":  "cec5253f361f7812b4040854936b9bf5b5e90b45cbee4ceb16b0bd1e8161c883",
-                      "date":  "2026-09-15",
-                      "note":  "Szenenwechsel 0.1.141: die Ueberblendzeit ist jetzt die groessere der beiden beteiligten Szenenzeiten; Feldbeschreibung entspricht wieder dem Verhalten"
                   }
               ]
 }
