@@ -1,6 +1,13 @@
 {
     "items":  [
                   {
+                      "version":  "0.1.147",
+                      "bin":  "knx-led-controller-16m-w_0.1.147.bin",
+                      "sha256":  "d75c2330c158b2b3c26881156a6749eb44a1351a95019c2574413fc0343f9def",
+                      "date":  "2026-09-16",
+                      "note":  "Statische Aufbau- und Aus-Effekte zeigen wieder ein Dauerfeld; eigene Phasenfarbe wird sichtbar"
+                  },
+                  {
                       "version":  "0.1.146",
                       "bin":  "knx-led-controller-16m-w_0.1.146.bin",
                       "sha256":  "5735ebe3d0019dfdbb4a7d99aeaca416e8344f08b0925e8da2ae3c573b53bd92",
@@ -27,13 +34,6 @@
                       "sha256":  "7e615647ac2fceeae35492be40e27e17bc44f2394aba55e42aed5cbc334a7424",
                       "date":  "2026-09-15",
                       "note":  "Szenenwechsel 0.1.141: die Ueberblendzeit ist jetzt die groessere der beiden beteiligten Szenenzeiten; Feldbeschreibung entspricht wieder dem Verhalten"
-                  },
-                  {
-                      "version":  "0.1.140",
-                      "bin":  "knx-led-controller-16m-w_0.1.140.bin",
-                      "sha256":  "cd5360094e1c64abe48c71d6cade2cbe2b25ad0c39cfcd0f6703d8224caef803",
-                      "date":  "2026-09-15",
-                      "note":  "Phasennaht 0.1.139: manuelle Startdauer wird wieder respektiert; stetiger Uebergang zur Hauptwelle und Auto-Seam bleiben erhalten"
                   }
               ]
 }

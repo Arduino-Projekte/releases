@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m-w_0.1.146.bin",
+                     "url":  "knx-led-controller-16m-w_0.1.147.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.1.146",
-                     "bin":  "knx-led-controller-16m-w_0.1.146.bin",
-                     "file":  "knx-led-controller-16m-w_0.1.146.bin",
-                     "sha256":  "5735ebe3d0019dfdbb4a7d99aeaca416e8344f08b0925e8da2ae3c573b53bd92",
-                     "message":  "Szenenueberlappung: zeitgewichtet als Standard, Sanft ein/aus beim ueberblendeten Szenenwechsel ausgesetzt",
+                     "version":  "0.1.147",
+                     "bin":  "knx-led-controller-16m-w_0.1.147.bin",
+                     "file":  "knx-led-controller-16m-w_0.1.147.bin",
+                     "sha256":  "d75c2330c158b2b3c26881156a6749eb44a1351a95019c2574413fc0343f9def",
+                     "message":  "Statische Aufbau- und Aus-Effekte zeigen wieder ein Dauerfeld; eigene Phasenfarbe wird sichtbar",
                      "http_code":  200
                  }
 }
