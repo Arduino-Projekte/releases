@@ -1,6 +1,13 @@
 {
     "items":  [
                   {
+                      "version":  "0.1.145",
+                      "bin":  "knx-led-controller-16m-w_0.1.145.bin",
+                      "sha256":  "38e5ebbdbf82672b2052d4060b780095346acde12f76f75acd29a2a46a58036a",
+                      "date":  "2026-09-16",
+                      "note":  "Naechste Szene frueher starten: Grenze Aus-Effekt-Dauer wirkt schon beim Eintragen"
+                  },
+                  {
                       "version":  "0.1.144",
                       "bin":  "knx-led-controller-16m-w_0.1.144.bin",
                       "sha256":  "e2504731ab10a4a5e34d1592d125cf0fa2e81b804f9b1afee64669ced859a391",
@@ -27,13 +34,6 @@
                       "sha256":  "f1dc890b96491a4c18abbbe86d072c4026de952cca773354bdb78ae4b13f331d",
                       "date":  "2026-09-15",
                       "note":  "Phasennaht 0.1.139: manuelle Startdauer wird wieder respektiert; stetiger Uebergang zur Hauptwelle und Auto-Seam bleiben erhalten"
-                  },
-                  {
-                      "version":  "0.1.135",
-                      "bin":  "knx-led-controller-16m-w_0.1.135.bin",
-                      "sha256":  "dbc6912ef418e01e6ee024d23d2777c8a790c3583ccb222c2ff2b329f311763a",
-                      "date":  "2026-09-15",
-                      "note":  "Dauerlog-Behebung nach Hardwaremessung: Record bleibt synchron, Header wird nur beim Boot checkpointet und aus CRC-geprueften Records rekonstruiert; 157-ms Header-Seek plus 48-ms Header-Write entfallen je Satz"
                   }
               ]
 }

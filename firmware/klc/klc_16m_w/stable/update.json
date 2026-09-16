@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m-w_0.1.144.bin",
+                     "url":  "knx-led-controller-16m-w_0.1.145.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.1.144",
-                     "bin":  "knx-led-controller-16m-w_0.1.144.bin",
-                     "file":  "knx-led-controller-16m-w_0.1.144.bin",
-                     "sha256":  "e2504731ab10a4a5e34d1592d125cf0fa2e81b804f9b1afee64669ced859a391",
-                     "message":  "Naechste Szene frueher starten: Zielszene startet vor dem Ende der Aus-Phase, beide Szenen werden gemischt (Einzelausgang)",
+                     "version":  "0.1.145",
+                     "bin":  "knx-led-controller-16m-w_0.1.145.bin",
+                     "file":  "knx-led-controller-16m-w_0.1.145.bin",
+                     "sha256":  "38e5ebbdbf82672b2052d4060b780095346acde12f76f75acd29a2a46a58036a",
+                     "message":  "Naechste Szene frueher starten: Grenze Aus-Effekt-Dauer wirkt schon beim Eintragen",
                      "http_code":  200
                  }
 }
