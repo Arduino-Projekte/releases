@@ -1,11 +1,11 @@
 {
-    "url":  "knx-led-controller-16m_0.1.147.bin",
+    "url":  "knx-led-controller-16m_0.1.149.bin",
     "check_ok":  true,
     "update_available":  false,
-    "version":  "0.1.147",
-    "bin":  "knx-led-controller-16m_0.1.147.bin",
-    "file":  "knx-led-controller-16m_0.1.147.bin",
-    "sha256":  "32ae07753d128eed9f370a0eea7f31222ede3bd98c37b7826be802d55f15c107",
-    "message":  "Statische Aufbau- und Aus-Effekte zeigen wieder ein Dauerfeld; eigene Phasenfarbe wird sichtbar",
+    "version":  "0.1.149",
+    "bin":  "knx-led-controller-16m_0.1.149.bin",
+    "file":  "knx-led-controller-16m_0.1.149.bin",
+    "sha256":  "3d64c8c538b99f09d9d3e45b370c3c871980914e08a4b2a0f2e5746a5b0aa607",
+    "message":  "Sanft Aus mit Aus-Effekt: kein Stottern, eigene Abschaltfarbe stimmt",
     "http_code":  200
 }
