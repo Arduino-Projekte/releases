@@ -1,11 +1,11 @@
 {
-    "url":  "knx-led-controller-16m-w_0.1.143.bin",
+    "url":  "knx-led-controller-16m-w_0.1.144.bin",
     "check_ok":  true,
     "update_available":  false,
-    "version":  "0.1.143",
-    "bin":  "knx-led-controller-16m-w_0.1.143.bin",
-    "file":  "knx-led-controller-16m-w_0.1.143.bin",
-    "sha256":  "a08ef99908ac26128c219c1840f61e0e7fdcdbd9f4e668c246ed96e4d1a5556b",
-    "message":  "Szenenueberlappung Etappe 4a: Backend mischt zwei laufende Szenen in drei Modi, noch ohne Ausloeser",
+    "version":  "0.1.144",
+    "bin":  "knx-led-controller-16m-w_0.1.144.bin",
+    "file":  "knx-led-controller-16m-w_0.1.144.bin",
+    "sha256":  "e2504731ab10a4a5e34d1592d125cf0fa2e81b804f9b1afee64669ced859a391",
+    "message":  "Naechste Szene frueher starten: Zielszene startet vor dem Ende der Aus-Phase, beide Szenen werden gemischt (Einzelausgang)",
     "http_code":  200
 }

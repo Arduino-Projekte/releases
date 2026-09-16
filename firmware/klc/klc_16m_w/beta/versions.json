@@ -1,6 +1,13 @@
 {
     "items":  [
                   {
+                      "version":  "0.1.144",
+                      "bin":  "knx-led-controller-16m-w_0.1.144.bin",
+                      "sha256":  "e2504731ab10a4a5e34d1592d125cf0fa2e81b804f9b1afee64669ced859a391",
+                      "date":  "2026-09-16",
+                      "note":  "Naechste Szene frueher starten: Zielszene startet vor dem Ende der Aus-Phase, beide Szenen werden gemischt (Einzelausgang)"
+                  },
+                  {
                       "version":  "0.1.143",
                       "bin":  "knx-led-controller-16m-w_0.1.143.bin",
                       "sha256":  "a08ef99908ac26128c219c1840f61e0e7fdcdbd9f4e668c246ed96e4d1a5556b",
@@ -27,13 +34,6 @@
                       "sha256":  "f1dc890b96491a4c18abbbe86d072c4026de952cca773354bdb78ae4b13f331d",
                       "date":  "2026-09-15",
                       "note":  "Phasennaht 0.1.139: manuelle Startdauer wird wieder respektiert; stetiger Uebergang zur Hauptwelle und Auto-Seam bleiben erhalten"
-                  },
-                  {
-                      "version":  "0.1.138",
-                      "bin":  "knx-led-controller-16m-w_0.1.138.bin",
-                      "sha256":  "f0af8573463680d3e8292f55940057b3b9d153d23109e97e1b8cedc291c0ed23",
-                      "date":  "2026-09-15",
-                      "note":  "Phasennaht 0.1.138: kompatible Start-/Hauptwellen mit gleicher Winkelgeschwindigkeit, fortgefuehrtem Phasenwinkel und konsistentem Phase-2f-/Probe-Pfad"
                   }
               ]
 }
