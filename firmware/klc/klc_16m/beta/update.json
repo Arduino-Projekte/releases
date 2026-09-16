@@ -1,11 +1,11 @@
 {
-    "url":  "knx-led-controller-16m_0.1.141.bin",
+    "url":  "knx-led-controller-16m_0.1.143.bin",
     "check_ok":  true,
     "update_available":  false,
-    "version":  "0.1.141",
-    "bin":  "knx-led-controller-16m_0.1.141.bin",
-    "file":  "knx-led-controller-16m_0.1.141.bin",
-    "sha256":  "cec5253f361f7812b4040854936b9bf5b5e90b45cbee4ceb16b0bd1e8161c883",
-    "message":  "Szenenwechsel 0.1.141: die Ueberblendzeit ist jetzt die groessere der beiden beteiligten Szenenzeiten; Feldbeschreibung entspricht wieder dem Verhalten",
+    "version":  "0.1.143",
+    "bin":  "knx-led-controller-16m_0.1.143.bin",
+    "file":  "knx-led-controller-16m_0.1.143.bin",
+    "sha256":  "71778aea8554759cb15c3a05aae6f4ab8beb6df8ce2719376c2d3c113281f263",
+    "message":  "Szenenueberlappung Etappe 4a: Backend mischt zwei laufende Szenen in drei Modi, noch ohne Ausloeser",
     "http_code":  200
 }
