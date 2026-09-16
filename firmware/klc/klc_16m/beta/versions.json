@@ -1,6 +1,13 @@
 {
     "items":  [
                   {
+                      "version":  "0.1.146",
+                      "bin":  "knx-led-controller-16m_0.1.146.bin",
+                      "sha256":  "c4c92d2b9881686bb7d0f3ba768d313b5acb0dd33c1137367df89f3926641163",
+                      "date":  "2026-09-16",
+                      "note":  "Szenenueberlappung: zeitgewichtet als Standard, Sanft ein/aus beim ueberblendeten Szenenwechsel ausgesetzt"
+                  },
+                  {
                       "version":  "0.1.145",
                       "bin":  "knx-led-controller-16m_0.1.145.bin",
                       "sha256":  "175d4387a9a40d9c7376507ea70551966421b6312d56692329c98d4bd7d1e2ef",
@@ -27,13 +34,6 @@
                       "sha256":  "cec5253f361f7812b4040854936b9bf5b5e90b45cbee4ceb16b0bd1e8161c883",
                       "date":  "2026-09-15",
                       "note":  "Szenenwechsel 0.1.141: die Ueberblendzeit ist jetzt die groessere der beiden beteiligten Szenenzeiten; Feldbeschreibung entspricht wieder dem Verhalten"
-                  },
-                  {
-                      "version":  "0.1.140",
-                      "bin":  "knx-led-controller-16m_0.1.140.bin",
-                      "sha256":  "925171113a6208dbf2c0285f575b8776baaa99989029fa01b8eb0d19a05c9ed8",
-                      "date":  "2026-09-15",
-                      "note":  "Phasennaht 0.1.139: manuelle Startdauer wird wieder respektiert; stetiger Uebergang zur Hauptwelle und Auto-Seam bleiben erhalten"
                   }
               ]
 }

@@ -1,11 +1,11 @@
 {
-    "url":  "knx-led-controller-16m_0.1.145.bin",
+    "url":  "knx-led-controller-16m_0.1.146.bin",
     "check_ok":  true,
     "update_available":  false,
-    "version":  "0.1.145",
-    "bin":  "knx-led-controller-16m_0.1.145.bin",
-    "file":  "knx-led-controller-16m_0.1.145.bin",
-    "sha256":  "175d4387a9a40d9c7376507ea70551966421b6312d56692329c98d4bd7d1e2ef",
-    "message":  "Naechste Szene frueher starten: Grenze Aus-Effekt-Dauer wirkt schon beim Eintragen",
+    "version":  "0.1.146",
+    "bin":  "knx-led-controller-16m_0.1.146.bin",
+    "file":  "knx-led-controller-16m_0.1.146.bin",
+    "sha256":  "c4c92d2b9881686bb7d0f3ba768d313b5acb0dd33c1137367df89f3926641163",
+    "message":  "Szenenueberlappung: zeitgewichtet als Standard, Sanft ein/aus beim ueberblendeten Szenenwechsel ausgesetzt",
     "http_code":  200
 }
