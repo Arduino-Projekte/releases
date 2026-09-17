@@ -1,11 +1,11 @@
 {
-    "url":  "knx-led-controller-16m_0.1.150.bin",
+    "url":  "knx-led-controller-16m_0.1.152.bin",
     "check_ok":  true,
     "update_available":  false,
-    "version":  "0.1.150",
-    "bin":  "knx-led-controller-16m_0.1.150.bin",
-    "file":  "knx-led-controller-16m_0.1.150.bin",
-    "sha256":  "22e11af7ecd374cf3e9a1441f28c4a34e3c935d30135ee68db2e184fc2b4596d",
-    "message":  "Sanft Aus: quadratische Ausblendkurve statt linear, weniger Stufen am Ende",
+    "version":  "0.1.152",
+    "bin":  "knx-led-controller-16m_0.1.152.bin",
+    "file":  "knx-led-controller-16m_0.1.152.bin",
+    "sha256":  "973b76d246eb79a90f895eb9b6177662fe80d782b5a19a7d580303e5c38ad4d3",
+    "message":  "KNX: Helligkeit/Farbe ohne Zwischenstaende laufender Uebergaenge",
     "http_code":  200
 }
