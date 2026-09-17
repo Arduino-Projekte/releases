@@ -5,7 +5,7 @@
     "version":  "0.1.149",
     "bin":  "knx-led-controller-16m_0.1.149.bin",
     "file":  "knx-led-controller-16m_0.1.149.bin",
-    "sha256":  "3d64c8c538b99f09d9d3e45b370c3c871980914e08a4b2a0f2e5746a5b0aa607",
+    "sha256":  "98ae8df80a5f08dd4947b0c62d122d75a9862c2997f2c7a40e09b4cf57f0cad1",
     "message":  "Sanft Aus mit Aus-Effekt: kein Stottern, eigene Abschaltfarbe stimmt",
     "http_code":  200
 }
