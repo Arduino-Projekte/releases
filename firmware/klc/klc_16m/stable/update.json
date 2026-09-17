@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m_0.1.149.bin",
+                     "url":  "knx-led-controller-16m_0.1.150.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.1.149",
-                     "bin":  "knx-led-controller-16m_0.1.149.bin",
-                     "file":  "knx-led-controller-16m_0.1.149.bin",
-                     "sha256":  "98ae8df80a5f08dd4947b0c62d122d75a9862c2997f2c7a40e09b4cf57f0cad1",
-                     "message":  "Sanft Aus mit Aus-Effekt: kein Stottern, eigene Abschaltfarbe stimmt",
+                     "version":  "0.1.150",
+                     "bin":  "knx-led-controller-16m_0.1.150.bin",
+                     "file":  "knx-led-controller-16m_0.1.150.bin",
+                     "sha256":  "22e11af7ecd374cf3e9a1441f28c4a34e3c935d30135ee68db2e184fc2b4596d",
+                     "message":  "Sanft Aus: quadratische Ausblendkurve statt linear, weniger Stufen am Ende",
                      "http_code":  200
                  }
 }

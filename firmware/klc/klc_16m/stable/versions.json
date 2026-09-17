@@ -1,6 +1,13 @@
 {
     "items":  [
                   {
+                      "version":  "0.1.150",
+                      "bin":  "knx-led-controller-16m_0.1.150.bin",
+                      "sha256":  "22e11af7ecd374cf3e9a1441f28c4a34e3c935d30135ee68db2e184fc2b4596d",
+                      "date":  "2026-09-17",
+                      "note":  "Sanft Aus: quadratische Ausblendkurve statt linear, weniger Stufen am Ende"
+                  },
+                  {
                       "version":  "0.1.149",
                       "bin":  "knx-led-controller-16m_0.1.149.bin",
                       "sha256":  "98ae8df80a5f08dd4947b0c62d122d75a9862c2997f2c7a40e09b4cf57f0cad1",
@@ -27,13 +34,6 @@
                       "sha256":  "175d4387a9a40d9c7376507ea70551966421b6312d56692329c98d4bd7d1e2ef",
                       "date":  "2026-09-16",
                       "note":  "Naechste Szene frueher starten: Grenze Aus-Effekt-Dauer wirkt schon beim Eintragen"
-                  },
-                  {
-                      "version":  "0.1.144",
-                      "bin":  "knx-led-controller-16m_0.1.144.bin",
-                      "sha256":  "97fdfcb2e36dd06a17330f84de00b3ccf801b717c314ce7bce503a504f107b5b",
-                      "date":  "2026-09-16",
-                      "note":  "Naechste Szene frueher starten: Zielszene startet vor dem Ende der Aus-Phase, beide Szenen werden gemischt (Einzelausgang)"
                   }
               ]
 }
