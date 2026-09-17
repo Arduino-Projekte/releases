@@ -1,6 +1,13 @@
 {
     "items":  [
                   {
+                      "version":  "0.1.152",
+                      "bin":  "knx-led-controller-16m_0.1.152.bin",
+                      "sha256":  "973b76d246eb79a90f895eb9b6177662fe80d782b5a19a7d580303e5c38ad4d3",
+                      "date":  "2026-09-17",
+                      "note":  "KNX: Helligkeit/Farbe ohne Zwischenstaende laufender Uebergaenge"
+                  },
+                  {
                       "version":  "0.1.150",
                       "bin":  "knx-led-controller-16m_0.1.150.bin",
                       "sha256":  "22e11af7ecd374cf3e9a1441f28c4a34e3c935d30135ee68db2e184fc2b4596d",
@@ -27,13 +34,6 @@
                       "sha256":  "c4c92d2b9881686bb7d0f3ba768d313b5acb0dd33c1137367df89f3926641163",
                       "date":  "2026-09-16",
                       "note":  "Szenenueberlappung: zeitgewichtet als Standard, Sanft ein/aus beim ueberblendeten Szenenwechsel ausgesetzt"
-                  },
-                  {
-                      "version":  "0.1.145",
-                      "bin":  "knx-led-controller-16m_0.1.145.bin",
-                      "sha256":  "175d4387a9a40d9c7376507ea70551966421b6312d56692329c98d4bd7d1e2ef",
-                      "date":  "2026-09-16",
-                      "note":  "Naechste Szene frueher starten: Grenze Aus-Effekt-Dauer wirkt schon beim Eintragen"
                   }
               ]
 }
