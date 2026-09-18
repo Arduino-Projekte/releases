@@ -1,11 +1,11 @@
 {
-    "url":  "knx-led-controller-16m-w_0.1.152.bin",
+    "url":  "knx-led-controller-16m-w_0.1.153.bin",
     "check_ok":  true,
     "update_available":  false,
-    "version":  "0.1.152",
-    "bin":  "knx-led-controller-16m-w_0.1.152.bin",
-    "file":  "knx-led-controller-16m-w_0.1.152.bin",
-    "sha256":  "c72636cef89bdeef152fd4194b8322f2ccf9ed35ef2b6c9f221b141ded574ef7",
-    "message":  "KNX: Helligkeit/Farbe ohne Zwischenstaende laufender Uebergaenge",
+    "version":  "0.1.153",
+    "bin":  "knx-led-controller-16m-w_0.1.153.bin",
+    "file":  "knx-led-controller-16m-w_0.1.153.bin",
+    "sha256":  "cbcb8ae37f585035e768a8a25d62870b1d9b5a40decd12c397b2cee847b9f449",
+    "message":  "WLAN: Router-Waechter mit Neuverbindung, rotes Blinken bei WLAN-Stoerung",
     "http_code":  200
 }
