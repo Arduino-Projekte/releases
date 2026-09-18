@@ -1,6 +1,13 @@
 {
     "items":  [
                   {
+                      "version":  "0.1.153",
+                      "bin":  "knx-led-controller-16m_0.1.153.bin",
+                      "sha256":  "0df702b16f044a080e1586a23d31c2499596b21085b410113b7f96a23e004473",
+                      "date":  "2026-09-18",
+                      "note":  "WLAN: Router-Waechter mit Neuverbindung, rotes Blinken bei WLAN-Stoerung"
+                  },
+                  {
                       "version":  "0.1.152",
                       "bin":  "knx-led-controller-16m_0.1.152.bin",
                       "sha256":  "42c742034107a36edab0db74592c84f4778e60799683ca5d2c81e4dc3d29fa8d",
@@ -27,13 +34,6 @@
                       "sha256":  "32ae07753d128eed9f370a0eea7f31222ede3bd98c37b7826be802d55f15c107",
                       "date":  "2026-09-16",
                       "note":  "Statische Aufbau- und Aus-Effekte zeigen wieder ein Dauerfeld; eigene Phasenfarbe wird sichtbar"
-                  },
-                  {
-                      "version":  "0.1.146",
-                      "bin":  "knx-led-controller-16m_0.1.146.bin",
-                      "sha256":  "c4c92d2b9881686bb7d0f3ba768d313b5acb0dd33c1137367df89f3926641163",
-                      "date":  "2026-09-16",
-                      "note":  "Szenenueberlappung: zeitgewichtet als Standard, Sanft ein/aus beim ueberblendeten Szenenwechsel ausgesetzt"
                   }
               ]
 }
