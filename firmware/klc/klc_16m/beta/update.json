@@ -5,7 +5,7 @@
     "version":  "0.1.152",
     "bin":  "knx-led-controller-16m_0.1.152.bin",
     "file":  "knx-led-controller-16m_0.1.152.bin",
-    "sha256":  "08f42cc8d834c6d305e6f8612401e8f321534374aac5859146c7d71d7c8e0d67",
+    "sha256":  "42c742034107a36edab0db74592c84f4778e60799683ca5d2c81e4dc3d29fa8d",
     "message":  "KNX: Helligkeit/Farbe ohne Zwischenstaende laufender Uebergaenge",
     "http_code":  200
 }

@@ -3,7 +3,7 @@
                   {
                       "version":  "0.1.152",
                       "bin":  "knx-led-controller-16m-w_0.1.152.bin",
-                      "sha256":  "51a4d44d7fc55542d5593cdb124a08be9ee77aa0b5e55499352134d431eca5fb",
+                      "sha256":  "c72636cef89bdeef152fd4194b8322f2ccf9ed35ef2b6c9f221b141ded574ef7",
                       "date":  "2026-09-18",
                       "note":  "KNX: Helligkeit/Farbe ohne Zwischenstaende laufender Uebergaenge"
                   },
