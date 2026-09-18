@@ -1,0 +1,32 @@
+{
+    "items":  [
+                  {
+                      "version":  "x.x.x",
+					  "bin":  "cocktailmixer_x.x.x.bin",
+					  "sha256":  "08d7d3cb347485765cdc38c098306f70844c40561f2b3f22c80c91f06034a94b"
+                      "date":  "2026-08-16",
+                      "note":  "xxxx"
+                  },
+                  {
+                      "version":  "x.x.x",
+					  "bin":  "cocktailmixer_x.x.x.bin",
+					  "sha256":  "08d7d3cb347485765cdc38c098306f70844c40561f2b3f22c80c91f06034a94b"
+                      "date":  "2026-08-16",
+                      "note":  "xxxx"
+                  },
+                  {
+                      "version":  "x.x.x",
+					  "bin":  "cocktailmixer_x.x.x.bin",
+					  "sha256":  "08d7d3cb347485765cdc38c098306f70844c40561f2b3f22c80c91f06034a94b"
+                      "date":  "2026-08-16",
+                      "note":  "xxxx"
+                  },
+                  {
+                      "version":  "x.x.x",
+					  "bin":  "cocktailmixer_x.x.x.bin",
+					  "sha256":  "08d7d3cb347485765cdc38c098306f70844c40561f2b3f22c80c91f06034a94b"
+                      "date":  "2026-08-16",
+                      "note":  "xxxx"
+                  }
+              ]
+}
