@@ -1,6 +1,13 @@
 {
     "items":  [
                   {
+                      "version":  "0.1.154",
+                      "bin":  "knx-led-controller-16m-w_0.1.154.bin",
+                      "sha256":  "09fd6f28b8db7161d84197f181669d6aa6e57f378d08246d108cb1af0403f6ef",
+                      "date":  "2026-09-19",
+                      "note":  "Netzwerk: DHCP-Rueckkehr, robuster Gateway-Waechter, ICMP/Lifecycle und Netzmasken-Kollisionen korrigiert"
+                  },
+                  {
                       "version":  "0.1.153",
                       "bin":  "knx-led-controller-16m-w_0.1.153.bin",
                       "sha256":  "cbcb8ae37f585035e768a8a25d62870b1d9b5a40decd12c397b2cee847b9f449",
@@ -27,13 +34,6 @@
                       "sha256":  "4f4628eae9e053a6107613e7dafa17cfd417c74a69de4a9083f655fca66363b7",
                       "date":  "2026-09-17",
                       "note":  "Sanft Aus mit Aus-Effekt: kein Stottern, eigene Abschaltfarbe stimmt"
-                  },
-                  {
-                      "version":  "0.1.147",
-                      "bin":  "knx-led-controller-16m-w_0.1.147.bin",
-                      "sha256":  "d75c2330c158b2b3c26881156a6749eb44a1351a95019c2574413fc0343f9def",
-                      "date":  "2026-09-16",
-                      "note":  "Statische Aufbau- und Aus-Effekte zeigen wieder ein Dauerfeld; eigene Phasenfarbe wird sichtbar"
                   }
               ]
 }
