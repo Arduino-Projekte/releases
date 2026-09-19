@@ -1,6 +1,16 @@
 {
     "items":  [
                   {
+                      "version":  "V2026.9.19.2",
+                      "bin":  "tresenwerk_V2026.9.19.2.bin",
+                      "sha256":  "cd11d3b3e86e93f74653c5d1d2fe6b408a8f1a400e8e9bf2f3f2ad0c8fd12b5a",
+                      "size":  1730896,
+                      "fs":  "tresenwerk_V2026.9.19.2.littlefs.bin",
+                      "fs_sha256":  "f6c548055b7ab1bbb31c0d67b676e0da8c463389ab0597bea44ef71f3f2da5b9",
+                      "date":  "2026-09-19",
+                      "note":  "Erste Gesamtversion: Relais-Sicherheit, Pumpen-Task, Watchdog, SD, NVS, WLAN AP+STA mit Captive Portal, RTC+NTP, Sprachen, Admin-PIN, OTA; Barschrank, Pumpenbelegung, Rezepte mit CSV, Mixablauf, Kalibrierung, Statistik, Zufall; Weboberflaeche fuer Handy und Desktop, Sicherung/Wiederherstellung, Dateimanager; Display-Oberflaeche mit Cocktails, Einzelschnaps, Statistik und Admin-Bereich"
+                  },
+                  {
                       "version":  "V2026.9.19.1",
                       "bin":  "tresenwerk_V2026.9.19.1.bin",
                       "sha256":  "6038a0eddaeb9eab8bbcd3520100c7a625620c7ff849fa282acde81d5f3c61b8",
