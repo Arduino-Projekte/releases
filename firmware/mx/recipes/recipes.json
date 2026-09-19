@@ -1,0 +1,118 @@
+{
+  "items": [
+    { "id": "cuba_libre", "name": { "de": "Cuba Libre" }, "glass": "longdrink", "tags": ["klassiker", "longdrink"],
+      "pump": [ { "ing": "rum_white", "ml": 40 }, { "ing": "lime_juice", "ml": 10 }, { "ing": "cola", "ml": 150 } ],
+      "manual": [ { "de": "Eiswürfel" }, { "de": "Limettenspalte" } ] },
+
+    { "id": "gin_tonic", "name": { "de": "Gin Tonic" }, "glass": "longdrink", "tags": ["klassiker", "longdrink"],
+      "pump": [ { "ing": "gin", "ml": 40 }, { "ing": "tonic", "ml": 160 } ],
+      "manual": [ { "de": "Eiswürfel" }, { "de": "Gurkenscheibe oder Limette" } ] },
+
+    { "id": "vodka_o", "name": { "de": "Wodka O" }, "glass": "longdrink", "tags": ["longdrink"],
+      "pump": [ { "ing": "vodka", "ml": 40 }, { "ing": "orange_juice", "ml": 160 } ],
+      "manual": [ { "de": "Eiswürfel" } ] },
+
+    { "id": "screwdriver", "name": { "de": "Screwdriver" }, "glass": "highball", "tags": ["klassiker"],
+      "pump": [ { "ing": "vodka", "ml": 50 }, { "ing": "orange_juice", "ml": 120 } ],
+      "manual": [ { "de": "Eiswürfel" }, { "de": "Orangenscheibe" } ] },
+
+    { "id": "moscow_mule", "name": { "de": "Moscow Mule" }, "glass": "kupferbecher", "tags": ["klassiker"],
+      "pump": [ { "ing": "vodka", "ml": 50 }, { "ing": "lime_juice", "ml": 15 }, { "ing": "ginger_beer", "ml": 120 } ],
+      "manual": [ { "de": "Crushed Ice" }, { "de": "Gurkenscheibe, Minze" } ] },
+
+    { "id": "tequila_sunrise", "name": { "de": "Tequila Sunrise" }, "glass": "longdrink", "tags": ["klassiker", "fruchtig"],
+      "pump": [ { "ing": "tequila", "ml": 50 }, { "ing": "orange_juice", "ml": 120 }, { "ing": "grenadine", "ml": 15 } ],
+      "manual": [ { "de": "Eiswürfel" } ],
+      "note": { "de": "Grenadine zuletzt, nicht umrühren" } },
+
+    { "id": "sex_on_the_beach", "name": { "de": "Sex on the Beach" }, "glass": "longdrink", "tags": ["fruchtig"],
+      "pump": [ { "ing": "vodka", "ml": 40 }, { "ing": "peach_schnapps", "ml": 20 }, { "ing": "orange_juice", "ml": 60 }, { "ing": "cranberry_juice", "ml": 60 } ],
+      "manual": [ { "de": "Eiswürfel" } ] },
+
+    { "id": "swimming_pool", "name": { "de": "Swimming Pool" }, "glass": "hurricane", "tags": ["fruchtig", "cremig"],
+      "pump": [ { "ing": "vodka", "ml": 20 }, { "ing": "rum_white", "ml": 40 }, { "ing": "blue_curacao", "ml": 10 }, { "ing": "coconut_cream", "ml": 20 }, { "ing": "cream", "ml": 20 }, { "ing": "pineapple_juice", "ml": 100 } ],
+      "manual": [ { "de": "Crushed Ice" } ] },
+
+    { "id": "blue_lagoon", "name": { "de": "Blue Lagoon" }, "glass": "longdrink", "tags": ["fruchtig"],
+      "pump": [ { "ing": "vodka", "ml": 40 }, { "ing": "blue_curacao", "ml": 20 }, { "ing": "lemon_soda", "ml": 120 } ],
+      "manual": [ { "de": "Eiswürfel" } ] },
+
+    { "id": "pina_colada", "name": { "de": "Piña Colada" }, "glass": "hurricane", "tags": ["klassiker", "cremig"],
+      "pump": [ { "ing": "rum_white", "ml": 50 }, { "ing": "coconut_cream", "ml": 30 }, { "ing": "cream", "ml": 20 }, { "ing": "pineapple_juice", "ml": 120 } ],
+      "manual": [ { "de": "Crushed Ice" }, { "de": "Ananasstück" } ],
+      "note": { "de": "Am besten kurz shaken" } },
+
+    { "id": "planters_punch", "name": { "de": "Planters Punch" }, "glass": "hurricane", "tags": ["klassiker", "fruchtig"],
+      "pump": [ { "ing": "rum_dark", "ml": 50 }, { "ing": "orange_juice", "ml": 60 }, { "ing": "pineapple_juice", "ml": 60 }, { "ing": "lemon_juice", "ml": 15 }, { "ing": "grenadine", "ml": 10 } ],
+      "manual": [ { "de": "Eiswürfel" } ] },
+
+    { "id": "mai_tai", "name": { "de": "Mai Tai" }, "glass": "tumbler", "tags": ["klassiker"],
+      "pump": [ { "ing": "rum_white", "ml": 30 }, { "ing": "rum_dark", "ml": 30 }, { "ing": "triple_sec", "ml": 15 }, { "ing": "amaretto", "ml": 15 }, { "ing": "lime_juice", "ml": 20 }, { "ing": "sugar_syrup", "ml": 10 } ],
+      "manual": [ { "de": "Crushed Ice" }, { "de": "Minzzweig" } ] },
+
+    { "id": "zombie", "name": { "de": "Zombie" }, "glass": "hurricane", "tags": ["stark", "fruchtig"],
+      "pump": [ { "ing": "rum_white", "ml": 30 }, { "ing": "rum_dark", "ml": 30 }, { "ing": "lime_juice", "ml": 20 }, { "ing": "pineapple_juice", "ml": 60 }, { "ing": "orange_juice", "ml": 40 }, { "ing": "grenadine", "ml": 10 } ],
+      "manual": [ { "de": "Crushed Ice" } ] },
+
+    { "id": "long_island", "name": { "de": "Long Island Iced Tea" }, "glass": "longdrink", "tags": ["klassiker", "stark"],
+      "pump": [ { "ing": "vodka", "ml": 15 }, { "ing": "rum_white", "ml": 15 }, { "ing": "gin", "ml": 15 }, { "ing": "tequila", "ml": 15 }, { "ing": "triple_sec", "ml": 15 }, { "ing": "lemon_juice", "ml": 20 }, { "ing": "sugar_syrup", "ml": 10 }, { "ing": "cola", "ml": 80 } ],
+      "manual": [ { "de": "Eiswürfel" }, { "de": "Zitronenscheibe" } ] },
+
+    { "id": "caipirinha", "name": { "de": "Caipirinha" }, "glass": "tumbler", "tags": ["klassiker"],
+      "pump": [ { "ing": "cachaca", "ml": 50 }, { "ing": "lime_juice", "ml": 25 }, { "ing": "sugar_syrup", "ml": 20 } ],
+      "manual": [ { "de": "Crushed Ice" }, { "de": "Limettenachtel" } ] },
+
+    { "id": "mojito", "name": { "de": "Mojito" }, "glass": "longdrink", "tags": ["klassiker", "frisch"],
+      "pump": [ { "ing": "rum_white", "ml": 50 }, { "ing": "lime_juice", "ml": 25 }, { "ing": "sugar_syrup", "ml": 20 }, { "ing": "soda", "ml": 80 } ],
+      "manual": [ { "de": "Crushed Ice" }, { "de": "Minze (andrücken)" } ] },
+
+    { "id": "margarita", "name": { "de": "Margarita" }, "glass": "cocktailschale", "tags": ["klassiker"],
+      "pump": [ { "ing": "tequila", "ml": 50 }, { "ing": "triple_sec", "ml": 20 }, { "ing": "lime_juice", "ml": 25 } ],
+      "manual": [ { "de": "Salzrand" }, { "de": "Eis zum Shaken" } ] },
+
+    { "id": "daiquiri", "name": { "de": "Daiquiri" }, "glass": "cocktailschale", "tags": ["klassiker"],
+      "pump": [ { "ing": "rum_white", "ml": 50 }, { "ing": "lime_juice", "ml": 25 }, { "ing": "sugar_syrup", "ml": 15 } ],
+      "manual": [ { "de": "Eis zum Shaken" } ] },
+
+    { "id": "cosmopolitan", "name": { "de": "Cosmopolitan" }, "glass": "cocktailschale", "tags": ["klassiker"],
+      "pump": [ { "ing": "vodka", "ml": 40 }, { "ing": "triple_sec", "ml": 15 }, { "ing": "cranberry_juice", "ml": 30 }, { "ing": "lime_juice", "ml": 15 } ],
+      "manual": [ { "de": "Eis zum Shaken" }, { "de": "Orangenzeste" } ] },
+
+    { "id": "whiskey_sour", "name": { "de": "Whiskey Sour" }, "glass": "tumbler", "tags": ["klassiker"],
+      "pump": [ { "ing": "whiskey", "ml": 50 }, { "ing": "lemon_juice", "ml": 25 }, { "ing": "sugar_syrup", "ml": 20 } ],
+      "manual": [ { "de": "Eiswürfel" }, { "de": "optional Eiweiß" } ] },
+
+    { "id": "white_russian", "name": { "de": "White Russian" }, "glass": "tumbler", "tags": ["klassiker", "cremig"],
+      "pump": [ { "ing": "vodka", "ml": 40 }, { "ing": "coffee_liqueur", "ml": 20 }, { "ing": "cream", "ml": 30 } ],
+      "manual": [ { "de": "Eiswürfel" } ] },
+
+    { "id": "aperol_spritz", "name": { "de": "Aperol Spritz" }, "glass": "weinglas", "tags": ["klassiker", "spritz"],
+      "pump": [ { "ing": "aperol", "ml": 60 } ],
+      "manual": [ { "de": "90 ml Prosecco" }, { "de": "Schuss Soda" }, { "de": "Eiswürfel, Orangenscheibe" } ],
+      "note": { "de": "Prosecco von Hand, damit die Kohlensäure bleibt" } },
+
+    { "id": "malibu_ananas", "name": { "de": "Malibu Ananas" }, "glass": "longdrink", "tags": ["fruchtig", "longdrink"],
+      "pump": [ { "ing": "coconut_liqueur", "ml": 40 }, { "ing": "pineapple_juice", "ml": 160 } ],
+      "manual": [ { "de": "Eiswürfel" } ] },
+
+    { "id": "ipanema", "name": { "de": "Ipanema" }, "glass": "longdrink", "tags": ["alkoholfrei", "frisch"],
+      "pump": [ { "ing": "lime_juice", "ml": 25 }, { "ing": "sugar_syrup", "ml": 15 }, { "ing": "ginger_beer", "ml": 150 } ],
+      "manual": [ { "de": "Crushed Ice" }, { "de": "Limettenachtel" } ] },
+
+    { "id": "virgin_colada", "name": { "de": "Virgin Colada" }, "glass": "hurricane", "tags": ["alkoholfrei", "cremig"],
+      "pump": [ { "ing": "coconut_cream", "ml": 40 }, { "ing": "cream", "ml": 30 }, { "ing": "pineapple_juice", "ml": 140 } ],
+      "manual": [ { "de": "Crushed Ice" } ] },
+
+    { "id": "florida", "name": { "de": "Florida" }, "glass": "longdrink", "tags": ["alkoholfrei", "fruchtig"],
+      "pump": [ { "ing": "orange_juice", "ml": 80 }, { "ing": "pineapple_juice", "ml": 40 }, { "ing": "lemon_juice", "ml": 15 }, { "ing": "grenadine", "ml": 10 }, { "ing": "soda", "ml": 50 } ],
+      "manual": [ { "de": "Eiswürfel" } ] },
+
+    { "id": "shirley_temple", "name": { "de": "Shirley Temple" }, "glass": "longdrink", "tags": ["alkoholfrei"],
+      "pump": [ { "ing": "grenadine", "ml": 15 }, { "ing": "lemon_soda", "ml": 180 } ],
+      "manual": [ { "de": "Eiswürfel" }, { "de": "Cocktailkirsche" } ] },
+
+    { "id": "maracuja_sunrise", "name": { "de": "Maracuja Sunrise" }, "glass": "longdrink", "tags": ["alkoholfrei", "fruchtig"],
+      "pump": [ { "ing": "maracuja_juice", "ml": 100 }, { "ing": "orange_juice", "ml": 60 }, { "ing": "grenadine", "ml": 15 } ],
+      "manual": [ { "de": "Eiswürfel" } ] }
+  ]
+}

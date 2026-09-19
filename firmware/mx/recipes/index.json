@@ -1,0 +1,15 @@
+{
+    "format":  1,
+    "version":  "2026.9.19.1",
+    "count":  28,
+    "recipes":  {
+                    "file":  "recipes.json",
+                    "size":  9085,
+                    "sha256":  "17ba2f8d8d8d024749b4557abe2642e8306f38c0fa47f98fee8e202d54ad7885"
+                },
+    "ingredients":  {
+                        "file":  "ingredients.json",
+                        "size":  4696,
+                        "sha256":  "6c0e0aa930f1cdcfe8db2fa3d85d1a88d708b0242f61e0bf6af409f0663af8af"
+                    }
+}
