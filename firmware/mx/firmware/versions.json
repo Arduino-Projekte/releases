@@ -1,32 +1,14 @@
 {
     "items":  [
                   {
-                      "version":  "x.x.x",
-					  "bin":  "cocktailmixer_x.x.x.bin",
-					  "sha256":  "08d7d3cb347485765cdc38c098306f70844c40561f2b3f22c80c91f06034a94b"
-                      "date":  "2026-08-16",
-                      "note":  "xxxx"
-                  },
-                  {
-                      "version":  "x.x.x",
-					  "bin":  "cocktailmixer_x.x.x.bin",
-					  "sha256":  "08d7d3cb347485765cdc38c098306f70844c40561f2b3f22c80c91f06034a94b"
-                      "date":  "2026-08-16",
-                      "note":  "xxxx"
-                  },
-                  {
-                      "version":  "x.x.x",
-					  "bin":  "cocktailmixer_x.x.x.bin",
-					  "sha256":  "08d7d3cb347485765cdc38c098306f70844c40561f2b3f22c80c91f06034a94b"
-                      "date":  "2026-08-16",
-                      "note":  "xxxx"
-                  },
-                  {
-                      "version":  "x.x.x",
-					  "bin":  "cocktailmixer_x.x.x.bin",
-					  "sha256":  "08d7d3cb347485765cdc38c098306f70844c40561f2b3f22c80c91f06034a94b"
-                      "date":  "2026-08-16",
-                      "note":  "xxxx"
+                      "version":  "V2026.9.19.1",
+                      "bin":  "tresenwerk_V2026.9.19.1.bin",
+                      "sha256":  "6038a0eddaeb9eab8bbcd3520100c7a625620c7ff849fa282acde81d5f3c61b8",
+                      "size":  1575056,
+                      "fs":  "tresenwerk_V2026.9.19.1.littlefs.bin",
+                      "fs_sha256":  "7a896f8f1824084552816b616ef8dbfcca66ac66b7787d70c5f10a2a7124ced8",
+                      "date":  "2026-09-19",
+                      "note":  "Phase 1: Grundgeruest mit sicherer Relais-Initialisierung, Pumpen-Task mit Laufzeitgrenze, Parallelgrenze und Not-Aus, Task-Watchdog, SD-Karte mit Notbetrieb, NVS-Einstellungen, WLAN AP+STA, mDNS, RTC+NTP, Sprachdateien, Einheiten, Admin-PIN und Web-OTA"
                   }
               ]
 }
