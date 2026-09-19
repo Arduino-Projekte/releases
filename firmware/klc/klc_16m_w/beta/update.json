@@ -1,11 +1,11 @@
 {
-    "url":  "knx-led-controller-16m-w_0.1.153.bin",
+    "url":  "knx-led-controller-16m-w_0.1.154.bin",
     "check_ok":  true,
     "update_available":  false,
-    "version":  "0.1.153",
-    "bin":  "knx-led-controller-16m-w_0.1.153.bin",
-    "file":  "knx-led-controller-16m-w_0.1.153.bin",
-    "sha256":  "cbcb8ae37f585035e768a8a25d62870b1d9b5a40decd12c397b2cee847b9f449",
-    "message":  "WLAN: Router-Waechter mit Neuverbindung, rotes Blinken bei WLAN-Stoerung",
+    "version":  "0.1.154",
+    "bin":  "knx-led-controller-16m-w_0.1.154.bin",
+    "file":  "knx-led-controller-16m-w_0.1.154.bin",
+    "sha256":  "09fd6f28b8db7161d84197f181669d6aa6e57f378d08246d108cb1af0403f6ef",
+    "message":  "Netzwerk: DHCP-Rueckkehr, robuster Gateway-Waechter, ICMP/Lifecycle und Netzmasken-Kollisionen korrigiert",
     "http_code":  200
 }
