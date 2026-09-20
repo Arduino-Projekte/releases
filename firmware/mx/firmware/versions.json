@@ -1,6 +1,16 @@
 {
     "items":  [
                   {
+                      "version":  "V2026.9.20.4",
+                      "bin":  "tresenwerk_V2026.9.20.4.bin",
+                      "sha256":  "266a7f0ce6a4efbe3aa9d291dbbb437cba5c8f536b91f35b4a93b3ea322eac2b",
+                      "size":  2010224,
+                      "fs":  "tresenwerk_V2026.9.20.4.littlefs.bin",
+                      "fs_sha256":  "51236a49138095c65067de001c8c28361a5d3ece448639ae3129715fc3ef9071",
+                      "date":  "2026-09-20",
+                      "note":  "Watchdog: die Download-Schleife meldet nur noch zurueck, wenn der Task auch eingetragen ist (Meldungsflut task not found, SI4 war waehrend Rezept- und Update-Abruf wirkungslos); enthaelt V2026.9.20.3: JSON im PSRAM statt im internen RAM, Speicherbericht alle 10 s, WLAN-Suche am Display listet Treffer"
+                  },
+                  {
                       "version":  "V2026.9.20.3",
                       "bin":  "tresenwerk_V2026.9.20.3.bin",
                       "sha256":  "5b4251baa18424b4d4faff6cca5c62d54bb55c549b65836a44a901b96a5c8905",
