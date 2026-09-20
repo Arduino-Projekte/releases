@@ -1,6 +1,16 @@
 {
     "items":  [
                   {
+                      "version":  "V2026.9.20.1",
+                      "bin":  "tresenwerk_V2026.9.20.1.bin",
+                      "sha256":  "20b4d6cfc09b78cda1527e0215aa7860935ff2a79b53bd189d628ccb37739254",
+                      "size":  2006608,
+                      "fs":  "tresenwerk_V2026.9.20.1.littlefs.bin",
+                      "fs_sha256":  "34ed1da92c4e7c3a3106e2388f488b14157fa00d122eb9da27731df2fef9baed",
+                      "date":  "2026-09-20",
+                      "note":  "Umstellung auf 8 MB Flash (App 2 x 3 MB, LittleFS 1,875 MB), SD wird im Betrieb nachtraeglich erkannt, warnungsfreier Build; enthaelt Phase 5 und 6: Rezept-Abruf, Update per Klick, Bilder, Gast-Grenzen, Sprachen EN/RU/FIL, Einkaufsliste, Freestyle, Diagramme, Bildschirmschoner, Waage, TheCocktailDB"
+                  },
+                  {
                       "version":  "V2026.9.19.3",
                       "bin":  "tresenwerk_V2026.9.19.3.bin",
                       "sha256":  "ef4876e05c50aad3e5626c7c3d03e3941aa046a3ce767e5bef537c79a2ada58c",
