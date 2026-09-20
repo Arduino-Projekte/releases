@@ -1,6 +1,16 @@
 {
     "items":  [
                   {
+                      "version":  "V2026.9.20.14",
+                      "bin":  "tresenwerk_V2026.9.20.14.bin",
+                      "sha256":  "7245ae8a0034287cd1271f38124b2c1fb904ae6cd5e6faf5aedb7c5ca7fbb80c",
+                      "size":  2025568,
+                      "fs":  "tresenwerk_V2026.9.20.14.littlefs.bin",
+                      "fs_sha256":  "54d2f81fb71ee91d840474ce12e9b81f2d269e21e563e01892cd5afcc38cae24",
+                      "date":  "2026-09-20",
+                      "note":  "TLS holt seinen Speicher waehrend der HTTPS-Uebertragung aus dem PSRAM statt aus dem knappen internen RAM (Tiefstand war 1 kB, daher die Zertifikatsfehler); Schalter TW_TLS_PSRAM. Neuer Messpunkt /api/health; gleiche Meldungen in /api/log werden mit Zaehler zusammengefasst"
+                  },
+                  {
                       "version":  "V2026.9.20.13",
                       "bin":  "tresenwerk_V2026.9.20.13.bin",
                       "sha256":  "2c08bd55a63344beec98a9d7ae3e9ec542361e3a85cded0f47fef08c10032ff6",
