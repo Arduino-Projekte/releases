@@ -1,6 +1,16 @@
 {
     "items":  [
                   {
+                      "version":  "V2026.9.20.9",
+                      "bin":  "tresenwerk_V2026.9.20.9.bin",
+                      "sha256":  "32ee3dc0d6a25b7265a2cafb5700d6258c41b4363c0938cab62add75531da2b5",
+                      "size":  2011360,
+                      "fs":  "tresenwerk_V2026.9.20.9.littlefs.bin",
+                      "fs_sha256":  "f4cf72a9823a0e7975588021c87dbcd20b8ad34a673ad91a9cb32c7cdce77c10",
+                      "date":  "2026-09-20",
+                      "note":  "Eigene Meldungen gehen jetzt ueber twLog direkt in den Ringpuffer statt ueber ESP_LOG, das bei DebugLevel=none nicht durchkam; Startmeldung und Speicherbericht stehen damit in /api/log; Meldungsspeicher wird als Erstes in setup() eingehaengt"
+                  },
+                  {
                       "version":  "V2026.9.20.7",
                       "bin":  "tresenwerk_V2026.9.20.7.bin",
                       "sha256":  "2cbc2c156616dba85901202afa1b026d6eae4fdfa72d2fcf27fce74a7fa190e8",
