@@ -1,6 +1,16 @@
 {
     "items":  [
                   {
+                      "version":  "V2026.9.20.18",
+                      "bin":  "tresenwerk_V2026.9.20.18.bin",
+                      "sha256":  "e380f9330923d955d210772d1260ec619ccc67760c58a1f959df264b46562b05",
+                      "size":  2037584,
+                      "fs":  "tresenwerk_V2026.9.20.18.littlefs.bin",
+                      "fs_sha256":  "65260ba7ecce5d67f69c803fea3c83d91daca2937b8b667d8e04b65f97ee5699",
+                      "date":  "2026-09-20",
+                      "note":  "bb_invalidate_cache wieder aus: laut IDF gefaehrlich, wenn ein anderer Kern in den Bildspeicher schreibt, was LVGL tut (Farbflaechen statt Oberflaeche). Fehlgeschlagene Update-Pruefung wird jetzt als Fehler angezeigt statt als Firmware ist aktuell. Fusszeile mit Version, Baudatum und Adresse. Mehrere Barschraenke mit Export und Import"
+                  },
+                  {
                       "version":  "V2026.9.20.17",
                       "bin":  "tresenwerk_V2026.9.20.17.bin",
                       "sha256":  "f618bda52d2ecc5fcc9318b5e4906dca168b4d0505fc75159b0b6e9713b44f66",
