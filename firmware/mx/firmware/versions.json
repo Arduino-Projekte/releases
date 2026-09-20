@@ -1,6 +1,16 @@
 {
     "items":  [
                   {
+                      "version":  "V2026.9.20.5",
+                      "bin":  "tresenwerk_V2026.9.20.5.bin",
+                      "sha256":  "76816954d0c7493fc2dd107a2b97776b1c551b82bd1041d545a3b1e8dc99f880",
+                      "size":  2010000,
+                      "fs":  "tresenwerk_V2026.9.20.5.littlefs.bin",
+                      "fs_sha256":  "c71153effd510dfde4590f78452e28903b81aeb7cdf4ace86deeb8dbd03a4160",
+                      "date":  "2026-09-20",
+                      "note":  "Speicherbericht laeuft jetzt ueber ESP_LOGE, weil bei DebugLevel=none keine Serial-Ausgabe durchkommt; Watchdog-Rueckmeldung in der Download-Schleife nur noch bei eingetragenem Task (SI4 war waehrend Rezept- und Update-Abruf wirkungslos); JSON im PSRAM statt im internen RAM; WLAN-Suche am Display listet Treffer"
+                  },
+                  {
                       "version":  "V2026.9.20.4",
                       "bin":  "tresenwerk_V2026.9.20.4.bin",
                       "sha256":  "266a7f0ce6a4efbe3aa9d291dbbb437cba5c8f536b91f35b4a93b3ea322eac2b",
