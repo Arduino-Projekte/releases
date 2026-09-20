@@ -1,6 +1,16 @@
 {
     "items":  [
                   {
+                      "version":  "V2026.9.20.6",
+                      "bin":  "tresenwerk_V2026.9.20.6.bin",
+                      "sha256":  "da903e2844163451f053b6d70be003c8693e9e35c76d646e01bae8a0100a1503",
+                      "size":  2010976,
+                      "fs":  "tresenwerk_V2026.9.20.6.littlefs.bin",
+                      "fs_sha256":  "95a73ae91a6d3c48d63a8349e98f7fdc1e27740cd7b16400bc3754dcf0944464",
+                      "date":  "2026-09-20",
+                      "note":  "Meldungsspeicher: die letzten 80 Meldungen stehen im Browser unter /api/log (nur Admin), Puffer im PSRAM; Startmeldung Mixer startklar ueber ESP_LOGE zur Pruefung der Schnittstelle; Speicherbericht alle 10 s; Watchdog-Rueckmeldung nur bei eingetragenem Task; JSON im PSRAM"
+                  },
+                  {
                       "version":  "V2026.9.20.5",
                       "bin":  "tresenwerk_V2026.9.20.5.bin",
                       "sha256":  "76816954d0c7493fc2dd107a2b97776b1c551b82bd1041d545a3b1e8dc99f880",
