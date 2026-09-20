@@ -1,6 +1,16 @@
 {
     "items":  [
                   {
+                      "version":  "V2026.9.20.2",
+                      "bin":  "tresenwerk_V2026.9.20.2.bin",
+                      "sha256":  "977dc64ac02eec5188908b3fd4347bc316dddfb9e9ff2838fc410b858c61e55d",
+                      "size":  2009936,
+                      "fs":  "tresenwerk_V2026.9.20.2.littlefs.bin",
+                      "fs_sha256":  "70eb939b7e353fd6af5e6c13d7b6267460c5681e1b95d50c31e3cbd4d4601a06",
+                      "date":  "2026-09-20",
+                      "note":  "Board-Pins berichtigt: I2C liegt auf GPIO 8/9, die Gruen-Bits G5/G6 auf 47/48 (vorher vertauscht, daher kein Touch und gruenes Bild); IO-Expander CH422G mit eigenem Protokoll statt Registerzugriff; WLAN-Einrichtung am Display mit Netzwerksuche und Tastatur; Werksreset am Display; WebSocket-Begruessung laeuft im Dienst-Task statt im AsyncTCP-Task (Absturz beim Verbinden); Anmeldung im Web mit Zifferntastatur"
+                  },
+                  {
                       "version":  "V2026.9.20.1",
                       "bin":  "tresenwerk_V2026.9.20.1.bin",
                       "sha256":  "20b4d6cfc09b78cda1527e0215aa7860935ff2a79b53bd189d628ccb37739254",
