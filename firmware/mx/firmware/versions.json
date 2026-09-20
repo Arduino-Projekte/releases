@@ -1,6 +1,26 @@
 {
     "items":  [
                   {
+                      "version":  "V2026.9.20.23",
+                      "bin":  "tresenwerk_V2026.9.20.23.bin",
+                      "sha256":  "7ee696fd883178ab05a640616d0eb0f358a32af1ec2fa51f60d2e056124518a3",
+                      "size":  2050752,
+                      "fs":  "tresenwerk_V2026.9.20.23.littlefs.bin",
+                      "fs_sha256":  "4e4030b9bbe194163428a65bb048079b3a51c7211faac38c3837cb3b71f59bb1",
+                      "date":  "2026-09-20",
+                      "note":  "Infofenster beim Tippen auf den Namen in der Kopfzeile: Zustand des Geraets und zwei QR-Codes - einer fuer die Weboberflaeche, einer fuers Gast-WLAN. Auf der Systemseite laesst sich eine Update-Pruefung jetzt von Hand ausloesen; die Zeile zeigt auch an, wann zuletzt geprueft wurde und ob es fehlgeschlagen ist. Favicon fuer den Browser-Tab"
+                  },
+                  {
+                      "version":  "V2026.9.20.22",
+                      "bin":  "tresenwerk_V2026.9.20.22.bin",
+                      "sha256":  "afbd1df2390c98e51c12c7619fc283a025983769e8c1decdbe9763defb932f9f",
+                      "size":  2039856,
+                      "fs":  "tresenwerk_V2026.9.20.22.littlefs.bin",
+                      "fs_sha256":  "68e7c2b55aca48f062057fc738803b6a70506f40c53011c7b69de4d62bc0e2ab",
+                      "date":  "2026-09-20",
+                      "note":  "Eigener Core-Bau mit CONFIG_SPIRAM_XIP_FROM_PSRAM: Programmcode und Konstanten laufen jetzt aus dem PSRAM, damit der Flash-Bus im Betrieb frei bleibt. Das ist die Gegenmassnahme zu den Streifen und zum Flackern beim Update, weil sich Flash und PSRAM beim ESP32-S3 einen Bus teilen. Bestandsmodell Barschrank festgelegt: ein Eintrag sind count gleiche Flaschen, hoechstens eine davon angebrochen; Anzeige jetzt \u00271 voll + 1 angebrochen\u0027 statt einer Prozentzahl fuer alle. Neue Flaschen werden mit einem vorhandenen Eintrag gleicher Sorte zusammengefasst statt doppelt angelegt"
+                  },
+                  {
                       "version":  "V2026.9.20.20",
                       "bin":  "tresenwerk_V2026.9.20.20.bin",
                       "sha256":  "8ebedf3937a1497accafd67610347f2358e3893291089b7b2cdea423c4050973",
