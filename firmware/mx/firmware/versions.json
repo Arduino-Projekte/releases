@@ -1,6 +1,16 @@
 {
     "items":  [
                   {
+                      "version":  "V2026.9.20.20",
+                      "bin":  "tresenwerk_V2026.9.20.20.bin",
+                      "sha256":  "8ebedf3937a1497accafd67610347f2358e3893291089b7b2cdea423c4050973",
+                      "size":  2037584,
+                      "fs":  "tresenwerk_V2026.9.20.20.littlefs.bin",
+                      "fs_sha256":  "bf0050d93665ef67450dd382b3c5772ff79e1884b6480876c5274f11516918c8",
+                      "date":  "2026-09-20",
+                      "note":  "Loeschen ging nirgends: die Bibliothek matcht /api/bar auch fuer /api/bar/delete, die Anfrage landete im Bearbeiten-Handler und meldete faelschlich Erfolg. Unterpfade stehen jetzt vor ihrem Grundpfad (Flaschen, Schraenke, Rezepte, Aliasnamen, Statistik). Platzhalter in den neuen Texten berichtigt. Release-Ordner behaelt nur noch drei Staende"
+                  },
+                  {
                       "version":  "V2026.9.20.19",
                       "bin":  "tresenwerk_V2026.9.20.19.bin",
                       "sha256":  "1c21f6f916b1a84e6e65253eff7c5446cc60b7485345403ad3fc78ce98ac5e9c",
