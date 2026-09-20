@@ -1,6 +1,16 @@
 {
     "items":  [
                   {
+                      "version":  "V2026.9.20.17",
+                      "bin":  "tresenwerk_V2026.9.20.17.bin",
+                      "sha256":  "f618bda52d2ecc5fcc9318b5e4906dca168b4d0505fc75159b0b6e9713b44f66",
+                      "size":  2037184,
+                      "fs":  "tresenwerk_V2026.9.20.17.littlefs.bin",
+                      "fs_sha256":  "98e81025d64f23dd27422787d9d4fdcca76f8dda1d3ae814b5733a043f9151e9",
+                      "date":  "2026-09-20",
+                      "note":  "Mehrere Barschraenke mit Export und Import je Schrank; Fuellstand und Stueckzahl je Flasche, angebrochene Flaschen behalten ihren Stand beim Einlegen und Abnehmen; Bestandsliste mit Balken. Pixeltakt 12 MHz gegen die Streifen"
+                  },
+                  {
                       "version":  "V2026.9.20.16",
                       "bin":  "tresenwerk_V2026.9.20.16.bin",
                       "sha256":  "a49dbacfba3d96645299a1f2df3e486493497583bdf2356ff8b938d2c4f9bf1a",
