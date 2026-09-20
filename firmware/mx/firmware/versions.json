@@ -1,6 +1,16 @@
 {
     "items":  [
                   {
+                      "version":  "V2026.9.20.3",
+                      "bin":  "tresenwerk_V2026.9.20.3.bin",
+                      "sha256":  "5b4251baa18424b4d4faff6cca5c62d54bb55c549b65836a44a901b96a5c8905",
+                      "size":  2010192,
+                      "fs":  "tresenwerk_V2026.9.20.3.littlefs.bin",
+                      "fs_sha256":  "b4c8565b092e0e3dd789ab2d81d752f98fff4987cbc659391af7a3106b0629bd",
+                      "date":  "2026-09-20",
+                      "note":  "JSON wird im PSRAM aufgebaut statt im knappen internen RAM (Absturz durch Speichermangel: abort in lock_init beim Dateioeffnen, TLS- und SD-Puffer scheiterten vorher schon); Speicherbericht alle 10 s auf der seriellen Schnittstelle; WLAN-Suche am Display listet jetzt Treffer (Zeiger wurde vor dem Eintragen geloescht)"
+                  },
+                  {
                       "version":  "V2026.9.20.2",
                       "bin":  "tresenwerk_V2026.9.20.2.bin",
                       "sha256":  "977dc64ac02eec5188908b3fd4347bc316dddfb9e9ff2838fc410b858c61e55d",
