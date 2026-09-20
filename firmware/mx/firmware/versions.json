@@ -1,6 +1,16 @@
 {
     "items":  [
                   {
+                      "version":  "V2026.9.20.16",
+                      "bin":  "tresenwerk_V2026.9.20.16.bin",
+                      "sha256":  "a49dbacfba3d96645299a1f2df3e486493497583bdf2356ff8b938d2c4f9bf1a",
+                      "size":  2025760,
+                      "fs":  "tresenwerk_V2026.9.20.16.littlefs.bin",
+                      "fs_sha256":  "9b68faae8dd51ddb3197e868a86ea9f53ac358b37248f3ea5646507c462f1f64",
+                      "date":  "2026-09-20",
+                      "note":  "Pixeltakt von 16 auf 12 MHz gesenkt und Cache-Verwerfen fuer den Bounce-Puffer eingeschaltet: bei 16 MHz brauchte das Panel 32 MB/s aus dem PSRAM und bekam die Daten zu spaet, das waren die wandernden Streifen. Bildrate jetzt 29 statt 39 Bilder/s. Fehlgeschlagene Update-Pruefung wird nach 30 min wiederholt statt erst nach 24 h"
+                  },
+                  {
                       "version":  "V2026.9.20.15",
                       "bin":  "tresenwerk_V2026.9.20.15.bin",
                       "sha256":  "1262f681ab9cd1930c112799f24f409e844ebf19a6e1113e8887c412a7346272",
