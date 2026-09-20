@@ -1,6 +1,16 @@
 {
     "items":  [
                   {
+                      "version":  "V2026.9.20.15",
+                      "bin":  "tresenwerk_V2026.9.20.15.bin",
+                      "sha256":  "1262f681ab9cd1930c112799f24f409e844ebf19a6e1113e8887c412a7346272",
+                      "size":  2025728,
+                      "fs":  "tresenwerk_V2026.9.20.15.littlefs.bin",
+                      "fs_sha256":  "9c2805cc989204cb069bc39e3743ac60cfa63007ec9a68cc0cb8cf85869e475e",
+                      "date":  "2026-09-20",
+                      "note":  "Bildschirmschoner baute ohne Rezeptbilder jede Sekunde die ganze Anzeige neu und hat damit die Bildausgabe gestoert (Streifen); jetzt wird nur der Uhrtext bei neuer Minute getauscht. Waehrend eines Firmware-Updates zeichnet die Oberflaeche nur noch alle 250 ms, das nimmt das Flackern heraus. TLS-Speicher aus dem PSRAM"
+                  },
+                  {
                       "version":  "V2026.9.20.14",
                       "bin":  "tresenwerk_V2026.9.20.14.bin",
                       "sha256":  "7245ae8a0034287cd1271f38124b2c1fb904ae6cd5e6faf5aedb7c5ca7fbb80c",
