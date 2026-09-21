@@ -1,6 +1,16 @@
 {
     "items":  [
                   {
+                      "version":  "V2026.9.21.7",
+                      "bin":  "tresenwerk_V2026.9.21.7.bin",
+                      "sha256":  "ccb09b473c42341effd5f2295ade1407c4d70482626f3b1602caca99a88489c0",
+                      "size":  2091808,
+                      "fs":  "tresenwerk_V2026.9.21.7.littlefs.bin",
+                      "fs_sha256":  "8a6e57caaab89b6982d2a683b39e73169437178d58de6f0198128b790f3ca77a",
+                      "date":  "2026-09-21",
+                      "note":  "Display: Rezepte mit Ampel (gruen angeschlossen, gelb im Barschrank, rot fehlt) auch je Zutat; Bilder fehlten wegen zu weniger Dateihandles auf der SD (jetzt 12). Rueckmeldung erfolgreich/fehlgeschlagen (mit Grund) bei Rezeptabgleich und Update, Meldungen (Log) unter System, Auswahllisten statt Zahlenfelder ohne Tastatur. Fehlgeschlagene Auftraege landen im Log. Rezeptabgleich nimmt groessere index.json an."
+                  },
+                  {
                       "version":  "V2026.9.21.5",
                       "bin":  "tresenwerk_V2026.9.21.5.bin",
                       "sha256":  "1c5e64127349dbcb9f5b2f43053b288cfd4741c2171a8cae144f6a641f0f97fe",
