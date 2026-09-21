@@ -1,0 +1,18 @@
+{
+  "items": [
+    { "id": "orgeat",
+      "name": { "de": "Mandelsirup", "en": "Orgeat", "ru": "Миндальный сироп", "fil": "Almond syrup" },
+      "cat": "syrup", "abv": 0, "density": 1.32,
+      "aliases": ["Orgeat", "Orgeat Syrup", "Mandel-Sirup"] },
+
+    { "id": "champagne",
+      "name": { "de": "Champagner", "en": "Champagne", "ru": "Шампанское", "fil": "Champagne" },
+      "cat": "wine", "abv": 12.0, "carbonated": true,
+      "aliases": ["Champagne", "Crémant"] },
+
+    { "id": "egg_white",
+      "name": { "de": "Eiweiß", "en": "Egg white", "ru": "Яичный белок", "fil": "Puti ng itlog" },
+      "cat": "other", "abv": 0, "pumpable": false,
+      "aliases": ["Egg White", "Eiklar"] }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "items": [
+    { "id": "cuba_libre",
+      "name": { "de": "Cuba Libre", "ru": "Куба Либре" },
+      "desc": { "de": "Rum, Cola und Limette – der Longdrink-Klassiker aus Havanna.",
+                "en": "Rum, cola and lime – the long drink classic from Havana." },
+      "glass": "longdrink",
+      "tags": ["klassiker", "longdrink"],
+      "pump": [ { "ing": "rum_white", "ml": 40 }, { "ing": "lime_juice", "ml": 10 }, { "ing": "cola", "ml": 150 } ],
+      "manual": [ { "de": "Eiswürfel", "en": "Ice cubes" }, { "de": "Limettenspalte", "en": "Lime wedge" } ],
+      "img": "img/cuba_libre.jpg" },
+
+    { "id": "whiskey_sour",
+      "name": { "de": "Whiskey Sour", "ru": "Виски сауэр" },
+      "desc": { "de": "Whiskey, Zitrone und Zucker – sauer, rund und mit Eiweiß schön cremig.",
+                "en": "Whiskey, lemon and sugar – tart, round and creamy with egg white." },
+      "glass": "tumbler",
+      "tags": ["klassiker", "stark", "sauer"],
+      "pump": [ { "ing": "whiskey", "ml": 50 }, { "ing": "lemon_juice", "ml": 25 }, { "ing": "sugar_syrup", "ml": 15 } ],
+      "manual": [
+        { "de": "Eiswürfel", "en": "Ice cubes" },
+        { "de": "1 Eiweiß", "en": "1 egg white", "expert": true },
+        { "de": "Orangenzeste", "en": "Orange zest", "expert": true }
+      ],
+      "tip":  { "de": "Erst ohne, dann mit Eis shaken – fester Schaum.",
+                "en": "Shake without, then with ice – firmer foam." },
+      "img": "img/whiskey_sour.jpg",
+      "steps": [
+        { "t": "glass",  "sym": "shaker" },
+        { "t": "pump",   "items": [ { "ing": "whiskey", "ml": 50 }, { "ing": "lemon_juice", "ml": 25 }, { "ing": "sugar_syrup", "ml": 15 } ] },
+        { "t": "manual", "sym": "hand",     "text": { "de": "1 Eiweiß dazugeben", "en": "Add 1 egg white" } },
+        { "t": "action", "sym": "shake",    "sec": 10, "text": { "de": "Ohne Eis kräftig shaken", "en": "Shake hard without ice" } },
+        { "t": "action", "sym": "eis",      "text": { "de": "Eis in den Shaker", "en": "Add ice to the shaker" } },
+        { "t": "action", "sym": "shake",    "sec": 15 },
+        { "t": "action", "sym": "abseihen", "text": { "de": "In den Tumbler auf frisches Eis abseihen", "en": "Strain into the tumbler over fresh ice" } },
+        { "t": "manual", "sym": "garnieren","text": { "de": "Orangenzeste darüber abspritzen", "en": "Express orange zest over the drink" } }
+      ] },
+
+    { "id": "tequila_sunrise",
+      "name": { "de": "Tequila Sunrise", "ru": "Текила санрайз" },
+      "desc": { "de": "Orangensaft mit Tequila, Grenadine sinkt nach unten wie ein Sonnenaufgang.",
+                "en": "Orange juice with tequila; the grenadine sinks down like a sunrise." },
+      "glass": "longdrink",
+      "tags": ["klassiker", "fruchtig"],
+      "pump": [ { "ing": "tequila", "ml": 50 }, { "ing": "orange_juice", "ml": 120 }, { "ing": "grenadine", "ml": 15 } ],
+      "manual": [ { "de": "Eiswürfel", "en": "Ice cubes" }, { "de": "Orangenscheibe", "en": "Orange slice", "expert": true } ],
+      "note": { "de": "Nicht umrühren.", "en": "Do not stir." },
+      "tip":  { "de": "Grenadine über den Barlöffel – saubere Schichten.",
+                "en": "Pour the grenadine over a bar spoon for clean layers." },
+      "img": "img/tequila_sunrise.jpg",
+      "steps": [
+        { "t": "glass",  "sym": "longdrink", "text": { "de": "Longdrinkglas mit Eis unterstellen", "en": "Place a long drink glass with ice" } },
+        { "t": "pump",   "items": [ { "ing": "tequila", "ml": 50 }, { "ing": "orange_juice", "ml": 120 } ] },
+        { "t": "pump",   "items": [ { "ing": "grenadine", "ml": 15 } ] },
+        { "t": "manual", "sym": "garnieren", "text": { "de": "Orangenscheibe an den Rand, nicht umrühren", "en": "Orange slice on the rim, do not stir" } }
+      ] },
+
+    { "id": "pina_colada",
+      "name": { "de": "Piña Colada", "ru": "Пина колада" },
+      "desc": { "de": "Rum, Ananas und Kokos – cremig, süß und tropisch.",
+                "en": "Rum, pineapple and coconut – creamy, sweet and tropical." },
+      "glass": "hurricane",
+      "tags": ["klassiker", "cremig", "tropisch"],
+      "pump": [ { "ing": "rum_white", "ml": 50 }, { "ing": "pineapple_juice", "ml": 100 }, { "ing": "coconut_syrup", "ml": 30 } ],
+      "manual": [
+        { "de": "Eiswürfel", "en": "Ice cubes" },
+        { "ing": "coconut_cream", "ml": 30, "expert": true },
+        { "de": "Ananasstück", "en": "Pineapple wedge", "expert": true }
+      ],
+      "tip":  { "de": "Kokoscreme im Shaker macht sie cremiger.",
+                "en": "Cream of coconut in the shaker adds creaminess." },
+      "img": "img/pina_colada.jpg",
+      "steps": [
+        { "t": "glass",  "sym": "shaker" },
+        { "t": "pump",   "items": [ { "ing": "rum_white", "ml": 50 }, { "ing": "pineapple_juice", "ml": 100 }, { "ing": "coconut_syrup", "ml": 30 } ] },
+        { "t": "manual", "sym": "hand",     "text": { "de": "30 ml Kokoscreme dazugeben", "en": "Add 30 ml cream of coconut" } },
+        { "t": "action", "sym": "eis",      "text": { "de": "Eis in den Shaker", "en": "Add ice to the shaker" } },
+        { "t": "action", "sym": "shake",    "sec": 15 },
+        { "t": "action", "sym": "abseihen", "text": { "de": "In das Hurricane-Glas auf Eis abseihen", "en": "Strain into the hurricane glass over ice" } },
+        { "t": "manual", "sym": "garnieren","text": { "de": "Ananasstück an den Rand", "en": "Pineapple wedge on the rim" } }
+      ] }
+  ]
+}
