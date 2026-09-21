@@ -1,6 +1,16 @@
 {
     "items":  [
                   {
+                      "version":  "V2026.9.21.3",
+                      "bin":  "tresenwerk_V2026.9.21.3.bin",
+                      "sha256":  "ae06e36aa5031a7fea65824265fd6ab164415f9090c474ab3424c1658e567796",
+                      "size":  2086960,
+                      "fs":  "tresenwerk_V2026.9.21.3.littlefs.bin",
+                      "fs_sha256":  "605d63b0a9d614443fc0dfdfb535d4e74106323aac021f50f684eb2568f0f7b6",
+                      "date":  "2026-09-21",
+                      "note":  "Bis zu 16 Pumpen: Anzahl der angeschlossenen Pumpen in den Einstellungen (1-16, Standard 8, wirkt nach Neustart). Flaschen an wegfallenden Pumpen wandern mit Restbestand in den Schrank, Kalibrierung bleibt erhalten. Reinigungsseite mit 16 Tasten, Pumpenliste braucht weniger Speicher. Rezeptmodus Einfach/Experte (Display und Web): Experte zeigt Tipps und Handzutaten fuer Profis. Handzutaten aus dem Katalog mit Menge, ihr Alkohol zaehlt bei alkoholfrei, Gast-Grenze und Statistik. Nicht pumpbare Zutaten (z. B. Kokoscreme) lassen sich keiner Pumpe zuordnen und stehen auf der Einkaufsliste. Dosieren nach Gewicht (Standard mit Waage): Zutaten nacheinander, schnell bis kurz vor dem Ziel, dann fein, Nachlauf wird je Pumpe gelernt. Nach Zeit mit Feinphase am Ende; Kohlensaeure durchgehend schonend. Ueberlauf-Schutz und Waagenausfall stoppen sofort. Gefuehrter Ablauf im Modus Experte: Rezepte mit Schritten fuehren mit gezeichneten Symbolen durch Glaswechsel, Pumpen, Handgriffe und Shaken (Countdown), weiter per Erledigt oder ueber die Waage."
+                  },
+                  {
                       "version":  "V2026.9.21.2",
                       "bin":  "tresenwerk_V2026.9.21.2.bin",
                       "sha256":  "f2fe6bf95d52697c3a76a5387bead595252adb2aab11b9e96a735cfaeeeb33cd",
