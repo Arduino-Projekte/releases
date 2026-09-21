@@ -14,6 +14,7 @@ https://raw.githubusercontent.com/Arduino-Projekte/releases/refs/heads/main/firm
 | `recipes.json` | Rezepte |
 | `ingredients.json` | Zutatenkatalog mit Kategorie, Vol-% und Aliasnamen |
 | `img/<id>.jpg` | optionale Bilder, ca. 200 × 200 px, JPG (baseline, nicht progressiv) |
+| `img/t/<id>.jpg`, `thumbs.json` | Vorschaubilder 128 × 128 für die Kacheln am Display. **Erzeugt das Script aus `img/`**, nicht von Hand ändern. |
 
 Ablauf auf dem Gerät: `index.json` holen → hat sich ein SHA-256 geändert, die jeweilige Datei laden und prüfen → dann übernehmen.
 
