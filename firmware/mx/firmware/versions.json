@@ -1,6 +1,16 @@
 {
     "items":  [
                   {
+                      "version":  "V2026.9.21.2",
+                      "bin":  "tresenwerk_V2026.9.21.2.bin",
+                      "sha256":  "f2fe6bf95d52697c3a76a5387bead595252adb2aab11b9e96a735cfaeeeb33cd",
+                      "size":  2063264,
+                      "fs":  "tresenwerk_V2026.9.21.2.littlefs.bin",
+                      "fs_sha256":  "fc5308391ee5246165b3bb303d1d3d5ba8a312f4402798ae628dc9e7b044f170",
+                      "date":  "2026-09-21",
+                      "note":  "Leer-Erkennung: steigt das Glasgewicht bei laufender Pumpe eine einstellbare Zeit lang nicht, haelt der Vorgang mit \"Flasche leer?\" an - nachfuellen und weiter oder abbrechen. Reinigungsmodus fuer Display und Schlaeuche. Neuer Antrieb: PCA9685 mit PWM statt MCP23017-Relais (sichere Startreihenfolge, bei I2C-Fehler gesperrt bis zum Neustart). Ohne Endstufe lehnt das Geraet jeden Pumpenlauf ab. Simulator fuer Endstufe und Waage (Einstellungen, wirkt nach Neustart), steuerbar auf der Kalibrierseite. Dazu Speicherdiagnose /api/diag/heap, CSV-Puffer, nan-Eingaben, Sprachwechsel ueber das Web, kein Mixstart waehrend eines Auftrags"
+                  },
+                  {
                       "version":  "V2026.9.21.1",
                       "bin":  "tresenwerk_V2026.9.21.1.bin",
                       "sha256":  "10ff464bd7cad72e73a526a9cdf83ce2efde2c73b50d34c8d9e9fa339d60fb2a",
