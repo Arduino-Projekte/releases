@@ -1,6 +1,16 @@
 {
     "items":  [
                   {
+                      "version":  "V2026.9.21.12",
+                      "bin":  "tresenwerk_V2026.9.21.12.bin",
+                      "sha256":  "52ff270a065821052ba59080dd69e6bbd3a1cce225efaf41a75d1fcff880a984",
+                      "size":  2095808,
+                      "fs":  "tresenwerk_V2026.9.21.12.littlefs.bin",
+                      "fs_sha256":  "2ef90ce79e819667ee205909d71d4f1c32ff44cdd7ac294c754ed52f767e7710",
+                      "date":  "2026-09-21",
+                      "note":  "Cocktails scrollen fluessiger: Rezeptbilder direkt als RGB565 (Format der Anzeige) im Cache, keine Zwischenebene fuer abgeblendete Kacheln, keine Eckenmaske. Web: Zutatenliste mit Ampel repariert. Display-Meldungen nur so gross wie der Text."
+                  },
+                  {
                       "version":  "V2026.9.21.11",
                       "bin":  "tresenwerk_V2026.9.21.11.bin",
                       "sha256":  "79c6159555c76cb65df391755fb26e582924dff6db20e0e566bfa4b62efc6487",
