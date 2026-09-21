@@ -1,6 +1,16 @@
 {
     "items":  [
                   {
+                      "version":  "V2026.9.21.1",
+                      "bin":  "tresenwerk_V2026.9.21.1.bin",
+                      "sha256":  "10ff464bd7cad72e73a526a9cdf83ce2efde2c73b50d34c8d9e9fa339d60fb2a",
+                      "size":  2051152,
+                      "fs":  "tresenwerk_V2026.9.21.1.littlefs.bin",
+                      "fs_sha256":  "b730b0a191e90798c323b86742c05bb675b8bef8e0cdb2d49b221ec92fe3f5b9",
+                      "date":  "2026-09-21",
+                      "note":  "Korrekturen aus der Gegenpruefung Phase 5/6: Mengen und Groessenfaktor \"nan\" werden abgelehnt (umging die Gast-Grenzen). Sprachwechsel ueber das Web wird im Display-Task geladen und baut die Anzeige neu auf (vorher ohne Neuaufbau und mit Absturzgefahr). Kein Mixstart waehrend eines laufenden Auftrags (z. B. Rezeptimport), weil dann die Glasueberwachung ruht"
+                  },
+                  {
                       "version":  "V2026.9.20.23",
                       "bin":  "tresenwerk_V2026.9.20.23.bin",
                       "sha256":  "7ee696fd883178ab05a640616d0eb0f358a32af1ec2fa51f60d2e056124518a3",
