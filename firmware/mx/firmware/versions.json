@@ -1,6 +1,16 @@
 {
     "items":  [
                   {
+                      "version":  "V2026.9.21.13",
+                      "bin":  "tresenwerk_V2026.9.21.13.bin",
+                      "sha256":  "cbd3b3865cdcaffe0e1c3a60ed6cfc4a24c81722bd324589fd75a099bbd941c2",
+                      "size":  2096144,
+                      "fs":  "tresenwerk_V2026.9.21.13.littlefs.bin",
+                      "fs_sha256":  "2b0e3be80c81ce7c26b288504793c1dfeb4b9df369fe845187bd501c7af15f22",
+                      "date":  "2026-09-21",
+                      "note":  "Einstellungen speichern ohne Verbindungsabbruch (Failed to fetch): WLAN wird nur bei echter Aenderung und erst nach der Antwort neu aufgebaut. Nach Aenderung von Pumpenzahl, Simulation oder PWM bietet die Webseite den Neustart an."
+                  },
+                  {
                       "version":  "V2026.9.21.12",
                       "bin":  "tresenwerk_V2026.9.21.12.bin",
                       "sha256":  "52ff270a065821052ba59080dd69e6bbd3a1cce225efaf41a75d1fcff880a984",
