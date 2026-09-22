@@ -1,6 +1,16 @@
 {
     "items":  [
                   {
+                      "version":  "V2026.9.22.10",
+                      "bin":  "tresenwerk_V2026.9.22.10.bin",
+                      "sha256":  "5caec84465c4de4a715b43703a35fa3f4666f90caafaa236168d3a7b2e885fdc",
+                      "size":  2122320,
+                      "fs":  "tresenwerk_V2026.9.22.10.littlefs.bin",
+                      "fs_sha256":  "b31e5177914632551e39b75d36d2f14d9f08af9c157b6ff3f4655f853a6079e9",
+                      "date":  "2026-09-22",
+                      "note":  "Protokoll (Web, Menue Protokoll): Drinks, Pausen, Abbrueche, Flaschen, Anmeldungen, Starts mit Grund, Auftraege; Filter nach Fehler/Warnung und Bereich. Statistik: Kachel Flaschen. Statistik und Protokoll lassen sich nicht loeschen. Warndreieck zeigt die knappen Flaschen. Flasche neu und Nachgefuellt nach Flasche leer: Rueckfrage, ob die Flasche aus dem Barschrank kommt (dort eine weniger), wenn dort noch eine steht. Zeitgrenze je Zutat statt fester Maximallaufzeit: gelernte Foerderrate + 10 %, danach Pause mit Weiter/Abbrechen (feste Obergrenze 10 min je Lauf). Leer-Erkennung nach Gewicht nur im Hauptlauf (nicht bei Pulsen). Web: Mix-Anzeige baut Knoepfe nicht mehr bei jedem Gewichtswert neu (Abbrechen reagiert sofort). Maximallaufzeit je Pumpe jetzt bis 180 s einstellbar. Anlaufwaechter: kommt nach dem Pumpenstart in der eingestellten Zeit kein Tropfen auf der Waage an, haelt der Drink an (Flasche leer?). Statistik: Laufzeit, Menge und Starts je Pumpe. Pumpenauswahl alphabetisch mit +n (so viele Rezepte kommen dazu), geladene Flaschen als Block darunter."
+                  },
+                  {
                       "version":  "V2026.9.22.7",
                       "bin":  "tresenwerk_V2026.9.22.7.bin",
                       "sha256":  "5fdf5d30e0dc393cc5bd9587910c36596dd633bb9f5a181fbc614678df974abf",
