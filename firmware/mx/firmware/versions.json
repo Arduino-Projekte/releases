@@ -1,6 +1,16 @@
 {
     "items":  [
                   {
+                      "version":  "V2026.9.22.6",
+                      "bin":  "tresenwerk_V2026.9.22.6.bin",
+                      "sha256":  "93fc4ab02f55a06ee446cdf8ef28965b173cc5e13ea6fff9993e9cb34df4be49",
+                      "size":  2115120,
+                      "fs":  "tresenwerk_V2026.9.22.6.littlefs.bin",
+                      "fs_sha256":  "95ae298abe249d649cdf28fe711c9e07c105e4c38a89011505734ca8aa92f6a7",
+                      "date":  "2026-09-22",
+                      "note":  "Leer-Erkennung nach Gewicht nur im Hauptlauf (nicht bei Pulsen). Web: Mix-Anzeige baut Knoepfe nicht mehr bei jedem Gewichtswert neu (Abbrechen reagiert sofort). Maximallaufzeit je Pumpe jetzt bis 180 s einstellbar. Anlaufwaechter: kommt nach dem Pumpenstart in der eingestellten Zeit kein Tropfen auf der Waage an, haelt der Drink an (Flasche leer?). Statistik: Laufzeit, Menge und Starts je Pumpe. Pumpenauswahl alphabetisch mit +n (so viele Rezepte kommen dazu), geladene Flaschen als Block darunter."
+                  },
+                  {
                       "version":  "V2026.9.22.5",
                       "bin":  "tresenwerk_V2026.9.22.5.bin",
                       "sha256":  "7c1e81d5922b19cf4ad60977667561fd0b4f8f0007f585f35b9a0906edd677bd",
