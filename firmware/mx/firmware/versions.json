@@ -1,6 +1,16 @@
 {
     "items":  [
                   {
+                      "version":  "V2026.9.22.3",
+                      "bin":  "tresenwerk_V2026.9.22.3.bin",
+                      "sha256":  "993f4f36aaf539d0afcb0a73cc87cc58e55521cadb841c81e471727ca5baf680",
+                      "size":  2114848,
+                      "fs":  "tresenwerk_V2026.9.22.3.littlefs.bin",
+                      "fs_sha256":  "797107acc7e6ecfcd62607aa990b9cb7274fa501223ff47a9d61bb555a65afb4",
+                      "date":  "2026-09-22",
+                      "note":  "Statistik: Laufzeit, Menge und Starts je Pumpe (gesamt, zuruecksetzbar). Pumpenauswahl alphabetisch, +n zeigt, wie viele Rezepte mit dieser Flasche dazukommen; schon geladene Flaschen als Block darunter."
+                  },
+                  {
                       "version":  "V2026.9.22.1",
                       "bin":  "tresenwerk_V2026.9.22.1.bin",
                       "sha256":  "f8576af25cd572a558c61337e4e16ffc7f4b002dac2de594d87b8c10252739e5",
