@@ -1,6 +1,16 @@
 {
     "items":  [
                   {
+                      "version":  "V2026.9.23.5",
+                      "bin":  "tresenwerk_V2026.9.23.5.bin",
+                      "sha256":  "58baa6ada4b9c858fea9780a427e84c50aaf4be01dbc8f19586bc03edec6d347",
+                      "size":  2244112,
+                      "fs":  "tresenwerk_V2026.9.23.5.littlefs.bin",
+                      "fs_sha256":  "b704d27ba6cb4a6cdf9b34e99bae1ad14d40d7233a0aca6ad87ad1c3bab25c5b",
+                      "date":  "2026-09-23",
+                      "note":  "WLAN: SDIO-Belegung zum ESP32-C6 wie beim Elecrow-Board (D0..D3 umgekehrt, Reset IO32) ueber hostedSetPins des Cores; der fruehere eigene Aufruf hat den Start des WLANs verhindert (Neustartschleife). Zweiter LDO-Kanal wieder entfernt, den belegt der Core fuer die SDIO-Leitungen. I2C-Scan beim Start im Log. Flash-Skripte und Speicheraufteilung fuer den P4 (16 MB, LittleFS auf 0xA10000). Kopfzeile mit festen Breiten (Uhr und Warndreieck bleiben nicht mehr stehen), Fortschrittsanzeige nutzt die volle Breite, Bildschirmschoner wandert ueber neun Felder und wiederholt kein Rezept. Umbau auf ESP32-P4 (Elecrow CrowPanel Advanced 9 Zoll, 1024x600): Belegung, Display ueber MIPI-DSI, Touch-Reset am GPIO, Pumpen-Freigabe am GPIO, Uhr DS3231, 16-MB-Aufteilung. Ungetestet bis das Board da ist."
+                  },
+                  {
                       "version":  "V2026.9.23.4",
                       "bin":  "tresenwerk_V2026.9.23.4.bin",
                       "sha256":  "2e3fe6992338ecf10cf6dae372b581f1899c0cfebf9db05dc55c0b77e3b0bad3",
