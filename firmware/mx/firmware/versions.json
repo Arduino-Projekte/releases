@@ -1,6 +1,16 @@
 {
     "items":  [
                   {
+                      "version":  "V2026.9.23.1",
+                      "bin":  "tresenwerk_V2026.9.23.1.bin",
+                      "sha256":  "43815c92065e0cdb48130130bf97cf9ada186065e85910e29ead9cf2ceccff94",
+                      "size":  2243056,
+                      "fs":  "tresenwerk_V2026.9.23.1.littlefs.bin",
+                      "fs_sha256":  "744a3bae739f79259742f21eee1988604cead85daef3e93ec20a9457269a1ee0",
+                      "date":  "2026-09-22",
+                      "note":  "Umbau auf ESP32-P4 (Elecrow CrowPanel Advanced 9 Zoll, 1024x600): Belegung, Display ueber MIPI-DSI, Touch-Reset am GPIO, Pumpen-Freigabe am GPIO, Uhr DS3231, 16-MB-Aufteilung. Ungetestet bis das Board da ist."
+                  },
+                  {
                       "version":  "V2026.9.22.10",
                       "bin":  "tresenwerk_V2026.9.22.10.bin",
                       "sha256":  "5caec84465c4de4a715b43703a35fa3f4666f90caafaa236168d3a7b2e885fdc",
