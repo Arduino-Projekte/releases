@@ -1,6 +1,16 @@
 {
     "items":  [
                   {
+                      "version":  "V2026.9.23.3",
+                      "bin":  "tresenwerk_V2026.9.23.3.bin",
+                      "sha256":  "100ddd2205190e0739a51f633345d488de2cfba30e98213a4e7e43939c99dc10",
+                      "size":  2243952,
+                      "fs":  "tresenwerk_V2026.9.23.3.littlefs.bin",
+                      "fs_sha256":  "f2befae36eeefff16470474be63e65619d18aee4c75a5eda1ca3af94c8ca65cb",
+                      "date":  "2026-09-23",
+                      "note":  "Flash-Skripte und Speicheraufteilung fuer den P4 (16 MB, LittleFS auf 0xA10000). Kopfzeile mit festen Breiten (Uhr und Warndreieck bleiben nicht mehr stehen), Fortschrittsanzeige nutzt die volle Breite, Bildschirmschoner wandert ueber neun Felder und wiederholt kein Rezept. Umbau auf ESP32-P4 (Elecrow CrowPanel Advanced 9 Zoll, 1024x600): Belegung, Display ueber MIPI-DSI, Touch-Reset am GPIO, Pumpen-Freigabe am GPIO, Uhr DS3231, 16-MB-Aufteilung. Ungetestet bis das Board da ist."
+                  },
+                  {
                       "version":  "V2026.9.23.1",
                       "bin":  "tresenwerk_V2026.9.23.1.bin",
                       "sha256":  "43815c92065e0cdb48130130bf97cf9ada186065e85910e29ead9cf2ceccff94",
