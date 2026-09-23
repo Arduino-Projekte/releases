@@ -3,8 +3,8 @@
                   {
                       "version":  "0.1.154",
                       "bin":  "knx-led-controller-16m-w_0.1.154.bin",
-                      "sha256":  "09fd6f28b8db7161d84197f181669d6aa6e57f378d08246d108cb1af0403f6ef",
-                      "date":  "2026-09-19",
+                      "sha256":  "b02a92f373c1edf0861b74a8ee63a2c774586f24aa8624d5e2c9c6c43ebbbca4",
+                      "date":  "2026-09-23",
                       "note":  "Netzwerk: DHCP-Rueckkehr, robuster Gateway-Waechter, ICMP/Lifecycle und Netzmasken-Kollisionen korrigiert"
                   },
                   {

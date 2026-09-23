@@ -5,7 +5,7 @@
     "version":  "0.1.154",
     "bin":  "knx-led-controller-16m-w_0.1.154.bin",
     "file":  "knx-led-controller-16m-w_0.1.154.bin",
-    "sha256":  "09fd6f28b8db7161d84197f181669d6aa6e57f378d08246d108cb1af0403f6ef",
+    "sha256":  "b02a92f373c1edf0861b74a8ee63a2c774586f24aa8624d5e2c9c6c43ebbbca4",
     "message":  "Netzwerk: DHCP-Rueckkehr, robuster Gateway-Waechter, ICMP/Lifecycle und Netzmasken-Kollisionen korrigiert",
     "http_code":  200
 }
