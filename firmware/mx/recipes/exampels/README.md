@@ -9,6 +9,7 @@ Dieser Ordner wird **nicht veröffentlicht** und vom Gerät nicht geladen – `p
 | `ingredients_example.json` | neue Zutaten mit `density` (Mandelsirup), `carbonated` (Champagner) und `pumpable: false` (Eiweiß) |
 | `img/*.jpg` | Beispielbilder aller vier Rezepte in der Expertenversion: 200 × 200, Baseline-JPG, je ca. 4 KB, dunkler Hintergrund, Glas mittig |
 | `prompt_rezepte.md` | **Arbeitsauftrag** für andere Chats oder Agenten, die Rezepte schreiben – vollständig, mit Katalog, Regeln, Bildvorgaben und Prüfliste |
+| `auftrag_2026-09-24_zusatz24.md` | erledigter Einzelauftrag (24 Zusatzrezepte, 24.09.2026) – nur als Vorlage für den Auftragsteil künftiger Ergänzungen |
 
 ## Einfach und Experte am Beispiel Whiskey Sour
 

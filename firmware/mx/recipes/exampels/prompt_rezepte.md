@@ -7,7 +7,7 @@ Am Ende steht, welche Angaben du (der Auftraggeber) jedes Mal ergänzt.
 
 ## 1. Worum es geht
 
-Tresenwerk ist ein automatischer Cocktailmixer mit **8 Pumpen** (spätere Geräte bis 16). Er pumpt flüssige Zutaten in ml ab, alles andere
+Tresenwerk ist ein automatischer Cocktailmixer mit **bis zu 16 Pumpen**. Er pumpt flüssige Zutaten in ml ab, alles andere
 (Eis, Früchte, Eiweiß, Garnitur) macht ein Mensch von Hand. Das Gerät zeigt Rezepte auf einem 7"-Display und im Browser,
 in vier Sprachen: Deutsch (`de`, Pflicht), Englisch (`en`), Russisch (`ru`), Filipino (`fil`).
 
@@ -24,12 +24,13 @@ zeigt auch der Modus Experte „alles ins Glas“, ergänzt um `tip` und Handzut
 
 ## 1a. Bereits entschieden – bitte nicht nachfragen
 
-1. **Pumpen und Belegung.** Ein Gerät hat 8 Pumpen (spätere Geräte bis 16). Welche Flasche an welcher Pumpe hängt,
+1. **Pumpen und Belegung.** Dieses Gerät kann bis zu 16 Pumpen betreiben. Welche Flasche an welcher Pumpe hängt,
    legt der Betreiber am Gerät fest und steckt bei Bedarf um. Du musst **keine gemeinsame Belegung** für eine Lieferung
    planen: Jedes Rezept darf **beliebige Zutaten aus dem Katalog** kombinieren.
-   **Aber: höchstens 6 gepumpte Zutaten je Rezept** – jedes Rezept muss mit nur 6 geladenen Flaschen mixbar sein.
+   **Höchstens 16 gepumpte Zutaten je Rezept**; nur so viele Zutaten verwenden, wie geschmacklich sinnvoll sind.
+   Bei ausdrücklich vorgegebener Belegung nur deren Zutaten verwenden; sonst darf umgesteckt werden.
    Braucht das Original mehr, wandern die unwichtigsten in `manual` (zuerst Auffüller wie Cola oder Soda, dann kleine
-   Sirup- oder Saftmengen), siehe `long_island` im Bestand.
+   Sirup- oder Saftmengen). Bestehende Rezepte müssen dafür nicht umgeschrieben werden.
 2. **Zielstand ist der geplante Funktionsumfang,** nicht der heutige Firmwarestand. Schreibe `steps`, `tip`, `desc`,
    `expert` und Handzutaten mit Katalogbezug vollständig und richtig; die Firmware zieht nach.
 3. **Sirup und Creme sind getrennt.** Pumpbar ist nur, was im Katalog **nicht** `"pumpable": false` hat.
@@ -57,7 +58,7 @@ Liefere das JSON **ohne Kommentare** (JSON kennt keine), in einem Codeblock je D
 
 - **IDs:** nur `a-z`, `0-9`, `_`, 2–32 Zeichen, englisch, sprechend (`whiskey_sour`, `pina_colada`). Einmal vergeben, nie ändern.
 - **Mengen in ml** bei Größe 1,0. Je Zutat 1–300 ml, **Summe aller gepumpten Zutaten ≤ 400 ml**. Üblich: Shortdrink 60–120 ml, Longdrink 180–260 ml.
-- **Höchstens 6 gepumpte Zutaten** (Abschnitt 1a), jede nur einmal in `pump`.
+- **Höchstens 16 gepumpte Zutaten** (Abschnitt 1a), jede nur einmal in `pump`.
 - **Gepumpt wird nur, was im Katalog steht und pumpbar ist.** Eis, Früchte, Kräuter, Zucker, Salzrand und Katalogzutaten
   mit `"pumpable": false` gehören in `manual`.
 - **Eine Zutat steht entweder in `pump` oder in `manual`**, nie in beiden.
@@ -175,7 +176,7 @@ Regeln:
 
 ## 6. Zutatenkatalog (`ingredients.json`)
 
-Nur diese IDs gibt es (Stand 2026-09-21). Alle Namen liegen im Katalog auch in `en`, `ru`, `fil` vor. Kategorien: `spirit`, `liqueur`, `wine`, `juice`, `syrup`, `soft`, `dairy` und `other` (nur für nicht pumpbare Zutaten). Alle Zutaten sind pumpbar, außer der letzten Zeile.
+Die folgende Tabelle ist der ursprüngliche Basiskatalog (Stand 2026-09-21). Maßgeblich ist die aktuelle `ingredients.json` aus dem Bestand; weitere dort vorhandene IDs sind ebenfalls erlaubt. Vor neuen Zutaten immer den vollständigen Katalog prüfen. Alle Namen liegen im Katalog auch in `en`, `ru`, `fil` vor. Kategorien: `spirit`, `liqueur`, `wine`, `juice`, `syrup`, `soft`, `dairy` und `other` (nur für nicht pumpbare Zutaten). Alle Zutaten sind pumpbar, außer der letzten Zeile.
 
 | id | Name | Kategorie | Vol-% |
 |---|---|---|---|
@@ -246,30 +247,26 @@ Jedes Rezept hat ein Bild `img/<id>.jpg`. Das Gerät zeigt es auf Kacheln im Dis
 - **höchstens 64 KB** (Ziel: 8–30 KB, Qualität ~80–85)
 - Dateiname exakt `<id>.jpg`, Kleinbuchstaben
 
-**Gestaltung (einheitlicher Look über alle Rezepte):**
+**Gestaltung: einheitliche fotorealistische Cocktailfotografie**
 
-- **Dunkler, ruhiger Hintergrund** (fast schwarz bis dunkelgrau, ca. `#1E1E22`), passend zur dunklen Oberfläche
-- **Ein Glas, mittig, frontal**, füllt etwa 60–70 % der Höhe, mit dem richtigen Glastyp aus `glass`
-- **Die Expertenversion abbilden** (Abschnitt 1a): Schaum, Schichten, Zeste und Garnitur so, wie der Drink nach den `steps` aussieht
-- Farbe der Flüssigkeit realistisch, sichtbare Garnitur
-- **Flach und klar**: kein Text, keine Logos, keine Marken, keine Menschen, keine Hände, keine Tischdeko
-- Kein Weiß-Hintergrund, keine starken Verläufe, kein Unschärfe-Effekt
-- Stil wahlweise flache Illustration (wie die Beispielbilder in `img/`: Whiskey Sour, Cuba Libre, Tequila Sunrise, Piña Colada) oder schlichtes Studiofoto – **innerhalb einer Lieferung einheitlich**
-- Keine fremden Fotos aus dem Netz (Urheberrecht); nur selbst erzeugte Bilder
+- Dunkle, ruhige Bar im Hintergrund mit wenigen dezenten, warmen Lichtpunkten; Hintergrund sanft unscharf.
+- Drink und Garnitur scharf: echte Glasreflexionen, Licht im Glas, leichte Kondensation, durchsichtiges Eis und natürliche Fruchtoberflächen.
+- Ein Glas mittig und frontal, vollständig sichtbar, etwa 60–70 % der Bildhöhe; korrekte Glasform aus `glass`.
+- Gleiche Perspektive und weiches Seitenlicht über die gesamte Sammlung.
+- Expertenversion zeigen: Schaum, Schichten und ausschließlich die im Rezept angegebene Garnitur.
+- Glaubwürdige Flüssigkeitsfarbe; keine künstliche Neonfarbe. Bei 200 × 200 px hat die Erkennbarkeit Vorrang.
+- Keine Illustrationen, Texte, Logos, Marken, Menschen, Hände oder Tischdekoration; keine fremden Netzfotos.
+- Bilder mit dem verfügbaren Bildgenerator erzeugen. Falls das nicht möglich ist: vollständige Bildprompts liefern und fehlende Bilder ausdrücklich melden.
 
-**Kannst du keine Bilder erzeugen,** liefere je Rezept eine Bildbeschreibung für einen Bildgenerator, nach diesem Muster:
+Beispiel: „Square photorealistic Whiskey Sour in a centered clear tumbler, pale amber liquid, fine white foam, translucent ice, recipe-matched orange zest, realistic reflections and slight condensation, dark quiet bar with subtle warm bokeh, soft side lighting, no text, no logos, no people.“
 
-> Square 1:1 flat vector illustration of a Whiskey Sour in a short tumbler glass, centered, front view, pale amber
-> liquid with a thin white foam layer, two ice cubes, orange zest on the rim, dark charcoal background (#1E1E22)
-> with a subtle round spotlight, clean simple shapes, no text, no logo, no people.
-
-Danach auf 200 × 200 px verkleinern und als Baseline-JPG speichern.
+Anschließend auf 200 × 200 px verkleinern und als sRGB-Baseline-JPEG speichern, höchstens 64 KB.
 
 ## 9. Prüfliste (je Rezept mit „ok“ bestätigen)
 
 1. `id` gültig und neu, `img` = `img/<id>.jpg`
 2. Alle `ing` stehen im Katalog (oder werden als neue Zutat mitgeliefert)
-3. 1–6 gepumpte Zutaten, alle pumpbar, keine doppelt, je 1–300 ml, Summe ≤ 400 ml; keine Zutat zugleich in `pump` und `manual`
+3. 1–16 gepumpte Zutaten, alle pumpbar, keine doppelt, je 1–300 ml, Summe ≤ 400 ml; keine Zutat zugleich in `pump` und `manual`
 3a. Handzutaten aus dem Katalog mit `ing` (nicht als freier Text), nicht pumpbare Zutaten nur dort
 4. Modus Einfach ergibt allein einen trinkbaren Drink
 5. Aufwendiges steht in `steps`, `tip` oder `manual` mit `expert`
@@ -284,8 +281,8 @@ Danach auf 200 × 200 px verkleinern und als Baseline-JPG speichern.
 ## 10. Ablauf beim Auftraggeber (nicht deine Aufgabe)
 
 Der Auftraggeber fügt deine Objekte in `recipes.json` / `ingredients.json` ein, legt die Bilder nach `img/` und lässt
-`tools/publish_recipes.ps1` laufen. Das Skript prüft alles aus Abschnitt 9, was sich maschinell prüfen lässt
-(IDs, Zutaten, Pumpbarkeit, höchstens 6 Pumpzutaten, Handzutaten, `steps` samt Summen und Symbolen, Glas, Bilder)
+`tools/publish_recipes.ps1` laufen. Der konkrete Validator muss auf Unterstützung für bis zu 16 Pumpzutaten geprüft werden. Ein alter Validator mit einer Grenze von 6 muss vor dem Import größerer Rezepte angepasst werden. Die Änderung dieses Auftragstexts ändert keine Firmware. Das Skript prüft die unterstützten Regeln aus Abschnitt 9
+(IDs, Zutaten, Pumpbarkeit, die im Skript konfigurierte Pumpgrenze, Handzutaten, `steps` samt Summen und Symbolen, Glas, Bilder)
 und schreibt `index.json`. Das Gerät holt danach nur geänderte Dateien.
 
 Vollständige Beispiele im selben Ordner: `recipes_example.json` (Cuba Libre, Whiskey Sour, Tequila Sunrise,
@@ -299,4 +296,4 @@ Piña Colada mit Kokoscreme von Hand), `ingredients_example.json` (Dichte, Kohle
 - **Sprachen für Handzutaten, Hinweise und Schritte:** Standard „de und en“; zusätzlich `ru` / `fil`: ja oder nein
 - **Neue Zutaten erlaubt:** ja / nein
 - **Bilder:** „erzeugen“ oder „nur Beschreibungen“
-- **Bereits vorhandene IDs (nicht erneut anlegen):** `cuba_libre`, `gin_tonic`, `vodka_o`, `screwdriver`, `moscow_mule`, `tequila_sunrise`, `sex_on_the_beach`, `swimming_pool`, `blue_lagoon`, `pina_colada`, `planters_punch`, `mai_tai`, `zombie`, `long_island`, `caipirinha`, `mojito`, `margarita`, `daiquiri`, `cosmopolitan`, `whiskey_sour`, `white_russian`, `aperol_spritz`, `malibu_ananas`, `ipanema`, `virgin_colada`, `florida`, `shirley_temple`, `maracuja_sunrise` (Stand 2026-09-21; bei späteren Aufträgen aus `recipes.json` aktualisieren)
+- **Bereits vorhandene IDs:** vor jedem Auftrag aus den tatsächlichen Bestandsdateien ermitteln; nicht auf eine veraltete Liste vertrauen.
