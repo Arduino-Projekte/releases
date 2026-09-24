@@ -1,6 +1,16 @@
 {
     "items":  [
                   {
+                      "version":  "V2026.9.24.1",
+                      "bin":  "tresenwerk_V2026.9.24.1.bin",
+                      "sha256":  "f29b84459bcf38b89baf0acae6e6dcd1201dadc4327879e307429a9573c003a5",
+                      "size":  2252224,
+                      "fs":  "tresenwerk_V2026.9.24.1.littlefs.bin",
+                      "fs_sha256":  "4dbfde25c0263cc04138edc9df95e5b18d42b598f67c4aa61003f63fb110bafe",
+                      "date":  "2026-09-24",
+                      "note":  "Eigener Core mit XIP aus dem PSRAM gegen Flackern beim Firmware-Download. Startanimation: erstes Bild wird im verdeckten Bildspeicher gezeichnet, die Oberflaeche blitzt nicht mehr kurz vor dem Glas auf. Startanimation: Glas fuellt sich, Name und Version blenden ein. Cocktails: Filter-Marker springt sofort um, die ersten 10 Kacheln erscheinen gleich, der Rest wird nachgeladen. Scrollen: Bild-Kopfdaten gecacht (vorher jedes Bild in jedem Frame von der SD gelesen), Bildcache 12 MB, groesserer Zeichen-Zwischenspeicher. Einstellungen: alle Bedienelemente rechtsbuendig. WLAN-Passwort am Display: Knopf Schliessen zum Abbrechen. Touch: I2C-Datenleitung (GPIO 45) nach dem Start der SD-Karte zurueckgeholt; der Core schaltet dort sonst die SD-Versorgung des Espressif-Boards und legt damit den Bus lahm. SD-Karte: Treiber fordert LDO-Kanal 4 nicht mehr selbst an (haelt schon i2cInit auf 3,3 V). I2C: Pull-ups ueber LDO-Kanal 4 (3,3 V) wie im Elecrow-Beispiel eingeschaltet, I2C-Scan bricht bei haengendem Bus sofort ab. Touch: Diagnose im Log (Koordinaten neuer Beruehrungen, Lesefehler). Display: Startfolge wie im EK79007-Treiber (2-Lane-Befehl 0xB2, Befehle vor dem Bildstart), Fehler im Log; Build erzeugt die Sketch-Kopie immer neu. WLAN: SDIO-Belegung zum ESP32-C6 wie beim Elecrow-Board (D0..D3 umgekehrt, Reset IO32) ueber hostedSetPins des Cores; der fruehere eigene Aufruf hat den Start des WLANs verhindert (Neustartschleife). Zweiter LDO-Kanal wieder entfernt, den belegt der Core fuer die SDIO-Leitungen. I2C-Scan beim Start im Log. Flash-Skripte und Speicheraufteilung fuer den P4 (16 MB, LittleFS auf 0xA10000). Kopfzeile mit festen Breiten (Uhr und Warndreieck bleiben nicht mehr stehen), Fortschrittsanzeige nutzt die volle Breite, Bildschirmschoner wandert ueber neun Felder und wiederholt kein Rezept. Umbau auf ESP32-P4 (Elecrow CrowPanel Advanced 9 Zoll, 1024x600): Belegung, Display ueber MIPI-DSI, Touch-Reset am GPIO, Pumpen-Freigabe am GPIO, Uhr DS3231, 16-MB-Aufteilung. Ungetestet bis das Board da ist."
+                  },
+                  {
                       "version":  "V2026.9.23.17",
                       "bin":  "tresenwerk_V2026.9.23.17.bin",
                       "sha256":  "bbe59996bed1aa02e943ab2ddff12171992ffdfb7085ae5a11636cfd46f9926d",
