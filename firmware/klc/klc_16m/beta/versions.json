@@ -1,6 +1,13 @@
 {
     "items":  [
                   {
+                      "version":  "0.1.156",
+                      "bin":  "knx-led-controller-16m_0.1.156.bin",
+                      "sha256":  "aae826cf386ee0f604560db5cc378ba1d00bc5407eff1d18f748d043d0404618",
+                      "date":  "2026-09-26",
+                      "note":  "KNX/Diagnose: keine doppelte Programmiermodus-Abfrage, Neustart-Zustand, gedrosselte Log-Wiederholung; alle Tests lauffaehig"
+                  },
+                  {
                       "version":  "0.1.155",
                       "bin":  "knx-led-controller-16m_0.1.155.bin",
                       "sha256":  "79a74f2c5afec2517c95b75cb3b7b867f560a2beb12bab572f13820348412cb8",
@@ -27,13 +34,6 @@
                       "sha256":  "42c742034107a36edab0db74592c84f4778e60799683ca5d2c81e4dc3d29fa8d",
                       "date":  "2026-09-18",
                       "note":  "KNX: Helligkeit/Farbe ohne Zwischenstaende laufender Uebergaenge"
-                  },
-                  {
-                      "version":  "0.1.150",
-                      "bin":  "knx-led-controller-16m_0.1.150.bin",
-                      "sha256":  "22e11af7ecd374cf3e9a1441f28c4a34e3c935d30135ee68db2e184fc2b4596d",
-                      "date":  "2026-09-17",
-                      "note":  "Sanft Aus: quadratische Ausblendkurve statt linear, weniger Stufen am Ende"
                   }
               ]
 }
