@@ -5,7 +5,7 @@
     "version":  "0.1.155",
     "bin":  "knx-led-controller-16m-w_0.1.155.bin",
     "file":  "knx-led-controller-16m-w_0.1.155.bin",
-    "sha256":  "5acbd2571981933b7f8880e35b9513cbf80e555e1c722a0cdf32546aea9c9045",
+    "sha256":  "3d461721c63c53ba6df27625389f2fd396486ca84e3e430ff81052095c40aa44",
     "message":  "LED: Auffrischung 1x/2x pro Sekunde oder dauerhaft, Latchpause min. 300 us, abgebrochene Uebergaenge bleiben nicht mehr stehen",
     "http_code":  200
 }
