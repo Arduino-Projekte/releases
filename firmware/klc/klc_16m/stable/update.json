@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m_0.1.156.bin",
+                     "url":  "knx-led-controller-16m_0.1.157.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.1.156",
-                     "bin":  "knx-led-controller-16m_0.1.156.bin",
-                     "file":  "knx-led-controller-16m_0.1.156.bin",
-                     "sha256":  "aae826cf386ee0f604560db5cc378ba1d00bc5407eff1d18f748d043d0404618",
-                     "message":  "KNX/Diagnose: keine doppelte Programmiermodus-Abfrage, Neustart-Zustand, gedrosselte Log-Wiederholung; alle Tests lauffaehig",
+                     "version":  "0.1.157",
+                     "bin":  "knx-led-controller-16m_0.1.157.bin",
+                     "file":  "knx-led-controller-16m_0.1.157.bin",
+                     "sha256":  "e60914296d8352e7df4fc1607c819709eaba56acc267ca7ed89f918397ce41ec",
+                     "message":  "LED: Auffrischung blockiert keine Animationsbilder mehr (Ruckeln seit 0.1.155 behoben)",
                      "http_code":  200
                  }
 }

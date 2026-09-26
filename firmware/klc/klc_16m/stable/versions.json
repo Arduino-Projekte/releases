@@ -1,6 +1,13 @@
 {
     "items":  [
                   {
+                      "version":  "0.1.157",
+                      "bin":  "knx-led-controller-16m_0.1.157.bin",
+                      "sha256":  "e60914296d8352e7df4fc1607c819709eaba56acc267ca7ed89f918397ce41ec",
+                      "date":  "2026-09-26",
+                      "note":  "LED: Auffrischung blockiert keine Animationsbilder mehr (Ruckeln seit 0.1.155 behoben)"
+                  },
+                  {
                       "version":  "0.1.156",
                       "bin":  "knx-led-controller-16m_0.1.156.bin",
                       "sha256":  "aae826cf386ee0f604560db5cc378ba1d00bc5407eff1d18f748d043d0404618",
@@ -27,13 +34,6 @@
                       "sha256":  "0df702b16f044a080e1586a23d31c2499596b21085b410113b7f96a23e004473",
                       "date":  "2026-09-18",
                       "note":  "WLAN: Router-Waechter mit Neuverbindung, rotes Blinken bei WLAN-Stoerung"
-                  },
-                  {
-                      "version":  "0.1.152",
-                      "bin":  "knx-led-controller-16m_0.1.152.bin",
-                      "sha256":  "42c742034107a36edab0db74592c84f4778e60799683ca5d2c81e4dc3d29fa8d",
-                      "date":  "2026-09-18",
-                      "note":  "KNX: Helligkeit/Farbe ohne Zwischenstaende laufender Uebergaenge"
                   }
               ]
 }
