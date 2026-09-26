@@ -1,6 +1,13 @@
 {
     "items":  [
                   {
+                      "version":  "0.1.155",
+                      "bin":  "knx-led-controller-16m-w_0.1.155.bin",
+                      "sha256":  "ff50f80bb592ab9215c04082290e6bd5c0a1eebecc0cc4e55a931dc7dc8d835b",
+                      "date":  "2026-09-26",
+                      "note":  "LED: Auffrischung 1x/2x pro Sekunde oder dauerhaft, Latchpause min. 300 us, abgebrochene Uebergaenge bleiben nicht mehr stehen"
+                  },
+                  {
                       "version":  "0.1.154",
                       "bin":  "knx-led-controller-16m-w_0.1.154.bin",
                       "sha256":  "09fd6f28b8db7161d84197f181669d6aa6e57f378d08246d108cb1af0403f6ef",
@@ -27,13 +34,6 @@
                       "sha256":  "dfea3f1a28408072fa939f1242463d1822a7e098f63521e29e02682ad0266b71",
                       "date":  "2026-09-17",
                       "note":  "Sanft Aus: quadratische Ausblendkurve statt linear, weniger Stufen am Ende"
-                  },
-                  {
-                      "version":  "0.1.149",
-                      "bin":  "knx-led-controller-16m-w_0.1.149.bin",
-                      "sha256":  "4f4628eae9e053a6107613e7dafa17cfd417c74a69de4a9083f655fca66363b7",
-                      "date":  "2026-09-17",
-                      "note":  "Sanft Aus mit Aus-Effekt: kein Stottern, eigene Abschaltfarbe stimmt"
                   }
               ]
 }
