@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m_0.1.154.bin",
+                     "url":  "knx-led-controller-16m_0.1.155.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.1.154",
-                     "bin":  "knx-led-controller-16m_0.1.154.bin",
-                     "file":  "knx-led-controller-16m_0.1.154.bin",
-                     "sha256":  "35648894944fd9325b3780ec311b5847df98aa9f913721ff8e694e74dcbb7aa8",
-                     "message":  "Netzwerk: DHCP-Rueckkehr, robuster Gateway-Waechter, ICMP/Lifecycle und Netzmasken-Kollisionen korrigiert",
+                     "version":  "0.1.155",
+                     "bin":  "knx-led-controller-16m_0.1.155.bin",
+                     "file":  "knx-led-controller-16m_0.1.155.bin",
+                     "sha256":  "7165bc28a3610c8acc5e41938f0e2e6d302774d6439154ea16bb7cb99107267b",
+                     "message":  "LED: Auffrischung 1x/2x pro Sekunde oder dauerhaft, Latchpause min. 300 us, abgebrochene Uebergaenge bleiben nicht mehr stehen",
                      "http_code":  200
                  }
 }
