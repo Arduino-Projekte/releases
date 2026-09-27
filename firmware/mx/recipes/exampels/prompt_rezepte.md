@@ -27,7 +27,7 @@ zeigt auch der Modus Experte „alles ins Glas“, ergänzt um `tip` und Handzut
 1. **Pumpen und Belegung.** Dieses Gerät kann bis zu 16 Pumpen betreiben. Welche Flasche an welcher Pumpe hängt,
    legt der Betreiber am Gerät fest und steckt bei Bedarf um. Du musst **keine gemeinsame Belegung** für eine Lieferung
    planen: Jedes Rezept darf **beliebige Zutaten aus dem Katalog** kombinieren.
-   **Höchstens 16 gepumpte Zutaten je Rezept**; nur so viele Zutaten verwenden, wie geschmacklich sinnvoll sind.
+   **Höchstens 6 gepumpte Zutaten je Rezept** – jedes offizielle Rezept muss mit nur 6 geladenen Flaschen mixbar sein, auch wenn ein Gerät bis zu 16 Pumpen hat. Nur so viele Zutaten verwenden, wie geschmacklich sinnvoll sind.
    Bei ausdrücklich vorgegebener Belegung nur deren Zutaten verwenden; sonst darf umgesteckt werden.
    Braucht das Original mehr, wandern die unwichtigsten in `manual` (zuerst Auffüller wie Cola oder Soda, dann kleine
    Sirup- oder Saftmengen). Bestehende Rezepte müssen dafür nicht umgeschrieben werden.
@@ -58,7 +58,7 @@ Liefere das JSON **ohne Kommentare** (JSON kennt keine), in einem Codeblock je D
 
 - **IDs:** nur `a-z`, `0-9`, `_`, 2–32 Zeichen, englisch, sprechend (`whiskey_sour`, `pina_colada`). Einmal vergeben, nie ändern.
 - **Mengen in ml** bei Größe 1,0. Je Zutat 1–300 ml, **Summe aller gepumpten Zutaten ≤ 400 ml**. Üblich: Shortdrink 60–120 ml, Longdrink 180–260 ml.
-- **Höchstens 16 gepumpte Zutaten** (Abschnitt 1a), jede nur einmal in `pump`.
+- **Höchstens 6 gepumpte Zutaten** (Abschnitt 1a), jede nur einmal in `pump`.
 - **Gepumpt wird nur, was im Katalog steht und pumpbar ist.** Eis, Früchte, Kräuter, Zucker, Salzrand und Katalogzutaten
   mit `"pumpable": false` gehören in `manual`.
 - **Eine Zutat steht entweder in `pump` oder in `manual`**, nie in beiden.
@@ -266,7 +266,7 @@ Anschließend auf 200 × 200 px verkleinern und als sRGB-Baseline-JPEG speichern
 
 1. `id` gültig und neu, `img` = `img/<id>.jpg`
 2. Alle `ing` stehen im Katalog (oder werden als neue Zutat mitgeliefert)
-3. 1–16 gepumpte Zutaten, alle pumpbar, keine doppelt, je 1–300 ml, Summe ≤ 400 ml; keine Zutat zugleich in `pump` und `manual`
+3. 1–6 gepumpte Zutaten, alle pumpbar, keine doppelt, je 1–300 ml, Summe ≤ 400 ml; keine Zutat zugleich in `pump` und `manual`
 3a. Handzutaten aus dem Katalog mit `ing` (nicht als freier Text), nicht pumpbare Zutaten nur dort
 4. Modus Einfach ergibt allein einen trinkbaren Drink
 5. Aufwendiges steht in `steps`, `tip` oder `manual` mit `expert`
@@ -281,8 +281,8 @@ Anschließend auf 200 × 200 px verkleinern und als sRGB-Baseline-JPEG speichern
 ## 10. Ablauf beim Auftraggeber (nicht deine Aufgabe)
 
 Der Auftraggeber fügt deine Objekte in `recipes.json` / `ingredients.json` ein, legt die Bilder nach `img/` und lässt
-`tools/publish_recipes.ps1` laufen. Der konkrete Validator muss auf Unterstützung für bis zu 16 Pumpzutaten geprüft werden. Ein alter Validator mit einer Grenze von 6 muss vor dem Import größerer Rezepte angepasst werden. Die Änderung dieses Auftragstexts ändert keine Firmware. Das Skript prüft die unterstützten Regeln aus Abschnitt 9
-(IDs, Zutaten, Pumpbarkeit, die im Skript konfigurierte Pumpgrenze, Handzutaten, `steps` samt Summen und Symbolen, Glas, Bilder)
+`tools/publish_recipes.ps1` laufen. Das Skript prüft die unterstützten Regeln aus Abschnitt 9
+(IDs, Zutaten, Pumpbarkeit, höchstens 6 Pumpzutaten, Handzutaten, `steps` samt Summen und Symbolen, Glas, Bilder)
 und schreibt `index.json`. Das Gerät holt danach nur geänderte Dateien.
 
 Vollständige Beispiele im selben Ordner: `recipes_example.json` (Cuba Libre, Whiskey Sour, Tequila Sunrise,
