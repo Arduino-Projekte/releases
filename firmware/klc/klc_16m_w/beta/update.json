@@ -1,11 +1,11 @@
 {
-    "url":  "knx-led-controller-16m-w_0.1.157.bin",
+    "url":  "knx-led-controller-16m-w_0.1.158.bin",
     "check_ok":  true,
     "update_available":  false,
-    "version":  "0.1.157",
-    "bin":  "knx-led-controller-16m-w_0.1.157.bin",
-    "file":  "knx-led-controller-16m-w_0.1.157.bin",
-    "sha256":  "077a326063621663a4a260764911a12a67727826a9f5a4adf37627ce9d6c40c6",
-    "message":  "LED: Auffrischung blockiert keine Animationsbilder mehr (Ruckeln seit 0.1.155 behoben)",
+    "version":  "0.1.158",
+    "bin":  "knx-led-controller-16m-w_0.1.158.bin",
+    "file":  "knx-led-controller-16m-w_0.1.158.bin",
+    "sha256":  "887a3e95bd1aae94bed7a55e212c975452426e8830a393da3cd0eb25e18c5b53",
+    "message":  "LED-Aus-Diagnose mit dauerhafter Meldung; Webserver-Abschaltzeit; lebende Animationsbilder waehrend Szenenuebergaengen",
     "http_code":  200
 }

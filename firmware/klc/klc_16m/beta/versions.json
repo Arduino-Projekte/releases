@@ -1,6 +1,13 @@
 {
     "items":  [
                   {
+                      "version":  "0.1.158",
+                      "bin":  "knx-led-controller-16m_0.1.158.bin",
+                      "sha256":  "d785dcf15367f499442587f7234ea0dabc9ae853257f18cf4994625d1205e61e",
+                      "date":  "2026-09-27",
+                      "note":  "LED-Aus-Diagnose mit dauerhafter Meldung; Webserver-Abschaltzeit; lebende Animationsbilder waehrend Szenenuebergaengen"
+                  },
+                  {
                       "version":  "0.1.157",
                       "bin":  "knx-led-controller-16m_0.1.157.bin",
                       "sha256":  "e60914296d8352e7df4fc1607c819709eaba56acc267ca7ed89f918397ce41ec",
@@ -27,13 +34,6 @@
                       "sha256":  "a07789980f5fe8f87ba76f60de8852567cc6bc47d724c9f95bb80632ebfe5538",
                       "date":  "2026-09-23",
                       "note":  "Netzwerk: DHCP-Rueckkehr, robuster Gateway-Waechter, ICMP/Lifecycle und Netzmasken-Kollisionen korrigiert"
-                  },
-                  {
-                      "version":  "0.1.153",
-                      "bin":  "knx-led-controller-16m_0.1.153.bin",
-                      "sha256":  "0df702b16f044a080e1586a23d31c2499596b21085b410113b7f96a23e004473",
-                      "date":  "2026-09-18",
-                      "note":  "WLAN: Router-Waechter mit Neuverbindung, rotes Blinken bei WLAN-Stoerung"
                   }
               ]
 }
