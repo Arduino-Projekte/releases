@@ -1,6 +1,13 @@
 {
     "items":  [
                   {
+                      "version":  "0.1.159",
+                      "bin":  "knx-led-controller-16m-w_0.1.159.bin",
+                      "sha256":  "77cffdbafb97a7b0b1f7eb0c309e4167df092698547c56d8c84d96bf2ef13e4b",
+                      "date":  "2026-09-28",
+                      "note":  "KNX: Helligkeit bei KNX-Farbe ohne Doppelskalierung (0.1.158 war zu dunkel), Status Helligkeit stimmt"
+                  },
+                  {
                       "version":  "0.1.158",
                       "bin":  "knx-led-controller-16m-w_0.1.158.bin",
                       "sha256":  "887a3e95bd1aae94bed7a55e212c975452426e8830a393da3cd0eb25e18c5b53",
@@ -27,13 +34,6 @@
                       "sha256":  "ff50f80bb592ab9215c04082290e6bd5c0a1eebecc0cc4e55a931dc7dc8d835b",
                       "date":  "2026-09-26",
                       "note":  "LED: Auffrischung 1x/2x pro Sekunde oder dauerhaft, Latchpause min. 300 us, abgebrochene Uebergaenge bleiben nicht mehr stehen"
-                  },
-                  {
-                      "version":  "0.1.154",
-                      "bin":  "knx-led-controller-16m-w_0.1.154.bin",
-                      "sha256":  "09fd6f28b8db7161d84197f181669d6aa6e57f378d08246d108cb1af0403f6ef",
-                      "date":  "2026-09-19",
-                      "note":  "Netzwerk: DHCP-Rueckkehr, robuster Gateway-Waechter, ICMP/Lifecycle und Netzmasken-Kollisionen korrigiert"
                   }
               ]
 }
