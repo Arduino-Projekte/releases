@@ -1,6 +1,13 @@
 {
     "items":  [
                   {
+                      "version":  "0.1.160",
+                      "bin":  "knx-led-controller-16m_0.1.160.bin",
+                      "sha256":  "c49a4af2c9d138acc23a06b4699dac42f288803a37cc2da70eca8e262d7d35b1",
+                      "date":  "2026-09-28",
+                      "note":  "Speicher: Konfiguration mit Schema 85 aus Fremdbuild wird wieder geladen statt sichere Defaults"
+                  },
+                  {
                       "version":  "0.1.159",
                       "bin":  "knx-led-controller-16m_0.1.159.bin",
                       "sha256":  "729fd3c0afcde8f75a6904b14dec58df1d7b1bfeaa7d9e867774427e0735a17f",
@@ -27,13 +34,6 @@
                       "sha256":  "aae826cf386ee0f604560db5cc378ba1d00bc5407eff1d18f748d043d0404618",
                       "date":  "2026-09-26",
                       "note":  "KNX/Diagnose: keine doppelte Programmiermodus-Abfrage, Neustart-Zustand, gedrosselte Log-Wiederholung; alle Tests lauffaehig"
-                  },
-                  {
-                      "version":  "0.1.155",
-                      "bin":  "knx-led-controller-16m_0.1.155.bin",
-                      "sha256":  "79a74f2c5afec2517c95b75cb3b7b867f560a2beb12bab572f13820348412cb8",
-                      "date":  "2026-09-26",
-                      "note":  "LED: Auffrischung 1x/2x pro Sekunde oder dauerhaft, Latchpause min. 300 us, abgebrochene Uebergaenge bleiben nicht mehr stehen"
                   }
               ]
 }
