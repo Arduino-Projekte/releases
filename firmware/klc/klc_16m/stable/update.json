@@ -1,13 +1,13 @@
 {
     "manifest":  {
-                     "url":  "knx-led-controller-16m_0.1.159.bin",
+                     "url":  "knx-led-controller-16m_0.1.160.bin",
                      "check_ok":  true,
                      "update_available":  false,
-                     "version":  "0.1.159",
-                     "bin":  "knx-led-controller-16m_0.1.159.bin",
-                     "file":  "knx-led-controller-16m_0.1.159.bin",
-                     "sha256":  "729fd3c0afcde8f75a6904b14dec58df1d7b1bfeaa7d9e867774427e0735a17f",
-                     "message":  "KNX: Helligkeit bei KNX-Farbe ohne Doppelskalierung (0.1.158 war zu dunkel), Status Helligkeit stimmt",
+                     "version":  "0.1.160",
+                     "bin":  "knx-led-controller-16m_0.1.160.bin",
+                     "file":  "knx-led-controller-16m_0.1.160.bin",
+                     "sha256":  "c49a4af2c9d138acc23a06b4699dac42f288803a37cc2da70eca8e262d7d35b1",
+                     "message":  "Speicher: Konfiguration mit Schema 85 aus Fremdbuild wird wieder geladen statt sichere Defaults",
                      "http_code":  200
                  }
 }
