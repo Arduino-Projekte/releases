@@ -5,7 +5,7 @@
     "version":  "0.1.157",
     "bin":  "knx-led-controller-16m_0.1.157.bin",
     "file":  "knx-led-controller-16m_0.1.157.bin",
-    "sha256":  "12e639a7c525285c60be6fc9efc98cb59049f1793b0b9a60e50028d23d3722b8",
+    "sha256":  "da6f6e53cee80e907856906f71193cecb5cfd7e701834c87280b46e37b29deb1",
     "message":  "LED: Auffrischung blockiert keine Animationsbilder mehr (Ruckeln seit 0.1.155 behoben)",
     "http_code":  200
 }
