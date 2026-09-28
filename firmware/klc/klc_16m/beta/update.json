@@ -1,11 +1,11 @@
 {
-    "url":  "knx-led-controller-16m_0.1.157.bin",
+    "url":  "knx-led-controller-16m_0.1.159.bin",
     "check_ok":  true,
     "update_available":  false,
-    "version":  "0.1.157",
-    "bin":  "knx-led-controller-16m_0.1.157.bin",
-    "file":  "knx-led-controller-16m_0.1.157.bin",
-    "sha256":  "da6f6e53cee80e907856906f71193cecb5cfd7e701834c87280b46e37b29deb1",
-    "message":  "LED: Auffrischung blockiert keine Animationsbilder mehr (Ruckeln seit 0.1.155 behoben)",
+    "version":  "0.1.159",
+    "bin":  "knx-led-controller-16m_0.1.159.bin",
+    "file":  "knx-led-controller-16m_0.1.159.bin",
+    "sha256":  "729fd3c0afcde8f75a6904b14dec58df1d7b1bfeaa7d9e867774427e0735a17f",
+    "message":  "KNX: Helligkeit bei KNX-Farbe ohne Doppelskalierung (0.1.158 war zu dunkel), Status Helligkeit stimmt",
     "http_code":  200
 }
