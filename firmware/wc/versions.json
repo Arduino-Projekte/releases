@@ -1,81 +1,88 @@
 {
-    "items":  [
-                  {
-                      "version":  "V4.26.9.8.6",
-                      "bin":  "word-clock-IV_V4.26.9.8.6.bin",
-                      "sha256":  "c56df33e0c69106a1d6a14029e4b8802b063ebe13be1bc3f2928e3632b6d06ee",
-                      "date":  "2026-09-12",
-                      "note":  "Logringpuffer ins PSRAM verlagert (45 KB internes RAM frei, behebt TLS-Fehler SSL - Memory allocation failed bei OTA); Wetterabruf gehaertet: Fehlversuch verwirft vorhandene Daten nicht mehr, Retry-Backoff statt voller Intervallpause, verlorene Anfragen nach WLAN-Aussetzern behoben, HTTP-Timeout 3s auf 9s erhoeht"
-                  },
-                  {
-                      "version":  "V4.26.9.8.5",
-                      "bin":  "word-clock-IV_V4.26.9.8.5.bin",
-                      "sha256":  "ef6769a57420c03dfac073d1d8a5dbb504ebe976795f5cf803ddfb0c67ca1611",
-                      "date":  "2026-09-09",
-                      "note":  "WebUI-Settings gegen Secret-Logging, fehlgeschlagene und konkurrierende Requests sowie Persistenzfehler gehaertet; Finance-IDs, Warnmarker und 24-h-Referenz korrigiert; Importgrenzen und Host-Regressionstests erweitert"
-                  },
-                  {
-                      "version":  "V4.26.9.8.4",
-                      "bin":  "word-clock-IV_V4.26.9.8.4.bin",
-                      "sha256":  "c4f9b2dd9578f30f6e99a0998e9093eece3ec656ddad55c077ca07565f7d6929",
-                      "date":  "2026-09-08",
-                      "note":  "Buildziel XIAO ESP32S3 Plus mit 16 MB Flash und OPI-PSRAM wiederhergestellt; bisher unveroeffentlichten Arbeitsstand mit Korrekturen an Speichern/Verwerfen, Firmwareupload, OTA-Pruefung, Schluesselbehandlung, Importgrenzen und farbigen Finanzanzeigen zur Buildpruefung vorbereitet"
-                  },
-                  {
-                      "version":  "V4.26.9.8.3",
-                      "bin":  "word-clock-IV_V4.26.9.8.3.bin",
-                      "sha256":  "89d4528c09e8af29ac31f4de8260dc51d8442e078e7a981b47b165c46ac2d68c",
-                      "date":  "2026-09-08",
-                      "note":  "Buildziel XIAO ESP32S3 Plus mit 16 MB Flash und OPI-PSRAM wiederhergestellt; bisher unveroeffentlichten Arbeitsstand mit Korrekturen an Speichern/Verwerfen, Firmwareupload, OTA-Pruefung, Schluesselbehandlung, Importgrenzen und farbigen Finanzanzeigen zur Buildpruefung vorbereitet"
-                  },
-                  {
-                      "version":  "V4.26.9.8.2",
-                      "bin":  "word-clock-IV_V4.26.9.8.2.bin",
-                      "date":  "2026-09-08",
-                      "note":  "Buildziel XIAO ESP32S3 Plus mit 16 MB Flash und OPI-PSRAM wiederhergestellt; bisher unveroeffentlichten Arbeitsstand mit Korrekturen an Speichern/Verwerfen, Firmwareupload, OTA-Pruefung, Schluesselbehandlung, Importgrenzen und farbigen Finanzanzeigen zur Buildpruefung vorbereitet",
-                      "sha256":  "f0f055de3cf73f309e1c48ea5b7b874960ef89e6777b79a554d9ba2c0708f1bc"
-                  },
-                  {
-                      "version":  "V4.26.9.8.1",
-                      "bin":  "word-clock-IV_V4.26.9.8.1.bin",
-                      "date":  "2026-09-08",
-                      "note":  "Buildziel XIAO ESP32S3 Plus mit 16 MB Flash und OPI-PSRAM wiederhergestellt; bisher unveroeffentlichten Arbeitsstand mit Korrekturen an Speichern/Verwerfen, Firmwareupload, OTA-Pruefung, Schluesselbehandlung, Importgrenzen und farbigen Finanzanzeigen zur Buildpruefung vorbereitet",
-                      "sha256":  "1ad74925b6a189357f2f4e5708ffbf3137e10c4e849464c30c219bc34ebea01f"
-                  },
-                  {
-                      "version":  "V4.26.9.6.2",
-                      "bin":  "word-clock-IV_V4.26.9.6.2.bin",
-                      "sha256":  "694fc6255974ab86703e8ee01b96296f7edf9f97ff35c6f3c1aec46399c391ac",
-                      "date":  "2026-09-06",
-                      "note":  "Feinschliff nach dem Redesign: Dateiverwaltung wieder erreichbar und als Unterreiter im Bilder-Bereich gefuehrt, Schein-Schalter der Frontblende entfernt, Ballonhilfe lesbar gemacht, altes Stylesheet entflochten, drittes Theme ueber den Kopfknopf erreichbar, letzter nativer Bestaetigungsdialog ersetzt, toter UI-Code entfernt und Host-Linkausgabe maskiert"
-                  },
-                  {
-                      "version":  "V4.26.9.5.1",
-                      "bin":  "word-clock-IV_V4.26.9.5.1.bin",
-                      "sha256":  "5aa54f6f82d30e5051f5e398c5dd132b672422c8f2705ac4743b6ccb48d863dd",
-                      "date":  "2026-09-05",
-                      "note":  "Weboberflaeche neu gestaltet: Navigation als Datentabelle mit fuenf Bereichen (Seitenleiste ab 768 px, Bodenleiste darunter), Speicherzustand je Seite statt geraeteweit mit fuenf sichtbaren Zustaenden, Toast und eigener Bestaetigungsdialog anstelle von alert und confirm, durchgehend flache Kanten und rote Akzentfarbe in drei Themes (hell, dunkel, marineblau)"
-                  },
-                  {
-                      "version":  "V4.26.9.4.2",
-                      "bin":  "word-clock-IV_V4.26.9.4.2.bin",
-                      "sha256":  "0801e8b19d621d0b98cc33387241285845c7fa06faf93bd6d70f297b13ef3fdc",
-                      "date":  "2026-09-04",
-                      "note":  "Bitcoin und Gold jetzt vollstaendig ohne Schluessel: die 11-Monats-Historie kommt per streamendem Abruf ebenfalls von Kraken, der Anbieter CryptoCompare entfaellt"
-                  },
-                  {
-                      "version":  "V4.26.9.3.1",
-                      "bin":  "word-clock-IV_V4.26.9.3.1.bin",
-                      "sha256":  "dd4d4b76e3f117a762f97b0854803fd8134e6e4b4978750dc4d1dc1c238f062c",
-                      "date":  "2026-09-04",
-                      "note":  "Timer-Aktion Zufall: lost Temperatur, Datum, Wetter oder Finanzen aus und wiederholt dabei nie die zuletzt gezeigte Anzeige"
-                  },
-                  {
-                      "version":  "V4.26.9.2.3",
-                      "bin":  "word-clock-IV_V4.26.9.2.3.bin",
-                      "sha256":  "e56853c24da3b37b0b34610400030548c66a3962fb9ab25d4cd264e1bdc7c3d9",
-                      "date":  "2026-09-03",
-                      "note":  "Finanzanzeige um Gold erweitert, Timer-Aktion Finanzen in der Oberflaeche, Ticker laeuft nach Ablauf der Dauer zu Ende statt abzubrechen"
-                  }
-              ]
+    "items": [
+        {
+            "version": "V4.26.9.29.1",
+            "bin": "word-clock-IV_V4.26.9.29.1.bin",
+            "sha256": "594f0025880c662df7abbf01a50226099817a843aa5b6ed1c1589e18b4eed213",
+            "date": "2026-09-29",
+            "note": "Erster Release ueber GitHub Actions (automatischer Firmware-Build, Host-Tests und Versionspruefung); Firmware-Funktionen unveraendert gegenueber V4.26.9.8.6"
+        },
+        {
+            "version": "V4.26.9.8.6",
+            "bin": "word-clock-IV_V4.26.9.8.6.bin",
+            "sha256": "c56df33e0c69106a1d6a14029e4b8802b063ebe13be1bc3f2928e3632b6d06ee",
+            "date": "2026-09-12",
+            "note": "Logringpuffer ins PSRAM verlagert (45 KB internes RAM frei, behebt TLS-Fehler SSL - Memory allocation failed bei OTA); Wetterabruf gehaertet: Fehlversuch verwirft vorhandene Daten nicht mehr, Retry-Backoff statt voller Intervallpause, verlorene Anfragen nach WLAN-Aussetzern behoben, HTTP-Timeout 3s auf 9s erhoeht"
+        },
+        {
+            "version": "V4.26.9.8.5",
+            "bin": "word-clock-IV_V4.26.9.8.5.bin",
+            "sha256": "ef6769a57420c03dfac073d1d8a5dbb504ebe976795f5cf803ddfb0c67ca1611",
+            "date": "2026-09-09",
+            "note": "WebUI-Settings gegen Secret-Logging, fehlgeschlagene und konkurrierende Requests sowie Persistenzfehler gehaertet; Finance-IDs, Warnmarker und 24-h-Referenz korrigiert; Importgrenzen und Host-Regressionstests erweitert"
+        },
+        {
+            "version": "V4.26.9.8.4",
+            "bin": "word-clock-IV_V4.26.9.8.4.bin",
+            "sha256": "c4f9b2dd9578f30f6e99a0998e9093eece3ec656ddad55c077ca07565f7d6929",
+            "date": "2026-09-08",
+            "note": "Buildziel XIAO ESP32S3 Plus mit 16 MB Flash und OPI-PSRAM wiederhergestellt; bisher unveroeffentlichten Arbeitsstand mit Korrekturen an Speichern/Verwerfen, Firmwareupload, OTA-Pruefung, Schluesselbehandlung, Importgrenzen und farbigen Finanzanzeigen zur Buildpruefung vorbereitet"
+        },
+        {
+            "version": "V4.26.9.8.3",
+            "bin": "word-clock-IV_V4.26.9.8.3.bin",
+            "sha256": "89d4528c09e8af29ac31f4de8260dc51d8442e078e7a981b47b165c46ac2d68c",
+            "date": "2026-09-08",
+            "note": "Buildziel XIAO ESP32S3 Plus mit 16 MB Flash und OPI-PSRAM wiederhergestellt; bisher unveroeffentlichten Arbeitsstand mit Korrekturen an Speichern/Verwerfen, Firmwareupload, OTA-Pruefung, Schluesselbehandlung, Importgrenzen und farbigen Finanzanzeigen zur Buildpruefung vorbereitet"
+        },
+        {
+            "version": "V4.26.9.8.2",
+            "bin": "word-clock-IV_V4.26.9.8.2.bin",
+            "date": "2026-09-08",
+            "note": "Buildziel XIAO ESP32S3 Plus mit 16 MB Flash und OPI-PSRAM wiederhergestellt; bisher unveroeffentlichten Arbeitsstand mit Korrekturen an Speichern/Verwerfen, Firmwareupload, OTA-Pruefung, Schluesselbehandlung, Importgrenzen und farbigen Finanzanzeigen zur Buildpruefung vorbereitet",
+            "sha256": "f0f055de3cf73f309e1c48ea5b7b874960ef89e6777b79a554d9ba2c0708f1bc"
+        },
+        {
+            "version": "V4.26.9.8.1",
+            "bin": "word-clock-IV_V4.26.9.8.1.bin",
+            "date": "2026-09-08",
+            "note": "Buildziel XIAO ESP32S3 Plus mit 16 MB Flash und OPI-PSRAM wiederhergestellt; bisher unveroeffentlichten Arbeitsstand mit Korrekturen an Speichern/Verwerfen, Firmwareupload, OTA-Pruefung, Schluesselbehandlung, Importgrenzen und farbigen Finanzanzeigen zur Buildpruefung vorbereitet",
+            "sha256": "1ad74925b6a189357f2f4e5708ffbf3137e10c4e849464c30c219bc34ebea01f"
+        },
+        {
+            "version": "V4.26.9.6.2",
+            "bin": "word-clock-IV_V4.26.9.6.2.bin",
+            "sha256": "694fc6255974ab86703e8ee01b96296f7edf9f97ff35c6f3c1aec46399c391ac",
+            "date": "2026-09-06",
+            "note": "Feinschliff nach dem Redesign: Dateiverwaltung wieder erreichbar und als Unterreiter im Bilder-Bereich gefuehrt, Schein-Schalter der Frontblende entfernt, Ballonhilfe lesbar gemacht, altes Stylesheet entflochten, drittes Theme ueber den Kopfknopf erreichbar, letzter nativer Bestaetigungsdialog ersetzt, toter UI-Code entfernt und Host-Linkausgabe maskiert"
+        },
+        {
+            "version": "V4.26.9.5.1",
+            "bin": "word-clock-IV_V4.26.9.5.1.bin",
+            "sha256": "5aa54f6f82d30e5051f5e398c5dd132b672422c8f2705ac4743b6ccb48d863dd",
+            "date": "2026-09-05",
+            "note": "Weboberflaeche neu gestaltet: Navigation als Datentabelle mit fuenf Bereichen (Seitenleiste ab 768 px, Bodenleiste darunter), Speicherzustand je Seite statt geraeteweit mit fuenf sichtbaren Zustaenden, Toast und eigener Bestaetigungsdialog anstelle von alert und confirm, durchgehend flache Kanten und rote Akzentfarbe in drei Themes (hell, dunkel, marineblau)"
+        },
+        {
+            "version": "V4.26.9.4.2",
+            "bin": "word-clock-IV_V4.26.9.4.2.bin",
+            "sha256": "0801e8b19d621d0b98cc33387241285845c7fa06faf93bd6d70f297b13ef3fdc",
+            "date": "2026-09-04",
+            "note": "Bitcoin und Gold jetzt vollstaendig ohne Schluessel: die 11-Monats-Historie kommt per streamendem Abruf ebenfalls von Kraken, der Anbieter CryptoCompare entfaellt"
+        },
+        {
+            "version": "V4.26.9.3.1",
+            "bin": "word-clock-IV_V4.26.9.3.1.bin",
+            "sha256": "dd4d4b76e3f117a762f97b0854803fd8134e6e4b4978750dc4d1dc1c238f062c",
+            "date": "2026-09-04",
+            "note": "Timer-Aktion Zufall: lost Temperatur, Datum, Wetter oder Finanzen aus und wiederholt dabei nie die zuletzt gezeigte Anzeige"
+        },
+        {
+            "version": "V4.26.9.2.3",
+            "bin": "word-clock-IV_V4.26.9.2.3.bin",
+            "sha256": "e56853c24da3b37b0b34610400030548c66a3962fb9ab25d4cd264e1bdc7c3d9",
+            "date": "2026-09-03",
+            "note": "Finanzanzeige um Gold erweitert, Timer-Aktion Finanzen in der Oberflaeche, Ticker laeuft nach Ablauf der Dauer zu Ende statt abzubrechen"
+        }
+    ]
 }
