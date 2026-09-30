@@ -1,11 +1,11 @@
 {
-    "url":  "knx-led-controller-16m-w_0.1.160.bin",
-    "check_ok":  true,
-    "update_available":  false,
-    "version":  "0.1.160",
-    "bin":  "knx-led-controller-16m-w_0.1.160.bin",
-    "file":  "knx-led-controller-16m-w_0.1.160.bin",
-    "sha256":  "ad535e8b15761808ca16b83df5d7cebf66b23eeffdde5a4860d9963953d8818b",
-    "message":  "Speicher: Konfiguration mit Schema 85 aus Fremdbuild wird wieder geladen statt sichere Defaults",
-    "http_code":  200
+  "url": "knx-led-controller-16m-w_0.1.162.bin",
+  "check_ok": true,
+  "update_available": false,
+  "version": "0.1.162",
+  "bin": "knx-led-controller-16m-w_0.1.162.bin",
+  "file": "knx-led-controller-16m-w_0.1.162.bin",
+  "sha256": "88b99266ce98dbdbdd9d923aa1bf9c04bf0186a66ad411c8bbfdd1517bcfbdfa",
+  "message": "Zusammenfuehrung: Backup-Import aus 0.1.161 plus KNX-Helligkeit (0.1.158/159) und Schema-85-Kompatibilitaet (0.1.160)",
+  "http_code": 200
 }

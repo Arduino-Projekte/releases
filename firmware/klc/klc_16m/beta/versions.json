@@ -1,39 +1,39 @@
 {
-    "items":  [
-                  {
-                      "version":  "0.1.160",
-                      "bin":  "knx-led-controller-16m_0.1.160.bin",
-                      "sha256":  "c49a4af2c9d138acc23a06b4699dac42f288803a37cc2da70eca8e262d7d35b1",
-                      "date":  "2026-09-28",
-                      "note":  "Speicher: Konfiguration mit Schema 85 aus Fremdbuild wird wieder geladen statt sichere Defaults"
-                  },
-                  {
-                      "version":  "0.1.159",
-                      "bin":  "knx-led-controller-16m_0.1.159.bin",
-                      "sha256":  "729fd3c0afcde8f75a6904b14dec58df1d7b1bfeaa7d9e867774427e0735a17f",
-                      "date":  "2026-09-28",
-                      "note":  "KNX: Helligkeit bei KNX-Farbe ohne Doppelskalierung (0.1.158 war zu dunkel), Status Helligkeit stimmt"
-                  },
-                  {
-                      "version":  "0.1.157",
-                      "bin":  "knx-led-controller-16m_0.1.157.bin",
-                      "sha256":  "da6f6e53cee80e907856906f71193cecb5cfd7e701834c87280b46e37b29deb1",
-                      "date":  "2026-09-28",
-                      "note":  "LED: Auffrischung blockiert keine Animationsbilder mehr (Ruckeln seit 0.1.155 behoben)"
-                  },
-                  {
-                      "version":  "0.1.158",
-                      "bin":  "knx-led-controller-16m_0.1.158.bin",
-                      "sha256":  "d785dcf15367f499442587f7234ea0dabc9ae853257f18cf4994625d1205e61e",
-                      "date":  "2026-09-27",
-                      "note":  "LED-Aus-Diagnose mit dauerhafter Meldung; Webserver-Abschaltzeit; lebende Animationsbilder waehrend Szenenuebergaengen"
-                  },
-                  {
-                      "version":  "0.1.156",
-                      "bin":  "knx-led-controller-16m_0.1.156.bin",
-                      "sha256":  "aae826cf386ee0f604560db5cc378ba1d00bc5407eff1d18f748d043d0404618",
-                      "date":  "2026-09-26",
-                      "note":  "KNX/Diagnose: keine doppelte Programmiermodus-Abfrage, Neustart-Zustand, gedrosselte Log-Wiederholung; alle Tests lauffaehig"
-                  }
-              ]
+  "items": [
+    {
+      "version": "0.1.162",
+      "bin": "knx-led-controller-16m_0.1.162.bin",
+      "sha256": "f8d83ac3e200e8990dfb0b49d114652b88d56a574c06a9ab279444fb5a31e0e2",
+      "date": "2026-09-30",
+      "note": "Zusammenfuehrung: Backup-Import aus 0.1.161 plus KNX-Helligkeit (0.1.158/159) und Schema-85-Kompatibilitaet (0.1.160)"
+    },
+    {
+      "version": "0.1.160",
+      "bin": "knx-led-controller-16m_0.1.160.bin",
+      "sha256": "c49a4af2c9d138acc23a06b4699dac42f288803a37cc2da70eca8e262d7d35b1",
+      "date": "2026-09-28",
+      "note": "Speicher: Konfiguration mit Schema 85 aus Fremdbuild wird wieder geladen statt sichere Defaults"
+    },
+    {
+      "version": "0.1.159",
+      "bin": "knx-led-controller-16m_0.1.159.bin",
+      "sha256": "729fd3c0afcde8f75a6904b14dec58df1d7b1bfeaa7d9e867774427e0735a17f",
+      "date": "2026-09-28",
+      "note": "KNX: Helligkeit bei KNX-Farbe ohne Doppelskalierung (0.1.158 war zu dunkel), Status Helligkeit stimmt"
+    },
+    {
+      "version": "0.1.157",
+      "bin": "knx-led-controller-16m_0.1.157.bin",
+      "sha256": "da6f6e53cee80e907856906f71193cecb5cfd7e701834c87280b46e37b29deb1",
+      "date": "2026-09-28",
+      "note": "LED: Auffrischung blockiert keine Animationsbilder mehr (Ruckeln seit 0.1.155 behoben)"
+    },
+    {
+      "version": "0.1.158",
+      "bin": "knx-led-controller-16m_0.1.158.bin",
+      "sha256": "d785dcf15367f499442587f7234ea0dabc9ae853257f18cf4994625d1205e61e",
+      "date": "2026-09-27",
+      "note": "LED-Aus-Diagnose mit dauerhafter Meldung; Webserver-Abschaltzeit; lebende Animationsbilder waehrend Szenenuebergaengen"
+    }
+  ]
 }
