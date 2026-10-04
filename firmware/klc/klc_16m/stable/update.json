@@ -1,13 +1,11 @@
 {
-    "manifest":  {
-                     "url":  "knx-led-controller-16m_0.1.160.bin",
-                     "check_ok":  true,
-                     "update_available":  false,
-                     "version":  "0.1.160",
-                     "bin":  "knx-led-controller-16m_0.1.160.bin",
-                     "file":  "knx-led-controller-16m_0.1.160.bin",
-                     "sha256":  "c49a4af2c9d138acc23a06b4699dac42f288803a37cc2da70eca8e262d7d35b1",
-                     "message":  "Speicher: Konfiguration mit Schema 85 aus Fremdbuild wird wieder geladen statt sichere Defaults",
-                     "http_code":  200
-                 }
+  "url": "knx-led-controller-16m_0.1.164.bin",
+  "check_ok": true,
+  "update_available": false,
+  "version": "0.1.164",
+  "bin": "knx-led-controller-16m_0.1.164.bin",
+  "file": "knx-led-controller-16m_0.1.164.bin",
+  "sha256": "d76ec6576ec6b3a06abe3d2d723dc796a598b44a4e2b12ce6884a0bffd26a8b1",
+  "message": "KNX-Farbe Schwarz schaltet nur aus und speichert die Szene nicht mehr schwarz",
+  "http_code": 200
 }
