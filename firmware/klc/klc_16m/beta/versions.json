@@ -1,6 +1,13 @@
 {
   "items": [
     {
+      "version": "0.1.164",
+      "bin": "knx-led-controller-16m_0.1.164.bin",
+      "sha256": "d76ec6576ec6b3a06abe3d2d723dc796a598b44a4e2b12ce6884a0bffd26a8b1",
+      "date": "2026-10-04",
+      "note": "KNX-Farbe Schwarz schaltet nur aus und speichert die Szene nicht mehr schwarz"
+    },
+    {
       "version": "0.1.163",
       "bin": "knx-led-controller-16m_0.1.163.bin",
       "sha256": "48994e36665a94f9020b0a0206e284537b612a406e585bfe1bd622d7b90d1631",
@@ -27,13 +34,6 @@
       "sha256": "729fd3c0afcde8f75a6904b14dec58df1d7b1bfeaa7d9e867774427e0735a17f",
       "date": "2026-09-28",
       "note": "KNX: Helligkeit bei KNX-Farbe ohne Doppelskalierung (0.1.158 war zu dunkel), Status Helligkeit stimmt"
-    },
-    {
-      "version": "0.1.157",
-      "bin": "knx-led-controller-16m_0.1.157.bin",
-      "sha256": "da6f6e53cee80e907856906f71193cecb5cfd7e701834c87280b46e37b29deb1",
-      "date": "2026-09-28",
-      "note": "LED: Auffrischung blockiert keine Animationsbilder mehr (Ruckeln seit 0.1.155 behoben)"
     }
   ]
 }
