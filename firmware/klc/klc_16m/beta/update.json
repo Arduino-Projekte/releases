@@ -1,11 +1,11 @@
 {
-  "url": "knx-led-controller-16m_0.1.162.bin",
+  "url": "knx-led-controller-16m_0.1.163.bin",
   "check_ok": true,
   "update_available": false,
-  "version": "0.1.162",
-  "bin": "knx-led-controller-16m_0.1.162.bin",
-  "file": "knx-led-controller-16m_0.1.162.bin",
-  "sha256": "f8d83ac3e200e8990dfb0b49d114652b88d56a574c06a9ab279444fb5a31e0e2",
-  "message": "Zusammenfuehrung: Backup-Import aus 0.1.161 plus KNX-Helligkeit (0.1.158/159) und Schema-85-Kompatibilitaet (0.1.160)",
+  "version": "0.1.163",
+  "bin": "knx-led-controller-16m_0.1.163.bin",
+  "file": "knx-led-controller-16m_0.1.163.bin",
+  "sha256": "48994e36665a94f9020b0a0206e284537b612a406e585bfe1bd622d7b90d1631",
+  "message": "Schwarze Szene: Editor und API lehnen Schwarz/Helligkeit 0 ab, dunkel gespeicherte Szenen leuchten ersatzweise Warmweiss",
   "http_code": 200
 }

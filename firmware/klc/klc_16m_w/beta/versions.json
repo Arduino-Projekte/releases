@@ -1,6 +1,13 @@
 {
   "items": [
     {
+      "version": "0.1.163",
+      "bin": "knx-led-controller-16m-w_0.1.163.bin",
+      "sha256": "a7db8b9b59f351a2ba74e56d1ecea5b9c521409cf542403b68cdda4f367178dc",
+      "date": "2026-10-04",
+      "note": "Schwarze Szene: Editor und API lehnen Schwarz/Helligkeit 0 ab, dunkel gespeicherte Szenen leuchten ersatzweise Warmweiss"
+    },
+    {
       "version": "0.1.162",
       "bin": "knx-led-controller-16m-w_0.1.162.bin",
       "sha256": "88b99266ce98dbdbdd9d923aa1bf9c04bf0186a66ad411c8bbfdd1517bcfbdfa",
@@ -27,13 +34,6 @@
       "sha256": "1da6a446e42ee2ae229c3086e368e87c9222eacc03683a85ee2cfd8887452c23",
       "date": "2026-09-28",
       "note": "LED: Auffrischung blockiert keine Animationsbilder mehr (Ruckeln seit 0.1.155 behoben)"
-    },
-    {
-      "version": "0.1.158",
-      "bin": "knx-led-controller-16m-w_0.1.158.bin",
-      "sha256": "887a3e95bd1aae94bed7a55e212c975452426e8830a393da3cd0eb25e18c5b53",
-      "date": "2026-09-27",
-      "note": "LED-Aus-Diagnose mit dauerhafter Meldung; Webserver-Abschaltzeit; lebende Animationsbilder waehrend Szenenuebergaengen"
     }
   ]
 }
