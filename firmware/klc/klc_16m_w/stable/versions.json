@@ -1,6 +1,13 @@
 {
   "items": [
     {
+      "version": "0.1.165",
+      "bin": "knx-led-controller-16m-w_0.1.165.bin",
+      "sha256": "7a7f7cea91a7ecf9356016e9255b465988bb82539e0252a223b475124d65a21f",
+      "date": "2026-10-05",
+      "note": "Sanft ein/aus ohne grobe Endstufen und ohne gruenen Rest, KNX-Dimmen gleitet statt in Stufen, kein Flackern mehr beim Ausschalten nach Dimmen oder Farbwechsel"
+    },
+    {
       "version": "0.1.164",
       "bin": "knx-led-controller-16m-w_0.1.164.bin",
       "sha256": "27698bf77818073260afd01c9f7972d12cee299d59af8b7010a72a0e63cd2aed",
@@ -27,13 +34,6 @@
       "sha256": "887a3e95bd1aae94bed7a55e212c975452426e8830a393da3cd0eb25e18c5b53",
       "date": "2026-09-27",
       "note": "LED-Aus-Diagnose mit dauerhafter Meldung; Webserver-Abschaltzeit; lebende Animationsbilder waehrend Szenenuebergaengen"
-    },
-    {
-      "version": "0.1.157",
-      "bin": "knx-led-controller-16m-w_0.1.157.bin",
-      "sha256": "077a326063621663a4a260764911a12a67727826a9f5a4adf37627ce9d6c40c6",
-      "date": "2026-09-26",
-      "note": "LED: Auffrischung blockiert keine Animationsbilder mehr (Ruckeln seit 0.1.155 behoben)"
     }
   ]
 }

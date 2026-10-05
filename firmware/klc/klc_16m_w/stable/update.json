@@ -1,11 +1,11 @@
 {
-  "url": "knx-led-controller-16m-w_0.1.164.bin",
+  "url": "knx-led-controller-16m-w_0.1.165.bin",
   "check_ok": true,
   "update_available": false,
-  "version": "0.1.164",
-  "bin": "knx-led-controller-16m-w_0.1.164.bin",
-  "file": "knx-led-controller-16m-w_0.1.164.bin",
-  "sha256": "27698bf77818073260afd01c9f7972d12cee299d59af8b7010a72a0e63cd2aed",
-  "message": "KNX-Farbe Schwarz schaltet nur aus und speichert die Szene nicht mehr schwarz",
+  "version": "0.1.165",
+  "bin": "knx-led-controller-16m-w_0.1.165.bin",
+  "file": "knx-led-controller-16m-w_0.1.165.bin",
+  "sha256": "7a7f7cea91a7ecf9356016e9255b465988bb82539e0252a223b475124d65a21f",
+  "message": "Sanft ein/aus ohne grobe Endstufen und ohne gruenen Rest, KNX-Dimmen gleitet statt in Stufen, kein Flackern mehr beim Ausschalten nach Dimmen oder Farbwechsel",
   "http_code": 200
 }
