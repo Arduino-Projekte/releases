@@ -1,6 +1,13 @@
 {
     "items": [
         {
+            "version": "V4.26.10.5.1",
+            "bin": "word-clock-IV_V4.26.10.5.1.bin",
+            "sha256": "da93d98dbcee9983ebcfe516949be6f5c4cb6edb7b39926b5de271a26b9288ac",
+            "date": "2026-10-05",
+            "note": "Behebt seltenes kurzes Aufblitzen der Minutenpunkte: NTP-Abgleich zieht kleine Zeitabweichungen jetzt weich nach statt die Uhr zurueckzuspringen"
+        },
+        {
             "version": "V4.26.9.29.1",
             "bin": "word-clock-IV_V4.26.9.29.1.bin",
             "sha256": "594f0025880c662df7abbf01a50226099817a843aa5b6ed1c1589e18b4eed213",
