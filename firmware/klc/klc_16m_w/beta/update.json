@@ -1,11 +1,11 @@
 {
-  "url": "knx-led-controller-16m-w_0.1.165.bin",
+  "url": "knx-led-controller-16m-w_0.1.167.bin",
   "check_ok": true,
   "update_available": false,
-  "version": "0.1.165",
-  "bin": "knx-led-controller-16m-w_0.1.165.bin",
-  "file": "knx-led-controller-16m-w_0.1.165.bin",
-  "sha256": "7a7f7cea91a7ecf9356016e9255b465988bb82539e0252a223b475124d65a21f",
-  "message": "Sanft ein/aus ohne grobe Endstufen und ohne gruenen Rest, KNX-Dimmen gleitet statt in Stufen, kein Flackern mehr beim Ausschalten nach Dimmen oder Farbwechsel",
+  "version": "0.1.167",
+  "bin": "knx-led-controller-16m-w_0.1.167.bin",
+  "file": "knx-led-controller-16m-w_0.1.167.bin",
+  "sha256": "fea8c55885a7fec1e88b19edc679689b1f06ca7583398ac5919bfdfc273a3920",
+  "message": "Im AUS vorgemerkte KNX-Helligkeit gilt beim Einschalten absolut statt mal Szenenhelligkeit, KNX-LAST bringt keinen alten Dimmfaktor mehr zurueck",
   "http_code": 200
 }
