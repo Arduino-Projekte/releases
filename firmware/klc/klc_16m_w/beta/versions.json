@@ -1,6 +1,13 @@
 {
   "items": [
     {
+      "version": "0.1.168",
+      "bin": "knx-led-controller-16m-w_0.1.168.bin",
+      "sha256": "cd7c35f61e7467acb93652e89951a0fbe04fae188b36ad6a31c619fab91bb9d2",
+      "date": "2026-10-07",
+      "note": "KNX-Status fuer Szene, Helligkeit und Farbe wird waehrend Ein- und Ausblenden zurueckgehalten und danach einmal mit dem Endstand gesendet, keine Szene 0 oder Weiss 0 % mehr beim Einschalten"
+    },
+    {
       "version": "0.1.167",
       "bin": "knx-led-controller-16m-w_0.1.167.bin",
       "sha256": "fea8c55885a7fec1e88b19edc679689b1f06ca7583398ac5919bfdfc273a3920",
@@ -27,13 +34,6 @@
       "sha256": "a7db8b9b59f351a2ba74e56d1ecea5b9c521409cf542403b68cdda4f367178dc",
       "date": "2026-10-04",
       "note": "Schwarze Szene: Editor und API lehnen Schwarz/Helligkeit 0 ab, dunkel gespeicherte Szenen leuchten ersatzweise Warmweiss"
-    },
-    {
-      "version": "0.1.162",
-      "bin": "knx-led-controller-16m-w_0.1.162.bin",
-      "sha256": "88b99266ce98dbdbdd9d923aa1bf9c04bf0186a66ad411c8bbfdd1517bcfbdfa",
-      "date": "2026-09-30",
-      "note": "Zusammenfuehrung: Backup-Import aus 0.1.161 plus KNX-Helligkeit (0.1.158/159) und Schema-85-Kompatibilitaet (0.1.160)"
     }
   ]
 }

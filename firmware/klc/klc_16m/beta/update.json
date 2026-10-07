@@ -1,11 +1,11 @@
 {
-  "url": "knx-led-controller-16m_0.1.167.bin",
+  "url": "knx-led-controller-16m_0.1.168.bin",
   "check_ok": true,
   "update_available": false,
-  "version": "0.1.167",
-  "bin": "knx-led-controller-16m_0.1.167.bin",
-  "file": "knx-led-controller-16m_0.1.167.bin",
-  "sha256": "294db1db217cca6328025fde624bd000795a94fbde85067892cf7dc066b1228f",
-  "message": "Im AUS vorgemerkte KNX-Helligkeit gilt beim Einschalten absolut statt mal Szenenhelligkeit, KNX-LAST bringt keinen alten Dimmfaktor mehr zurueck",
+  "version": "0.1.168",
+  "bin": "knx-led-controller-16m_0.1.168.bin",
+  "file": "knx-led-controller-16m_0.1.168.bin",
+  "sha256": "a2711b1de85ec7454f63af1bfba1cfe00544da577d23a5627104ac85a0868012",
+  "message": "KNX-Status fuer Szene, Helligkeit und Farbe wird waehrend Ein- und Ausblenden zurueckgehalten und danach einmal mit dem Endstand gesendet, keine Szene 0 oder Weiss 0 % mehr beim Einschalten",
   "http_code": 200
 }
