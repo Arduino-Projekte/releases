@@ -1,6 +1,13 @@
 {
     "items": [
         {
+            "version": "V4.26.10.8.1",
+            "bin": "word-clock-IV_V4.26.10.8.1.bin",
+            "sha256": "be86dc20b43ecf66e1729b21287113e4d1108690d36af325cd9ab5c7e8ab6dec",
+            "date": "2026-10-08",
+            "note": "Behebt kurzes Aufblitzen der vier Minutenpunkte nach xx:x0/xx:x5 waehrend Wortuebergaengen und Overlays (Minutenpunkt-Ebene nutzt jetzt eine einheitliche Zeitquelle)"
+        },
+        {
             "version": "V4.26.10.5.1",
             "bin": "word-clock-IV_V4.26.10.5.1.bin",
             "sha256": "da93d98dbcee9983ebcfe516949be6f5c4cb6edb7b39926b5de271a26b9288ac",
