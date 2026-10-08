@@ -1,6 +1,13 @@
 {
     "items": [
         {
+            "version": "V4.26.10.8.2",
+            "bin": "word-clock-IV_V4.26.10.8.2.bin",
+            "sha256": "c479666843cdd4cae0c03d18af327231848547c96fd20834225a8ad47c85f13a",
+            "date": "2026-10-08",
+            "note": "Neu: MQTT mit Home-Assistant-Erkennung. Die Uhr erscheint automatisch als Geraet in Home Assistant (Licht mit Helligkeit und Farbe, Ambilight, Marker, Laufschrift, Sensoren) und meldet Aenderungen sofort"
+        },
+        {
             "version": "V4.26.10.8.1",
             "bin": "word-clock-IV_V4.26.10.8.1.bin",
             "sha256": "be86dc20b43ecf66e1729b21287113e4d1108690d36af325cd9ab5c7e8ab6dec",
