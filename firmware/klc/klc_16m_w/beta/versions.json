@@ -1,6 +1,13 @@
 {
   "items": [
     {
+      "version": "0.1.170",
+      "bin": "knx-led-controller-16m-w_0.1.170.bin",
+      "sha256": "a439712c378b1f62b79450faad356b4a4ad6355a0a7d3770a04260ff3006e758",
+      "date": "2026-10-08",
+      "note": "Ausfuehrliche deutsche Offline-Hilfe mit Funktionsreferenz, Suchmarkierung, Bereichsfilter und direkten Sprungzielen"
+    },
+    {
       "version": "0.1.168",
       "bin": "knx-led-controller-16m-w_0.1.168.bin",
       "sha256": "cd7c35f61e7467acb93652e89951a0fbe04fae188b36ad6a31c619fab91bb9d2",
@@ -27,13 +34,6 @@
       "sha256": "27698bf77818073260afd01c9f7972d12cee299d59af8b7010a72a0e63cd2aed",
       "date": "2026-10-04",
       "note": "KNX-Farbe Schwarz schaltet nur aus und speichert die Szene nicht mehr schwarz"
-    },
-    {
-      "version": "0.1.163",
-      "bin": "knx-led-controller-16m-w_0.1.163.bin",
-      "sha256": "a7db8b9b59f351a2ba74e56d1ecea5b9c521409cf542403b68cdda4f367178dc",
-      "date": "2026-10-04",
-      "note": "Schwarze Szene: Editor und API lehnen Schwarz/Helligkeit 0 ab, dunkel gespeicherte Szenen leuchten ersatzweise Warmweiss"
     }
   ]
 }
