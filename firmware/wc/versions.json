@@ -1,6 +1,13 @@
 {
     "items": [
         {
+            "version": "V4.26.10.8.4",
+            "bin": "word-clock-IV_V4.26.10.8.4.bin",
+            "sha256": "a8b71f0330b92cbc30a2ea3eea618120b46cce93bf473cc3e9214d686d76074d",
+            "date": "2026-10-08",
+            "note": "Fix: Die Felder der Karte MQTT / Home Assistant auf der WLAN-Seite wurden beim Eintippen alle 5 Sekunden zurueckgesetzt. Jetzt wird regelmaessig nur noch der Verbindungsstatus aktualisiert"
+        },
+        {
             "version": "V4.26.10.8.3",
             "bin": "word-clock-IV_V4.26.10.8.3.bin",
             "sha256": "8c4198459936a334c287a980d27c6a2ac2fb200af29a8e1a9e740d2a51c5cf0a",
