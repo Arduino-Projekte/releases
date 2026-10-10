@@ -1,6 +1,13 @@
 {
     "items": [
         {
+            "version": "V4.26.10.11.1",
+            "bin": "word-clock-IV_V4.26.10.11.1.bin",
+            "sha256": "e4dc8cafd2e2445c5efcc4b4ad4e847620ad158b01867165253af1477be5bd3c",
+            "date": "2026-10-11",
+            "note": "Ticker mit Vorrang und weichem Uebergang; MQTT gegen retained Befehle, Queue-Ueberlauf und alte Befehle beim Brokerwechsel abgesichert; Lichtbefehle strikt als JSON validiert"
+        },
+        {
             "version": "V4.26.10.8.4",
             "bin": "word-clock-IV_V4.26.10.8.4.bin",
             "sha256": "a8b71f0330b92cbc30a2ea3eea618120b46cce93bf473cc3e9214d686d76074d",
