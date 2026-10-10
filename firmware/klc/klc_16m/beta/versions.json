@@ -1,6 +1,13 @@
 {
   "items": [
     {
+      "version": "0.1.173",
+      "bin": "knx-led-controller-16m_0.1.173.bin",
+      "sha256": "1689204e7df561e0c6301b09402427c6af483a6e025436bd7fb2f077c11b1bc0",
+      "date": "2026-10-10",
+      "note": "KNX: Status beim Dimmen waehlbar - Szene, Helligkeit und Farbe am Anfang, in der Mitte oder am Ende eines Uebergangs melden"
+    },
+    {
       "version": "0.1.170",
       "bin": "knx-led-controller-16m_0.1.170.bin",
       "sha256": "ebc93f44ce108eea9d24e057d1126d781acad62637e1d81cd13a7c68c71b315d",
@@ -27,13 +34,6 @@
       "sha256": "4482e5e142acc0c1b155f403f81c62f507aa3bcb03b5f718dd090ec4ccf299d8",
       "date": "2026-10-05",
       "note": "Sanft ein/aus ohne grobe Endstufen und ohne gruenen Rest, KNX-Dimmen gleitet statt in Stufen, kein Flackern mehr beim Ausschalten nach Dimmen oder Farbwechsel"
-    },
-    {
-      "version": "0.1.164",
-      "bin": "knx-led-controller-16m_0.1.164.bin",
-      "sha256": "d76ec6576ec6b3a06abe3d2d723dc796a598b44a4e2b12ce6884a0bffd26a8b1",
-      "date": "2026-10-04",
-      "note": "KNX-Farbe Schwarz schaltet nur aus und speichert die Szene nicht mehr schwarz"
     }
   ]
 }
