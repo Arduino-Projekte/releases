@@ -1,18 +1,18 @@
 {
   "items": [
     {
+      "version": "0.1.173",
+      "bin": "knx-led-controller-16m_0.1.173.bin",
+      "sha256": "1689204e7df561e0c6301b09402427c6af483a6e025436bd7fb2f077c11b1bc0",
+      "date": "2026-10-11",
+      "note": "KNX: Status beim Dimmen waehlbar - Szene, Helligkeit und Farbe am Anfang, in der Mitte oder am Ende eines Uebergangs melden"
+    },
+    {
       "version": "0.1.172",
       "bin": "knx-led-controller-16m_0.1.172.bin",
       "sha256": "49fb3cb583c9a332e02c8b95300e606eef1e61ced38ef78d1c4cb83ced21cfc8",
       "date": "2026-10-11",
       "note": "Merge-Konflikte aufgeloest und eingebettete WebUI-Dateien aus den zusammengefuehrten Quellen neu erzeugt"
-    },
-    {
-      "version": "0.1.173",
-      "bin": "knx-led-controller-16m_0.1.173.bin",
-      "sha256": "1689204e7df561e0c6301b09402427c6af483a6e025436bd7fb2f077c11b1bc0",
-      "date": "2026-10-10",
-      "note": "KNX: Status beim Dimmen waehlbar - Szene, Helligkeit und Farbe am Anfang, in der Mitte oder am Ende eines Uebergangs melden"
     },
     {
       "version": "0.1.170",
