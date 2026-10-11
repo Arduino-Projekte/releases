@@ -1,6 +1,13 @@
 {
   "items": [
     {
+      "version": "0.1.172",
+      "bin": "knx-led-controller-16m_0.1.172.bin",
+      "sha256": "49fb3cb583c9a332e02c8b95300e606eef1e61ced38ef78d1c4cb83ced21cfc8",
+      "date": "2026-10-11",
+      "note": "Merge-Konflikte aufgeloest und eingebettete WebUI-Dateien aus den zusammengefuehrten Quellen neu erzeugt"
+    },
+    {
       "version": "0.1.173",
       "bin": "knx-led-controller-16m_0.1.173.bin",
       "sha256": "1689204e7df561e0c6301b09402427c6af483a6e025436bd7fb2f077c11b1bc0",
@@ -27,13 +34,6 @@
       "sha256": "294db1db217cca6328025fde624bd000795a94fbde85067892cf7dc066b1228f",
       "date": "2026-10-06",
       "note": "Im AUS vorgemerkte KNX-Helligkeit gilt beim Einschalten absolut statt mal Szenenhelligkeit, KNX-LAST bringt keinen alten Dimmfaktor mehr zurueck"
-    },
-    {
-      "version": "0.1.165",
-      "bin": "knx-led-controller-16m_0.1.165.bin",
-      "sha256": "4482e5e142acc0c1b155f403f81c62f507aa3bcb03b5f718dd090ec4ccf299d8",
-      "date": "2026-10-05",
-      "note": "Sanft ein/aus ohne grobe Endstufen und ohne gruenen Rest, KNX-Dimmen gleitet statt in Stufen, kein Flackern mehr beim Ausschalten nach Dimmen oder Farbwechsel"
     }
   ]
 }
