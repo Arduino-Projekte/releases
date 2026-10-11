@@ -1,11 +1,11 @@
 {
-  "url": "knx-led-controller-16m_0.1.173.bin",
+  "url": "knx-led-controller-16m_0.1.174.bin",
   "check_ok": true,
   "update_available": false,
-  "version": "0.1.173",
-  "bin": "knx-led-controller-16m_0.1.173.bin",
-  "file": "knx-led-controller-16m_0.1.173.bin",
-  "sha256": "1689204e7df561e0c6301b09402427c6af483a6e025436bd7fb2f077c11b1bc0",
-  "message": "KNX: Status beim Dimmen waehlbar - Szene, Helligkeit und Farbe am Anfang, in der Mitte oder am Ende eines Uebergangs melden",
+  "version": "0.1.174",
+  "bin": "knx-led-controller-16m_0.1.174.bin",
+  "file": "knx-led-controller-16m_0.1.174.bin",
+  "sha256": "1d826246cad148707a95609cd3ff144e16737031a52c50160b54901b358d3b3c",
+  "message": "Schaltstress: sofortiger Neuaufbau, stabile Segmentbilder und Farbspeicherung erst nach 5 Sekunden sichtbarer Hauptphase",
   "http_code": 200
 }

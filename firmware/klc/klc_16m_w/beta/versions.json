@@ -1,6 +1,13 @@
 {
   "items": [
     {
+      "version": "0.1.174",
+      "bin": "knx-led-controller-16m-w_0.1.174.bin",
+      "sha256": "65e6989c3684e2763b032477224add0ce45225dcb259608336e1357a7cb75b83",
+      "date": "2026-10-11",
+      "note": "Schaltstress: sofortiger Neuaufbau, stabile Segmentbilder und Farbspeicherung erst nach 5 Sekunden sichtbarer Hauptphase"
+    },
+    {
       "version": "0.1.173",
       "bin": "knx-led-controller-16m-w_0.1.173.bin",
       "sha256": "807383ee74248081259b37de1ca9816317c2ac1b541a3c0dcb6cd6855f84e55b",
@@ -27,13 +34,6 @@
       "sha256": "cd7c35f61e7467acb93652e89951a0fbe04fae188b36ad6a31c619fab91bb9d2",
       "date": "2026-10-07",
       "note": "KNX-Status fuer Szene, Helligkeit und Farbe wird waehrend Ein- und Ausblenden zurueckgehalten und danach einmal mit dem Endstand gesendet, keine Szene 0 oder Weiss 0 % mehr beim Einschalten"
-    },
-    {
-      "version": "0.1.167",
-      "bin": "knx-led-controller-16m-w_0.1.167.bin",
-      "sha256": "fea8c55885a7fec1e88b19edc679689b1f06ca7583398ac5919bfdfc273a3920",
-      "date": "2026-10-06",
-      "note": "Im AUS vorgemerkte KNX-Helligkeit gilt beim Einschalten absolut statt mal Szenenhelligkeit, KNX-LAST bringt keinen alten Dimmfaktor mehr zurueck"
     }
   ]
 }
