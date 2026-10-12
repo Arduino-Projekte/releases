@@ -1,11 +1,11 @@
 {
-  "url": "knx-led-controller-16m-w_0.1.174.bin",
+  "url": "knx-led-controller-16m-w_0.1.175.bin",
   "check_ok": true,
   "update_available": false,
-  "version": "0.1.174",
-  "bin": "knx-led-controller-16m-w_0.1.174.bin",
-  "file": "knx-led-controller-16m-w_0.1.174.bin",
-  "sha256": "65e6989c3684e2763b032477224add0ce45225dcb259608336e1357a7cb75b83",
-  "message": "Schaltstress: sofortiger Neuaufbau, stabile Segmentbilder und Farbspeicherung erst nach 5 Sekunden sichtbarer Hauptphase",
+  "version": "0.1.175",
+  "bin": "knx-led-controller-16m-w_0.1.175.bin",
+  "file": "knx-led-controller-16m-w_0.1.175.bin",
+  "sha256": "0e5ba5df24d99972e477be81043e50e7979f8b7067ba81237a9b76426405fdb8",
+  "message": "KNX: LAST-Farbe beim Dimmen erhalten, Statuswerte fuer Leseanfragen; WebUI-Hilfe rechts neben Aktionen",
   "http_code": 200
 }

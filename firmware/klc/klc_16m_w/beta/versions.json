@@ -1,6 +1,13 @@
 {
   "items": [
     {
+      "version": "0.1.175",
+      "bin": "knx-led-controller-16m-w_0.1.175.bin",
+      "sha256": "0e5ba5df24d99972e477be81043e50e7979f8b7067ba81237a9b76426405fdb8",
+      "date": "2026-10-12",
+      "note": "KNX: LAST-Farbe beim Dimmen erhalten, Statuswerte fuer Leseanfragen; WebUI-Hilfe rechts neben Aktionen"
+    },
+    {
       "version": "0.1.174",
       "bin": "knx-led-controller-16m-w_0.1.174.bin",
       "sha256": "65e6989c3684e2763b032477224add0ce45225dcb259608336e1357a7cb75b83",
@@ -27,13 +34,6 @@
       "sha256": "a439712c378b1f62b79450faad356b4a4ad6355a0a7d3770a04260ff3006e758",
       "date": "2026-10-08",
       "note": "Ausfuehrliche deutsche Offline-Hilfe mit Funktionsreferenz, Suchmarkierung, Bereichsfilter und direkten Sprungzielen"
-    },
-    {
-      "version": "0.1.168",
-      "bin": "knx-led-controller-16m-w_0.1.168.bin",
-      "sha256": "cd7c35f61e7467acb93652e89951a0fbe04fae188b36ad6a31c619fab91bb9d2",
-      "date": "2026-10-07",
-      "note": "KNX-Status fuer Szene, Helligkeit und Farbe wird waehrend Ein- und Ausblenden zurueckgehalten und danach einmal mit dem Endstand gesendet, keine Szene 0 oder Weiss 0 % mehr beim Einschalten"
     }
   ]
 }
