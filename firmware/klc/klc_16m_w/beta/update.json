@@ -1,11 +1,11 @@
 {
-  "url": "knx-led-controller-16m-w_0.1.175.bin",
+  "url": "knx-led-controller-16m-w_0.1.176.bin.gz",
   "check_ok": true,
   "update_available": false,
-  "version": "0.1.175",
-  "bin": "knx-led-controller-16m-w_0.1.175.bin",
-  "file": "knx-led-controller-16m-w_0.1.175.bin",
-  "sha256": "0e5ba5df24d99972e477be81043e50e7979f8b7067ba81237a9b76426405fdb8",
-  "message": "KNX: LAST-Farbe beim Dimmen erhalten, Statuswerte fuer Leseanfragen; WebUI-Hilfe rechts neben Aktionen",
+  "version": "0.1.176",
+  "bin": "knx-led-controller-16m-w_0.1.176.bin.gz",
+  "file": "knx-led-controller-16m-w_0.1.176.bin.gz",
+  "sha256": "80fa8b02be74fc086091ddbb87e6d30ef6aa5282af7eba8df605cbc643907da5",
+  "message": "OTA: komprimierte Firmware, verwaiste Uploadreste bereinigen und Speicherbedarf klar anzeigen",
   "http_code": 200
 }

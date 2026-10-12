@@ -1,6 +1,13 @@
 {
   "items": [
     {
+      "version": "0.1.176",
+      "bin": "knx-led-controller-16m-w_0.1.176.bin.gz",
+      "sha256": "80fa8b02be74fc086091ddbb87e6d30ef6aa5282af7eba8df605cbc643907da5",
+      "date": "2026-10-12",
+      "note": "OTA: komprimierte Firmware, verwaiste Uploadreste bereinigen und Speicherbedarf klar anzeigen"
+    },
+    {
       "version": "0.1.175",
       "bin": "knx-led-controller-16m-w_0.1.175.bin",
       "sha256": "0e5ba5df24d99972e477be81043e50e7979f8b7067ba81237a9b76426405fdb8",
@@ -27,13 +34,6 @@
       "sha256": "64ea283704576831a1e685942200d1c424fa208790303f35b5c5b8b2a3533b94",
       "date": "2026-10-11",
       "note": "Merge-Konflikte aufgeloest und eingebettete WebUI-Dateien aus den zusammengefuehrten Quellen neu erzeugt"
-    },
-    {
-      "version": "0.1.170",
-      "bin": "knx-led-controller-16m-w_0.1.170.bin",
-      "sha256": "a439712c378b1f62b79450faad356b4a4ad6355a0a7d3770a04260ff3006e758",
-      "date": "2026-10-08",
-      "note": "Ausfuehrliche deutsche Offline-Hilfe mit Funktionsreferenz, Suchmarkierung, Bereichsfilter und direkten Sprungzielen"
     }
   ]
 }
