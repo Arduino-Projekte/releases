@@ -1,6 +1,13 @@
 {
     "items": [
         {
+            "version": "V4.26.10.16.1",
+            "bin": "word-clock-IV_V4.26.10.16.1.bin",
+            "sha256": "f5f401d4d4eaa3085f6200c2143f9be8c514998edefeae28e81320ed047fabf5",
+            "date": "2026-10-16",
+            "note": "Einstellungs-Import: Laufschrift-Stil wird wieder exportiert und uebernommen, Audio wirkt sofort, Rueckmeldung nach dem Einlesen"
+        },
+        {
             "version": "V4.26.10.11.3",
             "bin": "word-clock-IV_V4.26.10.11.3.bin",
             "sha256": "79b160be95135f3019ca2129373818f348fecc544c7da8c4d91466328b0ce42a",
