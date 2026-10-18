@@ -1,11 +1,11 @@
 {
-  "url": "knx-led-controller-16m-w_0.1.177.bin.gz",
+  "url": "knx-led-controller-16m-w_0.1.178.bin.gz",
   "check_ok": true,
   "update_available": false,
-  "version": "0.1.177",
-  "bin": "knx-led-controller-16m-w_0.1.177.bin.gz",
-  "file": "knx-led-controller-16m-w_0.1.177.bin.gz",
-  "sha256": "00d0f5a336cef731b2bc7bcafc9c3ceb4c25f058f38c4429c7eae71510011557",
-  "message": "KNX: verlorene Telegramme bei schnellen Farbfolgen behoben (groesserer UART-Puffer, ACK vor Verarbeitung) und Empfangsfehler in /api/knx",
+  "version": "0.1.178",
+  "bin": "knx-led-controller-16m-w_0.1.178.bin.gz",
+  "file": "knx-led-controller-16m-w_0.1.178.bin.gz",
+  "sha256": "e827c8c2463d137b09f822fa33ac58b55ebcfd3e9a69dd1da77a562f6eee2817",
+  "message": "OTA: vom Bootloader abgearbeiteten Updateauftrag erkennen und entfernen; Online-Updates nach einem OTA-Update auf 0.1.176/0.1.177 wieder moeglich",
   "http_code": 200
 }

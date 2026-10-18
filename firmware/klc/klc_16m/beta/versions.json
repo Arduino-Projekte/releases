@@ -1,6 +1,13 @@
 {
   "items": [
     {
+      "version": "0.1.178",
+      "bin": "knx-led-controller-16m_0.1.178.bin.gz",
+      "sha256": "e744b816bf94dd64d2cd0290d3a353e75e623e5b383b0c1898ae68d55ebde424",
+      "date": "2026-10-18",
+      "note": "OTA: vom Bootloader abgearbeiteten Updateauftrag erkennen und entfernen; Online-Updates nach einem OTA-Update auf 0.1.176/0.1.177 wieder moeglich"
+    },
+    {
       "version": "0.1.177",
       "bin": "knx-led-controller-16m_0.1.177.bin.gz",
       "sha256": "aa460f7c8f69b0b11aaabe5709869d6b898f3798a5c54614d732b3ec56d3a6a8",
@@ -27,13 +34,6 @@
       "sha256": "1d826246cad148707a95609cd3ff144e16737031a52c50160b54901b358d3b3c",
       "date": "2026-10-11",
       "note": "Schaltstress: sofortiger Neuaufbau, stabile Segmentbilder und Farbspeicherung erst nach 5 Sekunden sichtbarer Hauptphase"
-    },
-    {
-      "version": "0.1.173",
-      "bin": "knx-led-controller-16m_0.1.173.bin",
-      "sha256": "1689204e7df561e0c6301b09402427c6af483a6e025436bd7fb2f077c11b1bc0",
-      "date": "2026-10-11",
-      "note": "KNX: Status beim Dimmen waehlbar - Szene, Helligkeit und Farbe am Anfang, in der Mitte oder am Ende eines Uebergangs melden"
     }
   ]
 }
