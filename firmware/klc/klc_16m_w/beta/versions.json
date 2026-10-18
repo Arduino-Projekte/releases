@@ -1,6 +1,13 @@
 {
   "items": [
     {
+      "version": "0.1.177",
+      "bin": "knx-led-controller-16m-w_0.1.177.bin.gz",
+      "sha256": "00d0f5a336cef731b2bc7bcafc9c3ceb4c25f058f38c4429c7eae71510011557",
+      "date": "2026-10-18",
+      "note": "KNX: verlorene Telegramme bei schnellen Farbfolgen behoben (groesserer UART-Puffer, ACK vor Verarbeitung) und Empfangsfehler in /api/knx"
+    },
+    {
       "version": "0.1.176",
       "bin": "knx-led-controller-16m-w_0.1.176.bin.gz",
       "sha256": "80fa8b02be74fc086091ddbb87e6d30ef6aa5282af7eba8df605cbc643907da5",
@@ -27,13 +34,6 @@
       "sha256": "807383ee74248081259b37de1ca9816317c2ac1b541a3c0dcb6cd6855f84e55b",
       "date": "2026-10-11",
       "note": "KNX: Status beim Dimmen waehlbar - Szene, Helligkeit und Farbe am Anfang, in der Mitte oder am Ende eines Uebergangs melden"
-    },
-    {
-      "version": "0.1.172",
-      "bin": "knx-led-controller-16m-w_0.1.172.bin",
-      "sha256": "64ea283704576831a1e685942200d1c424fa208790303f35b5c5b8b2a3533b94",
-      "date": "2026-10-11",
-      "note": "Merge-Konflikte aufgeloest und eingebettete WebUI-Dateien aus den zusammengefuehrten Quellen neu erzeugt"
     }
   ]
 }
