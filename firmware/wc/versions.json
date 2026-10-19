@@ -1,6 +1,13 @@
 {
     "items": [
         {
+            "version": "V4.26.10.19.1",
+            "bin": "word-clock-IV_V4.26.10.19.1.bin",
+            "sha256": "ff35f3a6068a61c68044b0bfeb661e48c86723cf090d9403065cd751eea9e6b0",
+            "date": "2026-10-19",
+            "note": "Gesamtsicherung: Einstellungen, Animationen, Timer und MQTT in einer Datei, Bereiche per Haken waehlbar; Import zeigt eine Zusammenfassung; Kopfzeile der Weboberflaeche auf kurzen Seiten wieder schmal"
+        },
+        {
             "version": "V4.26.10.16.1",
             "bin": "word-clock-IV_V4.26.10.16.1.bin",
             "sha256": "f5f401d4d4eaa3085f6200c2143f9be8c514998edefeae28e81320ed047fabf5",
