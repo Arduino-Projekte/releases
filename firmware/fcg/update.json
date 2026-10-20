@@ -1,9 +1,15 @@
 {
-    "project":  "fcg_main",
-    "version":  "V0.20.80",
-    "file":  "fcg_main.ino.bin",
-    "url":  "http://10.200.23.11/fcg_update/fcg_main.ino.bin",
-    "min_version":  "V0.14.0",
-    "sha256":  "77ae0393ce69174782a20ef10849da8bb34a39f16da16bacf35fad2c458fc7ba",
-    "notes":  "Remote-OTA-Test auf V0.20.80"
+  "schema": "fcg_ota_manifest_v2",
+  "project": "fcg_main",
+  "target": "esp32s3",
+  "board_profile": "1",
+  "version": "V0.21.43",
+  "file": "fcg_main_V0.21.43.bin",
+  "url": "http://10.200.23.11/fcg_update/fcg_main_V0.21.43.bin",
+  "min_version": "V0.14.0",
+  "sha256": "6560cb9a39a10d070cdb9e9410293e576042908e572ff972a9b92e141dbf5ef1",
+  "key_id": "prod-2026-09",
+  "signature_algorithm": "ecdsa-p256-sha256",
+  "signature": "MEYCIQD1zysOOncYrXlAI3wAPinis2fOLXUK0oFACXVyesVg9AIhAJzW92MYpq3Jne8K0zndpqBsKpFTK9lwJEtLHpw9ysL7",
+  "notes": "FuelCounterGateway V0.21.43"
 }
