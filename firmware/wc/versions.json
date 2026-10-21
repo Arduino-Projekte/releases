@@ -1,6 +1,13 @@
 {
     "items": [
         {
+            "version": "V4.26.10.22.1",
+            "bin": "word-clock-IV_V4.26.10.22.1.bin",
+            "sha256": "981cfabe778e7cf7ab38967ad7653840b6e581d9ecf483f6a0de21fb67618f72",
+            "date": "2026-10-22",
+            "note": "Deutsch-Akzent per Timer umschaltbar (neue Timer-Aktion Akzent) und direkt auf dem Dashboard waehlbar"
+        },
+        {
             "version": "V4.26.10.21.1",
             "bin": "word-clock-IV_V4.26.10.21.1.bin",
             "sha256": "8a8f1784d4d842dbc1fd1b3e35fa14035914adbde6bcf236362473dde198d73c",
@@ -27,13 +34,6 @@
             "sha256": "79b160be95135f3019ca2129373818f348fecc544c7da8c4d91466328b0ce42a",
             "date": "2026-10-11",
             "note": "Software-LDR per MQTT und Home-Assistant-Regler steuerbar; Sensorwert bleibt separat lesbar; Sicherung und Import der Einstellungen optisch ueberarbeitet"
-        },
-        {
-            "version": "V4.26.10.8.4",
-            "bin": "word-clock-IV_V4.26.10.8.4.bin",
-            "sha256": "a8b71f0330b92cbc30a2ea3eea618120b46cce93bf473cc3e9214d686d76074d",
-            "date": "2026-10-08",
-            "note": "Fix: Die Felder der Karte MQTT / Home Assistant auf der WLAN-Seite wurden beim Eintippen alle 5 Sekunden zurueckgesetzt. Jetzt wird regelmaessig nur noch der Verbindungsstatus aktualisiert"
         }
     ]
 }
