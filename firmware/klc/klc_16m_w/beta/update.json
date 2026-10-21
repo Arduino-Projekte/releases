@@ -1,11 +1,11 @@
 {
-  "url": "knx-led-controller-16m-w_0.1.179.bin.gz",
+  "url": "knx-led-controller-16m-w_0.1.180.bin.gz",
   "check_ok": true,
   "update_available": false,
-  "version": "0.1.179",
-  "bin": "knx-led-controller-16m-w_0.1.179.bin.gz",
-  "file": "knx-led-controller-16m-w_0.1.179.bin.gz",
-  "sha256": "7760c68af2573f75167df4b1b79c1239af4e19194ada46c498a8bec4856d9c54",
-  "message": "Animationen: fester Bildtakt fuer alle Ausgaenge (langsamster Strang + 1 ms), Ausgabe zu Taktbeginn; wahrnehmungsrichtige Rampen fuer Sanft ein und Ein-/Ausblenden; weiche Lauflichtfront; keine Flash-Schreibvorgaenge waehrend Auf- und Abbau; schnellere Pixelberechnung",
+  "version": "0.1.180",
+  "bin": "knx-led-controller-16m-w_0.1.180.bin.gz",
+  "file": "knx-led-controller-16m-w_0.1.180.bin.gz",
+  "sha256": "f37d965570744cf8c099ce3d0ce49278a7f812e3431fa2f6bad0974de0d85731",
+  "message": "Animationen: Szenen und LED-Ausgabe laufen auf dem zweiten Prozessorkern. Netzwerk, TLS, Updatepruefung und das Laden der Weboberflaeche halten die Animation nicht mehr an; neue Diagnosewerte zu Sperrzeiten und Core-1-Stack",
   "http_code": 200
 }

@@ -1,6 +1,13 @@
 {
   "items": [
     {
+      "version": "0.1.180",
+      "bin": "knx-led-controller-16m_0.1.180.bin.gz",
+      "sha256": "45583c95239bc797bed9dff59f30037ec1b859a0f280b01713ec79c1f04c79b4",
+      "date": "2026-10-21",
+      "note": "Animationen: Szenen und LED-Ausgabe laufen auf dem zweiten Prozessorkern. Netzwerk, TLS, Updatepruefung und das Laden der Weboberflaeche halten die Animation nicht mehr an; neue Diagnosewerte zu Sperrzeiten und Core-1-Stack"
+    },
+    {
       "version": "0.1.179",
       "bin": "knx-led-controller-16m_0.1.179.bin.gz",
       "sha256": "d74004654fd14a26c8b66902e292edfdd19bb143459b24febf5991c0134eeaed",
@@ -27,13 +34,6 @@
       "sha256": "5d16c518645f3d34e5f6757395e87b778e433f9b6956f4d13d72213d118f5382",
       "date": "2026-10-12",
       "note": "OTA: komprimierte Firmware, verwaiste Uploadreste bereinigen und Speicherbedarf klar anzeigen"
-    },
-    {
-      "version": "0.1.175",
-      "bin": "knx-led-controller-16m_0.1.175.bin",
-      "sha256": "7c280c52f5a196da222de99c29b281111c2749e457bb9a0c3d4c2432d910ddd9",
-      "date": "2026-10-12",
-      "note": "KNX: LAST-Farbe beim Dimmen erhalten, Statuswerte fuer Leseanfragen; WebUI-Hilfe rechts neben Aktionen"
     }
   ]
 }
