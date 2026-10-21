@@ -1,25 +1,18 @@
 {
     "items": [
         {
+            "version": "V4.26.10.21.1",
+            "bin": "word-clock-IV_V4.26.10.21.1.bin",
+            "sha256": "8a8f1784d4d842dbc1fd1b3e35fa14035914adbde6bcf236362473dde198d73c",
+            "date": "2026-10-21",
+            "note": "MQTT erweitert: Warntemperatur, Laufschrift mit Dauer/Stopp, Audio und Lautstaerke, eigene Icons, Timer-Aktionen, Finanzen, eigene Boersenwerte aus Home Assistant, Testbilder und Firmware-Update aus HA"
+        },
+        {
             "version": "V4.26.10.19.3",
             "bin": "word-clock-IV_V4.26.10.19.3.bin",
             "sha256": "46837fbdd657fc2b906ebb719dc0d926d3bca43b511cddfbaf1b5c3940a6c4d4",
             "date": "2026-10-19",
             "note": "Gesamtsicherung: Einstellungen, Animationen, Timer, MQTT, Bilder und Wettersymbole in einer Datei, Bereiche per Haken waehlbar; Import erkennt den Inhalt und zeigt eine Zusammenfassung"
-        },
-        {
-            "version": "V4.26.10.19.2",
-            "bin": "word-clock-IV_V4.26.10.19.2.bin",
-            "sha256": "c9bb65b24a1370dad41c63e87b1b0fbff5544a21ff828a8f40dea95c21644971",
-            "date": "2026-10-19",
-            "note": "Gesamtsicherung: Einstellungen, Animationen, Timer und MQTT in einer Datei, Bereiche per Haken waehlbar; Import zeigt eine Zusammenfassung; Kopfzeile der Weboberflaeche auf kurzen Seiten wieder schmal"
-        },
-        {
-            "version": "V4.26.10.19.1",
-            "bin": "word-clock-IV_V4.26.10.19.1.bin",
-            "sha256": "ff35f3a6068a61c68044b0bfeb661e48c86723cf090d9403065cd751eea9e6b0",
-            "date": "2026-10-19",
-            "note": "Gesamtsicherung: Einstellungen, Animationen, Timer und MQTT in einer Datei, Bereiche per Haken waehlbar; Import zeigt eine Zusammenfassung; Kopfzeile der Weboberflaeche auf kurzen Seiten wieder schmal"
         },
         {
             "version": "V4.26.10.16.1",
@@ -41,13 +34,6 @@
             "sha256": "a8b71f0330b92cbc30a2ea3eea618120b46cce93bf473cc3e9214d686d76074d",
             "date": "2026-10-08",
             "note": "Fix: Die Felder der Karte MQTT / Home Assistant auf der WLAN-Seite wurden beim Eintippen alle 5 Sekunden zurueckgesetzt. Jetzt wird regelmaessig nur noch der Verbindungsstatus aktualisiert"
-        },
-        {
-            "version": "V4.26.10.5.1",
-            "bin": "word-clock-IV_V4.26.10.5.1.bin",
-            "sha256": "da93d98dbcee9983ebcfe516949be6f5c4cb6edb7b39926b5de271a26b9288ac",
-            "date": "2026-10-05",
-            "note": "Behebt seltenes kurzes Aufblitzen der Minutenpunkte: NTP-Abgleich zieht kleine Zeitabweichungen jetzt weich nach statt die Uhr zurueckzuspringen"
         }
     ]
 }
