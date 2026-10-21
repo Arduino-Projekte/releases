@@ -1,11 +1,11 @@
 {
-  "url": "knx-led-controller-16m_0.1.178.bin.gz",
+  "url": "knx-led-controller-16m_0.1.179.bin.gz",
   "check_ok": true,
   "update_available": false,
-  "version": "0.1.178",
-  "bin": "knx-led-controller-16m_0.1.178.bin.gz",
-  "file": "knx-led-controller-16m_0.1.178.bin.gz",
-  "sha256": "e744b816bf94dd64d2cd0290d3a353e75e623e5b383b0c1898ae68d55ebde424",
-  "message": "OTA: vom Bootloader abgearbeiteten Updateauftrag erkennen und entfernen; Online-Updates nach einem OTA-Update auf 0.1.176/0.1.177 wieder moeglich",
+  "version": "0.1.179",
+  "bin": "knx-led-controller-16m_0.1.179.bin.gz",
+  "file": "knx-led-controller-16m_0.1.179.bin.gz",
+  "sha256": "d74004654fd14a26c8b66902e292edfdd19bb143459b24febf5991c0134eeaed",
+  "message": "Animationen: fester Bildtakt fuer alle Ausgaenge (langsamster Strang + 1 ms), Ausgabe zu Taktbeginn; wahrnehmungsrichtige Rampen fuer Sanft ein und Ein-/Ausblenden; weiche Lauflichtfront; keine Flash-Schreibvorgaenge waehrend Auf- und Abbau; schnellere Pixelberechnung",
   "http_code": 200
 }

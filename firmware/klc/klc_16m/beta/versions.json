@@ -1,6 +1,13 @@
 {
   "items": [
     {
+      "version": "0.1.179",
+      "bin": "knx-led-controller-16m_0.1.179.bin.gz",
+      "sha256": "d74004654fd14a26c8b66902e292edfdd19bb143459b24febf5991c0134eeaed",
+      "date": "2026-10-21",
+      "note": "Animationen: fester Bildtakt fuer alle Ausgaenge (langsamster Strang + 1 ms), Ausgabe zu Taktbeginn; wahrnehmungsrichtige Rampen fuer Sanft ein und Ein-/Ausblenden; weiche Lauflichtfront; keine Flash-Schreibvorgaenge waehrend Auf- und Abbau; schnellere Pixelberechnung"
+    },
+    {
       "version": "0.1.178",
       "bin": "knx-led-controller-16m_0.1.178.bin.gz",
       "sha256": "e744b816bf94dd64d2cd0290d3a353e75e623e5b383b0c1898ae68d55ebde424",
@@ -27,13 +34,6 @@
       "sha256": "7c280c52f5a196da222de99c29b281111c2749e457bb9a0c3d4c2432d910ddd9",
       "date": "2026-10-12",
       "note": "KNX: LAST-Farbe beim Dimmen erhalten, Statuswerte fuer Leseanfragen; WebUI-Hilfe rechts neben Aktionen"
-    },
-    {
-      "version": "0.1.174",
-      "bin": "knx-led-controller-16m_0.1.174.bin",
-      "sha256": "1d826246cad148707a95609cd3ff144e16737031a52c50160b54901b358d3b3c",
-      "date": "2026-10-11",
-      "note": "Schaltstress: sofortiger Neuaufbau, stabile Segmentbilder und Farbspeicherung erst nach 5 Sekunden sichtbarer Hauptphase"
     }
   ]
 }
