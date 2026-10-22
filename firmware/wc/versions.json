@@ -1,6 +1,13 @@
 {
     "items": [
         {
+            "version": "V4.26.10.22.2",
+            "bin": "word-clock-IV_V4.26.10.22.2.bin",
+            "sha256": "f97462c221d2f5f491aba66a8c0a93cd185d6c85704180f35cf618fd978af076",
+            "date": "2026-10-22",
+            "note": "Home Assistant: alle MQTT-Funktionen per Discovery - Temperaturen, Laufschrift-Dauer, Audio, Icons, Icon-Folge, Timer, Finanzen, Boersenwert und Testbild als eigene Entitaeten"
+        },
+        {
             "version": "V4.26.10.22.1",
             "bin": "word-clock-IV_V4.26.10.22.1.bin",
             "sha256": "981cfabe778e7cf7ab38967ad7653840b6e581d9ecf483f6a0de21fb67618f72",
