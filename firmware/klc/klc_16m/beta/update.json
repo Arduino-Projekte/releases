@@ -1,11 +1,11 @@
 {
-  "url": "knx-led-controller-16m_0.1.180.bin.gz",
+  "url": "knx-led-controller-16m_0.1.181.bin.gz",
   "check_ok": true,
   "update_available": false,
-  "version": "0.1.180",
-  "bin": "knx-led-controller-16m_0.1.180.bin.gz",
-  "file": "knx-led-controller-16m_0.1.180.bin.gz",
-  "sha256": "45583c95239bc797bed9dff59f30037ec1b859a0f280b01713ec79c1f04c79b4",
-  "message": "Animationen: Szenen und LED-Ausgabe laufen auf dem zweiten Prozessorkern. Netzwerk, TLS, Updatepruefung und das Laden der Weboberflaeche halten die Animation nicht mehr an; neue Diagnosewerte zu Sperrzeiten und Core-1-Stack",
+  "version": "0.1.181",
+  "bin": "knx-led-controller-16m_0.1.181.bin.gz",
+  "file": "knx-led-controller-16m_0.1.181.bin.gz",
+  "sha256": "0a96507ac1b1c7ec91615c92141ba559028fbeafc173d57f7803ee74051f0b97",
+  "message": "Lauflicht: Die weiche Front laeuft nicht mehr gruen vor der Szenenfarbe her. Sehr dunkle Frontpixel werden proportional gerundet und unter der Untergrenze schwarz statt gelbgruen",
   "http_code": 200
 }

@@ -1,6 +1,13 @@
 {
   "items": [
     {
+      "version": "0.1.181",
+      "bin": "knx-led-controller-16m_0.1.181.bin.gz",
+      "sha256": "0a96507ac1b1c7ec91615c92141ba559028fbeafc173d57f7803ee74051f0b97",
+      "date": "2026-10-23",
+      "note": "Lauflicht: Die weiche Front laeuft nicht mehr gruen vor der Szenenfarbe her. Sehr dunkle Frontpixel werden proportional gerundet und unter der Untergrenze schwarz statt gelbgruen"
+    },
+    {
       "version": "0.1.180",
       "bin": "knx-led-controller-16m_0.1.180.bin.gz",
       "sha256": "45583c95239bc797bed9dff59f30037ec1b859a0f280b01713ec79c1f04c79b4",
@@ -27,13 +34,6 @@
       "sha256": "aa460f7c8f69b0b11aaabe5709869d6b898f3798a5c54614d732b3ec56d3a6a8",
       "date": "2026-10-18",
       "note": "KNX: verlorene Telegramme bei schnellen Farbfolgen behoben (groesserer UART-Puffer, ACK vor Verarbeitung) und Empfangsfehler in /api/knx"
-    },
-    {
-      "version": "0.1.176",
-      "bin": "knx-led-controller-16m_0.1.176.bin.gz",
-      "sha256": "5d16c518645f3d34e5f6757395e87b778e433f9b6956f4d13d72213d118f5382",
-      "date": "2026-10-12",
-      "note": "OTA: komprimierte Firmware, verwaiste Uploadreste bereinigen und Speicherbedarf klar anzeigen"
     }
   ]
 }
