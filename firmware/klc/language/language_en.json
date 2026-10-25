@@ -5,7 +5,7 @@
   "minimum_firmware_version": "0.0.593",
   "maximum_firmware_version": "0.1.999",
   "compatibility_version": 1,
-  "package_version": "2.7.13",
+  "package_version": "2.7.14",
   "translations": {
     "Steuerung": "Control",
     "Abläufe": "Sequences",
@@ -2503,6 +2503,13 @@
     "Obergrenze in Prozent des ganzen Strangs. Bis hierhin baut die Animation zufällig auf, dann baut sie wieder ab.": "Upper limit in percent of the whole strip. The animation builds up randomly to this point, then tears down again.",
     "Beide Werte gelten für den ganzen Strang: Bei 50 % leuchtet höchstens die Hälfte aller LEDs, zufällig verteilt.": "Both values refer to the whole strip: at 50 % at most half of all LEDs are lit, randomly distributed.",
     "Mindestanteil leuchtender LEDs, bezogen auf den ganzen Strang.": "Minimum share of lit LEDs, relative to the whole strip.",
-    "Höchstanteil leuchtender LEDs, bezogen auf den ganzen Strang.": "Maximum share of lit LEDs, relative to the whole strip."
+    "Höchstanteil leuchtender LEDs, bezogen auf den ganzen Strang.": "Maximum share of lit LEDs, relative to the whole strip.",
+    "Grundlicht %": "Base light %",
+    "Mindestanteil %": "Minimum share %",
+    "Mit diesem Anteil der Szenenfarbe glimmt jede LED zwischen den Funken weiter. 0 = dunkel zwischen den Funken.": "Every LED keeps glowing with this share of the scene colour between sparkles. 0 = dark between sparkles.",
+    "So viele Prozent der LEDs leuchten immer voll, zufällig verteilt und langsam wechselnd. 0 = aus.": "This percentage of LEDs is always fully lit, randomly spread and slowly changing. 0 = off.",
+    "Alle Werte gelten für Aufbau, Hauptphase und Abschalten. Der Füllgrad ist der Anteil gleichzeitig funkelnder LEDs; ist die Lebenszeit dafür zu kurz, funkt jede LED öfter als die Geschwindigkeit angibt. Grundlicht und Mindestanteil halten den Raum zwischen den Funken hell.": "All values apply to build-up, main phase and switch-off. The fill level is the share of LEDs sparkling at the same time; if the lifetime is too short for it, each LED sparkles more often than the speed says. Base light and minimum share keep the room lit between sparkles.",
+    "Grundhelligkeit aller LEDs zwischen den Funken.": "Base brightness of all LEDs between sparkles.",
+    "Anteil der LEDs, die immer voll leuchten.": "Share of LEDs that are always fully lit."
   }
 }

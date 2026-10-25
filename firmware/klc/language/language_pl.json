@@ -5,7 +5,7 @@
   "minimum_firmware_version": "0.0.593",
   "maximum_firmware_version": "0.1.999",
   "compatibility_version": 1,
-  "package_version": "2.7.13",
+  "package_version": "2.7.14",
   "translations": {
     "Steuerung": "Sterowanie",
     "Abläufe": "Sekwencje",
@@ -2503,6 +2503,13 @@
     "Obergrenze in Prozent des ganzen Strangs. Bis hierhin baut die Animation zufällig auf, dann baut sie wieder ab.": "Górna granica w procentach całego paska. Do tego miejsca animacja losowo narasta, potem znów wygasa.",
     "Beide Werte gelten für den ganzen Strang: Bei 50 % leuchtet höchstens die Hälfte aller LEDs, zufällig verteilt.": "Obie wartości dotyczą całego paska: przy 50 % świeci najwyżej połowa wszystkich diod, losowo rozmieszczonych.",
     "Mindestanteil leuchtender LEDs, bezogen auf den ganzen Strang.": "Minimalny udział świecących diod w stosunku do całego paska.",
-    "Höchstanteil leuchtender LEDs, bezogen auf den ganzen Strang.": "Maksymalny udział świecących diod w stosunku do całego paska."
+    "Höchstanteil leuchtender LEDs, bezogen auf den ganzen Strang.": "Maksymalny udział świecących diod w stosunku do całego paska.",
+    "Grundlicht %": "Światło bazowe %",
+    "Mindestanteil %": "Minimalny udział %",
+    "Mit diesem Anteil der Szenenfarbe glimmt jede LED zwischen den Funken weiter. 0 = dunkel zwischen den Funken.": "Między iskrami każda dioda świeci dalej z tym udziałem koloru sceny. 0 = ciemno między iskrami.",
+    "So viele Prozent der LEDs leuchten immer voll, zufällig verteilt und langsam wechselnd. 0 = aus.": "Ten procent diod zawsze świeci w pełni, losowo rozmieszczony i powoli zmieniający się. 0 = wyłączone.",
+    "Alle Werte gelten für Aufbau, Hauptphase und Abschalten. Der Füllgrad ist der Anteil gleichzeitig funkelnder LEDs; ist die Lebenszeit dafür zu kurz, funkt jede LED öfter als die Geschwindigkeit angibt. Grundlicht und Mindestanteil halten den Raum zwischen den Funken hell.": "Wszystkie wartości dotyczą rozjaśniania, fazy głównej i wyłączania. Stopień wypełnienia to udział diod migoczących jednocześnie; jeśli czas życia jest na to za krótki, każda dioda migocze częściej, niż wskazuje prędkość. Światło bazowe i minimalny udział utrzymują jasność w pomieszczeniu między iskrami.",
+    "Grundhelligkeit aller LEDs zwischen den Funken.": "Jasność bazowa wszystkich diod między iskrami.",
+    "Anteil der LEDs, die immer voll leuchten.": "Udział diod, które zawsze świecą w pełni."
   }
 }

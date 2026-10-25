@@ -5,7 +5,7 @@
   "minimum_firmware_version": "0.0.593",
   "maximum_firmware_version": "0.1.999",
   "compatibility_version": 1,
-  "package_version": "2.7.13",
+  "package_version": "2.7.14",
   "translations": {
     "Steuerung": "Steuerung",
     "Abläufe": "Abläufe",
@@ -2503,6 +2503,13 @@
     "Obergrenze in Prozent des ganzen Strangs. Bis hierhin baut die Animation zufällig auf, dann baut sie wieder ab.": "Obergrenze in Prozent des ganzen Strangs. Bis hierhin baut die Animation zufällig auf, dann baut sie wieder ab.",
     "Beide Werte gelten für den ganzen Strang: Bei 50 % leuchtet höchstens die Hälfte aller LEDs, zufällig verteilt.": "Beide Werte gelten für den ganzen Strang: Bei 50 % leuchtet höchstens die Hälfte aller LEDs, zufällig verteilt.",
     "Mindestanteil leuchtender LEDs, bezogen auf den ganzen Strang.": "Mindestanteil leuchtender LEDs, bezogen auf den ganzen Strang.",
-    "Höchstanteil leuchtender LEDs, bezogen auf den ganzen Strang.": "Höchstanteil leuchtender LEDs, bezogen auf den ganzen Strang."
+    "Höchstanteil leuchtender LEDs, bezogen auf den ganzen Strang.": "Höchstanteil leuchtender LEDs, bezogen auf den ganzen Strang.",
+    "Grundlicht %": "Grundlicht %",
+    "Mindestanteil %": "Mindestanteil %",
+    "Mit diesem Anteil der Szenenfarbe glimmt jede LED zwischen den Funken weiter. 0 = dunkel zwischen den Funken.": "Mit diesem Anteil der Szenenfarbe glimmt jede LED zwischen den Funken weiter. 0 = dunkel zwischen den Funken.",
+    "So viele Prozent der LEDs leuchten immer voll, zufällig verteilt und langsam wechselnd. 0 = aus.": "So viele Prozent der LEDs leuchten immer voll, zufällig verteilt und langsam wechselnd. 0 = aus.",
+    "Alle Werte gelten für Aufbau, Hauptphase und Abschalten. Der Füllgrad ist der Anteil gleichzeitig funkelnder LEDs; ist die Lebenszeit dafür zu kurz, funkt jede LED öfter als die Geschwindigkeit angibt. Grundlicht und Mindestanteil halten den Raum zwischen den Funken hell.": "Alle Werte gelten für Aufbau, Hauptphase und Abschalten. Der Füllgrad ist der Anteil gleichzeitig funkelnder LEDs; ist die Lebenszeit dafür zu kurz, funkt jede LED öfter als die Geschwindigkeit angibt. Grundlicht und Mindestanteil halten den Raum zwischen den Funken hell.",
+    "Grundhelligkeit aller LEDs zwischen den Funken.": "Grundhelligkeit aller LEDs zwischen den Funken.",
+    "Anteil der LEDs, die immer voll leuchten.": "Anteil der LEDs, die immer voll leuchten."
   }
 }

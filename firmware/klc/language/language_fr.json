@@ -5,7 +5,7 @@
   "minimum_firmware_version": "0.0.593",
   "maximum_firmware_version": "0.1.999",
   "compatibility_version": 1,
-  "package_version": "2.7.13",
+  "package_version": "2.7.14",
   "translations": {
     "Steuerung": "Commande",
     "Abläufe": "Séquences",
@@ -2503,6 +2503,13 @@
     "Obergrenze in Prozent des ganzen Strangs. Bis hierhin baut die Animation zufällig auf, dann baut sie wieder ab.": "Limite supérieure en pourcentage du ruban entier. L'animation se construit aléatoirement jusqu'ici, puis se défait.",
     "Beide Werte gelten für den ganzen Strang: Bei 50 % leuchtet höchstens die Hälfte aller LEDs, zufällig verteilt.": "Les deux valeurs portent sur le ruban entier : à 50 %, au plus la moitié des LED s'allument, réparties au hasard.",
     "Mindestanteil leuchtender LEDs, bezogen auf den ganzen Strang.": "Part minimale de LED allumées, rapportée au ruban entier.",
-    "Höchstanteil leuchtender LEDs, bezogen auf den ganzen Strang.": "Part maximale de LED allumées, rapportée au ruban entier."
+    "Höchstanteil leuchtender LEDs, bezogen auf den ganzen Strang.": "Part maximale de LED allumées, rapportée au ruban entier.",
+    "Grundlicht %": "Lumière de base %",
+    "Mindestanteil %": "Part minimale %",
+    "Mit diesem Anteil der Szenenfarbe glimmt jede LED zwischen den Funken weiter. 0 = dunkel zwischen den Funken.": "Entre les étincelles, chaque LED continue de luire avec cette part de la couleur de la scène. 0 = sombre entre les étincelles.",
+    "So viele Prozent der LEDs leuchten immer voll, zufällig verteilt und langsam wechselnd. 0 = aus.": "Ce pourcentage de LED reste toujours allumé à fond, réparti au hasard et changeant lentement. 0 = désactivé.",
+    "Alle Werte gelten für Aufbau, Hauptphase und Abschalten. Der Füllgrad ist der Anteil gleichzeitig funkelnder LEDs; ist die Lebenszeit dafür zu kurz, funkt jede LED öfter als die Geschwindigkeit angibt. Grundlicht und Mindestanteil halten den Raum zwischen den Funken hell.": "Toutes les valeurs s'appliquent à l'allumage, à la phase principale et à l'extinction. Le taux de remplissage est la part de LED qui scintillent en même temps ; si la durée de vie est trop courte, chaque LED scintille plus souvent que l'indique la vitesse. La lumière de base et la part minimale gardent la pièce éclairée entre les étincelles.",
+    "Grundhelligkeit aller LEDs zwischen den Funken.": "Luminosité de base de toutes les LED entre les étincelles.",
+    "Anteil der LEDs, die immer voll leuchten.": "Part des LED toujours allumées à fond."
   }
 }

@@ -5,7 +5,7 @@
   "minimum_firmware_version": "0.0.593",
   "maximum_firmware_version": "0.1.999",
   "compatibility_version": 1,
-  "package_version": "2.7.13",
+  "package_version": "2.7.14",
   "translations": {
     "Steuerung": "Control",
     "Abläufe": "Secuencias",
@@ -2503,6 +2503,13 @@
     "Obergrenze in Prozent des ganzen Strangs. Bis hierhin baut die Animation zufällig auf, dann baut sie wieder ab.": "Límite superior en porcentaje de toda la tira. La animación se construye al azar hasta aquí y luego se deshace.",
     "Beide Werte gelten für den ganzen Strang: Bei 50 % leuchtet höchstens die Hälfte aller LEDs, zufällig verteilt.": "Ambos valores se refieren a toda la tira: con 50 % se enciende como máximo la mitad de los LED, repartidos al azar.",
     "Mindestanteil leuchtender LEDs, bezogen auf den ganzen Strang.": "Proporción mínima de LED encendidos, respecto a toda la tira.",
-    "Höchstanteil leuchtender LEDs, bezogen auf den ganzen Strang.": "Proporción máxima de LED encendidos, respecto a toda la tira."
+    "Höchstanteil leuchtender LEDs, bezogen auf den ganzen Strang.": "Proporción máxima de LED encendidos, respecto a toda la tira.",
+    "Grundlicht %": "Luz base %",
+    "Mindestanteil %": "Proporción mínima %",
+    "Mit diesem Anteil der Szenenfarbe glimmt jede LED zwischen den Funken weiter. 0 = dunkel zwischen den Funken.": "Entre los destellos, cada LED sigue brillando con esta proporción del color de la escena. 0 = oscuro entre destellos.",
+    "So viele Prozent der LEDs leuchten immer voll, zufällig verteilt und langsam wechselnd. 0 = aus.": "Este porcentaje de LED siempre luce al máximo, repartido al azar y cambiando lentamente. 0 = desactivado.",
+    "Alle Werte gelten für Aufbau, Hauptphase und Abschalten. Der Füllgrad ist der Anteil gleichzeitig funkelnder LEDs; ist die Lebenszeit dafür zu kurz, funkt jede LED öfter als die Geschwindigkeit angibt. Grundlicht und Mindestanteil halten den Raum zwischen den Funken hell.": "Todos los valores se aplican al encendido, la fase principal y el apagado. El grado de llenado es la proporción de LED que destellan a la vez; si la vida útil es demasiado corta, cada LED destella más a menudo de lo que indica la velocidad. La luz base y la proporción mínima mantienen la estancia iluminada entre destellos.",
+    "Grundhelligkeit aller LEDs zwischen den Funken.": "Brillo base de todos los LED entre destellos.",
+    "Anteil der LEDs, die immer voll leuchten.": "Proporción de LED que siempre lucen al máximo."
   }
 }

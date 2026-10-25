@@ -5,7 +5,7 @@
   "minimum_firmware_version": "0.0.593",
   "maximum_firmware_version": "0.1.999",
   "compatibility_version": 1,
-  "package_version": "2.7.13",
+  "package_version": "2.7.14",
   "translations": {
     "Steuerung": "Controllo",
     "Abläufe": "Sequenze",
@@ -2503,6 +2503,13 @@
     "Obergrenze in Prozent des ganzen Strangs. Bis hierhin baut die Animation zufällig auf, dann baut sie wieder ab.": "Limite superiore in percentuale dell'intera strip. L'animazione si costruisce in modo casuale fino a qui, poi si smonta.",
     "Beide Werte gelten für den ganzen Strang: Bei 50 % leuchtet höchstens die Hälfte aller LEDs, zufällig verteilt.": "Entrambi i valori si riferiscono all'intera strip: al 50 % si accende al massimo metà dei LED, distribuiti a caso.",
     "Mindestanteil leuchtender LEDs, bezogen auf den ganzen Strang.": "Quota minima di LED accesi, riferita all'intera strip.",
-    "Höchstanteil leuchtender LEDs, bezogen auf den ganzen Strang.": "Quota massima di LED accesi, riferita all'intera strip."
+    "Höchstanteil leuchtender LEDs, bezogen auf den ganzen Strang.": "Quota massima di LED accesi, riferita all'intera strip.",
+    "Grundlicht %": "Luce di base %",
+    "Mindestanteil %": "Quota minima %",
+    "Mit diesem Anteil der Szenenfarbe glimmt jede LED zwischen den Funken weiter. 0 = dunkel zwischen den Funken.": "Tra le scintille ogni LED continua a brillare con questa quota del colore della scena. 0 = buio tra le scintille.",
+    "So viele Prozent der LEDs leuchten immer voll, zufällig verteilt und langsam wechselnd. 0 = aus.": "Questa percentuale di LED è sempre accesa al massimo, distribuita a caso e in lento cambiamento. 0 = disattivato.",
+    "Alle Werte gelten für Aufbau, Hauptphase und Abschalten. Der Füllgrad ist der Anteil gleichzeitig funkelnder LEDs; ist die Lebenszeit dafür zu kurz, funkt jede LED öfter als die Geschwindigkeit angibt. Grundlicht und Mindestanteil halten den Raum zwischen den Funken hell.": "Tutti i valori valgono per accensione, fase principale e spegnimento. Il grado di riempimento è la quota di LED che scintillano contemporaneamente; se la durata è troppo breve, ogni LED scintilla più spesso di quanto indichi la velocità. Luce di base e quota minima mantengono la stanza illuminata tra le scintille.",
+    "Grundhelligkeit aller LEDs zwischen den Funken.": "Luminosità di base di tutti i LED tra le scintille.",
+    "Anteil der LEDs, die immer voll leuchten.": "Quota di LED sempre accesi al massimo."
   }
 }

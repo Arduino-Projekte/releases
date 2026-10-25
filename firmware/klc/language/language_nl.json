@@ -5,7 +5,7 @@
   "minimum_firmware_version": "0.0.593",
   "maximum_firmware_version": "0.1.999",
   "compatibility_version": 1,
-  "package_version": "2.7.13",
+  "package_version": "2.7.14",
   "translations": {
     "Steuerung": "Bediening",
     "Abläufe": "Verlopen",
@@ -2503,6 +2503,13 @@
     "Obergrenze in Prozent des ganzen Strangs. Bis hierhin baut die Animation zufällig auf, dann baut sie wieder ab.": "Bovengrens in procent van de hele strip. Tot hier bouwt de animatie willekeurig op, daarna bouwt ze weer af.",
     "Beide Werte gelten für den ganzen Strang: Bei 50 % leuchtet höchstens die Hälfte aller LEDs, zufällig verteilt.": "Beide waarden gelden voor de hele strip: bij 50 % brandt hoogstens de helft van alle leds, willekeurig verdeeld.",
     "Mindestanteil leuchtender LEDs, bezogen auf den ganzen Strang.": "Minimaal aandeel brandende leds, ten opzichte van de hele strip.",
-    "Höchstanteil leuchtender LEDs, bezogen auf den ganzen Strang.": "Maximaal aandeel brandende leds, ten opzichte van de hele strip."
+    "Höchstanteil leuchtender LEDs, bezogen auf den ganzen Strang.": "Maximaal aandeel brandende leds, ten opzichte van de hele strip.",
+    "Grundlicht %": "Basislicht %",
+    "Mindestanteil %": "Minimaal aandeel %",
+    "Mit diesem Anteil der Szenenfarbe glimmt jede LED zwischen den Funken weiter. 0 = dunkel zwischen den Funken.": "Tussen de vonken blijft elke LED gloeien met dit aandeel van de scènekleur. 0 = donker tussen de vonken.",
+    "So viele Prozent der LEDs leuchten immer voll, zufällig verteilt und langsam wechselnd. 0 = aus.": "Dit percentage LED's brandt altijd volledig, willekeurig verdeeld en langzaam wisselend. 0 = uit.",
+    "Alle Werte gelten für Aufbau, Hauptphase und Abschalten. Der Füllgrad ist der Anteil gleichzeitig funkelnder LEDs; ist die Lebenszeit dafür zu kurz, funkt jede LED öfter als die Geschwindigkeit angibt. Grundlicht und Mindestanteil halten den Raum zwischen den Funken hell.": "Alle waarden gelden voor opbouw, hoofdfase en uitschakelen. De vulgraad is het aandeel LED's dat tegelijk fonkelt; is de levensduur daarvoor te kort, dan fonkelt elke LED vaker dan de snelheid aangeeft. Basislicht en minimaal aandeel houden de ruimte tussen de vonken verlicht.",
+    "Grundhelligkeit aller LEDs zwischen den Funken.": "Basishelderheid van alle LED's tussen de vonken.",
+    "Anteil der LEDs, die immer voll leuchten.": "Aandeel LED's dat altijd volledig brandt."
   }
 }
