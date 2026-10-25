@@ -1,6 +1,13 @@
 {
     "items":  [
                   {
+                      "version":  "0.1.184",
+                      "bin":  "knx-led-controller-16m-w_0.1.184.bin",
+                      "sha256":  "1ce5f9c9d4f6adb18d96110e83c1649215873abdba8243473038e2e863c834b5",
+                      "date":  "2026-10-25",
+                      "note":  "Funkeln: Fuellgrad stimmt jetzt auch bei kurzer Lebenszeit (die Pause zwischen zwei Funken einer LED wird bei Bedarf kuerzer). Neu Grundlicht % (alle LEDs glimmen zwischen den Funken) und Mindestanteil % (so viele LEDs leuchten immer voll, langsam wechselnd). Funkelfelder auf voller Breite, Globale Effektvorgaben mit gleich hohen Feldern."
+                  },
+                  {
                       "version":  "0.1.183",
                       "bin":  "knx-led-controller-16m-w_0.1.183.bin",
                       "sha256":  "7ac88d11bb944eb4053cd882f9f6c59538f754ef7999f7e3b8afe0c8485df0a8",
@@ -27,13 +34,6 @@
                       "sha256":  "f37d965570744cf8c099ce3d0ce49278a7f812e3431fa2f6bad0974de0d85731",
                       "date":  "2026-10-21",
                       "note":  "Animationen: Szenen und LED-Ausgabe laufen auf dem zweiten Prozessorkern. Netzwerk, TLS, Updatepruefung und das Laden der Weboberflaeche halten die Animation nicht mehr an; neue Diagnosewerte zu Sperrzeiten und Core-1-Stack"
-                  },
-                  {
-                      "version":  "0.1.179",
-                      "bin":  "knx-led-controller-16m-w_0.1.179.bin.gz",
-                      "sha256":  "7760c68af2573f75167df4b1b79c1239af4e19194ada46c498a8bec4856d9c54",
-                      "date":  "2026-10-21",
-                      "note":  "Animationen: fester Bildtakt fuer alle Ausgaenge (langsamster Strang + 1 ms), Ausgabe zu Taktbeginn; wahrnehmungsrichtige Rampen fuer Sanft ein und Ein-/Ausblenden; weiche Lauflichtfront; keine Flash-Schreibvorgaenge waehrend Auf- und Abbau; schnellere Pixelberechnung"
                   }
               ]
 }
