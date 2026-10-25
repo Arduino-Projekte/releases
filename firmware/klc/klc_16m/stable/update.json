@@ -1,11 +1,13 @@
 {
-  "url": "knx-led-controller-16m_0.1.165.bin",
-  "check_ok": true,
-  "update_available": false,
-  "version": "0.1.165",
-  "bin": "knx-led-controller-16m_0.1.165.bin",
-  "file": "knx-led-controller-16m_0.1.165.bin",
-  "sha256": "4482e5e142acc0c1b155f403f81c62f507aa3bcb03b5f718dd090ec4ccf299d8",
-  "message": "Sanft ein/aus ohne grobe Endstufen und ohne gruenen Rest, KNX-Dimmen gleitet statt in Stufen, kein Flackern mehr beim Ausschalten nach Dimmen oder Farbwechsel",
-  "http_code": 200
+    "manifest":  {
+                     "url":  "knx-led-controller-16m_0.1.183.bin",
+                     "check_ok":  true,
+                     "update_available":  false,
+                     "version":  "0.1.183",
+                     "bin":  "knx-led-controller-16m_0.1.183.bin",
+                     "file":  "knx-led-controller-16m_0.1.183.bin",
+                     "sha256":  "1ff24ab97722c2cffb2f9bb0d4224db7a2b69bf219f712c3865904c4985e79c4",
+                     "message":  "Szenenwechsel ohne Schwarzphase: jedes Pixel haelt sein Licht, bis die neue Hauptphase es uebernimmt, und gleitet dann in Farbe und Helligkeit hinueber; nicht gebrauchte Pixel verloeschen zufaellig innerhalb von ein bis zwei Durchgaengen. Ein Hilfepunkt je Feld und Schaltflaechenleiste; Farbreihe Zuletzt verwendet auf einer Linie",
+                     "http_code":  200
+                 }
 }

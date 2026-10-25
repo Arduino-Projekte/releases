@@ -1,39 +1,39 @@
 {
-  "items": [
-    {
-      "version": "0.1.165",
-      "bin": "knx-led-controller-16m-w_0.1.165.bin",
-      "sha256": "7a7f7cea91a7ecf9356016e9255b465988bb82539e0252a223b475124d65a21f",
-      "date": "2026-10-05",
-      "note": "Sanft ein/aus ohne grobe Endstufen und ohne gruenen Rest, KNX-Dimmen gleitet statt in Stufen, kein Flackern mehr beim Ausschalten nach Dimmen oder Farbwechsel"
-    },
-    {
-      "version": "0.1.164",
-      "bin": "knx-led-controller-16m-w_0.1.164.bin",
-      "sha256": "27698bf77818073260afd01c9f7972d12cee299d59af8b7010a72a0e63cd2aed",
-      "date": "2026-10-04",
-      "note": "KNX-Farbe Schwarz schaltet nur aus und speichert die Szene nicht mehr schwarz"
-    },
-    {
-      "version": "0.1.160",
-      "bin": "knx-led-controller-16m-w_0.1.160.bin",
-      "sha256": "ad535e8b15761808ca16b83df5d7cebf66b23eeffdde5a4860d9963953d8818b",
-      "date": "2026-09-28",
-      "note": "Speicher: Konfiguration mit Schema 85 aus Fremdbuild wird wieder geladen statt sichere Defaults"
-    },
-    {
-      "version": "0.1.159",
-      "bin": "knx-led-controller-16m-w_0.1.159.bin",
-      "sha256": "77cffdbafb97a7b0b1f7eb0c309e4167df092698547c56d8c84d96bf2ef13e4b",
-      "date": "2026-09-28",
-      "note": "KNX: Helligkeit bei KNX-Farbe ohne Doppelskalierung (0.1.158 war zu dunkel), Status Helligkeit stimmt"
-    },
-    {
-      "version": "0.1.158",
-      "bin": "knx-led-controller-16m-w_0.1.158.bin",
-      "sha256": "887a3e95bd1aae94bed7a55e212c975452426e8830a393da3cd0eb25e18c5b53",
-      "date": "2026-09-27",
-      "note": "LED-Aus-Diagnose mit dauerhafter Meldung; Webserver-Abschaltzeit; lebende Animationsbilder waehrend Szenenuebergaengen"
-    }
-  ]
+    "items":  [
+                  {
+                      "version":  "0.1.183",
+                      "bin":  "knx-led-controller-16m-w_0.1.183.bin",
+                      "sha256":  "1b0bda4d2e509ff376ec5b8fd828a77abaf01cc1aac4be2a3da8a49616a0faa0",
+                      "date":  "2026-10-25",
+                      "note":  "Szenenwechsel ohne Schwarzphase: jedes Pixel haelt sein Licht, bis die neue Hauptphase es uebernimmt, und gleitet dann in Farbe und Helligkeit hinueber; nicht gebrauchte Pixel verloeschen zufaellig innerhalb von ein bis zwei Durchgaengen. Ein Hilfepunkt je Feld und Schaltflaechenleiste; Farbreihe Zuletzt verwendet auf einer Linie"
+                  },
+                  {
+                      "version":  "0.1.165",
+                      "bin":  "knx-led-controller-16m-w_0.1.165.bin",
+                      "sha256":  "7a7f7cea91a7ecf9356016e9255b465988bb82539e0252a223b475124d65a21f",
+                      "date":  "2026-10-05",
+                      "note":  "Sanft ein/aus ohne grobe Endstufen und ohne gruenen Rest, KNX-Dimmen gleitet statt in Stufen, kein Flackern mehr beim Ausschalten nach Dimmen oder Farbwechsel"
+                  },
+                  {
+                      "version":  "0.1.164",
+                      "bin":  "knx-led-controller-16m-w_0.1.164.bin",
+                      "sha256":  "27698bf77818073260afd01c9f7972d12cee299d59af8b7010a72a0e63cd2aed",
+                      "date":  "2026-10-04",
+                      "note":  "KNX-Farbe Schwarz schaltet nur aus und speichert die Szene nicht mehr schwarz"
+                  },
+                  {
+                      "version":  "0.1.160",
+                      "bin":  "knx-led-controller-16m-w_0.1.160.bin",
+                      "sha256":  "ad535e8b15761808ca16b83df5d7cebf66b23eeffdde5a4860d9963953d8818b",
+                      "date":  "2026-09-28",
+                      "note":  "Speicher: Konfiguration mit Schema 85 aus Fremdbuild wird wieder geladen statt sichere Defaults"
+                  },
+                  {
+                      "version":  "0.1.159",
+                      "bin":  "knx-led-controller-16m-w_0.1.159.bin",
+                      "sha256":  "77cffdbafb97a7b0b1f7eb0c309e4167df092698547c56d8c84d96bf2ef13e4b",
+                      "date":  "2026-09-28",
+                      "note":  "KNX: Helligkeit bei KNX-Farbe ohne Doppelskalierung (0.1.158 war zu dunkel), Status Helligkeit stimmt"
+                  }
+              ]
 }
