@@ -3,7 +3,7 @@
                   {
                       "version":  "0.1.183",
                       "bin":  "knx-led-controller-16m-w_0.1.183.bin",
-                      "sha256":  "1b0bda4d2e509ff376ec5b8fd828a77abaf01cc1aac4be2a3da8a49616a0faa0",
+                      "sha256":  "7ac88d11bb944eb4053cd882f9f6c59538f754ef7999f7e3b8afe0c8485df0a8",
                       "date":  "2026-10-25",
                       "note":  "Szenenwechsel ohne Schwarzphase: jedes Pixel haelt sein Licht, bis die neue Hauptphase es uebernimmt, und gleitet dann in Farbe und Helligkeit hinueber; nicht gebrauchte Pixel verloeschen zufaellig innerhalb von ein bis zwei Durchgaengen. Ein Hilfepunkt je Feld und Schaltflaechenleiste; Farbreihe Zuletzt verwendet auf einer Linie"
                   },
