@@ -1,39 +1,39 @@
 {
-  "items": [
-    {
-      "version": "0.1.181",
-      "bin": "knx-led-controller-16m_0.1.181.bin.gz",
-      "sha256": "0a96507ac1b1c7ec91615c92141ba559028fbeafc173d57f7803ee74051f0b97",
-      "date": "2026-10-23",
-      "note": "Lauflicht: Die weiche Front laeuft nicht mehr gruen vor der Szenenfarbe her. Sehr dunkle Frontpixel werden proportional gerundet und unter der Untergrenze schwarz statt gelbgruen"
-    },
-    {
-      "version": "0.1.180",
-      "bin": "knx-led-controller-16m_0.1.180.bin.gz",
-      "sha256": "45583c95239bc797bed9dff59f30037ec1b859a0f280b01713ec79c1f04c79b4",
-      "date": "2026-10-21",
-      "note": "Animationen: Szenen und LED-Ausgabe laufen auf dem zweiten Prozessorkern. Netzwerk, TLS, Updatepruefung und das Laden der Weboberflaeche halten die Animation nicht mehr an; neue Diagnosewerte zu Sperrzeiten und Core-1-Stack"
-    },
-    {
-      "version": "0.1.179",
-      "bin": "knx-led-controller-16m_0.1.179.bin.gz",
-      "sha256": "d74004654fd14a26c8b66902e292edfdd19bb143459b24febf5991c0134eeaed",
-      "date": "2026-10-21",
-      "note": "Animationen: fester Bildtakt fuer alle Ausgaenge (langsamster Strang + 1 ms), Ausgabe zu Taktbeginn; wahrnehmungsrichtige Rampen fuer Sanft ein und Ein-/Ausblenden; weiche Lauflichtfront; keine Flash-Schreibvorgaenge waehrend Auf- und Abbau; schnellere Pixelberechnung"
-    },
-    {
-      "version": "0.1.178",
-      "bin": "knx-led-controller-16m_0.1.178.bin.gz",
-      "sha256": "e744b816bf94dd64d2cd0290d3a353e75e623e5b383b0c1898ae68d55ebde424",
-      "date": "2026-10-18",
-      "note": "OTA: vom Bootloader abgearbeiteten Updateauftrag erkennen und entfernen; Online-Updates nach einem OTA-Update auf 0.1.176/0.1.177 wieder moeglich"
-    },
-    {
-      "version": "0.1.177",
-      "bin": "knx-led-controller-16m_0.1.177.bin.gz",
-      "sha256": "aa460f7c8f69b0b11aaabe5709869d6b898f3798a5c54614d732b3ec56d3a6a8",
-      "date": "2026-10-18",
-      "note": "KNX: verlorene Telegramme bei schnellen Farbfolgen behoben (groesserer UART-Puffer, ACK vor Verarbeitung) und Empfangsfehler in /api/knx"
-    }
-  ]
+    "items":  [
+                  {
+                      "version":  "0.1.182",
+                      "bin":  "knx-led-controller-16m_0.1.182.bin",
+                      "sha256":  "714dc1193e684480b7c8284faec0b0b6d2c175eada92195891f6e8f50e04365b",
+                      "date":  "2026-10-25",
+                      "note":  "Szenen-Editor: Auto-Name aus Hauptphase plus Kuerzeln fuer Aufbau und Abschalten; Zufaelliger Aufbau/Abbau mit Mindest- und Maximal-Fuellgrad bezogen auf den ganzen Strang; Phasenleiste gleich breit, Hilfepunkte hinter bzw. unter Schaltflaechenleisten"
+                  },
+                  {
+                      "version":  "0.1.181",
+                      "bin":  "knx-led-controller-16m_0.1.181.bin.gz",
+                      "sha256":  "0a96507ac1b1c7ec91615c92141ba559028fbeafc173d57f7803ee74051f0b97",
+                      "date":  "2026-10-23",
+                      "note":  "Lauflicht: Die weiche Front laeuft nicht mehr gruen vor der Szenenfarbe her. Sehr dunkle Frontpixel werden proportional gerundet und unter der Untergrenze schwarz statt gelbgruen"
+                  },
+                  {
+                      "version":  "0.1.180",
+                      "bin":  "knx-led-controller-16m_0.1.180.bin.gz",
+                      "sha256":  "45583c95239bc797bed9dff59f30037ec1b859a0f280b01713ec79c1f04c79b4",
+                      "date":  "2026-10-21",
+                      "note":  "Animationen: Szenen und LED-Ausgabe laufen auf dem zweiten Prozessorkern. Netzwerk, TLS, Updatepruefung und das Laden der Weboberflaeche halten die Animation nicht mehr an; neue Diagnosewerte zu Sperrzeiten und Core-1-Stack"
+                  },
+                  {
+                      "version":  "0.1.179",
+                      "bin":  "knx-led-controller-16m_0.1.179.bin.gz",
+                      "sha256":  "d74004654fd14a26c8b66902e292edfdd19bb143459b24febf5991c0134eeaed",
+                      "date":  "2026-10-21",
+                      "note":  "Animationen: fester Bildtakt fuer alle Ausgaenge (langsamster Strang + 1 ms), Ausgabe zu Taktbeginn; wahrnehmungsrichtige Rampen fuer Sanft ein und Ein-/Ausblenden; weiche Lauflichtfront; keine Flash-Schreibvorgaenge waehrend Auf- und Abbau; schnellere Pixelberechnung"
+                  },
+                  {
+                      "version":  "0.1.178",
+                      "bin":  "knx-led-controller-16m_0.1.178.bin.gz",
+                      "sha256":  "e744b816bf94dd64d2cd0290d3a353e75e623e5b383b0c1898ae68d55ebde424",
+                      "date":  "2026-10-18",
+                      "note":  "OTA: vom Bootloader abgearbeiteten Updateauftrag erkennen und entfernen; Online-Updates nach einem OTA-Update auf 0.1.176/0.1.177 wieder moeglich"
+                  }
+              ]
 }

@@ -5,7 +5,7 @@
   "minimum_firmware_version": "0.0.593",
   "maximum_firmware_version": "0.1.999",
   "compatibility_version": 1,
-  "package_version": "2.7.11",
+  "package_version": "2.7.13",
   "translations": {
     "Steuerung": "Sterowanie",
     "Abläufe": "Sekwencje",
@@ -2487,6 +2487,22 @@
     "Die verlinkte Seite öffnen.": "Otwórz powiązaną stronę.",
     "Hilfebereich": "Kategoria pomocy",
     "Suchbegriffe": "Wyszukiwane słowa",
-    "Zum Beispiel: Netzwerk abschalten": "Na przykład: wyłącz sieć"
+    "Zum Beispiel: Netzwerk abschalten": "Na przykład: wyłącz sieć",
+    "Wann Szene, Helligkeit und Farbe beim Dimmen gemeldet werden.": "Kiedy scena, jasność i kolor są zgłaszane podczas ściemniania.",
+    "Status beim Dimmen": "Status podczas ściemniania",
+    "Am Anfang": "Na początku",
+    "In der Mitte": "W połowie",
+    "Am Ende": "Na końcu",
+    "Wann Szene, Helligkeit und Farbe gemeldet werden, solange ein Ausgang ein-, aus- oder umblendet. Der Schaltstatus kommt weiterhin sofort.": "Kiedy scena, jasność i kolor są zgłaszane, gdy wyjście płynnie się włącza, wyłącza lub zmienia scenę. Stan przełączenia nadal jest wysyłany od razu.",
+    "Anfang meldet das Ziel sofort. Mitte meldet zur Hälfte der Blendzeit den aktuellen Stand und am Ende den Endstand. Ende meldet nur den Endstand.": "Początek od razu zgłasza cel. Połowa zgłasza bieżący stan w połowie czasu przejścia, a na końcu stan końcowy. Koniec zgłasza tylko stan końcowy.",
+    "Auto": "Auto",
+    "Erzeugt einen kurzen, eindeutigen Namen: Hauptphase als Name, Aufbau und Abschalten als Kürzel.": "Tworzy krótką, unikalną nazwę: faza główna jako nazwa, narastanie i wyłączanie jako skróty.",
+    "Mindest-Füllgrad %": "Minimalne wypełnienie %",
+    "Maximal-Füllgrad %": "Maksymalne wypełnienie %",
+    "Untergrenze in Prozent des ganzen Strangs. So viele LEDs leuchten immer; über 0 geht die Animation nie ganz aus.": "Dolna granica w procentach całego paska. Tyle diod świeci zawsze; powyżej 0 animacja nigdy nie gaśnie całkowicie.",
+    "Obergrenze in Prozent des ganzen Strangs. Bis hierhin baut die Animation zufällig auf, dann baut sie wieder ab.": "Górna granica w procentach całego paska. Do tego miejsca animacja losowo narasta, potem znów wygasa.",
+    "Beide Werte gelten für den ganzen Strang: Bei 50 % leuchtet höchstens die Hälfte aller LEDs, zufällig verteilt.": "Obie wartości dotyczą całego paska: przy 50 % świeci najwyżej połowa wszystkich diod, losowo rozmieszczonych.",
+    "Mindestanteil leuchtender LEDs, bezogen auf den ganzen Strang.": "Minimalny udział świecących diod w stosunku do całego paska.",
+    "Höchstanteil leuchtender LEDs, bezogen auf den ganzen Strang.": "Maksymalny udział świecących diod w stosunku do całego paska."
   }
 }

@@ -5,7 +5,7 @@
   "minimum_firmware_version": "0.0.593",
   "maximum_firmware_version": "0.1.999",
   "compatibility_version": 1,
-  "package_version": "2.7.11",
+  "package_version": "2.7.13",
   "translations": {
     "Steuerung": "Control",
     "Abläufe": "Secuencias",
@@ -2487,6 +2487,22 @@
     "Die verlinkte Seite öffnen.": "Abrir la página enlazada.",
     "Hilfebereich": "Categoría de ayuda",
     "Suchbegriffe": "Términos de búsqueda",
-    "Zum Beispiel: Netzwerk abschalten": "Por ejemplo: desactivar la red"
+    "Zum Beispiel: Netzwerk abschalten": "Por ejemplo: desactivar la red",
+    "Wann Szene, Helligkeit und Farbe beim Dimmen gemeldet werden.": "Cuándo se informan la escena, el brillo y el color al regular.",
+    "Status beim Dimmen": "Estado al regular",
+    "Am Anfang": "Al inicio",
+    "In der Mitte": "En el medio",
+    "Am Ende": "Al final",
+    "Wann Szene, Helligkeit und Farbe gemeldet werden, solange ein Ausgang ein-, aus- oder umblendet. Der Schaltstatus kommt weiterhin sofort.": "Cuándo se informan la escena, el brillo y el color mientras una salida se enciende, se apaga o cambia de escena con fundido. El estado de conmutación se sigue enviando de inmediato.",
+    "Anfang meldet das Ziel sofort. Mitte meldet zur Hälfte der Blendzeit den aktuellen Stand und am Ende den Endstand. Ende meldet nur den Endstand.": "Inicio informa el destino de inmediato. Medio informa el estado actual a mitad del fundido y el estado final al terminar. Final informa solo el estado final.",
+    "Auto": "Auto",
+    "Erzeugt einen kurzen, eindeutigen Namen: Hauptphase als Name, Aufbau und Abschalten als Kürzel.": "Crea un nombre corto y único: la fase principal como nombre, encendido y apagado como abreviaturas.",
+    "Mindest-Füllgrad %": "Llenado mínimo %",
+    "Maximal-Füllgrad %": "Llenado máximo %",
+    "Untergrenze in Prozent des ganzen Strangs. So viele LEDs leuchten immer; über 0 geht die Animation nie ganz aus.": "Límite inferior en porcentaje de toda la tira. Al menos estos LED están siempre encendidos; por encima de 0 la animación nunca se apaga del todo.",
+    "Obergrenze in Prozent des ganzen Strangs. Bis hierhin baut die Animation zufällig auf, dann baut sie wieder ab.": "Límite superior en porcentaje de toda la tira. La animación se construye al azar hasta aquí y luego se deshace.",
+    "Beide Werte gelten für den ganzen Strang: Bei 50 % leuchtet höchstens die Hälfte aller LEDs, zufällig verteilt.": "Ambos valores se refieren a toda la tira: con 50 % se enciende como máximo la mitad de los LED, repartidos al azar.",
+    "Mindestanteil leuchtender LEDs, bezogen auf den ganzen Strang.": "Proporción mínima de LED encendidos, respecto a toda la tira.",
+    "Höchstanteil leuchtender LEDs, bezogen auf den ganzen Strang.": "Proporción máxima de LED encendidos, respecto a toda la tira."
   }
 }

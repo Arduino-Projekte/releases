@@ -5,7 +5,7 @@
   "minimum_firmware_version": "0.0.593",
   "maximum_firmware_version": "0.1.999",
   "compatibility_version": 1,
-  "package_version": "2.7.11",
+  "package_version": "2.7.13",
   "translations": {
     "Steuerung": "Control",
     "Abläufe": "Sequences",
@@ -2487,6 +2487,22 @@
     "Die verlinkte Seite öffnen.": "Open the linked page.",
     "Hilfebereich": "Help category",
     "Suchbegriffe": "Search terms",
-    "Zum Beispiel: Netzwerk abschalten": "For example: turn off network"
+    "Zum Beispiel: Netzwerk abschalten": "For example: turn off network",
+    "Wann Szene, Helligkeit und Farbe beim Dimmen gemeldet werden.": "When scene, brightness and color are reported while dimming.",
+    "Status beim Dimmen": "Status while dimming",
+    "Am Anfang": "At start",
+    "In der Mitte": "In the middle",
+    "Am Ende": "At end",
+    "Wann Szene, Helligkeit und Farbe gemeldet werden, solange ein Ausgang ein-, aus- oder umblendet. Der Schaltstatus kommt weiterhin sofort.": "When scene, brightness and color are reported while an output fades in, out or between scenes. Switch status is still sent immediately.",
+    "Anfang meldet das Ziel sofort. Mitte meldet zur Hälfte der Blendzeit den aktuellen Stand und am Ende den Endstand. Ende meldet nur den Endstand.": "Start reports the target immediately. Middle reports the current state at half the fade time and the final state at the end. End reports only the final state.",
+    "Auto": "Auto",
+    "Erzeugt einen kurzen, eindeutigen Namen: Hauptphase als Name, Aufbau und Abschalten als Kürzel.": "Creates a short, unique name: the main phase as the name, build-up and off phase as abbreviations.",
+    "Mindest-Füllgrad %": "Minimum fill %",
+    "Maximal-Füllgrad %": "Maximum fill %",
+    "Untergrenze in Prozent des ganzen Strangs. So viele LEDs leuchten immer; über 0 geht die Animation nie ganz aus.": "Lower limit in percent of the whole strip. At least this many LEDs are always lit; above 0 the animation never goes completely dark.",
+    "Obergrenze in Prozent des ganzen Strangs. Bis hierhin baut die Animation zufällig auf, dann baut sie wieder ab.": "Upper limit in percent of the whole strip. The animation builds up randomly to this point, then tears down again.",
+    "Beide Werte gelten für den ganzen Strang: Bei 50 % leuchtet höchstens die Hälfte aller LEDs, zufällig verteilt.": "Both values refer to the whole strip: at 50 % at most half of all LEDs are lit, randomly distributed.",
+    "Mindestanteil leuchtender LEDs, bezogen auf den ganzen Strang.": "Minimum share of lit LEDs, relative to the whole strip.",
+    "Höchstanteil leuchtender LEDs, bezogen auf den ganzen Strang.": "Maximum share of lit LEDs, relative to the whole strip."
   }
 }

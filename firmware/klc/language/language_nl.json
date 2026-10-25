@@ -5,7 +5,7 @@
   "minimum_firmware_version": "0.0.593",
   "maximum_firmware_version": "0.1.999",
   "compatibility_version": 1,
-  "package_version": "2.7.11",
+  "package_version": "2.7.13",
   "translations": {
     "Steuerung": "Bediening",
     "Abläufe": "Verlopen",
@@ -2487,6 +2487,22 @@
     "Die verlinkte Seite öffnen.": "De gekoppelde pagina openen.",
     "Hilfebereich": "Helpcategorie",
     "Suchbegriffe": "Zoektermen",
-    "Zum Beispiel: Netzwerk abschalten": "Bijvoorbeeld: netwerk uitschakelen"
+    "Zum Beispiel: Netzwerk abschalten": "Bijvoorbeeld: netwerk uitschakelen",
+    "Wann Szene, Helligkeit und Farbe beim Dimmen gemeldet werden.": "Wanneer scène, helderheid en kleur tijdens het dimmen worden gemeld.",
+    "Status beim Dimmen": "Status tijdens dimmen",
+    "Am Anfang": "Aan het begin",
+    "In der Mitte": "In het midden",
+    "Am Ende": "Aan het eind",
+    "Wann Szene, Helligkeit und Farbe gemeldet werden, solange ein Ausgang ein-, aus- oder umblendet. Der Schaltstatus kommt weiterhin sofort.": "Wanneer scène, helderheid en kleur worden gemeld terwijl een uitgang in-, uit- of overvloeit. De schakelstatus wordt nog steeds direct verzonden.",
+    "Anfang meldet das Ziel sofort. Mitte meldet zur Hälfte der Blendzeit den aktuellen Stand und am Ende den Endstand. Ende meldet nur den Endstand.": "Begin meldt het doel direct. Midden meldt halverwege de fadetijd de huidige stand en aan het eind de eindstand. Eind meldt alleen de eindstand.",
+    "Auto": "Auto",
+    "Erzeugt einen kurzen, eindeutigen Namen: Hauptphase als Name, Aufbau und Abschalten als Kürzel.": "Maakt een korte, unieke naam: de hoofdfase als naam, opbouw en uitschakelen als afkortingen.",
+    "Mindest-Füllgrad %": "Minimale vulling %",
+    "Maximal-Füllgrad %": "Maximale vulling %",
+    "Untergrenze in Prozent des ganzen Strangs. So viele LEDs leuchten immer; über 0 geht die Animation nie ganz aus.": "Ondergrens in procent van de hele strip. Minstens zoveel leds branden altijd; boven 0 gaat de animatie nooit helemaal uit.",
+    "Obergrenze in Prozent des ganzen Strangs. Bis hierhin baut die Animation zufällig auf, dann baut sie wieder ab.": "Bovengrens in procent van de hele strip. Tot hier bouwt de animatie willekeurig op, daarna bouwt ze weer af.",
+    "Beide Werte gelten für den ganzen Strang: Bei 50 % leuchtet höchstens die Hälfte aller LEDs, zufällig verteilt.": "Beide waarden gelden voor de hele strip: bij 50 % brandt hoogstens de helft van alle leds, willekeurig verdeeld.",
+    "Mindestanteil leuchtender LEDs, bezogen auf den ganzen Strang.": "Minimaal aandeel brandende leds, ten opzichte van de hele strip.",
+    "Höchstanteil leuchtender LEDs, bezogen auf den ganzen Strang.": "Maximaal aandeel brandende leds, ten opzichte van de hele strip."
   }
 }

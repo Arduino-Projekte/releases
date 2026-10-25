@@ -5,7 +5,7 @@
   "minimum_firmware_version": "0.0.593",
   "maximum_firmware_version": "0.1.999",
   "compatibility_version": 1,
-  "package_version": "2.7.11",
+  "package_version": "2.7.13",
   "translations": {
     "Steuerung": "Controllo",
     "Abläufe": "Sequenze",
@@ -2487,6 +2487,22 @@
     "Die verlinkte Seite öffnen.": "Apri la pagina collegata.",
     "Hilfebereich": "Categoria della guida",
     "Suchbegriffe": "Termini di ricerca",
-    "Zum Beispiel: Netzwerk abschalten": "Ad esempio: disattivare la rete"
+    "Zum Beispiel: Netzwerk abschalten": "Ad esempio: disattivare la rete",
+    "Wann Szene, Helligkeit und Farbe beim Dimmen gemeldet werden.": "Quando scena, luminosità e colore vengono segnalati durante la regolazione.",
+    "Status beim Dimmen": "Stato durante la regolazione",
+    "Am Anfang": "All'inizio",
+    "In der Mitte": "A metà",
+    "Am Ende": "Alla fine",
+    "Wann Szene, Helligkeit und Farbe gemeldet werden, solange ein Ausgang ein-, aus- oder umblendet. Der Schaltstatus kommt weiterhin sofort.": "Quando scena, luminosità e colore vengono segnalati mentre un'uscita si accende, si spegne o cambia scena in dissolvenza. Lo stato di commutazione viene comunque inviato subito.",
+    "Anfang meldet das Ziel sofort. Mitte meldet zur Hälfte der Blendzeit den aktuellen Stand und am Ende den Endstand. Ende meldet nur den Endstand.": "Inizio segnala subito la destinazione. Metà segnala lo stato attuale a metà della dissolvenza e lo stato finale alla fine. Fine segnala solo lo stato finale.",
+    "Auto": "Auto",
+    "Erzeugt einen kurzen, eindeutigen Namen: Hauptphase als Name, Aufbau und Abschalten als Kürzel.": "Crea un nome breve e univoco: la fase principale come nome, accensione e spegnimento come abbreviazioni.",
+    "Mindest-Füllgrad %": "Riempimento minimo %",
+    "Maximal-Füllgrad %": "Riempimento massimo %",
+    "Untergrenze in Prozent des ganzen Strangs. So viele LEDs leuchten immer; über 0 geht die Animation nie ganz aus.": "Limite inferiore in percentuale dell'intera strip. Almeno questi LED restano sempre accesi; sopra 0 l'animazione non si spegne mai del tutto.",
+    "Obergrenze in Prozent des ganzen Strangs. Bis hierhin baut die Animation zufällig auf, dann baut sie wieder ab.": "Limite superiore in percentuale dell'intera strip. L'animazione si costruisce in modo casuale fino a qui, poi si smonta.",
+    "Beide Werte gelten für den ganzen Strang: Bei 50 % leuchtet höchstens die Hälfte aller LEDs, zufällig verteilt.": "Entrambi i valori si riferiscono all'intera strip: al 50 % si accende al massimo metà dei LED, distribuiti a caso.",
+    "Mindestanteil leuchtender LEDs, bezogen auf den ganzen Strang.": "Quota minima di LED accesi, riferita all'intera strip.",
+    "Höchstanteil leuchtender LEDs, bezogen auf den ganzen Strang.": "Quota massima di LED accesi, riferita all'intera strip."
   }
 }

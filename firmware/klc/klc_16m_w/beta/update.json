@@ -1,11 +1,11 @@
 {
-  "url": "knx-led-controller-16m-w_0.1.181.bin.gz",
-  "check_ok": true,
-  "update_available": false,
-  "version": "0.1.181",
-  "bin": "knx-led-controller-16m-w_0.1.181.bin.gz",
-  "file": "knx-led-controller-16m-w_0.1.181.bin.gz",
-  "sha256": "9f298f1bf335956c82dda894c87161dd5f87749a4e76254e17a0f714f254a9c0",
-  "message": "Lauflicht: Die weiche Front laeuft nicht mehr gruen vor der Szenenfarbe her. Sehr dunkle Frontpixel werden proportional gerundet und unter der Untergrenze schwarz statt gelbgruen",
-  "http_code": 200
+    "url":  "knx-led-controller-16m-w_0.1.182.bin",
+    "check_ok":  true,
+    "update_available":  false,
+    "version":  "0.1.182",
+    "bin":  "knx-led-controller-16m-w_0.1.182.bin",
+    "file":  "knx-led-controller-16m-w_0.1.182.bin",
+    "sha256":  "d4141303ac1b3487c5ffce775e19b1c125b77be11ffe93a2655e795770f85ff7",
+    "message":  "Szenen-Editor: Auto-Name aus Hauptphase plus Kuerzeln fuer Aufbau und Abschalten; Zufaelliger Aufbau/Abbau mit Mindest- und Maximal-Fuellgrad bezogen auf den ganzen Strang; Phasenleiste gleich breit, Hilfepunkte hinter bzw. unter Schaltflaechenleisten",
+    "http_code":  200
 }
