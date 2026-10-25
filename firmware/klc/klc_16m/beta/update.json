@@ -1,11 +1,11 @@
 {
-    "url":  "knx-led-controller-16m_0.1.182.bin",
+    "url":  "knx-led-controller-16m_0.1.183.bin",
     "check_ok":  true,
     "update_available":  false,
-    "version":  "0.1.182",
-    "bin":  "knx-led-controller-16m_0.1.182.bin",
-    "file":  "knx-led-controller-16m_0.1.182.bin",
-    "sha256":  "714dc1193e684480b7c8284faec0b0b6d2c175eada92195891f6e8f50e04365b",
-    "message":  "Szenen-Editor: Auto-Name aus Hauptphase plus Kuerzeln fuer Aufbau und Abschalten; Zufaelliger Aufbau/Abbau mit Mindest- und Maximal-Fuellgrad bezogen auf den ganzen Strang; Phasenleiste gleich breit, Hilfepunkte hinter bzw. unter Schaltflaechenleisten",
+    "version":  "0.1.183",
+    "bin":  "knx-led-controller-16m_0.1.183.bin",
+    "file":  "knx-led-controller-16m_0.1.183.bin",
+    "sha256":  "1ff24ab97722c2cffb2f9bb0d4224db7a2b69bf219f712c3865904c4985e79c4",
+    "message":  "Szenenwechsel ohne Schwarzphase: jedes Pixel haelt sein Licht, bis die neue Hauptphase es uebernimmt, und gleitet dann in Farbe und Helligkeit hinueber; nicht gebrauchte Pixel verloeschen zufaellig innerhalb von ein bis zwei Durchgaengen. Ein Hilfepunkt je Feld und Schaltflaechenleiste; Farbreihe Zuletzt verwendet auf einer Linie",
     "http_code":  200
 }

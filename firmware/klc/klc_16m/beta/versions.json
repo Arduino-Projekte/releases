@@ -1,6 +1,13 @@
 {
     "items":  [
                   {
+                      "version":  "0.1.183",
+                      "bin":  "knx-led-controller-16m_0.1.183.bin",
+                      "sha256":  "1ff24ab97722c2cffb2f9bb0d4224db7a2b69bf219f712c3865904c4985e79c4",
+                      "date":  "2026-10-25",
+                      "note":  "Szenenwechsel ohne Schwarzphase: jedes Pixel haelt sein Licht, bis die neue Hauptphase es uebernimmt, und gleitet dann in Farbe und Helligkeit hinueber; nicht gebrauchte Pixel verloeschen zufaellig innerhalb von ein bis zwei Durchgaengen. Ein Hilfepunkt je Feld und Schaltflaechenleiste; Farbreihe Zuletzt verwendet auf einer Linie"
+                  },
+                  {
                       "version":  "0.1.182",
                       "bin":  "knx-led-controller-16m_0.1.182.bin",
                       "sha256":  "714dc1193e684480b7c8284faec0b0b6d2c175eada92195891f6e8f50e04365b",
@@ -27,13 +34,6 @@
                       "sha256":  "d74004654fd14a26c8b66902e292edfdd19bb143459b24febf5991c0134eeaed",
                       "date":  "2026-10-21",
                       "note":  "Animationen: fester Bildtakt fuer alle Ausgaenge (langsamster Strang + 1 ms), Ausgabe zu Taktbeginn; wahrnehmungsrichtige Rampen fuer Sanft ein und Ein-/Ausblenden; weiche Lauflichtfront; keine Flash-Schreibvorgaenge waehrend Auf- und Abbau; schnellere Pixelberechnung"
-                  },
-                  {
-                      "version":  "0.1.178",
-                      "bin":  "knx-led-controller-16m_0.1.178.bin.gz",
-                      "sha256":  "e744b816bf94dd64d2cd0290d3a353e75e623e5b383b0c1898ae68d55ebde424",
-                      "date":  "2026-10-18",
-                      "note":  "OTA: vom Bootloader abgearbeiteten Updateauftrag erkennen und entfernen; Online-Updates nach einem OTA-Update auf 0.1.176/0.1.177 wieder moeglich"
                   }
               ]
 }
