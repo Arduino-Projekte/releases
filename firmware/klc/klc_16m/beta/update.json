@@ -1,11 +1,11 @@
 {
-    "url":  "knx-led-controller-16m_0.1.184.bin",
-    "check_ok":  true,
-    "update_available":  false,
-    "version":  "0.1.184",
-    "bin":  "knx-led-controller-16m_0.1.184.bin",
-    "file":  "knx-led-controller-16m_0.1.184.bin",
-    "sha256":  "fefdecc0474239062e6735719df38e151fbf5d97b827e785e00de6f305d71ec6",
-    "message":  "Funkeln: Fuellgrad stimmt jetzt auch bei kurzer Lebenszeit (die Pause zwischen zwei Funken einer LED wird bei Bedarf kuerzer). Neu Grundlicht % (alle LEDs glimmen zwischen den Funken) und Mindestanteil % (so viele LEDs leuchten immer voll, langsam wechselnd). Funkelfelder auf voller Breite, Globale Effektvorgaben mit gleich hohen Feldern.",
-    "http_code":  200
+  "url": "knx-led-controller-16m_0.1.186.bin.gz",
+  "check_ok": true,
+  "update_available": false,
+  "version": "0.1.186",
+  "bin": "knx-led-controller-16m_0.1.186.bin.gz",
+  "file": "knx-led-controller-16m_0.1.186.bin.gz",
+  "sha256": "4f2dbeecc7c524b2106bb49d563b870a9db1d8c0187b871bea2c70fa20e2d4e0",
+  "message": "Funkeln: Fuellgrad stimmt jetzt auch bei kurzer Lebenszeit (die Pause zwischen zwei Funken einer LED wird bei Bedarf kuerzer). Neu Grundlicht % (alle LEDs glimmen zwischen den Funken) und Mindestanteil % (so viele LEDs leuchten immer voll, langsam wechselnd). Funkelfelder auf voller Breite, Globale Effektvorgaben mit gleich hohen Feldern.",
+  "http_code": 200
 }

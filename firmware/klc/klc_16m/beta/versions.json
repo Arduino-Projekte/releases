@@ -1,39 +1,39 @@
 {
-    "items":  [
-                  {
-                      "version":  "0.1.184",
-                      "bin":  "knx-led-controller-16m_0.1.184.bin",
-                      "sha256":  "fefdecc0474239062e6735719df38e151fbf5d97b827e785e00de6f305d71ec6",
-                      "date":  "2026-10-25",
-                      "note":  "Funkeln: Fuellgrad stimmt jetzt auch bei kurzer Lebenszeit (die Pause zwischen zwei Funken einer LED wird bei Bedarf kuerzer). Neu Grundlicht % (alle LEDs glimmen zwischen den Funken) und Mindestanteil % (so viele LEDs leuchten immer voll, langsam wechselnd). Funkelfelder auf voller Breite, Globale Effektvorgaben mit gleich hohen Feldern."
-                  },
-                  {
-                      "version":  "0.1.183",
-                      "bin":  "knx-led-controller-16m_0.1.183.bin",
-                      "sha256":  "4e68c2731e250b12df202dffa4ab72645cd8fbf0adcb75422278ecc702e9ab9a",
-                      "date":  "2026-10-25",
-                      "note":  "Szenenwechsel ohne Schwarzphase: jedes Pixel haelt sein Licht, bis die neue Hauptphase es uebernimmt, und gleitet dann in Farbe und Helligkeit hinueber; nicht gebrauchte Pixel verloeschen zufaellig innerhalb von ein bis zwei Durchgaengen. Ein Hilfepunkt je Feld und Schaltflaechenleiste; Farbreihe Zuletzt verwendet auf einer Linie"
-                  },
-                  {
-                      "version":  "0.1.182",
-                      "bin":  "knx-led-controller-16m_0.1.182.bin",
-                      "sha256":  "714dc1193e684480b7c8284faec0b0b6d2c175eada92195891f6e8f50e04365b",
-                      "date":  "2026-10-25",
-                      "note":  "Szenen-Editor: Auto-Name aus Hauptphase plus Kuerzeln fuer Aufbau und Abschalten; Zufaelliger Aufbau/Abbau mit Mindest- und Maximal-Fuellgrad bezogen auf den ganzen Strang; Phasenleiste gleich breit, Hilfepunkte hinter bzw. unter Schaltflaechenleisten"
-                  },
-                  {
-                      "version":  "0.1.181",
-                      "bin":  "knx-led-controller-16m_0.1.181.bin.gz",
-                      "sha256":  "0a96507ac1b1c7ec91615c92141ba559028fbeafc173d57f7803ee74051f0b97",
-                      "date":  "2026-10-23",
-                      "note":  "Lauflicht: Die weiche Front laeuft nicht mehr gruen vor der Szenenfarbe her. Sehr dunkle Frontpixel werden proportional gerundet und unter der Untergrenze schwarz statt gelbgruen"
-                  },
-                  {
-                      "version":  "0.1.180",
-                      "bin":  "knx-led-controller-16m_0.1.180.bin.gz",
-                      "sha256":  "45583c95239bc797bed9dff59f30037ec1b859a0f280b01713ec79c1f04c79b4",
-                      "date":  "2026-10-21",
-                      "note":  "Animationen: Szenen und LED-Ausgabe laufen auf dem zweiten Prozessorkern. Netzwerk, TLS, Updatepruefung und das Laden der Weboberflaeche halten die Animation nicht mehr an; neue Diagnosewerte zu Sperrzeiten und Core-1-Stack"
-                  }
-              ]
+  "items": [
+    {
+      "version": "0.1.186",
+      "bin": "knx-led-controller-16m_0.1.186.bin.gz",
+      "sha256": "4f2dbeecc7c524b2106bb49d563b870a9db1d8c0187b871bea2c70fa20e2d4e0",
+      "date": "2026-10-25",
+      "note": "Funkeln: Fuellgrad stimmt jetzt auch bei kurzer Lebenszeit (die Pause zwischen zwei Funken einer LED wird bei Bedarf kuerzer). Neu Grundlicht % (alle LEDs glimmen zwischen den Funken) und Mindestanteil % (so viele LEDs leuchten immer voll, langsam wechselnd). Funkelfelder auf voller Breite, Globale Effektvorgaben mit gleich hohen Feldern."
+    },
+    {
+      "version": "0.1.184",
+      "bin": "knx-led-controller-16m_0.1.184.bin",
+      "sha256": "fefdecc0474239062e6735719df38e151fbf5d97b827e785e00de6f305d71ec6",
+      "date": "2026-10-25",
+      "note": "Funkeln: Fuellgrad stimmt jetzt auch bei kurzer Lebenszeit (die Pause zwischen zwei Funken einer LED wird bei Bedarf kuerzer). Neu Grundlicht % (alle LEDs glimmen zwischen den Funken) und Mindestanteil % (so viele LEDs leuchten immer voll, langsam wechselnd). Funkelfelder auf voller Breite, Globale Effektvorgaben mit gleich hohen Feldern."
+    },
+    {
+      "version": "0.1.183",
+      "bin": "knx-led-controller-16m_0.1.183.bin",
+      "sha256": "4e68c2731e250b12df202dffa4ab72645cd8fbf0adcb75422278ecc702e9ab9a",
+      "date": "2026-10-25",
+      "note": "Szenenwechsel ohne Schwarzphase: jedes Pixel haelt sein Licht, bis die neue Hauptphase es uebernimmt, und gleitet dann in Farbe und Helligkeit hinueber; nicht gebrauchte Pixel verloeschen zufaellig innerhalb von ein bis zwei Durchgaengen. Ein Hilfepunkt je Feld und Schaltflaechenleiste; Farbreihe Zuletzt verwendet auf einer Linie"
+    },
+    {
+      "version": "0.1.182",
+      "bin": "knx-led-controller-16m_0.1.182.bin",
+      "sha256": "714dc1193e684480b7c8284faec0b0b6d2c175eada92195891f6e8f50e04365b",
+      "date": "2026-10-25",
+      "note": "Szenen-Editor: Auto-Name aus Hauptphase plus Kuerzeln fuer Aufbau und Abschalten; Zufaelliger Aufbau/Abbau mit Mindest- und Maximal-Fuellgrad bezogen auf den ganzen Strang; Phasenleiste gleich breit, Hilfepunkte hinter bzw. unter Schaltflaechenleisten"
+    },
+    {
+      "version": "0.1.181",
+      "bin": "knx-led-controller-16m_0.1.181.bin.gz",
+      "sha256": "0a96507ac1b1c7ec91615c92141ba559028fbeafc173d57f7803ee74051f0b97",
+      "date": "2026-10-23",
+      "note": "Lauflicht: Die weiche Front laeuft nicht mehr gruen vor der Szenenfarbe her. Sehr dunkle Frontpixel werden proportional gerundet und unter der Untergrenze schwarz statt gelbgruen"
+    }
+  ]
 }
