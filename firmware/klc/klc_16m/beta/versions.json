@@ -1,6 +1,13 @@
 {
   "items": [
     {
+      "version": "0.1.187",
+      "bin": "knx-led-controller-16m_0.1.187.bin.gz",
+      "sha256": "d01bebb897fe10b6eed1a4f8a3b4ece9afd6fcfd034c811d9618889e8f2450ed",
+      "date": "2026-10-26",
+      "note": "Animationen ruckeln nicht mehr im Sekundentakt: Das Senden von KNX-Telegrammen gibt die Rendersperre frei, Core 1 rechnet waehrenddessen weiter"
+    },
+    {
       "version": "0.1.186",
       "bin": "knx-led-controller-16m_0.1.186.bin.gz",
       "sha256": "4f2dbeecc7c524b2106bb49d563b870a9db1d8c0187b871bea2c70fa20e2d4e0",
@@ -27,13 +34,6 @@
       "sha256": "714dc1193e684480b7c8284faec0b0b6d2c175eada92195891f6e8f50e04365b",
       "date": "2026-10-25",
       "note": "Szenen-Editor: Auto-Name aus Hauptphase plus Kuerzeln fuer Aufbau und Abschalten; Zufaelliger Aufbau/Abbau mit Mindest- und Maximal-Fuellgrad bezogen auf den ganzen Strang; Phasenleiste gleich breit, Hilfepunkte hinter bzw. unter Schaltflaechenleisten"
-    },
-    {
-      "version": "0.1.181",
-      "bin": "knx-led-controller-16m_0.1.181.bin.gz",
-      "sha256": "0a96507ac1b1c7ec91615c92141ba559028fbeafc173d57f7803ee74051f0b97",
-      "date": "2026-10-23",
-      "note": "Lauflicht: Die weiche Front laeuft nicht mehr gruen vor der Szenenfarbe her. Sehr dunkle Frontpixel werden proportional gerundet und unter der Untergrenze schwarz statt gelbgruen"
     }
   ]
 }

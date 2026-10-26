@@ -1,11 +1,11 @@
 {
-  "url": "knx-led-controller-16m_0.1.186.bin.gz",
+  "url": "knx-led-controller-16m_0.1.187.bin.gz",
   "check_ok": true,
   "update_available": false,
-  "version": "0.1.186",
-  "bin": "knx-led-controller-16m_0.1.186.bin.gz",
-  "file": "knx-led-controller-16m_0.1.186.bin.gz",
-  "sha256": "4f2dbeecc7c524b2106bb49d563b870a9db1d8c0187b871bea2c70fa20e2d4e0",
-  "message": "Funkeln: Fuellgrad stimmt jetzt auch bei kurzer Lebenszeit (die Pause zwischen zwei Funken einer LED wird bei Bedarf kuerzer). Neu Grundlicht % (alle LEDs glimmen zwischen den Funken) und Mindestanteil % (so viele LEDs leuchten immer voll, langsam wechselnd). Funkelfelder auf voller Breite, Globale Effektvorgaben mit gleich hohen Feldern.",
+  "version": "0.1.187",
+  "bin": "knx-led-controller-16m_0.1.187.bin.gz",
+  "file": "knx-led-controller-16m_0.1.187.bin.gz",
+  "sha256": "d01bebb897fe10b6eed1a4f8a3b4ece9afd6fcfd034c811d9618889e8f2450ed",
+  "message": "Animationen ruckeln nicht mehr im Sekundentakt: Das Senden von KNX-Telegrammen gibt die Rendersperre frei, Core 1 rechnet waehrenddessen weiter",
   "http_code": 200
 }
