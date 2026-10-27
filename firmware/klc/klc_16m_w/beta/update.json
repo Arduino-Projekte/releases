@@ -1,11 +1,11 @@
 {
-  "url": "knx-led-controller-16m-w_0.1.187.bin.gz",
+  "url": "knx-led-controller-16m-w_0.1.188.bin.gz",
   "check_ok": true,
   "update_available": false,
-  "version": "0.1.187",
-  "bin": "knx-led-controller-16m-w_0.1.187.bin.gz",
-  "file": "knx-led-controller-16m-w_0.1.187.bin.gz",
-  "sha256": "5f2c233ba785650d317271d131bc0bfcc3e6c44d73f3de9c50d055f71bbae7b2",
-  "message": "Animationen ruckeln nicht mehr im Sekundentakt: Das Senden von KNX-Telegrammen gibt die Rendersperre frei, Core 1 rechnet waehrenddessen weiter",
+  "version": "0.1.188",
+  "bin": "knx-led-controller-16m-w_0.1.188.bin.gz",
+  "file": "knx-led-controller-16m-w_0.1.188.bin.gz",
+  "sha256": "bb91a777475d46c3dece761316dcf82ce603cb1569e6079921e6c99624d25cd1",
+  "message": "Zufall, Funkeln, Feuerwerk, Welle, Tetrix, Pulsation, Warnblinken und Lauflicht laufen ohne Aufbau- und Abschalteffekt; Sanft Ein/Aus und Ueberblendzeit wirken weiter",
   "http_code": 200
 }

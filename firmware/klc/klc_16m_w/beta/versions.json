@@ -1,6 +1,13 @@
 {
   "items": [
     {
+      "version": "0.1.188",
+      "bin": "knx-led-controller-16m-w_0.1.188.bin.gz",
+      "sha256": "bb91a777475d46c3dece761316dcf82ce603cb1569e6079921e6c99624d25cd1",
+      "date": "2026-10-27",
+      "note": "Zufall, Funkeln, Feuerwerk, Welle, Tetrix, Pulsation, Warnblinken und Lauflicht laufen ohne Aufbau- und Abschalteffekt; Sanft Ein/Aus und Ueberblendzeit wirken weiter"
+    },
+    {
       "version": "0.1.187",
       "bin": "knx-led-controller-16m-w_0.1.187.bin.gz",
       "sha256": "5f2c233ba785650d317271d131bc0bfcc3e6c44d73f3de9c50d055f71bbae7b2",
@@ -27,13 +34,6 @@
       "sha256": "7ac88d11bb944eb4053cd882f9f6c59538f754ef7999f7e3b8afe0c8485df0a8",
       "date": "2026-10-25",
       "note": "Szenenwechsel ohne Schwarzphase: jedes Pixel haelt sein Licht, bis die neue Hauptphase es uebernimmt, und gleitet dann in Farbe und Helligkeit hinueber; nicht gebrauchte Pixel verloeschen zufaellig innerhalb von ein bis zwei Durchgaengen. Ein Hilfepunkt je Feld und Schaltflaechenleiste; Farbreihe Zuletzt verwendet auf einer Linie"
-    },
-    {
-      "version": "0.1.182",
-      "bin": "knx-led-controller-16m-w_0.1.182.bin",
-      "sha256": "d4141303ac1b3487c5ffce775e19b1c125b77be11ffe93a2655e795770f85ff7",
-      "date": "2026-10-25",
-      "note": "Szenen-Editor: Auto-Name aus Hauptphase plus Kuerzeln fuer Aufbau und Abschalten; Zufaelliger Aufbau/Abbau mit Mindest- und Maximal-Fuellgrad bezogen auf den ganzen Strang; Phasenleiste gleich breit, Hilfepunkte hinter bzw. unter Schaltflaechenleisten"
     }
   ]
 }
