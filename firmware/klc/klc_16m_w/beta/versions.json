@@ -1,6 +1,13 @@
 {
   "items": [
     {
+      "version": "0.1.192",
+      "bin": "knx-led-controller-16m-w_0.1.192.bin.gz",
+      "sha256": "94e3ede25ba117b5622ae1e5d9605726442a7fde2e7a798b78b4c4525a3e5bfb",
+      "date": "2026-10-28",
+      "note": "Pixelweise Uebernahme zum Zufaelligen Aufbau: alte LEDs halten, bis der Zufallsaufbau jede LED einmal erreicht hat, statt nach dem ersten Aufbau auf einmal zu verloeschen"
+    },
+    {
       "version": "0.1.191",
       "bin": "knx-led-controller-16m-w_0.1.191.bin.gz",
       "sha256": "8b05077efca34e9293ef4fe0967deea47b4d25a33cf097fceba55a2b096e5c94",
@@ -27,13 +34,6 @@
       "sha256": "5f2c233ba785650d317271d131bc0bfcc3e6c44d73f3de9c50d055f71bbae7b2",
       "date": "2026-10-26",
       "note": "Animationen ruckeln nicht mehr im Sekundentakt: Das Senden von KNX-Telegrammen gibt die Rendersperre frei, Core 1 rechnet waehrenddessen weiter"
-    },
-    {
-      "version": "0.1.186",
-      "bin": "knx-led-controller-16m-w_0.1.186.bin.gz",
-      "sha256": "b374080425ab37647d74fb8eb70a0387d20be0431b75e9abac3c7fabeda242e2",
-      "date": "2026-10-25",
-      "note": "Funkeln: Fuellgrad stimmt jetzt auch bei kurzer Lebenszeit (die Pause zwischen zwei Funken einer LED wird bei Bedarf kuerzer). Neu Grundlicht % (alle LEDs glimmen zwischen den Funken) und Mindestanteil % (so viele LEDs leuchten immer voll, langsam wechselnd). Funkelfelder auf voller Breite, Globale Effektvorgaben mit gleich hohen Feldern."
     }
   ]
 }
