@@ -1,6 +1,13 @@
 {
   "items": [
     {
+      "version": "0.1.193",
+      "bin": "knx-led-controller-16m-w_0.1.193.bin.gz",
+      "sha256": "43698fffbbfd0855ace99f9fff41c023f66e9fc06875f43fc0ac087733964c38",
+      "date": "2026-10-28",
+      "note": "Pixelweise Uebernahme zum Funkeln: alte LEDs halten ihr Licht, bis ein Funke sie trifft, und gehen erst danach auf das Grundlicht"
+    },
+    {
       "version": "0.1.192",
       "bin": "knx-led-controller-16m-w_0.1.192.bin.gz",
       "sha256": "94e3ede25ba117b5622ae1e5d9605726442a7fde2e7a798b78b4c4525a3e5bfb",
@@ -27,13 +34,6 @@
       "sha256": "bb91a777475d46c3dece761316dcf82ce603cb1569e6079921e6c99624d25cd1",
       "date": "2026-10-27",
       "note": "Zufall, Funkeln, Feuerwerk, Welle, Tetrix, Pulsation, Warnblinken und Lauflicht laufen ohne Aufbau- und Abschalteffekt; Sanft Ein/Aus und Ueberblendzeit wirken weiter"
-    },
-    {
-      "version": "0.1.187",
-      "bin": "knx-led-controller-16m-w_0.1.187.bin.gz",
-      "sha256": "5f2c233ba785650d317271d131bc0bfcc3e6c44d73f3de9c50d055f71bbae7b2",
-      "date": "2026-10-26",
-      "note": "Animationen ruckeln nicht mehr im Sekundentakt: Das Senden von KNX-Telegrammen gibt die Rendersperre frei, Core 1 rechnet waehrenddessen weiter"
     }
   ]
 }
