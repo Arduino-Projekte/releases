@@ -1,6 +1,13 @@
 {
   "items": [
     {
+      "version": "0.1.189",
+      "bin": "knx-led-controller-16m-w_0.1.189.bin.gz",
+      "sha256": "2c447f2a467830097bde4c86f27df9e5949dbac02a9f853b02b231a06e0aa81b",
+      "date": "2026-10-28",
+      "note": "Szenenwechsel je Szene: Pixelweise uebernehmen (alte LEDs halten, bis die neue Szene sie trifft, ungenutzte verloeschen nach einem Durchgang weich) oder Ueberblenden ueber die eingestellte Zeit; Szenenliste scrollt unabhaengig vom Editor"
+    },
+    {
       "version": "0.1.188",
       "bin": "knx-led-controller-16m-w_0.1.188.bin.gz",
       "sha256": "bb91a777475d46c3dece761316dcf82ce603cb1569e6079921e6c99624d25cd1",
@@ -27,13 +34,6 @@
       "sha256": "1ce5f9c9d4f6adb18d96110e83c1649215873abdba8243473038e2e863c834b5",
       "date": "2026-10-25",
       "note": "Funkeln: Fuellgrad stimmt jetzt auch bei kurzer Lebenszeit (die Pause zwischen zwei Funken einer LED wird bei Bedarf kuerzer). Neu Grundlicht % (alle LEDs glimmen zwischen den Funken) und Mindestanteil % (so viele LEDs leuchten immer voll, langsam wechselnd). Funkelfelder auf voller Breite, Globale Effektvorgaben mit gleich hohen Feldern."
-    },
-    {
-      "version": "0.1.183",
-      "bin": "knx-led-controller-16m-w_0.1.183.bin",
-      "sha256": "7ac88d11bb944eb4053cd882f9f6c59538f754ef7999f7e3b8afe0c8485df0a8",
-      "date": "2026-10-25",
-      "note": "Szenenwechsel ohne Schwarzphase: jedes Pixel haelt sein Licht, bis die neue Hauptphase es uebernimmt, und gleitet dann in Farbe und Helligkeit hinueber; nicht gebrauchte Pixel verloeschen zufaellig innerhalb von ein bis zwei Durchgaengen. Ein Hilfepunkt je Feld und Schaltflaechenleiste; Farbreihe Zuletzt verwendet auf einer Linie"
     }
   ]
 }

@@ -1,11 +1,11 @@
 {
-  "url": "knx-led-controller-16m-w_0.1.188.bin.gz",
+  "url": "knx-led-controller-16m-w_0.1.189.bin.gz",
   "check_ok": true,
   "update_available": false,
-  "version": "0.1.188",
-  "bin": "knx-led-controller-16m-w_0.1.188.bin.gz",
-  "file": "knx-led-controller-16m-w_0.1.188.bin.gz",
-  "sha256": "bb91a777475d46c3dece761316dcf82ce603cb1569e6079921e6c99624d25cd1",
-  "message": "Zufall, Funkeln, Feuerwerk, Welle, Tetrix, Pulsation, Warnblinken und Lauflicht laufen ohne Aufbau- und Abschalteffekt; Sanft Ein/Aus und Ueberblendzeit wirken weiter",
+  "version": "0.1.189",
+  "bin": "knx-led-controller-16m-w_0.1.189.bin.gz",
+  "file": "knx-led-controller-16m-w_0.1.189.bin.gz",
+  "sha256": "2c447f2a467830097bde4c86f27df9e5949dbac02a9f853b02b231a06e0aa81b",
+  "message": "Szenenwechsel je Szene: Pixelweise uebernehmen (alte LEDs halten, bis die neue Szene sie trifft, ungenutzte verloeschen nach einem Durchgang weich) oder Ueberblenden ueber die eingestellte Zeit; Szenenliste scrollt unabhaengig vom Editor",
   "http_code": 200
 }
