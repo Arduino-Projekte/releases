@@ -1,6 +1,13 @@
 {
   "items": [
     {
+      "version": "0.1.194",
+      "bin": "knx-led-controller-16m_0.1.194.bin.gz",
+      "sha256": "9e3060ed8b37719ea29bc58d89ca476f7a671d076bca87bf20ad9f11706febba",
+      "date": "2026-10-29",
+      "note": "Aufbau rollt ueber die laufende Szene: mit Aufbau immer ausfuehren laeuft die alte Szene weiter, bis der Aufbau ihre LEDs erreicht, statt erst dunkel zu werden"
+    },
+    {
       "version": "0.1.193",
       "bin": "knx-led-controller-16m_0.1.193.bin.gz",
       "sha256": "defdfcc08cde641675c22f035b2708c0d7e874d305efe23ee25017402b55d068",
@@ -27,13 +34,6 @@
       "sha256": "e3702d2f29f3d4d7d37bc6d2c3448ba5ffb8951b2334f7da6d1f53242052aa26",
       "date": "2026-10-28",
       "note": "Szenenwechsel je Szene: Pixelweise uebernehmen (alte LEDs halten, bis die neue Szene sie trifft, ungenutzte verloeschen nach einem Durchgang weich) oder Ueberblenden ueber die eingestellte Zeit; Szenenliste scrollt unabhaengig vom Editor"
-    },
-    {
-      "version": "0.1.188",
-      "bin": "knx-led-controller-16m_0.1.188.bin.gz",
-      "sha256": "5eef8389f2d40f8e0bd73c15cf79b4f8632d8c0f62cfd9495e84a3ef71ed3b7e",
-      "date": "2026-10-27",
-      "note": "Zufall, Funkeln, Feuerwerk, Welle, Tetrix, Pulsation, Warnblinken und Lauflicht laufen ohne Aufbau- und Abschalteffekt; Sanft Ein/Aus und Ueberblendzeit wirken weiter"
     }
   ]
 }

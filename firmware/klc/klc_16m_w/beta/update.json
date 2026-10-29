@@ -1,11 +1,11 @@
 {
-  "url": "knx-led-controller-16m-w_0.1.193.bin.gz",
+  "url": "knx-led-controller-16m-w_0.1.194.bin.gz",
   "check_ok": true,
   "update_available": false,
-  "version": "0.1.193",
-  "bin": "knx-led-controller-16m-w_0.1.193.bin.gz",
-  "file": "knx-led-controller-16m-w_0.1.193.bin.gz",
-  "sha256": "43698fffbbfd0855ace99f9fff41c023f66e9fc06875f43fc0ac087733964c38",
-  "message": "Pixelweise Uebernahme zum Funkeln: alte LEDs halten ihr Licht, bis ein Funke sie trifft, und gehen erst danach auf das Grundlicht",
+  "version": "0.1.194",
+  "bin": "knx-led-controller-16m-w_0.1.194.bin.gz",
+  "file": "knx-led-controller-16m-w_0.1.194.bin.gz",
+  "sha256": "cfc1fb958dc3f45d6af65da75dde9d48bd7e9d29ce55c19493a1cb5245fc3a27",
+  "message": "Aufbau rollt ueber die laufende Szene: mit Aufbau immer ausfuehren laeuft die alte Szene weiter, bis der Aufbau ihre LEDs erreicht, statt erst dunkel zu werden",
   "http_code": 200
 }
