@@ -1,6 +1,13 @@
 {
   "items": [
     {
+      "version": "0.1.195",
+      "bin": "knx-led-controller-16m-w_0.1.195.bin.gz",
+      "sha256": "f41b6adf522315dd69d4bd528744d34e9300ef62f47c6f4fc4b3e472cfae58a3",
+      "date": "2026-10-31",
+      "note": "Szeneneditor zeigt nur wirksame Regler: feste und automatische Zeiten, klare Szenenwechsel und erhaltene Einstellungen fuer sanfte Animationen"
+    },
+    {
       "version": "0.1.194",
       "bin": "knx-led-controller-16m-w_0.1.194.bin.gz",
       "sha256": "cfc1fb958dc3f45d6af65da75dde9d48bd7e9d29ce55c19493a1cb5245fc3a27",
@@ -27,13 +34,6 @@
       "sha256": "8b05077efca34e9293ef4fe0967deea47b4d25a33cf097fceba55a2b096e5c94",
       "date": "2026-10-28",
       "note": "Szeneneditor: Beim Wechsel zu einer anderen Szene in der Liste bleiben Seite und Liste auf derselben Scrollhoehe"
-    },
-    {
-      "version": "0.1.189",
-      "bin": "knx-led-controller-16m-w_0.1.189.bin.gz",
-      "sha256": "2c447f2a467830097bde4c86f27df9e5949dbac02a9f853b02b231a06e0aa81b",
-      "date": "2026-10-28",
-      "note": "Szenenwechsel je Szene: Pixelweise uebernehmen (alte LEDs halten, bis die neue Szene sie trifft, ungenutzte verloeschen nach einem Durchgang weich) oder Ueberblenden ueber die eingestellte Zeit; Szenenliste scrollt unabhaengig vom Editor"
     }
   ]
 }

@@ -1,11 +1,11 @@
 {
-  "url": "knx-led-controller-16m-w_0.1.194.bin.gz",
+  "url": "knx-led-controller-16m-w_0.1.195.bin.gz",
   "check_ok": true,
   "update_available": false,
-  "version": "0.1.194",
-  "bin": "knx-led-controller-16m-w_0.1.194.bin.gz",
-  "file": "knx-led-controller-16m-w_0.1.194.bin.gz",
-  "sha256": "cfc1fb958dc3f45d6af65da75dde9d48bd7e9d29ce55c19493a1cb5245fc3a27",
-  "message": "Aufbau rollt ueber die laufende Szene: mit Aufbau immer ausfuehren laeuft die alte Szene weiter, bis der Aufbau ihre LEDs erreicht, statt erst dunkel zu werden",
+  "version": "0.1.195",
+  "bin": "knx-led-controller-16m-w_0.1.195.bin.gz",
+  "file": "knx-led-controller-16m-w_0.1.195.bin.gz",
+  "sha256": "f41b6adf522315dd69d4bd528744d34e9300ef62f47c6f4fc4b3e472cfae58a3",
+  "message": "Szeneneditor zeigt nur wirksame Regler: feste und automatische Zeiten, klare Szenenwechsel und erhaltene Einstellungen fuer sanfte Animationen",
   "http_code": 200
 }
