@@ -1,6 +1,13 @@
 {
   "items": [
     {
+      "version": "0.1.196",
+      "bin": "knx-led-controller-16m_0.1.196.bin.gz",
+      "sha256": "d4384285fc506167a91ecc5484284be0e00b457393c5b8e81e86168ca04e95ab",
+      "date": "2026-11-01",
+      "note": "Ablauf A/B in allen Sprachen; leuchtende Ausgaenge wahlweise ueberspringen oder erneut ausfuehren, ohne vorher auszuschalten"
+    },
+    {
       "version": "0.1.195",
       "bin": "knx-led-controller-16m_0.1.195.bin.gz",
       "sha256": "1ab3962ea7bbc919119aecf5758b1cbcdb77db2d4619ef2f1ae4e12c7108ba6a",
@@ -27,13 +34,6 @@
       "sha256": "e9a9e8cf47b9bdce8ca79ebd268c3e706761e6af35955f32544f5b4e5f2ae9c4",
       "date": "2026-10-28",
       "note": "Pixelweise Uebernahme zum Zufaelligen Aufbau: alte LEDs halten, bis der Zufallsaufbau jede LED einmal erreicht hat, statt nach dem ersten Aufbau auf einmal zu verloeschen"
-    },
-    {
-      "version": "0.1.191",
-      "bin": "knx-led-controller-16m_0.1.191.bin.gz",
-      "sha256": "3daa7e0b3852149fe7e7e55085e2952b8effe6f9033e37e5ad2f5a4e2969ebc5",
-      "date": "2026-10-28",
-      "note": "Szeneneditor: Beim Wechsel zu einer anderen Szene in der Liste bleiben Seite und Liste auf derselben Scrollhoehe"
     }
   ]
 }

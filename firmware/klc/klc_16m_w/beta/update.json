@@ -1,11 +1,11 @@
 {
-  "url": "knx-led-controller-16m-w_0.1.195.bin.gz",
+  "url": "knx-led-controller-16m-w_0.1.196.bin.gz",
   "check_ok": true,
   "update_available": false,
-  "version": "0.1.195",
-  "bin": "knx-led-controller-16m-w_0.1.195.bin.gz",
-  "file": "knx-led-controller-16m-w_0.1.195.bin.gz",
-  "sha256": "f41b6adf522315dd69d4bd528744d34e9300ef62f47c6f4fc4b3e472cfae58a3",
-  "message": "Szeneneditor zeigt nur wirksame Regler: feste und automatische Zeiten, klare Szenenwechsel und erhaltene Einstellungen fuer sanfte Animationen",
+  "version": "0.1.196",
+  "bin": "knx-led-controller-16m-w_0.1.196.bin.gz",
+  "file": "knx-led-controller-16m-w_0.1.196.bin.gz",
+  "sha256": "d40d238f34babe8a6dcbd97a993e23d698a190b7a4442e00540f4f4cacd226c7",
+  "message": "Ablauf A/B in allen Sprachen; leuchtende Ausgaenge wahlweise ueberspringen oder erneut ausfuehren, ohne vorher auszuschalten",
   "http_code": 200
 }
