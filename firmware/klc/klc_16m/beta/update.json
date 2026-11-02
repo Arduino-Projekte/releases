@@ -1,11 +1,11 @@
 {
-  "url": "knx-led-controller-16m_0.1.196.bin.gz",
+  "url": "knx-led-controller-16m_0.1.199.bin.gz",
   "check_ok": true,
   "update_available": false,
-  "version": "0.1.196",
-  "bin": "knx-led-controller-16m_0.1.196.bin.gz",
-  "file": "knx-led-controller-16m_0.1.196.bin.gz",
-  "sha256": "d4384285fc506167a91ecc5484284be0e00b457393c5b8e81e86168ca04e95ab",
-  "message": "Ablauf A/B in allen Sprachen; leuchtende Ausgaenge wahlweise ueberspringen oder erneut ausfuehren, ohne vorher auszuschalten",
+  "version": "0.1.199",
+  "bin": "knx-led-controller-16m_0.1.199.bin.gz",
+  "file": "knx-led-controller-16m_0.1.199.bin.gz",
+  "sha256": "8b18fa799c7f1b8af1776aaf99fd6389546ed29e941da2508df0722d5bb6c104",
+  "message": "KNX-Einschaltfreigaben auch nach Speicherwartezeit pruefen; MCP-Admin und Szenenphase",
   "http_code": 200
 }

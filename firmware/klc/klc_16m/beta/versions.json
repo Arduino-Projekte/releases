@@ -1,6 +1,13 @@
 {
   "items": [
     {
+      "version": "0.1.199",
+      "bin": "knx-led-controller-16m_0.1.199.bin.gz",
+      "sha256": "8b18fa799c7f1b8af1776aaf99fd6389546ed29e941da2508df0722d5bb6c104",
+      "date": "2026-11-02",
+      "note": "KNX-Einschaltfreigaben auch nach Speicherwartezeit pruefen; MCP-Admin und Szenenphase"
+    },
+    {
       "version": "0.1.196",
       "bin": "knx-led-controller-16m_0.1.196.bin.gz",
       "sha256": "d4384285fc506167a91ecc5484284be0e00b457393c5b8e81e86168ca04e95ab",
@@ -27,13 +34,6 @@
       "sha256": "defdfcc08cde641675c22f035b2708c0d7e874d305efe23ee25017402b55d068",
       "date": "2026-10-28",
       "note": "Pixelweise Uebernahme zum Funkeln: alte LEDs halten ihr Licht, bis ein Funke sie trifft, und gehen erst danach auf das Grundlicht"
-    },
-    {
-      "version": "0.1.192",
-      "bin": "knx-led-controller-16m_0.1.192.bin.gz",
-      "sha256": "e9a9e8cf47b9bdce8ca79ebd268c3e706761e6af35955f32544f5b4e5f2ae9c4",
-      "date": "2026-10-28",
-      "note": "Pixelweise Uebernahme zum Zufaelligen Aufbau: alte LEDs halten, bis der Zufallsaufbau jede LED einmal erreicht hat, statt nach dem ersten Aufbau auf einmal zu verloeschen"
     }
   ]
 }
