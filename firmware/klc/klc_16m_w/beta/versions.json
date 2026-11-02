@@ -1,6 +1,13 @@
 {
   "items": [
     {
+      "version": "0.1.200",
+      "bin": "knx-led-controller-16m-w_0.1.200.bin.gz",
+      "sha256": "c0aad7661f50df9ebff6476aace7448cedb5e89fd41b643b9b2865490754313b",
+      "date": "2026-11-02",
+      "note": "MCP fuer zwei Controller; Browserbestaetigung und Backup pro Geraet einstellbar"
+    },
+    {
       "version": "0.1.199",
       "bin": "knx-led-controller-16m-w_0.1.199.bin.gz",
       "sha256": "66df0dd910687087b53939d66571aca1d3684ddef0a3b6b32cf7dee4c0a146ec",
@@ -27,13 +34,6 @@
       "sha256": "cfc1fb958dc3f45d6af65da75dde9d48bd7e9d29ce55c19493a1cb5245fc3a27",
       "date": "2026-10-29",
       "note": "Aufbau rollt ueber die laufende Szene: mit Aufbau immer ausfuehren laeuft die alte Szene weiter, bis der Aufbau ihre LEDs erreicht, statt erst dunkel zu werden"
-    },
-    {
-      "version": "0.1.193",
-      "bin": "knx-led-controller-16m-w_0.1.193.bin.gz",
-      "sha256": "43698fffbbfd0855ace99f9fff41c023f66e9fc06875f43fc0ac087733964c38",
-      "date": "2026-10-28",
-      "note": "Pixelweise Uebernahme zum Funkeln: alte LEDs halten ihr Licht, bis ein Funke sie trifft, und gehen erst danach auf das Grundlicht"
     }
   ]
 }
