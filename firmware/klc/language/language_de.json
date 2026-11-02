@@ -5,7 +5,7 @@
   "minimum_firmware_version": "0.0.593",
   "maximum_firmware_version": "0.1.999",
   "compatibility_version": 1,
-  "package_version": "2.7.19",
+  "package_version": "2.7.21",
   "translations": {
     "Steuerung": "Steuerung",
     "Abläufe": "Abläufe",
@@ -2603,6 +2603,12 @@
     "Ablauf B auslösen": "Ablauf B auslösen",
     "KNX Objekt Bblauf B": "KNX Objekt Bblauf B",
     "Bereits leuchtende Ausgänge": "Bereits leuchtende Ausgänge",
-    "Erneut ausführen": "Erneut ausführen"
+    "Erneut ausführen": "Erneut ausführen",
+    "Browserbestätigung für MCP-Änderungen": "Browserbestätigung für MCP-Änderungen",
+    "Automatisches Backup vor MCP-Änderungen": "Automatisches Backup vor MCP-Änderungen",
+    "Ohne Bestätigung: direkter KI-Zugriff. Backup auf NAS. Gilt nur hier.": "Ohne Bestätigung: direkter KI-Zugriff. Backup auf NAS. Gilt nur hier.",
+    "MCP-Einstellungen gespeichert": "MCP-Einstellungen gespeichert",
+    "KLC Zentrale Szene (DP 2)": "KLC Zentrale Szene (DP 2)",
+    "Letzte Einstellung, feste Szene oder DP 2; ohne Vorgabe Szene 1.": "Letzte Einstellung, feste Szene oder DP 2; ohne Vorgabe Szene 1."
   }
 }

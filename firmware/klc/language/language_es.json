@@ -5,7 +5,7 @@
   "minimum_firmware_version": "0.0.593",
   "maximum_firmware_version": "0.1.999",
   "compatibility_version": 1,
-  "package_version": "2.7.19",
+  "package_version": "2.7.21",
   "translations": {
     "Steuerung": "Control",
     "Abläufe": "Secuencias",
@@ -2603,6 +2603,12 @@
     "Ablauf B auslösen": "Activar secuencia B",
     "KNX Objekt Bblauf B": "Objeto KNX secuencia B",
     "Bereits leuchtende Ausgänge": "Salidas ya encendidas",
-    "Erneut ausführen": "Ejecutar de nuevo"
+    "Erneut ausführen": "Ejecutar de nuevo",
+    "Browserbestätigung für MCP-Änderungen": "Confirmación en el navegador para cambios MCP",
+    "Automatisches Backup vor MCP-Änderungen": "Copia de seguridad automática antes de cambios MCP",
+    "Ohne Bestätigung: direkter KI-Zugriff. Backup auf NAS. Gilt nur hier.": "Sin confirmación: cambios directos por IA. Copia en NAS. Solo este controlador.",
+    "MCP-Einstellungen gespeichert": "Ajustes MCP guardados",
+    "KLC Zentrale Szene (DP 2)": "Escena central KLC (DP 2)",
+    "Letzte Einstellung, feste Szene oder DP 2; ohne Vorgabe Szene 1.": "Último ajuste, escena fija o DP 2; sin selección, escena 1."
   }
 }

@@ -5,7 +5,7 @@
   "minimum_firmware_version": "0.0.593",
   "maximum_firmware_version": "0.1.999",
   "compatibility_version": 1,
-  "package_version": "2.7.19",
+  "package_version": "2.7.21",
   "translations": {
     "Steuerung": "Sterowanie",
     "Abläufe": "Sekwencje",
@@ -2603,6 +2603,12 @@
     "Ablauf B auslösen": "Uruchom sekwencję B",
     "KNX Objekt Bblauf B": "Obiekt KNX sekwencji B",
     "Bereits leuchtende Ausgänge": "Już świecące wyjścia",
-    "Erneut ausführen": "Wykonaj ponownie"
+    "Erneut ausführen": "Wykonaj ponownie",
+    "Browserbestätigung für MCP-Änderungen": "Potwierdzenie zmian MCP w przeglądarce",
+    "Automatisches Backup vor MCP-Änderungen": "Automatyczna kopia zapasowa przed zmianami MCP",
+    "Ohne Bestätigung: direkter KI-Zugriff. Backup auf NAS. Gilt nur hier.": "Bez potwierdzenia: bezpośrednie zmiany AI. Kopia na NAS. Tylko ten kontroler.",
+    "MCP-Einstellungen gespeichert": "Zapisano ustawienia MCP",
+    "KLC Zentrale Szene (DP 2)": "Centralna scena KLC (DP 2)",
+    "Letzte Einstellung, feste Szene oder DP 2; ohne Vorgabe Szene 1.": "Ostatnie ustawienie, stała scena lub DP 2; domyślnie scena 1."
   }
 }

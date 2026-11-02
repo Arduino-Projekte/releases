@@ -5,7 +5,7 @@
   "minimum_firmware_version": "0.0.593",
   "maximum_firmware_version": "0.1.999",
   "compatibility_version": 1,
-  "package_version": "2.7.19",
+  "package_version": "2.7.21",
   "translations": {
     "Steuerung": "Commande",
     "Abläufe": "Séquences",
@@ -1695,7 +1695,7 @@
     "Standardpasswort aktiv": "Mot de passe par défaut actif",
     "geschützt": "protégé",
     "Sprachpaket offline hochladen (Admin)": "Téléverser un pack de langue hors ligne (admin)",
-    "Eine lokale Sprachdatei (JSON, max. 256 KB) wird direkt vom PC oder Smartphone zum Controller hochgeladen, vollständig geprüft und erst nach erfolgreicher Prüfung atomar aktiviert. Es ist keine Internetverbindung nötig; bei einem Fehler bleibt die bisherige Sprache aktiv. Der Dateiname wird ignoriert – maßgeblich ist die gewählte Zielsprache; passt sie nicht zur Datei, wird der Upload abgelehnt. Das eingebettete Englisch bleibt als Rückfallebene immer erhalten.": "Un fichier de langue local (JSON, max. 256 Ko) est téléversé directement du PC ou du smartphone vers le contrôleur, entièrement validé et activé de manière atomique seulement après une vérification réussie. Aucune connexion Internet n'est nécessaire ; en cas d'erreur, la langue précédente reste active. Le nom du fichier est ignoré - la langue cible sélectionnée est déterminante ; si elle ne correspond pas au fichier, le téléversement est refusé. L'anglais intégré reste toujours disponible comme solution de repli.",
+    "Eine lokale Sprachdatei (JSON, max. 256 KB) wird direkt vom PC oder Smartphone zum Controller hochgeladen, vollständig geprüft und erst nach erfolgreicher Prüfung atomar aktiviert. Es ist keine Internetverbindung nötig; bei einem Fehler bleibt die bisherige Sprache aktiv. Der Dateiname wird ignoriert – maßgeblich ist die gewählte Zielsprache; passt sie nicht zur Datei, wird der Upload abgelehnt. Das eingebettete Englisch bleibt als Rückfallebene immer erhalten.": "Import local depuis un PC ou smartphone : JSON, 256 Ko maximum, sans Internet. Le contrôleur valide tout le fichier avant activation atomique ; en cas d’erreur, la langue actuelle reste active. Le nom du fichier est ignoré : son contenu doit correspondre à la langue cible choisie, sinon l’import est refusé. L’anglais intégré reste disponible en secours.",
     "Zielsprache": "Langue cible",
     "Sprachdatei": "Fichier de langue",
     "Hochladen, prüfen und aktivieren": "Téléverser, valider et activer",
@@ -2029,7 +2029,7 @@
     "Präsenzfunktion aktiv": "Activer la fonction de présence",
     "KNX Objekt Präsenz halten": "Objet KNX de maintien de présence",
     "KNX Objekt Präsenz halten Byte": "Objet KNX maintien de présence, octet",
-    "Beide Präsenzobjekte arbeiten parallel und halten dieselbe Präsenz; es gilt jeweils das zuletzt eingetroffene Telegramm. Präsenz halten ist streng 1 Bit (DPT 1.001, nur 0 oder 1). Präsenz halten Byte ist 1 Byte (DPT 5.001) und wertet jeden Wert größer 0 als Präsenz, damit ein Melder seinen Dimmwert senden kann; eine Helligkeit wird daraus nicht abgeleitet, und einschalten kann dieses Objekt nie. Eine 0 bedeutet, dass das jeweilige Objekt nicht verwendet wird.": "Les deux objets de présence fonctionnent en parallèle et maintiennent la même présence ; c'est le dernier télégramme reçu qui s'applique. Maintien de présence est strictement 1 bit (DPT 1.001, seulement 0 ou 1). Maintien de présence octet est 1 octet (DPT 5.001) et considère toute valeur supérieure à 0 comme une présence, afin qu'un détecteur puisse envoyer sa valeur de variation ; aucune luminosité n'en est déduite, et cet objet ne peut jamais allumer. Un 0 signifie que l'objet n'est pas utilisé.",
+    "Beide Präsenzobjekte arbeiten parallel und halten dieselbe Präsenz; es gilt jeweils das zuletzt eingetroffene Telegramm. Präsenz halten ist streng 1 Bit (DPT 1.001, nur 0 oder 1). Präsenz halten Byte ist 1 Byte (DPT 5.001) und wertet jeden Wert größer 0 als Präsenz, damit ein Melder seinen Dimmwert senden kann; eine Helligkeit wird daraus nicht abgeleitet, und einschalten kann dieses Objekt nie. Eine 0 bedeutet, dass das jeweilige Objekt nicht verwendet wird.": "Les deux objets maintiennent la même présence ; le dernier télégramme reçu prévaut. Maintien de présence : 1 bit (DPT 1.001), 0 ou 1 uniquement. Maintien de présence octet : 1 octet (DPT 5.001), toute valeur positive indique une présence, permettant au détecteur d’envoyer sa valeur de variation. Aucune luminosité n’en est déduite ; cet objet ne peut jamais allumer. Un numéro d’objet 0 signifie « non utilisé ».",
     "Betriebsart": "Mode de fonctionnement",
     "Statusbetrieb (1/0)": "Mode état (1/0)",
     "Triggerbetrieb (jedes 1 verlängert)": "Mode déclenchement (chaque 1 prolonge)",
@@ -2079,7 +2079,7 @@
     "Die Helligkeitssperre würde einen Trigger derzeit ablehnen. Zum Testen unten auf Dauerhaft frei schalten.": "Le verrouillage par luminosité refuserait actuellement un déclenchement. Passez sur Toujours libre ci-dessous pour tester.",
     "Neustart": "Redémarrage",
     "Werksreset (Codewort 165)": "Réinitialisation d'usine (mot de code 165)",
-    "Neustart und Werksreset sind ab Werk nicht belegt und müssen hier bewusst zugeordnet werden. Der Werksreset löscht alles: Konfiguration, Abläufe, KNX-Zuordnungen, Sprachpakete sowie LAN- und WLAN-Zugangsdaten. Danach ist der Controller nur noch über den Service-AP erreichbar. Deshalb reagiert er ausschließlich auf das Codewort 165 und auf keinen anderen Wert.": "Le redémarrage et la réinitialisation d'usine ne sont pas affectés par défaut et doivent être attribués ici de façon délibérée. La réinitialisation d'usine efface tout : configuration, séquences, affectations KNX, paquets de langue ainsi que les identifiants LAN et Wi-Fi. Le contrôleur n'est ensuite accessible que via le point d'accès de service. C'est pourquoi il ne réagit qu'au mot de code 165 et à aucune autre valeur.",
+    "Neustart und Werksreset sind ab Werk nicht belegt und müssen hier bewusst zugeordnet werden. Der Werksreset löscht alles: Konfiguration, Abläufe, KNX-Zuordnungen, Sprachpakete sowie LAN- und WLAN-Zugangsdaten. Danach ist der Controller nur noch über den Service-AP erreichbar. Deshalb reagiert er ausschließlich auf das Codewort 165 und auf keinen anderen Wert.": "Redémarrage et réinitialisation : aucune affectation par défaut ; les attribuer ici. La remise à zéro efface configuration, séquences, KNX, langues et accès LAN/Wi-Fi. Seul le point d’accès de service reste accessible. Seul le code 165 est accepté.",
     "Zentrale Objektnummern ansehen": "Voir les numéros d'objets centraux",
     "Helligkeitsverhalten bei Strombegrenzung": "Comportement de luminosité lors de la limitation de courant",
     "Jeder Strang nutzt sein eigenes Stromlimit voll aus. Unterschiedlich lange Stränge können dadurch unterschiedlich hell wirken.": "Chaque ruban utilise pleinement sa propre limite de courant. Des rubans de longueurs différentes peuvent donc paraître plus ou moins lumineux.",
@@ -2530,7 +2530,7 @@
     "1 Minute": "1 minute",
     "2 Stunden": "2 heures",
     "24 Stunden": "24 heures",
-    "Bei aktivierter Zeitabschaltung startet LAN nach jedem Neustart. Nach Ablauf der Zeit werden LAN und WLAN ausgeschaltet: Diese Seite ist dann nicht mehr erreichbar. Wieder einschalten über KNX (Ethernet DP 20 / WLAN DP 21), einen Neustart oder den Service-Taster (2 bis unter 5 Sekunden halten und loslassen). Neustart und KNX-Einschalten starten die Zeit erneut. Das Ausschalten entlastet die Netzwerkverarbeitung und gibt den LED-Animationen mehr Rechenzeit. Änderungen der Abschaltzeit gelten ab dem Speichern.": "Lorsque l'arrêt temporisé est actif, le LAN démarre après chaque redémarrage. À l'expiration du délai, le LAN et le Wi-Fi sont désactivés : cette page n'est alors plus accessible. Réactivation via KNX (Ethernet DP 20 / Wi-Fi DP 21), un redémarrage ou le bouton de service (maintenir de 2 à moins de 5 secondes puis relâcher). Un redémarrage ou une activation KNX relance le délai. La désactivation soulage le traitement réseau et donne plus de temps de calcul aux animations LED. Les modifications du délai s'appliquent dès l'enregistrement.",
+    "Bei aktivierter Zeitabschaltung startet LAN nach jedem Neustart. Nach Ablauf der Zeit werden LAN und WLAN ausgeschaltet: Diese Seite ist dann nicht mehr erreichbar. Wieder einschalten über KNX (Ethernet DP 20 / WLAN DP 21), einen Neustart oder den Service-Taster (2 bis unter 5 Sekunden halten und loslassen). Neustart und KNX-Einschalten starten die Zeit erneut. Das Ausschalten entlastet die Netzwerkverarbeitung und gibt den LED-Animationen mehr Rechenzeit. Änderungen der Abschaltzeit gelten ab dem Speichern.": "Arrêt temporisé : le LAN démarre à chaque redémarrage. À échéance, LAN et Wi-Fi sont coupés ; cette page devient inaccessible. Réactivation : KNX (Ethernet DP 20 / Wi-Fi DP 21), redémarrage ou bouton de service (maintenir 2 à moins de 5 s puis relâcher). Redémarrage et activation KNX relancent le délai. La coupure libère du temps de calcul pour les animations LED. Le nouveau délai prend effet dès l’enregistrement.",
     "Abschaltzeit speichern": "Enregistrer le délai d'arrêt",
     "Netzwerk bearbeiten": "Modifier le réseau",
     "WLAN ist keine Fehlermeldung — dieses Hardwareprofil hat es nicht.": "Le Wi-Fi n'est pas un message d'erreur — ce profil matériel n'en dispose pas.",
@@ -2603,6 +2603,12 @@
     "Ablauf B auslösen": "Déclencher la séquence B",
     "KNX Objekt Bblauf B": "Objet KNX séquence B",
     "Bereits leuchtende Ausgänge": "Sorties déjà allumées",
-    "Erneut ausführen": "Exécuter à nouveau"
+    "Erneut ausführen": "Exécuter à nouveau",
+    "Browserbestätigung für MCP-Änderungen": "Confirmation dans le navigateur pour les modifications MCP",
+    "Automatisches Backup vor MCP-Änderungen": "Sauvegarde automatique avant les modifications MCP",
+    "Ohne Bestätigung: direkter KI-Zugriff. Backup auf NAS. Gilt nur hier.": "Sans confirmation : modifications directes par IA. Copie sur NAS. Ce contrôleur uniquement.",
+    "MCP-Einstellungen gespeichert": "Paramètres MCP enregistrés",
+    "KLC Zentrale Szene (DP 2)": "Scène centrale KLC (DP 2)",
+    "Letzte Einstellung, feste Szene oder DP 2; ohne Vorgabe Szene 1.": "Dernier réglage, scène fixe ou DP 2 ; sinon scène 1."
   }
 }

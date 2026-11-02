@@ -1,6 +1,13 @@
 {
   "items": [
     {
+      "version": "0.1.202",
+      "bin": "knx-led-controller-16m-w_0.1.202.bin.gz",
+      "sha256": "06e8c1301e9c0e72824112efc31a6b095e4512a66e17eab47710c245a9cfec19",
+      "date": "2026-11-02",
+      "note": "Ausgangsfolge mit zentraler Szene DP 2 und Ersatzszene 1; Hilfe in sieben Sprachen"
+    },
+    {
       "version": "0.1.201",
       "bin": "knx-led-controller-16m-w_0.1.201.bin.gz",
       "sha256": "a6332fc0d878fd09981e1aac84e76585ad7023e9f15f3d6877c62642c7bf1f28",
@@ -27,13 +34,6 @@
       "sha256": "d40d238f34babe8a6dcbd97a993e23d698a190b7a4442e00540f4f4cacd226c7",
       "date": "2026-11-01",
       "note": "Ablauf A/B in allen Sprachen; leuchtende Ausgaenge wahlweise ueberspringen oder erneut ausfuehren, ohne vorher auszuschalten"
-    },
-    {
-      "version": "0.1.195",
-      "bin": "knx-led-controller-16m-w_0.1.195.bin.gz",
-      "sha256": "f41b6adf522315dd69d4bd528744d34e9300ef62f47c6f4fc4b3e472cfae58a3",
-      "date": "2026-10-31",
-      "note": "Szeneneditor zeigt nur wirksame Regler: feste und automatische Zeiten, klare Szenenwechsel und erhaltene Einstellungen fuer sanfte Animationen"
     }
   ]
 }

@@ -5,7 +5,7 @@
   "minimum_firmware_version": "0.0.593",
   "maximum_firmware_version": "0.1.999",
   "compatibility_version": 1,
-  "package_version": "2.7.19",
+  "package_version": "2.7.21",
   "translations": {
     "Steuerung": "Bediening",
     "Abläufe": "Verlopen",
@@ -2603,6 +2603,12 @@
     "Ablauf B auslösen": "Reeks B starten",
     "KNX Objekt Bblauf B": "KNX-object reeks B",
     "Bereits leuchtende Ausgänge": "Uitgangen die al branden",
-    "Erneut ausführen": "Opnieuw uitvoeren"
+    "Erneut ausführen": "Opnieuw uitvoeren",
+    "Browserbestätigung für MCP-Änderungen": "Browserbevestiging voor MCP-wijzigingen",
+    "Automatisches Backup vor MCP-Änderungen": "Automatische back-up vóór MCP-wijzigingen",
+    "Ohne Bestätigung: direkter KI-Zugriff. Backup auf NAS. Gilt nur hier.": "Zonder bevestiging: directe AI-wijzigingen. Back-up op NAS. Alleen deze controller.",
+    "MCP-Einstellungen gespeichert": "MCP-instellingen opgeslagen",
+    "KLC Zentrale Szene (DP 2)": "KLC centrale scène (DP 2)",
+    "Letzte Einstellung, feste Szene oder DP 2; ohne Vorgabe Szene 1.": "Laatste instelling, vaste scène of DP 2; anders scène 1."
   }
 }
