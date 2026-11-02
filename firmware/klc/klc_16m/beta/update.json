@@ -1,11 +1,11 @@
 {
-  "url": "knx-led-controller-16m_0.1.200.bin.gz",
+  "url": "knx-led-controller-16m_0.1.201.bin.gz",
   "check_ok": true,
   "update_available": false,
-  "version": "0.1.200",
-  "bin": "knx-led-controller-16m_0.1.200.bin.gz",
-  "file": "knx-led-controller-16m_0.1.200.bin.gz",
-  "sha256": "1cbae347b6b8c5af261dc4242de3ab7ceb64543c21d3b479dc17f6d28634c71f",
-  "message": "MCP fuer zwei Controller; Browserbestaetigung und Backup pro Geraet einstellbar",
+  "version": "0.1.201",
+  "bin": "knx-led-controller-16m_0.1.201.bin.gz",
+  "file": "knx-led-controller-16m_0.1.201.bin.gz",
+  "sha256": "0c644c227aa30be7a030019860ce4b32829f49b5f688cb6869f61d8fa1f3b17e",
+  "message": "Ausgangsfolge uebernimmt vorgemerkte KNX-Helligkeit unabhaengig von der Szene",
   "http_code": 200
 }
