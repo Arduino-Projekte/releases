@@ -1,18 +1,18 @@
 {
     "items": [
         {
+            "version": "V4.26.11.3.1",
+            "bin": "word-clock-IV_V4.26.11.3.1.bin",
+            "sha256": "41a00b18466a2d84db4790cb302c7c9dfecba488eab29a3647a53a00d48b70db",
+            "date": "2026-11-03",
+            "note": "Home Assistant: alle MQTT-Funktionen per Discovery - Temperaturen, Laufschrift-Dauer, Audio, Icons, Icon-Folge, Timer, Finanzen, Boersenwert und Testbild als eigene Entitaeten"
+        },
+        {
             "version": "V4.26.10.22.2",
             "bin": "word-clock-IV_V4.26.10.22.2.bin",
             "sha256": "f97462c221d2f5f491aba66a8c0a93cd185d6c85704180f35cf618fd978af076",
             "date": "2026-10-22",
             "note": "Home Assistant: alle MQTT-Funktionen per Discovery - Temperaturen, Laufschrift-Dauer, Audio, Icons, Icon-Folge, Timer, Finanzen, Boersenwert und Testbild als eigene Entitaeten"
-        },
-        {
-            "version": "V4.26.10.22.1",
-            "bin": "word-clock-IV_V4.26.10.22.1.bin",
-            "sha256": "981cfabe778e7cf7ab38967ad7653840b6e581d9ecf483f6a0de21fb67618f72",
-            "date": "2026-10-22",
-            "note": "Deutsch-Akzent per Timer umschaltbar (neue Timer-Aktion Akzent) und direkt auf dem Dashboard waehlbar"
         },
         {
             "version": "V4.26.10.21.1",
@@ -34,13 +34,6 @@
             "sha256": "f5f401d4d4eaa3085f6200c2143f9be8c514998edefeae28e81320ed047fabf5",
             "date": "2026-10-16",
             "note": "Einstellungs-Import: Laufschrift-Stil wird wieder exportiert und uebernommen, Audio wirkt sofort, Rueckmeldung nach dem Einlesen"
-        },
-        {
-            "version": "V4.26.10.11.3",
-            "bin": "word-clock-IV_V4.26.10.11.3.bin",
-            "sha256": "79b160be95135f3019ca2129373818f348fecc544c7da8c4d91466328b0ce42a",
-            "date": "2026-10-11",
-            "note": "Software-LDR per MQTT und Home-Assistant-Regler steuerbar; Sensorwert bleibt separat lesbar; Sicherung und Import der Einstellungen optisch ueberarbeitet"
         }
     ]
 }
