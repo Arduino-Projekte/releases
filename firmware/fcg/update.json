@@ -3,13 +3,13 @@
   "project": "fcg_main",
   "target": "esp32s3",
   "board_profile": "1",
-  "version": "V0.21.55",
-  "file": "fcg_main_V0.21.55.bin",
-  "url": "http://10.200.23.11/fcg_update/fcg_main_V0.21.55.bin",
+  "version": "V0.21.56",
+  "file": "fcg_main_V0.21.56.bin",
+  "url": "http://10.200.23.11/fcg_update/fcg_main_V0.21.56.bin",
   "min_version": "V0.21.45",
-  "sha256": "537ee5452e8ab353825f3896478a555a663705ca8779d7bc42a3e8549dff8013",
+  "sha256": "521c8140064488a274213726afc3bc61dbfb8c2d36b512986fd34b56307c09db",
   "key_id": "prod-2026-09",
   "signature_algorithm": "ecdsa-p256-sha256",
-  "signature": "MEUCIQD2vP+VHqp1kHWUcmbBkFTDDMOIeZp01suX71X198GMbwIgLbiGiXu4Q99m1vf3VjClif5KFeL+eLNwWpmCHDHgcow=",
-  "notes": "FuelCounterGateway V0.21.55"
+  "signature": "MEUCIQDq/PimKvk/zY19ErLVSiqRDUdj5Dd61+AzNnxh1VsOBwIgafyokAH+7jhPb9KcK6HcjzEjEsBV6exqCji3GRp6DDo=",
+  "notes": "FuelCounterGateway V0.21.56"
 }
