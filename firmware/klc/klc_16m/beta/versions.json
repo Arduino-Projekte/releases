@@ -1,6 +1,13 @@
 {
   "items": [
     {
+      "version": "0.1.203",
+      "bin": "knx-led-controller-16m_0.1.203.bin.gz",
+      "sha256": "24391bdaddaba18c0ddccfa530da3ffd8441df979b4262ce258b8cfe4548e9ed",
+      "date": "2026-11-04",
+      "note": "LAST-Farbe und Helligkeit bei verzögerten und wiederholten Einschaltvorgaengen zielgebunden"
+    },
+    {
       "version": "0.1.202",
       "bin": "knx-led-controller-16m_0.1.202.bin.gz",
       "sha256": "ff376ca292bccb7d5e198432ce404e754ba3231f403be0cd068d7297dcd80fd7",
@@ -27,13 +34,6 @@
       "sha256": "8b18fa799c7f1b8af1776aaf99fd6389546ed29e941da2508df0722d5bb6c104",
       "date": "2026-11-02",
       "note": "KNX-Einschaltfreigaben auch nach Speicherwartezeit pruefen; MCP-Admin und Szenenphase"
-    },
-    {
-      "version": "0.1.196",
-      "bin": "knx-led-controller-16m_0.1.196.bin.gz",
-      "sha256": "d4384285fc506167a91ecc5484284be0e00b457393c5b8e81e86168ca04e95ab",
-      "date": "2026-11-01",
-      "note": "Ablauf A/B in allen Sprachen; leuchtende Ausgaenge wahlweise ueberspringen oder erneut ausfuehren, ohne vorher auszuschalten"
     }
   ]
 }
