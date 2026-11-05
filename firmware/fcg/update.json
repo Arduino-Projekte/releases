@@ -3,13 +3,13 @@
   "project": "fcg_main",
   "target": "esp32s3",
   "board_profile": "1",
-  "version": "V0.21.58",
-  "file": "fcg_main_V0.21.58.bin",
-  "url": "http://10.200.23.11/fcg_update/fcg_main_V0.21.58.bin",
+  "version": "V0.21.59",
+  "file": "fcg_main_V0.21.59.bin",
+  "url": "http://10.200.23.11/fcg_update/fcg_main_V0.21.59.bin",
   "min_version": "V0.21.45",
-  "sha256": "46dca11d4a0699b42bb417ba97161937ec245268a5fab9685cbd71908a307c5b",
+  "sha256": "b5394bea78909f2d33df8b27ebd12e60ec835da6ea9bd99f5f2f9f9315961c1f",
   "key_id": "prod-2026-09",
   "signature_algorithm": "ecdsa-p256-sha256",
-  "signature": "MEQCIFyL9ABSZd5kU/+bVkIVnsyY3Z4SXU4XOV+9EfJB1QcNAiAvlycZY5OUbqSHqBW8U0lP9jk81eJ7RqqHm3e/dPeQ1w==",
-  "notes": "# V0.21.58 \u2013 \u00c4nderungen vor dem Update ansehen\n\nUnter System / OTA erscheinen nach einer erfolgreichen Updatepr\u00fcfung die\nVersionshinweise zur angebotenen Firmware direkt vor der Installation.\nFehlende Hinweise werden ausdr\u00fccklich angezeigt. Zeilenumbr\u00fcche, Umlaute und\nJSON-Unicode-Escapes bleiben lesbar. Texte werden als Klartext dargestellt. Beim manuellen Upload zeigt bereits\ndie Auswahl der Manifestdatei eine Vorschau der \u00c4nderungen; die Signatur wird\nweiterhin vom Ger\u00e4t beim Upload gepr\u00fcft.\n\nDer Releaseprozess \u00fcbernimmt die \u00c4nderungen aus den Versionshinweisen in das\nUpdate-Manifest. Signatur-, Hardware-, Versions- und SHA-256-Pr\u00fcfungen bleiben\nbestehen. Die Versionshinweise sind Information und selbst kein Teil der\nManifest-Signatur. Bei \u00e4lteren Paketen kann nur ein kurzer Hinweis vorhanden sein.\n\nNach Installation dieser Version werden die Hinweise bei k\u00fcnftigen Pr\u00fcfungen\nangezeigt. Automatische Updates behalten ihre bisherigen Freigaben und Ruhezeiten."
+  "signature": "MEYCIQDSngSp2F705j9HEZTntZf0dKNkYV4xZRV81KxNIv79lQIhALB0FohBYaZFcykJmJk3XrJEpSW5Q1xTbxwtVv9UkPc/",
+  "notes": "# V0.21.59\n\n- SD-Aufbewahrung: HTTP-Verbindungen werden auch bei vorzeitig beendeten Antworten geschlossen. Behebt die Lade-Zeit\u00fcberschreitung \u00fcber Ethernet.\n- SD-Ordner als lesbare Tabelle; begrenzte Abfragen kennzeichnen Teilergebnisse. Unvollst\u00e4ndige Bereinigungsscans l\u00f6schen nichts; L\u00f6schfehler werden gemeldet.\n- \u201eDaten & Speicher\u201c b\u00fcndelt Sicherungen, Wiederherstellung, CSV-Export und SD-Pflege. Alte Seitenadressen werden weitergeleitet.\n- Nach einem Ladefehler k\u00f6nnen beide Aufbewahrungszahlen ausdr\u00fccklich neu eingegeben werden. Andere Formulare sch\u00fctzen unbekannte Ausgangswerte.\n- Admin-/Collector-Felder gleich ausgerichtet; \u201eZ\u00e4hler bereit\u201c statt \u201escharf\u201c. Heap-Kachel bleibt bei verborgenem CAN an ihrer bisherigen Position.\n- Hilfe erkl\u00e4rt Funktion, Zweck und Zielgruppe aller Themen und Felder. SD-Aufbewahrung mit Beispiel und Abgrenzung zu PC-Downloads und Zentralen-Historie.\n\nAuf dem Gateway installieren; keine \u00c4nderung am Backupformat oder an der Zentrale."
 }
