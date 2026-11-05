@@ -1,0 +1,8 @@
+{
+  "schema": "fcg_central_release_v1",
+  "version": "0.15.0",
+  "notes": {
+    "de": "Änderungen vor Updates ansehen\n\n• Unter Info können Administratoren die angebotene Version und Änderungen der Zentrale prüfen.\n• Die Firmwareverwaltung zeigt Änderungen vor der Freigabe eines Gateway-Updates.\n• Versionshinweise bleiben als Klartext lesbar; fehlende Hinweise und fehlgeschlagene Prüfungen werden ausdrücklich angezeigt.\n• Hilfe: Gastzugang über Docker / Synology anhand der tatsächlichen Clientadresse im Containerlog einrichten.",
+    "en": "Review changes before updating\n\n• Under Info, administrators can check the offered central application version and its changes.\n• Firmware management shows changes before approving a gateway update.\n• Release notes are displayed as plain text; missing notes and failed checks are explicitly indicated.\n• Help: configure guest access through Docker / Synology using the client address recorded in the container log."
+  }
+}
