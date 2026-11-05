@@ -3,13 +3,13 @@
   "project": "fcg_main",
   "target": "esp32s3",
   "board_profile": "1",
-  "version": "V0.21.57",
-  "file": "fcg_main_V0.21.57.bin",
-  "url": "http://10.200.23.11/fcg_update/fcg_main_V0.21.57.bin",
+  "version": "V0.21.58",
+  "file": "fcg_main_V0.21.58.bin",
+  "url": "http://10.200.23.11/fcg_update/fcg_main_V0.21.58.bin",
   "min_version": "V0.21.45",
-  "sha256": "1c5ce0a68ffd91e6e765dd6c57e6f77aec90ca876cbc9e674ef301adce158d31",
+  "sha256": "46dca11d4a0699b42bb417ba97161937ec245268a5fab9685cbd71908a307c5b",
   "key_id": "prod-2026-09",
   "signature_algorithm": "ecdsa-p256-sha256",
-  "signature": "MEUCIFPeFAefiGQKbWD3CiTODSb6stPBbvPwogEj+hIiFbqlAiEAifIkc7sPVTpBGVTv106odu9tuxatuqUMhccPYLtC6og=",
-  "notes": "FuelCounterGateway V0.21.57"
+  "signature": "MEQCIFyL9ABSZd5kU/+bVkIVnsyY3Z4SXU4XOV+9EfJB1QcNAiAvlycZY5OUbqSHqBW8U0lP9jk81eJ7RqqHm3e/dPeQ1w==",
+  "notes": "# V0.21.58 \u2013 \u00c4nderungen vor dem Update ansehen\n\nUnter System / OTA erscheinen nach einer erfolgreichen Updatepr\u00fcfung die\nVersionshinweise zur angebotenen Firmware direkt vor der Installation.\nFehlende Hinweise werden ausdr\u00fccklich angezeigt. Zeilenumbr\u00fcche, Umlaute und\nJSON-Unicode-Escapes bleiben lesbar. Texte werden als Klartext dargestellt. Beim manuellen Upload zeigt bereits\ndie Auswahl der Manifestdatei eine Vorschau der \u00c4nderungen; die Signatur wird\nweiterhin vom Ger\u00e4t beim Upload gepr\u00fcft.\n\nDer Releaseprozess \u00fcbernimmt die \u00c4nderungen aus den Versionshinweisen in das\nUpdate-Manifest. Signatur-, Hardware-, Versions- und SHA-256-Pr\u00fcfungen bleiben\nbestehen. Die Versionshinweise sind Information und selbst kein Teil der\nManifest-Signatur. Bei \u00e4lteren Paketen kann nur ein kurzer Hinweis vorhanden sein.\n\nNach Installation dieser Version werden die Hinweise bei k\u00fcnftigen Pr\u00fcfungen\nangezeigt. Automatische Updates behalten ihre bisherigen Freigaben und Ruhezeiten."
 }
