@@ -3,13 +3,13 @@
   "project": "fcg_main",
   "target": "esp32s3",
   "board_profile": "1",
-  "version": "V0.21.59",
-  "file": "fcg_main_V0.21.59.bin",
-  "url": "http://10.200.23.11/fcg_update/fcg_main_V0.21.59.bin",
+  "version": "V0.21.60",
+  "file": "fcg_main_V0.21.60.bin",
+  "url": "http://10.200.23.11/fcg_update/fcg_main_V0.21.60.bin",
   "min_version": "V0.21.45",
-  "sha256": "b5394bea78909f2d33df8b27ebd12e60ec835da6ea9bd99f5f2f9f9315961c1f",
+  "sha256": "864f42a7364e27860dd1626084c96bcc8d15ba5f7918841578249be701753df2",
   "key_id": "prod-2026-09",
   "signature_algorithm": "ecdsa-p256-sha256",
-  "signature": "MEYCIQDSngSp2F705j9HEZTntZf0dKNkYV4xZRV81KxNIv79lQIhALB0FohBYaZFcykJmJk3XrJEpSW5Q1xTbxwtVv9UkPc/",
-  "notes": "# V0.21.59\n\n- SD-Aufbewahrung: HTTP-Verbindungen werden auch bei vorzeitig beendeten Antworten geschlossen. Behebt die Lade-Zeit\u00fcberschreitung \u00fcber Ethernet.\n- SD-Ordner als lesbare Tabelle; begrenzte Abfragen kennzeichnen Teilergebnisse. Unvollst\u00e4ndige Bereinigungsscans l\u00f6schen nichts; L\u00f6schfehler werden gemeldet.\n- \u201eDaten & Speicher\u201c b\u00fcndelt Sicherungen, Wiederherstellung, CSV-Export und SD-Pflege. Alte Seitenadressen werden weitergeleitet.\n- Nach einem Ladefehler k\u00f6nnen beide Aufbewahrungszahlen ausdr\u00fccklich neu eingegeben werden. Andere Formulare sch\u00fctzen unbekannte Ausgangswerte.\n- Admin-/Collector-Felder gleich ausgerichtet; \u201eZ\u00e4hler bereit\u201c statt \u201escharf\u201c. Heap-Kachel bleibt bei verborgenem CAN an ihrer bisherigen Position.\n- Hilfe erkl\u00e4rt Funktion, Zweck und Zielgruppe aller Themen und Felder. SD-Aufbewahrung mit Beispiel und Abgrenzung zu PC-Downloads und Zentralen-Historie.\n\nAuf dem Gateway installieren; keine \u00c4nderung am Backupformat oder an der Zentrale."
+  "signature": "MEUCIQDvr8wwUsj8iJWmf9UOIL5fMx7GTNIO3nQ2P63wvmZGNAIgD7etphWq0avc7FNf4UZIFChuQodNfiROMeSDdg9An4w=",
+  "notes": "# V0.21.60\n\n- Hilfe als zusammenh\u00e4ngende Anleitung statt sichtbarer Pr\u00fcffragen. Technische Referenz f\u00fcr Modbus RTU/TCP mit allen 32 Registern, Datentypen, Skalierungen, Statusbits und Abfragebeispiel; CAN-Formate und Anschlusspr\u00fcfung erkl\u00e4rt.\n- \u00c4nderungen vor Firmwareupdates bleiben standardm\u00e4\u00dfig zugeklappt. Technischen Ablaufblock auf der Systemseite entfernt; zutreffende Sicherheitsbeschreibung in die Hilfe \u00fcbernommen.\n- Durchgehende Dashboard-Trennlinien auch bei ausgeschaltetem CAN; Heap bleibt rechts.\n- Unter System 1\u201310 sichtbare Kraftstoff-Zuordnungen einschlie\u00dflich Default einstellen. Ausgeblendete Namen bleiben gespeichert; Buscodes und Messdaten unver\u00e4ndert. Die Anzahl wird mit gesichert und wiederhergestellt."
 }
