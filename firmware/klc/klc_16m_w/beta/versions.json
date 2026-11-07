@@ -1,6 +1,13 @@
 {
   "items": [
     {
+      "version": "0.1.206",
+      "bin": "knx-led-controller-16m-w_0.1.206.bin.gz",
+      "sha256": "038767b34ef69f7653dc0f1f5af5874c044a8d0466f91c7405ffb74fb044af07",
+      "date": "2026-11-07",
+      "note": "Welle mit Nachleuchten: weiche Vorderkante statt springendem Kopf"
+    },
+    {
       "version": "0.1.205",
       "bin": "knx-led-controller-16m-w_0.1.205.bin.gz",
       "sha256": "e77ea3f5c07ee9339da1c87d20972a6a966f6e8d01078b467c3faf79152c384e",
@@ -27,13 +34,6 @@
       "sha256": "a6332fc0d878fd09981e1aac84e76585ad7023e9f15f3d6877c62642c7bf1f28",
       "date": "2026-11-02",
       "note": "Ausgangsfolge uebernimmt vorgemerkte KNX-Helligkeit unabhaengig von der Szene"
-    },
-    {
-      "version": "0.1.200",
-      "bin": "knx-led-controller-16m-w_0.1.200.bin.gz",
-      "sha256": "c0aad7661f50df9ebff6476aace7448cedb5e89fd41b643b9b2865490754313b",
-      "date": "2026-11-02",
-      "note": "MCP fuer zwei Controller; Browserbestaetigung und Backup pro Geraet einstellbar"
     }
   ]
 }

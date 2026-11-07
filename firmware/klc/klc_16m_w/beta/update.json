@@ -1,11 +1,11 @@
 {
-  "url": "knx-led-controller-16m-w_0.1.205.bin.gz",
+  "url": "knx-led-controller-16m-w_0.1.206.bin.gz",
   "check_ok": true,
   "update_available": false,
-  "version": "0.1.205",
-  "bin": "knx-led-controller-16m-w_0.1.205.bin.gz",
-  "file": "knx-led-controller-16m-w_0.1.205.bin.gz",
-  "sha256": "e77ea3f5c07ee9339da1c87d20972a6a966f6e8d01078b467c3faf79152c384e",
-  "message": "Laufende Szene in Startseite und Szenen-Editor folgt KNX-Wechseln je Ausgang",
+  "version": "0.1.206",
+  "bin": "knx-led-controller-16m-w_0.1.206.bin.gz",
+  "file": "knx-led-controller-16m-w_0.1.206.bin.gz",
+  "sha256": "038767b34ef69f7653dc0f1f5af5874c044a8d0466f91c7405ffb74fb044af07",
+  "message": "Welle mit Nachleuchten: weiche Vorderkante statt springendem Kopf",
   "http_code": 200
 }
