@@ -1,6 +1,13 @@
 {
   "items": [
     {
+      "version": "0.1.207",
+      "bin": "knx-led-controller-16m-w_0.1.207.bin.gz",
+      "sha256": "eaee8b50700d321cf9b3ad9581c7f956c14fd606744ce120aecdcba09c7460a3",
+      "date": "2026-11-07",
+      "note": "Farbtreues Ausblenden: Nachleuchten und weiche Kanten halten den Farbton"
+    },
+    {
       "version": "0.1.206",
       "bin": "knx-led-controller-16m-w_0.1.206.bin.gz",
       "sha256": "038767b34ef69f7653dc0f1f5af5874c044a8d0466f91c7405ffb74fb044af07",
@@ -27,13 +34,6 @@
       "sha256": "06e8c1301e9c0e72824112efc31a6b095e4512a66e17eab47710c245a9cfec19",
       "date": "2026-11-02",
       "note": "Ausgangsfolge mit zentraler Szene DP 2 und Ersatzszene 1; Hilfe in sieben Sprachen"
-    },
-    {
-      "version": "0.1.201",
-      "bin": "knx-led-controller-16m-w_0.1.201.bin.gz",
-      "sha256": "a6332fc0d878fd09981e1aac84e76585ad7023e9f15f3d6877c62642c7bf1f28",
-      "date": "2026-11-02",
-      "note": "Ausgangsfolge uebernimmt vorgemerkte KNX-Helligkeit unabhaengig von der Szene"
     }
   ]
 }

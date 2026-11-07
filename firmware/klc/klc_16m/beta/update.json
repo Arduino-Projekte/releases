@@ -1,11 +1,11 @@
 {
-  "url": "knx-led-controller-16m_0.1.206.bin.gz",
+  "url": "knx-led-controller-16m_0.1.207.bin.gz",
   "check_ok": true,
   "update_available": false,
-  "version": "0.1.206",
-  "bin": "knx-led-controller-16m_0.1.206.bin.gz",
-  "file": "knx-led-controller-16m_0.1.206.bin.gz",
-  "sha256": "c3c51a518db824c02ec3298f474902c4b7ecf5ddc8ac3072d0ad9765e50f5bde",
-  "message": "Welle mit Nachleuchten: weiche Vorderkante statt springendem Kopf",
+  "version": "0.1.207",
+  "bin": "knx-led-controller-16m_0.1.207.bin.gz",
+  "file": "knx-led-controller-16m_0.1.207.bin.gz",
+  "sha256": "f3524fcc6d13e90c929c3379abebdff72056c45253af71633e993e4ef5dc5150",
+  "message": "Farbtreues Ausblenden: Nachleuchten und weiche Kanten halten den Farbton",
   "http_code": 200
 }
