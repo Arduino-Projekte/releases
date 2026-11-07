@@ -1,11 +1,11 @@
 {
-  "url": "knx-led-controller-16m_0.1.203.bin.gz",
+  "url": "knx-led-controller-16m_0.1.205.bin.gz",
   "check_ok": true,
   "update_available": false,
-  "version": "0.1.203",
-  "bin": "knx-led-controller-16m_0.1.203.bin.gz",
-  "file": "knx-led-controller-16m_0.1.203.bin.gz",
-  "sha256": "24391bdaddaba18c0ddccfa530da3ffd8441df979b4262ce258b8cfe4548e9ed",
-  "message": "LAST-Farbe und Helligkeit bei verzögerten und wiederholten Einschaltvorgaengen zielgebunden",
+  "version": "0.1.205",
+  "bin": "knx-led-controller-16m_0.1.205.bin.gz",
+  "file": "knx-led-controller-16m_0.1.205.bin.gz",
+  "sha256": "82f311a65bda67b01de45fc6aac57abfe36f57e0722835dc136e979479b0e201",
+  "message": "Laufende Szene in Startseite und Szenen-Editor folgt KNX-Wechseln je Ausgang",
   "http_code": 200
 }

@@ -1,6 +1,13 @@
 {
   "items": [
     {
+      "version": "0.1.205",
+      "bin": "knx-led-controller-16m-w_0.1.205.bin.gz",
+      "sha256": "e77ea3f5c07ee9339da1c87d20972a6a966f6e8d01078b467c3faf79152c384e",
+      "date": "2026-11-07",
+      "note": "Laufende Szene in Startseite und Szenen-Editor folgt KNX-Wechseln je Ausgang"
+    },
+    {
       "version": "0.1.203",
       "bin": "knx-led-controller-16m-w_0.1.203.bin.gz",
       "sha256": "20b24a981da65df1547092503c868a3db3414207dd1183dbbe670cac5521f68a",
@@ -27,13 +34,6 @@
       "sha256": "c0aad7661f50df9ebff6476aace7448cedb5e89fd41b643b9b2865490754313b",
       "date": "2026-11-02",
       "note": "MCP fuer zwei Controller; Browserbestaetigung und Backup pro Geraet einstellbar"
-    },
-    {
-      "version": "0.1.199",
-      "bin": "knx-led-controller-16m-w_0.1.199.bin.gz",
-      "sha256": "66df0dd910687087b53939d66571aca1d3684ddef0a3b6b32cf7dee4c0a146ec",
-      "date": "2026-11-02",
-      "note": "KNX-Einschaltfreigaben auch nach Speicherwartezeit pruefen; MCP-Admin und Szenenphase"
     }
   ]
 }
