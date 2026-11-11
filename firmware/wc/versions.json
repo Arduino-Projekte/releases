@@ -1,6 +1,13 @@
 {
     "items": [
         {
+            "version": "V4.26.11.11.2",
+            "bin": "word-clock-IV_V4.26.11.11.2.bin",
+            "sha256": "01c314793fb6b105e2f493ddf51a340011897b6266cc05d6c08c86f989bfbd92",
+            "date": "2026-11-11",
+            "note": "Laufschrift laeuft ueber den Ambilight-Rand ein und aus (Schalter in den Ticker-Einstellungen); Home Assistant: neue Auswahl Audio-Datei mit allen WAV-Dateien (spielt sofort ab, Liste aktualisiert sich nach Hochladen/Loeschen), Anzahl-Sensor ab 50 Dateien; alle Eingabe-Entitaeten melden einen Zustand statt unbekannt"
+        },
+        {
             "version": "V4.26.11.3.1",
             "bin": "word-clock-IV_V4.26.11.3.1.bin",
             "sha256": "41a00b18466a2d84db4790cb302c7c9dfecba488eab29a3647a53a00d48b70db",
@@ -27,13 +34,6 @@
             "sha256": "46837fbdd657fc2b906ebb719dc0d926d3bca43b511cddfbaf1b5c3940a6c4d4",
             "date": "2026-10-19",
             "note": "Gesamtsicherung: Einstellungen, Animationen, Timer, MQTT, Bilder und Wettersymbole in einer Datei, Bereiche per Haken waehlbar; Import erkennt den Inhalt und zeigt eine Zusammenfassung"
-        },
-        {
-            "version": "V4.26.10.16.1",
-            "bin": "word-clock-IV_V4.26.10.16.1.bin",
-            "sha256": "f5f401d4d4eaa3085f6200c2143f9be8c514998edefeae28e81320ed047fabf5",
-            "date": "2026-10-16",
-            "note": "Einstellungs-Import: Laufschrift-Stil wird wieder exportiert und uebernommen, Audio wirkt sofort, Rueckmeldung nach dem Einlesen"
         }
     ]
 }
