@@ -3,13 +3,13 @@
   "project": "fcg_main",
   "target": "esp32s3",
   "board_profile": "1",
-  "version": "V0.21.60",
-  "file": "fcg_main_V0.21.60.bin",
-  "url": "http://10.200.23.11/fcg_update/fcg_main_V0.21.60.bin",
+  "version": "V0.21.61",
+  "file": "fcg_main_V0.21.61.bin",
+  "url": "http://10.200.23.11/fcg_update/fcg_main_V0.21.61.bin",
   "min_version": "V0.21.45",
-  "sha256": "864f42a7364e27860dd1626084c96bcc8d15ba5f7918841578249be701753df2",
+  "sha256": "24189ca8a775fe596556b4bc3d389720a954bcc361ec09610448ef6043f681c0",
   "key_id": "prod-2026-09",
   "signature_algorithm": "ecdsa-p256-sha256",
-  "signature": "MEUCIQDvr8wwUsj8iJWmf9UOIL5fMx7GTNIO3nQ2P63wvmZGNAIgD7etphWq0avc7FNf4UZIFChuQodNfiROMeSDdg9An4w=",
-  "notes": "# V0.21.60\n\n- Hilfe als zusammenh\u00e4ngende Anleitung statt sichtbarer Pr\u00fcffragen. Technische Referenz f\u00fcr Modbus RTU/TCP mit allen 32 Registern, Datentypen, Skalierungen, Statusbits und Abfragebeispiel; CAN-Formate und Anschlusspr\u00fcfung erkl\u00e4rt.\n- \u00c4nderungen vor Firmwareupdates bleiben standardm\u00e4\u00dfig zugeklappt. Technischen Ablaufblock auf der Systemseite entfernt; zutreffende Sicherheitsbeschreibung in die Hilfe \u00fcbernommen.\n- Durchgehende Dashboard-Trennlinien auch bei ausgeschaltetem CAN; Heap bleibt rechts.\n- Unter System 1\u201310 sichtbare Kraftstoff-Zuordnungen einschlie\u00dflich Default einstellen. Ausgeblendete Namen bleiben gespeichert; Buscodes und Messdaten unver\u00e4ndert. Die Anzahl wird mit gesichert und wiederhergestellt."
+  "signature": "MEUCICWoecq5g0BmguXg00XKc3ihG9LtKI2mWfBNPBt8vPLAAiEAsLz9EbhxUwaz/yqPt84IdReZRw7qrrOCwHwKRimH/A8=",
+  "notes": "# V0.21.61\n\n- Hilfesuche, Themenfilter und Trefferzahl liegen wieder im gleichen linken Inhaltsabstand wie \u00dcberschrift und Hilfetexte. Die Suche bleibt lokal und funktioniert ohne Internet."
 }
