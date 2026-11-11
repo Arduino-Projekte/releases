@@ -1,8 +1,8 @@
 {
   "schema": "fcg_central_release_v1",
-  "version": "0.15.1",
+  "version": "0.17.0",
   "notes": {
-    "de": "Versionshinweise in der Firmwareverwaltung und unter Info bleiben standardmäßig zugeklappt. Die Hilfe öffnet und druckt bei Bedarf auch technische Referenzabschnitte.",
-    "en": "Release notes in firmware management and Info are collapsed by default. Help search and printing also expand technical reference sections when needed."
+    "de": "Offline-Updates über SMB-Freigaben\n\n• Mehrere Updatefreigaben und verschlüsselte Zugangsdaten verwalten.\n• Signierte Firmware- und Zentralenpakete im Browser einlesen, prüfen und freigeben.\n• FCG-Gateways über die lokale Zentrale verteilen, ohne Internetzugang.\n• VM-Updates über den bestehenden Dienst; Docker-Updates über einen getrennten NAS-Hostdienst mit Sicherung und Rückkehr nach Startfehlern.\n• Gleicher fester Web-Erstzugang mit Wechselpflicht bei VM und Docker.\n• Einheitliche Passwortregel ab acht Zeichen und Ampel: Gelb wird akzeptiert.",
+    "en": "Offline updates from SMB shares\n\n• Manage multiple update shares and encrypted credentials.\n• Import, verify and approve signed firmware and central packages in the browser.\n• Distribute FCG updates through the local central application without internet access.\n• VM updates use the existing worker; Docker updates use a separate NAS host worker with backups and rollback after startup failures.\n• Identical fixed initial web credentials with mandatory replacement in VM and Docker.\n• Shared eight-character password policy and traffic light: yellow is accepted."
   }
 }

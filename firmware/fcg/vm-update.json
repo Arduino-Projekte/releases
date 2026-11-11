@@ -1,0 +1,13 @@
+{
+  "schema": "fcg_vm_package_v1",
+  "version": "0.17.0",
+  "target": "debian13-amd64-python313",
+  "file": "FCG-Zentrale-0.17.0-debian13-amd64-python313.tar.gz",
+  "sha256": "a779372dce7581c822636cc387d266062852f44a870bf217df00acf72cb7a3fe",
+  "key_id": "prod-2026-09",
+  "notes": {
+    "de": "Offline-Updates \u00fcber SMB-Freigaben\n\n\u2022 Mehrere Updatefreigaben und verschl\u00fcsselte Zugangsdaten verwalten.\n\u2022 Signierte Firmware- und Zentralenpakete im Browser einlesen, pr\u00fcfen und freigeben.\n\u2022 FCG-Gateways \u00fcber die lokale Zentrale verteilen, ohne Internetzugang.\n\u2022 VM-Updates \u00fcber den bestehenden Dienst; Docker-Updates \u00fcber einen getrennten NAS-Hostdienst mit Sicherung und R\u00fcckkehr nach Startfehlern.\n\u2022 Gleicher fester Web-Erstzugang mit Wechselpflicht bei VM und Docker.\n\u2022 Einheitliche Passwortregel ab acht Zeichen und Ampel: Gelb wird akzeptiert.",
+    "en": "Offline updates from SMB shares\n\n\u2022 Manage multiple update shares and encrypted credentials.\n\u2022 Import, verify and approve signed firmware and central packages in the browser.\n\u2022 Distribute FCG updates through the local central application without internet access.\n\u2022 VM updates use the existing worker; Docker updates use a separate NAS host worker with backups and rollback after startup failures.\n\u2022 Identical fixed initial web credentials with mandatory replacement in VM and Docker.\n\u2022 Shared eight-character password policy and traffic light: yellow is accepted."
+  },
+  "signature": "MEQCIDfnFYSh38NDrvAL6r881E7joFa1Qd65WcxASCN1mAZ7AiBh+R/Wf+rTnsgP68MllB59h5RLnjmC4WgxOgJ4OGGZKw=="
+}
