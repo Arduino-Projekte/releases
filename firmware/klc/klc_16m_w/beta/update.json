@@ -1,11 +1,11 @@
 {
-  "url": "knx-led-controller-16m-w_0.1.207.bin.gz",
+  "url": "knx-led-controller-16m-w_0.1.208.bin.gz",
   "check_ok": true,
   "update_available": false,
-  "version": "0.1.207",
-  "bin": "knx-led-controller-16m-w_0.1.207.bin.gz",
-  "file": "knx-led-controller-16m-w_0.1.207.bin.gz",
-  "sha256": "eaee8b50700d321cf9b3ad9581c7f956c14fd606744ce120aecdcba09c7460a3",
-  "message": "Farbtreues Ausblenden: Nachleuchten und weiche Kanten halten den Farbton",
+  "version": "0.1.208",
+  "bin": "knx-led-controller-16m-w_0.1.208.bin.gz",
+  "file": "knx-led-controller-16m-w_0.1.208.bin.gz",
+  "sha256": "4591c93c22d723e2a054a70a5ae894871d48872c91a2163655576d949e4a38df",
+  "message": "Core 1 entlastet: Webantworten senden ohne Rendersperre, kein doppeltes Show, keine Leistungsrechnung beim Warten",
   "http_code": 200
 }

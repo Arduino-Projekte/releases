@@ -1,6 +1,13 @@
 {
   "items": [
     {
+      "version": "0.1.208",
+      "bin": "knx-led-controller-16m-w_0.1.208.bin.gz",
+      "sha256": "4591c93c22d723e2a054a70a5ae894871d48872c91a2163655576d949e4a38df",
+      "date": "2026-11-12",
+      "note": "Core 1 entlastet: Webantworten senden ohne Rendersperre, kein doppeltes Show, keine Leistungsrechnung beim Warten"
+    },
+    {
       "version": "0.1.207",
       "bin": "knx-led-controller-16m-w_0.1.207.bin.gz",
       "sha256": "eaee8b50700d321cf9b3ad9581c7f956c14fd606744ce120aecdcba09c7460a3",
@@ -27,13 +34,6 @@
       "sha256": "20b24a981da65df1547092503c868a3db3414207dd1183dbbe670cac5521f68a",
       "date": "2026-11-04",
       "note": "LAST-Farbe und Helligkeit bei verzögerten und wiederholten Einschaltvorgaengen zielgebunden"
-    },
-    {
-      "version": "0.1.202",
-      "bin": "knx-led-controller-16m-w_0.1.202.bin.gz",
-      "sha256": "06e8c1301e9c0e72824112efc31a6b095e4512a66e17eab47710c245a9cfec19",
-      "date": "2026-11-02",
-      "note": "Ausgangsfolge mit zentraler Szene DP 2 und Ersatzszene 1; Hilfe in sieben Sprachen"
     }
   ]
 }
