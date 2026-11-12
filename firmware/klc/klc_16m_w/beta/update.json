@@ -1,11 +1,11 @@
 {
-  "url": "knx-led-controller-16m-w_0.1.208.bin.gz",
+  "url": "knx-led-controller-16m-w_0.1.209.bin.gz",
   "check_ok": true,
   "update_available": false,
-  "version": "0.1.208",
-  "bin": "knx-led-controller-16m-w_0.1.208.bin.gz",
-  "file": "knx-led-controller-16m-w_0.1.208.bin.gz",
-  "sha256": "4591c93c22d723e2a054a70a5ae894871d48872c91a2163655576d949e4a38df",
-  "message": "Core 1 entlastet: Webantworten senden ohne Rendersperre, kein doppeltes Show, keine Leistungsrechnung beim Warten",
+  "version": "0.1.209",
+  "bin": "knx-led-controller-16m-w_0.1.209.bin.gz",
+  "file": "knx-led-controller-16m-w_0.1.209.bin.gz",
+  "sha256": "c2e621e83c0bc28eb8d7cff234e9f007ab8bf89674caea68a54677de723e2b18",
+  "message": "KNX-Senden per DMA: Core 0 wartet nicht mehr auf den BAOS-UART",
   "http_code": 200
 }

@@ -1,6 +1,13 @@
 {
   "items": [
     {
+      "version": "0.1.209",
+      "bin": "knx-led-controller-16m-w_0.1.209.bin.gz",
+      "sha256": "c2e621e83c0bc28eb8d7cff234e9f007ab8bf89674caea68a54677de723e2b18",
+      "date": "2026-11-12",
+      "note": "KNX-Senden per DMA: Core 0 wartet nicht mehr auf den BAOS-UART"
+    },
+    {
       "version": "0.1.208",
       "bin": "knx-led-controller-16m-w_0.1.208.bin.gz",
       "sha256": "4591c93c22d723e2a054a70a5ae894871d48872c91a2163655576d949e4a38df",
@@ -27,13 +34,6 @@
       "sha256": "e77ea3f5c07ee9339da1c87d20972a6a966f6e8d01078b467c3faf79152c384e",
       "date": "2026-11-07",
       "note": "Laufende Szene in Startseite und Szenen-Editor folgt KNX-Wechseln je Ausgang"
-    },
-    {
-      "version": "0.1.203",
-      "bin": "knx-led-controller-16m-w_0.1.203.bin.gz",
-      "sha256": "20b24a981da65df1547092503c868a3db3414207dd1183dbbe670cac5521f68a",
-      "date": "2026-11-04",
-      "note": "LAST-Farbe und Helligkeit bei verzögerten und wiederholten Einschaltvorgaengen zielgebunden"
     }
   ]
 }
