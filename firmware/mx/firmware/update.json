@@ -1,9 +1,9 @@
 {
-  "version": "V2026.11.12.1",
-  "bin": "tresenwerk_V2026.11.12.1.bin",
-  "sha256": "fdfb82a8b9c44f6d0a0f1ebaaad9be316dc9fb6732a62ed739bb8ded84a67d5a",
+  "version": "V2026.11.12.2",
+  "bin": "tresenwerk_V2026.11.12.2.bin",
+  "sha256": "b8e2a033f629b52db82cd836bc29cc85ba9bdd42c8058e3f6d36c9b7b6e48274",
   "size": 2617680,
-  "fs": "tresenwerk_V2026.11.12.1.littlefs.bin",
-  "fs_sha256": "99c00ef8539deeb0cd4a3b5abd0a32148c6027943db3e79804e08068e0d60721",
+  "fs": "tresenwerk_V2026.11.12.2.littlefs.bin",
+  "fs_sha256": "2952b798d02fa945077fd46bd8042453987c579717daa4e19eb20b57c409b476",
   "fs_size": 5767168
 }
