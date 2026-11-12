@@ -3,13 +3,13 @@
   "project": "fcg_main",
   "target": "esp32s3",
   "board_profile": "1",
-  "version": "V0.21.61",
-  "file": "fcg_main_V0.21.61.bin",
-  "url": "http://10.200.23.11/fcg_update/fcg_main_V0.21.61.bin",
+  "version": "V0.21.62",
+  "file": "fcg_main_V0.21.62.bin",
+  "url": "http://10.200.23.11/fcg_update/fcg_main_V0.21.62.bin",
   "min_version": "V0.21.45",
-  "sha256": "24189ca8a775fe596556b4bc3d389720a954bcc361ec09610448ef6043f681c0",
+  "sha256": "63b8ad1758c85f42b2f914e66b78a4e3ff20bfbe47cbb39e895695d82cb6467c",
   "key_id": "prod-2026-09",
   "signature_algorithm": "ecdsa-p256-sha256",
-  "signature": "MEUCICWoecq5g0BmguXg00XKc3ihG9LtKI2mWfBNPBt8vPLAAiEAsLz9EbhxUwaz/yqPt84IdReZRw7qrrOCwHwKRimH/A8=",
-  "notes": "# V0.21.61\n\n- Hilfesuche, Themenfilter und Trefferzahl liegen wieder im gleichen linken Inhaltsabstand wie \u00dcberschrift und Hilfetexte. Die Suche bleibt lokal und funktioniert ohne Internet."
+  "signature": "MEUCID2a6Cmn675fJyR8QHCoH8pwJVK2b5Rfo9s+PXLAFT5ZAiEAlUiBJkyUGJSdBe3Ni0Qu8OHESy4nc5vY5oRmh2n4j0M=",
+  "notes": "# V0.21.62 \u2013 Z\u00e4hlung ohne Impulsverluste\n\nTestversion: vor der Freigabe im NAS-Spiegel an einem Ger\u00e4t mit echtem Impulsgeber pr\u00fcfen.\n\n- Neue Z\u00e4hlart Hardwarez\u00e4hler (PCNT), Standard. Z\u00e4hlt auch w\u00e4hrend Flash-Schreibvorg\u00e4ngen (Sichern, Update) und ohne 5 s Startschutz. Umschaltbar unter Z\u00e4hler \u203a Z\u00e4hlerparameter \u203a Z\u00e4hlart auf GPIO-Interrupt (ISR), sofort und ohne Neustart. Die Z\u00e4hldiagnose zeigt beide Werte zum Vergleich.\n- Beim Hardwarez\u00e4hler filtern Entprellzeit und Mindestabstand nicht mehr, nur St\u00f6rspitzen unter 10 \u00b5s. F\u00fcr prellende Geber ISR w\u00e4hlen.\n- Z\u00e4hlerstand wird vor jedem Neustart \u00fcber die Weboberfl\u00e4che und nach Updates gesichert (nicht nach Messdaten-Reset).\n- Diagnosepfad z\u00e4hlt keinen Impuls mehr doppelt, wenn die Hauptschleife h\u00e4ngt.\n- Collector-Mengen mit so vielen Nachkommastellen wie n\u00f6tig (2 bis 6, bei 100 Impulsen/l weiter 2).\n- Neue Felder in /api/counter zur Z\u00e4hlart und PCNT."
 }
