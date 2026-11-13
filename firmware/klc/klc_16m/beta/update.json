@@ -1,11 +1,11 @@
 {
-  "url": "knx-led-controller-16m_0.1.209.bin.gz",
+  "url": "knx-led-controller-16m_0.1.210.bin.gz",
   "check_ok": true,
   "update_available": false,
-  "version": "0.1.209",
-  "bin": "knx-led-controller-16m_0.1.209.bin.gz",
-  "file": "knx-led-controller-16m_0.1.209.bin.gz",
-  "sha256": "a8004d2ee0d16465e0f2506e5fc0d3565092ba14c712cd13abe2f78639fea77a",
-  "message": "KNX-Senden per DMA: Core 0 wartet nicht mehr auf den BAOS-UART",
+  "version": "0.1.210",
+  "bin": "knx-led-controller-16m_0.1.210.bin.gz",
+  "file": "knx-led-controller-16m_0.1.210.bin.gz",
+  "sha256": "a1ba370df1f2ba59325a8f90826b39ce7e9102d0a8082b362148d06dfda19cc0",
+  "message": "Renderer schneller: Kanalsummen, Begrenzung und Drahtzeit ohne Rechnen je Pixel, -O2 fuer heisse Dateien",
   "http_code": 200
 }
