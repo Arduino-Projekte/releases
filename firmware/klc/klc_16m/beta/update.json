@@ -1,11 +1,11 @@
 {
-  "url": "knx-led-controller-16m_0.1.211.bin.gz",
+  "url": "knx-led-controller-16m_0.1.212.bin.gz",
   "check_ok": true,
   "update_available": false,
-  "version": "0.1.211",
-  "bin": "knx-led-controller-16m_0.1.211.bin.gz",
-  "file": "knx-led-controller-16m_0.1.211.bin.gz",
-  "sha256": "8dcce5f9c87d054c3762b22d12a57e5de9e65f64e27b56deb20b4eff9ac01afc",
-  "message": "Aufbau und Abschalten schneller gerechnet: bildweit gleiche Werte nur noch einmal je Bild",
+  "version": "0.1.212",
+  "bin": "knx-led-controller-16m_0.1.212.bin.gz",
+  "file": "knx-led-controller-16m_0.1.212.bin.gz",
+  "sha256": "4bcbac3785a4927b3650e80c245ea37c9e7556efae00d5e34781e4cf00b7a38a",
+  "message": "Aufraeumen: 107 ungenutzte Funktionen entfernt, Klartext fuer 13 Diagnosecodes",
   "http_code": 200
 }

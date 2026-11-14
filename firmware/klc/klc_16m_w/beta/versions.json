@@ -1,6 +1,13 @@
 {
   "items": [
     {
+      "version": "0.1.212",
+      "bin": "knx-led-controller-16m-w_0.1.212.bin.gz",
+      "sha256": "b040871f8c0ec2825bccef1bfc524e307e44525ad8b87f64f1fb0344e5fb0d00",
+      "date": "2026-11-14",
+      "note": "Aufraeumen: 107 ungenutzte Funktionen entfernt, Klartext fuer 13 Diagnosecodes"
+    },
+    {
       "version": "0.1.211",
       "bin": "knx-led-controller-16m-w_0.1.211.bin.gz",
       "sha256": "b9c3eb05c64c1c49486fa450ad414609b2f216584410425659fc804d350fefd1",
@@ -27,13 +34,6 @@
       "sha256": "4591c93c22d723e2a054a70a5ae894871d48872c91a2163655576d949e4a38df",
       "date": "2026-11-12",
       "note": "Core 1 entlastet: Webantworten senden ohne Rendersperre, kein doppeltes Show, keine Leistungsrechnung beim Warten"
-    },
-    {
-      "version": "0.1.207",
-      "bin": "knx-led-controller-16m-w_0.1.207.bin.gz",
-      "sha256": "eaee8b50700d321cf9b3ad9581c7f956c14fd606744ce120aecdcba09c7460a3",
-      "date": "2026-11-07",
-      "note": "Farbtreues Ausblenden: Nachleuchten und weiche Kanten halten den Farbton"
     }
   ]
 }
