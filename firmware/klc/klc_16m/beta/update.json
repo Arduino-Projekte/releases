@@ -1,11 +1,11 @@
 {
-  "url": "knx-led-controller-16m_0.1.212.bin.gz",
+  "url": "knx-led-controller-16m_0.1.213.bin.gz",
   "check_ok": true,
   "update_available": false,
-  "version": "0.1.212",
-  "bin": "knx-led-controller-16m_0.1.212.bin.gz",
-  "file": "knx-led-controller-16m_0.1.212.bin.gz",
-  "sha256": "4bcbac3785a4927b3650e80c245ea37c9e7556efae00d5e34781e4cf00b7a38a",
-  "message": "Aufraeumen: 107 ungenutzte Funktionen entfernt, Klartext fuer 13 Diagnosecodes",
+  "version": "0.1.213",
+  "bin": "knx-led-controller-16m_0.1.213.bin.gz",
+  "file": "knx-led-controller-16m_0.1.213.bin.gz",
+  "sha256": "c9895e13f0c69566ea18578b467000223f7eeed08a705f689f2e05c1a3b8b666",
+  "message": "Webserver-Sendefunktionen lesbar formatiert, keine Funktionsaenderung",
   "http_code": 200
 }

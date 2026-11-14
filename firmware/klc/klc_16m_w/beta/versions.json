@@ -1,6 +1,13 @@
 {
   "items": [
     {
+      "version": "0.1.213",
+      "bin": "knx-led-controller-16m-w_0.1.213.bin.gz",
+      "sha256": "724dfb832c559974df7bc391afc5de82e6c22b93d90fae78596df75f7b27fa22",
+      "date": "2026-11-14",
+      "note": "Webserver-Sendefunktionen lesbar formatiert, keine Funktionsaenderung"
+    },
+    {
       "version": "0.1.212",
       "bin": "knx-led-controller-16m-w_0.1.212.bin.gz",
       "sha256": "b040871f8c0ec2825bccef1bfc524e307e44525ad8b87f64f1fb0344e5fb0d00",
@@ -27,13 +34,6 @@
       "sha256": "c2e621e83c0bc28eb8d7cff234e9f007ab8bf89674caea68a54677de723e2b18",
       "date": "2026-11-12",
       "note": "KNX-Senden per DMA: Core 0 wartet nicht mehr auf den BAOS-UART"
-    },
-    {
-      "version": "0.1.208",
-      "bin": "knx-led-controller-16m-w_0.1.208.bin.gz",
-      "sha256": "4591c93c22d723e2a054a70a5ae894871d48872c91a2163655576d949e4a38df",
-      "date": "2026-11-12",
-      "note": "Core 1 entlastet: Webantworten senden ohne Rendersperre, kein doppeltes Show, keine Leistungsrechnung beim Warten"
     }
   ]
 }
