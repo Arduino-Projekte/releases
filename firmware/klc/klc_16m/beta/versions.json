@@ -1,6 +1,13 @@
 {
   "items": [
     {
+      "version": "0.1.211",
+      "bin": "knx-led-controller-16m_0.1.211.bin.gz",
+      "sha256": "8dcce5f9c87d054c3762b22d12a57e5de9e65f64e27b56deb20b4eff9ac01afc",
+      "date": "2026-11-14",
+      "note": "Aufbau und Abschalten schneller gerechnet: bildweit gleiche Werte nur noch einmal je Bild"
+    },
+    {
       "version": "0.1.210",
       "bin": "knx-led-controller-16m_0.1.210.bin.gz",
       "sha256": "a1ba370df1f2ba59325a8f90826b39ce7e9102d0a8082b362148d06dfda19cc0",
@@ -27,13 +34,6 @@
       "sha256": "f3524fcc6d13e90c929c3379abebdff72056c45253af71633e993e4ef5dc5150",
       "date": "2026-11-07",
       "note": "Farbtreues Ausblenden: Nachleuchten und weiche Kanten halten den Farbton"
-    },
-    {
-      "version": "0.1.206",
-      "bin": "knx-led-controller-16m_0.1.206.bin.gz",
-      "sha256": "c3c51a518db824c02ec3298f474902c4b7ecf5ddc8ac3072d0ad9765e50f5bde",
-      "date": "2026-11-07",
-      "note": "Welle mit Nachleuchten: weiche Vorderkante statt springendem Kopf"
     }
   ]
 }

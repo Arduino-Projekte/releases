@@ -1,11 +1,11 @@
 {
-  "url": "knx-led-controller-16m-w_0.1.210.bin.gz",
+  "url": "knx-led-controller-16m-w_0.1.211.bin.gz",
   "check_ok": true,
   "update_available": false,
-  "version": "0.1.210",
-  "bin": "knx-led-controller-16m-w_0.1.210.bin.gz",
-  "file": "knx-led-controller-16m-w_0.1.210.bin.gz",
-  "sha256": "d67ddb4585926c2740df383fe9344d78520d2df38deb2f5bc2ed66582b34e0f3",
-  "message": "Renderer schneller: Kanalsummen, Begrenzung und Drahtzeit ohne Rechnen je Pixel, -O2 fuer heisse Dateien",
+  "version": "0.1.211",
+  "bin": "knx-led-controller-16m-w_0.1.211.bin.gz",
+  "file": "knx-led-controller-16m-w_0.1.211.bin.gz",
+  "sha256": "b9c3eb05c64c1c49486fa450ad414609b2f216584410425659fc804d350fefd1",
+  "message": "Aufbau und Abschalten schneller gerechnet: bildweit gleiche Werte nur noch einmal je Bild",
   "http_code": 200
 }
