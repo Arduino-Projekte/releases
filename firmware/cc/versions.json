@@ -1,6 +1,13 @@
 {
   "items": [
     {
+      "version": "V2.26.11.14.1",
+      "bin": "clock-clock24_V2.26.11.14.1.bin",
+      "sha256": "4a0d282654379655529f809cde32b3616b1246be9ed84e77f18c2be83660c565",
+      "date": "2026-11-14",
+      "note": "Fehler behoben: Kam ein Zeitbefehl, während Zeiger noch linksrum drehten (z. B. am Ende einer Animation oder kurz danach beim Minutenwechsel), blieb ein Zeiger verdreht stehen, solange er die 12-Uhr-Marke noch nicht passiert hatte. Sichtbar z. B. als 2 mit schrägem Zeiger unten rechts, bis zur nächsten Minute. Die Zielberechnung linksrum nutzt jetzt wie rechtsrum die Position innerhalb einer Umdrehung."
+    },
+    {
       "version": "V2.26.11.11.1",
       "bin": "clock-clock24_V2.26.11.11.1.bin",
       "sha256": "adf253fd84cfe930549ed86cfe725a41fcce3d34d4564552be5e4be303fa6cd8",
@@ -27,13 +34,6 @@
       "sha256": "35518837526818286904ef79b9326fb2aba1702cbe57ab2d8359ed095e39ef40",
       "date": "2026-10-08",
       "note": "Home-Assistant-Anbindung per MQTT mit Auto-Discovery: Die Uhr erscheint als Gerät mit Modus, Ton, Anzeige-Befehlen (Zahl, Motiv, Animation, Temperatur, Datum, Uhrzeit), Temperatur-Vorgabe und Diagnosewerten. Einstellungen unter *Einstellungen → Home Assistant / MQTT*."
-    },
-    {
-      "version": "V2.26.8.16.2",
-      "bin": "clock-clock24_V2.26.8.16.2.bin",
-      "sha256": "08d7d3cb347485765cdc38c098306f70844c40561f2b3f22c80c91f06034a94b",
-      "date": "2026-08-16",
-      "note": "Automatisch nach erfolgreichem Arduino-CLI-Build"
     }
   ]
 }
