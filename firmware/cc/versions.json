@@ -1,6 +1,13 @@
 {
   "items": [
     {
+      "version": "V2.26.11.14.2",
+      "bin": "clock-clock24_V2.26.11.14.2.bin",
+      "sha256": "1de830a38b87479622a06a07ad575b8b21604391d03fbfc2f099d7c74468f89d",
+      "date": "2026-11-14",
+      "note": "Online-Update am Master: Die MQTT-Verbindung zu Home Assistant wird vor dem Download beendet, damit der Speicher für die verschlüsselte Verbindung und das Schreiben frei ist. Das gilt auch für den lokalen Upload über `/update`. Schlägt das Update fehl, verbindet sich MQTT von selbst wieder."
+    },
+    {
       "version": "V2.26.11.14.1",
       "bin": "clock-clock24_V2.26.11.14.1.bin",
       "sha256": "4a0d282654379655529f809cde32b3616b1246be9ed84e77f18c2be83660c565",
@@ -27,13 +34,6 @@
       "sha256": "bf6f2c1a67191bf91b9b8f685a2413175508bef9b1a5b4e32cb9d15c0eaa452e",
       "date": "2026-10-10",
       "note": "Explizite Deklaration der MQTT-Konfigurationsübernahme ergänzt, damit Arduinos automatische Prototyp-Erzeugung den lokalen Konfigurationstyp nicht vor dessen Definition verwendet."
-    },
-    {
-      "version": "V2.26.10.8.1",
-      "bin": "clock-clock24_V2.26.10.8.1.bin",
-      "sha256": "35518837526818286904ef79b9326fb2aba1702cbe57ab2d8359ed095e39ef40",
-      "date": "2026-10-08",
-      "note": "Home-Assistant-Anbindung per MQTT mit Auto-Discovery: Die Uhr erscheint als Gerät mit Modus, Ton, Anzeige-Befehlen (Zahl, Motiv, Animation, Temperatur, Datum, Uhrzeit), Temperatur-Vorgabe und Diagnosewerten. Einstellungen unter *Einstellungen → Home Assistant / MQTT*."
     }
   ]
 }
