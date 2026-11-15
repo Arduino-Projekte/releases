@@ -1,11 +1,11 @@
 {
-  "url": "knx-led-controller-16m-w_0.1.214.bin.gz",
+  "url": "knx-led-controller-16m-w_0.1.215.bin.gz",
   "check_ok": true,
   "update_available": false,
-  "version": "0.1.214",
-  "bin": "knx-led-controller-16m-w_0.1.214.bin.gz",
-  "file": "knx-led-controller-16m-w_0.1.214.bin.gz",
-  "sha256": "c157174493fd70ab2a548eff8d0b486f477a7c8c3d4bc9573c9ba897053e56d4",
-  "message": "/api/knx liefert wieder gueltiges JSON, neuer Zaehler read_value_tx_count",
+  "version": "0.1.215",
+  "bin": "knx-led-controller-16m-w_0.1.215.bin.gz",
+  "file": "knx-led-controller-16m-w_0.1.215.bin.gz",
+  "sha256": "72bb9f5dde02eb2ce93f882b10311b6080be865ab13d6a3d59cc02b1e0910a7e",
+  "message": "Konfigurationsimport in Abschnittsfunktionen aufgeteilt, keine Funktionsaenderung",
   "http_code": 200
 }

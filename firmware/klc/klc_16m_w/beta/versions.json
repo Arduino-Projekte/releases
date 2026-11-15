@@ -1,6 +1,13 @@
 {
   "items": [
     {
+      "version": "0.1.215",
+      "bin": "knx-led-controller-16m-w_0.1.215.bin.gz",
+      "sha256": "72bb9f5dde02eb2ce93f882b10311b6080be865ab13d6a3d59cc02b1e0910a7e",
+      "date": "2026-11-15",
+      "note": "Konfigurationsimport in Abschnittsfunktionen aufgeteilt, keine Funktionsaenderung"
+    },
+    {
       "version": "0.1.214",
       "bin": "knx-led-controller-16m-w_0.1.214.bin.gz",
       "sha256": "c157174493fd70ab2a548eff8d0b486f477a7c8c3d4bc9573c9ba897053e56d4",
@@ -27,13 +34,6 @@
       "sha256": "b9c3eb05c64c1c49486fa450ad414609b2f216584410425659fc804d350fefd1",
       "date": "2026-11-14",
       "note": "Aufbau und Abschalten schneller gerechnet: bildweit gleiche Werte nur noch einmal je Bild"
-    },
-    {
-      "version": "0.1.210",
-      "bin": "knx-led-controller-16m-w_0.1.210.bin.gz",
-      "sha256": "d67ddb4585926c2740df383fe9344d78520d2df38deb2f5bc2ed66582b34e0f3",
-      "date": "2026-11-13",
-      "note": "Renderer schneller: Kanalsummen, Begrenzung und Drahtzeit ohne Rechnen je Pixel, -O2 fuer heisse Dateien"
     }
   ]
 }
