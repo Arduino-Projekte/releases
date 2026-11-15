@@ -1,11 +1,11 @@
 {
-  "url": "knx-led-controller-16m-w_0.1.217.bin.gz",
+  "url": "knx-led-controller-16m-w_0.1.219.bin.gz",
   "check_ok": true,
   "update_available": false,
-  "version": "0.1.217",
-  "bin": "knx-led-controller-16m-w_0.1.217.bin.gz",
-  "file": "knx-led-controller-16m-w_0.1.217.bin.gz",
-  "sha256": "1c4a69f819de0088d755b4890dfb042558a125984304b55cf6a76d3b952f2302",
-  "message": "KNX-Objektverarbeitung in Einzelfunktionen aufgeteilt, keine Funktionsaenderung",
+  "version": "0.1.219",
+  "bin": "knx-led-controller-16m-w_0.1.219.bin.gz",
+  "file": "knx-led-controller-16m-w_0.1.219.bin.gz",
+  "sha256": "c8aea2b4086d2b6622c6a0089d46f0045b11f2ec13df04cd7b372327217b4809",
+  "message": "Phasenwahl und Diagnoseprobe aus dem Ausgangsrenderer herausgeloest, keine Funktionsaenderung",
   "http_code": 200
 }

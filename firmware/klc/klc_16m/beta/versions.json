@@ -1,6 +1,13 @@
 {
   "items": [
     {
+      "version": "0.1.219",
+      "bin": "knx-led-controller-16m_0.1.219.bin.gz",
+      "sha256": "80a1114f24bea733384c809acade9f2e735271fa66729021e95cafb444c61dd8",
+      "date": "2026-11-15",
+      "note": "Phasenwahl und Diagnoseprobe aus dem Ausgangsrenderer herausgeloest, keine Funktionsaenderung"
+    },
+    {
       "version": "0.1.217",
       "bin": "knx-led-controller-16m_0.1.217.bin.gz",
       "sha256": "1b8fcb223ce2aaab92fcf5392ed72d4fa8ebf3375f5f5cae83f7c42e51b0d133",
@@ -27,13 +34,6 @@
       "sha256": "c9895e13f0c69566ea18578b467000223f7eeed08a705f689f2e05c1a3b8b666",
       "date": "2026-11-14",
       "note": "Webserver-Sendefunktionen lesbar formatiert, keine Funktionsaenderung"
-    },
-    {
-      "version": "0.1.212",
-      "bin": "knx-led-controller-16m_0.1.212.bin.gz",
-      "sha256": "4bcbac3785a4927b3650e80c245ea37c9e7556efae00d5e34781e4cf00b7a38a",
-      "date": "2026-11-14",
-      "note": "Aufraeumen: 107 ungenutzte Funktionen entfernt, Klartext fuer 13 Diagnosecodes"
     }
   ]
 }
