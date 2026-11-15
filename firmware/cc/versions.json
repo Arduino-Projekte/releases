@@ -1,6 +1,13 @@
 {
   "items": [
     {
+      "version": "V2.26.11.15.2",
+      "bin": "clock-clock24_V2.26.11.15.2.bin",
+      "sha256": "4aad9195cbc8f01b9f697f09a27f93bb62eab8bb8de9b3614659d667ff59c085",
+      "date": "2026-11-15",
+      "note": "Startanimation der Slaves: Jeder Slave zeigt nach dem Boot selbst, dass er läuft, ohne auf den Master zu warten. Oben steht wie bisher die Slave-ID. In den unteren zwei Reihen drehen die Zeigerpaare gegenläufig 1,5 Umdrehungen von 6 auf 12 Uhr und laufen danach gemeinsam als Sekundenzeiger weiter (eine Runde pro Minute). Später gestartete Module liegen dadurch sichtbar zurück."
+    },
+    {
       "version": "V2.26.11.15.1",
       "bin": "clock-clock24_V2.26.11.15.1.bin",
       "sha256": "db65f3ec0675060dfbd9b1ab32cd34dc0ff39286504c0e5bcabef35809cae34b",
@@ -27,13 +34,6 @@
       "sha256": "adf253fd84cfe930549ed86cfe725a41fcce3d34d4564552be5e4be303fa6cd8",
       "date": "2026-11-11",
       "note": "Home Assistant: neue Auswahl **Animation** (Optionen „01 Welle“ … aus der Beschreibung auf der Animationsseite) und **Motiv** (Motivnamen). Eine Auswahl startet die Animation bzw. zeigt das Motiv; „–“ bedeutet, dass gerade nichts läuft, und führt bei Auswahl zur Uhrzeit zurück. Geänderte Animationsbeschreibungen werden automatisch neu an Home Assistant gemeldet."
-    },
-    {
-      "version": "V2.26.10.11.1",
-      "bin": "clock-clock24_V2.26.10.11.1.bin",
-      "sha256": "719762838d2c2ae4c8ead71ba8de42b12d1dcfbc2e40def0b0a4a0e449a17728",
-      "date": "2026-10-10",
-      "note": "MQTT-Verbindungsversuche, Verbindungsabbrüche, Broker-Ablehnungen und Transportfehler erscheinen im Web-Log. Zugangsdaten werden nicht ausgegeben; Statushinweise unterscheiden Broker-Verbindung und Discovery. Fehlerereignisse werden aus der MQTT-Task über eine begrenzte Queue in den Hauptloop übertragen."
     }
   ]
 }
