@@ -1,11 +1,11 @@
 {
-  "url": "knx-led-controller-16m-w_0.1.215.bin.gz",
+  "url": "knx-led-controller-16m-w_0.1.217.bin.gz",
   "check_ok": true,
   "update_available": false,
-  "version": "0.1.215",
-  "bin": "knx-led-controller-16m-w_0.1.215.bin.gz",
-  "file": "knx-led-controller-16m-w_0.1.215.bin.gz",
-  "sha256": "72bb9f5dde02eb2ce93f882b10311b6080be865ab13d6a3d59cc02b1e0910a7e",
-  "message": "Konfigurationsimport in Abschnittsfunktionen aufgeteilt, keine Funktionsaenderung",
+  "version": "0.1.217",
+  "bin": "knx-led-controller-16m-w_0.1.217.bin.gz",
+  "file": "knx-led-controller-16m-w_0.1.217.bin.gz",
+  "sha256": "1c4a69f819de0088d755b4890dfb042558a125984304b55cf6a76d3b952f2302",
+  "message": "KNX-Objektverarbeitung in Einzelfunktionen aufgeteilt, keine Funktionsaenderung",
   "http_code": 200
 }

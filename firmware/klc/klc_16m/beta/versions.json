@@ -1,6 +1,13 @@
 {
   "items": [
     {
+      "version": "0.1.217",
+      "bin": "knx-led-controller-16m_0.1.217.bin.gz",
+      "sha256": "1b8fcb223ce2aaab92fcf5392ed72d4fa8ebf3375f5f5cae83f7c42e51b0d133",
+      "date": "2026-11-15",
+      "note": "KNX-Objektverarbeitung in Einzelfunktionen aufgeteilt, keine Funktionsaenderung"
+    },
+    {
       "version": "0.1.215",
       "bin": "knx-led-controller-16m_0.1.215.bin.gz",
       "sha256": "4193c1d523ce77ea13f86414b23e07c55021034fe867e4c4715141c231515605",
@@ -27,13 +34,6 @@
       "sha256": "4bcbac3785a4927b3650e80c245ea37c9e7556efae00d5e34781e4cf00b7a38a",
       "date": "2026-11-14",
       "note": "Aufraeumen: 107 ungenutzte Funktionen entfernt, Klartext fuer 13 Diagnosecodes"
-    },
-    {
-      "version": "0.1.211",
-      "bin": "knx-led-controller-16m_0.1.211.bin.gz",
-      "sha256": "8dcce5f9c87d054c3762b22d12a57e5de9e65f64e27b56deb20b4eff9ac01afc",
-      "date": "2026-11-14",
-      "note": "Aufbau und Abschalten schneller gerechnet: bildweit gleiche Werte nur noch einmal je Bild"
     }
   ]
 }
