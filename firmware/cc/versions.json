@@ -1,6 +1,13 @@
 {
   "items": [
     {
+      "version": "V2.26.11.15.1",
+      "bin": "clock-clock24_V2.26.11.15.1.bin",
+      "sha256": "db65f3ec0675060dfbd9b1ab32cd34dc0ff39286504c0e5bcabef35809cae34b",
+      "date": "2026-11-15",
+      "note": "Fehler behoben: Nach manchen Animationen krochen die Zeiger minutenlang zur Uhrzeit oder zur Grundstellung, die Anzeige wirkte verstellt. Ursachen waren ein übernommenes altes Tempo und ein Rechenfehler bei den Bewegungen 7 und 8 („Geschwindigkeit unterschiedlich“), der drei der sechs Zeiger je Modul unabhängig vom gewählten Tempo auf etwa 24 Sekunden je Umdrehung bremste."
+    },
+    {
       "version": "V2.26.11.14.2",
       "bin": "clock-clock24_V2.26.11.14.2.bin",
       "sha256": "1de830a38b87479622a06a07ad575b8b21604391d03fbfc2f099d7c74468f89d",
@@ -27,13 +34,6 @@
       "sha256": "719762838d2c2ae4c8ead71ba8de42b12d1dcfbc2e40def0b0a4a0e449a17728",
       "date": "2026-10-10",
       "note": "MQTT-Verbindungsversuche, Verbindungsabbrüche, Broker-Ablehnungen und Transportfehler erscheinen im Web-Log. Zugangsdaten werden nicht ausgegeben; Statushinweise unterscheiden Broker-Verbindung und Discovery. Fehlerereignisse werden aus der MQTT-Task über eine begrenzte Queue in den Hauptloop übertragen."
-    },
-    {
-      "version": "V2.26.10.10.2",
-      "bin": "clock-clock24_V2.26.10.10.2.bin",
-      "sha256": "bf6f2c1a67191bf91b9b8f685a2413175508bef9b1a5b4e32cb9d15c0eaa452e",
-      "date": "2026-10-10",
-      "note": "Explizite Deklaration der MQTT-Konfigurationsübernahme ergänzt, damit Arduinos automatische Prototyp-Erzeugung den lokalen Konfigurationstyp nicht vor dessen Definition verwendet."
     }
   ]
 }
