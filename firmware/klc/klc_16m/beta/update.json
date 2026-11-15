@@ -1,11 +1,11 @@
 {
-  "url": "knx-led-controller-16m_0.1.219.bin.gz",
+  "url": "knx-led-controller-16m_0.1.220.bin.gz",
   "check_ok": true,
   "update_available": false,
-  "version": "0.1.219",
-  "bin": "knx-led-controller-16m_0.1.219.bin.gz",
-  "file": "knx-led-controller-16m_0.1.219.bin.gz",
-  "sha256": "80a1114f24bea733384c809acade9f2e735271fa66729021e95cafb444c61dd8",
-  "message": "Phasenwahl und Diagnoseprobe aus dem Ausgangsrenderer herausgeloest, keine Funktionsaenderung",
+  "version": "0.1.220",
+  "bin": "knx-led-controller-16m_0.1.220.bin.gz",
+  "file": "knx-led-controller-16m_0.1.220.bin.gz",
+  "sha256": "949986548cab013c7b3660197deb35f338bc04038d2406eb38e4bd4ee8faf442",
+  "message": "Animation stockt nicht mehr bei Sprachpruefung und Konfigurationsexport: Core 1 rechnet waehrend Hash und JSON-Messung weiter",
   "http_code": 200
 }

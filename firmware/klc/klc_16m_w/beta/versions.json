@@ -1,6 +1,13 @@
 {
   "items": [
     {
+      "version": "0.1.220",
+      "bin": "knx-led-controller-16m-w_0.1.220.bin.gz",
+      "sha256": "76f6d63ab10fb202bb349c16f6d020850b8b56fc5fbe5105be6a23a53fba3c38",
+      "date": "2026-11-15",
+      "note": "Animation stockt nicht mehr bei Sprachpruefung und Konfigurationsexport: Core 1 rechnet waehrend Hash und JSON-Messung weiter"
+    },
+    {
       "version": "0.1.219",
       "bin": "knx-led-controller-16m-w_0.1.219.bin.gz",
       "sha256": "c8aea2b4086d2b6622c6a0089d46f0045b11f2ec13df04cd7b372327217b4809",
@@ -27,13 +34,6 @@
       "sha256": "c157174493fd70ab2a548eff8d0b486f477a7c8c3d4bc9573c9ba897053e56d4",
       "date": "2026-11-14",
       "note": "/api/knx liefert wieder gueltiges JSON, neuer Zaehler read_value_tx_count"
-    },
-    {
-      "version": "0.1.213",
-      "bin": "knx-led-controller-16m-w_0.1.213.bin.gz",
-      "sha256": "724dfb832c559974df7bc391afc5de82e6c22b93d90fae78596df75f7b27fa22",
-      "date": "2026-11-14",
-      "note": "Webserver-Sendefunktionen lesbar formatiert, keine Funktionsaenderung"
     }
   ]
 }
