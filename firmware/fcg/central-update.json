@@ -1,8 +1,8 @@
 {
   "schema": "fcg_central_release_v1",
-  "version": "0.18.0",
+  "version": "0.18.2",
   "notes": {
-    "de": "Zählerprüfung\n\n• Neue Seite Datenprüfung: Abgleich der Summe aller Befüllungen mit der Differenz der Zählerstände je Messstelle, aufgeschlüsselt nach Ursache.\n• Warnung „Beobachten“ bei fehlenden Seq-Nummern und bei Verbrauch, der nicht zum Zählerstand passt. Gesetzte Zählerstände (Korrekturen) erscheinen nur als Hinweis.\n• Beginnt ein Gateway seine Zählung bei gleicher Kennung wieder bei 1, holt die Zentrale weiter ab, nummeriert lückenlos weiter und warnt.\n• Datenbank-Schema 8 (läuft beim Start automatisch, vorher entsteht eine Sicherung).",
-    "en": "Counter check\n\n• New data check page: reconciles the sum of all fillings with the counter reading difference per measuring point, broken down by cause.\n• “Monitor” alert for missing sequence numbers and for consumption that does not match the counter reading. Set counter readings (corrections) only appear as a note.\n• If a gateway restarts its count at 1 with the same ID, the central application keeps collecting, continues the numbering without a gap and raises an alert.\n• Database schema 8 (migrates automatically on start, a backup is created first)."
+    "de": "Messstellen aufgeräumt: Zählername und Messstellen-ID klar getrennt, technische Details zugeklappt. Aktive Zählart PCNT/ISR und dazugehörige Einstellungen vom Gateway anzeigen. Enthält auch die kompakte Navigation, Passwortvergleich und den signierten Firmwareimport aus 0.18.1.",
+    "en": "Clearer measurement point details: separate counter name and ID, collapsed technical details. Display the active PCNT/ISR counting method and its gateway settings. Also includes the compact navigation, password confirmation feedback and signed firmware import from 0.18.1."
   }
 }

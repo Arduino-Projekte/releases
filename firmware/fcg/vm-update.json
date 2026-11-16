@@ -1,13 +1,13 @@
 {
   "schema": "fcg_vm_package_v1",
-  "version": "0.18.0",
+  "version": "0.18.2",
   "target": "debian13-amd64-python313",
-  "file": "FCG-Zentrale-0.18.0-debian13-amd64-python313.tar.gz",
-  "sha256": "dbd06e7afcc745992b604d348a56830f3d54b06410949614954c319a86cb56fe",
+  "file": "FCG-Zentrale-0.18.2-debian13-amd64-python313.tar.gz",
+  "sha256": "efc244de22ac130af42629b3c865730adb121c9ddd746a654cae97f7eba9559c",
   "key_id": "prod-2026-09",
   "notes": {
-    "de": "Z\u00e4hlerpr\u00fcfung\n\n\u2022 Neue Seite Datenpr\u00fcfung: Abgleich der Summe aller Bef\u00fcllungen mit der Differenz der Z\u00e4hlerst\u00e4nde je Messstelle, aufgeschl\u00fcsselt nach Ursache.\n\u2022 Warnung \u201eBeobachten\u201c bei fehlenden Seq-Nummern und bei Verbrauch, der nicht zum Z\u00e4hlerstand passt. Gesetzte Z\u00e4hlerst\u00e4nde (Korrekturen) erscheinen nur als Hinweis.\n\u2022 Beginnt ein Gateway seine Z\u00e4hlung bei gleicher Kennung wieder bei 1, holt die Zentrale weiter ab, nummeriert l\u00fcckenlos weiter und warnt.\n\u2022 Datenbank-Schema 8 (l\u00e4uft beim Start automatisch, vorher entsteht eine Sicherung).",
-    "en": "Counter check\n\n\u2022 New data check page: reconciles the sum of all fillings with the counter reading difference per measuring point, broken down by cause.\n\u2022 \u201cMonitor\u201d alert for missing sequence numbers and for consumption that does not match the counter reading. Set counter readings (corrections) only appear as a note.\n\u2022 If a gateway restarts its count at 1 with the same ID, the central application keeps collecting, continues the numbering without a gap and raises an alert.\n\u2022 Database schema 8 (migrates automatically on start, a backup is created first)."
+    "de": "Messstellen aufger\u00e4umt: Z\u00e4hlername und Messstellen-ID klar getrennt, technische Details zugeklappt. Aktive Z\u00e4hlart PCNT/ISR und dazugeh\u00f6rige Einstellungen vom Gateway anzeigen. Enth\u00e4lt auch die kompakte Navigation, Passwortvergleich und den signierten Firmwareimport aus 0.18.1.",
+    "en": "Clearer measurement point details: separate counter name and ID, collapsed technical details. Display the active PCNT/ISR counting method and its gateway settings. Also includes the compact navigation, password confirmation feedback and signed firmware import from 0.18.1."
   },
-  "signature": "MEUCIBIAUYDPrKNzvb5Hsqs9oNFVaxrM1AvVdZ+dP9W1xANIAiEApkJakv/xC0HXGHp7+fl2gjDpJyJ5Sy25ndaHjPnZr9Y="
+  "signature": "MEYCIQC8/KsXcnOzGXJwWZzLWO+mjWboFCAAhSRACtllTNCurAIhANg2xCDcfT/wtaYwbVIWjYgWxQ8IpmdT42Iex8HGQ2ga"
 }
