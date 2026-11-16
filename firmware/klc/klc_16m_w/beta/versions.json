@@ -1,6 +1,13 @@
 {
   "items": [
     {
+      "version": "0.1.221",
+      "bin": "knx-led-controller-16m-w_0.1.221.bin.gz",
+      "sha256": "627cfba47387d9e4457d3f8739942308d2e210e8a6a12bd0864c66d7fba5cdfc",
+      "date": "2026-11-16",
+      "note": "Farbuebergang in eine statische Hauptphase endet jetzt exakt in der Zielfarbe statt einen Takt davor stehen zu bleiben"
+    },
+    {
       "version": "0.1.220",
       "bin": "knx-led-controller-16m-w_0.1.220.bin.gz",
       "sha256": "76f6d63ab10fb202bb349c16f6d020850b8b56fc5fbe5105be6a23a53fba3c38",
@@ -27,13 +34,6 @@
       "sha256": "72bb9f5dde02eb2ce93f882b10311b6080be865ab13d6a3d59cc02b1e0910a7e",
       "date": "2026-11-15",
       "note": "Konfigurationsimport in Abschnittsfunktionen aufgeteilt, keine Funktionsaenderung"
-    },
-    {
-      "version": "0.1.214",
-      "bin": "knx-led-controller-16m-w_0.1.214.bin.gz",
-      "sha256": "c157174493fd70ab2a548eff8d0b486f477a7c8c3d4bc9573c9ba897053e56d4",
-      "date": "2026-11-14",
-      "note": "/api/knx liefert wieder gueltiges JSON, neuer Zaehler read_value_tx_count"
     }
   ]
 }
