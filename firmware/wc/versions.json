@@ -1,6 +1,13 @@
 {
     "items": [
         {
+            "version": "V4.26.11.16.2",
+            "bin": "word-clock-IV_V4.26.11.16.2.bin",
+            "sha256": "0122432765f809521d8ec81a46393cf1c7ad82929a1da762da7fae01bd5335ee",
+            "date": "2026-11-16",
+            "note": "WLAN: Notfall-AP Word-Clock-IV bleibt stabil, wenn das gespeicherte WLAN nicht erreichbar ist (z. B. nach Umzug der Uhr); WLAN-Seite oeffnet sich am AP von selbst; kein Neustart, solange ein Geraet am AP angemeldet ist; Snake/Chase/Meteor: kein Schweif am Matrixende (R von UHR) beim Start"
+        },
+        {
             "version": "V4.26.11.12.1",
             "bin": "word-clock-IV_V4.26.11.12.1.bin",
             "sha256": "20bb297243f2a6ee0be5a9a08d919ef612467fa3fbd314c7a2dc18be8eb0e936",
@@ -27,13 +34,6 @@
             "sha256": "f97462c221d2f5f491aba66a8c0a93cd185d6c85704180f35cf618fd978af076",
             "date": "2026-10-22",
             "note": "Home Assistant: alle MQTT-Funktionen per Discovery - Temperaturen, Laufschrift-Dauer, Audio, Icons, Icon-Folge, Timer, Finanzen, Boersenwert und Testbild als eigene Entitaeten"
-        },
-        {
-            "version": "V4.26.10.21.1",
-            "bin": "word-clock-IV_V4.26.10.21.1.bin",
-            "sha256": "8a8f1784d4d842dbc1fd1b3e35fa14035914adbde6bcf236362473dde198d73c",
-            "date": "2026-10-21",
-            "note": "MQTT erweitert: Warntemperatur, Laufschrift mit Dauer/Stopp, Audio und Lautstaerke, eigene Icons, Timer-Aktionen, Finanzen, eigene Boersenwerte aus Home Assistant, Testbilder und Firmware-Update aus HA"
         }
     ]
 }
