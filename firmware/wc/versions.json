@@ -1,6 +1,13 @@
 {
     "items": [
         {
+            "version": "V4.26.11.18.1",
+            "bin": "word-clock-IV_V4.26.11.18.1.bin",
+            "sha256": "198c1dbaa7bd14b408e7c41b1c99687b6a88a94110eba1457c869ce982bef04f",
+            "date": "2026-11-18",
+            "note": "WLAN: Notfall-AP Word-Clock-IV startet zuverlaessig, wenn das gespeicherte WLAN fehlt (z. B. nach Umzug): sofort statt nach 75 s, als reiner AP ohne haengenden Verbindungsversuch; wechselt von selbst ins WLAN, sobald es wieder da ist; Firmware-Version im seriellen Start-Log"
+        },
+        {
             "version": "V4.26.11.16.2",
             "bin": "word-clock-IV_V4.26.11.16.2.bin",
             "sha256": "0122432765f809521d8ec81a46393cf1c7ad82929a1da762da7fae01bd5335ee",
@@ -26,13 +33,6 @@
             "bin": "word-clock-IV_V4.26.11.3.1.bin",
             "sha256": "41a00b18466a2d84db4790cb302c7c9dfecba488eab29a3647a53a00d48b70db",
             "date": "2026-11-03",
-            "note": "Home Assistant: alle MQTT-Funktionen per Discovery - Temperaturen, Laufschrift-Dauer, Audio, Icons, Icon-Folge, Timer, Finanzen, Boersenwert und Testbild als eigene Entitaeten"
-        },
-        {
-            "version": "V4.26.10.22.2",
-            "bin": "word-clock-IV_V4.26.10.22.2.bin",
-            "sha256": "f97462c221d2f5f491aba66a8c0a93cd185d6c85704180f35cf618fd978af076",
-            "date": "2026-10-22",
             "note": "Home Assistant: alle MQTT-Funktionen per Discovery - Temperaturen, Laufschrift-Dauer, Audio, Icons, Icon-Folge, Timer, Finanzen, Boersenwert und Testbild als eigene Entitaeten"
         }
     ]
