@@ -1,6 +1,13 @@
 {
   "items": [
     {
+      "version": "0.1.223",
+      "bin": "knx-led-controller-16m_0.1.223.bin.gz",
+      "sha256": "3bf7cda9f1fdeb41f2af49ea5a0a6ed7d95895f702cd3afcac196b7db237cc2f",
+      "date": "2026-11-18",
+      "note": "Geraeteseite laedt schneller (Diagnose erst beim Aufklappen); Anmeldung und Speicherabfragen halten die Animation nicht mehr an"
+    },
+    {
       "version": "0.1.222",
       "bin": "knx-led-controller-16m_0.1.222.bin.gz",
       "sha256": "acb895a94429e6b62c0d656cb2fb05f0bfaf146616605cfc4353feaa329a0748",
@@ -27,13 +34,6 @@
       "sha256": "80a1114f24bea733384c809acade9f2e735271fa66729021e95cafb444c61dd8",
       "date": "2026-11-15",
       "note": "Phasenwahl und Diagnoseprobe aus dem Ausgangsrenderer herausgeloest, keine Funktionsaenderung"
-    },
-    {
-      "version": "0.1.217",
-      "bin": "knx-led-controller-16m_0.1.217.bin.gz",
-      "sha256": "1b8fcb223ce2aaab92fcf5392ed72d4fa8ebf3375f5f5cae83f7c42e51b0d133",
-      "date": "2026-11-15",
-      "note": "KNX-Objektverarbeitung in Einzelfunktionen aufgeteilt, keine Funktionsaenderung"
     }
   ]
 }

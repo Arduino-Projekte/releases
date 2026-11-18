@@ -1,11 +1,11 @@
 {
-  "url": "knx-led-controller-16m_0.1.222.bin.gz",
+  "url": "knx-led-controller-16m_0.1.223.bin.gz",
   "check_ok": true,
   "update_available": false,
-  "version": "0.1.222",
-  "bin": "knx-led-controller-16m_0.1.222.bin.gz",
-  "file": "knx-led-controller-16m_0.1.222.bin.gz",
-  "sha256": "acb895a94429e6b62c0d656cb2fb05f0bfaf146616605cfc4353feaa329a0748",
-  "message": "KNX-Status bei Dauer-Effekten meldet Grundfarbe und Helligkeit wie eingestellt, einmal pro Aenderung, statt laufend den animierten Mittelwert",
+  "version": "0.1.223",
+  "bin": "knx-led-controller-16m_0.1.223.bin.gz",
+  "file": "knx-led-controller-16m_0.1.223.bin.gz",
+  "sha256": "3bf7cda9f1fdeb41f2af49ea5a0a6ed7d95895f702cd3afcac196b7db237cc2f",
+  "message": "Geraeteseite laedt schneller (Diagnose erst beim Aufklappen); Anmeldung und Speicherabfragen halten die Animation nicht mehr an",
   "http_code": 200
 }
