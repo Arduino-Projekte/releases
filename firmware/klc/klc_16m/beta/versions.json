@@ -1,6 +1,13 @@
 {
   "items": [
     {
+      "version": "0.1.222",
+      "bin": "knx-led-controller-16m_0.1.222.bin.gz",
+      "sha256": "acb895a94429e6b62c0d656cb2fb05f0bfaf146616605cfc4353feaa329a0748",
+      "date": "2026-11-18",
+      "note": "KNX-Status bei Dauer-Effekten meldet Grundfarbe und Helligkeit wie eingestellt, einmal pro Aenderung, statt laufend den animierten Mittelwert"
+    },
+    {
       "version": "0.1.221",
       "bin": "knx-led-controller-16m_0.1.221.bin.gz",
       "sha256": "b1f5d5b92209463ab65d37493f5179b472c870423bac1551b8fa2dc51dce00e4",
@@ -27,13 +34,6 @@
       "sha256": "1b8fcb223ce2aaab92fcf5392ed72d4fa8ebf3375f5f5cae83f7c42e51b0d133",
       "date": "2026-11-15",
       "note": "KNX-Objektverarbeitung in Einzelfunktionen aufgeteilt, keine Funktionsaenderung"
-    },
-    {
-      "version": "0.1.215",
-      "bin": "knx-led-controller-16m_0.1.215.bin.gz",
-      "sha256": "4193c1d523ce77ea13f86414b23e07c55021034fe867e4c4715141c231515605",
-      "date": "2026-11-15",
-      "note": "Konfigurationsimport in Abschnittsfunktionen aufgeteilt, keine Funktionsaenderung"
     }
   ]
 }

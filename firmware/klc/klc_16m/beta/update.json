@@ -1,11 +1,11 @@
 {
-  "url": "knx-led-controller-16m_0.1.221.bin.gz",
+  "url": "knx-led-controller-16m_0.1.222.bin.gz",
   "check_ok": true,
   "update_available": false,
-  "version": "0.1.221",
-  "bin": "knx-led-controller-16m_0.1.221.bin.gz",
-  "file": "knx-led-controller-16m_0.1.221.bin.gz",
-  "sha256": "b1f5d5b92209463ab65d37493f5179b472c870423bac1551b8fa2dc51dce00e4",
-  "message": "Farbuebergang in eine statische Hauptphase endet jetzt exakt in der Zielfarbe statt einen Takt davor stehen zu bleiben",
+  "version": "0.1.222",
+  "bin": "knx-led-controller-16m_0.1.222.bin.gz",
+  "file": "knx-led-controller-16m_0.1.222.bin.gz",
+  "sha256": "acb895a94429e6b62c0d656cb2fb05f0bfaf146616605cfc4353feaa329a0748",
+  "message": "KNX-Status bei Dauer-Effekten meldet Grundfarbe und Helligkeit wie eingestellt, einmal pro Aenderung, statt laufend den animierten Mittelwert",
   "http_code": 200
 }
