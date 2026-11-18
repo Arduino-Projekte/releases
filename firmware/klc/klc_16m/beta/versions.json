@@ -1,6 +1,13 @@
 {
   "items": [
     {
+      "version": "0.1.224",
+      "bin": "knx-led-controller-16m_0.1.224.bin.gz",
+      "sha256": "9e2262ad3fb7aeebb8af6df8fcb85ad44bcab17a365f5fe7d4f65072b586921e",
+      "date": "2026-11-18",
+      "note": "Hilfe 0.6.6: Farbstatus beschreibt das Verhalten seit 0.1.222 (Sollwert bei Dauer-Effekten) in allen sieben Sprachen"
+    },
+    {
       "version": "0.1.223",
       "bin": "knx-led-controller-16m_0.1.223.bin.gz",
       "sha256": "3bf7cda9f1fdeb41f2af49ea5a0a6ed7d95895f702cd3afcac196b7db237cc2f",
@@ -27,13 +34,6 @@
       "sha256": "949986548cab013c7b3660197deb35f338bc04038d2406eb38e4bd4ee8faf442",
       "date": "2026-11-15",
       "note": "Animation stockt nicht mehr bei Sprachpruefung und Konfigurationsexport: Core 1 rechnet waehrend Hash und JSON-Messung weiter"
-    },
-    {
-      "version": "0.1.219",
-      "bin": "knx-led-controller-16m_0.1.219.bin.gz",
-      "sha256": "80a1114f24bea733384c809acade9f2e735271fa66729021e95cafb444c61dd8",
-      "date": "2026-11-15",
-      "note": "Phasenwahl und Diagnoseprobe aus dem Ausgangsrenderer herausgeloest, keine Funktionsaenderung"
     }
   ]
 }

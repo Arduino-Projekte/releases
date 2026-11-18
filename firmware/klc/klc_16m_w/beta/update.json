@@ -1,11 +1,11 @@
 {
-  "url": "knx-led-controller-16m-w_0.1.223.bin.gz",
+  "url": "knx-led-controller-16m-w_0.1.224.bin.gz",
   "check_ok": true,
   "update_available": false,
-  "version": "0.1.223",
-  "bin": "knx-led-controller-16m-w_0.1.223.bin.gz",
-  "file": "knx-led-controller-16m-w_0.1.223.bin.gz",
-  "sha256": "6c80eae0054097d8500ffb90ce849321e566e35ac7c965816bc71935b2b210a9",
-  "message": "Geraeteseite laedt schneller (Diagnose erst beim Aufklappen); Anmeldung und Speicherabfragen halten die Animation nicht mehr an",
+  "version": "0.1.224",
+  "bin": "knx-led-controller-16m-w_0.1.224.bin.gz",
+  "file": "knx-led-controller-16m-w_0.1.224.bin.gz",
+  "sha256": "4d1fffd8d34e9ad796ae3cd15b2b55bd3292ed9c15100f407dbfb29817f5770e",
+  "message": "Hilfe 0.6.6: Farbstatus beschreibt das Verhalten seit 0.1.222 (Sollwert bei Dauer-Effekten) in allen sieben Sprachen",
   "http_code": 200
 }
