@@ -1,6 +1,13 @@
 {
   "items": [
     {
+      "version": "0.1.225",
+      "bin": "knx-led-controller-16m_0.1.225.bin.gz",
+      "sha256": "6db0e5f97da58835410dc719a2bce96a0acf5e52b550227e92c6e4450efc8f1f",
+      "date": "2026-11-21",
+      "note": "Seitenfuss zeigt das echte Build-Datum statt des festen Datums Sep 19 2026"
+    },
+    {
       "version": "0.1.224",
       "bin": "knx-led-controller-16m_0.1.224.bin.gz",
       "sha256": "9e2262ad3fb7aeebb8af6df8fcb85ad44bcab17a365f5fe7d4f65072b586921e",
@@ -27,13 +34,6 @@
       "sha256": "b1f5d5b92209463ab65d37493f5179b472c870423bac1551b8fa2dc51dce00e4",
       "date": "2026-11-16",
       "note": "Farbuebergang in eine statische Hauptphase endet jetzt exakt in der Zielfarbe statt einen Takt davor stehen zu bleiben"
-    },
-    {
-      "version": "0.1.220",
-      "bin": "knx-led-controller-16m_0.1.220.bin.gz",
-      "sha256": "949986548cab013c7b3660197deb35f338bc04038d2406eb38e4bd4ee8faf442",
-      "date": "2026-11-15",
-      "note": "Animation stockt nicht mehr bei Sprachpruefung und Konfigurationsexport: Core 1 rechnet waehrend Hash und JSON-Messung weiter"
     }
   ]
 }
