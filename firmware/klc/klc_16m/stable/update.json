@@ -1,13 +1,11 @@
 {
-    "manifest":  {
-                     "url":  "knx-led-controller-16m_0.1.183.bin",
-                     "check_ok":  true,
-                     "update_available":  false,
-                     "version":  "0.1.183",
-                     "bin":  "knx-led-controller-16m_0.1.183.bin",
-                     "file":  "knx-led-controller-16m_0.1.183.bin",
-                     "sha256":  "1ff24ab97722c2cffb2f9bb0d4224db7a2b69bf219f712c3865904c4985e79c4",
-                     "message":  "Szenenwechsel ohne Schwarzphase: jedes Pixel haelt sein Licht, bis die neue Hauptphase es uebernimmt, und gleitet dann in Farbe und Helligkeit hinueber; nicht gebrauchte Pixel verloeschen zufaellig innerhalb von ein bis zwei Durchgaengen. Ein Hilfepunkt je Feld und Schaltflaechenleiste; Farbreihe Zuletzt verwendet auf einer Linie",
-                     "http_code":  200
-                 }
+  "url": "knx-led-controller-16m_0.1.225.bin.gz",
+  "check_ok": true,
+  "update_available": false,
+  "version": "0.1.225",
+  "bin": "knx-led-controller-16m_0.1.225.bin.gz",
+  "file": "knx-led-controller-16m_0.1.225.bin.gz",
+  "sha256": "6db0e5f97da58835410dc719a2bce96a0acf5e52b550227e92c6e4450efc8f1f",
+  "message": "Seitenfuss zeigt das echte Build-Datum statt des festen Datums Sep 19 2026",
+  "http_code": 200
 }
