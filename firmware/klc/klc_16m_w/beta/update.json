@@ -1,11 +1,11 @@
 {
-  "url": "knx-led-controller-16m-w_0.1.225.bin.gz",
+  "url": "knx-led-controller-16m-w_0.1.226.bin.gz",
   "check_ok": true,
   "update_available": false,
-  "version": "0.1.225",
-  "bin": "knx-led-controller-16m-w_0.1.225.bin.gz",
-  "file": "knx-led-controller-16m-w_0.1.225.bin.gz",
-  "sha256": "be74d753e2ce31e24eae0ed6fe0216aa95701306e4bcbeed47e4f64cb162d4c1",
-  "message": "Seitenfuss zeigt das echte Build-Datum statt des festen Datums Sep 19 2026",
+  "version": "0.1.226",
+  "bin": "knx-led-controller-16m-w_0.1.226.bin.gz",
+  "file": "knx-led-controller-16m-w_0.1.226.bin.gz",
+  "sha256": "08e9b8bc04af3c6f8cb6254ecfb514c7b71aba87d39d8252feace29ab13b25f7",
+  "message": "KNX-Strom bei Daueranimationen geglaettet, Telegrammzaehler je Art in /api/knx",
   "http_code": 200
 }

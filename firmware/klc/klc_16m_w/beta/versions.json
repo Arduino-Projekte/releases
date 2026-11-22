@@ -1,6 +1,13 @@
 {
   "items": [
     {
+      "version": "0.1.226",
+      "bin": "knx-led-controller-16m-w_0.1.226.bin.gz",
+      "sha256": "08e9b8bc04af3c6f8cb6254ecfb514c7b71aba87d39d8252feace29ab13b25f7",
+      "date": "2026-11-22",
+      "note": "KNX-Strom bei Daueranimationen geglaettet, Telegrammzaehler je Art in /api/knx"
+    },
+    {
       "version": "0.1.225",
       "bin": "knx-led-controller-16m-w_0.1.225.bin.gz",
       "sha256": "be74d753e2ce31e24eae0ed6fe0216aa95701306e4bcbeed47e4f64cb162d4c1",
@@ -27,13 +34,6 @@
       "sha256": "a574fd2c9335ecbbbeba0e155e84cec71d684cbdcd4f15d340bd031fc416b83e",
       "date": "2026-11-18",
       "note": "KNX-Status bei Dauer-Effekten meldet Grundfarbe und Helligkeit wie eingestellt, einmal pro Aenderung, statt laufend den animierten Mittelwert"
-    },
-    {
-      "version": "0.1.221",
-      "bin": "knx-led-controller-16m-w_0.1.221.bin.gz",
-      "sha256": "627cfba47387d9e4457d3f8739942308d2e210e8a6a12bd0864c66d7fba5cdfc",
-      "date": "2026-11-16",
-      "note": "Farbuebergang in eine statische Hauptphase endet jetzt exakt in der Zielfarbe statt einen Takt davor stehen zu bleiben"
     }
   ]
 }
