@@ -1,6 +1,13 @@
 {
     "items": [
         {
+            "version": "V2.26.11.21.4",
+            "bin": "equinox-clock_V2.26.11.21.4.bin",
+            "sha256": "82b4026de4342cef687123187155df828791ea58afc0d9e201dfa9fd96420659",
+            "date": "2026-11-22",
+            "note": "WLAN verbindet nach Abbruch neu; Uhr bleibt nach Online-Update an; Online-Update prueft Zertifikat und SHA-256; Neustart, Speichern und Update nur per POST; WLAN-Passwort nicht mehr im Export; Release-BIN per lokalem Upload moeglich; neuer Setup-AP-Schluessel equinoxclock bzw. liquidclock; Einstellungen in neuem Speicherformat (werden einmalig uebernommen); LED-Anzeige laeuft in eigenem Task ohne Ruckler durch Weboberflaeche; Helligkeit verlustfrei und mit weichem Uebergang; NTP-Abgleich ohne Zeitsprung; neu: MQTT-Anbindung fuer Home Assistant mit automatischer Erkennung (Uhr an/aus, Helligkeit, Nachtmodus, Modus, Sekundenzeiger, Animationen, Verbrauchswert, Status); ohne NTP nach Kaltstart zeigt die Uhr \"keine Zeit\" statt 1970; Zeitplan fuehrt alle Regeln einer Minute aus und holt Nachtmodus/Uhr-an/aus nach Neustart nach; Speichern der Zeitplan-Aktivierung loescht keine Regeln mehr; kurzzeitige Verbrauchsanzeige und Online-Update werden nicht mehr dauerhaft gespeichert; innerer Minutenzeiger im Verbrauchsmodus korrigiert; ungenutzter Code und alte WLAN-Speicher-API entfernt"
+        },
+        {
             "version": "V2.26.9.29.1",
             "bin": "equinox-clock_V2.26.9.29.1.bin",
             "sha256": "45a4ceda3d4fd0e3c44f375078a658a5919f53940c7b0b4c6b0da13fc5ae7d75",
@@ -20,12 +27,6 @@
             "sha256": "6dbd8d23213dff1cc6cb2c790e7bac0dce7ebcf6d523f22020c7d6d888398abb",
             "date": "2026-05-29",
             "note": "Automatisch nach erfolgreichem Arduino-CLI-Build"
-        },
-        {
-            "version": "V2.26.3.15.1",
-            "bin": "equinox-lock_V2.26.3.15.1.bin",
-            "date": "2026-03-15",
-            "note": "Stable"
         },
         {
             "version": "V2.26.3.15.2",
