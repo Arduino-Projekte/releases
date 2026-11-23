@@ -1,6 +1,13 @@
 {
   "items": [
     {
+      "version": "0.1.227",
+      "bin": "knx-led-controller-16m-w_0.1.227.bin.gz",
+      "sha256": "be6680f13ebad4af0d5a2160430c90db167232bee01a4db5dd2164a54d3fe7ed",
+      "date": "2026-11-23",
+      "note": "Animation stockt nicht mehr hinter der KNX-Verarbeitung: Core 0 gibt die Rendersperre zwischen den Schritten an Core 1 ab, KNX-Teilschritte einzeln gemessen"
+    },
+    {
       "version": "0.1.226",
       "bin": "knx-led-controller-16m-w_0.1.226.bin.gz",
       "sha256": "08e9b8bc04af3c6f8cb6254ecfb514c7b71aba87d39d8252feace29ab13b25f7",
@@ -27,13 +34,6 @@
       "sha256": "6c80eae0054097d8500ffb90ce849321e566e35ac7c965816bc71935b2b210a9",
       "date": "2026-11-18",
       "note": "Geraeteseite laedt schneller (Diagnose erst beim Aufklappen); Anmeldung und Speicherabfragen halten die Animation nicht mehr an"
-    },
-    {
-      "version": "0.1.222",
-      "bin": "knx-led-controller-16m-w_0.1.222.bin.gz",
-      "sha256": "a574fd2c9335ecbbbeba0e155e84cec71d684cbdcd4f15d340bd031fc416b83e",
-      "date": "2026-11-18",
-      "note": "KNX-Status bei Dauer-Effekten meldet Grundfarbe und Helligkeit wie eingestellt, einmal pro Aenderung, statt laufend den animierten Mittelwert"
     }
   ]
 }
