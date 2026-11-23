@@ -1,8 +1,8 @@
 {
   "schema": "fcg_central_release_v1",
-  "version": "0.19.0",
+  "version": "0.19.1",
   "notes": {
-    "de": "Sichere portable Rücksicherung mit Schlüsselprüfung, Probe-Migration, Sitzungsbereinigung und optionaler Verschlüsselung. Persönliche Konten mit Erstpasswortwechsel und optionalem Offline-TOTP. Gerätepass, Konfigurationshistorie und Referenzprüfung. Gestaffelte Firmwareverteilung mit Pilot, Fehlergrenze und Wartungsfenster. Datenalter, ungesicherte Menge, Speicherübersicht und begrenzter Paketcache. Docker-Online-Update mit automatischem Rückrollen, wiederholbare VM-Vorbereitung und erweiterte Offline-Hilfe. Datenbank-Schema 9; VM und Docker verwenden dasselbe Sicherungsformat.",
-    "en": "Safe portable restore with key verification, trial migration, session invalidation and optional encryption. Personal accounts with mandatory initial password change and optional offline TOTP. Device passport, configuration history and reference testing. Staged firmware rollout with a pilot, failure threshold and maintenance window. Reading age, pending quantity, storage overview and bounded package cache. Automatic rollback for online Docker updates, retryable VM preparation and expanded offline help. Database schema 9; VM and Docker use the same backup format."
+    "de": "Vollständige SMB-Pfade in einem Feld. Signierte Docker-Update-ZIPs direkt von SMB einlesen und passende neuere Updates zuerst anzeigen. Optionale SMB-Prüfung alle sechs Stunden, Installation nach Bestätigung. Einheitliche Formularhöhen und bessere Ausrichtung.",
+    "en": "Enter complete SMB paths in one field. Import signed Docker update ZIPs directly from SMB and show compatible newer releases first. Optional SMB checks every six hours, with confirmation before installation. Consistent form control heights and alignment."
   }
 }

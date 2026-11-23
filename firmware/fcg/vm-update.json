@@ -1,13 +1,13 @@
 {
   "schema": "fcg_vm_package_v1",
-  "version": "0.19.0",
+  "version": "0.19.1",
   "target": "debian13-amd64-python313",
-  "file": "FCG-Zentrale-0.19.0-debian13-amd64-python313.tar.gz",
-  "sha256": "a8cfa50e3227ae7f5eca1854be4ea309bae948f278d8c8b3e9b9c31a5a536f05",
+  "file": "FCG-Zentrale-0.19.1-debian13-amd64-python313.tar.gz",
+  "sha256": "587e2d7cfae600e3e2d13717a2d03727461009bcfce1ae38f11506f0b1c887fe",
   "key_id": "prod-2026-09",
   "notes": {
-    "de": "Sichere portable R\u00fccksicherung mit Schl\u00fcsselpr\u00fcfung, Probe-Migration, Sitzungsbereinigung und optionaler Verschl\u00fcsselung. Pers\u00f6nliche Konten mit Erstpasswortwechsel und optionalem Offline-TOTP. Ger\u00e4tepass, Konfigurationshistorie und Referenzpr\u00fcfung. Gestaffelte Firmwareverteilung mit Pilot, Fehlergrenze und Wartungsfenster. Datenalter, ungesicherte Menge, Speicher\u00fcbersicht und begrenzter Paketcache. Docker-Online-Update mit automatischem R\u00fcckrollen, wiederholbare VM-Vorbereitung und erweiterte Offline-Hilfe. Datenbank-Schema 9; VM und Docker verwenden dasselbe Sicherungsformat.",
-    "en": "Safe portable restore with key verification, trial migration, session invalidation and optional encryption. Personal accounts with mandatory initial password change and optional offline TOTP. Device passport, configuration history and reference testing. Staged firmware rollout with a pilot, failure threshold and maintenance window. Reading age, pending quantity, storage overview and bounded package cache. Automatic rollback for online Docker updates, retryable VM preparation and expanded offline help. Database schema 9; VM and Docker use the same backup format."
+    "de": "Vollst\u00e4ndige SMB-Pfade in einem Feld. Signierte Docker-Update-ZIPs direkt von SMB einlesen und passende neuere Updates zuerst anzeigen. Optionale SMB-Pr\u00fcfung alle sechs Stunden, Installation nach Best\u00e4tigung. Einheitliche Formularh\u00f6hen und bessere Ausrichtung.",
+    "en": "Enter complete SMB paths in one field. Import signed Docker update ZIPs directly from SMB and show compatible newer releases first. Optional SMB checks every six hours, with confirmation before installation. Consistent form control heights and alignment."
   },
-  "signature": "MEYCIQD4uYOXQSHMYusZtmCh0aua6rzddUl9vuFdTqcvMoCzkAIhAPuGyDYOgwE11mArIJl0WoA2oBxFat2OYnmHrDIyZelG"
+  "signature": "MEQCIA0Cb//AqZEzB9R7mozZHsX5DViCEVaDV5A8rQnbYm1uAiAdPXl1zvExNg7ToLGEZMKJgCMNQUBt/AwPL/kKRWXgWw=="
 }
