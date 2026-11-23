@@ -1,13 +1,13 @@
 {
   "schema": "fcg_vm_package_v1",
-  "version": "0.18.2",
+  "version": "0.19.0",
   "target": "debian13-amd64-python313",
-  "file": "FCG-Zentrale-0.18.2-debian13-amd64-python313.tar.gz",
-  "sha256": "efc244de22ac130af42629b3c865730adb121c9ddd746a654cae97f7eba9559c",
+  "file": "FCG-Zentrale-0.19.0-debian13-amd64-python313.tar.gz",
+  "sha256": "a8cfa50e3227ae7f5eca1854be4ea309bae948f278d8c8b3e9b9c31a5a536f05",
   "key_id": "prod-2026-09",
   "notes": {
-    "de": "Messstellen aufger\u00e4umt: Z\u00e4hlername und Messstellen-ID klar getrennt, technische Details zugeklappt. Aktive Z\u00e4hlart PCNT/ISR und dazugeh\u00f6rige Einstellungen vom Gateway anzeigen. Enth\u00e4lt auch die kompakte Navigation, Passwortvergleich und den signierten Firmwareimport aus 0.18.1.",
-    "en": "Clearer measurement point details: separate counter name and ID, collapsed technical details. Display the active PCNT/ISR counting method and its gateway settings. Also includes the compact navigation, password confirmation feedback and signed firmware import from 0.18.1."
+    "de": "Sichere portable R\u00fccksicherung mit Schl\u00fcsselpr\u00fcfung, Probe-Migration, Sitzungsbereinigung und optionaler Verschl\u00fcsselung. Pers\u00f6nliche Konten mit Erstpasswortwechsel und optionalem Offline-TOTP. Ger\u00e4tepass, Konfigurationshistorie und Referenzpr\u00fcfung. Gestaffelte Firmwareverteilung mit Pilot, Fehlergrenze und Wartungsfenster. Datenalter, ungesicherte Menge, Speicher\u00fcbersicht und begrenzter Paketcache. Docker-Online-Update mit automatischem R\u00fcckrollen, wiederholbare VM-Vorbereitung und erweiterte Offline-Hilfe. Datenbank-Schema 9; VM und Docker verwenden dasselbe Sicherungsformat.",
+    "en": "Safe portable restore with key verification, trial migration, session invalidation and optional encryption. Personal accounts with mandatory initial password change and optional offline TOTP. Device passport, configuration history and reference testing. Staged firmware rollout with a pilot, failure threshold and maintenance window. Reading age, pending quantity, storage overview and bounded package cache. Automatic rollback for online Docker updates, retryable VM preparation and expanded offline help. Database schema 9; VM and Docker use the same backup format."
   },
-  "signature": "MEYCIQC8/KsXcnOzGXJwWZzLWO+mjWboFCAAhSRACtllTNCurAIhANg2xCDcfT/wtaYwbVIWjYgWxQ8IpmdT42Iex8HGQ2ga"
+  "signature": "MEYCIQD4uYOXQSHMYusZtmCh0aua6rzddUl9vuFdTqcvMoCzkAIhAPuGyDYOgwE11mArIJl0WoA2oBxFat2OYnmHrDIyZelG"
 }

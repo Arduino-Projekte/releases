@@ -1,8 +1,8 @@
 {
   "schema": "fcg_central_release_v1",
-  "version": "0.18.2",
+  "version": "0.19.0",
   "notes": {
-    "de": "Messstellen aufgeräumt: Zählername und Messstellen-ID klar getrennt, technische Details zugeklappt. Aktive Zählart PCNT/ISR und dazugehörige Einstellungen vom Gateway anzeigen. Enthält auch die kompakte Navigation, Passwortvergleich und den signierten Firmwareimport aus 0.18.1.",
-    "en": "Clearer measurement point details: separate counter name and ID, collapsed technical details. Display the active PCNT/ISR counting method and its gateway settings. Also includes the compact navigation, password confirmation feedback and signed firmware import from 0.18.1."
+    "de": "Sichere portable Rücksicherung mit Schlüsselprüfung, Probe-Migration, Sitzungsbereinigung und optionaler Verschlüsselung. Persönliche Konten mit Erstpasswortwechsel und optionalem Offline-TOTP. Gerätepass, Konfigurationshistorie und Referenzprüfung. Gestaffelte Firmwareverteilung mit Pilot, Fehlergrenze und Wartungsfenster. Datenalter, ungesicherte Menge, Speicherübersicht und begrenzter Paketcache. Docker-Online-Update mit automatischem Rückrollen, wiederholbare VM-Vorbereitung und erweiterte Offline-Hilfe. Datenbank-Schema 9; VM und Docker verwenden dasselbe Sicherungsformat.",
+    "en": "Safe portable restore with key verification, trial migration, session invalidation and optional encryption. Personal accounts with mandatory initial password change and optional offline TOTP. Device passport, configuration history and reference testing. Staged firmware rollout with a pilot, failure threshold and maintenance window. Reading age, pending quantity, storage overview and bounded package cache. Automatic rollback for online Docker updates, retryable VM preparation and expanded offline help. Database schema 9; VM and Docker use the same backup format."
   }
 }
