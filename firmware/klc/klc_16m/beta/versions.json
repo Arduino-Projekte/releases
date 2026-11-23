@@ -1,6 +1,13 @@
 {
   "items": [
     {
+      "version": "0.1.228",
+      "bin": "knx-led-controller-16m_0.1.228.bin.gz",
+      "sha256": "c1c2478a061a948448cd2b9a9a02697bc5d6d3afa7042237602b3d46067761b8",
+      "date": "2026-11-23",
+      "note": "Keine Dauerlast mehr bei Funkeln auf vielen Pixeln: Core 1 gibt die Rendersperre zwischen den Ausgaengen an Core 0 ab, Funkeln und Zufaelliger Aufbau rechnen schneller (gleiches Bild)"
+    },
+    {
       "version": "0.1.227",
       "bin": "knx-led-controller-16m_0.1.227.bin.gz",
       "sha256": "cb5dd906e9082b63a31b1816bae2cd97c0b2ef1e22fec853adbf61ad6018a539",
@@ -27,13 +34,6 @@
       "sha256": "9e2262ad3fb7aeebb8af6df8fcb85ad44bcab17a365f5fe7d4f65072b586921e",
       "date": "2026-11-18",
       "note": "Hilfe 0.6.6: Farbstatus beschreibt das Verhalten seit 0.1.222 (Sollwert bei Dauer-Effekten) in allen sieben Sprachen"
-    },
-    {
-      "version": "0.1.223",
-      "bin": "knx-led-controller-16m_0.1.223.bin.gz",
-      "sha256": "3bf7cda9f1fdeb41f2af49ea5a0a6ed7d95895f702cd3afcac196b7db237cc2f",
-      "date": "2026-11-18",
-      "note": "Geraeteseite laedt schneller (Diagnose erst beim Aufklappen); Anmeldung und Speicherabfragen halten die Animation nicht mehr an"
     }
   ]
 }

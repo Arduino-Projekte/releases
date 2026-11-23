@@ -1,11 +1,11 @@
 {
-  "url": "knx-led-controller-16m_0.1.227.bin.gz",
+  "url": "knx-led-controller-16m_0.1.228.bin.gz",
   "check_ok": true,
   "update_available": false,
-  "version": "0.1.227",
-  "bin": "knx-led-controller-16m_0.1.227.bin.gz",
-  "file": "knx-led-controller-16m_0.1.227.bin.gz",
-  "sha256": "cb5dd906e9082b63a31b1816bae2cd97c0b2ef1e22fec853adbf61ad6018a539",
-  "message": "Animation stockt nicht mehr hinter der KNX-Verarbeitung: Core 0 gibt die Rendersperre zwischen den Schritten an Core 1 ab, KNX-Teilschritte einzeln gemessen",
+  "version": "0.1.228",
+  "bin": "knx-led-controller-16m_0.1.228.bin.gz",
+  "file": "knx-led-controller-16m_0.1.228.bin.gz",
+  "sha256": "c1c2478a061a948448cd2b9a9a02697bc5d6d3afa7042237602b3d46067761b8",
+  "message": "Keine Dauerlast mehr bei Funkeln auf vielen Pixeln: Core 1 gibt die Rendersperre zwischen den Ausgaengen an Core 0 ab, Funkeln und Zufaelliger Aufbau rechnen schneller (gleiches Bild)",
   "http_code": 200
 }
