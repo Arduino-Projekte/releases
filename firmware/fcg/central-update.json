@@ -1,8 +1,8 @@
 {
   "schema": "fcg_central_release_v1",
-  "version": "0.19.2",
+  "version": "0.19.3",
   "notes": {
-    "de": "Beim Wechsel der Gateway-Updateadresse bietet die Zentrale die Übernahme signierter Firmware zwischen zugeordneten Webordnern an. Das Bereinigen des alten Ordners braucht eine zweite Bestätigung. Automatische Aktualisierungen behalten die Scrollposition und warten bei der Formularbearbeitung.",
-    "en": "When changing the gateway update address, the central application offers to copy signed firmware between mapped web folders. Cleaning the old folder requires separate confirmation. Automatic refresh preserves scroll position and waits while forms are being edited."
+    "de": "Warnungen lassen sich pro Konto quittieren. Kopfzeile, Übersicht und Hallenanzeige zeigen für das angemeldete Konto nur aktive, noch nicht quittierte Meldungen. Neue Befunde und höhere Warnstufen machen die Warnung wieder sichtbar. Datenbank-Schema 10.",
+    "en": "Warnings can be acknowledged per account. The navigation badge, overview and hall display show only active warnings the signed-in account has not acknowledged. New findings and higher severity bring the warning back. Database schema 10."
   }
 }

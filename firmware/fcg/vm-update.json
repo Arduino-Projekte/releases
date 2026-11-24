@@ -1,13 +1,13 @@
 {
   "schema": "fcg_vm_package_v1",
-  "version": "0.19.2",
+  "version": "0.19.3",
   "target": "debian13-amd64-python313",
-  "file": "FCG-Zentrale-0.19.2-debian13-amd64-python313.tar.gz",
-  "sha256": "a4a9332462f7605a86dc25da77b2b8dccc38e12f5e11b4894b9feb977e5a9dc8",
+  "file": "FCG-Zentrale-0.19.3-debian13-amd64-python313.tar.gz",
+  "sha256": "e8538fb7b91941b5ac6d3f3c2ca2a88d4e4f48be0ccd2b1a8afe8a6f9a42c517",
   "key_id": "prod-2026-09",
   "notes": {
-    "de": "Beim Wechsel der Gateway-Updateadresse bietet die Zentrale die \u00dcbernahme signierter Firmware zwischen zugeordneten Webordnern an. Das Bereinigen des alten Ordners braucht eine zweite Best\u00e4tigung. Automatische Aktualisierungen behalten die Scrollposition und warten bei der Formularbearbeitung.",
-    "en": "When changing the gateway update address, the central application offers to copy signed firmware between mapped web folders. Cleaning the old folder requires separate confirmation. Automatic refresh preserves scroll position and waits while forms are being edited."
+    "de": "Warnungen lassen sich pro Konto quittieren. Kopfzeile, \u00dcbersicht und Hallenanzeige zeigen f\u00fcr das angemeldete Konto nur aktive, noch nicht quittierte Meldungen. Neue Befunde und h\u00f6here Warnstufen machen die Warnung wieder sichtbar. Datenbank-Schema 10.",
+    "en": "Warnings can be acknowledged per account. The navigation badge, overview and hall display show only active warnings the signed-in account has not acknowledged. New findings and higher severity bring the warning back. Database schema 10."
   },
-  "signature": "MEUCIQC/Ss4uxgf1M+w74kOvfa72qrpWKUq+FOfoBZiUUA/czQIgHHi7JLGHU67S4Qt7+DK1VlPBFWqBeyRTzS52qKLVxtQ="
+  "signature": "MEYCIQD4sLCykpCU7VieT/mH/NIL3nnyG9+7ubLpDQyojFStFgIhAO+r/VOVPd7p2m3tzOQVU8+2rP1LOp3/4ck+su6Dj4aj"
 }
