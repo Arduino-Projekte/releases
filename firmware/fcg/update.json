@@ -3,13 +3,13 @@
   "project": "fcg_main",
   "target": "esp32s3",
   "board_profile": "1",
-  "version": "V0.21.63",
-  "file": "fcg_main_V0.21.63.bin",
-  "url": "http://10.200.23.11/fcg_update/fcg_main_V0.21.63.bin",
+  "version": "V0.21.64",
+  "file": "fcg_main_V0.21.64.bin",
+  "url": "http://10.200.23.11/fcg_update/fcg_main_V0.21.64.bin",
   "min_version": "V0.21.45",
-  "sha256": "ef4dee03e88e34f98069e90622faea934f13ae5c9a7ce60968dac0ab7d00e8fa",
+  "sha256": "185664c4b4b130697766cd6e788dbea8136c4f4322a10befe8b3c87dc11ca041",
   "key_id": "prod-2026-09",
   "signature_algorithm": "ecdsa-p256-sha256",
-  "signature": "MEYCIQD/mXIy5oL/aVWhjTm/IsfqA2uQ8YPitnVzYMUlUFXDoQIhAJFiG7oazr9nUdE9m1S6UQVkCIaeRupIyw6U7GvhwXzp",
-  "notes": "ISR bleibt ohne ausdr\u00fccklich gespeicherte Auswahl aktiv; ein Firmwareupdate \u00e4ndert die Filterwirkung vorhandener Z\u00e4hler nicht still auf PCNT. Eine \u00c4nderung der Z\u00e4hlart wird erst beim n\u00e4chsten geplanten Neustart aktiv. Bis dahin z\u00e4hlt die bisherige Quelle weiter; die unsichere Live-Umschaltgrenze entf\u00e4llt. Oberfl\u00e4che und Hilfe erkl\u00e4ren den Ablauf. Der Collector meldet zus\u00e4tzlich die Ethernet-MAC und eFuse-Ger\u00e4tekennung f\u00fcr den Ger\u00e4tepass. Diese Kennungen sind kein manipulationssicherer Abrechnungsnachweis."
+  "signature": "MEUCIBAa/Us/5wO/SYpmambQ9CR/TKmCpxZ1K9WmVvZyK8fgAiEAql7TZoq50Aq9e3+So5910jut/T9KWYWSpozpaXx+eR0=",
+  "notes": "# FCG V0.21.64\n\n- Die Sensorpr\u00fcfung unter Z\u00e4hler vergleicht Testimpulse mit dem Betriebsz\u00e4hler und zeigt Rohflanken und ISR-Filterwerte. Testimpulse z\u00e4hlen regul\u00e4r mit.\n- Unter System zeigt der Wiederanlaufbericht den Resetgrund, den aus NVS geladenen Stand, den letzten gesicherten Stand sowie den Netzwerk- und Zeitstatus."
 }
