@@ -1,13 +1,13 @@
 {
   "schema": "fcg_vm_package_v1",
-  "version": "0.19.3",
+  "version": "0.19.4",
   "target": "debian13-amd64-python313",
-  "file": "FCG-Zentrale-0.19.3-debian13-amd64-python313.tar.gz",
-  "sha256": "e8538fb7b91941b5ac6d3f3c2ca2a88d4e4f48be0ccd2b1a8afe8a6f9a42c517",
+  "file": "FCG-Zentrale-0.19.4-debian13-amd64-python313.tar.gz",
+  "sha256": "38ef0c664a5da578f9e65ae4c1b40a9fd3ab6cce4d4b1dbf3e059d341ce21a79",
   "key_id": "prod-2026-09",
   "notes": {
-    "de": "Warnungen lassen sich pro Konto quittieren. Kopfzeile, \u00dcbersicht und Hallenanzeige zeigen f\u00fcr das angemeldete Konto nur aktive, noch nicht quittierte Meldungen. Neue Befunde und h\u00f6here Warnstufen machen die Warnung wieder sichtbar. Datenbank-Schema 10.",
-    "en": "Warnings can be acknowledged per account. The navigation badge, overview and hall display show only active warnings the signed-in account has not acknowledged. New findings and higher severity bring the warning back. Database schema 10."
+    "de": "Offline-Updates zeigen vor dem Start konkrete Hindernisse und die letzte Sicherung. Die Messstellendiagnose f\u00fchrt Messwerte, Konfigurations\u00e4nderungen und Gateway-Logs nach Tag zusammen. Datenbank-Schema 10.",
+    "en": "Offline updates show blockers and the latest backup before installation. The site diagnostics page combines daily readings, configuration changes and gateway logs. Database schema 10."
   },
-  "signature": "MEYCIQD4sLCykpCU7VieT/mH/NIL3nnyG9+7ubLpDQyojFStFgIhAO+r/VOVPd7p2m3tzOQVU8+2rP1LOp3/4ck+su6Dj4aj"
+  "signature": "MEYCIQDnQXkGTGhhW9L6BwfUl8jPhDx4pVUesVnTI+p20moWmQIhAPD7ucjpz+Q4Q2xPCoqGwFFdYiXZxxUwTIw818MBhm6O"
 }

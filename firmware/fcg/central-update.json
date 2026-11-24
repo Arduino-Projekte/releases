@@ -1,8 +1,8 @@
 {
   "schema": "fcg_central_release_v1",
-  "version": "0.19.3",
+  "version": "0.19.4",
   "notes": {
-    "de": "Warnungen lassen sich pro Konto quittieren. Kopfzeile, Übersicht und Hallenanzeige zeigen für das angemeldete Konto nur aktive, noch nicht quittierte Meldungen. Neue Befunde und höhere Warnstufen machen die Warnung wieder sichtbar. Datenbank-Schema 10.",
-    "en": "Warnings can be acknowledged per account. The navigation badge, overview and hall display show only active warnings the signed-in account has not acknowledged. New findings and higher severity bring the warning back. Database schema 10."
+    "de": "Offline-Updates zeigen vor dem Start konkrete Hindernisse und die letzte Sicherung. Die Messstellendiagnose führt Messwerte, Konfigurationsänderungen und Gateway-Logs nach Tag zusammen. Datenbank-Schema 10.",
+    "en": "Offline updates show blockers and the latest backup before installation. The site diagnostics page combines daily readings, configuration changes and gateway logs. Database schema 10."
   }
 }
