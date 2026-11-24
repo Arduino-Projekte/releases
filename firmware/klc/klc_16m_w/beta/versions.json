@@ -1,6 +1,13 @@
 {
   "items": [
     {
+      "version": "0.1.230",
+      "bin": "knx-led-controller-16m-w_0.1.230.bin.gz",
+      "sha256": "6635c01f3d383e18a4f675a71632380152ee0ef500a853413c1f5eefe8b6d6a1",
+      "date": "2026-11-24",
+      "note": "Trockenlauf fuer Ausgangsfolgen, Backup-Aenderungsvorschau und KNX-Befehlsdiagnose je Ausgang"
+    },
+    {
       "version": "0.1.228",
       "bin": "knx-led-controller-16m-w_0.1.228.bin.gz",
       "sha256": "d1abfddd2ed35c6786991ad589adcf75a8593fca6382d772f8c3f4079f810488",
@@ -27,13 +34,6 @@
       "sha256": "be74d753e2ce31e24eae0ed6fe0216aa95701306e4bcbeed47e4f64cb162d4c1",
       "date": "2026-11-21",
       "note": "Seitenfuss zeigt das echte Build-Datum statt des festen Datums Sep 19 2026"
-    },
-    {
-      "version": "0.1.224",
-      "bin": "knx-led-controller-16m-w_0.1.224.bin.gz",
-      "sha256": "4d1fffd8d34e9ad796ae3cd15b2b55bd3292ed9c15100f407dbfb29817f5770e",
-      "date": "2026-11-18",
-      "note": "Hilfe 0.6.6: Farbstatus beschreibt das Verhalten seit 0.1.222 (Sollwert bei Dauer-Effekten) in allen sieben Sprachen"
     }
   ]
 }
