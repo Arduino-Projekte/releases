@@ -1,8 +1,8 @@
 {
   "schema": "fcg_central_release_v1",
-  "version": "0.19.1",
+  "version": "0.19.2",
   "notes": {
-    "de": "Vollständige SMB-Pfade in einem Feld. Signierte Docker-Update-ZIPs direkt von SMB einlesen und passende neuere Updates zuerst anzeigen. Optionale SMB-Prüfung alle sechs Stunden, Installation nach Bestätigung. Einheitliche Formularhöhen und bessere Ausrichtung.",
-    "en": "Enter complete SMB paths in one field. Import signed Docker update ZIPs directly from SMB and show compatible newer releases first. Optional SMB checks every six hours, with confirmation before installation. Consistent form control heights and alignment."
+    "de": "Beim Wechsel der Gateway-Updateadresse bietet die Zentrale die Übernahme signierter Firmware zwischen zugeordneten Webordnern an. Das Bereinigen des alten Ordners braucht eine zweite Bestätigung. Automatische Aktualisierungen behalten die Scrollposition und warten bei der Formularbearbeitung.",
+    "en": "When changing the gateway update address, the central application offers to copy signed firmware between mapped web folders. Cleaning the old folder requires separate confirmation. Automatic refresh preserves scroll position and waits while forms are being edited."
   }
 }
