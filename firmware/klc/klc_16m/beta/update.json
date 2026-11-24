@@ -1,11 +1,11 @@
 {
-  "url": "knx-led-controller-16m_0.1.228.bin.gz",
+  "url": "knx-led-controller-16m_0.1.230.bin.gz",
   "check_ok": true,
   "update_available": false,
-  "version": "0.1.228",
-  "bin": "knx-led-controller-16m_0.1.228.bin.gz",
-  "file": "knx-led-controller-16m_0.1.228.bin.gz",
-  "sha256": "c1c2478a061a948448cd2b9a9a02697bc5d6d3afa7042237602b3d46067761b8",
-  "message": "Keine Dauerlast mehr bei Funkeln auf vielen Pixeln: Core 1 gibt die Rendersperre zwischen den Ausgaengen an Core 0 ab, Funkeln und Zufaelliger Aufbau rechnen schneller (gleiches Bild)",
+  "version": "0.1.230",
+  "bin": "knx-led-controller-16m_0.1.230.bin.gz",
+  "file": "knx-led-controller-16m_0.1.230.bin.gz",
+  "sha256": "8f9b4054720bbcd38fc27af97194b62aed923136b33ca0b30c5d99b5043b75b7",
+  "message": "Trockenlauf fuer Ausgangsfolgen, Backup-Aenderungsvorschau und KNX-Befehlsdiagnose je Ausgang",
   "http_code": 200
 }
