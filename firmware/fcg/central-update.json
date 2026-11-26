@@ -1,8 +1,8 @@
 {
   "schema": "fcg_central_release_v1",
-  "version": "0.19.4",
+  "version": "0.19.5",
   "notes": {
-    "de": "Offline-Updates zeigen vor dem Start konkrete Hindernisse und die letzte Sicherung. Die Messstellendiagnose führt Messwerte, Konfigurationsänderungen und Gateway-Logs nach Tag zusammen. Datenbank-Schema 10.",
-    "en": "Offline updates show blockers and the latest backup before installation. The site diagnostics page combines daily readings, configuration changes and gateway logs. Database schema 10."
+    "de": "Firmwarefreigaben können im SMB-Webordner der NAS abgelegt werden. Beim Update übernehmen die Gateways die zentrale LAN-Updateadresse. Datenbank-Schema 10.",
+    "en": "Publish approved firmware to a NAS web folder over SMB. Gateways adopt the central LAN update URL when an update starts. Database schema 10."
   }
 }

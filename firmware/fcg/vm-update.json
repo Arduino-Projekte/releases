@@ -1,13 +1,13 @@
 {
   "schema": "fcg_vm_package_v1",
-  "version": "0.19.4",
+  "version": "0.19.5",
   "target": "debian13-amd64-python313",
-  "file": "FCG-Zentrale-0.19.4-debian13-amd64-python313.tar.gz",
-  "sha256": "38ef0c664a5da578f9e65ae4c1b40a9fd3ab6cce4d4b1dbf3e059d341ce21a79",
+  "file": "FCG-Zentrale-0.19.5-debian13-amd64-python313.tar.gz",
+  "sha256": "4023ef4acc3e30a87c8fc9e56643466eebf98c9501ba5b95559d51a396af4da6",
   "key_id": "prod-2026-09",
   "notes": {
-    "de": "Offline-Updates zeigen vor dem Start konkrete Hindernisse und die letzte Sicherung. Die Messstellendiagnose f\u00fchrt Messwerte, Konfigurations\u00e4nderungen und Gateway-Logs nach Tag zusammen. Datenbank-Schema 10.",
-    "en": "Offline updates show blockers and the latest backup before installation. The site diagnostics page combines daily readings, configuration changes and gateway logs. Database schema 10."
+    "de": "Firmwarefreigaben k\u00f6nnen im SMB-Webordner der NAS abgelegt werden. Beim Update \u00fcbernehmen die Gateways die zentrale LAN-Updateadresse. Datenbank-Schema 10.",
+    "en": "Publish approved firmware to a NAS web folder over SMB. Gateways adopt the central LAN update URL when an update starts. Database schema 10."
   },
-  "signature": "MEYCIQDnQXkGTGhhW9L6BwfUl8jPhDx4pVUesVnTI+p20moWmQIhAPD7ucjpz+Q4Q2xPCoqGwFFdYiXZxxUwTIw818MBhm6O"
+  "signature": "MEUCIHSZAQZqO80K9uE6ralrScZC2/gZMeq4HWw1RCKI2ugcAiEAvYWzEupFfKJPsiI/Cx0RZGmdpXaykyxZzWahzLl3mrk="
 }
