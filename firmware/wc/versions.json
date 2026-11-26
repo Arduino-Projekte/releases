@@ -1,6 +1,13 @@
 {
     "items": [
         {
+            "version": "V4.26.11.26.1",
+            "bin": "word-clock-IV_V4.26.11.26.1.bin",
+            "sha256": "4fae875042c7100708d0bb3cf6f9ccaa2912bda2c9753b2d8393559847ef55bc",
+            "date": "2026-11-26",
+            "note": "Web-UI: Schalter mit Hinweistext (z. B. ES IST anzeigen, Laufschrift ueber den Ambilight-Rand) - Beschriftung und Hinweis ueberlappen auf dem Handy nicht mehr; Hinweis steht jetzt in voller Breite unter der Zeile"
+        },
+        {
             "version": "V4.26.11.18.1",
             "bin": "word-clock-IV_V4.26.11.18.1.bin",
             "sha256": "198c1dbaa7bd14b408e7c41b1c99687b6a88a94110eba1457c869ce982bef04f",
@@ -27,13 +34,6 @@
             "sha256": "01c314793fb6b105e2f493ddf51a340011897b6266cc05d6c08c86f989bfbd92",
             "date": "2026-11-11",
             "note": "Laufschrift laeuft ueber den Ambilight-Rand ein und aus (Schalter in den Ticker-Einstellungen); Home Assistant: neue Auswahl Audio-Datei mit allen WAV-Dateien (spielt sofort ab, Liste aktualisiert sich nach Hochladen/Loeschen), Anzahl-Sensor ab 50 Dateien; alle Eingabe-Entitaeten melden einen Zustand statt unbekannt"
-        },
-        {
-            "version": "V4.26.11.3.1",
-            "bin": "word-clock-IV_V4.26.11.3.1.bin",
-            "sha256": "41a00b18466a2d84db4790cb302c7c9dfecba488eab29a3647a53a00d48b70db",
-            "date": "2026-11-03",
-            "note": "Home Assistant: alle MQTT-Funktionen per Discovery - Temperaturen, Laufschrift-Dauer, Audio, Icons, Icon-Folge, Timer, Finanzen, Boersenwert und Testbild als eigene Entitaeten"
         }
     ]
 }
