@@ -1,6 +1,13 @@
 {
   "items": [
     {
+      "version": "V2.26.11.28.4",
+      "bin": "clock-clock24_V2.26.11.28.4.bin",
+      "sha256": "1c84763ff297550f2d7964579e48597c4e86f32dfeacf73d69b29b3b87489e6b",
+      "date": "2026-11-28",
+      "note": "Fehler behoben: Mit „Vorlauf“ über 0 schickte der Master beim Minutenwechsel noch die alte Minute, die Uhr lief fast eine Minute hinterher. Die angezeigte Uhrzeit (auch Motiv „Zeit Gesamtbild“/„Zeit Einzeluhren“ und Datum) wird jetzt um den Vorlauf vorgezogen."
+    },
+    {
       "version": "V2.26.11.28.2",
       "bin": "clock-clock24_V2.26.11.28.2.bin",
       "sha256": "4b2bb725af7eb06416326d4da02896c1af0f37062aa7a56ffc706e20862ac842",
@@ -27,13 +34,6 @@
       "sha256": "4aad9195cbc8f01b9f697f09a27f93bb62eab8bb8de9b3614659d667ff59c085",
       "date": "2026-11-15",
       "note": "Startanimation der Slaves: Jeder Slave zeigt nach dem Boot selbst, dass er läuft, ohne auf den Master zu warten. Oben steht wie bisher die Slave-ID. In den unteren zwei Reihen drehen die Zeigerpaare gegenläufig 1,5 Umdrehungen von 6 auf 12 Uhr und laufen danach gemeinsam als Sekundenzeiger weiter (eine Runde pro Minute). Später gestartete Module liegen dadurch sichtbar zurück."
-    },
-    {
-      "version": "V2.26.11.15.1",
-      "bin": "clock-clock24_V2.26.11.15.1.bin",
-      "sha256": "db65f3ec0675060dfbd9b1ab32cd34dc0ff39286504c0e5bcabef35809cae34b",
-      "date": "2026-11-15",
-      "note": "Fehler behoben: Nach manchen Animationen krochen die Zeiger minutenlang zur Uhrzeit oder zur Grundstellung, die Anzeige wirkte verstellt. Ursachen waren ein übernommenes altes Tempo und ein Rechenfehler bei den Bewegungen 7 und 8 („Geschwindigkeit unterschiedlich“), der drei der sechs Zeiger je Modul unabhängig vom gewählten Tempo auf etwa 24 Sekunden je Umdrehung bremste."
     }
   ]
 }
