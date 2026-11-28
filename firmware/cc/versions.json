@@ -1,6 +1,13 @@
 {
   "items": [
     {
+      "version": "V2.26.11.28.1",
+      "bin": "clock-clock24_V2.26.11.28.1.bin",
+      "sha256": "0ccdcc42811ca1d920c0b8420e320a939ae4d5f5362099c2745fe7b6cb383cb6",
+      "date": "2026-11-28",
+      "note": "Fehler behoben: Die Animationsauswahl „Zufall“ und „Aufsteigend“ nahm auch Zeilen, die nie eingestellt wurden. Diese Zeilen stehen auf Tempo 1 / Beschleunigung 1, und die Zeiger krochen fast 5 Minuten lang ins Motiv, sodass es aussah, als blieben sie stehen."
+    },
+    {
       "version": "V2.26.11.24.1",
       "bin": "clock-clock24_V2.26.11.24.1.bin",
       "sha256": "60d3eec74550ba7816bfe48889782b05dc575f6bd2c3be6905167fea2a9d414b",
@@ -27,13 +34,6 @@
       "sha256": "1de830a38b87479622a06a07ad575b8b21604391d03fbfc2f099d7c74468f89d",
       "date": "2026-11-14",
       "note": "Online-Update am Master: Die MQTT-Verbindung zu Home Assistant wird vor dem Download beendet, damit der Speicher für die verschlüsselte Verbindung und das Schreiben frei ist. Das gilt auch für den lokalen Upload über `/update`. Schlägt das Update fehl, verbindet sich MQTT von selbst wieder."
-    },
-    {
-      "version": "V2.26.11.14.1",
-      "bin": "clock-clock24_V2.26.11.14.1.bin",
-      "sha256": "4a0d282654379655529f809cde32b3616b1246be9ed84e77f18c2be83660c565",
-      "date": "2026-11-14",
-      "note": "Fehler behoben: Kam ein Zeitbefehl, während Zeiger noch linksrum drehten (z. B. am Ende einer Animation oder kurz danach beim Minutenwechsel), blieb ein Zeiger verdreht stehen, solange er die 12-Uhr-Marke noch nicht passiert hatte. Sichtbar z. B. als 2 mit schrägem Zeiger unten rechts, bis zur nächsten Minute. Die Zielberechnung linksrum nutzt jetzt wie rechtsrum die Position innerhalb einer Umdrehung."
     }
   ]
 }
