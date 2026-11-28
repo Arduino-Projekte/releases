@@ -1,6 +1,13 @@
 {
   "items": [
     {
+      "version": "V2.26.11.28.2",
+      "bin": "clock-clock24_V2.26.11.28.2.bin",
+      "sha256": "4b2bb725af7eb06416326d4da02896c1af0f37062aa7a56ffc706e20862ac842",
+      "date": "2026-11-28",
+      "note": "Fehler behoben: Eine Zeitplan-Zeile „Animation alle X Minuten“ mit fester Animationsnummer wurde seit V2.26.11.11.1 ignoriert. Der Animationsabstand lief stattdessen alle Zeilen der Animationstabelle der Reihe nach (oder zufällig) durch. Jetzt übernimmt der Animationsabstand die feste Nummer aus dem Zeitplan. Steht dort „Zufällig“ oder „Aufsteigend“, gilt weiter die Reihenfolge-Einstellung bei den Animationen."
+    },
+    {
       "version": "V2.26.11.28.1",
       "bin": "clock-clock24_V2.26.11.28.1.bin",
       "sha256": "0ccdcc42811ca1d920c0b8420e320a939ae4d5f5362099c2745fe7b6cb383cb6",
@@ -27,13 +34,6 @@
       "sha256": "db65f3ec0675060dfbd9b1ab32cd34dc0ff39286504c0e5bcabef35809cae34b",
       "date": "2026-11-15",
       "note": "Fehler behoben: Nach manchen Animationen krochen die Zeiger minutenlang zur Uhrzeit oder zur Grundstellung, die Anzeige wirkte verstellt. Ursachen waren ein übernommenes altes Tempo und ein Rechenfehler bei den Bewegungen 7 und 8 („Geschwindigkeit unterschiedlich“), der drei der sechs Zeiger je Modul unabhängig vom gewählten Tempo auf etwa 24 Sekunden je Umdrehung bremste."
-    },
-    {
-      "version": "V2.26.11.14.2",
-      "bin": "clock-clock24_V2.26.11.14.2.bin",
-      "sha256": "1de830a38b87479622a06a07ad575b8b21604391d03fbfc2f099d7c74468f89d",
-      "date": "2026-11-14",
-      "note": "Online-Update am Master: Die MQTT-Verbindung zu Home Assistant wird vor dem Download beendet, damit der Speicher für die verschlüsselte Verbindung und das Schreiben frei ist. Das gilt auch für den lokalen Upload über `/update`. Schlägt das Update fehl, verbindet sich MQTT von selbst wieder."
     }
   ]
 }
